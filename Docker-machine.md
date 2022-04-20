@@ -1,0 +1,1 @@
+deepin中以本机为目标创建一个docker-machine管理本地主机,docker-machine创建显示Error creating machine: Error detecting OS: OS type not recognized

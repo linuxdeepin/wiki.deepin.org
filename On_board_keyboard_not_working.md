@@ -1,0 +1,1 @@
+on board keyboard not working i need help how to fix it and vlc player also not working
