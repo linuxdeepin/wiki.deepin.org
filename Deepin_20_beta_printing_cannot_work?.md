@@ -1,0 +1,1 @@
+try to print to Samsung M2020, this beta version simply cannot work? Deepin 15 version, printing is ok. Any advice?
