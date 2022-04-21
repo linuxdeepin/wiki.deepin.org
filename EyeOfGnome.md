@@ -1,3 +1,13 @@
+---
+title: EyeOfGnome
+description: 
+published: true
+date: 2022-04-21T03:34:05.784Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:03.837Z
+---
+
 ## 简介
 
 图像查看器（EyeOfGnome）是一款图像查看器软件，允许用户查看各种格式的图片文件。它支持多种图片格式，如BMP、GIF、JPG、PNG、SVG、TIFF等，同时也具有放大/缩小、幻灯片显示、全屏、缩略图等功能。

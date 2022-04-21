@@ -1,3 +1,13 @@
+---
+title: USB设备
+description: 
+published: true
+date: 2022-04-21T03:43:44.702Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:44.702Z
+---
+
 ##前言
 USB设备为与USB接口上链接的所有设备,但此页面介绍鼠标、键盘、打印机以外的USB设置.
 ##查看当前USB设备

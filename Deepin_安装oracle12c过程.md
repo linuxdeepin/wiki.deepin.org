@@ -1,3 +1,13 @@
+---
+title: Deepin_安装oracle12c过程
+description: 
+published: true
+date: 2022-04-21T03:32:12.609Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:09.781Z
+---
+
 ##简介
 本文的经验来自深度百科用户(873792861)分享。
 

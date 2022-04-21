@@ -1,3 +1,13 @@
+---
+title: Package_Management
+description: 
+published: true
+date: 2022-04-21T03:39:44.384Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:41.051Z
+---
+
 #  **Main tools**
 
 -  Apt - The main package management tools

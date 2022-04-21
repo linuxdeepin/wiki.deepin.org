@@ -1,3 +1,13 @@
+---
+title: Remmina
+description: 
+published: true
+date: 2022-04-21T03:41:13.317Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:11.335Z
+---
+
 ## 简介
 
 Remmina是一个远程桌面客户端，它提供了RDP、VNC、XDMCP、SSH等远程连接协议的支持。其优点在于界面清爽，方便易用。

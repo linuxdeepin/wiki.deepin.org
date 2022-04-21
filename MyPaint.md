@@ -1,3 +1,13 @@
+---
+title: MyPaint
+description: 
+published: true
+date: 2022-04-21T03:38:41.193Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:39.176Z
+---
+
 ## 简介
 
 MyPaint是一个图像绘画工具，操作非常简单。MyPaint内置了57个笔刷，支持手绘板，并且拥有无限尺寸的画布。借助MyPaint您可以绘出各种非常有意境的图片，并且保存为PNG等图片格式。

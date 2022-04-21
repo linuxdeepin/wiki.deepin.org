@@ -1,3 +1,13 @@
+---
+title: XnView_MP
+description: 
+published: true
+date: 2022-04-21T03:45:23.570Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:45:21.676Z
+---
+
 ## 简介
 
 XnView MP是一款非常棒的图像查看工具，支持150种图片格式。 除一般的查看、浏览、幻灯显示等功能外，XnView MP还自带30多面滤镜，方便编辑修改。XnView MP可以批量转换文件格式，创建缩略图并生成网页，您还可以自己制作GIF，非常的小巧、实用。

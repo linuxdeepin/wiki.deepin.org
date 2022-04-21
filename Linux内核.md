@@ -1,3 +1,13 @@
+---
+title: Linux内核
+description: 
+published: true
+date: 2022-04-21T03:37:32.004Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:32.004Z
+---
+
 #简介
 
 Linux内核（英语：Linux kernel），是Linux操作系统的内核，以C语言写成，符合POSIX标准，以GNU通用公共许可证发布。Linux最早是由芬兰黑客林纳斯·托瓦兹为尝试在英特尔x86架构上提供自由免费的类Unix系统而开发的。该计划开始于1991年，林纳斯·托瓦兹当时在Usenet新闻组comp.os.minix登载帖子，这份著名的帖子标示着Linux计划的正式开始。

@@ -1,3 +1,13 @@
+---
+title: Kate
+description: 
+published: true
+date: 2022-04-21T03:36:51.784Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:51.784Z
+---
+
 ## 简介
 
 Kate是一个开源的、先进的文本编辑器，专为桌面环境KDESC设计。包括编辑各种文本文件、语法高亮显示、可扩展XML文件、代码可以折叠/展开显示，动态自动换行。

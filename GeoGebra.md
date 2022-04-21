@@ -1,3 +1,13 @@
+---
+title: GeoGebra
+description: 
+published: true
+date: 2022-04-21T03:35:19.745Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:17.770Z
+---
+
 ## 简介
 
 GeoGebra是一个动态数学应用，包含了几何、代数、表格、图形、统计和微积分。这些绘图元素均可在创建后直接在屏幕或使用命令动态改变，还可以完成大量初高等数学中的绘图工作，提供各级教育使用。

@@ -1,3 +1,13 @@
+---
+title: SimpleScreenRecorder
+description: 
+published: true
+date: 2022-04-21T03:41:53.873Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:51.930Z
+---
+
 ## 简介
 
 SimpleScreenRecorder是一款屏幕录制软件，它具有录制整个桌面、应用窗口、指定窗口大小以及音/视频同步，视频缩放等功能。

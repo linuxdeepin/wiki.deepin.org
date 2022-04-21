@@ -1,3 +1,13 @@
+---
+title: DEEPIN_桌面系统安装概述
+description: 
+published: true
+date: 2022-04-21T03:31:20.862Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:31:20.862Z
+---
+
 #计算机引导过程
 
 ##传统 BIOS 引导

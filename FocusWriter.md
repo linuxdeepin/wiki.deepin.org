@@ -1,3 +1,13 @@
+---
+title: FocusWriter
+description: 
+published: true
+date: 2022-04-21T03:34:30.584Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:28.573Z
+---
+
 ## 简介
 
 FocusWriter是一款写作软件，为了让您的写作空间尽可能的多且不受打扰，FocusWriter将几乎所有的工具栏都自动隐藏在屏幕边缘。利用FocusWriter写作便利流畅，您还可以设置闹钟和每日任务，非常适合撰稿人、小说写手、剧本作家使用。

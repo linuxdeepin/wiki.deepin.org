@@ -1,3 +1,13 @@
+---
+title: PdfMod
+description: 
+published: true
+date: 2022-04-21T03:39:50.050Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:48.144Z
+---
+
 ## 简介
 
 PdfMod是一个PDF文档编辑应用，它可以对页面进行重新排序、旋转和删除操作，能够对文档的标题、作者等元素进行编辑、多个文件可以通过拖放合并，也能够将图片导出或导入到PDF文档中。

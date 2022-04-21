@@ -1,3 +1,13 @@
+---
+title: Kodi
+description: 
+published: true
+date: 2022-04-21T03:36:59.976Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:57.924Z
+---
+
 ##相关链接
 [Kodi 官方Wiki](https://kodi.wiki/view/Main_Page)
 

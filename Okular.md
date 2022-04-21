@@ -1,3 +1,13 @@
+---
+title: Okular
+description: 
+published: true
+date: 2022-04-21T03:39:16.851Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:14.915Z
+---
+
 ## 简介
 
 Okular是一个PDF文档阅读软件，支持PDF、TIFF、CHM、ODF、EPUB、mobi等文档格式。Okular可以对PDF文件进行多种标记注解，如批注、高亮、画图、 加入书签等。

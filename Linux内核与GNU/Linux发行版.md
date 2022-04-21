@@ -1,3 +1,13 @@
+---
+title: Linux发行版
+description: 
+published: true
+date: 2022-04-21T03:53:55.698Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:53:55.698Z
+---
+
 # 名词释义
 
 ## Linux内核

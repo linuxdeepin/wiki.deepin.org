@@ -1,3 +1,13 @@
+---
+title: General_program_configuration
+description: 
+published: true
+date: 2022-04-21T03:55:45.839Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:42.869Z
+---
+
 [[zh:软件通用配置]]
 
 

@@ -1,3 +1,13 @@
+---
+title: Desktop_entry
+description: 
+published: true
+date: 2022-04-21T03:55:05.528Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:02.566Z
+---
+
 [[zh:Desktop_Entry_文件]]
 
 

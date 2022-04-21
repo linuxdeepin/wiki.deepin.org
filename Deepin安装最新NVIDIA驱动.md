@@ -1,3 +1,13 @@
+---
+title: Deepin安装最新NVIDIA驱动
+description: 
+published: true
+date: 2022-04-21T03:32:33.797Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:31.252Z
+---
+
 note: 1. 建议优先使用商店里的深度显卡驱动管理器安装NVIDIA驱动。
             2. 安装黑屏后,只能recovery模式或单用户模式下卸载驱动
 

@@ -1,3 +1,13 @@
+---
+title: System_startup_process
+description: 
+published: true
+date: 2022-04-21T03:43:00.324Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:42:58.330Z
+---
+
 ##Overview
 Early stages of the Linux startup process depend very much on the computer architecture. IBM PC compatible hardware is one architecture Linux is commonly used on; on these systems, the BIOS plays an important role, which might not have exact analogs on other systems. In the following example, IBM PC compatible hardware is assumed:
 

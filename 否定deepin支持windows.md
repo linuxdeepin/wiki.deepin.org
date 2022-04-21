@@ -1,3 +1,13 @@
+---
+title: 否定deepin支持windows
+description: 
+published: true
+date: 2022-04-21T03:47:04.737Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:47:02.681Z
+---
+
 # 注意，本词条纯属娱乐  
 **注意，本词条纯属娱乐，如以本词条为依据否定 deepin，各位请狠狠嘲笑**  
 欢迎大家参与编辑，如有讨论仅在本词条内，**不要到论坛里引战！不要到论坛里引战！不要到论坛里引战！**。

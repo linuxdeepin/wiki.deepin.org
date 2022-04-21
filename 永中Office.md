@@ -1,3 +1,13 @@
+---
+title: 永中Office
+description: 
+published: true
+date: 2022-04-21T03:49:41.266Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:49:39.292Z
+---
+
 ## 简介
 
 永中Office是一款功能强大的办公软件，已经集成了文字处理、电子表格和简报制作三大应用。永中Office对微软Office文档实现双向精确兼容，其精确专业的排版、强大的数据透视表和丰富的插件机制，完全可以满足专业级用户的需求。

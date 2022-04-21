@@ -1,3 +1,13 @@
+---
+title: Display_manager
+description: 
+published: true
+date: 2022-04-21T03:55:19.401Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:16.766Z
+---
+
 [[zh:登录管理器]]
 
 ## Introduction

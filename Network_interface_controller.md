@@ -1,3 +1,13 @@
+---
+title: Network_interface_controller
+description: 
+published: true
+date: 2022-04-21T03:39:05.995Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:05.995Z
+---
+
 ##Introduction
 A network interface controller (NIC, also known as a network interface card, network adapter, LAN adapter or physical network interface,[1] and by similar terms) is a computer hardware component that connects a computer to a computer network.[2]
 

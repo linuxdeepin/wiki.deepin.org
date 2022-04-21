@@ -1,3 +1,13 @@
+---
+title: Process_management
+description: 
+published: true
+date: 2022-04-21T03:56:47.009Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:43.636Z
+---
+
 [[zh:进程管理]]
 
 

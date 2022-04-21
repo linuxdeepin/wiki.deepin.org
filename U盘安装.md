@@ -1,3 +1,13 @@
+---
+title: U盘安装
+description: 
+published: true
+date: 2022-04-21T03:43:52.942Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:51.004Z
+---
+
 ##简介
 Deepin Linux U盘安装教程
 本经验有社区用户(cyx980622)分享

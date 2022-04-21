@@ -1,3 +1,13 @@
+---
+title: Nero
+description: 
+published: true
+date: 2022-04-21T03:39:01.475Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:59.456Z
+---
+
 ## 简介
 
 Nero是一款多媒体刻录和编辑应用，用于刻录和复制音乐 CD、DVD 或蓝光光盘，Nero 带有专业工具，可以方便快捷地进行创建、剪切和编辑，也可以使用转录和转换功能，将多媒体文件转换成其他格式。

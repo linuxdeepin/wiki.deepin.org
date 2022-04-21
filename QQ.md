@@ -1,3 +1,13 @@
+---
+title: QQ
+description: 
+published: true
+date: 2022-04-21T03:40:36.721Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:34.845Z
+---
+
 ## 简介
 
 QQ是腾讯开发的一款基于Internet的即时通信软件。支持在线聊天、视频电话、点对点断点续传文件、网络硬盘等多种功能。QQ作为一种方便、高效的聊天工具，是中国目前使用最广泛的即时通信软件。

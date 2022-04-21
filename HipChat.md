@@ -1,3 +1,13 @@
+---
+title: HipChat
+description: 
+published: true
+date: 2022-04-21T03:36:18.532Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:16.606Z
+---
+
 ## 简介
 
 HipChat是一款专为团队内部群聊设计的聊天工具，您可以创建群组或一对一聊天，同时还提供视频聊天、屏幕共享等功能。HipChat还整合了团队文件管理和分享以及拖拽完成保存等相关操作。

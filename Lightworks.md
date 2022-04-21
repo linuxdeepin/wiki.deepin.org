@@ -1,3 +1,13 @@
+---
+title: Lightworks
+description: 
+published: true
+date: 2022-04-21T03:37:31.083Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:29.129Z
+---
+
 ## 简介
 
 Lightworks是一款非线性视频编辑器，它具有特效制作、色彩校正、音频特效输出、编辑和剪辑影片、媒体管理等功能。

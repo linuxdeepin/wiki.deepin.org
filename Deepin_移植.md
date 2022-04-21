@@ -1,3 +1,13 @@
+---
+title: Deepin_移植
+description: 
+published: true
+date: 2022-04-21T03:32:18.699Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:16.761Z
+---
+
 [[en:Deepin_transplant]]
 ##简介
 

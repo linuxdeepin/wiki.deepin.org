@@ -1,3 +1,13 @@
+---
+title: Program_and_process
+description: 
+published: true
+date: 2022-04-21T03:56:49.930Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:47.965Z
+---
+
 [[zh:程序与进程]]
 
 

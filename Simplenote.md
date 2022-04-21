@@ -1,3 +1,13 @@
+---
+title: Simplenote
+description: 
+published: true
+date: 2022-04-21T03:41:54.846Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:54.846Z
+---
+
 ## 简介
 
 Simplenote是一款纯文本笔记记录应用，多平台的云同步，实时自动保存而且可以回退到历史版本，支持Markdown语法、便签分类、关键词搜索，可通过邮件标签多人协作编辑，还可以通过链接分享笔记。

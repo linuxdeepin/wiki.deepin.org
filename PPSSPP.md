@@ -1,3 +1,13 @@
+---
+title: PPSSPP
+description: 
+published: true
+date: 2022-04-21T03:39:40.104Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:38.160Z
+---
+
 ## 简介
 
 PPSSPP是一款非常出色的PSP模拟器，可以流畅运行大部分的PSP游戏。PPSSPP支持中文，支持高清分辨率以及自适应分辨率，并且支持即时存档和读取存档。除此之外，PPSSPP还支持外接手柄进行游戏，完美满足追求手感和流畅操控的游戏玩家。

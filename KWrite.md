@@ -1,3 +1,13 @@
+---
+title: KWrite
+description: 
+published: true
+date: 2022-04-21T03:36:50.866Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:48.886Z
+---
+
 ## 简介
 
 KWrite是一款程序员非常喜欢的文字编辑器，支持中文显示和输入。KWrite最主要的功能特征是它能对许多程序语言的语法彩色化，如 C/C++、Java、Python、Per、Bash、HTML等。

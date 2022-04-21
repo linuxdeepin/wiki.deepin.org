@@ -1,3 +1,13 @@
+---
+title: Make_Qt_programs_appear_native_in_Deepin
+description: 
+published: true
+date: 2022-04-21T03:37:58.587Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:56.642Z
+---
+
 ###1) Install qt5ct by running this command in the terminal,
     sudo apt install qt5ct
 

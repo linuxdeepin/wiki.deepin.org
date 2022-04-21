@@ -1,3 +1,13 @@
+---
+title: Graphics_server
+description: 
+published: true
+date: 2022-04-21T03:55:48.754Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:46.807Z
+---
+
 [[zh:图形服务器]]
 
 

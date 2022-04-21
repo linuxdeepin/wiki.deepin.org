@@ -1,3 +1,13 @@
+---
+title: Refind+uefi在中柏Ezpad_6_plus上安装深度系统
+description: 
+published: true
+date: 2022-04-21T03:41:07.235Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:05.095Z
+---
+
 ## 中柏Ezpad 6 plus
 中柏 Ezpad 6 plus 为中柏的一款二合一平板电脑，配置为：
 CPU:  英特尔Apollo Lake N3450 1.1~2.2GHz

@@ -1,3 +1,13 @@
+---
+title: Wired_network
+description: 
+published: true
+date: 2022-04-21T03:57:55.262Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:57:53.292Z
+---
+
 [[zh:有线网络]]
 
 

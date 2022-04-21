@@ -1,3 +1,13 @@
+---
+title: Dock插件开发
+description: 
+published: true
+date: 2022-04-21T03:33:25.983Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:33:23.990Z
+---
+
 ## 简介
 
 深度桌面环境中Dock除了高度可定制化的外观，同时对外提供了API文档，各位社区的开发者可以根据自己的喜好，对Dock开发插件进行扩展，让Dock更加丰富起来。

@@ -1,3 +1,13 @@
+---
+title: 安装virtualbox增强功能全屏化显示
+description: 
+published: true
+date: 2022-04-21T03:48:05.580Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:48:03.665Z
+---
+
 在Windows上通过Virtualbox安装deepin深度操作系统，安装完成后，为了让deepin可以在virtualbox中全屏显示，需要安装增强工具，但是不少同学点击安装增强工具后会出现无法安装的情况。
 
 在【设备】中点击【安装增强功能】时，会跳出“未能加载虚拟光盘C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso 到虚拟电脑Deepin.”的提示框，从而无法安装增强功能实现deepin全屏化的显示。

@@ -1,3 +1,13 @@
+---
+title: Linux桌面演进
+description: 
+published: true
+date: 2022-04-21T03:37:41.240Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:39.141Z
+---
+
 ## 前言
 
 当我们坐在 Debian、Fedora、Suse 等发行版本最新版本前，看着桌面操作的各种华丽效果，享受着各种易用的图形界面应用给我们带来的便利，是否对我们面前的这个操作系统如何而来有过思考？

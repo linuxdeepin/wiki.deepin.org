@@ -1,3 +1,13 @@
+---
+title: WinUSB
+description: 
+published: true
+date: 2022-04-21T03:44:44.653Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:42.731Z
+---
+
 ## 简介
 
 WinUSB是一个创建Windows可引导U盘工具，支持从 ISO 镜像文件及 DVD 来创建，同时提供图形界面及命令行界面。

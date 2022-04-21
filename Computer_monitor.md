@@ -1,3 +1,13 @@
+---
+title: Computer_monitor
+description: 
+published: true
+date: 2022-04-21T03:30:59.245Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:57.281Z
+---
+
 ##Introduction
 A computer monitor or a computer display is an electronic visual display for computers. A monitor usually comprises the display device, circuitry, casing, and power supply. The display device in modern monitors is typically a thin film transistor liquid crystal display (TFT-LCD) or a flat panel LED display, while older monitors used a cathode ray tubes (CRT). It can be connected to the computer via VGA, DVI, HDMI, DisplayPort, Thunderbolt, LVDS (Low-voltage differential signaling) or other proprietary connectors and signals.
 

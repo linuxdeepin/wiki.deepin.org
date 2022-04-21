@@ -1,3 +1,13 @@
+---
+title: DNS服务
+description: 
+published: true
+date: 2022-04-21T03:31:27.735Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:31:24.875Z
+---
+
 [[en:DNS_service]]
 
 

@@ -1,3 +1,13 @@
+---
+title: DigiKam
+description: 
+published: true
+date: 2022-04-21T03:33:10.895Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:33:08.940Z
+---
+
 ## 简介
 
 digiKam是一款跨平台的数字照片管理软件，它支持大多数图像格式，可以按日期、时间或标签来整理图片，同时还可以对图像添加标题和评语、编辑、预览、扩展等。

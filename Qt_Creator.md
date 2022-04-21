@@ -1,3 +1,13 @@
+---
+title: Qt_Creator
+description: 
+published: true
+date: 2022-04-21T03:40:46.003Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:43.398Z
+---
+
 ## 简介
 
 Qt Creator是跨平台的轻量级集成开发环境，它包括项目生成向导、C++代码编辑器、浏览文件，集成了Qt Designer、Qt Assistant、QtLinguist、图形化的GDB 调试前端，集成qmake 构建工具等功能。

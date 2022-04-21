@@ -1,3 +1,13 @@
+---
+title: Gwyddion
+description: 
+published: true
+date: 2022-04-21T03:35:58.018Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:56.115Z
+---
+
 ## 简介
 
 Gwyddion是一款模块化扫描探针显微镜数据可视化和分析工具。主要是它的目的是为分析领域所取得的高度扫描探针显微技术(原子力显微镜，磁力显微 镜，扫描隧道显微镜，扫描/ NSOM ) ，但通常可以用于任何其他高度场和图像分析，例如分析的轮廓数据 。

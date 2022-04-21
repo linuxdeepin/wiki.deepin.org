@@ -1,3 +1,13 @@
+---
+title: File_permission
+description: 
+published: true
+date: 2022-04-21T03:55:34.711Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:31.432Z
+---
+
 [[zh:文件与目录权限]]
 
 

@@ -1,3 +1,13 @@
+---
+title: 修复或添加windows启动项
+description: 
+published: true
+date: 2022-04-21T03:46:25.172Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:46:23.191Z
+---
+
 ##简介
 使用U盘安装linux（ubuntu、deepin）后，windows系统启动/引导项丢失，可使用下面的方法恢复了win7启动/引导项。
 

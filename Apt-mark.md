@@ -1,3 +1,13 @@
+---
+title: Apt-mark
+description: 
+published: true
+date: 2022-04-21T03:29:06.148Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:29:04.106Z
+---
+
 在执行系统更新时，有时候我想阻止某些个别的包升级， Debian 系下可以使用 apt-mark 命令。
 #阻止包
 ```

@@ -1,3 +1,13 @@
+---
+title: 如何在deepin上安装kali软件
+description: 
+published: true
+date: 2022-04-21T03:47:47.091Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:47:44.610Z
+---
+
 ##简介
 本经验由深度用户(geange)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=136057&extra=)
 由deepin用户ExplosiveBattery补充

@@ -1,3 +1,13 @@
+---
+title: System_hang
+description: 
+published: true
+date: 2022-04-21T03:57:23.415Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:57:20.716Z
+---
+
 [[zh:系统死机]]
 
 

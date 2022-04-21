@@ -1,3 +1,13 @@
+---
+title: FileZilla
+description: 
+published: true
+date: 2022-04-21T03:34:18.918Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:16.882Z
+---
+
 ## 简介
 
 FileZilla是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端。它具有断点续传、超时侦测、SSL加密、多国语言、多标签界面、多协议支持、远程查找文件、站点管理和传输队列管理等功能。

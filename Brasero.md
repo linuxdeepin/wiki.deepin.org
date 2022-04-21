@@ -1,3 +1,13 @@
+---
+title: Brasero
+description: 
+published: true
+date: 2022-04-21T03:30:10.617Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:08.564Z
+---
+
 ## 简介
 
 Brasero是一款CD/DVD刻录软件，支持单次写入数据DVD和任何类型的CD，并且能够将光盘镜像写入到硬盘，其图形化的操作界面使用户能够轻松而快速的在Linux下烧录光盘。

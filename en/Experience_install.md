@@ -1,3 +1,13 @@
+---
+title: Experience_install
+description: 
+published: true
+date: 2022-04-21T03:55:22.361Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:20.356Z
+---
+
 [[zh:体验安装]]
 ## Introduction
 

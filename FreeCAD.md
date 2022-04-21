@@ -1,3 +1,13 @@
+---
+title: FreeCAD
+description: 
+published: true
+date: 2022-04-21T03:34:33.622Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:31.541Z
+---
+
 ## 简介
 
 FreeCAD是一款通用的三维CAD建模软件，它能用于机械工程和工业产品设计，也适用于建筑设计等工程应用。其高度模块化的软件架构，可以允许用户进行各种扩展和定制。

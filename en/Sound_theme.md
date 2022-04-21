@@ -1,3 +1,13 @@
+---
+title: Sound_theme
+description: 
+published: true
+date: 2022-04-21T03:57:19.682Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:57:17.128Z
+---
+
 [[zh:音效主题]]
 
 

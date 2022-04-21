@@ -1,3 +1,13 @@
+---
+title: LiteIDE
+description: 
+published: true
+date: 2022-04-21T03:37:44.189Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:42.244Z
+---
+
 ## 简介
 
 LiteIDE是一款开源、跨平台的轻量级Go语言集成开发环境，它具有管理系统环境、集成调试系统、代码自动完成、支持插件扩展等功能。

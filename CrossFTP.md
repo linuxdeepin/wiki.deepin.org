@@ -1,3 +1,13 @@
+---
+title: CrossFTP
+description: 
+published: true
+date: 2022-04-21T03:31:08.476Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:31:06.465Z
+---
+
 ## 简介
 
 CrossFTP是一款FTP客戶端工具，它支持多标签管理、Unicode/中文编码、站点管理/加密、文件远程备份、文件本地和Web搜索、自动重连、命令控制等功能。

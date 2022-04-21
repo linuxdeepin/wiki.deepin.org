@@ -1,3 +1,13 @@
+---
+title: SciTE
+description: 
+published: true
+date: 2022-04-21T03:41:32.641Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:30.711Z
+---
+
 ## 简介
 
 SciTE是一款免费开源的编辑器，支持C、C++、PHP、C#、Perl、Html、CSS、java、Ruby等语言的语法高亮显示，还可以导出PDF/HTML/RTF/XML/LaTex等类型文件。

@@ -1,3 +1,13 @@
+---
+title: GVim
+description: 
+published: true
+date: 2022-04-21T03:34:55.063Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:52.935Z
+---
+
 ## 简介
 
 Vim是从vi发展而来的一个文本编辑器，GVim是Vim的图形前端，它是跨平台的编辑器。它具有代码自动完成、编译及快捷键操作，错误跳转、切换输入模式等功能。

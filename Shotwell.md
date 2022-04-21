@@ -1,3 +1,13 @@
+---
+title: Shotwell
+description: 
+published: true
+date: 2022-04-21T03:41:48.141Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:46.218Z
+---
+
 ## 简介
 
 Shotwell是一款轻量级的图片管理软件，您可以使用它来从数码相机中导入相片。shotwell允许用户对图片进行管理，并且提供了一些基本的编辑功能，您可以对图片进行剪裁并分享给朋友们。

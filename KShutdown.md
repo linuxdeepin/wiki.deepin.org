@@ -1,3 +1,13 @@
+---
+title: KShutdown
+description: 
+published: true
+date: 2022-04-21T03:36:47.914Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:45.937Z
+---
+
 ## 简介
 
 KShutDown是一个定时关机工具，使用它你可以在指定的时间实现对于系统的关闭、重启、锁屏、以及结束会话等操作。同时具有可配置的键盘快捷键、KDE Kiosk支持、命令行和DCOP支持等功能。

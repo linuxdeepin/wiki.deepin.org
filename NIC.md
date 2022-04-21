@@ -1,3 +1,13 @@
+---
+title: NIC
+description: 
+published: true
+date: 2022-04-21T03:38:49.972Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:47.968Z
+---
+
 #Definition
 Short for Network Interface Card, the NIC is also referred to as an Ethernet card and network adapter. It is an expansion card that enables a computer to connect to a network; such as a home network, or the Internet using an Ethernet cable with an RJ-45 connector.
 

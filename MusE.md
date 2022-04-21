@@ -1,3 +1,13 @@
+---
+title: MusE
+description: 
+published: true
+date: 2022-04-21T03:38:35.370Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:33.403Z
+---
+
 ## 简介
 
 MusE是一个MIDI/音频的音序器，具有两个全自动化的MIDI和音频。MusE拥有众多的MIDI编辑器，包括钢琴卷，评分编辑器和鼓等，支持LADSPA和DSSI插件，并且可以实时编辑MIDI和音频。

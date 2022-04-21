@@ -1,3 +1,13 @@
+---
+title: DHCP_service
+description: 
+published: true
+date: 2022-04-21T03:54:18.013Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:54:14.960Z
+---
+
 [[zh:DHCP服务]]
 
 

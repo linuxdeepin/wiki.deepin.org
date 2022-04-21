@@ -1,3 +1,13 @@
+---
+title: CopyQ
+description: 
+published: true
+date: 2022-04-21T03:31:05.551Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:31:03.627Z
+---
+
 ## 简介
 
 CopyQ是一款剪贴板软件，适用于大量数据的复制粘贴。CopyQ能快速复制大量的连续表格数据，具有搜索，编辑历史等一些高级功能，并且还支持图片、命令行、快捷键等。

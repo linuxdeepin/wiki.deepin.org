@@ -1,3 +1,13 @@
+---
+title: Yakuake
+description: 
+published: true
+date: 2022-04-21T03:45:32.669Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:45:30.746Z
+---
+
 ## 简介
 
 Yakuake是一款下拉式终端仿真器，它与Guake在功能上非常相似。它具有从屏幕顶端弹出，标准标签式界面、可配置终端大小和动画速度等功能。

@@ -1,3 +1,13 @@
+---
+title: Deepin-wine
+description: 
+published: true
+date: 2022-04-21T03:31:30.662Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:31:28.645Z
+---
+
 #如何用Deepin-wine安装运行win32的程序
 ##创建容器
 容器就是win32程序运行的环境，可以理解为一个极小的windows，在Linux下面实际对应一个文件目录，如QQ对应的容器目录是~/.deepinwine/Deepin-QQ。

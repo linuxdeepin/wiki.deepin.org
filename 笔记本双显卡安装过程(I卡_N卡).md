@@ -1,3 +1,13 @@
+---
+title: 笔记本双显卡安装过程(I卡_N卡)
+description: 
+published: true
+date: 2022-04-21T03:51:48.813Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:51:46.780Z
+---
+
 ##简介
 本经验有论坛用户(walle)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=141410&page=1&extra=#pid345736)。
 ##正文

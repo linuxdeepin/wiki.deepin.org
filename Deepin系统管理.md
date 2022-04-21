@@ -1,3 +1,13 @@
+---
+title: Deepin系统管理
+description: 
+published: true
+date: 2022-04-21T03:32:51.553Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:49.306Z
+---
+
 [[en:Deepin_system_management]]
 
 

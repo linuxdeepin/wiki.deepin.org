@@ -1,3 +1,13 @@
+---
+title: Code::Blocks
+description: 
+published: true
+date: 2022-04-21T03:30:50.810Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:48.840Z
+---
+
 ## 简介
 
 Code::Blocks是一个开源、免费、跨平台的C++ IDE，具有可扩展插件向导功能，让你很方便的创建自己的插件。Code::Blocks是用C++编写的（用wxWidgets库），捆绑了MinGW编译器。

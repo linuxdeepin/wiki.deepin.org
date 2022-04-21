@@ -1,3 +1,13 @@
+---
+title: MarkMyWords
+description: 
+published: true
+date: 2022-04-21T03:38:01.453Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:59.530Z
+---
+
 ## 简介
 
 MarkMyWords是一款markdown编辑器，支持所有markdown基础功能，支持实时预览，语法高亮，支持语法检查，可以检测文件的修改，可以将文件导出为HTML和PDF格式。

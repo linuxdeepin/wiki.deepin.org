@@ -1,3 +1,13 @@
+---
+title: Resource_learning
+description: 
+published: true
+date: 2022-04-21T03:57:02.007Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:59.921Z
+---
+
 [[zh:资源%26学习]]
 ### Open Source Knowledges
 

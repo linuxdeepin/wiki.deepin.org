@@ -1,3 +1,13 @@
+---
+title: Hard_Disk
+description: 
+published: true
+date: 2022-04-21T03:36:03.892Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:01.854Z
+---
+
 
 ## Definitioin 
 A hard disk drive (sometimes abbreviated as Hard drive, HD, or HDD) is a non-volatile memory hardware device that permanently stores and retrieves data on a computer.

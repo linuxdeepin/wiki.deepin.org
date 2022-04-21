@@ -1,3 +1,13 @@
+---
+title: XMind
+description: 
+published: true
+date: 2022-04-21T03:45:09.097Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:45:07.046Z
+---
+
 ## 简介
 
 XMind是一款全球领先的思维导图软件，除了可以轻松绘制基本逻辑图之外，还支持结构图、树状图、思维导图、鱼骨图、二维图等模型。XMind可以将您的图形显示给他人，或者将图形内容导出到Powerpoint、Word中，令复杂的思想和信息得到更快的交流。XMind在企业和教育领域都有很广泛的应用。

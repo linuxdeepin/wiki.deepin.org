@@ -1,3 +1,13 @@
+---
+title: LightZone
+description: 
+published: true
+date: 2022-04-21T03:37:29.111Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:29.111Z
+---
+
 ## 简介
 
 LightZone是一款数码图象编辑工具，它支持常见TIFF、JPEG、DNG格式外，还支持主流品牌相机的RAW文件，它具有减少高ISO数字图象的噪声，选择性地削尖或模糊图象，去除斑点等功能。

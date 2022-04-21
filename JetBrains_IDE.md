@@ -1,3 +1,13 @@
+---
+title: JetBrains_IDE
+description: 
+published: true
+date: 2022-04-21T03:36:38.861Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:36.894Z
+---
+
 ## 简介
 
 JetBrains公司是最好的Java IDE的创造者，IntelliJ IDEA，是一家技术领先的软件开发公司，专门在创建智能的开发工具。

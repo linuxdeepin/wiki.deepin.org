@@ -1,3 +1,13 @@
+---
+title: File_system
+description: 
+published: true
+date: 2022-04-21T03:55:38.301Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:35.697Z
+---
+
 [[zh:文件系统]]
 
 

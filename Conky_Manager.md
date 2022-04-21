@@ -1,3 +1,13 @@
+---
+title: Conky_Manager
+description: 
+published: true
+date: 2022-04-21T03:31:02.655Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:31:00.172Z
+---
+
 ## 简介
 
 Conky Manager是一款简单的图形化工具，用来管理Linux桌面上的ConkyScripts。它采用全新的用户界面和选项配置，使您的应用程序窗口更加直观和易于使用。

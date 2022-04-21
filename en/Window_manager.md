@@ -1,3 +1,13 @@
+---
+title: Window_manager
+description: 
+published: true
+date: 2022-04-21T03:57:48.712Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:57:46.800Z
+---
+
 [[zh:窗口管理器]]
 
 

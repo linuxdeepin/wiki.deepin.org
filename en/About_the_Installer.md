@@ -1,3 +1,13 @@
+---
+title: About_the_Installer
+description: 
+published: true
+date: 2022-04-21T03:53:57.657Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:53:55.712Z
+---
+
 [[zh:安装器]]
 ## Summary
 

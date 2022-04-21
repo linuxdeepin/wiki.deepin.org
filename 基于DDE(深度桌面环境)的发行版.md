@@ -1,3 +1,13 @@
+---
+title: 基于DDE(深度桌面环境)的发行版
+description: 
+published: true
+date: 2022-04-21T03:47:26.992Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:47:25.075Z
+---
+
 [[en:Deepin_derivative_version]]
 ## 介绍
 

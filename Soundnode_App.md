@@ -1,3 +1,13 @@
+---
+title: Soundnode_App
+description: 
+published: true
+date: 2022-04-21T03:42:19.223Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:42:17.289Z
+---
+
 ## 简介
 
 Soundnode App是一款音乐播放器应用，除了简洁的播放界面和常用的播放功能之外，还具有搜索本地新歌曲、通过各种方式播放歌曲、将歌曲并保存到你喜欢的播放列表、关注/取消关注的用户等功能。

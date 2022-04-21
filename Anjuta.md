@@ -1,3 +1,13 @@
+---
+title: Anjuta
+description: 
+published: true
+date: 2022-04-21T03:29:03.110Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:29:01.026Z
+---
+
 ## 简介
 
 Anjuta是一个C、C++的集成开发环境。它具有很好的编程属性，其中包括项目管理、应用开发、交互调试以及强大的代码编辑和语法高亮显示等功能。

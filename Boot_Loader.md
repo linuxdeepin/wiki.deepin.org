@@ -1,3 +1,13 @@
+---
+title: Boot_Loader
+description: 
+published: true
+date: 2022-04-21T03:30:01.138Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:29:59.117Z
+---
+
 ## Debian default boot loaders
 
 | Architecture  | Default Bootloader| Alternatives Bootloader | DebianInstaller Bootloader |

@@ -1,3 +1,13 @@
+---
+title: Transmission
+description: 
+published: true
+date: 2022-04-21T03:43:32.362Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:30.485Z
+---
+
 ## 简介
 
 Transmission是一个BitTorrent客户端软件，它支持速度限制、制作种子、远程控制、磁力链接、数据加密、损坏修复、数据来源交换等功能。

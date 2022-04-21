@@ -1,3 +1,13 @@
+---
+title: HexChat
+description: 
+published: true
+date: 2022-04-21T03:36:15.662Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:13.793Z
+---
+
 ## 简介
 
 HexChat是基于XChat的一款聊天工具，支持多种网络连接模式，可以自动连接、自动加入频道和自动生成ID，支持拼写检查和DCC文件传输等。

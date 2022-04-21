@@ -1,3 +1,13 @@
+---
+title: GParted
+description: 
+published: true
+date: 2022-04-21T03:34:51.954Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:49.983Z
+---
+
 ## 简介
 
 GParted是一款Linux下的功能非常强大的分区工具，GParted可以创建、删除分区，也可以调整分区的大小和移动分区的位置。

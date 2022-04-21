@@ -1,3 +1,13 @@
+---
+title: Disk_management
+description: 
+published: true
+date: 2022-04-21T03:55:15.807Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:13.056Z
+---
+
 [[zh:磁盘管理]]
 
 

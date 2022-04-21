@@ -1,3 +1,13 @@
+---
+title: Mysql
+description: 
+published: true
+date: 2022-04-21T03:38:46.970Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:44.986Z
+---
+
 ## 下载
 打开网页 https://dev.mysql.com/downloads/repo/apt/ 点击 Download 按钮，在弹出的界面中点击登录按钮或者 “No thanks, just start my download.” 链接。
 ## 运行

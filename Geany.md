@@ -1,3 +1,13 @@
+---
+title: Geany
+description: 
+published: true
+date: 2022-04-21T03:35:10.242Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:08.137Z
+---
+
 ## 简介
 
 Geany是一个跨平台的开源集成开发环境，它支持基本的语法高亮、代码自动完成、调用提示、插件扩展。支持文件类型有C、CPP、Java、Python、PHP、 HTML、DocBook、Perl、LateX和Bash脚本。

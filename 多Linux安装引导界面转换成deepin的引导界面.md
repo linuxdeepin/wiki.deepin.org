@@ -1,3 +1,13 @@
+---
+title: 多Linux安装引导界面转换成deepin的引导界面
+description: 
+published: true
+date: 2022-04-21T03:47:43.691Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:47:41.812Z
+---
+
 [[en:System_hang]]
 
 

@@ -1,3 +1,13 @@
+---
+title: Repair_Boot
+description: 
+published: true
+date: 2022-04-21T03:41:14.296Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:14.296Z
+---
+
 ## Introduction
 
 If GRUB takes over MBR, the GRUB installation is divided into three parts:

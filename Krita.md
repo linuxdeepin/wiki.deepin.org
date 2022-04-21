@@ -1,3 +1,13 @@
+---
+title: Krita
+description: 
+published: true
+date: 2022-04-21T03:37:12.106Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:10.039Z
+---
+
 ## 简介
 
 Krita 是一款自由开源的数字绘画软件，使用 GPL 许可证发布。它主要针对手绘用途设计，具备高度可定制的笔刷系统和完善的图层功能，可通过透明度和变形蒙版来实现非破坏性编辑。它能够绘制位图图像、矢量图形和制作动画，并具备完善的色彩管理功能，能够进行 HDR 图像的编辑和调试。它的操作直观，界面干扰较少，支持多线程并能够使用 OpenGL 加速画布显示。Krita 是一款跨平台软件，支持 Windows、Linux 和 Mac OSX。

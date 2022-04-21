@@ -1,3 +1,13 @@
+---
+title: Chrome
+description: 
+published: true
+date: 2022-04-21T03:30:39.407Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:37.500Z
+---
+
 ## 简介
 
 谷歌浏览器是一个由Google公司开发的网页浏览器，具有稳定、快速、安全、简洁、插件扩展等特点，其中包括稳定版(Stable)、开发版(Dev)、测试版(Beta)以及其他版本。Stable主要是为追求稳定的普通用户使用，一般更新最慢。

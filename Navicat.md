@@ -1,3 +1,13 @@
+---
+title: Navicat
+description: 
+published: true
+date: 2022-04-21T03:38:58.540Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:56.604Z
+---
+
 ## 简介
 
 Navicat是一个的数据库管理工具，专为简化数据库的管理及降低系统管理成本。以直觉化的图形用户界面而建的，让你可以以安全并且简单的方式创建、组织、访问并共用信息。让用户简单地管理 MySQL、MariaDB、SQL Server、SQLite、Oracle 和 PostgreSQL的数据库。

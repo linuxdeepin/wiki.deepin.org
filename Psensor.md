@@ -1,3 +1,13 @@
+---
+title: Psensor
+description: 
+published: true
+date: 2022-04-21T03:40:16.645Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:14.753Z
+---
+
 ## 简介
 
 PSensor是一款监控硬件温度的工具，支持监控主板、CPU、GPU、硬盘、风扇转速等硬件温度，同时支持使用桌面通知系统高温报警。

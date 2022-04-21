@@ -1,3 +1,13 @@
+---
+title: Opera
+description: 
+published: true
+date: 2022-04-21T03:39:31.421Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:29.447Z
+---
+
 ## 简介
 
 Opera是一款网络浏览器，它具有网络同步，密码管理、会话管理、鼠标手势、键盘快捷键、内置搜索引擎、智能弹出式广告拦截、网址的过滤和主题皮肤、插件扩展等功能。

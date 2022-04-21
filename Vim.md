@@ -1,3 +1,13 @@
+---
+title: Vim
+description: 
+published: true
+date: 2022-04-21T03:44:17.382Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:15.439Z
+---
+
 # 简单介绍
 vim 是 vi 的一个升级版本，gvim 算是 vim 的一个 GUI 版本，或者说是 vim 的一个升级版本。
 vim 兼容 vi 的所有指令，并且有更多的优势，同时，vim 还拥有众多的插件，与 emacs 一样，虽然本身只是一个编辑器，但是通过插件的拓展可以实现许多高级的应用，如不同语言的语法高亮、语法补全甚至是游戏等，当然，在这方面 vim 或许还不能如 emacs，毕竟 emacs 号称是一个操作系统。

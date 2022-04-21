@@ -1,3 +1,13 @@
+---
+title: Leanote
+description: 
+published: true
+date: 2022-04-21T03:37:21.819Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:19.936Z
+---
+
 ## 简介
 
 Leanote是一款在线的云笔记应用，支持 Markdown，程序代码高亮，多人协作，笔记历史记录，可以直接将笔记发布为博客、工作日志，支持创建多笔记本、标签、共享，还有免打扰的写作模式。

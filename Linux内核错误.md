@@ -1,3 +1,13 @@
+---
+title: Linux内核错误
+description: 
+published: true
+date: 2022-04-21T03:37:35.100Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:32.020Z
+---
+
 #简介
 
 内核错误(Kernel panic)是指操作系统在监测到内部的致命错误，并无法安全处理此错误时采取的动作。这个概念主要被限定在Unix以及类Unix系统中；对于Microsoft Windows系统，等同的概念通常被称为蓝屏死机。

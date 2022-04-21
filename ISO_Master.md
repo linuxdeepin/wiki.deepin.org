@@ -1,3 +1,13 @@
+---
+title: ISO_Master
+description: 
+published: true
+date: 2022-04-21T03:36:27.118Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:25.228Z
+---
+
 ## 简介
 
 ISO Master是一个光盘镜像文件编辑器，通过它可以从ISO中提取文件、添加文件到ISO、创建可引导的ISO文件等功能。

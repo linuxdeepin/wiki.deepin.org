@@ -1,3 +1,13 @@
+---
+title: Guake
+description: 
+published: true
+date: 2022-04-21T03:35:49.083Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:47.179Z
+---
+
 ## 简介
 
 Guake是一个下拉式的终端程序。支持快捷键、标签、背景透明等功能，可以使用快捷键控制终端程序的呼出及隐藏。 

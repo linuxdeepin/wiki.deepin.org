@@ -1,3 +1,13 @@
+---
+title: HotShots
+description: 
+published: true
+date: 2022-04-21T03:36:21.373Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:19.472Z
+---
+
 ## 简介
 
 HotShots是一款易于使用的屏幕捕获工具，允许用户全屏捕捉，部分捕捉，以及窗口截图。HotShots能够将截图按照预设值保存为 PNG, BMP, PBM等格式。同时，HotShots内置了强大的注释功能，能够对已截图片进行直线、圆、文字、箭头、折线、高光等图示注释。

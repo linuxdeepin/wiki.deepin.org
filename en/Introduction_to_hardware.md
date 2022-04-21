@@ -1,3 +1,13 @@
+---
+title: Introduction_to_hardware
+description: 
+published: true
+date: 2022-04-21T03:56:04.477Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:01.902Z
+---
+
 [[zh:基础硬件]]
 
 

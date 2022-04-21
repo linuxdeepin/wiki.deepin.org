@@ -1,3 +1,13 @@
+---
+title: Gnome_Terminal
+description: 
+published: true
+date: 2022-04-21T03:35:34.769Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:32.792Z
+---
+
 ## 简介
 
 Gnome Terminal是一个终端仿真器，所有设置都存储在配置文件中，可以通过菜单栏进行设置，同时可以通过命令来执行操作。

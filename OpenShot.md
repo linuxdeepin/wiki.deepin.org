@@ -1,3 +1,13 @@
+---
+title: OpenShot
+description: 
+published: true
+date: 2022-04-21T03:39:25.585Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:23.616Z
+---
+
 ## 简介
 
 OpenShot是一个视频编辑软件。它支持视频实时预览并剪贴缩放、修剪和切割，还有视频的合成、图像叠加层、水印、使用搅拌机、数码变焦、视频片断以及提供更多的3D动画标题等功能。

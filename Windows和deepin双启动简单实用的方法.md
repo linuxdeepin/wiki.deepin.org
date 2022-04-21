@@ -1,3 +1,13 @@
+---
+title: Windows和deepin双启动简单实用的方法
+description: 
+published: true
+date: 2022-04-21T03:44:48.188Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:45.620Z
+---
+
 ##简介
 本经验由论坛用户(yjgsz)分享,[原地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=139552&extra=)
 ##正文

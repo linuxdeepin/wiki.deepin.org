@@ -1,3 +1,13 @@
+---
+title: Brackets
+description: 
+published: true
+date: 2022-04-21T03:30:07.435Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:05.086Z
+---
+
 ## 简介
 
 Brackets是一个HTML/CSS/JavaScrip前端WEB集成开发环境，它提供了快捷键设置、快速编辑、实时预览、代码隐藏与搜索、界面优化、内建取色器、代码/样式扩展等功能。

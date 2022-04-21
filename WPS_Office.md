@@ -1,3 +1,13 @@
+---
+title: WPS_Office
+description: 
+published: true
+date: 2022-04-21T03:44:35.565Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:33.547Z
+---
+
 ## 简介
 
 WPS Office是由金山软件股份有限公司自主研发的一款办公软件套件，可以实现办公最常用的文字、表格、演示等多种功能。免费提供海量的在线存储空间及文档模板、支持阅读和输出PDF文件、全面兼容Microsoft Office 97-2010格式。

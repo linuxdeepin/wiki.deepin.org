@@ -1,3 +1,13 @@
+---
+title: Printers
+description: 
+published: true
+date: 2022-04-21T03:40:10.869Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:08.880Z
+---
+
 ## 简介
 
 Printers（打印机）是一款用于配置系统打印机服务器的工具。它支持大多数打印机的使用，可以自动检测当前网络上的打印机，让打印服务变得更加便利。

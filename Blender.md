@@ -1,3 +1,13 @@
+---
+title: Blender
+description: 
+published: true
+date: 2022-04-21T03:29:55.455Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:29:53.482Z
+---
+
 ## 简介
 
 Blender是一款三维动画制作软件，提供从建模、动画、材质、渲染到音频处理、视频剪辑等一系列动画短片制作解决方案。有了Blender后，喜欢3D绘图的玩家们不用花大钱，也可以制作出自己喜爱的3D模型。

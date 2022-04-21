@@ -1,3 +1,13 @@
+---
+title: TeXstudio
+description: 
+published: true
+date: 2022-04-21T03:43:06.346Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:04.272Z
+---
+
 ## 简介
 
 TeXstudio是一个编写LaTeX文档的集成开发环境，它具有拼写和语法检查、代码折叠、扩展文本导航、代码自动完成以及语法高亮等功能，同时内置 PDF 阅读器、集成的浏览器等多种辅助工具。

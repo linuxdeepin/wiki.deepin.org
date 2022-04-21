@@ -1,3 +1,13 @@
+---
+title: SmartGit
+description: 
+published: true
+date: 2022-04-21T03:42:05.493Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:42:03.604Z
+---
+
 ## 简介
 
 SmartGit是一个Git版本控制系统的图形化客户端程序，它具有快速建立分支、支持离线提交到服务器等功能，还可以直观的本地更新、提交、合并、刷新、同步等操作。

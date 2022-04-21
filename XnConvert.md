@@ -1,3 +1,13 @@
+---
+title: XnConvert
+description: 
+published: true
+date: 2022-04-21T03:45:17.872Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:45:15.949Z
+---
+
 ## 简介
 
 XnConvert是一款多功能图像批处理工具，可以轻松的实现图像格式的转换、缩放图像比例、添加滤镜特效、水印、重命名等功能，支持JPG、PNG、TIFF、GIF、RAW等图片格式。

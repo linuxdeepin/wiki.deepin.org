@@ -1,3 +1,13 @@
+---
+title: WordMark
+description: 
+published: true
+date: 2022-04-21T03:44:57.062Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:55.102Z
+---
+
 ## 简介
 
 WordMark是一款MarkDown编辑器，支持Markdown语法，具有图片上传，同步滚动预览，自动保存，主题切换，多种格式导出等功能。可以直接使用在线图床插入配图，支持发布到Wordpress、GitHub、Evernote等平台。

@@ -1,3 +1,13 @@
+---
+title: TeamViewer
+description: 
+published: true
+date: 2022-04-21T03:43:09.370Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:07.375Z
+---
+
 ## 简介
 
 TeamViewer是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。它具有即时远程控制、远程维护、远程访问、家庭办公、在线会议/演示等功能。

@@ -1,3 +1,13 @@
+---
+title: D-Feet
+description: 
+published: true
+date: 2022-04-21T03:31:17.118Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:31:15.235Z
+---
+
 ## 简介
 
 D-Feet是一个易于使用D-bus调试器，D-Feet用来检查D-bus接口的运行程序和调用接口的方法。可以显示service提供的所有对象、信号和方法，还可以通过它实现方法调用。

@@ -1,3 +1,13 @@
+---
+title: Modify_keyboard_mapping
+description: 
+published: true
+date: 2022-04-21T03:56:12.333Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:12.333Z
+---
+
 [[zh: 修改键盘映射]]
 
 

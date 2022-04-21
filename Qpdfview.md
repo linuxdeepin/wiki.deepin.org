@@ -1,3 +1,13 @@
+---
+title: Qpdfview
+description: 
+published: true
+date: 2022-04-21T03:40:42.420Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:40.488Z
+---
+
 ## 简介
 
 qpdfview是一个小巧的PDF阅读器，它能浏览各种PDF格式的文件，并且可以对PDF文件进行标注、打印和管理。qpdfview可以随意切换到全屏阅读模式，其精准的搜索文本功能，将让您的阅读更轻松、更省事。

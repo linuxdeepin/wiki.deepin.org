@@ -1,3 +1,13 @@
+---
+title: Firefox
+description: 
+published: true
+date: 2022-04-21T03:34:22.415Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:19.832Z
+---
+
 ## 简介
 
 火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。

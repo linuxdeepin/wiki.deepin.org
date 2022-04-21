@@ -1,3 +1,13 @@
+---
+title: Intellij_idea本地开发hadoop的方法
+description: 
+published: true
+date: 2022-04-21T03:36:35.981Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:33.921Z
+---
+
 ##### 环境
 + 我的intellij idea版本是2017.2.2，hadoop版本2.7.4，操作系统Deepin15.4.1，使用《hadoop权威指南》的天气统计源码作为示例。
 ##### 参考

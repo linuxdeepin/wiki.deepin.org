@@ -1,3 +1,13 @@
+---
+title: Avd
+description: 
+published: true
+date: 2022-04-21T03:29:30.002Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:29:27.441Z
+---
+
 ## 这里是一些关于安卓开发的相关问题
 [来自论坛](https://bbs.deepin.org/forum.php?mod=viewthread&tid=138244&extra=)
 ## 无法启动AVD

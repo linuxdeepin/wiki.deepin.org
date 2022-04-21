@@ -1,3 +1,13 @@
+---
+title: Monitor
+description: 
+published: true
+date: 2022-04-21T03:56:14.985Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:12.342Z
+---
+
 [[zh:显示器]]
 
 

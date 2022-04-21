@@ -1,3 +1,13 @@
+---
+title: Motherboard
+description: 
+published: true
+date: 2022-04-21T03:38:32.434Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:30.437Z
+---
+
 ##Introduction
 A motherboard (sometimes alternatively known as the mainboard, system board, baseboard, planar board or logic board. It's the main printed circuit board (PCB) found in general purpose microcomputers and other expandable systems. 
 

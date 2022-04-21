@@ -1,3 +1,13 @@
+---
+title: Deepin应用管理
+description: 
+published: true
+date: 2022-04-21T03:32:37.737Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:34.710Z
+---
+
 [[en:Deepin Application Management]]
 ## 网络应用
 

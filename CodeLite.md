@@ -1,3 +1,13 @@
+---
+title: CodeLite
+description: 
+published: true
+date: 2022-04-21T03:30:53.592Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:51.681Z
+---
+
 ## 简介
 
 CodeLite是一个C/C++编程语言的跨平台IDE，在Windows、Ubuntu和MacOSX各操作系统上均被测试。同时CodeLite的源代码使用是遵循GPL v2许可证的。

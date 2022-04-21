@@ -1,3 +1,13 @@
+---
+title: How_to_burn_Deepin_ISO_to_USB
+description: 
+published: true
+date: 2022-04-21T03:36:24.245Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:22.274Z
+---
+
 For Windows users:
 1. Download the latest version of Deepin OS from here, https://www.deepin.org/en/download/
 2. Download Deepin Boot maker from here, http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe

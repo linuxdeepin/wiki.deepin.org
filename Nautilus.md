@@ -1,3 +1,13 @@
+---
+title: Nautilus
+description: 
+published: true
+date: 2022-04-21T03:38:55.650Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:53.727Z
+---
+
 ## 简介
 
 Nautilus是一款文件管理器，它具有文件的图形化显示，左侧导航管理，文件夹图标分类，快速搜索等功能。

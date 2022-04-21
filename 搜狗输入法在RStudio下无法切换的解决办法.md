@@ -1,3 +1,13 @@
+---
+title: 搜狗输入法在RStudio下无法切换的解决办法
+description: 
+published: true
+date: 2022-04-21T03:48:57.254Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:48:55.337Z
+---
+
 ##简介
 本经验有深度官方人员分享。
 

@@ -1,3 +1,13 @@
+---
+title: Genymotion
+description: 
+published: true
+date: 2022-04-21T03:35:16.860Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:14.765Z
+---
+
 ## 简介
 
 Genymotion是一款专业的虚拟模拟器，可以在您的电脑上运行安卓应用、游戏或者智能电视应用等，同时它也是开发人员使用的开发工具，还可以调试已开发的程序。

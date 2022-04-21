@@ -1,3 +1,13 @@
+---
+title: ChmSee
+description: 
+published: true
+date: 2022-04-21T03:30:36.596Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:34.708Z
+---
+
 ## 简介
 
 ChmSee是一个在Linux下阅读CHM格式帮助文件的软件，对中文支持良好，目前支持简体和英文编码的CHM文件。chmsee具有与Firefox类似的分页浏览标签，能够自动检测编码，可以收藏书签，以及设置字体等。

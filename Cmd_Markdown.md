@@ -1,3 +1,13 @@
+---
+title: Cmd_Markdown
+description: 
+published: true
+date: 2022-04-21T03:30:47.949Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:45.974Z
+---
+
 ## 简介
 
 Cmd Markdown是一款MarkDown编辑器，同时也是一个阅读工具，支持实时同步预览，区分写作和阅读模式，支持在线存储和分享文稿网址。可以编辑工具栏，可以实时保存数据到云端，支持离线模式，支持标签/分类/搜索等操作。

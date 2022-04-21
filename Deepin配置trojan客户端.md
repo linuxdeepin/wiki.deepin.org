@@ -1,3 +1,13 @@
+---
+title: Deepin配置trojan客户端
+description: 
+published: true
+date: 2022-04-21T03:33:01.376Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:58.830Z
+---
+
 #安装trojan服务#
 sudo apt install trojan
 #将例子中的客户端配置文件移动到trojan配置服务下#

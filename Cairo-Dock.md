@@ -1,3 +1,13 @@
+---
+title: Cairo-Dock
+description: 
+published: true
+date: 2022-04-21T03:30:22.208Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:30:20.235Z
+---
+
 ## 简介
 
 Cairo-Dock是一个Dock类软件，它支持OpenGL、提供动画及视觉效果的插件、新的Applet、重写配置面板、新增主题等功能。

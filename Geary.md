@@ -1,3 +1,13 @@
+---
+title: Geary
+description: 
+published: true
+date: 2022-04-21T03:35:13.372Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:11.191Z
+---
+
 ## 简介
 
 Geary是一款桌面电子邮件客户端程序，它支持基本的查看和撰写、预览、回复等电子邮件基本功能，同时还支持IMAP协议，可以使用Google, Yahoo和Microsoft等其他在线邮箱服务。

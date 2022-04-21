@@ -1,3 +1,13 @@
+---
+title: K3b
+description: 
+published: true
+date: 2022-04-21T03:36:41.712Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:39.817Z
+---
+
 ## 简介
 
 K3b是一款全功能的CD/DVD烧录软件，除了光盘烧录之外 ，它还可以把音频光碟翻录成CD数据库所支持的任意格式。其便捷的用户操作界面，可以让您轻松从音频CD中提取音轨，或是从视频DVD中提取影辑。 

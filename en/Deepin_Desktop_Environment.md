@@ -1,3 +1,13 @@
+---
+title: Deepin_Desktop_Environment
+description: 
+published: true
+date: 2022-04-21T03:54:36.574Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:54:33.948Z
+---
+
 [[zh:深度桌面环境]]
 ## Overview
 deepin is the Linux desktop operating system released by Deepin Technology Co., Ltd. on Dec. 2015. WPS Office, Sogou Input Method, Youdao Dic. and other deepin featured applications have been preinstalled in deepin. It allows you to experience a variety of recreational activities, but also to meet your daily needs. With continually improved and perfected functions, we believe deepin will be loved and used by more and more users.

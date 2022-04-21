@@ -1,3 +1,13 @@
+---
+title: KRuler
+description: 
+published: true
+date: 2022-04-21T03:36:44.566Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:42.658Z
+---
+
 ## 简介
 
 KRuler是一款制定屏幕分辨率规则和颜色测量的工具。其界面是一把彷真的黄色计量尺，您可以在显示屏幕上测量某两点间的长度，同时它采用的测量单位是可选的。

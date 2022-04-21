@@ -1,3 +1,13 @@
+---
+title: WxMEdit
+description: 
+published: true
+date: 2022-04-21T03:45:00.000Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:58.061Z
+---
+
 ## 简介
 
 wxMEdit是一个跨平台的文本/十六进制编辑器，它具有书签管理、语法高亮显示、编码识别和转换、自动换行、字数统计及自动更新等功能，以及在文本列模式下和十六进制下支持各种编码。

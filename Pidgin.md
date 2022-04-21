@@ -1,3 +1,13 @@
+---
+title: Pidgin
+description: 
+published: true
+date: 2022-04-21T03:39:59.209Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:57.292Z
+---
+
 ## 简介
 
 Pidgin是一款即时通讯软件，它允许您同时使用多个IM账号登录，包括QQ、MSN、Yahoo！、IRC等。Pidgin支持很多常见的网络功能，包括文件传输、离开状态、输入信息提示以及MSN窗口关闭提示。

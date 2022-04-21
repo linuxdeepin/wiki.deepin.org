@@ -1,3 +1,13 @@
+---
+title: Deepin_搭建php开发环境
+description: 
+published: true
+date: 2022-04-21T03:32:15.893Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:13.485Z
+---
+
 #简介
 本词条意在说明如何快速简便地搭建php开发环境。
 

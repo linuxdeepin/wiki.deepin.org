@@ -1,3 +1,13 @@
+---
+title: Skype
+description: 
+published: true
+date: 2022-04-21T03:41:56.801Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:54.866Z
+---
+
 ## 简介
 
 Skype是一款即时通讯软件，具备视频聊天、多人语音会议、传送文件、文字聊天等功能。它允许用户进行跨平台的视频呼叫，可与使用电脑、手机、电视、PSV等多种终端的Skype用户进行视频通话。

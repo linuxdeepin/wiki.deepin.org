@@ -1,3 +1,13 @@
+---
+title: Partitions_in_Linux
+description: 
+published: true
+date: 2022-04-21T03:39:47.203Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:45.330Z
+---
+
 Before Installing the system, we'd better know the partitions in Linux.
 
 As we known, the partitions in a hard disk are usually divided into **primary partion** and **extension partion**. The total partitions of them should be less than **four**. 

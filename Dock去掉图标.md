@@ -1,3 +1,13 @@
+---
+title: Dock去掉图标
+description: 
+published: true
+date: 2022-04-21T03:33:23.099Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:33:20.621Z
+---
+
 ## 去掉Dock上不能移除驻留的图标
 > 目前deepin15.4还无法去除dock上的关机音量网络时间等图标
 > 使用以下方法去除

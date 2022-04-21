@@ -1,3 +1,13 @@
+---
+title: Shell
+description: 
+published: true
+date: 2022-04-21T03:41:42.182Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:39.333Z
+---
+
 [[en:Shell_(UI)]]
 
 

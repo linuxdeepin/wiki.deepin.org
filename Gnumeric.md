@@ -1,3 +1,13 @@
+---
+title: Gnumeric
+description: 
+published: true
+date: 2022-04-21T03:35:40.532Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:38.519Z
+---
+
 ## 简介
 
 Gnumeric是一款电子表格处理软件，操作方式与Excel非常相似。Gnumeric能够导入导出多种数据格式，支持包括中文在内的多种语言，并且可以自定义扩展行列数。

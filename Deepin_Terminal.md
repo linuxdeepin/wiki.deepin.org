@@ -1,3 +1,13 @@
+---
+title: Deepin_Terminal
+description: 
+published: true
+date: 2022-04-21T03:32:08.862Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:06.493Z
+---
+
 
 ## Overview
 

@@ -1,3 +1,13 @@
+---
+title: QCad
+description: 
+published: true
+date: 2022-04-21T03:40:28.180Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:26.250Z
+---
+
 ## 简介
 
 QCad是一款2D计算机辅助画图软件，采用AutoCAD DXF文件作为其标准的文件格式，文件能够以多种格式输出。通过QCad用户可以很轻松的绘制工程图、室内设计图、机械图纸等一系列CAD图形。

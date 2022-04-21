@@ -1,3 +1,13 @@
+---
+title: VLC
+description: 
+published: true
+date: 2022-04-21T03:43:55.780Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:53.889Z
+---
+
 ## 简介
 
 VLC是一款自由、开源的跨平台多媒体播放器及框架，它支持大多数的音频与视频解码器及文件格式，还可以播放大多数多媒体文件，以及DVD、音频CD、VCD及各类流媒体协议。

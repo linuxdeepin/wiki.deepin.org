@@ -1,3 +1,13 @@
+---
+title: File_and_directory
+description: 
+published: true
+date: 2022-04-21T03:55:30.434Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:55:27.322Z
+---
+
 [[zh:文件与目录]]
 
 ## Summary

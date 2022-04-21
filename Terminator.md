@@ -1,3 +1,13 @@
+---
+title: Terminator
+description: 
+published: true
+date: 2022-04-21T03:43:18.140Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:16.273Z
+---
+
 ## 简介
 
 Terminator是一款跨平台的终端工具，将界面分割成网格状，拖拽排序各个终端，并行使用各个窗口，通过可视化界面来调整界面布局和配置喜好。

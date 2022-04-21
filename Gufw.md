@@ -1,3 +1,13 @@
+---
+title: Gufw
+description: 
+published: true
+date: 2022-04-21T03:35:52.343Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:50.016Z
+---
+
 ## 简介
 
 Gufw是一款防火墙UFW的图形化管理工具，可以保护您的电脑在接入互联网时免受病毒干扰。其全中文的操作界面，可以方便的设置放行/阻止IP或服务，非常适合对系统完全性要求较高的商务电脑使用。

@@ -1,3 +1,13 @@
+---
+title: Graphics_Card
+description: 
+published: true
+date: 2022-04-21T03:35:43.402Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:35:41.464Z
+---
+
 #Definition
 A video card (also called a display card, graphics card, display adapter or graphics adapter) is an expansion card which generates a feed of output images to a display (such as a computer monitor). Frequently, these are advertised as discrete or dedicated graphics cards, emphasizing the distinction between these and integrated graphics. At the core of both is the graphics processing unit (GPU), which is often erroneously used to refer to the video card as a whole.
 

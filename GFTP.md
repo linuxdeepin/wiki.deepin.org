@@ -1,3 +1,13 @@
+---
+title: GFTP
+description: 
+published: true
+date: 2022-04-21T03:34:36.641Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:34.573Z
+---
+
 ## 简介
 
 gFTP是一个FTP客户端工具，它支持多个线程同时下载、断点续传、支持FTP、HTTP和SSH协议、支持FTP和HTTP代理，还可以下载整个目录、支持文件队列、缓存、拖拽等操作。

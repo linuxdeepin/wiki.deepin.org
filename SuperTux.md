@@ -1,3 +1,13 @@
+---
+title: SuperTux
+description: 
+published: true
+date: 2022-04-21T03:42:42.198Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:42:40.116Z
+---
+
 ## 简介
 
 SuperTux是一款类似超级马里奥兄弟的游戏，在游戏中控制Tux企鹅通过跳起来顶砖块，吃到金币或雪球或者花，雪球可以使Tux企鹅长大，然后吃到花后可以发子弹。

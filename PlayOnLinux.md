@@ -1,3 +1,13 @@
+---
+title: PlayOnLinux
+description: 
+published: true
+date: 2022-04-21T03:40:02.091Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:00.150Z
+---
+
 ## 简介
 
 PlayOnLinux是一款Wine的前端程序，它可以实现在Linux和Mac OS X上运行Windows应用程序，支持使用Dosbox来安装基于Dos的程序和游戏。

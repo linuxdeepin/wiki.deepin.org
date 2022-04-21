@@ -1,3 +1,13 @@
+---
+title: Komodo_IDE
+description: 
+published: true
+date: 2022-04-21T03:37:02.983Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:00.915Z
+---
+
 ## 简介
 
 Komodo IDE是一款支持多种动态编程语言的集成开发环境，它提供强大的工作空间用以编辑、调试和测试程序。支持Perl、Python及Javascript等的程序语言开发，同时还具备版本控制CVS、支持正则表达式等功能。

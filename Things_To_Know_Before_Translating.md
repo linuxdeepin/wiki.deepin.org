@@ -1,3 +1,13 @@
+---
+title: Things_To_Know_Before_Translating
+description: 
+published: true
+date: 2022-04-21T03:43:23.751Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:21.865Z
+---
+
 Hello everyone, thanks very much for the contributions on our internationalization project. Here we prepared these NOTES for better translation:
 
 1. When see a single word without any usage scenario,

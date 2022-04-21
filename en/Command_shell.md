@@ -1,3 +1,13 @@
+---
+title: Command_shell
+description: 
+published: true
+date: 2022-04-21T03:54:10.431Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:54:06.279Z
+---
+
 [[zh:命令shell]]
 
 

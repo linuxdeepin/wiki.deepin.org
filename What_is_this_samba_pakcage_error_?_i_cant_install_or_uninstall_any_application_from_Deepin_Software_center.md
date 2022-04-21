@@ -1,3 +1,13 @@
+---
+title: What_is_this_samba_pakcage_error_?_i_cant_install_or_uninstall_any_application_from_Deepin_Software_center
+description: 
+published: true
+date: 2022-04-21T03:44:41.814Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:39.959Z
+---
+
 I got this error when i write  this command to terminal:
 sudo dpkg --configure -a
 

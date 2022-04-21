@@ -1,3 +1,13 @@
+---
+title: Scan_Tailor
+description: 
+published: true
+date: 2022-04-21T03:41:29.771Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:27.811Z
+---
+
 ## 简介
 
 Scan Tailor是一个用于扫描件的后期处理软件，通过原始扫描，Scan Tailor可以打印或输出PDF或DJVU格式的文件。您可以通过Scan Tailor执行包括页面拆分、倾斜校正、添加/删除边界、去除杂点等操作。

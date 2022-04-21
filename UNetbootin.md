@@ -1,3 +1,13 @@
+---
+title: UNetbootin
+description: 
+published: true
+date: 2022-04-21T03:43:43.794Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:43:41.885Z
+---
+
 ## 简介
 
 UNetbootin是一个跨平台制作启动盘的工具，能够将Linux操作系统装进U盘中。同时将制作好的启动盘用于电脑的维护和系统还原等操作。

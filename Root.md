@@ -1,3 +1,13 @@
+---
+title: Root
+description: 
+published: true
+date: 2022-04-21T03:41:14.348Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:14.348Z
+---
+
 ##前言
 root可以指root用户和root权限（例如安卓机中获得root权限）
 ##root用户

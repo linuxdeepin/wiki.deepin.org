@@ -1,3 +1,13 @@
+---
+title: Open_Broadcaster_Software
+description: 
+published: true
+date: 2022-04-21T03:39:28.528Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:26.534Z
+---
+
 ## 简介
 
 Open Broadcaster Software是一款视频录制和直播的应用，可以捕捉游戏、窗口、视频、音频、摄像头、麦克风等内容来源，其中还内置了不少可以进行流媒体直播的服务，例如YouTube、Twitch、hitbox等，还支持自定义流媒体服务。

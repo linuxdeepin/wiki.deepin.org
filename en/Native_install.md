@@ -1,3 +1,13 @@
+---
+title: Native_install
+description: 
+published: true
+date: 2022-04-21T03:56:22.199Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:20.131Z
+---
+
 [[zh:原生安装]]
 ## Introduction
 

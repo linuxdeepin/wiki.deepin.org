@@ -1,3 +1,13 @@
+---
+title: User_and_group
+description: 
+published: true
+date: 2022-04-21T03:57:31.705Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:57:28.419Z
+---
+
 [[zh:用户与群组]]
 
 

@@ -1,3 +1,13 @@
+---
+title: LAMP_service
+description: 
+published: true
+date: 2022-04-21T03:56:11.293Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:08.504Z
+---
+
 [[zh:LAMP服务]]
 
 

@@ -1,3 +1,13 @@
+---
+title: PuTTY
+description: 
+published: true
+date: 2022-04-21T03:40:17.570Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:17.570Z
+---
+
 ## 简介
 
 PuTTY是一套远程登陆工具，它可以连接上支持SSH、Telnet联机的站台，并且可自动取得对方的系统指纹码。建立联机以后，所有的通讯内容都是以加密的方式传输。自带SSH Forwarding的功能，具有完全模拟xterm、VT102及ECMA-48终端机的能力，支持公钥认证。

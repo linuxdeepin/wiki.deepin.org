@@ -1,3 +1,13 @@
+---
+title: MonoDevelop
+description: 
+published: true
+date: 2022-04-21T03:38:29.519Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:27.638Z
+---
+
 ## 简介
 
 MonoDevelop是个跨平台的集成开发环境，主要用来开发Mono与.NETFramework软件。MonoDevelop集成了很多Eclipse与MicrosoftVisual Studio的特性。

@@ -1,3 +1,13 @@
+---
+title: FlareGet
+description: 
+published: true
+date: 2022-04-21T03:34:25.436Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:23.457Z
+---
+
 ## 简介
 
 FlareGet是一个跨平台的下载管理器和加速器，它支持多个线程同时下载、多种浏览器集成、抓取网页上视频等功能，同时还支持云存储服务。

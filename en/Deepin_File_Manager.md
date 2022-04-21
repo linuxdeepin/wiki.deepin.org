@@ -1,3 +1,13 @@
+---
+title: Deepin_File_Manager
+description: 
+published: true
+date: 2022-04-21T03:54:39.693Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:54:37.557Z
+---
+
 [[zh:深度文件管理器]]
 
 

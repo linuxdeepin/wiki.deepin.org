@@ -1,3 +1,13 @@
+---
+title: Eclipse_IDE
+description: 
+published: true
+date: 2022-04-21T03:33:50.824Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:33:48.820Z
+---
+
 ## 简介
 
 Eclipse是一个开放源代码的、基于Java的可扩展开发平台。就其本身而言，它只是一个框架和一组服务，用于通过插件组件构建开发环境。幸运的是，Eclipse 附带了一个标准的插件集，包括Java开发工具（Java Development Kit，JDK）。

@@ -1,3 +1,13 @@
+---
+title: Okteta
+description: 
+published: true
+date: 2022-04-21T03:39:13.889Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:11.976Z
+---
+
 ## 简介
 
 Okteta是一款十六进制编辑器，打开文件后数值和字符分别通过两列显示内容。可以在数值和字符列进行编辑和操作。

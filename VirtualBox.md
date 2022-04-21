@@ -1,3 +1,13 @@
+---
+title: VirtualBox
+description: 
+published: true
+date: 2022-04-21T03:44:20.367Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:44:18.313Z
+---
+
 ## 简介
 
 Oracle VM VirtualBox是一款开源的虚拟机软件，它可以虚拟化安装Windows、Mac OSX、Linux、OpenBSD、Solaris等系统。

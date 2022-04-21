@@ -1,3 +1,13 @@
+---
+title: MongoDB数据库安装指南
+description: 
+published: true
+date: 2022-04-21T03:38:26.645Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:24.645Z
+---
+
 # MongoDB安装指南
 ## Platform Support
 MongoDB only provides packages for 64-bit builds of Debian 8 and 9. See Supported Platforms for more information.

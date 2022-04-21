@@ -1,3 +1,13 @@
+---
+title: Linux标准规范
+description: 
+published: true
+date: 2022-04-21T03:37:38.157Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:37:36.012Z
+---
+
 ## 前言
 
 目前 Linux 的发行版非常繁多，为了促进 Linux 不同发行版间的兼容性，LSB（Linux Standards Base）开发了一系列标准，使各种软件可以很好地在兼容 LSB 标准的系统上运行，从而可以帮助软件供应商更好地在 Linux 系统上开发产品，或将已有的产品移植到 Linux 系统上。

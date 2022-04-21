@@ -1,3 +1,13 @@
+---
+title: Spyder
+description: 
+published: true
+date: 2022-04-21T03:42:24.935Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:42:22.981Z
+---
+
 ## 简介
 
 Spyder是一个强大的交互式Python集成开发环境，它提供高级的代码编辑、交互测试、调试等特性，同时还可以模仿Matlab的“工作空间”的功能，根据自己的喜好调整它们的位置和大小。

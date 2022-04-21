@@ -1,3 +1,13 @@
+---
+title: ANGRYsearch
+description: 
+published: true
+date: 2022-04-21T03:28:48.489Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:28:46.547Z
+---
+
 ## 简介
 
 ANGRYsearch是一款文件快速搜索工具，它提供了简单的界面，可以瞬间搜索到你需要的文件。类似windows下的软件 Everything 。具有简易模式和完整模式两种，简易模式只显示文件名和地址，但是反应更加迅捷。搜索也可以设置为快速，慢速和正则表达式三种模式。

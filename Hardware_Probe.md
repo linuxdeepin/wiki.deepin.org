@@ -1,3 +1,13 @@
+---
+title: Hardware_Probe
+description: 
+published: true
+date: 2022-04-21T03:36:09.931Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:36:07.911Z
+---
+
 Creating a hardware probe allows you to find out the details of the computer's internal structure, check operability of devices and collect logs for the developers to help identify and fix hardware related problems. If the system failed to find a driver for some device in your computer, the probe will suggest the appropriate version of the Linux kernel according to the [LKDDb](https://cateee.net/lkddb/) or third-party drivers.
 
 ## Create a probe

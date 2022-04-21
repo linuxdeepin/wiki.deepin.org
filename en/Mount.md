@@ -1,3 +1,13 @@
+---
+title: Mount
+description: 
+published: true
+date: 2022-04-21T03:56:19.152Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:56:16.040Z
+---
+
 [[zh:挂载]]
 
 

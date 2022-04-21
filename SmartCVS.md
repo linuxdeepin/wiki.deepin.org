@@ -1,3 +1,13 @@
+---
+title: SmartCVS
+description: 
+published: true
+date: 2022-04-21T03:42:02.635Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:42:00.678Z
+---
+
 ## 简介
 
 SmartCVS是一款用于CVS的版本控制应用，基于TCP/IP协议的版本控制工具，它具有内建的文件比较、合并工具、事务显示、列出Repository文件等功能，美观的用户界面，一目了然的功能，同时可以运行在所有的JDK环境中。

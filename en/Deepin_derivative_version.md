@@ -1,3 +1,13 @@
+---
+title: Deepin_derivative_version
+description: 
+published: true
+date: 2022-04-21T03:54:52.164Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:54:50.220Z
+---
+
 [[zh:deepin衍生版]]
 ## Introduction
 

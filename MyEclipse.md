@@ -1,3 +1,13 @@
+---
+title: MyEclipse
+description: 
+published: true
+date: 2022-04-21T03:38:38.210Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:36.330Z
+---
+
 ## 简介
 
 MyEclipse是一款软件开发工具，是对EclipseIDE的扩展，包括了完备的编码、调试、测试和发布功能，完整支持HTML，Struts，JSP，CSS，Javascript，Spring，SQL，Hibernate。也是一个用于开发Java, J2EE的 Eclipse 插件集合，可以支持Java Servlet，AJAX，JSP，JSF，Struts，Spring，Hibernate，EJB3，JDBC数据库链接工具等多项功能。

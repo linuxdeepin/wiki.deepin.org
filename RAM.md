@@ -1,3 +1,13 @@
+---
+title: RAM
+description: 
+published: true
+date: 2022-04-21T03:40:49.084Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:47.096Z
+---
+
 #Definition
 
 Alternatively referred to as main memory, primary memory, or system memory, Random Access Memory (RAM) is a hardware device that allows information to be stored and retrieved on a computer. RAM is usually associated with DRAM, which is a type of memory module. Because information is accessed randomly instead of sequentially like it is on a CD or hard drive, the computer can access the data much faster. However, unlike ROM or the hard drive, RAM is a volatile memory and requires power to keep the data accessible. If the computer is turned off, all data contained in RAM is lost.

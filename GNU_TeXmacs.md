@@ -1,3 +1,13 @@
+---
+title: GNU_TeXmacs
+description: 
+published: true
+date: 2022-04-21T03:34:49.060Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:34:47.037Z
+---
+
 ## 简介
 
 GNU TeXmacs是一个优秀的科学文档排版软件，您可以不通过编译直接导出为PDF格式的文件，也可以导入和导出为TeX、HTML格式的文件。其完全可视化的表格和公式编辑环境、结构化的浏览功能，将带给您真正的“所见即所得”的体验。

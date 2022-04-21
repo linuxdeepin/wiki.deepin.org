@@ -1,3 +1,13 @@
+---
+title: 深度系统下minicom的安装及使用教程
+description: 
+published: true
+date: 2022-04-21T03:50:38.891Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:50:36.421Z
+---
+
 #简介
 
 本经验由深度论坛用户(z0218)分享

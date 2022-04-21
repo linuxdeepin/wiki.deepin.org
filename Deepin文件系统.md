@@ -1,3 +1,13 @@
+---
+title: Deepin文件系统
+description: 
+published: true
+date: 2022-04-21T03:32:40.610Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:38.662Z
+---
+
 ##deepin默认文件系统
 deepin的默认文件系统是ext4，大多数linux系统均采用ext格式的磁盘文件系统。ext4（Fourth extended filesystem）汉语译为“第四代扩展文件系统”，是linux下的日志文件系统。关于ext4可以访问<a href="https://baike.baidu.com/item/Ext4/1858450?fr=aladdin">ext4-百度百科</a>或者访问<a href="https://zh.wikipedia.org/wiki/Ext4">ext4-维基百科</a>。
 查看磁盘文件类型的命令是<br/>

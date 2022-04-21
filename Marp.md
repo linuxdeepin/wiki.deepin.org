@@ -1,3 +1,13 @@
+---
+title: Marp
+description: 
+published: true
+date: 2022-04-21T03:38:12.067Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:38:09.592Z
+---
+
 ## 简介
 
 Marp是一款Markdown编辑器，可以用Markdown语法编写内容，以幻灯片的形式展示，支持PDF格式输出，有三种预览模式和两种样式主题可供选择。

@@ -1,3 +1,13 @@
+---
+title: Deepin安装&卸载
+description: 
+published: true
+date: 2022-04-21T03:32:30.365Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:28.390Z
+---
+
 * [兼容性良好的笔记本型号](https://wiki.deepin.org/index.php?title=%E5%85%BC%E5%AE%B9%E6%80%A7%E8%89%AF%E5%A5%BD%E7%9A%84%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%9E%8B%E5%8F%B7) : 兼容性良好的笔记本型号，等待补充。
 
 # 系统安装

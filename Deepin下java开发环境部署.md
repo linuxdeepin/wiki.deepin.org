@@ -1,3 +1,13 @@
+---
+title: Deepin下java开发环境部署
+description: 
+published: true
+date: 2022-04-21T03:32:24.646Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:22.510Z
+---
+
 ##简介
 
 本经验由深度论坛用户(zhang12345shun)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=36225)

@@ -1,3 +1,13 @@
+---
+title: Random-access_memory
+description: 
+published: true
+date: 2022-04-21T03:40:55.337Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:40:53.227Z
+---
+
 ## Definition
 Random-access memory (RAM /ræm/) is a form of computer data storage which stores frequently used program instructions to increase the general speed of a system. A random-access memory device allows data items to be read or written in almost the same amount of time irrespective of the physical location of data inside the memory. 
 

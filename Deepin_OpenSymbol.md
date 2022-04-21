@@ -1,3 +1,13 @@
+---
+title: Deepin_OpenSymbol
+description: 
+published: true
+date: 2022-04-21T03:32:05.474Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:32:03.546Z
+---
+
 ## 简介
 
 Deepin OpenSymbol是深度科技团队在Wingdings系列字体内容上，重新绘制一系列符号字体，它包含了人们在工作及生活中常用的一些速记符号、手势符号、箭头符号、星形符号以及世界通用的一些常用符号。

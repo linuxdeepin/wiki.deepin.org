@@ -1,3 +1,13 @@
+---
+title: Shotcut
+description: 
+published: true
+date: 2022-04-21T03:41:45.242Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:41:43.335Z
+---
+
 ## 简介
 
 Shotcut是一款跨平台的视频编辑器软件，它支持视频特效滤镜、直接拖曳视频处理、GPU硬件加速、主流图片处理、音频/视频处理等功能。

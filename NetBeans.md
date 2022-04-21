@@ -1,3 +1,13 @@
+---
+title: NetBeans
+description: 
+published: true
+date: 2022-04-21T03:39:05.051Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:39:02.422Z
+---
+
 ## 简介
 
 NetBeans是一个集成开发环境，它支持PHP、Ruby、JavaScript、Groovy、Grails和C/C++等开发语言。NetBeans集成开发环境提供了丰富的产品文档和培训资源，以及大量的第三方插件。

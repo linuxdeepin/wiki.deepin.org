@@ -1,3 +1,13 @@
+---
+title: System_log
+description: 
+published: true
+date: 2022-04-21T03:57:24.444Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-21T03:57:24.444Z
+---
+
 [[zh:系统日志]]
 
 
