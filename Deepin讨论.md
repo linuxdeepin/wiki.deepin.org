@@ -2,7 +2,7 @@
 title: Deepin讨论
 description: 
 published: true
-date: 2022-04-29T02:38:32.598Z
+date: 2022-04-29T03:47:18.217Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:55.893Z
@@ -14,6 +14,6 @@ dateCreated: 2022-04-21T03:32:55.893Z
 
 ## 目录
 
-[Deepin衍生版](/Deepin衍生版)
+[Deepin衍生版](Deepin衍生版)
 
-[资源&学习](/资源%26学习)
+[资源&学习](资源%26学习)
