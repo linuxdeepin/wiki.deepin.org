@@ -2,7 +2,7 @@
 title: Canon_打印机驱动程序安装
 description: 
 published: true
-date: 2022-04-21T03:30:27.924Z
+date: 2022-04-29T02:37:58.877Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:30:25.948Z
@@ -12,13 +12,6 @@ dateCreated: 2022-04-21T03:30:25.948Z
 
 本文经验有深度论坛用户(springxcs)分享。
 [原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=44975)
-
-#正文
-
-
-1. adfkj
-2. dsfjlkj
-3. dlfkjl
 
 本帖最后由 springxcs 于 2016-10-27 18:22 编辑
 
