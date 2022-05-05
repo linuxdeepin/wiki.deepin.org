@@ -2,7 +2,7 @@
 title: Linux内核
 description: 
 published: true
-date: 2022-05-05T09:49:08.837Z
+date: 2022-05-05T09:53:56.924Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:32.004Z
@@ -179,11 +179,13 @@ sudo apt-get install linux-image-4.4.0-1-686 linux-headers-4.4.0-1-686
 
 首先，清理以前编译时留下的临时文件，如果需要终端执行:
 
+```
      make mrproper
+```
 
-![注意](/images/c/c7/Attention.png):如果是刚刚解压的内核压缩包,请忽略此步骤!
+> 注意：如果是刚刚解压的内核压缩包，还没有开始编译，请忽略此步骤!
 
-###配置内核
+#### 配置内核
 
 配置内核一般分手工配置,载入当前内核配置(载入内核模块和载入当前内核配置)
 
@@ -191,26 +193,39 @@ sudo apt-get install linux-image-4.4.0-1-686 linux-headers-4.4.0-1-686
 
 载入内核模块(推荐)
 
-从linux-2.6.32开始可以使用make localmodconfig自动精简内核, 菜鸟也能轻松精简内核到十几MB.
+从 linux-2.6.32 开始可以使用 make localmodconfig 自动精简内核, 菜鸟也能轻松精简内核到十几MB.
 
-![注意](/images/c/c7/Attention.png): 该方法会自动去掉一些从开机到当前没用使用的模块(主要是驱动模块), 所以你可以使用一下你的摄像头, 挂载一下iso文件.....以保证需要的模块不会被精简掉, 否则使用新内核时会发现不能挂载iso文件, 不能使用某些外设等等.
+> 注意：该方法会自动去掉一些从开机到当前没用使用的模块(主要是驱动模块), 所以你可以使用一下你的摄像头, 挂载一下 iso 文件.....以保证需要的模块不会被精简掉, 否则使用新内核时会发现不能挂载 iso 文件, 不能使用某些外设等等.
 终端执行:
 
-    make localmodconfig  ##载入当前模块配置内核
+```
+    make localmodconfig  
+```
 
-然后出现简单的内核参数选择,.可以长按回车键选择默认选项节省时间。
+载入当前当前设备可以使用的模块，配置内核
+
+然后出现简单的内核参数选择。可以长按回车键选择默认选项节省时间。
 
 终端执行:
 
-    make menuconfig ##检查一下是否有自己需要的模块没有选上,初学者可以忽略这个步骤
-#卸载内核
+```
+    make menuconfig 
+```    
+
+检查一下是否有自己需要的模块没有选上，初学者可以忽略这个步骤
+
+## 卸载内核
 
 如果需要卸载指定的内核,请终端执行:
 
-    sudo apt-get --purge  remove linux-image-    ##双击tab键补全,卸载有问题的内核文件
-    sudo apt-get --purge  remove linux-headers-  ##双击tab键补全,卸载有问题的内核头文件
+```
+    sudo apt-get --purge  remove linux-image-xxxx    
+    sudo apt-get --purge  remove linux-headers-xxxx 
+```
 
-#相关链接
+双击tab键补全,卸载有问题的内核文件
+
+## 相关链接
 [Linux内核介绍](http://www.redflag-linux.com/source/Documents/kernelframe.html)
 
 
