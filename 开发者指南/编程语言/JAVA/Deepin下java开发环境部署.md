@@ -1,8 +1,8 @@
 ---
-title: 开发者指南/编程语言/JAVA/Deepin下java开发环境部署
+title: Deepin下java开发环境部署
 description: 
 published: true
-date: 2022-05-05T10:30:31.658Z
+date: 2022-05-05T10:31:25.502Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:22.510Z
