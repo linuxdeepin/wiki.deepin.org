@@ -2,20 +2,20 @@
 title: Deepin_154打印机离线安装方法图文教程
 description: 
 published: true
-date: 2022-04-21T03:31:51.320Z
+date: 2022-05-05T16:03:35.940Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:44.521Z
 ---
 
-##简介
+## 简介
 本经验有深度论坛用户(zpu198)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=138794&extra=)
 
 
-##正文
+## 正文
 基本情况：常用办公离不开打印机，而本人所在单位计算机涉密，打印机的离线安装一直不会（本人也是小白，只是deepin粉丝），没事来论坛看看，综合各方面的贴子汇总如下，希望可以帮到像我一样的小白。
 
-参考贴子：https://bbs.deepin.org/forum.php ... 3%E5%8D%B0%E6%9C%BA
+参考贴子：https://bbs.deepin.org/post/138493
 
 下面以hp p1008为例
 
@@ -24,15 +24,13 @@ dateCreated: 2022-04-21T03:31:44.521Z
 下载地址：
 https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/
 
-
 下载驱动版本号见第2步
+
+![图片](https://storage.deepin.org/forum/201705/02/134957dq5wfpa3w44a4pq4.png)
 
 下这两个文件放到任意自己找得到的地方，在别的机子上装，就复制到别的机子上就行
 
-
 1. 设置root密码。打开“深度终端”，输入：sudo passwd，然后输入自己用户密码（即登陆密码），重新设置（root、unix)密码。（如果已经设置，请跳过。）
-
-
 
 2. 打开终端（DeepinTerminal），输入hp-plugin。在终端的输出中会显示版本号。
 
