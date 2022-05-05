@@ -2,15 +2,15 @@
 title: 笔记本双显卡安装过程(I卡_N卡)
 description: 
 published: true
-date: 2022-04-21T03:51:48.813Z
+date: 2022-05-05T15:12:59.593Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:51:46.780Z
 ---
 
-##简介
+## 简介
 本经验有论坛用户(walle)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=141410&page=1&extra=#pid345736)。
-##正文
+## 正文
 * 删除以往所有安装的驱动/大黄蜂
 
 ```
@@ -46,7 +46,7 @@ archwiki
 
 bumblebee配置下所有需要独显的操作都需要调用optirun或者primusrun
 
-```optirun -b none nvidia-settings -c :8```
+`optirun -b none nvidia-settings -c :8`
 
 ### 黑屏/进不去系统  救急三法
 
