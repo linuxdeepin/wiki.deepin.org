@@ -2,7 +2,7 @@
 title: Linux内核
 description: 
 published: true
-date: 2022-05-05T09:44:20.773Z
+date: 2022-05-05T09:46:08.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:32.004Z
@@ -147,12 +147,19 @@ sudo apt-get install linux-image-4.4.0-1-686 linux-headers-4.4.0-1-686
 
 #### 解压源代码
 
-![注意](/images/c/c7/Attention.png):很多教程上说应该解压到 /usr/src, 但是实际上解压到任何目录上都可以。/usr/src下面需要root权限反而容易出问题。
+> 注意：很多教程上说应该解压到 `/usr/src`, 但是实际上解压到任何目录上都可以。`/usr/src` 下面需要 root 权限反而容易出问题。
 
 命令操作,终端执行:
 
-    tar jfx linuxxxx.tar.bz2 -C ~/linus ##自行替换linuxxxx.tar.bz2为你下载内核的文件名字.~/linus表示解压到家目录下的linus文件夹
-    cd ~/linus ##进入~/linus目录
+```
+    tar jfx linuxxxx.tar.bz2 -C ~/linus 
+```
+自行替换linuxxxx.tar.bz2为你下载内核的文件名字.~/linus表示解压到家目录下的linus文件夹
+
+```
+    cd ~/linus 
+```
+进入~/linus目录
 
 图形操作,解压Linux内核源代码到/home下的任何一目录(为了方便操作),在解压Linux内核源代码后的路径右键打开终端,进入该目录
 
