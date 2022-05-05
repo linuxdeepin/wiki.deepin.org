@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
 ---
 
-[[en:Deepin Application Management]]
 ## 网络应用
 
 * [Firefox](Firefox)：火狐浏览器是一个安全高效的浏览器

@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:53:58.615Z
 ---
 
-[[zh:自启动程序]]
 
 
 ## Summary

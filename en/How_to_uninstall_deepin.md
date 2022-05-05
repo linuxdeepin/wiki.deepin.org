@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:52.552Z
 ---
 
-[[zh:系统卸载]]
 This page provides a quick overview of how to uninstall deepin. If you have any suggestions for us, please go to [Deepin Forum](https://bbs.deepin.org/forum.php?mod=forumdisplay&fid=70) for feedback.
 
 

@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:16.040Z
 ---
 
-[[zh:挂载]]
 
 
 ## Summary

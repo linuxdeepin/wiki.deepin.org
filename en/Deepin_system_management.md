@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:56.378Z
 ---
 
-[[zh:Deepin系统管理]]
 
 
 ##Startup Management

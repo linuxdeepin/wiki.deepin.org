@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:27.322Z
 ---
 
-[[zh:文件与目录]]
 
 ## Summary
 

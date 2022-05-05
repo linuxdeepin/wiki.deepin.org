@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:43.636Z
 ---
 
-[[zh:进程管理]]
 
 
 ## Summary

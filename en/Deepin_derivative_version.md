@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:50.220Z
 ---
 
-[[zh:deepin衍生版]]
 ## Introduction
 
 deepin is a Linux distribution devoted to provide beautiful, easy to use, safe and reliable system for global users. deepin paid great attention to the easy to use experience and beautiful designs and developed a series of daily use oriented original applications like Deepin Store, Deepin File Manager, Deepin Terminal and Deepin Image Viewer, etc. It supports more than 30 languages and has 50 milion total download counts and ranks top 10 focus list.

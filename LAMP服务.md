@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:37:13.061Z
 ---
 
-[[en:LAMP_service]]
 
 
 ##前言

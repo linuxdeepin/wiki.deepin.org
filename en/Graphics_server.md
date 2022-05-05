@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:46.807Z
 ---
 
-[[zh:图形服务器]]
 
 
 ## Summary

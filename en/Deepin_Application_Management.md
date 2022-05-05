@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
 ---
 
-[[zh:Deepin应用管理]]
 ## Internet
 
 * [Firefox](Firefox): Firefox is a safe and efficient browser

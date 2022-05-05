@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:12.324Z
 ---
 
-[[zh:移动网络]]
 
 
 ## Summary

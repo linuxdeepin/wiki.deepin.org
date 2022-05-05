@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:53.292Z
 ---
 
-[[zh:有线网络]]
 
 
 ## Summary

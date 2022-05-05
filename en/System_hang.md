@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:20.716Z
 ---
 
-[[zh:系统死机]]
 
 
 ## Summary

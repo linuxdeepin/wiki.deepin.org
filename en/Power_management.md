@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:39.948Z
 ---
 
-[[zh:电源管理]]
 
 
 ## Summary

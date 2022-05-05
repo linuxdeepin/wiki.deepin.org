@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:47:05.705Z
 ---
 
-[[en:Command_shell]]
 
 
 ##简介

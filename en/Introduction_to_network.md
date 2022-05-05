@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:05.440Z
 ---
 
-[[zh:网络基础]]
 
 
 ## Summary

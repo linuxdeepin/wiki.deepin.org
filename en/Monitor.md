@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:12.342Z
 ---
 
-[[zh:显示器]]
 
 
 ## Overview

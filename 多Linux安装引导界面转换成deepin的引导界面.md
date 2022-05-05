@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:47:41.812Z
 ---
 
-[[en:System_hang]]
 
 
 ##简介

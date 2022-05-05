@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:06.283Z
 ---
 
-[[zh:SSH服务]]
 
 
 ## Summary

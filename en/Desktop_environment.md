@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:06.556Z
 ---
 
-[[zh:桌面环境]]
 
 
 ## Summary

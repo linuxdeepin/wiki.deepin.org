@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:47.965Z
 ---
 
-[[zh:程序与进程]]
 
 
 ## Source code and program

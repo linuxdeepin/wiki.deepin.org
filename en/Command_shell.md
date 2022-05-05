@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:06.279Z
 ---
 
-[[zh:命令shell]]
 
 
 ## Summary

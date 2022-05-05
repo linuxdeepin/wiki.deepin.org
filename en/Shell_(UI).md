@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:14.150Z
 ---
 
-[[zh:Shell]]
 
 
 ## Summary

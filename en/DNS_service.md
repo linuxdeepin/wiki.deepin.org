@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:18.970Z
 ---
 
-[[zh:DNS服务]]
 
 
 ## Summary

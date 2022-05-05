@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:53:55.712Z
 ---
 
-[[zh:安装器]]
 ## Summary
 
 Deepin Installer is an installer with user friendly interface to let users install deepin in a safe, stable and efficient environment and to troubleshoot more easily.

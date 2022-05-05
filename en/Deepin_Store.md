@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:43.735Z
 ---
 
-[[zh:深度商店]]
 
 
 ## Overview

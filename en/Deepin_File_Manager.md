@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:37.557Z
 ---
 
-[[zh:深度文件管理器]]
 
 
 ## Overview

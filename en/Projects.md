@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:54.080Z
 ---
 
-[[zh:项目&社区]]
 
 ## Introduction
 

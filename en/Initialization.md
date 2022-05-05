@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:58.387Z
 ---
 
-[[zh:初始化]]
 ## Introduction
 In Unix-based computer operating systems, init (short for initialization) is the first process started during booting of the computer system. It has several characteristics:
 

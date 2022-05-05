@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:46.800Z
 ---
 
-[[zh:窗口管理器]]
 
 
 ## Summary

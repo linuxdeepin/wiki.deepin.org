@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:56.990Z
 ---
 
-[[zh:代理]]
 
 
 ## Summary

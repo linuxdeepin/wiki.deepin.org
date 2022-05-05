@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:11.416Z
 ---
 
-[[zh:光标主题]]
 
 
 ## Summary

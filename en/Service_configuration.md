@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:10.116Z
 ---
 
-[[zh:系统服务配置]]
 
 
 ## Summary

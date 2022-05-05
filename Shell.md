@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:41:39.333Z
 ---
 
-[[en:Shell_(UI)]]
 
 
 ##简介

@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:31.432Z
 ---
 
-[[zh:文件与目录权限]]
 
 
 ## Summary

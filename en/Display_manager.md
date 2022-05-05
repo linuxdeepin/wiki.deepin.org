@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:16.766Z
 ---
 
-[[zh:登录管理器]]
 
 ## Introduction
 

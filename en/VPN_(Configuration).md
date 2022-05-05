@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:36.510Z
 ---
 
-[[zh:VPN]]
 
 
 ## Summary

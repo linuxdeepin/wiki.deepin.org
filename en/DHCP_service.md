@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:14.960Z
 ---
 
-[[zh:DHCP服务]]
 
 
 ## Summary

@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:12.333Z
 ---
 
-[[zh: 修改键盘映射]]
 
 
 Sometimes it is useful to re-map some keys (e.g. Ctrl, Alt) to make shortcut keys easy to use. We can employ "gsettings" command to do that.

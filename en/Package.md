@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:28.170Z
 ---
 
-[[zh:软件包]]
 
 
 ## Summary

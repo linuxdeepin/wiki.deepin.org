@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:33:02.433Z
 ---
 
-[[en:Desktop_entry]]
 
 
 ##简介

@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:55:09.541Z
 ---
 
-[[zh:拨号网络]]
 
 
 ## Summary

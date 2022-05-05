@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:34:13.000Z
 ---
 
-[[en:FTP_service]]
 
 
 ##前言

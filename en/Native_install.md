@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:20.131Z
 ---
 
-[[zh:原生安装]]
 ## Introduction
 
 For details on how to install deepin, please refer to the [Official Installation Guide](https://www.deepin.org/en/installation/) and the [Deepin Installer](https://www.deepin.org/en/original/deepin-installer/) project.

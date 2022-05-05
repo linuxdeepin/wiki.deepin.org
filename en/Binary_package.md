@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:02.333Z
 ---
 
-[[zh:二进制包]]
 
 
 ## Summary

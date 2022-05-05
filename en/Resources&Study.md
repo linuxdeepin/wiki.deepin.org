@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:03.037Z
 ---
 
-[[zh:资源%26学习]]
 ### Open Source Knowledges
 
 #### Open Source License

@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:08.504Z
 ---
 
-[[zh:LAMP服务]]
 
 
 ## Summary

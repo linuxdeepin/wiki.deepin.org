@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:32:55.893Z
 ---
 
-[[en:Deepin Discussion]]
 ## 简介
 介绍深度操作系统衍生版、移植版、插件开发、社区项目、资源分享、上游知识。
 

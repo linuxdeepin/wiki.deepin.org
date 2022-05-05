@@ -8,7 +8,6 @@ editor: markdown
 dateCreated: 2022-04-21T03:57:10.105Z
 ---
 
-[[zh:Samba服务]]
 
 
 ## Summary
