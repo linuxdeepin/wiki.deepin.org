@@ -2,7 +2,7 @@
 title: CPU-G
 description: 
 published: true
-date: 2022-05-05T07:49:06.295Z
+date: 2022-05-05T07:49:11.329Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:30:14.431Z
