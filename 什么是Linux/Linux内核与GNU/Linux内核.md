@@ -2,7 +2,7 @@
 title: Linux内核
 description: 
 published: true
-date: 2022-05-05T09:53:56.924Z
+date: 2022-05-05T09:54:23.545Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:32.004Z
@@ -223,7 +223,7 @@ sudo apt-get install linux-image-4.4.0-1-686 linux-headers-4.4.0-1-686
     sudo apt-get --purge  remove linux-headers-xxxx 
 ```
 
-双击tab键补全,卸载有问题的内核文件
+可以通过双击 tab 键自动补全内核版本号，卸载有问题的内核文件
 
 ## 相关链接
 [Linux内核介绍](http://www.redflag-linux.com/source/Documents/kernelframe.html)
