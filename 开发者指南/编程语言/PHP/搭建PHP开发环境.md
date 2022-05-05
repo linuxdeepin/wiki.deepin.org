@@ -1,22 +1,22 @@
 ---
-title: Deepin_搭建php开发环境
+title: 搭建PHP开发环境
 description: 
 published: true
-date: 2022-04-21T03:32:15.893Z
+date: 2022-05-05T10:27:35.288Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:13.485Z
 ---
 
-#简介
+# 简介
 本词条意在说明如何快速简便地搭建php开发环境。
 
-#正文
+# 正文
 
 XAMPP是一个把Apache网页服务器与PHP、Perl,phpMyAdmin及MariaDB集合在一起的安装包，允许用户可以在自己的电脑上轻易的建立网页服务器。  -- 百科
 
 
-##安装
+## 安装
 
 下载地址： https://www.apachefriends.org
 
@@ -28,7 +28,7 @@ XAMPP是一个把Apache网页服务器与PHP、Perl,phpMyAdmin及MariaDB集合�
         $ sudo ./xampp-linux-x64-7.3.1-0-installer.run
 该命令执行后，xampp图形化安装程序便会启动，根据提示安装即可。
 
-##开启xampp
+## 开启xampp
 
 1）安装完成之后， 程序会自动运行，此时需要手动点击进入manage server界面，点击启动全部选项。
 
@@ -40,7 +40,7 @@ XAMPP是一个把Apache网页服务器与PHP、Perl,phpMyAdmin及MariaDB集合�
      
  $ sudo ./opt/lampp/lampp stop         停止
 
-##测试是否成功
+## 测试是否成功
 
 打开浏览器，在地址栏输入localhost，能打开welcome to xampp网页
 
@@ -60,6 +60,6 @@ XAMPP是一个把Apache网页服务器与PHP、Perl,phpMyAdmin及MariaDB集合�
 
 ！！！只有opt/lampp文件夹下的htdocs文件夹里的php文件能被浏览器打开
 
-##PHP编辑器推荐
+## PHP编辑器推荐
 
 在Deepin系统中可以方便地使用Sublime Text编辑器进行php的编辑
