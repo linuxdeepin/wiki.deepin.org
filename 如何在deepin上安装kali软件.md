@@ -2,17 +2,17 @@
 title: 如何在deepin上安装kali软件
 description: 
 published: true
-date: 2022-04-21T03:47:47.091Z
+date: 2022-05-05T16:54:04.858Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:47:44.610Z
 ---
 
-##简介
+## 简介
 本经验由深度用户(geange)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=136057&extra=)
 由deepin用户ExplosiveBattery补充
 
-##正文
+## 正文
 相必有些人会知道一个项目，专门为debian或者ubuntu安装来自于kali的软件katoolin（ExplosiveBattery推荐使用katoolin，https://github.com/LionSec/katoolin，因为这个项目会有人维持着更新）
 
 我也有尝试过使用这个软件，但是用python写的一个小脚本让我觉得它的界面实在是不太好看，所以参考了katoolin项目的代码后，我用bash重写这个项目。加上了bash中whiptail，让界面更加好看（话说好不好看也是看个人吧）
