@@ -2,18 +2,18 @@
 title: Deepin_安装oracle12c过程
 description: 
 published: true
-date: 2022-04-21T03:32:12.609Z
+date: 2022-05-05T15:34:09.184Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:09.781Z
 ---
 
-##简介
+## 简介
 本文的经验来自深度百科用户(873792861)分享。
 
 [原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=43149)
 
-##正文
+## 正文
 
 最近，想学习下oracle，于是，在网上查找相关资料，在oracle官网下载了oracle12c。
 1. 建立软链接
