@@ -2,7 +2,7 @@
 title: Firefox
 description: 
 published: true
-date: 2022-04-21T03:34:22.415Z
+date: 2022-05-05T07:49:38.244Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:19.832Z
