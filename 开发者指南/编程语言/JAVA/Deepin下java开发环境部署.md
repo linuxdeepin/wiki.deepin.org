@@ -1,20 +1,20 @@
 ---
-title: Deepin下java开发环境部署
+title: 开发者指南/编程语言/JAVA/Deepin下java开发环境部署
 description: 
 published: true
-date: 2022-04-21T03:32:24.646Z
+date: 2022-05-05T10:30:31.658Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:22.510Z
 ---
 
-##简介
+## 简介
 
 本经验由深度论坛用户(zhang12345shun)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=36225)
 
-##正文
+## 正文
 
-###SUN JDK（现已改名Oracle JDK）
+### SUN JDK（现已改名Oracle JDK）
 1.下载Sun版JDK压缩包（.tar.gz），选择其中的32/64位Linux版本。
 
 2.将其解压缩：
@@ -38,7 +38,7 @@ sudo update-alternatives --install /usr/bin/javac javac  /usr/lib/jdk1.8.0_66/bi
 
 `java -version`
 
-###tomact 安装和使用
+### tomact 安装和使用
 
 1.下载并解压缩到部署位置(8.0.30)
 
@@ -61,7 +61,7 @@ sudo update-alternatives --install /usr/bin/javac javac  /usr/lib/jdk1.8.0_66/bi
   在浏览器中输入：http://localhost:8080/
 
 
-###MYSQL安装和使用
+### MYSQL安装和使用
 1.下载并解压缩 
 
   `sudo tar -xzvf mysql-6.0.11-alpha-linux-x86_64-glibc23.tar.gz -C destdir`
@@ -139,7 +139,7 @@ bin/mysqladmin -u root password ‘new_password’ //初始化root密码
 
 `mysql -u root -p`
 
-###Eclipse 安装使用
+### Eclipse 安装使用
 1.安装JDK8，具体过程参考上面
 2.下载 Eclipse 最新版http://www.eclipse.org/downloads/ 
 
@@ -169,7 +169,7 @@ Categories=Development;IDE;Java;
 至此，我们就将最新版本的 Eclipse 安装完成
 
 
-###MAVEN安装
+### MAVEN安装
 
 1.下载并加压包到安装位置 exp:/usr/local/
 
