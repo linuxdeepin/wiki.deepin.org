@@ -2,42 +2,33 @@
 title: 深度系统下minicom的安装及使用教程
 description: 
 published: true
-date: 2022-04-21T03:50:38.891Z
+date: 2022-05-05T15:07:53.424Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:50:36.421Z
 ---
 
-#简介
+# 简介
 
 本经验由深度论坛用户(z0218)分享
 
 [原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=134861)
 
- Minicom先进系统（Minicom Advanced Systems）是一家Intel创投公司（Intel CapitalPortfolio），是针对带外服务器管理领域的数字和模拟KVM解决方案领商。
+Minicom先进系统（Minicom Advanced Systems）是一家Intel创投公司（Intel CapitalPortfolio），是针对带外服务器管理领域的数字和模拟KVM解决方案领商。另外，Minicom同时也是针对数字告示领域的音视频和串口信号分配系统主导厂商。
 
-另外，Minicom同时也是针对数字告示领域的音视频和串口信号分配系统主导厂商。Minicom公司成立于1987年，总部位于以色列耶路撒冷，拥有一座3600平米的办公大楼，包括
+Minicom公司成立于1987年，总部位于以色列耶路撒冷，拥有一座3600平米的办公大楼，包括研发、市场、销售和物流等部门。此外Minicom在欧洲和美国具有区域总部，英国、意大利、法国和德国和中国具有销售支持队伍。在2005年，Minicom收购了Replicom公司，作为专注于IP技术的研发中心。历经20年的发展以及遍及全球50多个国家的业务，Minicom的产品已经销售到上千个数据中心，无论小公司还是大型跨国企业。 Linux下的Minicom的功能与下的超级终端功能相似，适于在通过超级终端对设备的管理以及对嵌入操作系统的升级。
 
-研发、市场、销售和物流等部门。此外Minicom在欧洲和美国具有区域总部，英国、意大利、法国和德国和中国具有销售支持队伍。在2005年，Minicom收购了Replicom公司，作
+# Minicom的安装
 
-为专注于IP技术的研发中心。历经20年的发展以及遍及全球50多个国家的业务，Minicom的产品已经销售到上千个数据中心，无论小公司还是大型跨国企业。 Linux下的Minicom的
+打开深度终端输入 `sudo apt install minicom && sudo minicom`
 
-功能与下的超级终端功能相似，适于在通过超级终端对设备的管理以及对嵌入操作系统的升级。
+# Minicom的串行端口的设置
 
+安装好配置`sudo minicom -s`进去把端口设置下波特率等
 
+# Minicom的使用
 
-#Minicom的安装：
-     
-        打开深度终端输入 sudo apt install minicom && sudo minicom
-        
-
-#Minicom的串行端口的设置
-
-安装好配置sudo minicom -s进去把端口设置下波特率等
-
-#Minicom的使用
-
-##minicom界面介绍
+## minicom界面介绍
 
 第一次运行minicom，启动minicom要以root权限登录系统，需要进行minicom的设置，输入下了命令#minicom –s，显示的屏幕如下所示,按上下光标键进行上下移动选择，我们
 
@@ -64,7 +55,7 @@ dateCreated: 2022-04-21T03:50:36.421Z
 │ Exit from Minicom │//退出minicom
 
 
-##minicom的参数设置
+## minicom的参数设置
 
 选中设置串行端口，点击回车后，弹出设置的界面如下：点击‖A‖设置串行设置为/dev/ttyS0,这表示使用串口1（com1）,如果是/dev/ttyS1则表示使用串口2(com 2).按‖E‖键进
 
