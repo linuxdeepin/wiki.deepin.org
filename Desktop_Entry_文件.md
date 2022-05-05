@@ -2,15 +2,16 @@
 title: Desktop_Entry_文件
 description: 
 published: true
-date: 2022-04-21T03:33:05.157Z
+date: 2022-05-05T16:42:47.121Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:02.433Z
 ---
 
+[[en:Desktop_entry]]
 
 
-##简介
+## 简介
 
 Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信息的文件。Desktop Entry 文件实现了类似于 Windows 操作系统中快捷方式的功能。
 
@@ -18,8 +19,9 @@ Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信�
 
 系统范围的Desktop Entry文件地址统一在 `/usr/share/applications`，文件以".desktop"为后缀名。用户个人的Desktop Entry 地址为 `~/.local/share/applications`。
 
-##简单解说
-###配置
+## 简单解说
+### 配置
+
     [Desktop Entry] #每个desktop文件都以这个标签开始，说明这是一个Desktop Entry文件
     Version = 1.0 #标明Desktop Entry的版本（可选）
     Name = Firefox #程序名称（必须），这里以创建一个Firefox的快捷方式为例
@@ -33,7 +35,7 @@ Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信�
 
 备注:desktop文件需要可执行权限才可运行，否则将以文本文件打开。
 
-###实例
+### 实例
 
 例如：firefox
 
@@ -61,11 +63,11 @@ Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信�
     Exec=firefox -new-window about:blank
     TargetEnvironment=Unity
 
-##深入解说
+## 深入解说
 
 [点此查看--Linux Desktop Entry 文件深入解析](http://www.ibm.com/developerworks/cn/linux/l-cn-dtef/#iratings)
 
-##来源链接
+## 来源链接
 
 [ubuntu unity .desktop 文件书写方法](http://blog.sina.com.cn/s/blog_55e606c2010161xz.html)
 
