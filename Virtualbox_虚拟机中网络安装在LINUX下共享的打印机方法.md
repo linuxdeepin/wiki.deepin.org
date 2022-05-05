@@ -2,7 +2,7 @@
 title: Virtualbox_虚拟机中网络安装在LINUX下共享的打印机方法
 description: 
 published: true
-date: 2022-05-05T14:51:15.815Z
+date: 2022-05-05T14:55:59.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:21.304Z
@@ -30,7 +30,7 @@ dateCreated: 2022-04-21T03:44:21.304Z
 2. 利用打印机
     打开打印机设置
     点击 服务器——设置  勾选下图两个选项
-    图呢
+    ![图片](https://storage.deepin.org/forum/201701/04/130506jyh5oa87b6i54q34.png)
     记得打印机右键的共享也要勾选上。这个我截不了图。
 
 ---
