@@ -2,7 +2,7 @@
 title: AbiWord
 description: 
 published: true
-date: 2022-04-21T03:28:51.319Z
+date: 2022-05-06T09:23:16.930Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:28:49.388Z
