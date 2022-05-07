@@ -2,7 +2,7 @@
 title: DTK
 description: DTK
 published: true
-date: 2022-05-07T02:33:15.225Z
+date: 2022-05-07T11:56:53.997Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -34,8 +34,8 @@ dtkwidget是控件库，包括所有系统和应用的控件。dtkcore是一些�
 (注意：即使你是在 deepin 系统下，想要使用 dtkwidget 仍然需要经过以下步骤)
 1. 从应用商店安装 Qt Creator;
 2. 从 github 上下载 dtkwidget：https://github.com/linuxdeepin/dtkwidget
-3. 解压 dtkwidget，解压的 dtkwidget 目录下有两个文件需要注意。分别是 README.md、debian 文件夹下的 control 文件
-4. 打开 README.md 文件，按照 `### Build from source code` 这一部分的操作安装 dtgkwidget
+3. 解压 dtkwidget，解压的 dtkwidget 目录下有两个文件需要注意。分别是 [README.md](https://github.com/linuxdeepin/dtkwidget/blob/master/README.md) 、debian 文件夹下的 control 文件
+4. 打开 [README.md](https://github.com/linuxdeepin/dtkwidget/blob/master/README.md) 文件，按照 `Build from source code` 这一部分的操作安装 dtgkwidget
 5. 第一步："Make sure you have installed all dependencies."。打开 control 文件，这里（Build-Depends: ）列出了需要安装的依赖包，请把这些都安装上（相信你不会忘了 sudo apt-get install *** 这个命令）
 6. 第二步："Build:"。将文件编译出来，这一步需要多花点时间
 7. 第三步："Install:"。安装 dtkwidget
