@@ -2,7 +2,7 @@
 title: JetBrains系列
 description: JetBrains 是一家专注于创建智能开发工具的前沿软件公司,包括:行业中领头的 Java IDE – IntelliJ IDEA,以及 Kotlin 编程语言。
 published: true
-date: 2022-05-07T12:19:45.876Z
+date: 2022-05-07T12:30:50.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-07T12:19:45.876Z
@@ -13,33 +13,88 @@ dateCreated: 2022-05-07T12:19:45.876Z
 
 ## [IntelliJ IDEA](https://www.jetbrains.com/zh-cn/idea/)
 
-> 什么是 IntelliJ IDEA？
-IntelliJ IDEA 是一个智能的上下文感知 IDE，可以使用 Java 和其他 JVM 语言（例如 Kotlin、Scala 和 Groovy）开发各种应用程序。 得益于强大的集成工具、对 JavaScript 和相关技术的支持以及对 Spring、Spring Boot、Jakarta EE、Micronaut、Quarkus、Helidon 等热门框架的高级支持，IntelliJ IDEA Ultimate 还可以帮助您开发全栈 Web 应用程序。 此外，您可以使用 JetBrains 开发的免费插件扩展 IntelliJ IDEA，这让您可以利用其他编程语言，包括 Go、Python、SQL、Ruby 和 PHP。
+功能强大，符合人体工程学的 JVM IDE
 
 ## [PyCharm](https://www.jetbrains.com/zh-cn/pycharm/)
 
+面向专业开发者的Python IDE
+
 ## [WebStorm](https://www.jetbrains.com/zh-cn/webstorm/)
+
+最智能的 JavaScript IDE
 
 ## [PhpStorm](https://www.jetbrains.com/zh-cn/phpstorm/)
 
-## [Rider](https://www.jetbrains.com/zh-cn/rider/)
+高效智能的PHP IDE
 
 ## [CLion](https://www.jetbrains.com/zh-cn/clion/)
 
+C 和 C++ 跨平台 IDE
+
 ## [Datalore](https://www.jetbrains.com/zh-cn/datalore/)
+
+适用于 Jupyter Notebooks 的强大而安全的环境
 
 ## [DataSpell](https://www.jetbrains.com/zh-cn/dataspell)
 
+专业数据科学家的 IDE
+
 ## [DataGrip](https://www.jetbrains.com/zh-cn/datagrip)
+
+多种数据库，一个工具
 
 ## [RubyMine](https://www.jetbrains.com/zh-cn/rubymine)
 
+最智能的 Ruby 与 Rails IDE
+
 ## [AppCode](https://www.jetbrains.com/zh-cn/appcode)
+
+适用于 iOS/macOS 开发的智能 IDE
 
 ## [GoLand](https://www.jetbrains.com/zh-cn/goland)
 
+功能强大、符合人体工程学的 Go IDE
+
 ## [PyCharm Edu](https://www.jetbrains.com/zh-cn/pycharm-edu/)
+
+学习和教授 Python 编程的专业工具
 
 ## [IntelliJ IDEA Edu](https://www.jetbrains.com/zh-cn/idea-edu/)
 
+学习和教授编程的专业工具
+
 ## [Code With Me](https://www.jetbrains.com/zh-cn/code-with-me/)
+
+协作开发和结对编程服务
+
+## [dotUltimate](https://www.jetbrains.com/zh-cn/dotnet/)
+
+在一个包中提供所有 .NET 工具、ReSharper C++ 和 JetBrains Rider
+
+### ReSharper
+
+适用于 .NET 开发者的 Visual Studio 扩展
+
+### [Rider](https://www.jetbrains.com/zh-cn/rider/)
+
+快速且强大的跨平台 .NET IDE
+
+### ReSharper C++
+
+适用于 C++ 开发者的 Visual Studio 扩展
+
+### dotTrace
+
+.NET 性能分析器
+
+### dotMemory
+
+.NET 内存分析器
+
+### dotCover
+
+.NET 单元测试运行程序和代码覆盖率工具
+
+### dotPeek
+
+.NET 反编译器和程序集浏览器
