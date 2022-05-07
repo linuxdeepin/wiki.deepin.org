@@ -2,7 +2,7 @@
 title: JetBrains系列
 description: JetBrains 是一家专注于创建智能开发工具的前沿软件公司,包括:行业中领头的 Java IDE – IntelliJ IDEA,以及 Kotlin 编程语言。
 published: true
-date: 2022-05-07T12:30:50.972Z
+date: 2022-05-07T13:31:30.831Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-07T12:19:45.876Z
@@ -71,7 +71,7 @@ C 和 C++ 跨平台 IDE
 
 在一个包中提供所有 .NET 工具、ReSharper C++ 和 JetBrains Rider
 
-### ReSharper
+### [ReSharper](https://www.jetbrains.com/zh-cn/resharper/)
 
 适用于 .NET 开发者的 Visual Studio 扩展
 
@@ -79,22 +79,22 @@ C 和 C++ 跨平台 IDE
 
 快速且强大的跨平台 .NET IDE
 
-### ReSharper C++
+### [ReSharper C++](https://www.jetbrains.com/zh-cn/resharper/)
 
 适用于 C++ 开发者的 Visual Studio 扩展
 
-### dotTrace
+### [dotTrace](https://www.jetbrains.com/zh-cn/profiler/)
 
 .NET 性能分析器
 
-### dotMemory
+### [dotMemory](https://www.jetbrains.com/zh-cn/dotmemory/)
 
 .NET 内存分析器
 
-### dotCover
+### [dotCover](https://www.jetbrains.com/zh-cn/dotcover/)
 
 .NET 单元测试运行程序和代码覆盖率工具
 
-### dotPeek
+### [dotPeek](https://www.jetbrains.com/zh-cn/decompiler/)
 
 .NET 反编译器和程序集浏览器
