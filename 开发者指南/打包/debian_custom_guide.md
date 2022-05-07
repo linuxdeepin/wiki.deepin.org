@@ -1,3 +1,13 @@
+---
+title: debian_custom_guide
+description: 
+published: true
+date: 2022-05-07T02:33:38.551Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-27T08:33:06.295Z
+---
+
 # Debian发行版基础系列五:基于debian的发行版定制指南(尘封归档篇)
 
 所有文档均分为实例，分析，参考三部分，本篇主要以实例为主，分析和参考部分会以链接引用！

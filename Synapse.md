@@ -2,7 +2,7 @@
 title: Synapse
 description: 
 published: true
-date: 2022-04-21T03:42:51.438Z
+date: 2022-05-07T02:20:42.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:42:49.050Z

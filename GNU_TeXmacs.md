@@ -2,7 +2,7 @@
 title: GNU_TeXmacs
 description: 
 published: true
-date: 2022-04-21T03:34:49.060Z
+date: 2022-05-07T02:14:59.675Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:47.037Z

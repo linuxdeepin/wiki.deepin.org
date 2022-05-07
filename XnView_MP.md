@@ -2,7 +2,7 @@
 title: XnView_MP
 description: 
 published: true
-date: 2022-04-21T03:45:23.570Z
+date: 2022-05-07T02:22:27.480Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:21.676Z

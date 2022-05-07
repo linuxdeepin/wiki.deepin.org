@@ -2,13 +2,11 @@
 title: General_program_configuration
 description: 
 published: true
-date: 2022-04-21T03:55:45.839Z
+date: 2022-05-07T02:29:45.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:42.869Z
 ---
-
-
 
 ## Summary
 

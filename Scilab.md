@@ -2,7 +2,7 @@
 title: Scilab
 description: 
 published: true
-date: 2022-04-21T03:41:35.535Z
+date: 2022-05-07T02:19:48.235Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:33.595Z

@@ -2,13 +2,11 @@
 title: Introduction_to_hardware
 description: 
 published: true
-date: 2022-04-21T03:56:04.477Z
+date: 2022-05-07T02:29:57.338Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:01.902Z
 ---
-
-
 
 ## Computer
 

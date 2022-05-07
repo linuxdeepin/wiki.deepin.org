@@ -2,13 +2,11 @@
 title: User_and_group
 description: 
 published: true
-date: 2022-04-21T03:57:31.705Z
+date: 2022-05-07T02:31:28.306Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:57:28.419Z
 ---
-
-
 
 ## Summary
 

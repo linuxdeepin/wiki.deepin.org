@@ -2,13 +2,11 @@
 title: Command_shell
 description: 
 published: true
-date: 2022-04-21T03:54:10.431Z
+date: 2022-05-07T02:28:32.001Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:06.279Z
 ---
-
-
 
 ## Summary
 

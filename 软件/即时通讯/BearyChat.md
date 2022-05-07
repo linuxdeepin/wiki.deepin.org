@@ -2,7 +2,7 @@
 title: BearyChat
 description: 
 published: true
-date: 2022-05-06T09:17:14.528Z
+date: 2022-05-07T02:34:15.324Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:42.269Z

@@ -2,7 +2,7 @@
 title: Deepin安装最新NVIDIA驱动
 description: 
 published: true
-date: 2022-05-05T14:38:05.682Z
+date: 2022-05-07T02:13:37.900Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:31.252Z

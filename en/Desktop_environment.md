@@ -2,13 +2,11 @@
 title: Desktop_environment
 description: 
 published: true
-date: 2022-04-21T03:55:08.514Z
+date: 2022-05-07T02:29:17.286Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:06.556Z
 ---
-
-
 
 ## Summary
 

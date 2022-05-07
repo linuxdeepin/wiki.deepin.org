@@ -2,7 +2,7 @@
 title: Skype
 description: 
 published: true
-date: 2022-04-21T03:41:56.801Z
+date: 2022-05-07T02:20:05.116Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:54.866Z

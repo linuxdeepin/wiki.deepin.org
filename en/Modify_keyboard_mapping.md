@@ -2,13 +2,11 @@
 title: Modify_keyboard_mapping
 description: 
 published: true
-date: 2022-04-21T03:56:12.333Z
+date: 2022-05-07T02:30:11.783Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:12.333Z
 ---
-
-
 
 Sometimes it is useful to re-map some keys (e.g. Ctrl, Alt) to make shortcut keys easy to use. We can employ "gsettings" command to do that.
 

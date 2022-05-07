@@ -2,12 +2,11 @@
 title: File_and_directory
 description: 
 published: true
-date: 2022-04-21T03:55:30.434Z
+date: 2022-05-07T02:29:33.606Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:27.322Z
 ---
-
 
 ## Summary
 

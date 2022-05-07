@@ -2,7 +2,7 @@
 title: Gnome_Terminal
 description: 
 published: true
-date: 2022-04-21T03:35:34.769Z
+date: 2022-05-07T02:15:28.066Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:32.792Z

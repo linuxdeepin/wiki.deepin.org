@@ -2,13 +2,11 @@
 title: Deepin_system_management
 description: 
 published: true
-date: 2022-04-21T03:54:58.529Z
+date: 2022-05-07T02:29:10.119Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:56.378Z
 ---
-
-
 
 ##Startup Management
 

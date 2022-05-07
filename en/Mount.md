@@ -2,13 +2,11 @@
 title: Mount
 description: 
 published: true
-date: 2022-04-21T03:56:19.152Z
+date: 2022-05-07T02:30:17.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:16.040Z
 ---
-
-
 
 ## Summary
 

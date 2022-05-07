@@ -2,7 +2,7 @@
 title: Make_Qt_programs_appear_native_in_Deepin
 description: 
 published: true
-date: 2022-04-21T03:37:58.587Z
+date: 2022-05-07T02:17:08.032Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:56.642Z

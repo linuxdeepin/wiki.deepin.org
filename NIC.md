@@ -2,7 +2,7 @@
 title: NIC
 description: 
 published: true
-date: 2022-04-21T03:38:49.972Z
+date: 2022-05-07T02:17:51.169Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:38:47.968Z

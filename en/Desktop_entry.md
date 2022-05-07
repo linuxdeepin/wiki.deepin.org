@@ -2,13 +2,11 @@
 title: Desktop_entry
 description: 
 published: true
-date: 2022-04-21T03:55:05.528Z
+date: 2022-05-07T02:29:15.223Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:02.566Z
 ---
-
-
 
 ## Summary
 

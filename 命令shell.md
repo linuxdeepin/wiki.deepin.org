@@ -2,13 +2,11 @@
 title: 命令shell
 description: 
 published: true
-date: 2022-04-21T03:47:09.785Z
+date: 2022-05-07T02:23:34.842Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:47:05.705Z
 ---
-
-
 
 ##简介
 

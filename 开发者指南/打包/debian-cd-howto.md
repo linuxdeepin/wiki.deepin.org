@@ -1,3 +1,13 @@
+---
+title: debian-cd-howto
+description: 
+published: true
+date: 2022-05-07T02:33:35.540Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-27T08:33:00.271Z
+---
+
 # Debian发行版基础系列四:debian-cd 工作原理分析(尘封归档篇)
 
 debian-cd 是debian的官方的制作ISO的工具。

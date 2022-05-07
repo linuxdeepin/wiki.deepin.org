@@ -2,7 +2,7 @@
 title: Synfig_studio
 description: 
 published: true
-date: 2022-04-21T03:42:57.328Z
+date: 2022-05-07T02:20:47.037Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:42:55.388Z

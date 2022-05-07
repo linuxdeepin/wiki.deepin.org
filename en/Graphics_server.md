@@ -2,13 +2,11 @@
 title: Graphics_server
 description: 
 published: true
-date: 2022-04-21T03:55:48.754Z
+date: 2022-05-07T02:29:47.446Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:46.807Z
 ---
-
-
 
 ## Summary
 

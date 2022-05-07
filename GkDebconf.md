@@ -2,7 +2,7 @@
 title: GkDebconf
 description: 
 published: true
-date: 2022-04-21T03:35:25.999Z
+date: 2022-05-07T02:15:22.054Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:23.889Z

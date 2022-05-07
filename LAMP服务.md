@@ -2,13 +2,11 @@
 title: LAMP服务
 description: 
 published: true
-date: 2022-04-21T03:37:15.978Z
+date: 2022-05-07T02:16:43.151Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:13.061Z
 ---
-
-
 
 ##前言
 LAMP是Linux web服务器组合套装的缩写，分别是Apache+MySQL+PHP。

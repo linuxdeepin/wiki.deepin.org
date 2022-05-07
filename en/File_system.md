@@ -2,13 +2,11 @@
 title: File_system
 description: 
 published: true
-date: 2022-04-21T03:55:38.301Z
+date: 2022-05-07T02:29:39.970Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:35.697Z
 ---
-
-
 
 ## Summary
 

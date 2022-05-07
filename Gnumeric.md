@@ -2,7 +2,7 @@
 title: Gnumeric
 description: 
 published: true
-date: 2022-04-21T03:35:40.532Z
+date: 2022-05-07T02:15:32.158Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:38.519Z

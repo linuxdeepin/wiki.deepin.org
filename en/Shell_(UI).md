@@ -2,13 +2,11 @@
 title: Shell_(UI)
 description: 
 published: true
-date: 2022-04-21T03:57:16.154Z
+date: 2022-05-07T02:31:04.107Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:57:14.150Z
 ---
-
-
 
 ## Summary
 

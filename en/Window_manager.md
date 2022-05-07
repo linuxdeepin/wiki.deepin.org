@@ -2,13 +2,11 @@
 title: Window_manager
 description: 
 published: true
-date: 2022-04-21T03:57:48.712Z
+date: 2022-05-07T02:31:40.752Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:57:46.800Z
 ---
-
-
 
 ## Summary
 

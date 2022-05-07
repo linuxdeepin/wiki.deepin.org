@@ -2,7 +2,7 @@
 title: How_to_burn_Deepin_ISO_to_USB
 description: 
 published: true
-date: 2022-04-21T03:36:24.245Z
+date: 2022-05-07T02:16:05.021Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:22.274Z

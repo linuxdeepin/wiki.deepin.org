@@ -2,7 +2,7 @@
 title: Things_To_Know_Before_Translating
 description: 
 published: true
-date: 2022-04-21T03:43:23.751Z
+date: 2022-05-07T02:21:03.496Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:21.865Z

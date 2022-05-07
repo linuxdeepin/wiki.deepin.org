@@ -2,12 +2,11 @@
 title: 安装Net_core
 description: 
 published: true
-date: 2022-04-21T03:48:02.709Z
+date: 2022-05-07T02:24:16.598Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:48:00.119Z
 ---
-
 
 ## 安装.NET Core SDK
 开始安装之前，你需要卸载以前安装的.Net Core版本。

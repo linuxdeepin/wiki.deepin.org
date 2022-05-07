@@ -1,3 +1,13 @@
+---
+title: deb-package-rules
+description: 
+published: true
+date: 2022-05-07T02:33:31.269Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-27T08:32:57.146Z
+---
+
 # Debian发行版基础系列二: 详解 debian/rules(尘封归档篇) 
 
 一个通用的源码包可能使用如下方式编译安装:

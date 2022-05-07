@@ -2,7 +2,7 @@
 title: Mendeley
 description: 
 published: true
-date: 2022-04-21T03:38:20.743Z
+date: 2022-05-07T02:17:26.468Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:38:18.847Z

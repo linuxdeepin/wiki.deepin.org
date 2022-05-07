@@ -2,7 +2,7 @@
 title: Printers
 description: 
 published: true
-date: 2022-04-21T03:40:10.869Z
+date: 2022-05-07T02:18:47.056Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:08.880Z

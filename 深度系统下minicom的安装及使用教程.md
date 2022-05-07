@@ -2,7 +2,7 @@
 title: 深度系统下minicom的安装及使用教程
 description: 
 published: true
-date: 2022-05-05T15:07:53.424Z
+date: 2022-05-07T02:25:48.311Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:50:36.421Z

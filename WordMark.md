@@ -2,7 +2,7 @@
 title: WordMark
 description: 
 published: true
-date: 2022-04-21T03:44:57.062Z
+date: 2022-05-07T02:22:09.360Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:55.102Z

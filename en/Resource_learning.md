@@ -2,7 +2,7 @@
 title: Resource_learning
 description: 
 published: true
-date: 2022-04-21T03:57:02.007Z
+date: 2022-05-07T02:30:51.239Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:59.921Z

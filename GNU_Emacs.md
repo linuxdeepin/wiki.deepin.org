@@ -2,7 +2,7 @@
 title: GNU_Emacs
 description: 
 published: true
-date: 2022-04-21T03:34:42.726Z
+date: 2022-05-07T02:14:55.626Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:40.652Z

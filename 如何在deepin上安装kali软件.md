@@ -2,7 +2,7 @@
 title: 如何在deepin上安装kali软件
 description: 
 published: true
-date: 2022-05-05T16:54:04.858Z
+date: 2022-05-07T02:24:01.787Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:47:44.610Z

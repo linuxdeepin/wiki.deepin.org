@@ -2,7 +2,7 @@
 title: GFTP
 description: 
 published: true
-date: 2022-04-21T03:34:36.641Z
+date: 2022-05-07T02:14:53.618Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:34.573Z

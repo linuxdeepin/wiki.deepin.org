@@ -2,13 +2,11 @@
 title: Mobile_broadband
 description: 
 published: true
-date: 2022-04-21T03:56:12.324Z
+date: 2022-05-07T02:30:08.764Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:12.324Z
 ---
-
-
 
 ## Summary
 

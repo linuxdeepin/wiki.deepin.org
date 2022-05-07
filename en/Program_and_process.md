@@ -2,13 +2,11 @@
 title: Program_and_process
 description: 
 published: true
-date: 2022-04-21T03:56:49.930Z
+date: 2022-05-07T02:30:43.036Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:47.965Z
 ---
-
-
 
 ## Source code and program
 

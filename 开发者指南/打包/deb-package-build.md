@@ -1,3 +1,13 @@
+---
+title: deb-package-build
+description: 
+published: true
+date: 2022-05-07T02:33:29.161Z
+tags: 
+editor: markdown
+dateCreated: 2022-04-27T08:32:52.237Z
+---
+
 # Debian发行版基础系列一:DEB包与APT仓库基础(尘封归档篇)
 
 ## 准备开发环境

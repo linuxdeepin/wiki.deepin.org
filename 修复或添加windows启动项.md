@@ -2,7 +2,7 @@
 title: 修复或添加windows启动项
 description: 
 published: true
-date: 2022-05-05T15:48:40.383Z
+date: 2022-05-07T02:23:02.558Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:46:23.191Z

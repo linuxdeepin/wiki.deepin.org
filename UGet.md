@@ -2,7 +2,7 @@
 title: UGet
 description: 
 published: true
-date: 2022-04-21T03:43:40.949Z
+date: 2022-05-07T02:21:17.907Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:38.968Z

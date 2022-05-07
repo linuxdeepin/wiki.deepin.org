@@ -2,7 +2,7 @@
 title: GeoGebra
 description: 
 published: true
-date: 2022-04-21T03:35:19.745Z
+date: 2022-05-07T02:15:18.103Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:17.770Z

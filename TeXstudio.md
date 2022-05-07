@@ -2,7 +2,7 @@
 title: TeXstudio
 description: 
 published: true
-date: 2022-04-21T03:43:06.346Z
+date: 2022-05-07T02:20:53.236Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:04.272Z
