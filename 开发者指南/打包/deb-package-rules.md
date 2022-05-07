@@ -2,7 +2,7 @@
 title: deb-package-rules
 description: 
 published: true
-date: 2022-05-07T02:33:31.269Z
+date: 2022-05-07T13:43:21.800Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-27T08:32:57.146Z
@@ -58,7 +58,7 @@ install:
 clean:
         dh_auto_clean
 </pre>
-
+```
 
 即使使用各种dh命令来简化`debian/rules`的编写，对于维护众多软件包的发行版来说，编写`debian/rules`依然是重复机械的体力劳动，最新版本的 dh_make 会使用默认的`dh $@` 来进一步简化rules文件的编写
 
