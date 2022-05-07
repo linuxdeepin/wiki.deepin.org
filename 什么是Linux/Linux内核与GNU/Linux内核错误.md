@@ -2,20 +2,20 @@
 title: Linux内核错误
 description: 
 published: true
-date: 2022-05-07T02:33:06.678Z
+date: 2022-05-07T11:51:42.106Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:32.020Z
 ---
 
-#简介
+# 简介
 
 内核错误(Kernel panic)是指操作系统在监测到内部的致命错误，并无法安全处理此错误时采取的动作。这个概念主要被限定在Unix以及类Unix系统中；对于Microsoft Windows系统，等同的概念通常被称为蓝屏死机。
 
 操作系统内核中处理Kernel panic的子程序（在AT&T派生类以及BSD类Unix中，通常称为panic()）通常被设计用来向控制台输出错误信息，向磁盘保存一份内核内存的转储，以便事后的调试，然后等待系统被手动重新引导，或自动重新引导。该程序提供的技术性信息通常是用来帮助系统管理员或者软件开发者诊断问题的。
 操作系统试图读写无效或不允许的内存地址是导致内核错误的一个常见原因。内核错误也有可能在遇到硬件错误或操作系统BUG时发生。在许多情况中，操作系统可以在内存访问违例发生时继续运行。然而，系统处于不稳定状态时，操作系统通常会停止工作以避免造成破坏安全和数据损坏的风险，并提供错误的诊断信息。
 
-#问题分析
+# 问题分析
 
 kernel panic错误表现 kernel panic 主要有以下几个出错提示：
 
@@ -158,7 +158,7 @@ Kernel panic问题如何调试 Linux kernel panic是很难定位和排查的重�
 
 
 
-#案例分析
+# 案例分析
 
     Kernel Panic -- not syncing: attempted to kill idle task
 
@@ -177,7 +177,7 @@ Kernel panic问题如何调试 Linux kernel panic是很难定位和排查的重�
     Kernel Panic -- not syncing: attempted to kill init
 
 这一种情况的表现是系统的极不稳定。或者进入不了系统，syslog停止于kernel panic；或者重启后可以进入系统，但不久就死机，键盘上的Caps-Lock与Scroll-Lock两个灯在闪。这种错误与上面那个有相同的成因，解决方法也相同。
-#相关链接
+# 相关链接
 [维基百科:内核错误](http://zh.wikipedia.org/wiki/%E5%86%85%E6%A0%B8%E9%94%99%E8%AF%AF#Linux_kernel_oops)
 
 [Linux kernel panic解决方法](http://blog.csdn.net/willand1981/article/details/5663356)
