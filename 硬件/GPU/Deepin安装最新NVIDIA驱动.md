@@ -2,7 +2,7 @@
 title: Deepin安装最新NVIDIA驱动
 description: 
 published: true
-date: 2022-05-07T02:13:37.900Z
+date: 2022-05-08T14:10:05.896Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:31.252Z
@@ -24,9 +24,9 @@ note: 1. 建议优先使用商店里的深度显卡驱动管理器安装NVIDIA�
 注解：这里介绍的方法是从官方仓库中找到编译好的驱动来安装的。
 
 第一步：安装驱动
-
+```
     sudo apt-get install bumblebee-nvidia nvidia-driver nvidia-settings
-
+```
 注解：nvidia-driver对应仓库里最新的nvidia驱动程序。现在软件仓库里面只有367,340,304三个版本，分别对应 nvidia-driver, nvidia-legacy-340xx-driver, nvidia-legacy-304xx-driver。
 
 目前linux下有三种optimus的实现：
@@ -40,19 +40,19 @@ ubuntu采用的是第二种，debian只打包了第三种bumblebee。ubuntu的nv
 两种实现其实各有利弊，debian当前也没有打包prime的打算打包方式不同，debian这边没有打包适配prime的驱动，加prime支持要改东西太多，所以就只用大黄蜂了。
 
 第二步：检查驱动是否安装成功
-
+```
     sudo apt-get install mesa-utils
-
+```
 注解：安装mesa-utils这个包，用来显示系统的glx相关信息。
-
+```
     optirun glxinfo|grep NVIDIA
-
+```
 注解：用optirun调用独显输出系统的glxinfo来查看驱动是否安装成功。如果打开nvidia-settings时提示“You do not appear to be using the NVIDIA X driver”,在terminal中运行如下命令optirun -b none nvidia-settings -c :8
 
 测试 Bumblebee 是否支持你的 Optimus 系统:
-
+```
     optirun glxgears -info
-
+```
 如果在终端中看到一个关于你的 Nvidia 的提示，恭喜你，Bumblebee 和 Optimus 已经开始工作了。
 
 如何使用bumblebeek开启独立显卡玩游戏：
