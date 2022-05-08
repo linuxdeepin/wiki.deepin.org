@@ -2,13 +2,13 @@
 title: U盘安装
 description: 
 published: true
-date: 2022-05-07T02:33:46.894Z
+date: 2022-05-08T14:24:02.102Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:51.004Z
 ---
 
-##简介
+## 简介
 Deepin Linux U盘安装教程
 本经验有社区用户(cyx980622)分享
 [原地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=41972&extra=)
@@ -24,7 +24,7 @@ http://yunpan.cn/c6WJUJ8cSUSk9 （提取码：f2d3）
 via @youyou2011 
 感谢超级版主youyou2011的分享
 
-##安装方法
+## 安装方法
 
 先在官网上下载Deepin的ISO镜像，下载完成后比对一下MD5校验码（其实要不是写教程，我也不比对）
   
