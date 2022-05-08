@@ -2,23 +2,23 @@
 title: Samba服务
 description: 
 published: true
-date: 2022-05-07T02:34:06.926Z
+date: 2022-05-08T07:59:37.379Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:23.991Z
 ---
 
-##简介
+## 简介
 
 Samba，是种用来让UNIX系列的操作系统与微软Windows操作系统的SMB/CIFS（Server Message Block/Common Internet File System）网络协定做连结的自由软件。
 
 目前的版本（v3）不仅可存取及分享SMB的资料夹及打印机，本身还可以整合入Windows Server的网域，扮演为网域控制站（Domain Controller）以及加入Active Directory成员。简而言之，此软件在Windows与UNIX系列OS之间搭起一座桥梁，让两者的资源可互通有无。
 
-##历史
+## 历史
 
 安德鲁·垂鸠（Andrew Tridgell）于1992年在澳洲国立大学（ANU）开发了第一版的Samba Unix软件。
 
-##功能
+## 功能
 
 Samba是许多服务以及协议的实现，其包括TCP/IP上的NetBIOS（NBT）、SMB、CIFS（SMB的增强版本）、 DCE/RPC或者更具体来说MSRPC（網絡鄰居协议套件）、一种 WINS服务器（也被称作NetBIOS Name Server（NBNS））、NT 域协议套件（包括NT Domain Logons、Secure Accounts Manager（SAM）数据库、Local Security Authority（LSA）服务、NT-style打印服务（SPOOLSS）、NTLM以及近来出现的包括一种改进的Kerberos协议与改进的轻型目录访问协议（LDAP）在内的Active Directory Logon服务）。以上这些服务以及协议经常被错误地归类为NetBIOS或者SMB。
 
@@ -26,7 +26,7 @@ Samba也能够用于共享打印机。
 
 Samba能够为选定的Unix目录（包括所有子目录）建立网络共享。该功能使得Windows用户可以像访问普通Windows下的文件夹那样来通过网络访问这些Unix目录。
 
-##相关软件
+## 相关软件
 - Samba TNG：Samba的一个分支，其在NT域服务关键部分的结构及实现具有明显的不同。
 - LinNeighborhood
 - LDAP Account Manager
@@ -83,7 +83,7 @@ Samba能够为选定的Unix目录（包括所有子目录）建立网络共享�
 
 如果能看到主机内的共享文件，说明Samba服务成功启用。更多设置请看相关链接
 
-##相关链接
+## 相关链接
 
 [官方文档](http://www.samba.org/samba/docs/)
 
