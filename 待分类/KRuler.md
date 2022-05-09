@@ -24,8 +24,6 @@ KRuler是一款制定屏幕分辨率规则和颜色测量的工具。其界面�
 
 [http://packages.deepin.com/deepin/pool/main/k/kruler/](http://packages.deepin.com/deepin/pool/main/k/kruler/)
 
-
 ## 常见问题
-
 
 ## 相关链接

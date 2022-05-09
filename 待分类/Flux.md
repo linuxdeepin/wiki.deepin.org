@@ -24,8 +24,6 @@ f.lux是一款自动调整屏幕色温亮度的应用，可以预设一个适合
 
 [http://packages.deepin.com/deepin/pool/contrib/f/fluxgui/](http://packages.deepin.com/deepin/pool/contrib/f/fluxgui/)
 
-
 ## 常见问题
-
 
 ## 相关链接

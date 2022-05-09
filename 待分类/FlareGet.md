@@ -24,9 +24,7 @@ FlareGet是一个跨平台的下载管理器和加速器，它支持多个线程
 
 [http://packages.deepin.com/deepin/pool/non-free/f/flareget/](http://packages.deepin.com/deepin/pool/non-free/f/flareget/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,8 +24,6 @@ Disks是一款磁盘管理工具，它可以读取硬盘、光驱、U盘等信�
 
 [http://packages.deepin.com/deepin/pool/main/g/gnome-disk-utility/](http://packages.deepin.com/deepin/pool/main/g/gnome-disk-utility/)
 
-
 ## 常见问题
-
 
 ## 相关链接

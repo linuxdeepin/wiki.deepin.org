@@ -24,11 +24,10 @@ Deepin 官方的应用仓库已经集成了 docker，但不是类似于 docker-c
 
 2. 安装密钥管理与下载相关的工具
 
-``` 
+```
  // 密钥管理（add-apt-repository ca-certificates 等）与下载（curl 等）相关的工具
 sudo apt-get install apt-transport-https ca-certificates curl python-software-properties software-properties-common
 ```
-
 
 3. 下载并安装密钥
 
@@ -37,6 +36,7 @@ sudo apt-get install apt-transport-https ca-certificates curl python-software-pr
 国内源可选用[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/docker-ce/)或[中科大开源镜像站](http://mirrors.ustc.edu.cn)，示例选用了中科大的。
 
 为了确认所下载软件包的合法性，需要添加软件源的 GPG 密钥。
+
 ```
 curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg | sudo apt-key add -
 // 官方源，能否成功可能需要看运气。
@@ -48,6 +48,7 @@ curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/debian/gpg | sudo apt-key
 ```sudo apt-key fingerprint 0EBFCD88```
 
 如果安装成功，会出现如下内容：
+
 ```
   pub   4096R/0EBFCD88 2017-02-22              Key fingerprint = 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88  
   uid     Docker Release (CE deb) <docker@docker.com>  
@@ -74,12 +75,14 @@ sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/
 
 a). 对于 deepin 15.5，我操作上面的命令得到 debain 版本是 8.0，debian 8.0 的代号是 **jessie**，把上面的 wheezy 替换成 jessie，就可以正常安装 docker 了。
 
-b). deepin 15.9.2 基于 debian 9.0 , debian 9.0 的代号为 **stretch**, 所以 deepin 15.9.2 上完整的添加信息为: 
+b). deepin 15.9.2 基于 debian 9.0 , debian 9.0 的代号为 **stretch**, 所以 deepin 15.9.2 上完整的添加信息为:
+
 ```
 sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian stretch stable"
 ```
 
 c) 对于Deepin 20，使用的是Debian 10 （Buster），所以对应信息：
+
 ```
 sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian buster stable"
 ```
@@ -94,7 +97,6 @@ sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/
 
 ```sudo apt-get install docker-ce```
 
-
 ~~在安装完后启动报错，查看 docker.service 的 unit 文件，路径为 /lib/systemd/system/docker.service，把 ExecStart=/usr/bin/dockerd -H fd:// 修改为 ExecStart=/usr/bin/dockerd，就能正常启动 docker 了~~
 
 **Note：**经测试，在 Deepin15.9 中已不需要做修改可直接启动 docker-ce
@@ -107,19 +109,22 @@ sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/
 
 ```docker version```
 
-10. 验证 docker 是否被正确安装并且能够正常使用   
+10. 验证 docker 是否被正确安装并且能够正常使用
 
 ```
 sudo docker run hello-world
 ```
+
 如果能够正常下载，并能够正常执行，则说明 docker 正常安装。
 
 11. 让普通用户也能运行 docker
 
 默认情况下，普通用户运行 docker 会有权限问题，每次运行都得加 sudo，很麻烦。把你的账号加到 docker 用户组后就不用加 sudo 了：
+
 ```
 sudo usermod -aG docker $USER
 ```
+
 然后注销用户重新登录即可。
 
 ## 更换国内的 docker 加速器
@@ -162,6 +167,7 @@ sudo nano /etc/docker/daemon.json
   "registry-mirrors": ["https://registry.docker-cn.com"]
 }
 ```
+
 2. 重启 docker 服务
 
 ```
@@ -171,6 +177,7 @@ sudo service docker restart
 ## 禁止开机自启
 
 默认情况下 docker 是开机自启的，如果我们想禁用开机自启，可以通过安装 chkconfig 命令来管理 Deepin 自启项：
+
 ```
 # 安装chkconfig
 sudo apt-get install chkconfig
@@ -178,6 +185,5 @@ sudo apt-get install chkconfig
 # 移除自启
 sudo chkconfig --del docker
 ```
-
 
 最后：Deepin 的这个文件格式真的是 Markdown 么？改得特别难受，是不是有 bug...

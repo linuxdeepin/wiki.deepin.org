@@ -12,15 +12,13 @@ dateCreated: 2022-04-21T03:56:20.131Z
 
 For details on how to install deepin, please refer to the [Official Installation Guide](https://www.deepin.org/en/installation/) and the [Deepin Installer](https://www.deepin.org/en/original/deepin-installer/) project.
 
-
 ## Download
 
 ### Official Image
 
-Visit the Deepin Community [Download Page](https://www.deepin.org/en/download/) to download the latest  deepin ISO/Live System. 
+Visit the Deepin Community [Download Page](https://www.deepin.org/en/download/) to download the latest  deepin ISO/Live System.
 
-> Note: In order to better allocate development resources, from deepin 15.4 version on a 32 bit ISO will no longer be provided. Per the deepin website, custom 32 bit images are available as a paid commercial support option (contact: tech@deepin.com). 
-
+> Note: In order to better allocate development resources, from deepin 15.4 version on a 32 bit ISO will no longer be provided. Per the deepin website, custom 32 bit images are available as a paid commercial support option (contact: tech@deepin.com).
 
 ### MD5 check
 
@@ -32,20 +30,17 @@ After downloading the deepin image, you need to verify it. Unofficial or incompl
 
 > Note: deepin-15.9-amd64.iso is the filename of the current ISO
 
-
 ## Make the bootable disk
 
 ### Download the Boot Maker tool
 
 Visit the Deepin Community [Deepin Boot Maker](https://www.deepin.org/en/original/deepin-boot-maker/) page to download the Deepin Boot Maker.
 
-
 1. Create a bootable disk using the [Deepin Boot Maker](https://www.deepin.org/en/original/deepin-boot-maker/) developed by the Deepin Technology team.
 
 2. Plug the USB disk into the computer, run the Deepin Boot Maker.
 
 3. Select deepin ISO image file to start making the bootable disk, and do not remove the USB disk during the process, When completed, please restart the computer.
-
 
 ### Cautions
 
@@ -59,9 +54,7 @@ Visit the Deepin Community [Deepin Boot Maker](https://www.deepin.org/en/origina
 
 If your computer's motherboard is in UEFI mode, please turn off Secure Boot in the motherboard settings, then restart the computer and press the key in the BIOS/UEFI interface which indicates "change boot order".
 
-
 For example, the shortcut keys might be:
-
 
 * Desktop: Delete key
 * Notebook: F2 key
@@ -69,9 +62,7 @@ For example, the shortcut keys might be:
 * Lenovo notebooks: F12 key
 * Apple computers: C key
 
-
 For details on how to install deepin, see [How to install](https://www.deepin.org/en/installation/).
-
 
 ## When The installation is completed
 
@@ -80,9 +71,11 @@ According to the installer interface prompts, enter and select the corresponding
 > Note: If the installation fails, it will show error info. You can scan QR code on mobile phones to send the error log to servers.
 
 ## Hardware compatibility
+
 Check operability of hardware and register it in the Deepin database by [[Hardware Probe]].
 
 ## Common Problem
+
 ### Install deepin in a multiple hard disk environment
 
 If the motherboard is using the old boot mode (Legacy BIOS), rather than UEFI mode to boot the system, it cannot find the system after installed deepin. Here is a example:
@@ -90,5 +83,6 @@ If the motherboard is using the old boot mode (Legacy BIOS), rather than UEFI mo
 /dev/sda has installed Windows system, you can boot and use; and you have installed deepin on /dev/sdb. If you install the system, restart the computer, and boot directly into the windows system, That means you have encountered the problem above.
 
 There are several solutions:
+
 * In BIOS, modify the hard disk boot priority, boot /dev/sdb first (recommended)
 * Reinstall the deepin system, in the partition page of the installation interface, switch to the "Advanced" mode, in the bottom left corner of the advanced partition page, you can modify the grub installation location to /dev/sda (the first hard disk)

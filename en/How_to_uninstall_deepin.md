@@ -10,9 +10,7 @@ dateCreated: 2022-04-21T03:55:52.552Z
 
 This page provides a quick overview of how to uninstall deepin. If you have any suggestions for us, please go to [Deepin Forum](https://bbs.deepin.org/forum.php?mod=forumdisplay&fid=70) for feedback.
 
-
 ## Uninstall deepin on Windows
-
 
 If you use native installation, you can uninstall deepin in the following ways.
 
@@ -20,11 +18,7 @@ If you use native installation, you can uninstall deepin in the following ways.
 
 * If you are in the BIOS + MBR environment, please run [NTBootAutofix](http://pan.baidu.com/s/1c0T9tOO) under Windows, after repairing Windows system startup items, go to Computer -> Management Tools -> Disk Management, and delete the Linux system partition.
 
-
-
-
 ## Uninstall Linux on deepin
-
 
 If you use native installation, you can uninstall deepin in the following ways.
 
@@ -34,19 +28,15 @@ If you use native installation, you can uninstall deepin in the following ways.
 
 2. If prompted to have "no syslinux / mbr.bin file or folder", execute the following command.
 
-
  `sudo apt-get install syslinux`
 
 3. Restart the computer and enter Windows system.
 
 4. Enter Computer -> Management Tools -> Disk Management, delete the Linux system partition to uninstall deepin.
 
-
-
 ## uninstall the deepin under Wubi
 
 If you use Experience Install, you can uninstall deepin in the following ways.
-
 
 1. Enter Windows system.
 

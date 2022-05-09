@@ -24,8 +24,6 @@ Redshift是一款显示器色温自动调整应用。它能根据你的环境来
 
 [http://packages.deepin.com/deepin/pool/main/r/redshift/](http://packages.deepin.com/deepin/pool/main/r/redshift/)
 
-
 ## 常见问题
-
 
 ## 相关链接

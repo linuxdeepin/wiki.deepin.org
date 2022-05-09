@@ -24,9 +24,7 @@ GNU TeXmacs是一个优秀的科学文档排版软件，您可以不通过编译
 
 [http://packages.deepin.com/deepin/pool/main/t/texmacs/](http://packages.deepin.com/deepin/pool/main/t/texmacs/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,8 +24,6 @@ Bluefish是一款为熟练的Web设计员和程序员而设的编辑器，UI设�
 
 [http://packages.deepin.com/deepin/pool/main/b/bluefish/](http://packages.deepin.com/deepin/pool/main/b/bluefish/)
 
-
 ## 常见问题
-
 
 ## 相关链接

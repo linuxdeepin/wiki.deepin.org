@@ -52,7 +52,7 @@ A modern (desktop) computer generally consists of following components:
 
 * [Optical Disk Driver](Optical_Disk_Driver)
 
-* [Hard Disk ](Hard_Disk)
+* [Hard Disk](Hard_Disk)
 
 * [Keyboard](Keyboard)
 
@@ -66,7 +66,7 @@ In Linux, each device is regarded as a file. For example, the legacy hard disk d
 
 * fd0, fd1, ... (for floppy disks)
 
-*  lp0, lp1, ... (for printers using parallel interface)
+* lp0, lp1, ... (for printers using parallel interface)
 
 * eth0, eth1, ... (for Ethernet cards)
 

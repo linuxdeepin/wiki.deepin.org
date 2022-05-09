@@ -24,8 +24,6 @@ QElectroTech是一款电路图绘制软件，旨在帮助您设计电气原理�
 
 [http://packages.deepin.com/deepin/pool/main/q/qelectrotech/](http://packages.deepin.com/deepin/pool/main/q/qelectrotech/)
 
-
 ## 常见问题
-
 
 ## 相关链接

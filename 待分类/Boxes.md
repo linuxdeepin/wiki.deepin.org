@@ -24,8 +24,6 @@ Boxes是一个桌面虚拟化管理工具，能够与其他系统（可以是虚
 
 [http://packages.deepin.com/deepin/pool/main/b/boxes/](http://packages.deepin.com/deepin/pool/main/b/boxes/)
 
-
 ## 常见问题
-
 
 ## 相关链接

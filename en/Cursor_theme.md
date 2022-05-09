@@ -42,7 +42,6 @@ Open file manager with root permission
 
 and remove the files introduced by the theme during installation.
 
-
 ## Reference
 
 [鼠标主题资源下载](http://gnome-look.org/index.php?xcontentmode=36)

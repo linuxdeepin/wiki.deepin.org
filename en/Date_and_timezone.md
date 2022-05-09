@@ -94,7 +94,7 @@ To set the hardware clock (using local time) and the system clock, execute in te
 To set the system time:
 
         timedatectl set-time "2012-10-30 18:17:16"
-       
+
 ##### date
 
 Syntax:
@@ -302,7 +302,6 @@ To seen if NTP service is doing synchronization:
 To view the synchronization log:
 
         sudo tail -f /var/log/syslog
-
 
 ## References
 

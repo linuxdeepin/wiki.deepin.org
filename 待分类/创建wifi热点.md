@@ -8,9 +8,10 @@ editor: markdown
 dateCreated: 2022-04-21T03:46:49.270Z
 ---
 
-##采用github上的create_ap项目，此方法简单省事。
+## 采用github上的create_ap项目，此方法简单省事。
 
-### 如何安装：
+### 如何安装
+
 如果安装了git,克隆安装create_ap
 
     git clone https://github.com/oblique/create_ap 
@@ -21,7 +22,7 @@ dateCreated: 2022-04-21T03:46:49.270Z
 
     sudo apt-get install git
 
-### 如何使用：
+### 如何使用
 
 此程序依赖hostapd,iptables,dnsmasq，如果没有安装，请先安装
 
@@ -43,10 +44,9 @@ dateCreated: 2022-04-21T03:46:49.270Z
 
     make uninstall
 
+## 使用ap-hotspot,此方法需要添加ppa源
 
-## 使用ap-hotspot,此方法需要添加ppa源。
-
-### 如何安装：
+### 如何安装
 
 首先添加ap-hotspot的ppa源
 
@@ -61,7 +61,7 @@ dateCreated: 2022-04-21T03:46:49.270Z
     sudo apt-get update
     sudo apt-get install ap-hotspot
 
-### 如何使用：
+### 如何使用
 
 检查接口并配置热点
 
@@ -71,7 +71,7 @@ dateCreated: 2022-04-21T03:46:49.270Z
 
     sudo ap-hotspot start
 
-### 如何卸载：
+### 如何卸载
 
 终端执行命令
 

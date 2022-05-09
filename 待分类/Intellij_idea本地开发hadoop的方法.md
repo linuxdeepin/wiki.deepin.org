@@ -14,7 +14,7 @@ dateCreated: 2022-04-21T03:36:33.921Z
 
 ##### 参考
 
-+ 文章参考：http://blog.csdn.net/programmer_wei/article/details/45286749
++ 文章参考：<http://blog.csdn.net/programmer_wei/article/details/45286749>
 
 ## 步骤
 
@@ -24,7 +24,7 @@ dateCreated: 2022-04-21T03:36:33.921Z
 
 ### 下载
 
-+ 在官网(http://hadoop.apache.org/releases.html)上下载hadoop，不需要进行环境变量的配置，下载解压到相应目录即可
++ 在官网(<http://hadoop.apache.org/releases.html)上下载hadoop>，不需要进行环境变量的配置，下载解压到相应目录即可
 
 ### 新建项目
 
@@ -38,9 +38,9 @@ dateCreated: 2022-04-21T03:36:33.921Z
 ### 添加Hadoop依赖
 
 + 这是重点，【Dependencies】下，添加你加压出来的Hadoop的jar包：
-	1. 点击右侧的【+】，选择第一项（1 JARS or directories）
-	2. 添加\~/softwares/hadoop-2.7.4/share/hadoop/common，\~/softwares/hadoop-2.7.4/share/hadoop/common/lib，\~/softwares/hadoop-2.7.4/share/hadoop/hdfs，\~/softwares/hadoop-2.7.4/share/hadoop/yarn，\~/softwares/hadoop-2.7.4/share/hadoop/mapreduce；
-	3. 点击【Apply】
+ 1. 点击右侧的【+】，选择第一项（1 JARS or directories）
+ 2. 添加\~/softwares/hadoop-2.7.4/share/hadoop/common，\~/softwares/hadoop-2.7.4/share/hadoop/common/lib，\~/softwares/hadoop-2.7.4/share/hadoop/hdfs，\~/softwares/hadoop-2.7.4/share/hadoop/yarn，\~/softwares/hadoop-2.7.4/share/hadoop/mapreduce；
+ 3. 点击【Apply】
 
 ### 添加Artifacts
 
@@ -55,6 +55,7 @@ dateCreated: 2022-04-21T03:36:33.921Z
 + 在左侧的src目录下，添加下面的几个Java类
 
 ### 源码
+
 ```java
 // MaxTemperatureMapper类：
 import java.io.IOException;

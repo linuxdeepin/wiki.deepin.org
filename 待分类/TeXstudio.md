@@ -24,9 +24,7 @@ TeXstudio是一个编写LaTeX文档的集成开发环境，它具有拼写和语
 
 [http://packages.deepin.com/deepin/pool/main/t/texstudio/](http://packages.deepin.com/deepin/pool/main/t/texstudio/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

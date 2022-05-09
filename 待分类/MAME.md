@@ -28,9 +28,7 @@ MAME是一个模拟器，也是国内玩家最熟悉和最常使用的街机模�
 
 [http://packages.deepin.com/deepin/pool/non-free/m/mame/](http://packages.deepin.com/deepin/pool/non-free/m/mame/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

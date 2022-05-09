@@ -24,8 +24,6 @@ wxMEdit是一个跨平台的文本/十六进制编辑器，它具有书签管理
 
 [http://packages.deepin.com/deepin/pool/main/w/wxmedit](http://packages.deepin.com/deepin/pool/main/w/wxmedit)
 
-
 ## 常见问题
-
 
 ## 相关链接

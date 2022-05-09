@@ -10,8 +10,6 @@ dateCreated: 2022-04-21T03:39:32.364Z
 
 ## 简介
 
-
-
 ## 安装
 
 `sudo apt-get install owncloud`
@@ -24,9 +22,7 @@ dateCreated: 2022-04-21T03:39:32.364Z
 
 [http://packages.deepin.com/deepin/pool/main/o/owncloud/](http://packages.deepin.com/deepin/pool/main/o/owncloud/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

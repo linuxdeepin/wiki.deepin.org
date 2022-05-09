@@ -24,9 +24,7 @@ Printers（打印机）是一款用于配置系统打印机服务器的工具。
 
 [http://packages.deepin.com/deepin/pool/main/s/system-config-printer/](http://packages.deepin.com/deepin/pool/main/s/system-config-printer/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

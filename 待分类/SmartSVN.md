@@ -24,9 +24,7 @@ SmartSVN是一个图形化的SVN客户端，其最大的优势就是操作非常
 
 [http://packages.deepin.com/deepin/pool/main/s/smartsvn/](http://packages.deepin.com/deepin/pool/main/s/smartsvn/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ GanttProject是一款项目计划和管理图绘制应用。可让你轻松绘�
 
 [http://packages.deepin.com/deepin/pool/non-free/g/ganttproject/](http://packages.deepin.com/deepin/pool/non-free/g/ganttproject/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

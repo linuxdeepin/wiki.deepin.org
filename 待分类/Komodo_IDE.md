@@ -24,9 +24,7 @@ Komodo IDE是一款支持多种动态编程语言的集成开发环境，它提�
 
 [http://packages.deepin.com/deepin/pool/main/k/komodo-edit/](http://packages.deepin.com/deepin/pool/main/k/komodo-edit/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ Genymotion是一款专业的虚拟模拟器，可以在您的电脑上运行安�
 
 [http://packages.deepin.com/deepin/pool/contrib/g/genymotion/](http://packages.deepin.com/deepin/pool/contrib/g/genymotion/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

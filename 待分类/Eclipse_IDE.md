@@ -82,9 +82,7 @@ sudo apt-get remove eclipse-scout
 
 [http://packages.deepin.com/deepin/pool/main/e/eclipse-scout/](http://packages.deepin.com/deepin/pool/main/e/eclipse-scout/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

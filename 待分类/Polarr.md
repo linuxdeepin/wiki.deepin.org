@@ -24,9 +24,7 @@ Polarr（泼辣修图）是一个智能图片处理工具，具有色温调整�
 
 [http://packages.deepin.com/deepin/pool/main/p/polarr/](http://packages.deepin.com/deepin/pool/main/p/polarr/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ XnConvert是一款多功能图像批处理工具，可以轻松的实现图像�
 
 [http://packages.deepin.com/deepin/pool/main/x/xnconvert/](http://packages.deepin.com/deepin/pool/main/x/xnconvert/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ GoldenDict是一款词典软件，支持多种词典文件格式。GoldenDict可
 
 [http://packages.deepin.com/deepin/pool/main/g/goldendict/](http://packages.deepin.com/deepin/pool/main/g/goldendict/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

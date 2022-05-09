@@ -9,15 +9,17 @@ dateCreated: 2022-04-21T03:47:44.610Z
 ---
 
 ## 简介
+
 本经验由深度用户(geange)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=136057&extra=)
 由deepin用户ExplosiveBattery补充
 
 ## 正文
-相必有些人会知道一个项目，专门为debian或者ubuntu安装来自于kali的软件katoolin（ExplosiveBattery推荐使用katoolin，https://github.com/LionSec/katoolin，因为这个项目会有人维持着更新）
+
+相必有些人会知道一个项目，专门为debian或者ubuntu安装来自于kali的软件katoolin（ExplosiveBattery推荐使用katoolin，<https://github.com/LionSec/katoolin>，因为这个项目会有人维持着更新）
 
 我也有尝试过使用这个软件，但是用python写的一个小脚本让我觉得它的界面实在是不太好看，所以参考了katoolin项目的代码后，我用bash重写这个项目。加上了bash中whiptail，让界面更加好看（话说好不好看也是看个人吧）
 
-先贴katoolin一下项目的地址吧 https://github.com/geange/kaliTools
+先贴katoolin一下项目的地址吧 <https://github.com/geange/kaliTools>
 这个项目是deepin linux上进行的（不得不说deepin这个国产linux在图形界面做的相当不错，以至于我都抛弃了习惯的ubuntu）。
 
 如何使用
@@ -40,4 +42,4 @@ dateCreated: 2022-04-21T03:47:44.610Z
 
 我的项目地址
 
-https://github.com/geange/kaliTools
+<https://github.com/geange/kaliTools>

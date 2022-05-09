@@ -24,8 +24,6 @@ UNetbootin是一个跨平台制作启动盘的工具，能够将Linux操作系�
 
 [http://packages.deepin.com/deepin/pool/main/u/unetbootin/](http://packages.deepin.com/deepin/pool/main/u/unetbootin/)
 
-
 ## 常见问题
-
 
 ## 相关链接

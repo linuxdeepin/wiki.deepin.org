@@ -24,8 +24,6 @@ LuckyBackup是一个文件备份和同步工具，图形化界面，操作简单
 
 [http://packages.deepin.com/deepin/pool/main/l/luckybackup/](http://packages.deepin.com/deepin/pool/main/l/luckybackup/)
 
-
 ## 常见问题
-
 
 ## 相关链接

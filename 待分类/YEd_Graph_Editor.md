@@ -24,9 +24,7 @@ yEd Graph Editor是一款流程图绘制工具，可以很方便的创建流程�
 
 [http://packages.deepin.com/deepin/pool/contrib/y/yed/](http://packages.deepin.com/deepin/pool/contrib/y/yed/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

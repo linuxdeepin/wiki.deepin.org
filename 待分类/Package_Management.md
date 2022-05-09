@@ -8,35 +8,39 @@ editor: markdown
 dateCreated: 2022-04-21T03:39:41.051Z
 ---
 
-#  **Main tools**
+# **Main tools**
 
--  Apt - The main package management tools
--  aptitude - CLI and ncurses front end for Apt (recommended)
--  Synaptic - Graphical front end for Apt (recommended)
--  apt-get - CLI Apt package handling utility
--  dpkg – Debian package file installer
+- Apt - The main package management tools
+- aptitude - CLI and ncurses front end for Apt (recommended)
+- Synaptic - Graphical front end for Apt (recommended)
+- apt-get - CLI Apt package handling utility
+- dpkg – Debian package file installer
 
 ## **dpkg**
 
 dpkg is a medium-level package manager for Debian. It's also used in Deepin Operating System.
 
-###  Functions
--  Install or manage a single software package
--  Upgrade software suite
--  Install the application security patch 
+### Functions
 
-###  Why "medium-level"?
--  There's dpkg-deb, which performs lower-level actions on .deb (binary) packages, such as reading the control information and directly extracting the contained files.
--  dpkg checks dependencies and will refuse to install a package whose dependencies aren't met, but it won't help you find and install those dependencies. You need a higher-level tool (e.g. aptitude, apt-get or dselect) for that.
+- Install or manage a single software package
+- Upgrade software suite
+- Install the application security patch
 
-## **APT** 
-It's a set of tools for managing Debian packages, and therefore the applications installed on your system. 
+### Why "medium-level"?
+
+- There's dpkg-deb, which performs lower-level actions on .deb (binary) packages, such as reading the control information and directly extracting the contained files.
+- dpkg checks dependencies and will refuse to install a package whose dependencies aren't met, but it won't help you find and install those dependencies. You need a higher-level tool (e.g. aptitude, apt-get or dselect) for that.
+
+## **APT**
+
+It's a set of tools for managing Debian packages, and therefore the applications installed on your system.
 
 ### **Functions**
--  Install applications
--  Remove applications
--  Keep your applications up to date
--  and much more...
+
+- Install applications
+- Remove applications
+- Keep your applications up to date
+- and much more...
 
 APT resolves dependency problems and retrieves requested packages from designated package repositories. APT delegates the actual installation and removal of packages to dpkg. APT is primarily used by commandline tools, but there are many GUI tools to let you use APT without having to touch the command line.
 tools like aptitude can interact with APT via both commandline and TUI interfaces.
@@ -44,6 +48,7 @@ tools like aptitude can interact with APT via both commandline and TUI interface
 # **Commands**
 
 ## dpkg Commands
+
 dpkg命令一般需要root权限执行，所以一般跟着sudo命令 例如: sudo dpkg xxxx
 格式：
     dpkg [<选项> ...] <命令>
@@ -59,8 +64,8 @@ dpkg命令一般需要root权限执行，所以一般跟着sudo命令 例如: su
     dpkg -L package ##列出软件包中的所有文件。
     dpkg –force-all –purge packagename ##有些软件很难卸载，而且还阻止了别的软件的应用，就可以用这个，不过有点冒险。
 
-
 ## apt commands
+
     apt-get:智能的解决软件包的依赖关系，方便软件的安装和升级（最新版只用apt，去掉了-get）
     apt-cache:查询apt的二进制软件包缓存文件
     apt-file:软件包查找工具，可以查到软件包所含的文件和安装的位置
@@ -96,6 +101,7 @@ dpkg命令一般需要root权限执行，所以一般跟着sudo命令 例如: su
     apt-file update  ##更新软件包的文件库，第一次使用或apt-get update后都需运行一次。
     apt-file search  package_name ## 查找包含特定文件的软件包（不一定是已安装的），这些文件的文件名中含有指定的字符串。  
     apt-file list package_name  ##显示该软件包的文件。
+
 ## aptitude命令
 
 aptitude 与 apt-get 一样，是 Debian 及其衍生系统中功能极其强大的包管理工具。
@@ -103,7 +109,7 @@ aptitude 与 apt-get 一样，是 Debian 及其衍生系统中功能极其强大
 aptitude命令一般也需要root权限执行，所以一般跟着sudo命令 例如: sudo aptitude xxxx
 格式：
     aptitude [-S 文件名] [-u|-i]
-    aptitude [选项] <动作> ...动作 
+    aptitude [选项] <动作> ...动作
     (如果未指定，aptitude 将进入交互模式)：
     aptitude install <pkgname>   ##安装/升级软件包
     aptitude remove <pkgname>   ##卸载软件包
@@ -116,7 +122,7 @@ aptitude命令一般也需要root权限执行，所以一般跟着sudo命令 例
     aptitude show   ##显示一个软件包的详细信息
     aptitude clean  ##删除已下载的软件包文件
     aptitude autoclean  ##删除旧的已下载软件包文件
-    aptitude download   ##下载软件包的 .deb 文件 
+    aptitude download   ##下载软件包的 .deb 文件
     aptitude reinstall    ##下载并(可能)重新安装一个现在已经安装了的软件包
     aptitude --help   ##查看更多关于aptitue的用法
 
@@ -238,7 +244,7 @@ sudo apt-get update
     sudo rm /var/lib/apt/lists/partial/*
     sudo apt-get update
 问题四[编辑]
-使用apt-get刷新源,终端提示: W: GPG error: http://apt.tt-solutions.com dapper Release: 由于没有公钥，下列签名无法进行验证： NO_PUBKEY 06EA41DE4F6C1E86
+使用apt-get刷新源,终端提示: W: GPG error: <http://apt.tt-solutions.com> dapper Release: 由于没有公钥，下列签名无法进行验证： NO_PUBKEY 06EA41DE4F6C1E86
 解决方法,终端执行:
     gpg --keyserver subkeys.pgp.net --recv 4F6C1E86
     gpg --export --armor 4F6C1E86 | sudo apt-key add -
@@ -287,12 +293,12 @@ sudo apt-get update
 首先，我们可以使用下面的命令查看一下软件仓库中有哪些可用的 Firefox 版本：
     apt-cache madison firefox
 得到的输出结果如下：
-    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | http://packages.linuxdeepin.com/ubuntu/ precise-security/main i386 Packages
-    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | http://packages.linuxdeepin.com/ubuntu/ precise-updates/main i386 Packages
-    firefox | 11.0+build1-0ubuntu4 | http://packages.linuxdeepin.com/ubuntu/ precise/main i386 Packages
-    firefox | 11.0+build1-0ubuntu4 | http://packages.linuxdeepin.com/ubuntu/ precise/main Sources
-    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | http://packages.linuxdeepin.com/ubuntu/ precise-security/main Sources
-    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | http://packages.linuxdeepin.com/ubuntu/ precise-updates/main Sources
+    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | <http://packages.linuxdeepin.com/ubuntu/> precise-security/main i386 Packages
+    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | <http://packages.linuxdeepin.com/ubuntu/> precise-updates/main i386 Packages
+    firefox | 11.0+build1-0ubuntu4 | <http://packages.linuxdeepin.com/ubuntu/> precise/main i386 Packages
+    firefox | 11.0+build1-0ubuntu4 | <http://packages.linuxdeepin.com/ubuntu/> precise/main Sources
+    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | <http://packages.linuxdeepin.com/ubuntu/> precise-security/main Sources
+    firefox | 15.0.1+build1-0ubuntu0.12.04.1 | <http://packages.linuxdeepin.com/ubuntu/> precise-updates/main Sources
 假设我们要降至 11.0 版本，这时我们需要像如下这样做：
     sudo apt-get install firefox=11.0+build1-0ubuntu4
 即可降至该版本。
@@ -373,7 +379,7 @@ sudo apt-get update
 这个可能是网络网络问题导致的更新时丢包，从而下载的数据不完整或错误。
 运行以下命令，得到更新需要下载的软件包列表文件地址：
     sudo apt-get update --print-uris > apt-get-urls.txt
-用Firefox的downloadthemall插件下载上述列表文件。（用Firefox打开以上txt文件后批量下载）下载时注意： 文件保存位置，比如/home/你的用户名/pool 重命名掩码：填"curl/name.ext" (没有引号）。这意思是将下载的文件，若原链接为http://www.ubuntu.com/folder/subfolder/filename.gz，则保存为/home/你的用户名/pool/www.ubuntu.com/folder/subfolder/filename.gz。
+用Firefox的downloadthemall插件下载上述列表文件。（用Firefox打开以上txt文件后批量下载）下载时注意： 文件保存位置，比如/home/你的用户名/pool 重命名掩码：填"curl/name.ext" (没有引号）。这意思是将下载的文件，若原链接为<http://www.ubuntu.com/folder/subfolder/filename.gz，则保存为/home/你的用户名/pool/www.ubuntu.com/folder/subfolder/filename.gz>。
 下载的文件里，有几个文件名为"Release"的文件，若使用downloadthemall默认的或者上述的重命名掩码保存，由于没有文件名后缀，默认保存为"Release.txt"，所以需要设置这些文件的重命名掩码为”curl/name”（没有引号）（在downloadthemall的下载选项中可通过”资源名称“字段排序后，全选文件名为Release的文件后设置重命名掩码） 设置每服务器并发下载1个文件，且关闭分块下载，否则可能会出错。
 上述文件下载完成后，你的pool目录下就会有诸如”archive.canonical.com/ubuntu/dists/raring"等目录和文件。
 备份原/etc/apt/source.list为/etc/apt/source.list.normal，并利用gedit等文本编辑器等的替换功能将/etc/apt/source.list中的

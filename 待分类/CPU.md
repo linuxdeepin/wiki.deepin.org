@@ -17,6 +17,7 @@ The Central Processing Unit (CPU) is the computer component that's responsible f
 ## **Components**
 
 The two typical components of a CPU include the following:
+
 - The arithmetic logic unit (ALU), which performs arithmetic and logical operations.
 - The control unit (CU), which extracts instructions from memory and decodes and executes them, calling on the ALU when necessary.
 
@@ -29,6 +30,7 @@ In the past, computer processors used numbers to identify the processor and help
 <br>Today, in addition to the different names of computer processors, there are different architectures (32-bit and 64-bit), speeds, and capabilities. Below is a list of the more common types of CPUs for home or business computers.</br>
 
 Note: There are multiple versions for some of these CPU types.
+
 - AMD processors
 - Intel processors
 - ARM processors

@@ -8,19 +8,19 @@ editor: markdown
 dateCreated: 2022-04-21T03:54:56.378Z
 ---
 
-##Startup Management
+## Startup Management
 
 [Boot Loader](Boot_Loader): Briefly introduce the boot loader of system. Reference: [Debian](https://wiki.debian.org/BootLoader), [Arch wiki](https://wiki.archlinux.org/index.php/Boot_loaders).
 
 [Initialization](Initialization): Introduction to initialization process of Linux.
 
-##User Management
+## User Management
 
 [User and group](User_and_group): Introduction to concepts of user and group in Linux.
 
 [User and task](User_and_task): Relationship of user and task in Linux.
 
-##File Management
+## File Management
 
 ### Files and permissions
 
@@ -36,7 +36,7 @@ dateCreated: 2022-04-21T03:54:56.378Z
 
 [Disk management](Disk_management): Basic operations to disk partitions.
 
-##Program Management
+## Program Management
 
 ### Program management
 
@@ -52,7 +52,7 @@ dateCreated: 2022-04-21T03:54:56.378Z
 
 [Desktop entry](Desktop_entry): Introduction to formats of desktop entry files.
 
-##Software Management
+## Software Management
 
 ### Software Installation
 
@@ -68,7 +68,7 @@ dateCreated: 2022-04-21T03:54:56.378Z
 
 [Package management](Package_management): Introduction to package management utility - dpkg.
 
-##Service and Configuration
+## Service and Configuration
 
 ### System Services
 
@@ -128,13 +128,13 @@ dateCreated: 2022-04-21T03:54:56.378Z
 
 [Font](Font): Reference: [Arch wiki](https://wiki.archlinux.org/index.php/Fonts)
 
-##Internationalization
+## Internationalization
 
 [System language](System_language): Change system language to meet needs of different users. Reference: [Arch wiki:Locale](https://wiki.archlinux.org/index.php/Locale)
 
 [Date and timezone](Date_and_timezone)
 
-##Network Management
+## Network Management
 
 ### Introduction to network
 
@@ -154,11 +154,11 @@ dateCreated: 2022-04-21T03:54:56.378Z
 
 [Proxy](Proxy)
 
-##Power Management
+## Power Management
 
 [Power management](Power_management)
 
-##System Debugging
+## System Debugging
 
 [System info](System_info)
 
@@ -168,13 +168,13 @@ dateCreated: 2022-04-21T03:54:56.378Z
 
 [System update](System_update)
 
-##Hardware Device
+## Hardware Device
 
 [Introduction to hardware](Introduction_to_hardware)
 
 [CPU](CPU)
 
-[Hard Disk ](Hard_Disk)
+[Hard Disk](Hard_Disk)
 
 [RAM](RAM)
 

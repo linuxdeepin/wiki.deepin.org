@@ -26,7 +26,6 @@ Users can utilize software named Gparted to manage their disks.
 
 ### Using command
 
-
 #### View disk information
 
 Use `df` to display information about disk.
@@ -36,7 +35,7 @@ Example:
     df ## List disk usage of each file system
     df -ia ## List inode usage of each file system
     df -T ## List types of file system
-    
+
 Use `du` to estimate the usage of specified file system
 
 Example:
@@ -45,7 +44,7 @@ Example:
     du -h --max-depth=1 work/testing ## Show the size of directory"work/testing"
     du -h --max-depth=1 work/testing/* ## Show sizes of each file and subdirectory under directory "work/testing"
     du -ha ## Show sizes of each subdirectory and file recursively
-    
+
 #### Disk partitioning
 
 Use `fdisk` for partitioning.
@@ -70,13 +69,13 @@ Use `fsck` to check and fix possible errors on disk.
 Example:
 
      fsck -t msdos -a /dev/hda5    ## Check msdos partition "/dev/sda5", and repaire it if it has error
-     
+
 Use `badblocks` to check bad sector on disk
 
 Syntax:
 
     badblocks -[svw] Disk
-    
+
 Options:
 
     -s : Show progress on screen
@@ -86,8 +85,6 @@ Options:
 #### Disk writing
 
 Use `sync` to synchronize data between RAM and external storage device
-
-
 
     sync  # Write unsynchronized data in memory to hard disk
 
@@ -108,7 +105,6 @@ Types of disk quota:
 * Hard limit: The actual boundary of disk usage. When hard limit is passed, system does not allow user to increase their data size anymore.
 
 Disk quota can be turned on or off manually.
-
 
 ## Reference
 

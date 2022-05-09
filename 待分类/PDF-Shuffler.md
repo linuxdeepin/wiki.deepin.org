@@ -24,9 +24,7 @@ PDF-Shuffler是一个PDF合并及分割工具，它可以把几个PDF文件合�
 
 [http://packages.deepin.com/deepin/pool/main/p/pdfshuffler/](http://packages.deepin.com/deepin/pool/main/p/pdfshuffler/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -102,8 +102,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
   
   [https://wiki.gnome.org/Apps/Geary](https://wiki.gnome.org/Apps/Geary)
 
-
-
 ## Communication
 
 * [QQ](QQ): QQ is an Internet-based instant messaging software developed by Tencent
@@ -142,13 +140,12 @@ dateCreated: 2022-04-21T03:54:27.028Z
   
   [http://www.hipchat.com/](http://www.hipchat.com/)
 
-
 ## Music
 
 * [Deepin Music](Deepin_Music): Deepin Music is a local music player with beautiful design and simple functions developed by Deepin Technology
   
   [https://www.deepin.org/original/deepin-music/](https://www.deepin.org/original/deepin-music/)
- 
+
 * [Netease Cloud Music](Netease_Cloud_Music): Netease cloud music is a music player focused on discovering and sharing music
   
   [http://music.163.com/](http://music.163.com/)
@@ -192,7 +189,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [MusE](MusE): MusE is a MIDI/audio sequencer
   
   [http://muse-sequencer.org/](http://muse-sequencer.org/)
-
 
 ## Video
 
@@ -259,7 +255,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Natron](Natron): Natron is a cross-platform video synthesis software
   
   [https://natron.inria.fr/](https://natron.inria.fr/)
-
 
 ## Image
 
@@ -355,7 +350,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
   
   [http://www.yworks.com/](http://www.yworks.com/)
 
-
 ## Games
 
 * [Steam](Steam): Steam is a convenient and comprehensive game platform
@@ -397,7 +391,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Stunt Rally](Stunt_Rally): Stunt Rally is a racing game
   
   [http://stuntrally.tuxfamily.org/](http://stuntrally.tuxfamily.org/)
-
 
 ## Office and Study
 
@@ -553,7 +546,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
   
   [https://github.com/yhatt/marp](https://github.com/yhatt/marp)
 
-
 ## Translation and Reading
 
 * [Foxit Reader](Foxit_Reader): Foxit Reader is a PDF document reader
@@ -585,11 +577,11 @@ dateCreated: 2022-04-21T03:54:27.028Z
   [https://launchpad.net/qpdfview](https://launchpad.net/qpdfview)
 
 * [Okular](Okular): Okular is a PDF document reading software
- 
+
   [http://okular.kde.org/](http://okular.kde.org/)
 
 * [Comix](Comix): Comix is ​​an excellent comic book reader
- 
+
   [http://comix.sourceforge.net/](http://comix.sourceforge.net/)
 
 * [Mendeley](Mendeley): Mendeley is a document management software
@@ -603,8 +595,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [PDF-Shuffler](PDF-Shuffler): PDF-Shuffler is a PDF merge and split tool
 
   [http://pdfshuffler.sourceforge.net/](http://pdfshuffler.sourceforge.net/)
-
-
 
 ## Programming and Development
 
@@ -811,8 +801,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Racket](Racket): Racket is a computer programming language
 
   [http://racket-lang.org/](http://racket-lang.org/)
-
-
 
 ## System Management
 
@@ -1053,14 +1041,13 @@ dateCreated: 2022-04-21T03:54:27.028Z
   [http://luckybackup.sourceforge.net/](http://luckybackup.sourceforge.net/)
 
 * [Referencer](Referencer): Referencer is a document management tool
- 
- [https://launchpad.net/referencer](https://launchpad.net/referencer)
 
+ [https://launchpad.net/referencer](https://launchpad.net/referencer)
 
 ## Others
 
 * [Crossover](Crossover): Crossover is a tool that can run Windows software and games in Linux
-    
+
   [www.codeweavers.com](www.codeweavers.com)
 
 * [PlayOnLinux](PlayOnLinux): PlayOnLinux is a front-end program for Wine

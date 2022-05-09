@@ -24,8 +24,6 @@ I-Nex是一款系统信息查询工具，其窗口界面由多个标签面板组
 
 [http://packages.deepin.com/deepin/pool/contrib/i/i-nex/](http://packages.deepin.com/deepin/pool/contrib/i/i-nex/)
 
-
 ## 常见问题
-
 
 ## 相关链接

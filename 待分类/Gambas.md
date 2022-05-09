@@ -24,8 +24,6 @@ Gambas是一个开发Visual Basic的集成开发环境，其操作和语法几�
 
 [http://packages.deepin.com/deepin/pool/main/g/gambas3/](http://packages.deepin.com/deepin/pool/main/g/gambas3/)
 
-
 ## 常见问题
-
 
 ## 相关链接

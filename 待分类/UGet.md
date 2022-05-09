@@ -24,9 +24,7 @@ Uget是一个下载管理器，它支持断点续传、监视剪贴板、Firefox
 
 [http://packages.deepin.com/deepin/pool/main/u/uget/](http://packages.deepin.com/deepin/pool/main/u/uget/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

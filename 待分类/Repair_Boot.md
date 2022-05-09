@@ -38,7 +38,7 @@ Minimal BASH-like line editing is supported.For the first word ... (omitted)
 Grub>
   ```
 
-Unlike the error in the old tutorial, in this case the identifier is` grub>` instead of `grub rescure>`, so enter `normal` and press Enter key will not perform any operation, this is caused by `normal.mod` error, grub here discovers deepin's /boot partition, but loaded an error version of `normal.mod` and unable to boot the system. The reason for the error may be due to the compatibility problem between easybcd and grub, or it may be other operating system is installed before the system deleted but the old system is not cleaned up efi partition or even deepin 15.3 is installed directly on the old system.
+Unlike the error in the old tutorial, in this case the identifier is`grub>` instead of `grub rescure>`, so enter `normal` and press Enter key will not perform any operation, this is caused by `normal.mod` error, grub here discovers deepin's /boot partition, but loaded an error version of `normal.mod` and unable to boot the system. The reason for the error may be due to the compatibility problem between easybcd and grub, or it may be other operating system is installed before the system deleted but the old system is not cleaned up efi partition or even deepin 15.3 is installed directly on the old system.
 
 #### Solution
 
@@ -73,7 +73,6 @@ It has been found that the following operations can cause this problem:
 * One reinstalled the system, and installed linux to a new partition, the original partition has been formatted, but did not reinstall GRUB2.
 * One use Linux backup tools or manufacturing tools, restore the main partitions to the old 8.X version, but the old version of GRUB is GRUB1, then the GRUB2 destroyed.
 
-
 ### Reinstall GRUB
 
 1. Use deepin boot disk to boot the computer, enter the installation interface, press Ctrl+Alt+F1, execute the following command, wait a moment to enter Live CD mode.
@@ -87,7 +86,7 @@ startx
 
    Execute the following command:
 
-  `sudo mount /dev/sda1 /mnt` 
+  `sudo mount /dev/sda1 /mnt`
 
    if the /boot is separated (assuming /dev/sda2), execute the following command:
 
@@ -106,6 +105,7 @@ startx
    ```
 
    Install and update GRUB settings (motherboard use BIOS boot), execute the following command:
+
    ```
    grub-probe -t device /boot/grub
    sudo grub-install /dev/sda

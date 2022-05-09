@@ -24,9 +24,7 @@ PdfMod是一个PDF文档编辑应用，它可以对页面进行重新排序、�
 
 [http://packages.deepin.com/deepin/pool/main/p/pdfmod/](http://packages.deepin.com/deepin/pool/main/p/pdfmod/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

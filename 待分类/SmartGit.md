@@ -24,9 +24,7 @@ SmartGit是一个Git版本控制系统的图形化客户端程序，它具有快
 
 [http://packages.deepin.com/deepin/pool/contrib/s/smartgit/](http://packages.deepin.com/deepin/pool/contrib/s/smartgit/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

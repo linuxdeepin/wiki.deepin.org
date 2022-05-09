@@ -24,9 +24,7 @@ Navicat是一个的数据库管理工具，专为简化数据库的管理及降�
 
 [http://packages.deepin.com/deepin/pool/non-free/n/navicat/](http://packages.deepin.com/deepin/pool/non-free/n/navicat/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

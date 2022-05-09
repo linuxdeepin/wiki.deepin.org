@@ -24,9 +24,7 @@ GeoGebra是一个动态数学应用，包含了几何、代数、表格、图形
 
 [http://packages.deepin.com/deepin/pool/main/g/geogebra/](http://packages.deepin.com/deepin/pool/main/g/geogebra/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -42,7 +42,7 @@ After that, you will see the same dialog shown to you in the installation proces
 
 ### Problem of display manager
 
-#### System startup error: Checking Battery State ...
+#### System startup error: Checking Battery State
 
 If you cannot login through graphical interface, please press Ctrl-Alt -F1 to enter tty1, login with your user name and password, then execute:
 

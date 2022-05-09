@@ -24,8 +24,6 @@ Cairo-Dock是一个Dock类软件，它支持OpenGL、提供动画及视觉效果
 
 [http://packages.deepin.com/deepin/pool/main/c/cairo-dock/](http://packages.deepin.com/deepin/pool/main/c/cairo-dock/)
 
-
 ## 常见问题
-
 
 ## 相关链接

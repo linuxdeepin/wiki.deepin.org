@@ -8,9 +8,9 @@ editor: markdown
 dateCreated: 2022-04-21T03:44:45.620Z
 ---
 
-##简介
+## 简介
 本经验由论坛用户(yjgsz)分享,[原地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=139552&extra=)
-##正文
+## 正文
 
 论坛里一直有人问windows和deepin双启动的问题，安装双系统的电脑，硬盘配置各不相同，deepin安装程序在某些情况下不能很好解决这个问题。
 加上不少试用deepin的是小白，用linux命令来解决启动问题有难度。
@@ -40,11 +40,12 @@ UEFI GPT模式
 
 1. 关闭UEFI安全启动模式
 2. 编辑\boot\grub\grub.cfg，添加启动菜单，调用bootx640.efi来启动WIN系统
-3. 添加Deepin 启动菜单，注意Deepin启动分区，如/dev/sdb4 
+3. 添加Deepin 启动菜单，注意Deepin启动分区，如/dev/sdb4
 
 UEFI模式BCD位置\efi\microsoft\boot文件夹，UEFI模式下不需要修改BCD，UEFI引导文件扩展名为efi。
 
 注：
+
   1. 不管是BIOS模式下menu.lst，还是UEFI模式下grub.cfg，都可以不用分区UUID，用/dev/sdxx代替，
      具体可用blkid命令或分区工具查看。这样格式化重装后不用因UUID变化而修改启动配置文件。
   2. （缺点）内核升级后可能导致Deepin无法启动，如最近一次内核升级后，启动文件

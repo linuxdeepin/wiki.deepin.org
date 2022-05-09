@@ -24,9 +24,7 @@ MySQL Workbench是一款专为MySQL设计的ER/数据库建模工具，它提供
 
 [http://packages.deepin.com/deepin/pool/main/m/mysql-workbench/](http://packages.deepin.com/deepin/pool/main/m/mysql-workbench/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

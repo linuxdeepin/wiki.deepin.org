@@ -16,13 +16,13 @@ eg. Empty
 
 You may don't know how to translate. At this time, you can refer to the comments or context in Transifex.
 
-2. The word does not mean what it normally means. This situation usually exists in Chinese-English-Chinese (Taiwan) 
+2. The word does not mean what it normally means. This situation usually exists in Chinese-English-Chinese (Taiwan)
 
 eg.  Confirm
 
 such as Are you sure you want to uninstall Deepin Movie?     Cancel/Confirm
 
-We can know "Confirm" means "Uninstall" in a button from the details.    
+We can know "Confirm" means "Uninstall" in a button from the details.
 
 So we suggest translators from Chinese (Taiwan) to use Chinese as the original language rather than English.
 Here is how: Click the gear icon in the upper right corner of translation page and select "Show source String in English (en)", change the language to Chinese(China)(zh_CN), then you will see the strings in Chinese(Simplified).
@@ -51,7 +51,7 @@ eg. MP4, PDF
 
 7. If there are line breaks in the sentence, just keep the same.
 
-eg. 
+eg.
 
 Partition is detected to have been mounted.⏎
 
@@ -60,7 +60,7 @@ Are you sure you want to unmount it?
 8. How to translate date and time?
 
 eg.
-yyyy-MM-dd dddd 
+yyyy-MM-dd dddd
 yyyy-MM-dd hh:mm
 
 You can change the order of yyyy,mm,dd,hh,mm to display the appropriate date format for different locales, but you cannot translate it into your words such as гггг-ММ-дд чч:мм. Please keep using yyyy,mm,dd,hh,mm.
@@ -72,7 +72,7 @@ Please check if the string contains plural forms, and translate all forms to ena
 10. How to test translated file in Deepin OS？
 
 You should convert the .ts language package in .qm format.
-Download and install Qt Creator from Deepin Store. Open the .ts file in the Qt5 Linguist program and save it in the .qm format. 
+Download and install Qt Creator from Deepin Store. Open the .ts file in the Qt5 Linguist program and save it in the .qm format.
 Move file to usr/share/deepin-app/translations, and then open deepin application to test the translations.
 
 <br/>

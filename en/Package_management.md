@@ -1,5 +1,4 @@
 
-
 ## Summary
 
 deepin uses dpkg to manage its packages. Beside from graphical tools like Deepin Store and Synaptic, it is also very common to do installation, uninstallation and upgrade using command.
@@ -139,7 +138,7 @@ For example, deepin-music-player will generate configurations in the following d
         /usr/share/deepin-music-player  ## Available to all users in the system
 
 If we want to remove configurations while uninstalling programs, add "--purge" option to "apt-get":
-    
+
     sudo apt-get remove --purge package_name
 
 ### Uninstall packages
@@ -186,13 +185,13 @@ or
 
         sudo apt-get dist-upgrade
 
-The common point of "upgrade" and "dist-upgrade" is that they all require the package list to be updated before upgrade. 
+The common point of "upgrade" and "dist-upgrade" is that they all require the package list to be updated before upgrade.
 
 The difference lies in that the former do not introduce new software or discard existing software (including Linux kernel), while the later may install new packages or delete existing packages according to the changes of dependencies.
 
 For regular security updates for most Linux distributions, it is recommanded to use "apt-get upgrade". If users need to upgrade their system from one old stable version to another one, then "apt dist-upgrade" is suggested.
 
-##Add PPA for using
+## Add PPA for using
 
 To use packages from non-official repository, execute in terminal:
 
@@ -247,7 +246,7 @@ It may be useful when the first solution has no effect.
 
 ### Fail to download index files
 
-If you see errors from apt-get command: 
+If you see errors from apt-get command:
 
         E: Some index files failed to download. They have been ignored, or old ones used instead.
 
@@ -449,7 +448,7 @@ For command "sudo apt-get upgrade", you will also need to download related packa
 
         sudo apt-get upgrade --yes --print-uris > ~/pool/apt-get-upgrade.txt
 
-Then replace the prefixes of files listed in "~/pool/apt-get-upgrade.txt" from 
+Then replace the prefixes of files listed in "~/pool/apt-get-upgrade.txt" from
 
     file:///home/YouUserName/pool/
 
@@ -464,7 +463,6 @@ To make apt-get find these downloaded packages, execute:
         sudo mount -o bind /home/YouUserName/pool/deb /var/cache/apt/archives
 
 Next time when you run "sudo apt-get upgrade", it will fetch packages from local files.
-
 
 ## References
 

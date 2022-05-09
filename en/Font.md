@@ -38,17 +38,17 @@ Characters are described using Bezier curves, drawing directives and mathematica
 
 ### Commonly seen font types
 
-* bdf and bdf.gz: Bitmap Distribution Format. A kind of bitmap font, compressed with gzip.
+- bdf and bdf.gz: Bitmap Distribution Format. A kind of bitmap font, compressed with gzip.
 
-* pcf and pcf.gz: Portable Compiled Format. A kind of bitmap font, compressed with gzip.
+- pcf and pcf.gz: Portable Compiled Format. A kind of bitmap font, compressed with gzip.
 
-* psf，psfu，psf.gz and psfu.gz: PC Screen Font. A kind of bitmap font, compressed with gzip. The Unicode version cannot be used on X.org.
+- psf，psfu，psf.gz and psfu.gz: PC Screen Font. A kind of bitmap font, compressed with gzip. The Unicode version cannot be used on X.org.
 
-* pfa and pfb: PostScript Font, for ASCII or Binary. A kind of vector font, with print command included.
+- pfa and pfb: PostScript Font, for ASCII or Binary. A kind of vector font, with print command included.
 
-* ttf: TrueType Font. A kind of vector font, replacing PostScript font.
+- ttf: TrueType Font. A kind of vector font, replacing PostScript font.
 
-* otf: OpenType Font. A kind of TrueType font with print command included.
+- otf: OpenType Font. A kind of TrueType font with print command included.
 
 In most cases, the technical differences between TrueType and OpenType can be ignored. Some extended TrueType fonts are in fact OpenType fonts.
 
@@ -78,13 +78,13 @@ You can also use packages provided in repository. For example, to install fonts 
 
 Where font files are stored:
 
-  - For system fonts: /usr/share/fonts
-  - For user customized font: ~/.fonts
+- For system fonts: /usr/share/fonts
+- For user customized font: ~/.fonts
 
 Where font configurations are stored:
 
-  - For system fonts: /etc/fonts/fonts.conf
-  - For user customized font: ~/.fonts.conf
+- For system fonts: /etc/fonts/fonts.conf
+- For user customized font: ~/.fonts.conf
 
 System configurations will not be used if any user configuration is found. For security and convenience concerns, it is recommended to use user configurations.
 

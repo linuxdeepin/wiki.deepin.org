@@ -24,8 +24,6 @@ GNU Octave是一种高级编程语言，这种语言与Matlab兼容，主要用�
 
 [http://packages.deepin.com/deepin/pool/main/o/octave/](http://packages.deepin.com/deepin/pool/main/o/octave/)
 
-
 ## 常见问题
-
 
 ## 相关链接

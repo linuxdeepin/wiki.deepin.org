@@ -9,4 +9,5 @@ dateCreated: 2022-04-21T03:38:02.413Z
 ---
 
 ## Markdown syntax
+
 See: <https://learn.getgrav.org/content/markdown>

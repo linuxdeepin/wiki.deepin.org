@@ -24,8 +24,6 @@ Yakuake是一款下拉式终端仿真器，它与Guake在功能上非常相似�
 
 [http://packages.deepin.com/deepin/pool/main/y/yakuake/](http://packages.deepin.com/deepin/pool/main/y/yakuake/)
 
-
 ## 常见问题
-
 
 ## 相关链接

@@ -24,8 +24,6 @@ Synergy是一款键盘鼠标共享软件，允许在你的办公桌上多台计�
 
 [http://packages.deepin.com/deepin/pool/main/s/synergy/](http://packages.deepin.com/deepin/pool/main/s/synergy/)
 
-
 ## 常见问题
-
 
 ## 相关链接

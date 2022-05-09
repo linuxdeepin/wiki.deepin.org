@@ -8,11 +8,12 @@ editor: markdown
 dateCreated: 2022-04-21T03:31:34.567Z
 ---
 
-##简介
+## 简介
 Deepin15.4安装FTP服务器--FileZilla Server
 
-##安装方法
-1. 下载FileZilla Server 的exe安装程序：https://filezilla-project.org/
+## 安装方法
+
+1. 下载FileZilla Server 的exe安装程序：<https://filezilla-project.org/>
 2. 使用Deepin15.4下的CrossOver安装上面的软件，默认XP-32容器即可。
 3. 安装完成后，在启动器中点击图标可以启动管理界面
 4. 像在Windows下的那样，配置服务器的组，用户，以及共享文件夹。
@@ -23,6 +24,7 @@ Deepin15.4安装FTP服务器--FileZilla Server
 Failed to create listen socket on port 21
 Failed to create a listen socket on any of the specified ports. Server is not online!
 ```
+
 出现这个结果，说明监听21端口失败。
 
 7. 更改默认的２１端口为其他没有使用的端口，我的是改为2121

@@ -24,8 +24,6 @@ PeaZip是一款解压缩软件，支持各种主流压缩格式的解压缩，�
 
 [http://packages.deepin.com/deepin/pool/non-free/p/peazip/](http://packages.deepin.com/deepin/pool/non-free/p/peazip/)
 
-
 ## 常见问题
-
 
 ## 相关链接

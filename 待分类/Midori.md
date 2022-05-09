@@ -24,9 +24,7 @@ Midori是一个轻量级的网页浏览器，它全面整合GTK+2和GTK+3，还�
 
 [http://packages.deepin.com/deepin/pool/main/m/midori/](http://packages.deepin.com/deepin/pool/main/m/midori/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

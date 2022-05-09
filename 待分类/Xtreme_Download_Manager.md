@@ -24,9 +24,7 @@ Xtreme Download Manager是一个P2P文件下载软件，它具有带宽控制系
 
 [http://packages.deepin.com/deepin/pool/main/x/xdm/](http://packages.deepin.com/deepin/pool/main/x/xdm/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

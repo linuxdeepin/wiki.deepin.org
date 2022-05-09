@@ -35,11 +35,11 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 ### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
 
-- [ ] 支持以 PDF 格式导出文稿
-- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
-- [x] 新增 Todo 列表功能
-- [x] 修复 LaTex 公式渲染问题
-- [x] 新增 LaTex 公式编号功能
+* [ ] 支持以 PDF 格式导出文稿
+* [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+* [x] 新增 Todo 列表功能
+* [x] 修复 LaTex 公式渲染问题
+* [x] 新增 LaTex 公式编号功能
 
 ### 2. 书写一个质能守恒公式[^LaTeX]
 
@@ -189,8 +189,8 @@ Bob-->Alice: I am good thanks!
 
 再一次感谢您花费时间阅读这份欢迎稿，点击 <i class="icon-file"></i> (Ctrl+Alt+N) 开始撰写新的文稿吧！祝您在这里记录、阅读、分享愉快！
 
-作者 [@ghosert][3]     
-2016 年 07月 07日    
+作者 [@ghosert][3]
+2016 年 07月 07日
 
 [^LaTeX]: 支持 **LaTeX** 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法。
 

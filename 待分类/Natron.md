@@ -24,9 +24,7 @@ Natron是一个跨平台的视频合成软件，它具有多种视频特效、�
 
 [http://packages.deepin.com/deepin/pool/non-free/n/natron/](http://packages.deepin.com/deepin/pool/non-free/n/natron/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

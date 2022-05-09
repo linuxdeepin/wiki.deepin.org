@@ -106,8 +106,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [https://wiki.gnome.org/Apps/Geary](https://wiki.gnome.org/Apps/Geary)
 
-
-
 ## 社交沟通
 
 * [QQ](QQ)：QQ是腾讯开发的一款基于Internet的即时通信软件
@@ -166,13 +164,12 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://www.hipchat.com/](http://www.hipchat.com/)
 
-
 ## 音乐欣赏
 
 * [深度音乐](深度音乐)：深度音乐是深度科技重新打造的一款专注于本地音乐播放的应用程序
   
   [https://www.deepin.org/original/deepin-music/](https://www.deepin.org/original/deepin-music/)
- 
+
 * [网易云音乐](网易云音乐)：网易云音乐是一款专注于发现与分享的音乐产品
   
   [http://music.163.com/](http://music.163.com/)
@@ -216,7 +213,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
 * [MusE](MusE)：MusE是一个MIDI/音频的音序器
   
   [http://muse-sequencer.org/](http://muse-sequencer.org/)
-
 
 ## 视频播放
 
@@ -283,7 +279,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
 * [Natron](Natron)：Natron是一个跨平台的视频合成软件
   
   [https://natron.inria.fr/](https://natron.inria.fr/)
-
 
 ## 图形图像
 
@@ -383,7 +378,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://www.yworks.com/](http://www.yworks.com/)
 
-
 ## 娱乐游戏
 
 * [Steam](Steam)：Steam是一款方便迅速的综合性游戏平台
@@ -425,7 +419,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
 * [Stunt Rally](Stunt_Rally)：Stunt Rally是一款赛车游戏
   
   [http://stuntrally.tuxfamily.org/](http://stuntrally.tuxfamily.org/)
-
 
 ## 办公学习
 
@@ -656,11 +649,11 @@ dateCreated: 2022-04-21T03:32:34.710Z
   [https://launchpad.net/qpdfview](https://launchpad.net/qpdfview)
 
 * [Okular](Okular)：Okular是一个PDF文档阅读软件
- 
+
   [http://okular.kde.org/](http://okular.kde.org/)
 
 * [Comix](Comix)：Comix是一款优秀的连环画电子阅读器
- 
+
   [http://comix.sourceforge.net/](http://comix.sourceforge.net/)
 
 * [Mendeley](Mendeley)：Mendeley是一款文献管理软件
@@ -674,7 +667,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
 * [PDF-Shuffler](PDF-Shuffler)：PDF-Shuffler是一个PDF合并及分割工具
 
   [http://pdfshuffler.sourceforge.net/](http://pdfshuffler.sourceforge.net/)
-
 
 ## 编程开发
 
@@ -885,8 +877,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
 * [GNU Octave](GNU_Octave)：GNU Octave是一种高级编程语言
 
   [https://www.gnu.org/software/octave/](https://www.gnu.org/software/octave/)
-
-
 
 ## 系统管理
 
@@ -1123,11 +1113,11 @@ dateCreated: 2022-04-21T03:32:34.710Z
   [http://luckybackup.sourceforge.net/](http://luckybackup.sourceforge.net/)
 
 * [Referencer](Referencer)：Referencer是一款文献管理工具
- 
+
  [https://launchpad.net/referencer](https://launchpad.net/referencer)
 
 * [Crossover](Crossover)：Crossover是一款可以在Linux中运行Windows软件和游戏的工具
-    
+
   [www.codeweavers.com](www.codeweavers.com)
 
 * [PlayOnLinux](PlayOnLinux)：PlayOnLinux是一款Wine的前端程序
@@ -1141,7 +1131,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
 * [BirdFont](BirdFont)：BirdFont是一个免费的字体编辑器
 
   [https://birdfont.org/](https://birdfont.org/)
-
 
 ## 其他应用
 

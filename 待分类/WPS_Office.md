@@ -24,9 +24,7 @@ WPS Office是由金山软件股份有限公司自主研发的一款办公软件�
 
 [http://packages.deepin.com/deepin/pool/non-free/w/wps-office/](http://packages.deepin.com/deepin/pool/non-free/w/wps-office/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

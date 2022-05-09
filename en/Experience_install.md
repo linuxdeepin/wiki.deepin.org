@@ -12,16 +12,13 @@ dateCreated: 2022-04-21T03:55:20.356Z
 
 Please refer to the official website for details on how to install deepin. [Installation](https://www.deepin.org/en/installation/).
 
-
 ## Download
 
 ### Official Image
 
 Visit the Deepin Community Website [Download Page](https://www.deepin.org/en/download/) to download the latest version of the image file for deepin (so that you can experience the latest features).
 
-
 > Note: In order to focus more on the development of the system, deepin 15.4 version will no longer provide 32bit official iso image, for technical support, please send an email to support@deepin.org.
-
 
 ### MD5 check
 
@@ -33,20 +30,17 @@ After downloaded deepin image, you need to verify it. An unofficial or incomplet
 
 > Note: deepin-15.3-amd64.iso is the filename of the downloaded system image, you can use Tab key to type the filename automatically.
 
-
-
 ## Installation Process
 
 The supported Windows system versions are: Windows XP, Windows 7, Windows 8, Windows 10, if you're using Windows 8 or above, please turn off Fast Boot, or deepin can not be installed.
 
 1. Copy the deepin system image to the Windows system root directory (for example, under the D drive).
 2. Download [Deepin Boot Maker](http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-system-installer.exe) and copy to the same location of the deepin system image.
- 
+
  > Note: you can use archive manager to open deepin system image, and extract the boot maker.
 
-3. Double-click to run deepin-system-installer.exe, enter the username and password, adjust the system language and partition size, and click ** Start **.
+3. Double-click to run deepin-system-installer.exe, enter the username and password, adjust the system language and partition size, and click **Start**.
 4. Wait for the installer, when it prompts that the installation is complete, please follow the instructions to restart the computer.
-
 
 ## When The installation is completed
 
@@ -55,9 +49,10 @@ According to the installer interface prompts, enter and select the corresponding
 > Note: If the installation fails, it will show error info. You can scan QR code on mobile phones to send the error log to servers.
 
 ## Hardware compatibility
+
 Check operability of hardware and register it in the Deepin database by [[Hardware Probe]].
 
-## UEFI mode, and can not find Windows startup items after the installation 
+## UEFI mode, and can not find Windows startup items after the installation
 
 This problem occurs because Windows did not successfully write its startup entry to your motherboard, but instead it uses UEFI's fallback mode to boot (via EFI/Boot/bootx64.efi).
 

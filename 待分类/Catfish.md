@@ -24,8 +24,6 @@ Catfish是一个文件搜索工具，它支持搜索文档、图像、音乐、�
 
 [http://packages.deepin.com/deepin/pool/main/c/catfish/](http://packages.deepin.com/deepin/pool/main/c/catfish/)
 
-
 ## 常见问题
-
 
 ## 相关链接

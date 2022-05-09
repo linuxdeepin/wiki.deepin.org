@@ -24,8 +24,6 @@ Lazarus是一个Pascal集成开发环境，它可以编译运行简单的Pascal�
 
 [http://packages.deepin.com/deepin/pool/main/l/lazarus/](http://packages.deepin.com/deepin/pool/main/l/lazarus/)
 
-
 ## 常见问题
-
 
 ## 相关链接

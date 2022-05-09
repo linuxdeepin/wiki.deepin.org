@@ -24,9 +24,7 @@ Remmina是一个远程桌面客户端，它提供了RDP、VNC、XDMCP、SSH等�
 
 [http://packages.deepin.com/deepin/pool/main/r/remmina/](http://packages.deepin.com/deepin/pool/main/r/remmina/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

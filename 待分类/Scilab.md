@@ -24,9 +24,7 @@ Scilab是一个为工程和科学应用量身定做的数值计算软件，已�
 
 [http://packages.deepin.com/deepin/pool/main/s/scilab/](http://packages.deepin.com/deepin/pool/main/s/scilab/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

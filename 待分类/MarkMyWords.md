@@ -24,9 +24,7 @@ MarkMyWords是一款markdown编辑器，支持所有markdown基础功能，支�
 
 [http://packages.deepin.com/deepin/pool/main/m/mark-my-words/](http://packages.deepin.com/deepin/pool/main/m/mark-my-words/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

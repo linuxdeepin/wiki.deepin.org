@@ -64,6 +64,7 @@ Execute in terminal"
     dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P 
 
 If following warnings are generated, then there is no unused configurations.
+
 ```
 dpkg: error: --purge needs at least one package name argument
 Type dpkg --help for help about installing and deinstalling packages [*];

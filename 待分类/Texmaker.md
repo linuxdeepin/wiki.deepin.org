@@ -24,9 +24,7 @@ Texmaker是一个LaTeX的编辑环境，已经集成了所需的开发工具，�
 
 [http://packages.deepin.com/deepin/pool/non-free/t/texmaker/](http://packages.deepin.com/deepin/pool/non-free/t/texmaker/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

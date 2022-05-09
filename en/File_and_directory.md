@@ -245,7 +245,6 @@ Example:
     ln -s FILE LINK # Create soft link "LINK" as a link pointing to FILE. Soft link is like a "shortcut", and becomes invalid when the source file disapperes
     ln FILE LINK # Create hard link "LINK" to "FILE". Hard liink is like a "synonym". It won't become invalid when "FILE" is removed or moved away. It cannot be created across partitions.
 
-
 #### grep
 
 Use `grep` to search for files.

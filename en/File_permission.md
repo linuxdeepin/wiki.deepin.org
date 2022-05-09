@@ -59,7 +59,6 @@ The second to nineth character, from left to right, indicates the permission of 
          r-x  ## Member from its owning group can read from and execute this file, but cannot write to it
          r-x ## Anyone else can read from and execute this file, but cannot write to it
 
-
 Note: Apart from character form for describing file permission, such as "rwx", it is also possible to use numeric form to do so. The relations of each permission and its numeric form are shown below:
 
 <table class="block1">
@@ -177,6 +176,7 @@ For example, to view any file in filesystem, type in terminal:
 This will open file manager Nautilus **with root permission**. You can use right context menu to change the permission of files and directories. Be careful with the powerful root permission!
 
 ### Use command
+
 #### Change owner and owning group
 
 To change the onwer or the owning group of a file, use `chown`  or `chgrp`.
@@ -192,7 +192,7 @@ chown can be used to change owner and owning group at a same time, using ":" to 
 
 #### Change owner recursively
 
-Use "-R" option in chown or chgrp to change the ownership of whole directory tree. 
+Use "-R" option in chown or chgrp to change the ownership of whole directory tree.
 
 Example:
 

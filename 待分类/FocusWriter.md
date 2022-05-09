@@ -24,9 +24,7 @@ FocusWriter是一款写作软件，为了让您的写作空间尽可能的多且
 
 [http://packages.deepin.com/deepin/pool/main/f/focuswriter/](http://packages.deepin.com/deepin/pool/main/f/focuswriter/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ RawTherapee是一款RAW格式转换软件，处理效果堪比Adobe Lightroom，
 
 [http://packages.deepin.com/deepin/pool/main/r/rawtherapee/](http://packages.deepin.com/deepin/pool/main/r/rawtherapee/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

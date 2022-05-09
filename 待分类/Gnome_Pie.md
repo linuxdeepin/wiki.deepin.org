@@ -24,8 +24,6 @@ Gnome Pie是一款炫酷的程序启动器，它可以帮助您快速启动特�
 
 [http://packages.deepin.com/deepin/pool/main/g/gnome-pie/](http://packages.deepin.com/deepin/pool/main/g/gnome-pie/)
 
-
 ## 常见问题
-
 
 ## 相关链接

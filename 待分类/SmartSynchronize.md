@@ -24,9 +24,7 @@ SmartSynchronize是一款检查文件与目录比较的工具，可以帮助对�
 
 [http://packages.deepin.com/deepin/pool/main/s/smartsynchronize/](http://packages.deepin.com/deepin/pool/main/s/smartsynchronize/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

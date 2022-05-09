@@ -24,9 +24,7 @@ Kazam是一款简易的桌面屏幕录制工具，它可以录制视频、录制
 
 [http://packages.deepin.com/deepin/pool/main/k/kazam/](http://packages.deepin.com/deepin/pool/main/k/kazam/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

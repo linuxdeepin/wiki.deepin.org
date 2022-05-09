@@ -10,7 +10,6 @@ dateCreated: 2022-04-21T03:41:20.348Z
 
 [[en:SSH_service]]
 
-
 ## 前言
 
 SSH为Secure Shell的缩写，由IETF的网络工作小组（Network Working Group）所制定；SSH为建立在应用层和传输层基础上的安全协议。SSH是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议。利用SSH协议可以有效防止远程管理过程中的信息泄露问题。
@@ -18,7 +17,6 @@ SSH为Secure Shell的缩写，由IETF的网络工作小组（Network Working Gro
 SSH最初是UNIX系统上的一个程序，后来又迅速扩展到其他操作平台。SSH在正确使用时可弥补网络中的漏洞。SSH客户端适用于多种平台。几乎所有UNIX平台—包括HP-UX、Linux、AIX、Solaris、Digital UNIX、lrix，以及其他平台—都可运行SSH。
 
 此条目简单介绍Linux下的SSH服务的安装与配置。
-
 
 ## 安装
 
@@ -33,12 +31,14 @@ SSH分客户端openssh-client和openssh-server
     sudo apt-get install openssh-server
 
 ## 卸载
+
 SSH分客户端openssh-client和openssh-server，如果需要卸载，请终端执行：
 
     sudo apt-get remove openssh-client
     sudo apt-get remove openssh-server
 
 ## 配置
+
 然后确认sshserver是否启动了,终端执行：
 
     ps -e |grep ssh
@@ -84,7 +84,7 @@ ssh-server配置文件位于/etc/ssh/sshd_config，在这里可以定义SSH的�
 
 使用`pkill -kill -t [TTY]`命令来完成这项操作，其中[TTY]表示终端名，即用户登录所用的终端。
 
-我这里要结束的是pts/0，pts/1为我当前活动的登录帐号，因为WHAT表明我在进行w命令。 
+我这里要结束的是pts/0，pts/1为我当前活动的登录帐号，因为WHAT表明我在进行w命令。
 
 运行后，可以再次使用w命令来验证是否成功。
 

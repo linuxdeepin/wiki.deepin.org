@@ -24,11 +24,10 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 
 [http://packages.deepin.com/deepin/pool/main/w/wine/](http://packages.deepin.com/deepin/pool/main/w/wine/)
 
-
 ## 常见问题
+
 1.百度盘下载文件的位置
 
 /home/用户名/.deepinwine/Deepin-BaiduNetDisk/drive_c/BaiduNetdiskDownload
-
 
 ## 相关链接

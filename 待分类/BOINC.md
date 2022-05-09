@@ -24,8 +24,6 @@ BOINC是一款用来贡献计算资源的应用。你可以通过BOINC应用贡�
 
 [http://packages.deepin.com/deepin/pool/main/b/boinc/](http://packages.deepin.com/deepin/pool/main/b/boinc/)
 
-
 ## 常见问题
-
 
 ## 相关链接

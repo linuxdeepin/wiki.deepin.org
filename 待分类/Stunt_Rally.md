@@ -24,9 +24,7 @@ Stunt Rally是一款赛车游戏，玩家可以从153条赛车轨道和24个关�
 
 [http://packages.deepin.com/deepin/pool/contrib/s/stuntrally/](http://packages.deepin.com/deepin/pool/contrib/s/stuntrally/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

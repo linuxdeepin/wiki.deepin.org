@@ -27,7 +27,7 @@ Use `ps` to show current status of process
 Syntax:
 
     ps [Options] [--help]
-        
+
 Commonly used options:
 
     -A    List all processes
@@ -41,7 +41,7 @@ Syntax:
 
     pstree [-a] [-c] [-h|-H PID] [-l] [-n] [-p] [-u] [-G|-U] [PID or User]
     pstree -V
-        
+
 Options:
     -a    Show complete command lines of processes. If process image is replaced out, then a pair of  parentheses is shown instead.
     -c    If there are duplicated process name, list them separately (the default behavior is to show an asterisk before their name)
@@ -138,8 +138,7 @@ Syntax:
         killall [-egiqvw] [-SignalNumber] ProcessName ... 
         killall -l 
         killall -V 
-        
-        
+
 Options:
 
         -e    Require an exact match for very long names. If a command name is longer than 15 characters, the full name may be unavailable. In this case, killall will kill everything that matches within the first 15 characters.
@@ -191,7 +190,7 @@ Syntax:
 Example: to increase the nice value of command "ls" by 1, execute in terminal:
 
     nice -n 1 ls
-    
+
 Note: The exact priority of running process is determined by Linux kernel, and nice value is taken in to concern when using "round-robin" algorithm to calculate the priority. A process with higher priority gains more CPU time.
 
 ### Running tasks regularly
@@ -260,7 +259,7 @@ Users can also specify date as "today" or "tomorrow". After type "Enter", at wil
 Syntax:
 
          at -V [-q Queue] [-f File] [-mldbv] Time
-        
+
 Options:
 
         -q    Use specified queue to store tasks. There are 52 queues for tasks in total, a, b, c, ..., y, z, A, B, C,  ..., Y, Z

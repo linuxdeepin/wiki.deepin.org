@@ -24,9 +24,7 @@ HotShots是一款易于使用的屏幕捕获工具，允许用户全屏捕捉，
 
 [http://packages.deepin.com/deepin/pool/main/h/hotshots/](http://packages.deepin.com/deepin/pool/main/h/hotshots/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

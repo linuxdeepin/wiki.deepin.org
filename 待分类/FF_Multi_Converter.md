@@ -24,8 +24,6 @@ FF Multi Converter是一个多功能的格式转换工具，它支持音频，�
 
 [http://packages.deepin.com/deepin/pool/main/f/ffmulticonverter-dmo/](http://packages.deepin.com/deepin/pool/main/f/ffmulticonverter-dmo/)
 
-
 ## 常见问题
-
 
 ## 相关链接

@@ -24,8 +24,6 @@ Terminator是一款跨平台的终端工具，将界面分割成网格状，拖�
 
 [http://packages.deepin.com/deepin/pool/main/t/terminator/](http://packages.deepin.com/deepin/pool/main/t/terminator/)
 
-
 ## 常见问题
-
 
 ## 相关链接

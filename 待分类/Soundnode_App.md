@@ -24,9 +24,7 @@ Soundnode App是一款音乐播放器应用，除了简洁的播放界面和常�
 
 [http://packages.deepin.com/deepin/pool/main/s/soundnode/](http://packages.deepin.com/deepin/pool/main/s/soundnode/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

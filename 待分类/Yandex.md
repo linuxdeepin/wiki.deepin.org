@@ -24,9 +24,7 @@ Yandex是一款免费的浏览器，来自自俄罗斯最大的搜索引擎Yande
 
 [http://packages.deepin.com/deepin/pool/main/y/yandex-browser-beta/](http://packages.deepin.com/deepin/pool/main/y/yandex-browser-beta/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

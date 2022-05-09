@@ -24,8 +24,6 @@ KShutDown是一个定时关机工具，使用它你可以在指定的时间实�
 
 [http://packages.deepin.com/deepin/pool/main/k/kshutdown/](http://packages.deepin.com/deepin/pool/main/k/kshutdown/)
 
-
 ## 常见问题
-
 
 ## 相关链接

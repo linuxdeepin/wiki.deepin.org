@@ -24,9 +24,7 @@ Brackets是一个HTML/CSS/JavaScrip前端WEB集成开发环境，它提供了快
 
 [http://packages.deepin.com/deepin/pool/non-free/b/brackets/](http://packages.deepin.com/deepin/pool/non-free/b/brackets/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

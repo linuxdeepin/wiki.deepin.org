@@ -24,9 +24,7 @@ LyX是一款利用LaTeX来排版的文件编辑软件，其强大的文档格式
 
 [http://packages.deepin.com/deepin/pool/main/l/lyx/](http://packages.deepin.com/deepin/pool/main/l/lyx/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

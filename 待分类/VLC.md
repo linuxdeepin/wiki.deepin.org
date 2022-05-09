@@ -24,9 +24,7 @@ VLC是一款自由、开源的跨平台多媒体播放器及框架，它支持�
 
 [http://packages.deepin.com/deepin/pool/main/v/vlc/](http://packages.deepin.com/deepin/pool/main/v/vlc/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -29,7 +29,7 @@ cpu：intel core i7 6700Q
 
 对于笔记本用户来说，一直开着独显的话发热量会明显增大，并且耗电也会变快，所以需要安装bumblebee来切换显卡，平时只用核显就足够了，需要运行cuda或者玩游戏的话才开启独显。
 
-####安装cuda开发工具
+#### 安装cuda开发工具
 
 cuda在linux下的开发工具基本上够用了，有基于eclipse 的nsight，有visual profiler性能分析工具，还有pycuda库实现对python运算的加速。但是我以前在deepin上面尝试安装官方的.run包，均以失败告终，很容易把电脑搞崩溃。最近终于找到了从软件源直接安装cuda的方法。
 
@@ -191,7 +191,6 @@ sudo apt-get install libglu1-mesa-dev （OpenGL相关的依赖项）
 
 - 完了之后，点击左下角的Generate按钮，将会根据上面的配置生成Makefile文件
 
-
 4. 在build路径下执行命令
 
 make -j8 (多线程编译，注意散热，这里的数字8根据自己计算机cpu核心的个数自行调整)
@@ -202,7 +201,7 @@ sudo make install
 sudo ldconfig
 ```
 
-测试opencv安装是否成功，opencv完全编译安装会安装对应的python接口，在终端中简单测试即可 
+测试opencv安装是否成功，opencv完全编译安装会安装对应的python接口，在终端中简单测试即可
 
 ![](http://img.blog.csdn.net/20170920015216074?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
@@ -219,7 +218,7 @@ sudo apt-get install --no-install-recommends libboost-all-dev
 
 安装ATLAS，输入下述命令：
 
-```sudo apt-get install libatlas-base-dev ```
+```sudo apt-get install libatlas-base-dev```
 
 安装剩余依赖项
 
@@ -309,7 +308,7 @@ sudo make install
 
 下载caffe源码
 
-```git clone https://github.com/BVLC/caffe.git  ```
+```git clone https://github.com/BVLC/caffe.git```
 
 修改Makefile.config
 

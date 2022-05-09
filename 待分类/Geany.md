@@ -24,12 +24,13 @@ Geany是一个跨平台的开源集成开发环境，它支持基本的语法高
 
 [http://packages.deepin.com/deepin/pool/main/g/geany/](http://packages.deepin.com/deepin/pool/main/g/geany/)
 
-
 ## 常见问题
+
 ### 点击执行时无法调用深度终端
+
 在首选项→工具→虚拟终端，修改终端的命令为：
 
-`> deepin-terminal -x "/bin/sh" %c` 
+`> deepin-terminal -x "/bin/sh" %c`
 
 点击“应用”按钮后即可。
 

@@ -58,7 +58,6 @@ You can open Deepin Cloud Print Cient in deepin to add one or more cloud printer
 4. Click on ![icon_setting](/images/1/1c/Icon_setting.png) to enter the interface of print settings.
 5. You can view whether the printer is added successfully.
 
-
 > ![notes](/images/5/51/Notes.png): If you need to delete the printer, please enter "Print Settings" to select the printer, then select **Delete** in the context menu.
 
 ## Test of Cloud Print

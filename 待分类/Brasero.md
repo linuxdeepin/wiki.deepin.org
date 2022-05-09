@@ -24,8 +24,6 @@ Brasero是一款CD/DVD刻录软件，支持单次写入数据DVD和任何类型�
 
 [http://packages.deepin.com/deepin/pool/main/b/brasero/](http://packages.deepin.com/deepin/pool/main/b/brasero/)
 
-
 ## 常见问题
-
 
 ## 相关链接

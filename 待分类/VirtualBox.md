@@ -24,8 +24,6 @@ Oracle VM VirtualBox是一款开源的虚拟机软件，它可以虚拟化安装
 
 [http://packages.deepin.com/deepin/pool/main/v/virtualbox/](http://packages.deepin.com/deepin/pool/main/v/virtualbox/)
 
-
 ## 常见问题
-
 
 ## 相关链接

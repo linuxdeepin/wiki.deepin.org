@@ -24,9 +24,7 @@ Snes9x是一款超级任天堂SFC模拟器，能流畅运行市面上大部分�
 
 [http://packages.deepin.com/deepin/pool/non-free/s/snes9x/](http://packages.deepin.com/deepin/pool/non-free/s/snes9x/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

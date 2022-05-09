@@ -24,8 +24,6 @@ KeePassX是一个密码管理工具，它能够存储用户的各种密码信息
 
 [http://packages.deepin.com/deepin/pool/main/k/keepassx/](http://packages.deepin.com/deepin/pool/main/k/keepassx/)
 
-
 ## 常见问题
-
 
 ## 相关链接

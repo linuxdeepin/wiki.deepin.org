@@ -30,9 +30,7 @@ Vivaldi是一款极速浏览器，支持英语、日语、法语、俄语等近1
 
 [http://packages.deepin.com/deepin/pool/main/v/vivaldi-beta/](http://packages.deepin.com/deepin/pool/main/v/vivaldi-beta/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

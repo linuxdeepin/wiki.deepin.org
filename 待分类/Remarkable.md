@@ -24,9 +24,7 @@ Remarkable是一款Markdown编辑器。可以在线预览，有着简洁的用�
 
 [http://packages.deepin.com/deepin/pool/non-free/r/remarkable/](http://packages.deepin.com/deepin/pool/non-free/r/remarkable/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

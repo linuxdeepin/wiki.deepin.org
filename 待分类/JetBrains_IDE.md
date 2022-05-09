@@ -55,9 +55,7 @@ sudo apt-get remove datagrip
 
 [http://packages.deepin.com/deepin/pool/main/d/datagrip/](http://packages.deepin.com/deepin/pool/main/d/datagrip/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

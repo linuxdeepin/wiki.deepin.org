@@ -24,9 +24,7 @@ Gwenview是一个图片浏览和管理软件，其主要是以文件夹的方式
 
 [http://packages.deepin.com/deepin/pool/main/g/gwenview/](http://packages.deepin.com/deepin/pool/main/g/gwenview/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

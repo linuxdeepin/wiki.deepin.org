@@ -16,7 +16,7 @@ Software sources refers to the repositories that are used to store various Linux
 - ISO repository: ISO files from distributions
 - Local repository: directories that contain software packages.
 
-Take official repository of deepin (http://packages.deepin.com/) as example:
+Take official repository of deepin (<http://packages.deepin.com/>) as example:
 
 - pool/    directory contains all released packages
 - project/    contains resources used by developper
@@ -61,13 +61,13 @@ After modification, update local cache of software source:
 
 If you would like to offer a repository mirror to deepin users, please refer following instructions:
 
-* Make sure that you have enough disk space.
+- Make sure that you have enough disk space.
 
-* Synchronizing package repository (about 330 GB in total)
+- Synchronizing package repository (about 330 GB in total)
 
     rsync -av --delete-after rsync.deepin.com::deepin/ /var/www/deepin/
 
-* Synchronizing ISO repository (about 520 GB in total)
+- Synchronizing ISO repository (about 520 GB in total)
 
     rsync -av --delete-after rsync.deepin.com::releases/ /var/www/deepin-cd/
 

@@ -24,8 +24,6 @@ Poedit是一款.Po文件编辑器，用于汉化各种程序，可以在所有�
 
 [http://packages.deepin.com/deepin/pool/main/p/poedit/](http://packages.deepin.com/deepin/pool/main/p/poedit/)
 
-
 ## 常见问题
-
 
 ## 相关链接

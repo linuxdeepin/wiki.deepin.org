@@ -24,8 +24,6 @@ VMware Workstation是一款桌面虚拟计算机软件，提供用户在单一�
 
 [http://packages.deepin.com/deepin/pool/non-free/v/vmware-workstation-install/](http://packages.deepin.com/deepin/pool/non-free/v/vmware-workstation-install/)
 
-
 ## 常见问题
-
 
 ## 相关链接

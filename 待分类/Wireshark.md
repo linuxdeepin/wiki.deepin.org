@@ -24,9 +24,7 @@ Wireshark是一个网络封包分析软件，它具有获取网络封包并显�
 
 [http://packages.deepin.com/deepin/pool/main/w/wireshark/](http://packages.deepin.com/deepin/pool/main/w/wireshark/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

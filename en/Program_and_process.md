@@ -12,7 +12,6 @@ dateCreated: 2022-04-21T03:56:47.965Z
 
 Source code refers to the code written using signs from certain programming language. The code generated from source code by compiling or interpreting is called a program.
 
-
 There are mainly three types of programming language:
 
 * Compiling language: Source code must undergo compilation before they can be execute by computer. Their efficiency are relatively high. Example: C/C++.
@@ -46,7 +45,6 @@ The scheduler allocates running times of CPU (time slices) among all process, an
 Linux assigns a unique integer to each process as their ID, PID. Besides, each process has an ID of its parent process, PPID. The init process, with PID 1, is the common ancestor of all process. It is first started after Linux kernel is loaded. It is responsible for booting, starting daemons and other necessary programs as well.
 
 The process in Linux is similar to that in Windows, as it has its own (and unique) identifier and data (process variable, external variable, task, heap, etc).
-
 
 ## Process type
 
@@ -84,8 +82,8 @@ The relationship between is parent and child process is that the manager and the
 
 ## Reference
 
-[鸟哥私房菜:什么是程序]（http://vbird.dic.ksu.edu.tw/linux_basic/0440processcontrol.php#whatis）
+[鸟哥私房菜:什么是程序]（<http://vbird.dic.ksu.edu.tw/linux_basic/0440processcontrol.php#whatis>）
 
-[Linux进程控制]（http://wiki.linuxdeepin.com/index.php/%E8%BF%9B%E7%A8%8B%E6%8E%A7%E5%88%B6）
+[Linux进程控制]（<http://wiki.linuxdeepin.com/index.php/%E8%BF%9B%E7%A8%8B%E6%8E%A7%E5%88%B6>）
 
-[haose的博客：Linux进程]（http://xuzhigang921.blog.163.com/blog/static/56199220201123122639986/）
+[haose的博客：Linux进程]（<http://xuzhigang921.blog.163.com/blog/static/56199220201123122639986/>）

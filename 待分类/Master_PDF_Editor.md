@@ -24,9 +24,7 @@ Master PDF Editor是一款功能强大的PDF和XPS文档编辑工具，它可以
 
 [http://packages.deepin.com/deepin/pool/main/m/master-pdf-editor/](http://packages.deepin.com/deepin/pool/main/m/master-pdf-editor/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

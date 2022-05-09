@@ -24,9 +24,7 @@ SQLiteStudio是一款可以帮助用户管理sqlite数据库的工具，该sqlit
 
 [http://packages.deepin.com/deepin/pool/main/s/sqlitestudio/](http://packages.deepin.com/deepin/pool/main/s/sqlitestudio/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

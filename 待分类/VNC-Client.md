@@ -24,8 +24,6 @@ VNC-Client是一款远程连接应用，通过该软件可以远程控制计算�
 
 [http://packages.deepin.com/deepin/pool/main/e/evnc/](http://packages.deepin.com/deepin/pool/main/e/evnc/)
 
-
 ## 常见问题
-
 
 ## 相关链接

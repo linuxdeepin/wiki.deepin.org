@@ -24,8 +24,6 @@ QCad是一款2D计算机辅助画图软件，采用AutoCAD DXF文件作为其标
 
 [http://packages.deepin.com/deepin/pool/main/q/qcad/](http://packages.deepin.com/deepin/pool/main/q/qcad/)
 
-
 ## 常见问题
-
 
 ## 相关链接

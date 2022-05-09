@@ -28,7 +28,7 @@ Generally, binary packages refer to those packages that do no belong to source p
 
 ### deb packages
 
-Be careful when installing deb packages. If you apply a wrong version of deb to your system, the dependency of system software may be broken! 
+Be careful when installing deb packages. If you apply a wrong version of deb to your system, the dependency of system software may be broken!
 
 Two ways to install deb packages:
 
@@ -73,6 +73,7 @@ to get a setup wizard. Similarly, if this does not help, try to run with sudo:
          sudo ./ati.run
 
 ### SH scripts
+
 For example, we have got a script named "deepin.sh". To grant it the executing permission, either run in terminal:
 
          sudo chmod +x deepin.sh

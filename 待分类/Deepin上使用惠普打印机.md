@@ -9,12 +9,14 @@ dateCreated: 2022-04-21T03:32:19.614Z
 ---
 
 ## 简介
+
 本经验由深度官方人员分享。
 
 ## 正文
 
 如何在Deepin系统上使用打印机？
 其实只需要简单配置一下就可以。具体方法如下：
+
 1. 首先在启动菜单里找到打印设置
    如果图标太多，可以搜索【打印】就可以了。
 
@@ -49,7 +51,7 @@ under certain conditions. See COPYING file for more details.
 如果使用hp-plugin这个命令在线安装，往往会因为网络问题，下载失败。建议手动下载plugin。
 
 下载地址：
-https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/
+<https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/>
 该网站会有很多版本提供下载。根据上面看到的版本，我们需要下载3.16.10的版本（就是上面括号中给出的提示ver.3.16.X，请注意根据这个提示下载对应版本）。主要下载的文件为：
 hplip-3.16.10-plugin.run
 hplip-3.16.10-plugin.run.asc

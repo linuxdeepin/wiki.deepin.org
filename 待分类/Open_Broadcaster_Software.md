@@ -24,9 +24,7 @@ Open Broadcaster Software是一款视频录制和直播的应用，可以捕捉�
 
 [http://packages.deepin.com/deepin/pool/main/o/obs-studio/](http://packages.deepin.com/deepin/pool/main/o/obs-studio/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

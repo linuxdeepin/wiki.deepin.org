@@ -24,8 +24,6 @@ CherryTree是一个支持无限层级分类的笔记软件，它支持富文本�
 
 [http://packages.deepin.com/deepin/pool/main/c/cherrytree/](http://packages.deepin.com/deepin/pool/main/c/cherrytree/)
 
-
 ## 常见问题
-
 
 ## 相关链接

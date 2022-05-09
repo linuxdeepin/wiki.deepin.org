@@ -24,9 +24,7 @@ Calibre是一个“一站式”的电子书管理软件，支持EPUB、MOBI、PD
 
 [http://packages.deepin.com/deepin/pool/main/c/calibre/](http://packages.deepin.com/deepin/pool/main/c/calibre/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

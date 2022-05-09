@@ -24,9 +24,7 @@ HandBrake是一款视频转码工具，它可以转换常见的视频文件或�
 
 [http://packages.deepin.com/deepin/pool/main/h/handbrake/](http://packages.deepin.com/deepin/pool/main/h/handbrake/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

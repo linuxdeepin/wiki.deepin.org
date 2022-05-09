@@ -24,8 +24,6 @@ HardInfo是一个系统信息查看软件，它支持查看系统硬件信息、
 
 [http://packages.deepin.com/deepin/pool/main/h/hardinfo/](http://packages.deepin.com/deepin/pool/main/h/hardinfo/)
 
-
 ## 常见问题
-
 
 ## 相关链接

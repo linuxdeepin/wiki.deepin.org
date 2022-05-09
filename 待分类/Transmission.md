@@ -24,9 +24,7 @@ Transmission是一个BitTorrent客户端软件，它支持速度限制、制作�
 
 [http://packages.deepin.com/deepin/pool/main/t/transmission/](http://packages.deepin.com/deepin/pool/main/t/transmission/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

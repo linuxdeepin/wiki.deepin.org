@@ -24,9 +24,7 @@ Warsow是一款第一人称射击游戏，游戏风格为明快的卡通风格�
 
 [http://packages.deepin.com/deepin/pool/non-free/w/warsow/](http://packages.deepin.com/deepin/pool/non-free/w/warsow/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

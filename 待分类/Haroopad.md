@@ -24,9 +24,7 @@ Haroopad是一款Linux平台下的markdown编辑器，它在两侧分别显示�
 
 [http://packages.deepin.com/deepin/pool/non-free/h/haroopad/](http://packages.deepin.com/deepin/pool/non-free/h/haroopad/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

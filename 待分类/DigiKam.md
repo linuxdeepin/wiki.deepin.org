@@ -24,9 +24,7 @@ digiKam是一款跨平台的数字照片管理软件，它支持大多数图像�
 
 [http://packages.deepin.com/deepin/pool/main/d/digikam/](http://packages.deepin.com/deepin/pool/main/d/digikam/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

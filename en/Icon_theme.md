@@ -20,7 +20,6 @@ Download the deb package of the icon theme you preferred, install it, then step 
 
 If you get a compressed file for the icon theme, first decompress it, then copy the extracted file to directory /usr/share/icons (you may need root permission to do so). Now you should be able to find it in the theme list of Control Center.
 
-
 ## References
 
 [图标主题资源下载](http://gnome-look.org/index.php?xcontentmode=120x121)

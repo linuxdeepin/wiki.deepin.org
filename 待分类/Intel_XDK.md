@@ -24,8 +24,6 @@ Intel XDK是一款HTML5跨平台集成开发工具，利用HTML5的技术可以�
 
 [http://packages.deepin.com/deepin/pool/non-free/i/intel-xdk/](http://packages.deepin.com/deepin/pool/non-free/i/intel-xdk/)
 
-
 ## 常见问题
-
 
 ## 相关链接

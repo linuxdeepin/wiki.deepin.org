@@ -24,7 +24,7 @@ Here are some commonly used configuration files for network:
 - Rules for domain name service: /etc/resolv.conf
 - Network card configurations: etc/network/interfaces
 
-###/etc/hosts
+### /etc/hosts
 
 File /etc/hosts is used for quick name resolving in Linux. It is a ASCII file, contains maps from hostnames (and host alias) to IPs.
 
@@ -34,7 +34,7 @@ For example, there is a record in /etc/hosts:
 
         192.168.1.100 linumu100 test100
 
-Supposing "192.168.1.100" is backed by a web server. Visiting http://linumu100 in the browser will give us the web page at 192.168.1.100.
+Supposing "192.168.1.100" is backed by a web server. Visiting <http://linumu100> in the browser will give us the web page at 192.168.1.100.
 
 Generally, the first line in the file is the local IP and the local hostname:
 
@@ -68,9 +68,8 @@ To show the IP address of the host:
 
         $ hostname -i
         192.168.1.100
-        
-Note that the IP is read from file /etc/hosts.
 
+Note that the IP is read from file /etc/hosts.
 
 #### Common problems
 
@@ -84,7 +83,7 @@ Other types of logins, like remote login of MySQL or querying of shared files, c
 
 When two computers are connected directly, both need to set their own IPs, and both need to have the IP and the hostname of the other computer.
 
-###/etc/services
+### /etc/services
 
 It records the names of all network services, the ports and the protocols they use. It looks like:
 
@@ -105,7 +104,7 @@ The port number used in Linux ranges from 0 to 65,535, with different subranges 
         1024 - 4999    Assigned by client programs
         5000 - 65535    Assigned by other programs
 
-###/etc/hosts.allow and /etc/hosts.deny
+### /etc/hosts.allow and /etc/hosts.deny
 
 These are configuration files of TCPd server who controls the access of external IP to local host. The format of each record in these files are:
 
@@ -165,13 +164,13 @@ The keyword "order" defines the order of name resolving: first using the hosts f
 
 This file determine the priority of all DNS servers. Each line is beginned with a keyword, followed by a parameter indicating the server IP or host name. There are four kinds of keyword:
 
-* nameserver: IP address of a DNS server
+- nameserver: IP address of a DNS server
 
-* domain: A local domain
+- domain: A local domain
 
-* search: A list for domain searching
+- search: A list for domain searching
 
-* sortlist: A list for sorting obtained domains
+- sortlist: A list for sorting obtained domains
 
 The keyword "nameserver" is mandatary, as no DNS server can be found without it. Other keywords are optional.
 
@@ -208,7 +207,7 @@ Here is an example of this file:
 Syntax:
 
     ifconfig interface [options] address
-        
+
 Options:
 
     interface    The interface specified
@@ -247,7 +246,7 @@ ip is a powerful tool for network configuration provided by package "iproute2". 
 Syntax:
 
     ip [Options] OBJECT [Command [Arguments]]
-        
+
 Options:
 
     -s, -stats, -statistics    Print more details when executed
@@ -263,7 +262,7 @@ Commands:
 Commands defines the action to be done, depending the type of the object. Commonly used commands are: add, delete, show and list. The default command is "list", or "help" if the object specified cannot be listed. Users can use
 
     ip help
-    
+
 to get a list of all suppported commands.
 
 Arguments:
@@ -275,7 +274,7 @@ Arguments are passed to the command. There are two kinds of arguments: the flag 
 equals to
 
     ip link ls dev eth0
-    
+
 Examples:
 
 To assign the address 192.168.2.2/24 to interface eth0:
@@ -293,7 +292,7 @@ To discard all datagram whose sources address is 192.168.2.0/24:
 Syntax:
 
     ping [-dfnqrRv][-c][-i][-I][-l][-p][-s][-t] Address
-        
+
 Options:
 
         -d    Set the SO_DEBUG option on the socket being used. 
@@ -329,7 +328,7 @@ ping the gateway:
 ping for a certain number of times:
 
          ping -c 10 192.168.120.206
- 
+
 ping for a certain number of times with given intervals:
 
          ping -c 10 -i 0.5 192.168.120.206
@@ -368,7 +367,6 @@ Options:
     -x, --unix    Similar to "-A unix".
     --ip, --inet    Similar to "-A inet"
 
-
 Example:
 
 netstat can be used to view local network status, including opening ports, active users and service status. Besides, it provides the information about system route tables and interfaces status. By default, netstat show only the ports with established connections. To show all listened port, use "-a" option:
@@ -398,7 +396,7 @@ The output above indicates that the host provides services like HTTP, FTP, NFS a
 Syntax:
 
     telnet [-8acdEfFKLrx][-b][-e][-k][-l][-n][-S][-X][Hostname or IP <Port>]
-        
+
 Options:
 
         -8    Specify an 8-bit data path and try to negotiate the TELNET BINARY option on both input and output.
@@ -431,7 +429,7 @@ telnet simulates the traditional terminal, rather graphical environments like X-
 Syntax:
 
     ftp [-dignv][Hostname or IP]
-        
+
 Options:
 
         -d    Enables debugging.
@@ -452,7 +450,7 @@ Users can use a ftp client to connect to a ftp server, where they can list direc
     get(mget)    Download files to the local machine
     put(mput)    Upload files to the remote host
     quit    Disconnect from the remote host and quit ftp program
-    
+
 ### route
 
 "route" is used to generate, manipulate and view route tables.
@@ -461,7 +459,7 @@ Syntax:
 
         route [-add][-net|-host] TargetAddress [netmask Mask] [[Device]Interface]
         route [-delete][-net|-host] TargetAddress [gw Gateway] [netmask Mask]  [[Device]Interface]
-        
+
 Options:
 
         -add    Add a router
@@ -476,7 +474,6 @@ Users can use route command to set proper routers for Linux so that the system c
 
 In some cases, users need to manually set routers for Linux, so that: a machine in a local area network where a gateway accessible to the Internet is present can access the Internet through this gateway. The gateway here serves as a router for the machine in the LAN.
 
-
 Use the following command to create a default router:
 
          route add 0.0.0.0 192.168.1.1
@@ -488,7 +485,7 @@ Use the following command to create a default router:
 Syntax:
 
     rlogin [ -8EKLdx ] [ -e Char ] [-k Realm ] [ - l Username ] Host
-        
+
 Options:
 
     -8 allows an eight-bit input data path at all times; otherwise parity bits are  stripped  except when the remote side's stop and start characters are other than ^S/^Q.
@@ -511,7 +508,7 @@ Syntax:
 
     rcp [-px] [-k Realm] File1 File2
     rcp [-px] [-r] [-k Realm] File
-        
+
 Options:
     -r    Copy recursively all files in source directories to the target directory
     -p    Attempt to preserve the modification times and modes of the source files in the copies, ignoring the umask.
@@ -526,7 +523,7 @@ Syntax:
 
     finger [Options] [User]
     finger [Options] [User@Host]
-        
+
 Options:
 
     -s    Show information including login name, real name, terminal name, writing status, stay time and login time.
@@ -551,7 +548,7 @@ Syntax:
 
     mail [-s Subject] [-c Address] [-b Address]
     mail -f [Mailbox] Mail [-u User]
-        
+
 Options:
 
     -b Address    List of addresses to send blind carbon copies to.
@@ -560,10 +557,10 @@ Options:
     -s Subject    Specify the subject for the mail.
     -u User       Reads the mailbox of the given user name.
 
-###nslookup
+### nslookup
 
 "nslookup" is used to query the IP of a machine by its domain. All user can use it.
-Generally, it requires a domain name server to provide DNS service. 
+Generally, it requires a domain name server to provide DNS service.
 
 Syntax:
 
@@ -580,7 +577,7 @@ To run nslookup in the interactive mode:
 
 You can type the IP address or the domain to query, then press Enter. To quit the program, type "exit" and then press Enter.
 
-You may also use this command to check if named service is running normally. 
+You may also use this command to check if named service is running normally.
 
 ## Common network management operations
 
@@ -608,9 +605,9 @@ The Internet Protocol version 6 (IPv6) is the next generation protocol replacing
 
 Two ways to test for the support of IPv6 of the current network environment:
 
-* Execute in terminal: ```ifconfig```, and see if any inet6 address is present
+- Execute in terminal: ```ifconfig```, and see if any inet6 address is present
 
-* Visit [www.kame.net](http://www.kame.net) in a browser. If you see a walking turtle, then the local network has already supported the IPv6; otherwise, you will need to configure manually.
+- Visit [www.kame.net](http://www.kame.net) in a browser. If you see a walking turtle, then the local network has already supported the IPv6; otherwise, you will need to configure manually.
 
 #### Configure the IPv6 network
 
@@ -630,13 +627,13 @@ Now reboot the networking service:
 
 Some IPv6 sites that are commonly used:
 
-IPv6 China: http://www.ipv6.net.cn/
+IPv6 China: <http://www.ipv6.net.cn/>
 
-IPv6 Google: http://ipv6.google.com/
+IPv6 Google: <http://ipv6.google.com/>
 
-CERNET2: http://www.cernet2.edu.cn/
+CERNET2: <http://www.cernet2.edu.cn/>
 
-Sixy.ch: http://sixy.ch/
+Sixy.ch: <http://sixy.ch/>
 
 ### Accelerate DNS resolving
 
@@ -644,7 +641,7 @@ dnsmasq provides DNS cache and DHCP services.
 
 ## Frequently asked questions
 
-###  Gibberish of Chinese characters in mud over Telnet
+### Gibberish of Chinese characters in mud over Telnet
 
 For example, when login to mud server through telnet
 
@@ -659,7 +656,6 @@ to login instead.
 luit is a tool for conversion between different encodings. Usage:
 
     luit -encoding SourceEncoding Command
-
 
 ## References
 

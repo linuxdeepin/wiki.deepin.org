@@ -24,9 +24,7 @@ Shotcut是一款跨平台的视频编辑器软件，它支持视频特效滤镜�
 
 [http://packages.deepin.com/deepin/pool/main/s/shotcut/](http://packages.deepin.com/deepin/pool/main/s/shotcut/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -10,7 +10,6 @@ dateCreated: 2022-04-21T03:33:02.433Z
 
 [[en:Desktop_entry]]
 
-
 ## 简介
 
 Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信息的文件。Desktop Entry 文件实现了类似于 Windows 操作系统中快捷方式的功能。
@@ -20,6 +19,7 @@ Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信�
 系统范围的Desktop Entry文件地址统一在 `/usr/share/applications`，文件以".desktop"为后缀名。用户个人的Desktop Entry 地址为 `~/.local/share/applications`。
 
 ## 简单解说
+
 ### 配置
 
     [Desktop Entry] #每个desktop文件都以这个标签开始，说明这是一个Desktop Entry文件

@@ -9,8 +9,9 @@ dateCreated: 2022-04-21T03:36:22.274Z
 ---
 
 For Windows users:
-1. Download the latest version of Deepin OS from here, https://www.deepin.org/en/download/
-2. Download Deepin Boot maker from here, http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe
+
+1. Download the latest version of Deepin OS from here, <https://www.deepin.org/en/download/>
+2. Download Deepin Boot maker from here, <http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe>
 3. Insert any USB drive to your computer.
 4. Open Deepin Boot Maker.
 5. Click on "Select an ISO image file".

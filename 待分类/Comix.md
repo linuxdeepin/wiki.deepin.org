@@ -24,9 +24,7 @@ Comix是一款优秀的连环画电子阅读器。如果您有很多精美的电
 
 [http://packages.deepin.com/deepin/pool/main/c/comix/](http://packages.deepin.com/deepin/pool/main/c/comix/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ SMplayer是一款跨平台的视频播放工具，可以支持大部分的视频
 
 [http://packages.deepin.com/deepin/pool/main/s/smplayer/](http://packages.deepin.com/deepin/pool/main/s/smplayer/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ ChmSee是一个在Linux下阅读CHM格式帮助文件的软件，对中文支持
 
 [http://packages.deepin.com/deepin/pool/main/c/chmsee/](http://packages.deepin.com/deepin/pool/main/c/chmsee/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

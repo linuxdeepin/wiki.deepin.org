@@ -24,9 +24,7 @@ MuseScore是一套作曲写乐谱工具，透过MuseScore的协助，您可以�
 
 [http://packages.deepin.com/deepin/pool/main/m/musescore/](http://packages.deepin.com/deepin/pool/main/m/musescore/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

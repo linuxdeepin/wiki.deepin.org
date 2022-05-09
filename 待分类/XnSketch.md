@@ -24,9 +24,7 @@ XnSketch是一款图片处理应用，能够添加效果将任意图片转换成
 
 [http://packages.deepin.com/deepin/pool/non-free/x/xnsketch/](http://packages.deepin.com/deepin/pool/non-free/x/xnsketch/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

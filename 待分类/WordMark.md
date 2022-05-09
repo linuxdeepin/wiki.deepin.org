@@ -24,9 +24,7 @@ WordMark是一款MarkDown编辑器，支持Markdown语法，具有图片上传�
 
 [http://packages.deepin.com/deepin/pool/non-free/w/wordmark/](http://packages.deepin.com/deepin/pool/non-free/w/wordmark/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -43,16 +43,17 @@ Krita 4.0 版的矢量引擎已经更改。它从原先 Calligra 的自有组件
 ## OpenGL 加速
 
 Krita 使用 OpenGL 加速来实现高品质的缩放、旋转，并极大地提升绘画的响应速度。要发挥 OpenGL 加速的真正价值，你的 GPU 需要支持 OpenGL 3.0 以上。各主要 GPU 生产商开始支持 OpenGL 3.0 的产品线和发布时间如下：
+
 - Intel：第三代 HD Graphics 系列，IvyBridge 或 Bay-Trail 架构，2012 年。代表产品：Celeron J1x00、N2x00、Celeron (G)1xx0、Pentium J2x00、N3500、Pentium (G)2xx0、Core i3/5/7-3xx0 等。
 - AMD/ATI：Radeon HD 2000 系列，TeraScale 1 架构，2007 年。代表产品：Radeon HD 2400 PRO、Radeon HD 2600 PRO 等。
 - Nvidia：GeForce 8 系列，Tesla 架构，2006 年。代表产品：GeForce 8400 GS、GeForce 8800 GTS / 9800 GTX / GTS 250 等。
 
 ## 仓库地址
 
-http://packages.deepin.com/deepin/pool/main/k/krita/
+<http://packages.deepin.com/deepin/pool/main/k/krita/>
 
 ## 相关链接
 
-- 官方网站：https://krita.org/
-- 维基百科页面：https://en.wikipedia.org/wiki/Krita
-- Krita Lime PPA：https://launchpad.net/~kritalime/+archive/ubuntu/ppa
+- 官方网站：<https://krita.org/>
+- 维基百科页面：<https://en.wikipedia.org/wiki/Krita>
+- Krita Lime PPA：<https://launchpad.net/~kritalime/+archive/ubuntu/ppa>

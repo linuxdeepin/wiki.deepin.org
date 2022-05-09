@@ -8,10 +8,11 @@ editor: markdown
 dateCreated: 2022-04-21T03:37:13.061Z
 ---
 
-##前言
+## 前言
 LAMP是Linux web服务器组合套装的缩写，分别是Apache+MySQL+PHP。
 
-##安装
+## 安装
+
 ### 安装LAMP开发环境
 
 深度商店搜索lamp安装
@@ -105,9 +106,9 @@ Apache 默认文档根目录为 /var/www，配置文件 /etc/apache2/apache2.con
 
     sudo ln -s /usr/share/phpmyadmin /var/www 
 
-phpmyadmin测试：在浏览器地址栏中打开http://127.0.0.1/phpmyadmin 自此，安装完毕
+phpmyadmin测试：在浏览器地址栏中打开<http://127.0.0.1/phpmyadmin> 自此，安装完毕
 
-##卸载
+## 卸载
 
 深度商店搜索lamp卸载
 
@@ -115,7 +116,7 @@ phpmyadmin测试：在浏览器地址栏中打开http://127.0.0.1/phpmyadmin 自
 
      sudo apt-get remove lamp
 
-##相关链接
+## 相关链接
 
 [Deepin Linux 12.06 安装 Apache2+PHP5+MySQL5.5](http://www.linuxdeepin.com/forum/25/7792?p=33743)
 

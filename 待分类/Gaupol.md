@@ -24,9 +24,7 @@ Gaupol是一个字幕编辑软件，支持多种字幕文件格式，通过它�
 
 [http://packages.deepin.com/deepin/pool/main/g/gaupol/](http://packages.deepin.com/deepin/pool/main/g/gaupol/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

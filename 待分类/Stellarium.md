@@ -24,8 +24,6 @@ Stellarium是一款虚拟星象仪的计算机软件，是天文爱好者学习�
 
 [http://packages.deepin.com/deepin/pool/main/s/stellarium/](http://packages.deepin.com/deepin/pool/main/s/stellarium/)
 
-
 ## 常见问题
-
 
 ## 相关链接

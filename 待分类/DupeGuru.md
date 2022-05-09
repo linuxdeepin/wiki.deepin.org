@@ -24,8 +24,6 @@ dupeGuru是一款重复文件清理应用，它通过使用模糊匹配算法可
 
 [http://packages.deepin.com/deepin/pool/main/d/dupeguru/](http://packages.deepin.com/deepin/pool/main/d/dupeguru/)
 
-
 ## 常见问题
-
 
 ## 相关链接

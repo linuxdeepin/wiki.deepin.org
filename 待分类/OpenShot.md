@@ -24,9 +24,7 @@ OpenShot是一个视频编辑软件。它支持视频实时预览并剪贴缩放
 
 [http://packages.deepin.com/deepin/pool/main/o/openshot/](http://packages.deepin.com/deepin/pool/main/o/openshot/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

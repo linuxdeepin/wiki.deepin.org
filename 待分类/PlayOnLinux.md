@@ -24,8 +24,6 @@ PlayOnLinux是一款Wine的前端程序，它可以实现在Linux和Mac OS X上�
 
 [http://packages.deepin.com/deepin/pool/contrib/p/playonlinux/](http://packages.deepin.com/deepin/pool/contrib/p/playonlinux/)
 
-
 ## 常见问题
-
 
 ## 相关链接

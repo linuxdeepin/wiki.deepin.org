@@ -24,9 +24,7 @@ CuteMarkEd是一款Markdown编辑器，它在两侧分别显示代码编辑窗�
 
 [http://packages.deepin.com/deepin/pool/main/c/cutemarked/](http://packages.deepin.com/deepin/pool/main/c/cutemarked/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

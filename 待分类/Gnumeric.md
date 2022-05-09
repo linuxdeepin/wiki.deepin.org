@@ -24,9 +24,7 @@ Gnumeric是一款电子表格处理软件，操作方式与Excel非常相似。G
 
 [http://packages.deepin.com/deepin/pool/main/g/gnumeric/](http://packages.deepin.com/deepin/pool/main/g/gnumeric/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

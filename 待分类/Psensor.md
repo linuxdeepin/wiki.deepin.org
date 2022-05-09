@@ -24,8 +24,6 @@ PSensor是一款监控硬件温度的工具，支持监控主板、CPU、GPU、�
 
 [http://packages.deepin.com/deepin/pool/main/p/psensor/](http://packages.deepin.com/deepin/pool/main/p/psensor/)
 
-
 ## 常见问题
-
 
 ## 相关链接

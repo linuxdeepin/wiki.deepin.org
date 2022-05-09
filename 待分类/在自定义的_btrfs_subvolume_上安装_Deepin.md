@@ -8,12 +8,12 @@ editor: markdown
 dateCreated: 2022-04-21T03:47:22.157Z
 ---
 
-#简介
+# 简介
 本经验由深度论坛用户(Dongriyangguang )分享
 
 [原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=135172)
 
-#正文
+# 正文
 
 受@MattD 的[《在自定义的 btrfs+subvolume 上安装 Deepin 2014》](https://iammattd.github.io/2015/05/07/install-deepin-2014-onto-customized-btrfs-with-subvolume.html) 这篇博客的启发，我尝试将这样的安装方式应用到 Deepin 15 上，并获得了成功。操作的思路、步骤与原文基本一致，略有不同的是我是在虚拟机中安装的，使用了 UEFI 来引导，一些细节上有所调整。其实在 Deepin 2013 的时候就有人做过这样的尝试了：将LD安装到自定义的btrfs+subvolume。
 

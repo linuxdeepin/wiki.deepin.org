@@ -24,8 +24,6 @@ Racket是一种计算机程序设计语言，在Lisp和Scheme基础上增加了�
 
 [http://packages.deepin.com/deepin/pool/main/r/racket/](http://packages.deepin.com/deepin/pool/main/r/racket/)
 
-
 ## 常见问题
-
 
 ## 相关链接

@@ -8,20 +8,20 @@ editor: markdown
 dateCreated: 2022-04-21T03:40:47.096Z
 ---
 
-#Definition
+# Definition
 
 Alternatively referred to as main memory, primary memory, or system memory, Random Access Memory (RAM) is a hardware device that allows information to be stored and retrieved on a computer. RAM is usually associated with DRAM, which is a type of memory module. Because information is accessed randomly instead of sequentially like it is on a CD or hard drive, the computer can access the data much faster. However, unlike ROM or the hard drive, RAM is a volatile memory and requires power to keep the data accessible. If the computer is turned off, all data contained in RAM is lost.
 
 <br>Tip: New users often confuse RAM with disk drive space. See our memory definition for a comparison between memory and storage.</br>
 
-#History
+# History
 The first form of RAM came about in 1947 with the use of the Williams tube. It utilized a cathode ray tube (CRT) and data was stored on the face of the CRT as electrically charged spots.
 
 <br>The second widely used form of RAM was magnetic-core memory, invented in 1947. Frederick Viehe is credited with much of the work, having filed for several patents relating to the design. Magnetic-core memory works through the use of tiny metal rings and wires connecting to each ring. One bit of data could be stored per ring and accessed at any time.</br>
 
 <br>However, RAM as we know it today, as solid state memory, was first invented in 1968 by Robert Dennard. Known specifically as dynamic random access memory, or DRAM, transistors were used to store bits of data.</br>
 
-#Types
+# Types
 <br>-DIMM</br>
 <br>-RIMM</br>
 <br>-SIMM</br>
@@ -32,8 +32,7 @@ The first form of RAM came about in 1947 with the use of the Williams tube. It u
 
 ![1|dimm](/images/b/b4/Dimm.png)
 
-
-#Difference between ROM and RAM
+# Difference between ROM and RAM
 There is one major difference between a ROM and a RAM chip. A ROM chip is non-volatile storage and does not require a constant source of power to retain information stored on it. When power is lost or turned off, a ROM chip will keep the information stored on it. In contrast, a RAM chip is volatile and requires a constant source of power to retain information. When power is lost or turned off, a RAM chip will lose the information stored on it.
 
 <br>-A ROM chip is used primarily in the start up process of a computer, whereas a RAM chip is used in the normal operations of a computer after starting up and loading the operating system.</br>

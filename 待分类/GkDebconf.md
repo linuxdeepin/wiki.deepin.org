@@ -24,8 +24,6 @@ GkDebconf基本上是一个图形化的前端，在Debian系统上用Debconf重�
 
 [http://packages.deepin.com/deepin/pool/main/g/gkdebconf/](http://packages.deepin.com/deepin/pool/main/g/gkdebconf/)
 
-
 ## 常见问题
-
 
 ## 相关链接

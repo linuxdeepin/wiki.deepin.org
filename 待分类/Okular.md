@@ -24,9 +24,7 @@ Okular是一个PDF文档阅读软件，支持PDF、TIFF、CHM、ODF、EPUB、mob
 
 [http://packages.deepin.com/deepin/pool/main/o/okular/](http://packages.deepin.com/deepin/pool/main/o/okular/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

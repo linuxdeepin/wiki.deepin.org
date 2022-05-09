@@ -14,7 +14,7 @@ Shell is the main interface of text-based operating system. It is also the surfa
 
 Shell provides methods of communications, which can be either interactive (like keyboard input) or non-interactive (like the shell script, a commbinations of commands).
 
-Shell is in fact a command intepretor, receives commands (such as "ls", "chown" and "fsck") from users, then executes the relative program. 
+Shell is in fact a command intepretor, receives commands (such as "ls", "chown" and "fsck") from users, then executes the relative program.
 
 ## Types of shell
 
@@ -72,7 +72,7 @@ Options:
 
 Each time a user exits the shell, the later will update the command history in file ~/.bash_history, so users can also view the commands executed by checking this file. Thus a password may leak when it is typed directly in command line, for example when users are trying to start connections or services.
 
-- Command alias
+* Command alias
 
 To simplify long commands that are frequently used, replace them with short alias. Shell provides command "alias" to define long commands as shorter ones, which is like the definition of variables.
 
@@ -108,7 +108,7 @@ To cancel a command alias, use command:
 
 You can check it by executing command "alias" again. To permanently remove this alias, remove or comment out the related lines in configuration files.
 
-## Special characters:
+## Special characters
 
 Special characters used in command shells are:
 
@@ -149,7 +149,7 @@ Two special cases:
     $ echo ~-
     /etc/httpd/logs
 
-###  ; (Command separator)
+### ; (Command separator)
 
 The semicolon servers as the associator of commands in shell. An example:
 
@@ -176,7 +176,7 @@ In Linux shell, one dot represents the current directory, and two dot represent 
 
 The dot after the "=" means the current directory.
 
-Besides, if a file has the name begins with a dot, then this file is a special one that can only be shown with option "-a" in command "ls". 
+Besides, if a file has the name begins with a dot, then this file is a special one that can only be shown with option "-a" in command "ls".
 
 In regular expressions, a dot can represent a single character except\n".
 
@@ -184,8 +184,8 @@ In regular expressions, a dot can represent a single character except\n".
 
 Single quotes are used to specify a single string. Any "$" in the string is seen as common characters, so that no variable replacedment occur.
 
-    $ heyyou=home
-    $ echo '$heyyou'
+    heyyou=home
+    echo '$heyyou'
 
 In the example above, the output is "$heyyou", rather than "home".
 
@@ -193,8 +193,8 @@ In the example above, the output is "$heyyou", rather than "home".
 
 Double quotes allow variable substitution a single string, but do not allow wildcard extension.
 
-    $ heyyou=home
-    $ echo "$heyyou"
+    heyyou=home
+    echo "$heyyou"
 
 In the example above,  the output is "home".
 
@@ -202,8 +202,8 @@ In the example above,  the output is "home".
 
 The backticks are used to specify a command string that is to be run.
 
-    $ fdv=`date +%F`
-    $ echo "Today $fdv"
+    fdv=`date +%F`
+    echo "Today $fdv"
 
 The "date" command in the first line is seen as a command, and the result is given back to variable "fdv".
 
@@ -294,7 +294,7 @@ Another case where colons are mandatory:
 
 This set path list for PATH variable (or any other variables of this kind) in the user configuration file.
 
-###  ? (wild card)
+### ? (wild card)
 
 The question mark can be used in file name expansion to represent any single character except the null character ("\0").
 
@@ -318,11 +318,10 @@ Note: Besides from build-in command " let", you may use command "expr" to calcul
 
 Double asterisk mean "power“ in mathematical operations.
 
-
     let "sus=2**3"
     echo "sus = $sus" ## sus = 8
 
-### $ (dollar sign) 
+### $ (dollar sign)
 
 It is used in the variable substitution.
 
@@ -343,7 +342,7 @@ Bash defines multiple usage of "${}". Some of them are list below.
 
           $*, $0, $1, $2, $3, $4, $5, $6, $7, $8, $9, ${10}, ${11}.....
 
-If the number is greater than 9, then a pair of braces is required. 
+If the number is greater than 9, then a pair of braces is required.
 
 "$*" can also be used directly to refer to the string that contains  all parameters. You may need a pair of quote to wrap it:
 
@@ -353,7 +352,7 @@ If the number is greater than 9, then a pair of braces is required.
 
 $@ has the similar function of $*, except that all parameters are given in an "array", not a single string.
 
-### $#
+### $ #
 
 "$#" tells the total number of the parameters passed by caller function.
 
@@ -522,7 +521,7 @@ It also indicates the option in a command:
           ls -expr 10 - 2
 
 Some GNU programs use a standalone "-" to  refer to standard input.
-       
+
           tar xpvf -
 
 This tells "tar" to read file content from standard input (stdin).
@@ -557,7 +556,7 @@ Used in condition expression. It means "equals to".
 
     if [ $vara == $varb ] ...
 
- ### != (not equals)
+### != (not equals)
 
 Used in condition expression. It means "does not equal to".
 
@@ -649,7 +648,7 @@ Note: `>&` causes the duplication of file descriptors, thus the command
 
     cmd > file 2>&1
 
-is not identical to 
+is not identical to
 
     cmd 2>&1 >file
 
@@ -699,7 +698,7 @@ Before discussing, we have to first understand the configuration files used by b
 
 * /etc/profile: Configurations for startup scripts, setting environment variables for system
 
-* ~/.bashrc: Configuration file of the current user, customizing the environment for the user 
+* ~/.bashrc: Configuration file of the current user, customizing the environment for the user
 
 * ~/. profile: Script for initializing the environment for current user
 
@@ -780,7 +779,6 @@ You can verify it again by using
 
     echo $name
 
-
 ### Position variable
 
 Many shell commands have the format of
@@ -818,7 +816,7 @@ To specify the order of execution of commands:
 * Use "||" if we want the next command executed only if the last command fails
 * Use ";" if we want all the following command to be executed uninterruptedly
 
-We will use the examples mentioned above to illustratte the usage of these symbols. 
+We will use the examples mentioned above to illustratte the usage of these symbols.
 
 To copy a directory to a new place and then remove the old one, execute in terminal:
 
@@ -838,7 +836,7 @@ To execute multiple programs in a single command:
 
 This command calls "sudo mkdir", "cd" and "tar" in turn, first creates a directory named "/home/bak", then switch to the directory, and make a backup of "/etc/passwd" and "/etc/group" as the archive file "passwd.tar.gz".
 
-###  Command substitution
+### Command substitution
 
 Command substitution can be used to assign the result from a command to a variable. Use a pair of backticks (`) or "$(command)" to do so.
 
@@ -848,7 +846,6 @@ For example, to assign the kernel version to a variable, then print it:
     kernel_version=$(uname -r) && echo $kernel_version
 
 The result from command "uname -r" is then saved. This function is commonly used in shell programming.
-
 
 ## Reference
 

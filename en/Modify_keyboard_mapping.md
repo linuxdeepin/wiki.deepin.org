@@ -50,6 +50,6 @@ or restore setttings for all mappings:
     gsettings reset-recursively com.deepin.dde.keybinding.mediakey
     gsettings reset-recursively com.deepin.dde.keyboard
 
-## Reference 
+## Reference
 
-[ How to change capslock and other keymapping in deepin linux ](https://bbs.deepin.org/forum.php?mod=viewthread&tid=143323)
+[How to change capslock and other keymapping in deepin linux](https://bbs.deepin.org/forum.php?mod=viewthread&tid=143323)

@@ -89,20 +89,20 @@ DHCP and its predecessor, BOOTP, are both commonly used, while DHCP is more adva
 
  </table>
 
-- Op – Message operation code; it can be BOOTREQUEST or BOOTREPLY
-- Htype – Hardware address type
-- Hlen – Hardware address length
-- Xid – Transaction ID
-- Secs – Time elapsed from the obtaining of IP or the begining of lease
-- Flags – Field containing flags; currently, it is used to indicate whether it is a unicast or multicast
-- Ciaddr – Client IP address
-- Yiaddr – Your (client) IP address
-- Siaddr – IP address of next server (used in bootstrap)
-- Giaddr – IP address of DHCP relay
-- Chaddr –MAC address of client
-- Sname – Arbitary host name of server, terminated with NULL character
-- File – Boot file name, null terminator, property name in DHCP discovery protocol, or restricted path name in DHCP offer protocal
-- Options – Optional field. Refer to the selection file in the definition selection list
+* Op – Message operation code; it can be BOOTREQUEST or BOOTREPLY
+* Htype – Hardware address type
+* Hlen – Hardware address length
+* Xid – Transaction ID
+* Secs – Time elapsed from the obtaining of IP or the begining of lease
+* Flags – Field containing flags; currently, it is used to indicate whether it is a unicast or multicast
+* Ciaddr – Client IP address
+* Yiaddr – Your (client) IP address
+* Siaddr – IP address of next server (used in bootstrap)
+* Giaddr – IP address of DHCP relay
+* Chaddr –MAC address of client
+* Sname – Arbitary host name of server, terminated with NULL character
+* File – Boot file name, null terminator, property name in DHCP discovery protocol, or restricted path name in DHCP offer protocal
+* Options – Optional field. Refer to the selection file in the definition selection list
 
 ## Technical details
 
@@ -126,7 +126,7 @@ The value in Chaddr field is used for checking the configuration.
 
 When a client receives a IP lease, it must tells all other DHCP servers about that. Thus, it sends a DHCPREQUEST message that contains the IP of the DHCP server that provided its IP. When other DHCP servers receive this message, they can revoke the lease provided to that client (if any), then make the old address available in the address pool, so it can be assigned to another client in the next time. A client may receive several IP requests at a same time, but should accept only one.
 
-###DHCP Acknowledge
+### DHCP Acknowledge
 
 When DHCP receives the DHCPREQUEST message from the client, it does the last work of IP configuration: sending a DHCPACK message to the client, which contains the lease time and any other configurations that may required by the client. At that time, the whole configuration procedure is finished.
 

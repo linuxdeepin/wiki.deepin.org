@@ -24,9 +24,7 @@ HexChat是基于XChat的一款聊天工具，支持多种网络连接模式，�
 
 [http://packages.deepin.com/deepin/pool/main/h/hexchat/](http://packages.deepin.com/deepin/pool/main/h/hexchat/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

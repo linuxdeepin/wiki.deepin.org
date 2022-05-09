@@ -24,8 +24,6 @@ Referencer是一款文献管理工具。支持智能网络链接功能，支持�
 
 [http://packages.deepin.com/deepin/pool/main/r/referencer/](http://packages.deepin.com/deepin/pool/main/r/referencer/)
 
-
 ## 常见问题
-
 
 ## 相关链接

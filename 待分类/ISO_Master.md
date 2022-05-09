@@ -24,8 +24,6 @@ ISO Master是一个光盘镜像文件编辑器，通过它可以从ISO中提取�
 
 [http://packages.deepin.com/deepin/pool/main/i/isomaster/](http://packages.deepin.com/deepin/pool/main/i/isomaster/)
 
-
 ## 常见问题
-
 
 ## 相关链接

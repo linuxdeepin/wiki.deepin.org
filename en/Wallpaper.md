@@ -22,7 +22,6 @@ Please refer to [Deepin_Desktop_Environment - Set Wallpaper](Deepin_Desktop_Envi
 * `/usr/share/personalization/themes/Deepin/wallpapers`    (Special directory of wallpapers for deepin desktop)
 * `/usr/share/wallpapers`
 
-
 ## Reference
 
 [deviantart](http://www.deviantart.com/)

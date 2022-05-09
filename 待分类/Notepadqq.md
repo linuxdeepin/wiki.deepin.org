@@ -24,9 +24,7 @@ Notepadqq是一套纯文字编辑器，与Notepad++非常相似。Notepadqq除�
 
 [http://packages.deepin.com/deepin/pool/main/n/notepadqq/](http://packages.deepin.com/deepin/pool/main/n/notepadqq/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

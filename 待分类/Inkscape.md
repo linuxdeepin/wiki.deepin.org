@@ -24,9 +24,7 @@ Inkscape是一款矢量绘图软件，支持形状、路径、文本、标记、
 
 [http://packages.deepin.com/deepin/pool/main/i/inkscape/](http://packages.deepin.com/deepin/pool/main/i/inkscape/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

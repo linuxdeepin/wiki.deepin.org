@@ -24,9 +24,7 @@ recordMyDesktop是一个桌面视频录制软件，可以录制全屏、窗口�
 
 [http://packages.deepin.com/deepin/pool/main/r/recordmydesktop/](http://packages.deepin.com/deepin/pool/main/r/recordmydesktop/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

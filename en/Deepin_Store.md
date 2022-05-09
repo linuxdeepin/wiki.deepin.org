@@ -12,14 +12,13 @@ dateCreated: 2022-04-21T03:54:43.735Z
 
 Deepin Store V4.0 is an application recreated by Deepin Technology Co., Ltd. with the integration of display, download, installation, commenting and rating. Deepin Store elaborately screens and collects different types of applications for you. Each application has been artificially installed and verified, you can enter the store to search popular applications with one-click download and automatic installation.
 
-
 ## Basic Operations
 
 ### Run Deepin Store
 
 You can run Deepin Store by executing one of the following operations:
 
-1. Click on ![Launcher-24](/images/1/18/Launcher_icon.png) on dock to enter launcher interface. 
+1. Click on ![Launcher-24](/images/1/18/Launcher_icon.png) on dock to enter launcher interface.
 2. Then find ![Deepin Store](/images/4/49/Store-24.png) to click on by skimming.
 
 > ![notes](/images/5/51/Notes.png): Deepin Store has been fixed on Dock by default, you can click on ![Deepin Store](/images/4/49/Store-24.png) on Dock to run.
@@ -27,6 +26,7 @@ You can run Deepin Store by executing one of the following operations:
 ### Close Deepin Store
 
 On Deepin Store interface, click on × to exit.
+
 - Right-click on ![Deepin Store](/images/4/49/Store-24.png) on Dock to select **Close All** to exit.
 - On Deepin Store interface, select [Exit](#Exit) in the menu bar.
 
@@ -35,7 +35,6 @@ On Deepin Store interface, click on × to exit.
 The main interface of Deepin Store consists of navigation bar, search box, flashview, home column, hot topic, task management and menu bar.
 
 > ![tips](/images/2/21/Tips.png): Navigation bar can be displayed in icon or name & icon by dragging the edge rightward/leftward. When displayed in icon, hover over the icon to display the category name of applications.
-
 
 <table class="block1">
     <caption>Main Interface</caption>
@@ -98,8 +97,6 @@ Search function is built in Deepin Store. Contents will be automatically complet
 2. Input a keyword.
 3. Press **Enter** on keyboard to automatically search and display all applications contained that keyword.
 
-
-
 #### Clear Records
 
 1. On Deepin Store interface, click top search box.
@@ -130,6 +127,7 @@ If you need to uninstall applications, you can enter Launcher to uninstall, spec
 ## Application Interface
 
 ### Application Details
+
 You can enter the interface of application details to know the introduction, size, version, downloads, ratings and so on.
 
 <table class="block1">

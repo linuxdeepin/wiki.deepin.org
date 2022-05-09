@@ -16,7 +16,7 @@ Before year of 2008, the legal characters in a domain is confined in a subset of
 
 ## History
 
-DNS was first invented by Paul Mockapetris in 1983. The original specification is published in RFC 882. The RFC 1034 and RFC 1035 made some correction to it, abandoning the RFC 882 and RFC 883. After that, no changes has been made to DNS specifications. 
+DNS was first invented by Paul Mockapetris in 1983. The original specification is published in RFC 882. The RFC 1034 and RFC 1035 made some correction to it, abandoning the RFC 882 and RFC 883. After that, no changes has been made to DNS specifications.
 
 In the past, domains must end with a dot ("."), ilike "www.wikipedia.org.". DNS servers in nowadays have been able to automatically complete the dot so that users do not need to type it in the address bar anymore.
 
@@ -48,11 +48,11 @@ The public DNS service is based on 13 root servers all over the world. 10 of the
 
 DNS system is powered by different kinds of DNS software, including:
 
-- BIND (Berkeley Internet Name Domain): the most used DNS software
-- DJBDNS (Dan J Bernstein's DNS implementation)
-- MaraDNS
-- NSD (Name Server Daemon)
-- PowerDNS
+* BIND (Berkeley Internet Name Domain): the most used DNS software
+* DJBDNS (Dan J Bernstein's DNS implementation)
+* MaraDNS
+* NSD (Name Server Daemon)
+* PowerDNS
 
 ### Domain character extension
 
@@ -82,7 +82,7 @@ For 240 country code top-level domains (ccTLDs), the WHOIS information is genera
 
 ## Controversy of DNS
 
-The current control mode of DNS system receives many controversy. The most attacked point is the abuse of DNS by monopoly businesses or 
+The current control mode of DNS system receives many controversy. The most attacked point is the abuse of DNS by monopoly businesses or
 quasi-monopoly businesses, and the assignment of top-level domains by companies like VeriSign.
 
 Some people claims that many DNS server do not work well on environment of dynamic IP allocation, though this is usually due to the failure of certain implementations instead of the protocol itself.
@@ -99,17 +99,17 @@ The DNS server aims to provide service for conversion from domains to IP address
 
 A record
 
-     www	IN	A	192.168.1.101
+     www IN A 192.168.1.101
 
 CNAME record
 
-     www	IN	A	192.168.1.101
-    mail	IN	CNAME	www
+     www IN A 192.168.1.101
+    mail IN CNAME www
 
 NS record
 
-     @	IN	NS	wangyan.org.
-     @	IN	A	192.168.1.101
+     @ IN NS wangyan.org.
+     @ IN A 192.168.1.101
 
 ### Install bind9
 
@@ -173,7 +173,7 @@ Test with named-checkzone utility:
 
     named-checkzone wangyan.org /var/cache/bind/db.wangyan.org
 
-##相关链接
+## 相关链接
 
 [维基百科:域名系统](http://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D%E7%B3%BB%E7%BB%9F)
 

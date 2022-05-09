@@ -24,9 +24,7 @@ Geary是一款桌面电子邮件客户端程序，它支持基本的查看和撰
 
 [http://packages.deepin.com/deepin/pool/main/g/geary/](http://packages.deepin.com/deepin/pool/main/g/geary/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

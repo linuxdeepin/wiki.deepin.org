@@ -24,9 +24,7 @@ Vokoscreen是一款有效的强大屏幕录制工具，提供全屏，窗口，�
 
 [http://packages.deepin.com/deepin/pool/main/v/vokoscreen/](http://packages.deepin.com/deepin/pool/main/v/vokoscreen/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,8 +24,6 @@ Xarchiver是一款解压/压缩应用，支持 7zip、arj、rar、zip、bzip2、
 
 [http://packages.deepin.com/deepin/pool/main/x/xarchiver/](http://packages.deepin.com/deepin/pool/main/x/xarchiver/)
 
-
 ## 常见问题
-
 
 ## 相关链接

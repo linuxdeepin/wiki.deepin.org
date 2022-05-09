@@ -8,7 +8,8 @@ editor: markdown
 dateCreated: 2022-04-21T03:36:01.854Z
 ---
 
-## Definitioin 
+## Definitioin
+
 A hard disk drive (sometimes abbreviated as Hard drive, HD, or HDD) is a non-volatile memory hardware device that permanently stores and retrieves data on a computer.
 
 ## Components
@@ -43,7 +44,7 @@ The hard drive is typically capable of storing more data than any other drive, b
 
 ## How It Works
 
-Data sent to and read from the hard drive is interpreted by the disk controller, which tells the hard drive what to do and how to move the components in the drive. 
+Data sent to and read from the hard drive is interpreted by the disk controller, which tells the hard drive what to do and how to move the components in the drive.
 
 <br> When the operating system needs to read or write information, it examines the hard drive's File Allocation Table (FAT) to determine file location and available write areas.</br>
 

@@ -24,9 +24,7 @@ Xchat是一款跨平台的IRC通讯协议软件，有着良好的用户界面，
 
 [http://packages.deepin.com/deepin/pool/main/x/xchat/](http://packages.deepin.com/deepin/pool/main/x/xchat/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

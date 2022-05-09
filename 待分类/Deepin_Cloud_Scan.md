@@ -39,7 +39,7 @@ Open the server from the start menu in Windows, then you can see the the interfa
 
 ## Client Configuration
 
-The client of Deepin Cloud Scan is preinstalled in deepin ISO. 
+The client of Deepin Cloud Scan is preinstalled in deepin ISO.
 
 ### Open Client
 
@@ -52,7 +52,8 @@ The client of Deepin Cloud Scan is preinstalled in deepin ISO.
 2. Click on **next** to show all scanners from Windows.
 3. Click on ＋ to add the scanner, and then its status will be displayed in "Added".
 
-![tips](/images/a/a5/Tips_en.png): 
+![tips](/images/a/a5/Tips_en.png):
+
 - Please close the firewall before enter the IP address, or IP address may be invalid.
 - If you need to delete the scanner, selected the scanner and click on ![icon_delete](icon/icon_delete.png) to delete.
 

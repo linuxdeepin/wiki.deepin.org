@@ -24,9 +24,7 @@ XnView MP是一款非常棒的图像查看工具，支持150种图片格式。 �
 
 [http://packages.deepin.com/deepin/pool/main/x/xnview/](http://packages.deepin.com/deepin/pool/main/x/xnview/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

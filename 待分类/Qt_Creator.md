@@ -24,10 +24,9 @@ Qt Creator是跨平台的轻量级集成开发环境，它包括项目生成向�
 
 [http://packages.deepin.com/deepin/pool/main/q/qtcreator/](http://packages.deepin.com/deepin/pool/main/q/qtcreator/)
 
-
 ## 常见问题
 
-###脚本，安装完QT，添加gcc g++ gdb cmake ，修正libGL.so，以及fcitx中文输入支持。
+### 脚本，安装完QT，添加gcc g++ gdb cmake ，修正libGL.so，以及fcitx中文输入支持。
     #!/bin/bash
 
     sudo apt-get install gcc g++ gdb cmake
@@ -47,8 +46,10 @@ Qt Creator是跨平台的轻量级集成开发环境，它包括项目生成向�
     sudo cp  /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so $userdir$qt5gcc_64
     sudo chmod +x $userdir$qt5gcc_64/libfcitxplatforminputcontextplugin.so
 
-### 从应用商店安装 Qt Creator，提示错误：qmake: could not exec '/usr/lib/x...
+### 从应用商店安装 Qt Creator，提示错误：qmake: could not exec '/usr/lib/x
+
 终端执行：sudo apt-get install qt5-default
+
 ## 相关链接
 
 维基百科：

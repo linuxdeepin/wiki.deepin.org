@@ -24,9 +24,7 @@ Visual Studio Code是一款轻量级代码编辑器，它具有语法高亮、�
 
 [http://packages.deepin.com/deepin/pool/main/v/vscode/](http://packages.deepin.com/deepin/pool/main/v/vscode/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

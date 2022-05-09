@@ -24,8 +24,6 @@ wxMaxima是一个基于wxWidgets的计算机代数系统应用。用于数值计
 
 [http://packages.deepin.com/deepin/pool/main/w/wxmaxima/](http://packages.deepin.com/deepin/pool/main/w/wxmaxima/)
 
-
 ## 常见问题
-
 
 ## 相关链接

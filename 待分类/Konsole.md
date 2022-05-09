@@ -24,8 +24,6 @@ Konsole是一个终端模拟器，它具有分割检视模式、可定制配色�
 
 [http://packages.deepin.com/deepin/pool/main/k/konsole/](http://packages.deepin.com/deepin/pool/main/k/konsole/)
 
-
 ## 常见问题
-
 
 ## 相关链接

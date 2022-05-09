@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-04-21T03:56:12.314Z
 ---
 
-##Bold and italic
+## Bold and italic
 Code：
 
 ```
@@ -41,10 +41,10 @@ Result：
 
 As we use [TOC] to automatically generate table of contents,  the effect for headings is not shown here to avoid chaos of content. You can try it in your editor instead! Remember the 1st headings have the largest font, and the 6th heading have the smallest font.
 
-##Hyperlink
+## Hyperlink
 Markdown support two kind of hyperlink: inline and reference. Inline hyperlink is the most used one.
 
-###Inline-style
+### Inline-style
 
 Syntax：
 
@@ -65,7 +65,7 @@ Welcome to [deepin](https://www.deepin.com/)
 
 Welcome to [deepin](https://www.deepin.com/ "Deepin Official Website")
 
-###Reference-style
+### Reference-style
 
 Refencence-style hyperlink is generally used in academic paper. When you need to cite one link several times in a page, it is recommended to use reference-style hyperlink, for it is easy to manage these links
 
@@ -81,7 +81,7 @@ for link part (in any where of the text), use
 
 Note that there is a space between title  and  URL.
 
-If you would like the link ID become the same as link text, use 
+If you would like the link ID become the same as link text, use
 
     [Link text][] 
 
@@ -112,7 +112,7 @@ I usually visit [Google][1]、[Leanote][2] and [deepin][3]
 
 [website]:http://http://blog.leanote.com/freewalk
 
-###Automatic link
+### Automatic link
 
 Syntax:
 
@@ -131,7 +131,7 @@ Result:
 
 <address@example.com>
 
-##Anchor
+## Anchor
 
 Anchor is a kind of hyperlink that has effect within one web page. It is responsable for jumping between elements in one document. For example, an anchor is written in table of contents, and conducts you back to table of contents when a hyperlink pointing to this anchor is clicked; in contrast, an anchor in text can be reached by clicking the hyperlink that points to it.
 
@@ -140,7 +140,7 @@ Note:
 1. Markdown Extra support only anchors that are closely after the title;
 2. The result displaying area on the right side of Leanote Editor does not support jumping between anchor, so it is normal that anchors do no function before your article is published.
 
-Syntax: 
+Syntax:
 
 Insert the anchor (#) after the title you would like to jump to, then cite this anchor anywhere in the document.
 
@@ -150,12 +150,14 @@ Code:
 ## 0. Table of contents{#index}
 Go to [table of contents](#index)
 ```
+
 Result:
 
 Go to [table of contents](#index)
 
 ## List
-###Bullet list
+
+### Bullet list
 
 Use *，+，-  before items within a bullet list.
 
@@ -175,7 +177,7 @@ Result:
 
 - Bullet list 3
 
-###Numbered list
+### Numbered list
 
 Add one number and a dot (.) before items within numbered list.
 
@@ -195,11 +197,11 @@ Result:
 
 3. Numbered list 3
 
-
 ## Inserting image
+
 Same as inserting hyperlink, and can also be done in two ways: inline or reference.
 
-###Inline-style
+### Inline-style
 
 Syntax：
 
@@ -216,7 +218,7 @@ Flowers：
 
 Result:
 
-Flowers： 
+Flowers：
 ![Flowers](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "Flowers")
 
 ### Reference-style
@@ -244,9 +246,9 @@ Result:
 Flowers:
 
 ![Flowers][flower]
-[flower]:http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg  "Flowers"
+[flower]:<http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg>  "Flowers"
 
-##Footnote
+## Footnote
 
 Syntax:
 
@@ -270,7 +272,7 @@ Markdown[^1]can be used to write document efficiently. You can use Leanote[^Le] 
 [^2]:HTML: HyperText Markup Language
 [^Le]:Open source note platform, supports blogs written in Markdown and plain text
 
-##Table
+## Table
 
 Syntax:
 
@@ -311,7 +313,7 @@ Leanote Account Basic|￥60 / year
 Leanote Account Premuim|￥120 CNY / year
 ```
 
-Result: 
+Result:
 
 Name|Sex|Score
 -|-|-
@@ -319,13 +321,11 @@ Wang|Male|75
 Zhang|Female|79
 Li|Male|92
 
-
 Name|Sex|Score
 -|-|-
 Wang|Male|75
 Zhang|Female|79
 Li|Male|92
-
 
 Product|Price
 -|-:
@@ -333,17 +333,19 @@ Leanote Account Basic|￥60 / year
 Leanote Account Premuim|￥120 CNY / year
 
 ## Code
+
 This is a necessary function for programmer. There are two ways to insert code: one to use indent (Tab), the other to wrap with "`" character (generally, you can find it below Esc on your keyboard).
 
 Syntax:
 
-For inline code, suc as a word or a sentence, use ```  `code`  ```.
+For inline code, suc as a word or a sentence, use ``` `code` ```.
 
 For multiple line code, use indent or "` ```code``` `". You need to add a blank line before indented code. See example below for details.
 
 ### Inline-style
 
 Code:
+
 ```
 How to use `scanf()` in C?
 ```
@@ -374,7 +376,7 @@ Result:
         printf("Hello world\n");
     }
 
-###Use six ` to wrap multi-line code
+### Use six ` to wrap multi-line code
 
 Code:
 
@@ -403,6 +405,7 @@ In code blocks, &,  < and > are converted to HTML entities, thus it is convenien
 Code:
 
 An example：
+
 ```
 <div class="footer">
    © 2004 Foo Corporation
@@ -432,7 +435,6 @@ Result:
 <div class="footer">
    © 2004 Foo Corporation
 </div>
-
 
 <table>
     <tr>

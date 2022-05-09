@@ -24,8 +24,6 @@ Meld是一款可视化的文件及目录对比/合并工具，通过它可以对
 
 [http://packages.deepin.com/deepin/pool/main/m/meld/](http://packages.deepin.com/deepin/pool/main/m/meld/)
 
-
 ## 常见问题
-
 
 ## 相关链接

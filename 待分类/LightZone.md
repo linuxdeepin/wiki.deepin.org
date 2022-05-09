@@ -24,9 +24,7 @@ LightZone是一款数码图象编辑工具，它支持常见TIFF、JPEG、DNG格
 
 [http://packages.deepin.com/deepin/pool/main/l/lightzone/](http://packages.deepin.com/deepin/pool/main/l/lightzone/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

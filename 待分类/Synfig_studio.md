@@ -24,9 +24,7 @@ Synfig Studio是一套功能强大的2D矢量动画制作软件，让您可以�
 
 [http://packages.deepin.com/deepin/pool/main/s/synfigstudio/](http://packages.deepin.com/deepin/pool/main/s/synfigstudio/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -8,11 +8,11 @@ editor: markdown
 dateCreated: 2022-04-21T03:42:15.119Z
 ---
 
-##Introduction
+## Introduction
 A sound card (also known as an audio card) is an internal expansion card that provides input and output of audio signals to and from a computer under control of computer programs. The term sound card is also applied to external audio interfaces used for professional audio applications. Typical uses of sound cards include providing the audio component for multimedia applications such as music composition, editing video or audio, presentation, education and entertainment (games) and video projection.
 
 Sound functionality can also be integrated onto the motherboard, using components similar to those found on plug-in cards. The integrated sound system is often still referred to as a sound card. Sound processing hardware is also present on modern video cards with HDMI to output sound along with the video using that connector; previously they used a SPDIF connection to the motherboard or sound card.
-##General characteristics
+## General characteristics
 
 Close-up of a sound card PCB, showing electrolytic capacitors, SMT capacitors and resistors, and a YAC512 two-channel 16-bit DAC.
 Most sound cards use a digital-to-analog converter (DAC), which converts recorded or generated digital data into an analog format. The output signal is connected to an amplifier, headphones, or external device using standard interconnects, such as a TRS phone connector or an RCA connector. If the number and size of connectors is too large for the space on the backplate the connectors will be off-board, typically using a breakout box, an auxiliary backplate, or a panel mounted at the front. More advanced cards usually include more than one sound chip to support higher data rates and multiple simultaneous functionality, for example digital production of synthesized sounds, usually for real-time generation of music and sound effects using minimal data and CPU time.
@@ -21,7 +21,7 @@ Digital sound reproduction is usually done with multichannel DACs, which are cap
 
 Most sound cards have a line in connector for an input signal from a cassette tape or other sound source that has higher voltage levels than a microphone. The sound card digitizes this signal. The DMAC transfers the samples to the main memory, from where a recording software may write it to the hard disk for storage, editing, or further processing. Another common external connector is the microphone connector, for signals from a microphone or other low-level input device. Input through a microphone jack can be used, for example, by speech recognition or voice over IP applications.
 
-##Sound channels and polyphony
+## Sound channels and polyphony
 
 8-channel DAC Cirrus Logic CS4382 placed on Sound Blaster X-Fi Fatal1ty.
 An important sound card characteristic is polyphony, which refers to its ability to process and output multiple independent voices or sounds simultaneously. These distinct channels are seen as the number of audio outputs, which may correspond to a speaker configuration such as 2.0 (stereo), 2.1 (stereo and sub woofer), 5.1 (surround), or other configuration. Sometimes, the terms voice and channel are used interchangeably to indicate the degree of polyphony, not the output speaker configuration.
@@ -36,19 +36,19 @@ Today, a sound card providing actual hardware polyphony, regardless of the numbe
 
 Since digital sound playback has become available and single and provided better performance than synthesis, modern soundcards with hardware polyphony do not actually use DACs with as many channels as voices; instead, they perform voice mixing and effects processing in hardware, eventually performing digital filtering and conversions to and from the frequency domain for applying certain effects, inside a dedicated DSP. The final playback stage is performed by an external (in reference to the DSP chip(s)) DAC with significantly fewer channels than voices (e.g., 8 channels for 7.1 audio, which can be divided among 32, 64 or even 128 voices).
 
-##Color codes
+## Color codes
 Connectors on the sound cards are color-coded as per the PC System Design Guide.[2] They will also have symbols with arrows, holes and soundwaves that are associated with each jack position, the meaning of each is given below:
 
-Color	Function	Connector	symbol
- 	Pink	Analog microphone audio input.	3.5 mm minijack	A microphone
- 	Light blue	Analog line level audio input.	3.5 mm minijack	An arrow going into a circle
- 	Lime green	Analog line level audio output for the main stereo signal (front speakers or headphones).	3.5 mm minijack	Arrow going out one side of a circle into a wave
- 	Orange	Analog line level audio output for center channel speaker and subwoofer.	3.5 mm minijack	
- 	Black	Analog line level audio output for surround speakers, typically rear stereo.	3.5 mm minijack	
- 	Silver/Grey	Analog line level audio output for surround optional side channels.	3.5 mm minijack	
- 	Brown/Dark	Analog line level audio output for a special panning, 'Right-to-left speaker'.	3.5 mm minijack	
- 	Gold/Grey	Game port / MIDI	15 pin D	Arrow going out both sides into waves
-##History of sound cards for the IBM PC architecture
+Color Function Connector symbol
+  Pink Analog microphone audio input. 3.5 mm minijack A microphone
+  Light blue Analog line level audio input. 3.5 mm minijack An arrow going into a circle
+  Lime green Analog line level audio output for the main stereo signal (front speakers or headphones). 3.5 mm minijack Arrow going out one side of a circle into a wave
+  Orange Analog line level audio output for center channel speaker and subwoofer. 3.5 mm minijack 
+  Black Analog line level audio output for surround speakers, typically rear stereo. 3.5 mm minijack 
+  Silver/Grey Analog line level audio output for surround optional side channels. 3.5 mm minijack 
+  Brown/Dark Analog line level audio output for a special panning, 'Right-to-left speaker'. 3.5 mm minijack 
+  Gold/Grey Game port / MIDI 15 pin D Arrow going out both sides into waves
+## History of sound cards for the IBM PC architecture
 
 The AdLib Music Synthesizer Card, was one of the first sound cards circa 1990. Note the manual volume adjustment knob. ISA-8 bus.
 
@@ -63,7 +63,7 @@ Sound cards for computers compatible with the IBM PC were very uncommon until 19
 
 In 1988 a panel of computer-game CEOs stated at the Consumer Electronics Show that the PC's limited sound capability prevented it from becoming the leading home computer, that it needed a $49–79 sound card with better capability than current products, and that once such hardware was widely installed their companies would support it. Sierra On-Line, which had pioneered supporting EGA and VGA video, and 3 1/2" disks, that year promised to support AdLib, IBM Music Feature, and Roland MT-32 in its games; the cards cost $195 to $600.[4] A 1989 Computer Gaming World survey found that 18 of 25 game companies planned to support AdLib, six Roland and Covox, and seven Creative Music System/Game Blaster.[5]
 
-###Hardware manufacturers
+### Hardware manufacturers
 One of the first manufacturers of sound cards for the IBM PC was AdLib,[3] which produced a card based on the Yamaha YM3812 sound chip, also known as the OPL2. The AdLib had two modes: A 9-voice mode where each voice could be fully programmed, and a less frequently used "percussion" mode with 3 regular voices producing 5 independent percussion-only voices for a total of 11. (The percussion mode was considered inflexible by most developers; it was used mostly by AdLib's own composition software.)
 
 Creative Labs also marketed a sound card about the same time called the Creative Music System. Although the C/MS had twelve voices to AdLib's nine, and was a stereo card while the AdLib was mono, the basic technology behind it was based on the Philips SAA1099 chip which was essentially a square-wave generator. It sounded much like twelve simultaneous PC speakers would have except for each channel having amplitude control, and failed to sell well, even after Creative renamed it the Game Blaster a year later, and marketed it through RadioShack in the US. The Game Blaster retailed for under $100 and was compatible with many popular games, such as Silpheed.
@@ -74,12 +74,12 @@ Roland also made sound cards in the late 1980s, most of them being high quality 
 
 By 1992 one sound card vendor advertised that its product was "Sound Blaster, AdLib, Disney Sound Source and Covox Speech Thing Compatible!".[7] The Sound Blaster line of cards, together with the first inexpensive CD-ROM drives and evolving video technology, ushered in a new era of multimedia computer applications that could play back CD audio, add recorded dialogue to video games, or even reproduce full motion video (albeit at much lower resolutions and quality in early days). The widespread decision to support the Sound Blaster design in multimedia and entertainment titles meant that future sound cards such as Media Vision's Pro Audio Spectrum and the Gravis Ultrasound had to be Sound Blaster compatible if they were to sell well. Until the early 2000s (by which the AC'97 audio standard became more widespread and eventually usurped the SoundBlaster as a standard due to its low cost and integration into many motherboards), Sound Blaster compatibility is a standard that many other sound cards still support to maintain compatibility with many games and applications released.
 
-###Industry adoption
+### Industry adoption
 
 Three early ISA (16 bit) PC sound cards showing the progression toward integrated chipsets.
 When game company Sierra On-Line opted to support add-on music hardware in addition to built-in hardware such as the PC speaker and built-in sound capabilities of the IBM PCjr and Tandy 1000, what could be done with sound and music on the IBM PC changed dramatically. Two of the companies Sierra partnered with were Roland and AdLib, opting to produce in-game music for King's Quest 4 that supported the MT-32 and AdLib Music Synthesizer. The MT-32 had superior output quality, due in part to its method of sound synthesis as well as built-in reverb. Since it was the most sophisticated synthesizer they supported, Sierra chose to use most of the MT-32's custom features and unconventional instrument patches, producing background sound effects (e.g., chirping birds, clopping horse hooves, etc.) before the Sound Blaster brought playing real audio clips to the PC entertainment world. Many game companies also supported the MT-32, but supported the Adlib card as an alternative because of the latter's higher market base. The adoption of the MT-32 led the way for the creation of the MPU-401/Roland Sound Canvas and General MIDI standards as the most common means of playing in-game music until the mid-1990s.
 
-###Feature evolution
+### Feature evolution
 Early ISA bus soundcards were half-duplex, meaning they couldn't record and play digitized sound simultaneously, mostly due to inferior card hardware (e.g., DSPs). Later, ISA cards like the SoundBlaster AWE series and Plug-and-play Soundblaster clones eventually became full-duplex and supported simultaneous recording and playback, but at the expense of using up two IRQ and DMA channels instead of one, making them no different from having two half-duplex sound cards in terms of configuration. Towards the end of the ISA bus' life, ISA soundcards started taking advantage of IRQ sharing, thus reducing the IRQs needed to one, but still needed two DMA channels. Many Conventional PCI bus cards do not have these limitations and are mostly full-duplex. It should also be noted that many modern PCI bus cards also do not require free DMA channels to operate.[citation needed]
 
 Also, throughout the years, soundcards have evolved in terms of digital audio sampling rate (starting from 8-bit 11025 Hz, to 32-bit, 192 kHz that the latest solutions support). Along the way, some cards started offering 'wavetable' sample-based synthesis, which provides superior MIDI synthesis quality relative to the earlier OPL-based solutions, which uses FM-synthesis. Also, some higher end cards started having their own RAM and processor for user-definable sound samples and MIDI instruments as well as to offload audio processing from the CPU.
@@ -88,13 +88,13 @@ For years, soundcards had only one or two channels of digital sound (most notabl
 
 In regards to physical sound output, the number of physical sound channels has also increased. The first soundcard solutions were mono. Stereo sound was introduced in the early 1980s, and quadraphonic sound came in 1989. This was shortly followed by 5.1 channel audio. The latest soundcards support up to 8 physical audio channels in the 7.1 speaker setup.[8]
 
-###Crippling of features
+### Crippling of features
 Main article: Crippleware § Anti-features
 Most new soundcards no longer have the audio loopback device commonly called "Stereo Mix"/"Wave out mix"/"Mono Mix"/"What U Hear" that was once very prevalent and that allows users to digitally record speaker output to the microphone input.
 
 Lenovo and other manufacturers fail to implement the chipset feature in hardware, while other manufacturers disable the driver from supporting it. In some cases loopback can be reinstated with driver updates (as in the case of some Dell computers[9]); alternatively software (Total Recorder or "Virtual Audio Cable") can be purchased to enable the functionality. According to Microsoft, the functionality was hidden by default in Windows Vista (to reduce user confusion), but is still available, as long as the underlying sound card drivers and hardware support it.[10] Ultimately, the user can connect the line out directly to the line in (analog hole).
 
-###Professional soundcards (audio interfaces)
+### Professional soundcards (audio interfaces)
 
 An M-Audio professional sound card with its fanout cables.
 Professional soundcards are special soundcards optimized for low-latency multichannel sound recording and playback, including studio-grade fidelity. Their drivers usually follow the Audio Stream Input Output protocol for use with professional sound engineering and music software, although ASIO drivers are also available for a range of consumer-grade soundcards.
@@ -111,8 +111,8 @@ One of the limitations of consumer soundcards is their comparatively large sampl
 
 Consumer soundcards are also limited in the effective sampling rates and bit depths they can actually manage (compare analog versus digital sound) and have lower numbers of less flexible input channels: professional studio recording use typically requires more than the two channels that consumer soundcards provide, and more accessible connectors, unlike the variable mixture of internal—and sometimes virtual—and external connectors found in consumer-grade soundcards.
 
-##Sound devices other than expansion cards
-###Integrated sound hardware on PC motherboards
+## Sound devices other than expansion cards
+### Integrated sound hardware on PC motherboards
 
 A spinoff of the classic IBM SN76489 by Squareinator
 In 1984, the first IBM PCjr had a rudimentary 3-voice sound synthesis chip (the SN76489) which was capable of generating three square-wave tones with variable amplitude, and a pseudo-white noise channel that could generate primitive percussion sounds. The Tandy 1000, initially a clone of the PCjr, duplicated this functionality, with the Tandy TL/SL/RL models adding digital sound recording and playback capabilities. Many games during the 1980s that supported the PCjr's video standard (described as "Tandy-compatible", "Tandy graphics", or "TGA") also supported PCjr/Tandy 1000 audio.
@@ -123,7 +123,7 @@ From around 2001 many motherboards incorporated integrated "real" (non-codec) so
 
 However, these features were dropped when AC'97 was superseded by Intel's HD Audio standard, which was released in 2004, again specified the use of a codec chip, and slowly gained acceptance. As of 2011, most motherboards have returned to using a codec chip, albeit a HD Audio compatible one, and the requirement for Sound Blaster compatibility relegated to history.
 
-###Integrated sound on other platforms
+### Integrated sound on other platforms
 Various non-IBM PC compatible computers, such as early home computers like the Commodore 64 (1982) and Amiga (1985), NEC's PC-88 and PC-98, Fujitsu's FM-7 and FM Towns, the MSX,[11] Apple's Macintosh, and workstations from manufacturers like Sun, have had their own motherboard integrated sound devices. In some cases, most notably in those of the Amiga, C64, PC-88, PC-98, MSX, FM-7, and FM towns, they provide very advanced capabilities (as of the time of manufacture), in others they are only minimal capabilities. Some of these platforms have also had sound cards designed for their bus architectures that cannot be used in a standard PC.
 
 Several Japanese computer platforms, including the PC-88, PC-98, MSX, and FM-7, featured built-in FM synthesis sound from Yamaha by the mid-1980s. By 1989, the FM Towns computer platform featured built-in PCM sample-based sound and supported the CD-ROM format.[11]
@@ -132,7 +132,7 @@ The custom sound chip on Amiga, named Paula, had four digital sound channels (2 
 
 Most arcade games have integrated sound chips, the most popular being the Yamaha OPL chip for BGM coupled with a variety of DACs for sampled audio and sound effects.
 
-###Sound cards on other platforms
+### Sound cards on other platforms
 The earliest known soundcard used by computers was the Gooch Synthetic Woodwind, a music device for PLATO terminals, and is widely hailed as the precursor to sound cards and MIDI. It was invented in 1972.
 
 Certain early arcade machines made use of sound cards to achieve playback of complex audio waveforms and digital music, despite being already equipped with onboard audio. An example of a sound card used in arcade machines is the Digital Compression System card, used in games from Midway. For example, Mortal Kombat II on the Midway T Unit hardware. The T-Unit hardware already has an onboard YM2151 OPL chip coupled with an OKI 6295 DAC, but said game uses an added on DCS card instead.[12] The card is also used in the arcade version of Midway and Aerosmith's Revolution X for complex looping BGM and speech playback (Revolution X used fully sampled songs from the band's album that transparently looped- an impressive feature at the time the game was released).
@@ -143,12 +143,12 @@ The Apple II series of computers, which did not have sound capabilities beyond a
 
 The Sinclair ZX Spectrum that initially only had a beeper had some sound cards made for it. One example is the TurboSound.[13] Other examples are the Fuller Box,[14][15] Melodik for the Didaktik Gamma, AY-Magic et.c. The Zon X-81 for the ZX81[16][17] was also possible to use on the ZX Spectrum using an adapter.
 
-###External sound devices
+### External sound devices
 Devices such as the Covox Speech Thing could be attached to the parallel port of an IBM PC and feed 6- or 8-bit PCM sample data to produce audio. Also, many types of professional soundcards (audio interfaces) have the form of an external FireWire or USB unit, usually for convenience and improved fidelity.
 
 Sound cards using the PCMCIA Cardbus interface were available before laptop and notebook computers routinely had onboard sound. Cardbus audio may still be used if onboard sound quality is poor. When Cardbus interfaces were superseded by Expresscard on computers since about 2005, manufacturers followed. Most of these units are designed for mobile DJs, providing separate outputs to allow both playback and monitoring from one system, however some also target mobile gamers, providing high-end sound to gaming laptops who are usually well-equipped when it comes to graphics and processing power, but tend to have audio codecs that are no better than the ones found on regular laptops.
 
-###USB sound cards
+### USB sound cards
 
 USB sound card
 USB sound "cards" are external devices that plug into the computer via USB. They are often used in studios and on stage by electronic musicians including live PA performers and DJs. DJs who use DJ software typically use sound cards integrated into DJ controllers or specialized DJ sound cards. DJ sound cards sometimes have inputs with phono preamplifiers to allow turntables to be connected to the computer to control the software's playback of music files with timecode vinyl.
@@ -159,7 +159,7 @@ Even cards meeting the older, slow, USB 1.1 specification are capable of high qu
 
 A USB audio interface may also describe a device allowing a computer which has a sound-card, yet lacks a standard audio socket, to be connected to an external device which requires such a socket, via its USB socket.
 
-##Uses
+## Uses
 The main function of a sound card is to play audio, usually music, with varying formats (monophonic, stereophonic, various multiple speaker setups) and degrees of control. The source may be a CD or DVD, a file, streamed audio, or any external source connected to a sound card input.
 
 Audio may be recorded. Sometimes sound card hardware and drivers do not support recording a source that is being played.
@@ -174,7 +174,7 @@ For all measurement purposes a sound card must be chosen with good audio propert
 
 Sound cards with a sampling rate of 192 kHz can be used to synchronize the clock of the computer with a time signal transmitter working on frequencies below 96 kHz like DCF 77 with a special software and a coil at the entrance of the soundcard, working as antenna [2], [3].
 
-##Driver architecture
+## Driver architecture
 To use a sound card, the operating system (OS) typically requires a specific device driver, a low-level program that handles the data connections between the physical hardware and the operating system. Some operating systems include the drivers for many cards; for cards not so supported, drivers are supplied with the card, or available for download.
 
 DOS programs for the IBM PC often had to use universal middleware driver libraries (such as the HMI Sound Operating System, the Miles Audio Interface Libraries (AIL), the Miles Sound System etc.) which had drivers for most common sound cards, since DOS itself had no real concept of a sound card. Some card manufacturers provided (sometimes inefficient) middleware TSR-based drivers for their products. Often the driver is a Sound Blaster and AdLib emulator designed to allow their products to emulate a Sound Blaster and AdLib, and to allow games that could only use SoundBlaster or AdLib sound to work with the card. Finally, some programs simply had driver/middleware source code incorporated into the program itself for the sound cards that were supported.

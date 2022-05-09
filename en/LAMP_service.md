@@ -64,7 +64,7 @@ Test for PHP5 (optional):
 
     sudo gedit /var/www/info.php
 
-and add following lines:    
+and add following lines:
 
      <?php
     phpinfo();
@@ -84,7 +84,7 @@ Restart Apache2 for PHP5 modules to be integrated into Apache server:
 
     sudo /etc/init.d/apache2 restart
 
-### To manage MySQL more easily, you can install phpmyadmin, a PHP front end for MySQL management:
+### To manage MySQL more easily, you can install phpmyadmin, a PHP front end for MySQL management
 
     sudo apt-get install phpmyadmin
 
@@ -105,13 +105,12 @@ in the browser, and type user name and password to see if the login is successfu
 Execute in terminal:
 
     sudo apt-get remove lamp
-     
+
 if you have installed "lamp" suite previously, or
 
     sudo apt-get remove mysql-server-5.6 mysql-client-5.6 apache2 php5 php5-mysql libapache2-mod-php5 phpmyadmin
 
 if you have each components of LAMP separately.
-
 
 ## References
 

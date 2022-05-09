@@ -24,8 +24,6 @@ Scribus是一款电子杂志制作软件，可以用来制作个人文件、邮�
 
 [http://packages.deepin.com/deepin/pool/main/s/scribus/](http://packages.deepin.com/deepin/pool/main/s/scribus/)
 
-
 ## 常见问题
-
 
 ## 相关链接

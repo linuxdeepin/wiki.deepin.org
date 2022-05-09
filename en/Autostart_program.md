@@ -49,7 +49,6 @@ Comment=XX-Net
 
 The next time when user logs in, the command after  "Exec=" will be executed automatically.
 
-
 ### Run program when login
 
 When user logs in, bash will first execute global login script made by system administrator, "/etc/profile".

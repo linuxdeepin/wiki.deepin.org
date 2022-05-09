@@ -24,9 +24,7 @@ Clementine是一个音乐播放器和媒体库管理器，它具有搜索并播�
 
 [http://packages.deepin.com/deepin/pool/main/c/clementine/](http://packages.deepin.com/deepin/pool/main/c/clementine/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

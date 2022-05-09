@@ -24,8 +24,6 @@ Eric是一个全功能Python和Ruby的编辑器和IDE，它是基于跨平台的
 
 [http://packages.deepin.com/deepin/pool/main/e/eric/](http://packages.deepin.com/deepin/pool/main/e/eric/)
 
-
 ## 常见问题
-
 
 ## 相关链接

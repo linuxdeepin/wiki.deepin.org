@@ -24,9 +24,7 @@ pyRenamer是一款文件批量改名工具。支持匹配模式、查找替换�
 
 [http://packages.deepin.com/deepin/pool/main/p/pyrenamer/](http://packages.deepin.com/deepin/pool/main/p/pyrenamer/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,8 +24,6 @@ Sweet Home 3D是一款家装辅助设计软件， 支持包括中文在内的16�
 
 [http://packages.deepin.com/deepin/pool/main/s/sweethome3d/](http://packages.deepin.com/deepin/pool/main/s/sweethome3d/)
 
-
 ## 常见问题
-
 
 ## 相关链接

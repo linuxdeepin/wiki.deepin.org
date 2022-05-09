@@ -24,9 +24,7 @@ Scan Tailor是一个用于扫描件的后期处理软件，通过原始扫描，
 
 [http://packages.deepin.com/deepin/pool/main/s/scantailor/](http://packages.deepin.com/deepin/pool/main/s/scantailor/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

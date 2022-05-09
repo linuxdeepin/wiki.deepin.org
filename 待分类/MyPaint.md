@@ -24,9 +24,7 @@ MyPaint是一个图像绘画工具，操作非常简单。MyPaint内置了57个�
 
 [http://packages.deepin.com/deepin/pool/main/m/mypaint/](http://packages.deepin.com/deepin/pool/main/m/mypaint/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

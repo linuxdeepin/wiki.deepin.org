@@ -9,8 +9,11 @@ dateCreated: 2022-04-21T03:51:46.780Z
 ---
 
 ## 简介
+
 本经验有论坛用户(walle)分享，[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=141410&page=1&extra=#pid345736)。
+
 ## 正文
+
 * 删除以往所有安装的驱动/大黄蜂
 
 ```
@@ -38,7 +41,8 @@ optirun -b primus command #使用独显运行command程序,提升性能
 使用optirun命令后，再次lspci，可以看到独显最后的信息为(rev a2)，这代表独显已经正常使用了
 
 ### ps
-安装好驱动后，nvidia x server seetings是打不开的，点击后会弹出错误提示，然后很误导我就按照之前的思路去折腾了。命令“optirun xxx"可用来调用N卡运作处理程序xxx（程序名）的图形计算 ，不过图形渲染仍由I卡负责，性能提升有限。   
+
+安装好驱动后，nvidia x server seetings是打不开的，点击后会弹出错误提示，然后很误导我就按照之前的思路去折腾了。命令“optirun xxx"可用来调用N卡运作处理程序xxx（程序名）的图形计算 ，不过图形渲染仍由I卡负责，性能提升有限。
 
 更新：
 
@@ -61,6 +65,7 @@ ctrl+alt+2进入2号控制台
 三种原因各不同，不详细说了，挨个试 总有一款能救你
 
 ### 其他坛友补充
+
 按着上面的教程做……重启可以显示登录界面但无法输入密码又是什么情况T-T试着sudo apt install xorg，诶！成功登录！果然是删除nvidia时误删了xorg。
 
 然后optirun glxinfo|grepNVIDIA，嗯驱动安装成功，optirun glxgears -info，显示小齿轮动画，可以愉快地使用optirun命令调用独显运行程序了，感觉显示效果好了不少 ；）

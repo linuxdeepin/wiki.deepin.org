@@ -24,9 +24,7 @@ Leanote是一款在线的云笔记应用，支持 Markdown，程序代码高亮�
 
 [http://packages.deepin.com/deepin/pool/main/l/leanote/](http://packages.deepin.com/deepin/pool/main/l/leanote/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

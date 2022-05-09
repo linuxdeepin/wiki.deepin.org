@@ -38,7 +38,7 @@ In both cases, you may submit a feedback to deepin teams by running
 
     sudo deepin-feedback-cli
 
-in terminal and upload the report generated to http://feedback.deepin.org/.
+in terminal and upload the report generated to <http://feedback.deepin.org/>.
 
 ## Recover from a fake hang
 
@@ -89,7 +89,6 @@ Here are the descrptions of these key press:
 * (u)mount: Remount all mounted filesystems in read-only mode
 * re(b)boot: Immediately reboot the system
 * (o)ff: Shut off the system
-
 
 ## References
 

@@ -24,8 +24,6 @@ Simplenote是一款纯文本笔记记录应用，多平台的云同步，实时�
 
 [http://packages.deepin.com/deepin/pool/main/s/simplenote/](http://packages.deepin.com/deepin/pool/main/s/simplenote/)
 
-
 ## 常见问题
-
 
 ## 相关链接

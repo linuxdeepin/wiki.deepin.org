@@ -24,9 +24,7 @@ Mendeley是一款文献管理软件，可以一键抓取网页上的文献信息
 
 [http://packages.deepin.com/deepin/pool/non-free/m/mendeleydesktop/](http://packages.deepin.com/deepin/pool/non-free/m/mendeleydesktop/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

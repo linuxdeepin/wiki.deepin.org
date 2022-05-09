@@ -24,9 +24,7 @@ Pidgin是一款即时通讯软件，它允许您同时使用多个IM账号登录
 
 [http://packages.deepin.com/deepin/pool/main/p/pidgin/](http://packages.deepin.com/deepin/pool/main/p/pidgin/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

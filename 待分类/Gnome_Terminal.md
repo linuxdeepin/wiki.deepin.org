@@ -24,8 +24,6 @@ Gnome Terminal是一个终端仿真器，所有设置都存储在配置文件中
 
 [http://packages.deepin.com/deepin/pool/main/g/gnome-terminal/](http://packages.deepin.com/deepin/pool/main/g/gnome-terminal/)
 
-
 ## 常见问题
-
 
 ## 相关链接

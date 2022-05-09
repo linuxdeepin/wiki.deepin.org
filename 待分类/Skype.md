@@ -24,9 +24,7 @@ Skype是一款即时通讯软件，具备视频聊天、多人语音会议、传
 
 [http://packages.deepin.com/deepin/pool/non-free/s/skype/](http://packages.deepin.com/deepin/pool/non-free/s/skype/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

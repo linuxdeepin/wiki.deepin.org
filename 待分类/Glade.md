@@ -24,8 +24,6 @@ Glade是一个相当不错的图形界面设计工具，基于GTK+Toolkit开发�
 
 [http://packages.deepin.com/deepin/pool/main/g/glade/](http://packages.deepin.com/deepin/pool/main/g/glade/)
 
-
 ## 常见问题
-
 
 ## 相关链接

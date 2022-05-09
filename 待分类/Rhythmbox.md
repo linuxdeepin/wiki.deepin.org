@@ -24,9 +24,7 @@ Rhythmbox是一个音乐播放和管理应用，它可以播放各种音频格�
 
 [http://packages.deepin.com/deepin/pool/main/r/rhythmbox/](http://packages.deepin.com/deepin/pool/main/r/rhythmbox/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

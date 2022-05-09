@@ -24,9 +24,7 @@ Gwyddion是一款模块化扫描探针显微镜数据可视化和分析工具。
 
 [http://packages.deepin.com/deepin/pool/main/g/gwyddion/](http://packages.deepin.com/deepin/pool/main/g/gwyddion/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

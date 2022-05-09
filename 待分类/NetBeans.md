@@ -24,8 +24,6 @@ NetBeans是一个集成开发环境，它支持PHP、Ruby、JavaScript、Groovy�
 
 [http://packages.deepin.com/deepin/pool/main/n/netbeans/](http://packages.deepin.com/deepin/pool/main/n/netbeans/)
 
-
 ## 常见问题
-
 
 ## 相关链接

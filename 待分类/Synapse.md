@@ -24,8 +24,6 @@ Synapse是一款使用Vala语言编写的启动器软件，它可以为用户更
 
 [http://packages.deepin.com/deepin/pool/main/s/synapse/](http://packages.deepin.com/deepin/pool/main/s/synapse/)
 
-
 ## 常见问题
-
 
 ## 相关链接

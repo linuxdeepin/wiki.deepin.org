@@ -24,9 +24,7 @@ QOwnNotes是一款支持Markdown和ownCloud同步的文本编辑器。可以对�
 
 [http://packages.deepin.com/deepin/pool/main/q/qownnotes/](http://packages.deepin.com/deepin/pool/main/q/qownnotes/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ Shutter是一款广受欢迎的截屏软件，功能十分强大。Shutter可以
 
 [http://packages.deepin.com/deepin/pool/main/s/shutter/](http://packages.deepin.com/deepin/pool/main/s/shutter/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

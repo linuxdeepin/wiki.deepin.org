@@ -24,9 +24,7 @@ Conky Manager是一款简单的图形化工具，用来管理Linux桌面上的Co
 
 [http://packages.deepin.com/deepin/pool/contrib/c/conky-manager/](http://packages.deepin.com/deepin/pool/contrib/c/conky-manager/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -8,13 +8,13 @@ editor: markdown
 dateCreated: 2022-04-21T03:39:05.995Z
 ---
 
-##Introduction
+## Introduction
 A network interface controller (NIC, also known as a network interface card, network adapter, LAN adapter or physical network interface,[1] and by similar terms) is a computer hardware component that connects a computer to a computer network.[2]
 
 Early network interface controllers were commonly implemented on expansion cards that plugged into a computer bus. The low cost and ubiquity of the Ethernet standard means that most newer computers have a network interface built into the motherboard.
 
 Modern network interface controllers offer advanced features such as interrupt and DMA interfaces to the host processors, support for multiple receive and transmit queues, partitioning into multiple logical interfaces, and on-controller network traffic processing such as the TCP offload engine.
-##Purpose
+## Purpose
 
 A Madge 4/16 Mbit/s Token Ring ISA-16 NIC
 The network controller implements the electronic circuitry required to communicate using a specific physical layer and data link layer standard such as Ethernet, Fibre Channel, Wi-Fi or Token Ring. This provides a base for a full network protocol stack, allowing communication among small groups of computers on the same local area network (LAN) and large-scale network communications through routable protocols, such as Internet Protocol (IP).
@@ -23,7 +23,7 @@ The NIC allows computers to communicate over a computer network, either by using
 
 Although other network technologies exist, IEEE 802 networks including the Ethernet variants have achieved near-ubiquity since the mid-1990s.
 
-##Implementation
+## Implementation
 
 12 early ISA 8 bit and 16 bit PC network cards. The lower right-most card is an early wireless network card, and the central card with partial beige plastic cover is a PSTN modem.
 Whereas network controllers used to operate on expansion cards that plugged into a computer bus, the low cost and ubiquity of the Ethernet standard means that most new computers have a network interface built into the motherboard. Newer server motherboards may even have dual network interfaces built-in. The Ethernet capabilities are either integrated into the motherboard chipset or implemented via a low-cost dedicated Ethernet chip, connected through the PCI (or the newer PCI Express) bus. A separate network card is not required unless additional interfaces are needed or some other type of network is used.
@@ -38,7 +38,7 @@ Programmed input/output is where the CPU moves the data to or from the NIC to me
 Direct memory access (DMA) is where some other device other than the CPU assumes control of the system bus to move data to or from the NIC to memory. This removes load from the CPU but requires more logic on the card. In addition, a packet buffer on the NIC may not be required and latency can be reduced. There are two types of DMA: third-party DMA in which a DMA controller other than the NIC performs transfers, and bus mastering where the NIC itself performs transfers.
 An Ethernet network controller typically has an 8P8C socket where the network cable is connected. Older NICs also supplied BNC, or AUI connections. A few LEDs inform the user of whether the network is active, and whether or not data transmission occurs. Ethernet network controllers typically support 10 Mbit/s Ethernet, 100 Mbit/s Ethernet, and 1000 Mbit/s Ethernet varieties. Such controllers are designated as "10/100/1000", meaning that they can support a notional maximum transfer rate of 10, 100 or 1000 Mbit/s. 10 Gigabit Ethernet NICs are also available, and, as of November 2014, are beginning to be available on computer motherboards.[3][4]
 
-##Performance and advanced functionality
+## Performance and advanced functionality
 
 An ATM network interface.
 

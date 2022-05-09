@@ -14,7 +14,7 @@ dateCreated: 2022-04-21T03:32:52.572Z
 
 随着深度操作系统越来越受欢迎，部分主流Linux发行版直接集成深度桌面环境和深度系列应用，同时，感谢全球的社区爱好者协助移植深度桌面环境和深度系列应用到不同发行版中，现在已经被移植到主流的发行版。
 
-## 基于DDE(深度桌面环境)的发行版 
+## 基于DDE(深度桌面环境)的发行版
 
 [Manjaro Deepin](https://manjaro.org/category/community-editions/deepin)
 

@@ -24,9 +24,7 @@ Kreogist Mu是一个音乐管理中心，支持播放WAV、MP3、AAC、M4A等有
 
 [http://packages.deepin.com/deepin/pool/main/m/mu/](http://packages.deepin.com/deepin/pool/main/m/mu/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

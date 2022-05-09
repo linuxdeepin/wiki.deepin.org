@@ -14,7 +14,6 @@ In graphical computers, a desktop environment is used to provide a graphical use
 
 The open source Linux has many desktop environments that can be replaced with each other; while the popular closed source operating systems like Microsoft Windows and Mac OS X use its own dekstop environment which are conservative, though some themes and third-part softwares can be used to change looks of the interface (such as windows, buttons and icons). In Windows, all changes can be done by replacing default theme in Explorer shell.
 
-
 ## Popular desktop environments in Linux
 
 - Deepin desktop environment (DDE): a nouveau desktop environment developed using Qt/C++ and Golang

@@ -24,9 +24,7 @@ Desura是一个正版游戏网站，游戏玩家只要登录，即可实现在�
 
 [http://packages.deepin.com/deepin/pool/non-free/d/desura/](http://packages.deepin.com/deepin/pool/non-free/d/desura/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

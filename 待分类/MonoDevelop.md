@@ -24,8 +24,6 @@ MonoDevelop是个跨平台的集成开发环境，主要用来开发Mono与.NETF
 
 [http://packages.deepin.com/deepin/pool/main/m/monodevelop/](http://packages.deepin.com/deepin/pool/main/m/monodevelop/)
 
-
 ## 常见问题
-
 
 ## 相关链接

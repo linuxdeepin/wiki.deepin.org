@@ -61,7 +61,6 @@ Note: Desktop entries need to have executing permission before they can be run b
     Exec=firefox -new-window about:blank
     TargetEnvironment=Unity
 
-
 ## Reference
 
 [ubuntu unity .desktop 文件书写方法](http://blog.sina.com.cn/s/blog_55e606c2010161xz.html)

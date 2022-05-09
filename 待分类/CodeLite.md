@@ -24,9 +24,7 @@ CodeLite是一个C/C++编程语言的跨平台IDE，在Windows、Ubuntu和MacOSX
 
 [http://packages.deepin.com/deepin/pool/main/c/codelite/](http://packages.deepin.com/deepin/pool/main/c/codelite/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

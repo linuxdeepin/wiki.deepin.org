@@ -14,8 +14,8 @@ Pleasant leisure time, let Deepin Movie accompany you to spend together!
 
 Deepin Movie provides an intuitive easy to use operation interface and rich complete shortcuts. You can complete all play operations by keyboard, which will make you thoroughly get rid of the constraint of mouse click. Video files in various formats can be played through Deepin Movie, and you can use the streaming function to easily enjoy online video resources.
 
-
 ## Basic Operations
+
 ### Run Deepin Movie
 
 1. Click on ![Launcher](/images/1/18/Launcher_icon.png) at the bottom of desktop or move the mouse pointer to the upper left corner of the screen, enter into launcher interface.
@@ -23,8 +23,8 @@ Deepin Movie provides an intuitive easy to use operation interface and rich comp
 
 > ![notes](/images/5/51/Notes.png): Deepin Movie has been fixed on Dock by default, you can click on ![Deepin Movie](/images/c/c3/Movie-24.png) on Dock to run.
 
-
 ### Close Deepin Movie
+
 On Deepin Movie interface, click on × to exit Deepin Movie.
 
 > ![notes](/images/5/51/Notes.png): You can also right-click on ![Deepin Movie](/images/c/c3/Movie-24.png) on Dock, select **Close All** to exit Deepin Movie.
@@ -43,16 +43,14 @@ You can zoom in or out the video play window in equal proportion by manually dra
 1. On Deepin Movie interface, move the mouse pointer over an edge of Deepin Movie, and then the mouse pointer changes to Double Sided Arrow.
 2. Hold down the left mouse button, drag and drop the video play window to zoom in or out, and the window size will be displayed in video play window in real time.
 
-
 ## Shortcuts
+
 ### View Shortcuts
 
 You will do more with less subsequent operations if you can firstly view the shortcuts configuration before playing the video.
 
 1. On Deepin Movie interface, press **Ctrl**+**Shift**+ ? on keyboard to open shortcuts preview interface.
 2. In the shortcuts preview interface, you can view all the shortcuts.
-
-
 
 > ![attention](/images/c/c7/Attention.png): During video play, you can open shortcuts preview interface at any time.
 
@@ -190,11 +188,9 @@ You will do more with less subsequent operations if you can firstly view the sho
     </tbody>
 </table>
 
-
 ### Set Shortcuts
 
 You can change the shortcuts according to your operation habit.
-
 
 #### Enable shortcuts
 
@@ -217,15 +213,14 @@ You can change the shortcuts according to your operation habit.
 3. Click on **Keyboard Shortcuts**.
 4. Click the shortcut you want to delete, and press **Backspace** on the keyboard.
 
-
 ## Open Video File
+
 Play your favorite videos by Deepin Movie
 
 You can get video files by the following ways:
 
 - Copy the video file to computer via USB cable from the storage device (such as USB flash drive) for play.
 - When computer is connected to the network, copy the network video URL to Deepin Movie for online play.
-
 
 ### Open A File
 
@@ -237,7 +232,8 @@ You can open video file by executing one of the following operations:
 
 > ![tips](/images/2/21/Tips.png): You also can double click on Deepin Movie interface to select one file or more.
 
-### Open A Folder 
+### Open A Folder
+
 You can open a folder that contains multiple video files by executing one of the following operations. Audio and video files in the folder will be displayed in playlist and played successively.
 
 - On Deepin Movie interface, click on ![Menu](/images/4/44/Icon_menu.png) or the right mouse button to select **Open a folder**.
@@ -264,6 +260,7 @@ During video play, you can flexibly set the video display mode.
 Fullscreen play is that the video fully filled the entire screen to play, making you focus on the video content.
 
 #### Set FullScreen
+
 You can play videos in fullscreen mode by executing one of the following operations:
 
 - On Deepin Movie interface, double-click the left mouse button.
@@ -278,6 +275,7 @@ If you want to exit fullscreen, you can:
 - Double-click the left mouse button.
 - Click the right mouse button or click on ![Menu](/images/4/44/Icon_menu.png) to select **Exit fullscreen**.
 - Click on Exit Fullscreen.
+
 * Press **Esc** on keyboard.
 
 ### Switch to Mini Mode Display
@@ -294,6 +292,7 @@ You can play video in mini mode by executing one of the following operations:
 - On Deepin Movie interface, press **F2** on keyboard.
 
 #### Exit Mini Mode
+
 If you want to exit mini mode, you can:
 
 - Click the right mouse button or click on ![Menu](/images/5/51/Notes.png) to select **Exit mini mode**.
@@ -310,7 +309,6 @@ If you want to exit mini mode, you can:
 ## Common Play Operations
 
 You can view and execute common play operations through icons while enjoying the joy from videos.
-
 
 <table class="block1">
     <tbody>
@@ -375,7 +373,6 @@ If you want to play next video, you can:
 - On Deepin Movie interface, click the right mouse button or click on ![Menu](/images/4/44/Icon_menu.png) to select **Play** >**Next**.
 - On Deepin Movie interface, click on **Next**.
 
-
 ### Forward/Backward
 
 If you want to play video forward, you can:
@@ -409,6 +406,7 @@ You can view the details of current playing video files.
 >![tips](/images/2/21/Tips.png) : You also can click on Playlist to expand the playlist, and then right-click on the video file to select **Information** to view the video file details.
 
 ## Adjust Volume
+
 You can adjust the volume to enjoy better sound performance during watching the video.
 
 ### Mute Settings
@@ -432,6 +430,7 @@ If you want to cancel mute mode, you can:
 - On Deepin Movie interface, move the mouse pointer over **Volume** to display the volume slider. Hold down the left mouse button, drag the volume slider leftward or rightward to increase/decrease the volume.
 
 ## Adjust Frame
+
 You can freely set by rich frame adjusting functions to make the video watching process more comfortable.
 
 ### Frame Size Adjustment
@@ -455,10 +454,11 @@ You can freely set by rich frame adjusting functions to make the video watching 
 
 1. On Deepin Movie interface, click the right mouse button or click on ![Menu](/images/4/44/Icon_menu.png).
 2. Clicking on **Frame**, you can:
-  - Select **Rotate 90 degree clockwise**, the frame played will rotate 90 degree clockwise.
-  - Select **Rotate 90 degree counterclockwise**, the frame played will rotate 90 degree counterclockwise.
-  - Select **Flip horizontally**, the frame played will flip around along the vertical axis.
-  - Select **Flip vertically**, the frame played will flip top to bottom along the horizontal axis.
+
+- Select **Rotate 90 degree clockwise**, the frame played will rotate 90 degree clockwise.
+- Select **Rotate 90 degree counterclockwise**, the frame played will rotate 90 degree counterclockwise.
+- Select **Flip horizontally**, the frame played will flip around along the vertical axis.
+- Select **Flip vertically**, the frame played will flip top to bottom along the horizontal axis.
 
 ## Set Subtitles
 
@@ -508,10 +508,11 @@ You can set subtitles by executing one of the following operations:
 1. On Deepin Movie interface, click the right mouse button or click on ![menu](/images/4/44/Icon_menu.png).
 2. Click on **Subtitles**.
 3. Clicking on **Subtitle settings**, you can:
-  - Select the color of the subtitle displayed in **Font color**.
-  - Increase or decrease the size of the subtitles displayed by clicking on ＋ or － and reset the font size by clicking on **Reset** in **Size**.
-  -  Increase or decrease the width of the subtitles displayed by clicking on ＋ or － and reset the font width by clicking on resetarrow in **Border width**.
-  - Select the color of the subtitle border in **Border color**.
+
+- Select the color of the subtitle displayed in **Font color**.
+- Increase or decrease the size of the subtitles displayed by clicking on ＋ or － and reset the font size by clicking on **Reset** in **Size**.
+- Increase or decrease the width of the subtitles displayed by clicking on ＋ or － and reset the font width by clicking on resetarrow in **Border width**.
+- Select the color of the subtitle border in **Border color**.
 
 #### Set Subtitle Delay
 
@@ -520,7 +521,7 @@ You can set subtitles by executing one of the following operations:
 3. Clicking on **Subtitle settings**.
 4. Advance or delay the displayed time of the subtitles by clicking on ＋ or － and reset the subtitle delay to the default time by clicking on resetarrow in **Sync adjustment (s)**.
 
->  ![tips](/images/2/21/Tips.png): You also can advance or delay the displayed time of the subtitles by pressing **Shift**+ → or ← on the keyboard. The time advanced or delayed every time is 0.5 second.
+> ![tips](/images/2/21/Tips.png): You also can advance or delay the displayed time of the subtitles by pressing **Shift**+ → or ← on the keyboard. The time advanced or delayed every time is 0.5 second.
 
 #### Adjust Location of Displayed Subtitles
 
@@ -529,11 +530,11 @@ You can set subtitles by executing one of the following operations:
 3. Clicking on **Subtitle settings**.
 4. Set the subtitles to let them appear on the top or at the bottom by dragging and dropping the slider in **Position**.
 
- >  ![tips](/images/2/21/Tips.png): You also can move up or move down the positions where subtitles appear by pressing **Shift** + ↑ or ↓ on the keyboard.
+ > ![tips](/images/2/21/Tips.png): You also can move up or move down the positions where subtitles appear by pressing **Shift** + ↑ or ↓ on the keyboard.
 
 ## Manage Playlist
 
-You can enter the playlist to manage your video files, add or delete video files, set up the playback sequence of video files, etc. 
+You can enter the playlist to manage your video files, add or delete video files, set up the playback sequence of video files, etc.
 
 ### Unfold Playlist
 
@@ -543,7 +544,6 @@ You can unfold the playlist by executing one of the following operations:
 - On Deepin Movie interface, press **F3** on the keyboard to unfold or fold the playlist.
 - On Deepin Movie interface, unfold the playlist by clicking on arrow_left and fold the playlist by clicking on arrow_right.
 - On Deepin Movie interface, click on openplaylist icon.
-
 
 ### Add File/Folder
 
@@ -564,7 +564,7 @@ On playlist interface, double-click or right-click the video file, then click on
 
 ### Remove Video File
 
-1. On playlist interface, move the mouse pointer over the video file. 
+1. On playlist interface, move the mouse pointer over the video file.
 2. Click the right mouse button or click on ×.
 3. Click on **Remove from playlist**.
 
@@ -572,17 +572,18 @@ On playlist interface, double-click or right-click the video file, then click on
 
 Deepin Movie can automatically identify invalid files displayed in gray, you can remove them.
 
-1. On playlist interface, click the right mouse button. 
+1. On playlist interface, click the right mouse button.
 2. Click on **Remove invalid file**.
 
 ### Set Play Sequence
 
 1. On playlist interface, click the right mouse button or click on playorder, you can:
-  - Play video files in the playlist in sequence by selecting **Order**.
-  - Play the video files in the playlist randomly by selecting **Random**.
-  - Stop playing after the current video file has been played by selecting **Single**.
-  - Restart playing the current video file by selecting **Repeat (Single)**.
-  - Restart playing all video files in the current playlist by selecting **Repeat (Playlist)**.
+
+- Play video files in the playlist in sequence by selecting **Order**.
+- Play the video files in the playlist randomly by selecting **Random**.
+- Stop playing after the current video file has been played by selecting **Single**.
+- Restart playing the current video file by selecting **Repeat (Single)**.
+- Restart playing all video files in the current playlist by selecting **Repeat (Playlist)**.
 
 > ![notes](/images/5/51/Notes.png): You can also select **Play Sequence** to set on Deepin Movie interface by clicking the right mouse button or clicking on ![menu](/images/4/44/Icon_menu.png).
 
@@ -612,14 +613,15 @@ There are more settings waiting for you to choose!
 2. Click on **Settings**.
 3. Click on **Basic settings**.
 4. In **Play** option, you can:
-  - Select the check box of **Fullscreen on opening file**，and then the video will be displayed in fullscreen automatically on playing.
-  - Select the check box of **Apply the size last time closed**，and then the video will be displayed in the size last time closed on playing by default.
-  - Select the check box of **Clear playlist on opening new file**, and then the previous playlist will be emptied when open new video files to play.
-  - select the check box of **Resume playback after restarting player**, and then the video closed last time is continued automatically to play when you open Deepin Movie. 
-  - Select the check box of **Continue to next video automatically**, and then the video files with similar names under the same folder are added into the playlist automatically and played in sequence. 
-  - Select the check box of **Show preview when hovering over progress bar**, and then the preview window will be displayed when hover the mouse over the playback progress bar. 
-  - Select the check box of **Allow multiple instances**, and then multiple windows of Deepin Movie will be opened at the same time to play different video files.
-  - Select the check box of **Pause when minimized**, and then the video file will be paused automatically when Deepin Movie is minimized. 
+
+- Select the check box of **Fullscreen on opening file**，and then the video will be displayed in fullscreen automatically on playing.
+- Select the check box of **Apply the size last time closed**，and then the video will be displayed in the size last time closed on playing by default.
+- Select the check box of **Clear playlist on opening new file**, and then the previous playlist will be emptied when open new video files to play.
+- select the check box of **Resume playback after restarting player**, and then the video closed last time is continued automatically to play when you open Deepin Movie.
+- Select the check box of **Continue to next video automatically**, and then the video files with similar names under the same folder are added into the playlist automatically and played in sequence.
+- Select the check box of **Show preview when hovering over progress bar**, and then the preview window will be displayed when hover the mouse over the playback progress bar.
+- Select the check box of **Allow multiple instances**, and then multiple windows of Deepin Movie will be opened at the same time to play different video files.
+- Select the check box of **Pause when minimized**, and then the video file will be paused automatically when Deepin Movie is minimized.
 
 #### Time Span
 
@@ -629,9 +631,11 @@ There are more settings waiting for you to choose!
 4. In **Time span** option, you can increase/decrease time span by clicking on + or - and reset the time span by clicking on reset.
 
 ### Shortcut Settings
+
 The specific operations of shortcut settings, please refer to [Set Shortcuts](#Set Shortcuts).
 
 ### Subtitle Settings
+
 The specific operations of subtitle settings, please refer to [Set Subtitles](#Set Subtitles).
 
 ### About

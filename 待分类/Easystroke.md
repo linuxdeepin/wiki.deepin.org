@@ -24,8 +24,6 @@ Easystroke是一个手势识别应用，它可以识别移动鼠标的手势来�
 
 [http://packages.deepin.com/deepin/pool/main/e/easystroke/](http://packages.deepin.com/deepin/pool/main/e/easystroke/)
 
-
 ## 常见问题
-
 
 ## 相关链接

@@ -24,9 +24,7 @@ VYM是一款思维导图软件，安装非常简单，而且VYM的兼容性很�
 
 [http://packages.deepin.com/deepin/pool/main/v/vym/](http://packages.deepin.com/deepin/pool/main/v/vym/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

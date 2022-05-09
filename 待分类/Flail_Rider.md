@@ -10,7 +10,7 @@ dateCreated: 2022-04-21T03:34:23.444Z
 
 ## 简介
 
-Flail Rider是一款快节奏的桌面游戏，玩家可以驾驶一辆牵引连枷的赛车，自上而下地通过连枷打击一切地面物体，而且连枷的体积还可以变大，游戏操控起来非常简单，画面色彩也很丰富，整个过程令人惊叹刺激。 
+Flail Rider是一款快节奏的桌面游戏，玩家可以驾驶一辆牵引连枷的赛车，自上而下地通过连枷打击一切地面物体，而且连枷的体积还可以变大，游戏操控起来非常简单，画面色彩也很丰富，整个过程令人惊叹刺激。
 
 ## 安装
 
@@ -24,9 +24,7 @@ Flail Rider是一款快节奏的桌面游戏，玩家可以驾驶一辆牵引连
 
 [http://packages.deepin.com/deepin/pool/main/f/flailrider/f](http://packages.deepin.com/deepin/pool/main/f/flailrider/f)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

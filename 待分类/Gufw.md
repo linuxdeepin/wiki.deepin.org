@@ -24,8 +24,6 @@ Gufw是一款防火墙UFW的图形化管理工具，可以保护您的电脑在�
 
 [http://packages.deepin.com/deepin/pool/main/g/gui-ufw/](http://packages.deepin.com/deepin/pool/main/g/gui-ufw/)
 
-
 ## 常见问题
-
 
 ## 相关链接

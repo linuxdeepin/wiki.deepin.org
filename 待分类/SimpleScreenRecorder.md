@@ -24,9 +24,7 @@ SimpleScreenRecorder是一款屏幕录制软件，它具有录制整个桌面、
 
 [http://packages.deepin.com/deepin/pool/contrib/s/simplescreenrecorder/](http://packages.deepin.com/deepin/pool/contrib/s/simplescreenrecorder/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

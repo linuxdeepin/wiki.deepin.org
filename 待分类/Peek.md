@@ -24,9 +24,7 @@ Peek是一款屏幕录制工具，可以将屏幕指定区域录制成GIF动态�
 
 [http://packages.deepin.com/deepin/pool/main/p/peek/](http://packages.deepin.com/deepin/pool/main/p/peek/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,9 +24,7 @@ qpdfview是一个小巧的PDF阅读器，它能浏览各种PDF格式的文件，
 
 [http://packages.deepin.com/deepin/pool/main/q/qpdfview/](http://packages.deepin.com/deepin/pool/main/q/qpdfview/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

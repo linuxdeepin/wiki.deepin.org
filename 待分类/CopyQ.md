@@ -24,8 +24,6 @@ CopyQ是一款剪贴板软件，适用于大量数据的复制粘贴。CopyQ能�
 
 [http://packages.deepin.com/deepin/pool/main/c/copyq/](http://packages.deepin.com/deepin/pool/main/c/copyq/)
 
-
 ## 常见问题
-
 
 ## 相关链接

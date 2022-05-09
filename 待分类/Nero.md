@@ -24,8 +24,6 @@ Nero是一款多媒体刻录和编辑应用，用于刻录和复制音乐 CD、D
 
 [http://packages.deepin.com/deepin/pool/non-free/n/nerolinux/](http://packages.deepin.com/deepin/pool/non-free/n/nerolinux/)
 
-
 ## 常见问题
-
 
 ## 相关链接

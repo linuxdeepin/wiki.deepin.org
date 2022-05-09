@@ -24,9 +24,7 @@ Marp是一款Markdown编辑器，可以用Markdown语法编写内容，以幻灯
 
 [http://packages.deepin.com/deepin/pool/main/m/marp/](http://packages.deepin.com/deepin/pool/main/m/marp/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

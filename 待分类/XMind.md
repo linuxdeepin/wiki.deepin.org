@@ -24,9 +24,7 @@ XMind是一款全球领先的思维导图软件，除了可以轻松绘制基本
 
 [http://packages.deepin.com/deepin/pool/non-free/x/xmind/](http://packages.deepin.com/deepin/pool/non-free/x/xmind/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

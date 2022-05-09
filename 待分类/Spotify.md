@@ -24,9 +24,7 @@ Spotify是一种专有的P2P音乐流媒体服务，允许用户收听点播曲�
 
 [http://packages.deepin.com/deepin/pool/non-free/s/spotify-client/](http://packages.deepin.com/deepin/pool/non-free/s/spotify-client/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

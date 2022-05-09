@@ -9,6 +9,7 @@ dateCreated: 2022-04-21T03:32:09.781Z
 ---
 
 ## 简介
+
 本文的经验来自深度百科用户(873792861)分享。
 
 [原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=43149)
@@ -16,6 +17,7 @@ dateCreated: 2022-04-21T03:32:09.781Z
 ## 正文
 
 最近，想学习下oracle，于是，在网上查找相关资料，在oracle官网下载了oracle12c。
+
 1. 建立软链接
 
         mkdir /usr/lib64
@@ -64,7 +66,7 @@ dateCreated: 2022-04-21T03:32:09.781Z
         “install the database software only” 只安装数据库软件
         “single instance database installation” 只安装单个数据库实例, 不搞什么集群,分布式,那些太高端了
         “Enterprise Edition” 企业版
- 
+
 如果你是选择Create and configure a databaseand，然后又勾上自动管理内存，那么最大内存MEMROY_MAX_TARGET不能大于dev/shm。
 
 然后按照提示，复制脚本路径以，root用户执行。

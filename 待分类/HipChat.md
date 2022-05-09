@@ -24,9 +24,7 @@ HipChat是一款专为团队内部群聊设计的聊天工具，您可以创建�
 
 [http://packages.deepin.com/deepin/pool/non-free/h/hipchat/](http://packages.deepin.com/deepin/pool/non-free/h/hipchat/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

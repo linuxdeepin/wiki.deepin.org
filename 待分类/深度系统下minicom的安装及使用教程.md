@@ -54,24 +54,23 @@ Minicom公司成立于1987年，总部位于以色列耶路撒冷，拥有一座
 
 │ Exit from Minicom │//退出minicom
 
-
 ## minicom的参数设置
 
 选中设置串行端口，点击回车后，弹出设置的界面如下：点击‖A‖设置串行设置为/dev/ttyS0,这表示使用串口1（com1）,如果是/dev/ttyS1则表示使用串口2(com 2).按‖E‖键进
 
 入设置‖bps/par/Bits‖（波特率）界面，如下图所示。再按‖I‖以设置波特率为115200，点‖F‖键硬件流控制设置为NO，回车最终的设置结果如下，然后回车返回到串口设置
 
-主菜单中│A-Serial Device（串口设备）/dev/ttyS0 
+主菜单中│A-Serial Device（串口设备）/dev/ttyS0
 
-│B-Lockfile Location（锁文件位置）: /var/lock 
+│B-Lockfile Location（锁文件位置）: /var/lock
 
 │C-Callin Program（调入程序）
 
 │D-Callout Program（调出程序）
 
-│E-Bps/Par/Bits（）: 115200 8N1 
+│E-Bps/Par/Bits（）: 115200 8N1
 
-│F-Hardware Flow Control（硬件数据流控制） No 
+│F-Hardware Flow Control（硬件数据流控制） No
 
 │G-Software Flow Control（软件数据流控制） No
 
@@ -79,11 +78,11 @@ Change which setting? （改变这些设置）然后选中‖Save setup as dfl�
 
 ‖/etc/minirc.dfl‖，接着进入初始化模式。
 
-或可以这样设置，打开终端输入minicom后，初始化进入minicom的欢迎界面，这里提示按‖Ctrl+A‖,再按‖Z‖键进入主配置目录 
+或可以这样设置，打开终端输入minicom后，初始化进入minicom的欢迎界面，这里提示按‖Ctrl+A‖,再按‖Z‖键进入主配置目录
 
 按下‖O‖键,并选择串口配置选项进行配置。接下来的配置是一样的。解析一下minicom命令摘要，命令将被执行当你按下Ctrl+D ,Key是对应的―字母‖键。“D”键：拨号目录
 
-“S”键：发送文件，上传文件有几种方式：zmodem,ymodem、xmodem、kermit、ascii 
+“S”键：发送文件，上传文件有几种方式：zmodem,ymodem、xmodem、kermit、ascii
 
 “P”键：通信参数。对波特率进行设置。
 
@@ -91,7 +90,7 @@ Change which setting? （改变这些设置）然后选中‖Save setup as dfl�
 
 “F”键：发送中断。
 
-“T”键:终端设置。A-终端仿真：VT102终端B-Backspace键发送：DEL键C-状态一致：启动D-换行延迟（毫秒）:0 
+“T”键:终端设置。A-终端仿真：VT102终端B-Backspace键发送：DEL键C-状态一致：启动D-换行延迟（毫秒）:0
 
 “W”键：换行开关
 
@@ -111,9 +110,9 @@ Change which setting? （改变这些设置）然后选中‖Save setup as dfl�
 
 “C”键:清除屏幕
 
-“O”键：配置minicom 
+“O”键：配置minicom
 
-“J”键:暂停minicom 
+“J”键:暂停minicom
 
 “X”键：退出和复位
 

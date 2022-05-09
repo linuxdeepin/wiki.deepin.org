@@ -24,9 +24,7 @@ MusE是一个MIDI/音频的音序器，具有两个全自动化的MIDI和音频�
 
 [http://packages.deepin.com/deepin/pool/main/m/muse/](http://packages.deepin.com/deepin/pool/main/m/muse/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

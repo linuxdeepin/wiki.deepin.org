@@ -24,9 +24,7 @@ Tomahawk是一款网络音乐播放器，它既能播放本地或远程电脑上
 
 [http://packages.deepin.com/deepin/pool/main/t/tomahawk/](http://packages.deepin.com/deepin/pool/main/t/tomahawk/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

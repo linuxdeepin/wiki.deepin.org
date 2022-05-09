@@ -24,9 +24,7 @@ Spyder是一个强大的交互式Python集成开发环境，它提供高级的�
 
 [http://packages.deepin.com/deepin/pool/main/s/spyder/](http://packages.deepin.com/deepin/pool/main/s/spyder/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

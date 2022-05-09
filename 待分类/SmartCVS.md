@@ -24,9 +24,7 @@ SmartCVS是一款用于CVS的版本控制应用，基于TCP/IP协议的版本控
 
 [http://packages.deepin.com/deepin/pool/main/s/smartcvs](http://packages.deepin.com/deepin/pool/main/s/smartcvs)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

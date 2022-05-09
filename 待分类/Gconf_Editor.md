@@ -24,8 +24,6 @@ Gconf Editor是一个配置编辑软件，它允许用户修改桌面环境和�
 
 [http://packages.deepin.com/deepin/pool/main/g/gconf-editor/](http://packages.deepin.com/deepin/pool/main/g/gconf-editor/)
 
-
 ## 常见问题
-
 
 ## 相关链接

@@ -9,6 +9,7 @@ dateCreated: 2022-04-21T03:55:58.387Z
 ---
 
 ## Introduction
+
 In Unix-based computer operating systems, init (short for initialization) is the first process started during booting of the computer system. It has several characteristics:
 
 * Its process ID (PID) is always 1

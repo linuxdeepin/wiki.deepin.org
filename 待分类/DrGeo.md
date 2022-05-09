@@ -24,8 +24,6 @@ Dr.Geo是一款交互式的几何形状分布的应用，它允许用来创建�
 
 [http://packages.deepin.com/deepin/pool/main/d/drgeo/](http://packages.deepin.com/deepin/pool/main/d/drgeo/)
 
-
 ## 常见问题
-
 
 ## 相关链接

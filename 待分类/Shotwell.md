@@ -24,9 +24,7 @@ Shotwell是一款轻量级的图片管理软件，您可以使用它来从数码
 
 [http://packages.deepin.com/deepin/pool/main/s/shotwell/](http://packages.deepin.com/deepin/pool/main/s/shotwell/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

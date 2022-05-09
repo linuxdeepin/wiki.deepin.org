@@ -42,13 +42,12 @@ TCP/IP is a set of protocol that the whole Internet is based one. These protocol
 
 In the January 1, 1983, TCP/IP replaced the old Network Control Protocol (NCP) in the ARPA network (the predecessor of the Internet), becoming the foundation of the Internet today. The TCP/IP was first designed by Vinton Cerf and Robert E. Kahn, then won out from the other network scheme like OSI model suggested by the ISO. The birth of important and reliable tools like HTML and Mosaic made it possible for the Internet to gain huge progress in the middle of the 90s. And with the increasing size of the global network, the popular IPv4 protocol has already reached it limit of capacity.
 
-
 ## IP address
 
 The IP address is the addressing scheme for computers on the Internet. It also refers to the unique address assigned to each computer. There are two common protocols for assignment of IP address:
 
-- IPv4 (Internet Protocol version 4): the fourth revision of the Internet protocol, and the first version that has been widely deployed.
-- IPv6 (Internet Protocol version 6): The protocol for data gram exchanging in the network layer of the OSI model, also the next generation protocol replacing IPv4.
+* IPv4 (Internet Protocol version 4): the fourth revision of the Internet protocol, and the first version that has been widely deployed.
+* IPv6 (Internet Protocol version 6): The protocol for data gram exchanging in the network layer of the OSI model, also the next generation protocol replacing IPv4.
 
 ### Obtaining of IP address
 
@@ -56,7 +55,7 @@ Static address: The address predefined by administrator and assigned to the spec
 
 Dynamic address: Obtained after finishing a certain process during connecting to the network. Devices may get different addresses every time they are connected.
 
-###The format of IP address
+### The format of IP address
 
 An IP address consists of 32 bits, divided into 4 segments. Each segment is represented by a decimal number ranging for 0 to 255, and segments are separated by dots. For example: 159.226.1.1.
 
@@ -74,9 +73,9 @@ There are five types of IP, ranging from A to E.
 
 A subnetwork mask is a bit mask used to specify the range of the bits used for determine the host address in an IP. The default subnetwork mask for different types of IP address are:
 
-- A-type IP: 255.0.0.0
-- B-type IP:255.255.0.0
-- C-type IP: 255.255.255.0
+* A-type IP: 255.0.0.0
+* B-type IP:255.255.0.0
+* C-type IP: 255.255.255.0
 
 ### Private networks
 
@@ -90,9 +89,9 @@ A private network cannot be connected to the Internet without address forwarding
 
 The available private IPs are:
 
-- 10.0.0.0 – 10.255.255.255 for A-type IP
-- 172.16.0.0 – 172.31.255.255 for B-type IP
-- 192.168.0.0 – 192.168.255.255 for C-type IP
+* 10.0.0.0 – 10.255.255.255 for A-type IP
+* 172.16.0.0 – 172.31.255.255 for B-type IP
+* 192.168.0.0 – 192.168.255.255 for C-type IP
 
 ## Gateway and router
 

@@ -50,7 +50,7 @@ Note: for more details about /etc/passwd, type ` man 5 passwd ` in terminal.
 
 ### /etc/shadow
 
-/etc/shadow is used to increase the security level of passwords by restricting the access to hashed password data to super user only. This  reduce the likelihood of brute-force attacks by making the list of hashed passwords unreadable by unprivileged users. 
+/etc/shadow is used to increase the security level of passwords by restricting the access to hashed password data to super user only. This  reduce the likelihood of brute-force attacks by making the list of hashed passwords unreadable by unprivileged users.
 
 The /etc/passwd file is also a text file with one record per line, each describing a user account. Each record consists of nine fields separated by colons. These fields, in order from left to right, are:
 
@@ -146,8 +146,8 @@ Use userdel to delete user account. For example, to remove account "hilbert", ex
     sudo userdel hilbert    ## Delete records of "hilbert" in passwd, shadow and group; do not remove hilbert's home directory
     sudo userdel -r hilbert ##  Delete records of "hilbert" in passwd, shadow and group; also remove hilbert's home directory
 
-
 ## Group
+
 ### Introduction
 
 In order to facilitate sharing of file and resources, "group" is  introduced to Linux system. Each Linux user belongs to a main group, and each group has an group identifier (GID). All information about groups is store in /etc/group.
@@ -190,6 +190,7 @@ Typical examples in /etc/group file:
     adm:x:4:cxbii
 
 ### Group management
+
 #### Add group
 
 Use `groupadd` to add group
@@ -245,6 +246,7 @@ Root user can do everything  we want, so it is reallly dangerous to login using 
 Note: unless you clearly know what you are doing, please do not try following command! These command may cause irrevocable damage to your system!
 
 ### su
+
 su (Switch user) lets a normal user have permission of other user temporarily. For normal user, password of the target user is required; for super user, no password is required.
 
 Syntax：
@@ -371,7 +373,6 @@ Delete the original content, then copy the following text into editor, then save
     # Allow members of group sudo to execute any command
     %sudo ALL=(ALL) ALL
     xxx ALL=(ALL) ALL  # Replace "xxx" here by the account that has sudo problem
-
 
 ### Why not root for normal user by default?
 

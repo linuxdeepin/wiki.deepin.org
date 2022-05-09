@@ -24,9 +24,7 @@ Emacs是一个可自编程和扩展的文本编辑器，Emacs内置Elisp解释�
 
 [http://packages.deepin.com/deepin/pool/main/d/deepin-emacs/](http://packages.deepin.com/deepin/pool/main/d/deepin-emacs/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

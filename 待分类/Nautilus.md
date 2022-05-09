@@ -24,8 +24,6 @@ Nautilus是一款文件管理器，它具有文件的图形化显示，左侧导
 
 [http://packages.deepin.com/deepin/pool/main/n/nautilus/](http://packages.deepin.com/deepin/pool/main/n/nautilus/)
 
-
 ## 常见问题
-
 
 ## 相关链接

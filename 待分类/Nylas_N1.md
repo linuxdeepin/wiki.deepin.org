@@ -24,9 +24,7 @@ Nylas N1是一个开源的邮件客户端，它支持插件框架，可以扩展
 
 [http://packages.deepin.com/deepin/pool/main/n/nylas/](http://packages.deepin.com/deepin/pool/main/n/nylas/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

@@ -24,8 +24,6 @@ PyRoom是一款文本编辑器，它将带你进入黑底绿字的全屏幕界�
 
 [http://packages.deepin.com/deepin/pool/main/p/pyroom/](http://packages.deepin.com/deepin/pool/main/p/pyroom/)
 
-
 ## 常见问题
-
 
 ## 相关链接

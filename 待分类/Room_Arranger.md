@@ -24,8 +24,6 @@ Room Arranger是一款实时的模拟房屋设计布局的软件，它可以新�
 
 [http://packages.deepin.com/deepin/pool/non-free/r/rooarr/](http://packages.deepin.com/deepin/pool/non-free/r/rooarr/)
 
-
 ## 常见问题
-
 
 ## 相关链接

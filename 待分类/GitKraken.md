@@ -24,8 +24,6 @@ GitKraken是一款Git客户端，它使用图形化的界面，以减少命令�
 
 [http://packages.deepin.com/deepin/pool/main/g/gitkraken/](http://packages.deepin.com/deepin/pool/main/g/gitkraken/)
 
-
 ## 常见问题
-
 
 ## 相关链接

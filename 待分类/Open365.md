@@ -24,9 +24,7 @@ Open365是一款Office文档处理软件，支持在线创建和编辑、云同�
 
 [http://packages.deepin.com/deepin/pool/main/o/open365-client/](http://packages.deepin.com/deepin/pool/main/o/open365-client/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

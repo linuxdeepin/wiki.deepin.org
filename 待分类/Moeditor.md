@@ -24,9 +24,7 @@ Moeditor是一款markdown编辑器，极简风格的界面，支持所有markdow
 
 [http://packages.deepin.com/deepin/pool/non-free/m/moeditor/](http://packages.deepin.com/deepin/pool/non-free/m/moeditor/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

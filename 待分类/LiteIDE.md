@@ -24,8 +24,6 @@ LiteIDE是一款开源、跨平台的轻量级Go语言集成开发环境，它�
 
 [http://packages.deepin.com/deepin/pool/non-free/l/liteide/](http://packages.deepin.com/deepin/pool/non-free/l/liteide/)
 
-
 ## 常见问题
-
 
 ## 相关链接

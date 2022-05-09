@@ -24,9 +24,7 @@ Vim是从vi发展而来的一个文本编辑器，GVim是Vim的图形前端，�
 
 [http://packages.deepin.com/deepin/pool/main/v/vim/](http://packages.deepin.com/deepin/pool/main/v/vim/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

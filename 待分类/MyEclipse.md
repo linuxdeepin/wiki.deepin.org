@@ -24,9 +24,7 @@ MyEclipse是一款软件开发工具，是对EclipseIDE的扩展，包括了完�
 
 [http://packages.deepin.com/deepin/pool/non-free/m/myeclipse/](http://packages.deepin.com/deepin/pool/non-free/m/myeclipse/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

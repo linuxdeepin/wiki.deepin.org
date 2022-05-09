@@ -24,9 +24,7 @@ UltraEdit 是一个文本编辑器，可以编辑文本、十六进制、ASCII �
 
 [http://packages.deepin.com/deepin/pool/non-free/u/uex/](http://packages.deepin.com/deepin/pool/non-free/u/uex/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

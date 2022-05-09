@@ -24,8 +24,6 @@ GnuCash是一款适用于个人或小型企业的财务软件，包含有收入�
 
 [http://packages.deepin.com/deepin/pool/main/g/gnucash/](http://packages.deepin.com/deepin/pool/main/g/gnucash/)
 
-
 ## 常见问题
-
 
 ## 相关链接

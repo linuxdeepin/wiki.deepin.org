@@ -24,8 +24,6 @@ Tickeys是一款打字机声效模拟软件，它支持进行设置声音方案�
 
 [http://packages.deepin.com/deepin/pool/contrib/t/tickeys/](http://packages.deepin.com/deepin/pool/contrib/t/tickeys/)
 
-
 ## 常见问题
-
 
 ## 相关链接

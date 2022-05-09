@@ -24,9 +24,7 @@ Deepin OpenSymbol是深度科技团队在Wingdings系列字体内容上，重新
 
 [http://packages.deepin.com/deepin/pool/main/t/ttf-deepin-opensymbol/](http://packages.deepin.com/deepin/pool/main/t/ttf-deepin-opensymbol/)
 
-
 ## 常见问题
-
 
 ## 相关链接
 

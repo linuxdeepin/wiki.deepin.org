@@ -92,74 +92,74 @@ The common places where these shell scripts are put:
 
 ## Common service
 
-- acpi-support   Support of Advanced Configuration and Power Management Interface (ACPI)
-- acpid acpi    Daemon of ACPI
-- apmd acpi    Extension of ACPI
-- alsa    Subsystem for sound management
-- alsa-utils    Utilities for ALSA
-- cron    Task scheduler system
-- anacron    Subsystem of cron, automatically run delayed tasks after system boot
-- atd    Task scheduler system similar to cron. Recommended to disable.
-- binfmt-support    Support of other binary formats.
-- bluez-utiles    Support of Bluetooth devices.
-- bootlogd    Recording journals during boot. Recommended to enable.
-- syslog-ng    System journaling. Recommended to enable.
-- klogd    Similar to sylog.
-- sysklogd    Recording system log as well as kernel log.
-- cupsys    Common UNIX Printing System.
-- dbus    Message bus system. Very important to desktop applications.
-- dns-clean    Clean DNS information when using dial-up connections.
-- evms    Volumn management system for enterprise.
-- fetchm    User proxy for fetching mails.
-- gdm    GNOME login manager
-- gpm    Mouse support in terminal.
-- halt    Shutdown the system.
-- hdparm    Scripts for adjusting hard disk (using configurations from /etc/hdparm.conf)
-- hibernate    System hibernation.
-- hotkey-setup    Support of Fn keys on laptop.
-- hotplug and hotplug-net    Plug-and-play support. Recommended to leave them untouched.
-- ifrename    Scripts for rename of network interfaces. Recommended to enable if you have several network card.
-- inetd    A super daemon for managing other services (using configurations from /etc/inetd.conf)
-- linux-restricted-modules-common    Support of restricted system module.
-- lvm    Logical volume management
-- makedev    Creating device files. Very import.
-- mdamd    Management of disk array.
-- module-init-tools    Load modules from /etc/modules. Recommended to enable.
-- networking    Networking support (using configurations from /etc/network/interfaces). Very important.
-- ntpdate    Synchronization of time. Recommended to disable.
-- pcmcia    Support of pcmcia device.
-- powernowd    Advanced power management of mobile CPU.
-- ppp    Management of dial-up connections.
-- ppp-dns    DNS service for dial-up connections.
-- readahead    Read library files before they are used.
-- reboot    Rebooting system.
-- resolvconf    Automatic configuring DNS.
-- rmnologin    Remove nologin.
-- rsync    Rsync daemon.
-- sendsigs    Send signals to processess during reboot and shutdown.
-- single    Switch to single user mode.
-- sshd    SSH server daemon.
-- sudo    Check sudo status.
-- udev    Userspace dev file system. Important.
-- umountfs    Umounting file system.
-- urandom    Random number generator.
-- usplash    Offer an animation during startup.
-- vbesave    Tools for configuration of video cards in BIOS.
-- xorg-common    Set ICE socket for X service.
-- adjtimex    Adjust kernel clock.
-- dirmngr     Tools for managing certificate list.
-- hwtools    IRQs optimization.
-- libpam-devperm     Fix device file after system crashes.
-- lm-sensors    Support of onboard sensors.
-- mdadm-raid    RAID manager.
-- screen-cleanup    A script for clearing screen during startup.
-- xinetd    Super daemon for managing other services.
+* acpi-support   Support of Advanced Configuration and Power Management Interface (ACPI)
+* acpid acpi    Daemon of ACPI
+* apmd acpi    Extension of ACPI
+* alsa    Subsystem for sound management
+* alsa-utils    Utilities for ALSA
+* cron    Task scheduler system
+* anacron    Subsystem of cron, automatically run delayed tasks after system boot
+* atd    Task scheduler system similar to cron. Recommended to disable.
+* binfmt-support    Support of other binary formats.
+* bluez-utiles    Support of Bluetooth devices.
+* bootlogd    Recording journals during boot. Recommended to enable.
+* syslog-ng    System journaling. Recommended to enable.
+* klogd    Similar to sylog.
+* sysklogd    Recording system log as well as kernel log.
+* cupsys    Common UNIX Printing System.
+* dbus    Message bus system. Very important to desktop applications.
+* dns-clean    Clean DNS information when using dial-up connections.
+* evms    Volumn management system for enterprise.
+* fetchm    User proxy for fetching mails.
+* gdm    GNOME login manager
+* gpm    Mouse support in terminal.
+* halt    Shutdown the system.
+* hdparm    Scripts for adjusting hard disk (using configurations from /etc/hdparm.conf)
+* hibernate    System hibernation.
+* hotkey-setup    Support of Fn keys on laptop.
+* hotplug and hotplug-net    Plug-and-play support. Recommended to leave them untouched.
+* ifrename    Scripts for rename of network interfaces. Recommended to enable if you have several network card.
+* inetd    A super daemon for managing other services (using configurations from /etc/inetd.conf)
+* linux-restricted-modules-common    Support of restricted system module.
+* lvm    Logical volume management
+* makedev    Creating device files. Very import.
+* mdamd    Management of disk array.
+* module-init-tools    Load modules from /etc/modules. Recommended to enable.
+* networking    Networking support (using configurations from /etc/network/interfaces). Very important.
+* ntpdate    Synchronization of time. Recommended to disable.
+* pcmcia    Support of pcmcia device.
+* powernowd    Advanced power management of mobile CPU.
+* ppp    Management of dial-up connections.
+* ppp-dns    DNS service for dial-up connections.
+* readahead    Read library files before they are used.
+* reboot    Rebooting system.
+* resolvconf    Automatic configuring DNS.
+* rmnologin    Remove nologin.
+* rsync    Rsync daemon.
+* sendsigs    Send signals to processess during reboot and shutdown.
+* single    Switch to single user mode.
+* sshd    SSH server daemon.
+* sudo    Check sudo status.
+* udev    Userspace dev file system. Important.
+* umountfs    Umounting file system.
+* urandom    Random number generator.
+* usplash    Offer an animation during startup.
+* vbesave    Tools for configuration of video cards in BIOS.
+* xorg-common    Set ICE socket for X service.
+* adjtimex    Adjust kernel clock.
+* dirmngr     Tools for managing certificate list.
+* hwtools    IRQs optimization.
+* libpam-devperm     Fix device file after system crashes.
+* lm-sensors    Support of onboard sensors.
+* mdadm-raid    RAID manager.
+* screen-cleanup    A script for clearing screen during startup.
+* xinetd    Super daemon for managing other services.
 
 Note: /lib/linux-restricted-modules/ is used to store restricted modules such as closed source drivers. If you do not use any of these modules, please do not enable linux-restricted-modules-common service.
 
 ## Service management
 
-###chkconfig
+### chkconfig
 
 chkconfig is a command line tool for enabling and disabling system services.
 
@@ -167,7 +167,7 @@ Syntax:
 
         chkconfig [--add][--del][--list][Service]
         chkconfig [--level<Level>][Service][on/off/reset]
-        
+
 Options:
 
         --add    Add the specified system service
@@ -211,7 +211,7 @@ Use `service` to start, stop, restart and show status of system services.
 Syntax:
 
     service Service Command [Options]
-        
+
 Options:
 
         Service    Name of the service to deal with; the name should be found in directory /etc/init.d/
@@ -227,7 +227,6 @@ Example:
          sudo service httpd start ## Start service httpd
 
          sudo service httpd restart ## Restart service httpd
-
 
 ## Reference
 

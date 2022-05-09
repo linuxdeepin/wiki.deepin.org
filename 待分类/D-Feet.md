@@ -24,8 +24,6 @@ D-Feet是一个易于使用D-bus调试器，D-Feet用来检查D-bus接口的运�
 
 [http://packages.deepin.com/deepin/pool/main/d/d-feet/](http://packages.deepin.com/deepin/pool/main/d/d-feet/)
 
-
 ## 常见问题
-
 
 ## 相关链接

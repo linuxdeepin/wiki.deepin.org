@@ -41,7 +41,6 @@ sudo apt install bumblebee bumblebee-nvidia
 optirun -b none nvidia-settings -c :8
 ```
 
-
 ## 安装cuda和cudnn
 
 安装cuda：

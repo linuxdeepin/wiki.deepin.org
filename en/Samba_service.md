@@ -35,7 +35,6 @@ Samba can establishes network sharing for specified Unix directory (and all its 
 - Smb4K: SMB/CIFS Share Browser for KDE
 - Smbldap-Tools: Management tool of user and group.
 
-
 ## Installing samba
 
 First we need to install samba service and start it. Execute in terminal:
@@ -79,7 +78,6 @@ Then open another machine in the LAN, a computer running Windows for example, th
 where "xxx.xxx.xxx.xxx" is the IP address you get from our machine. If you can see files shared from our machine, then the Samba service has already been started.
 
 You may also access shared files in a system inside a virtual machine, but be sure that the network mode is in LAN mode.
-
 
 ## References
 

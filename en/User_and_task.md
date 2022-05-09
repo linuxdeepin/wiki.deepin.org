@@ -43,7 +43,7 @@ It is worth noting that multi-user and multi task and not at the same time, ever
 
 Multi-user system is in fact more safe and convenient for system management.
 
-In aspect of user, file permission can be applied to certain files, so that they can only be accessed by its owner. Thus the information of every user is protected. 
+In aspect of user, file permission can be applied to certain files, so that they can only be accessed by its owner. Thus the information of every user is protected.
 
 In aspect of server administrator, Linux, as well as other Unix-like system, is also more secure than Windows.
 
@@ -86,7 +86,7 @@ Example:
     hello tty6 - 11:12am
     marry pts/1 :0 02:40pm
 
-The output of "who" is quite similar to "w". If you would like to more about these user, append options like -H (header line), -I (idle time) or -T (whether this user accepts messages from other user). 
+The output of "who" is quite similar to "w". If you would like to more about these user, append options like -H (header line), -I (idle time) or -T (whether this user accepts messages from other user).
 
 If  a user accepts message from other user, a "+" is displayed in "MESG" field. You can use `mesg` command to send him / her a message.
 
