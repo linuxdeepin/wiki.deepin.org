@@ -2,7 +2,7 @@
 title: deb-package-rules
 description: 
 published: true
-date: 2022-05-07T13:43:21.800Z
+date: 2022-05-07T13:43:24.626Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-27T08:32:57.146Z

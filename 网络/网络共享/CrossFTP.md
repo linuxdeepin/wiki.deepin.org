@@ -2,7 +2,7 @@
 title: CrossFTP
 description: 
 published: true
-date: 2022-05-08T14:02:56.690Z
+date: 2022-05-08T14:02:58.689Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T14:02:56.690Z

@@ -2,7 +2,7 @@
 title: Linux标准规范
 description: 
 published: true
-date: 2022-05-08T14:00:20.256Z
+date: 2022-05-08T14:00:22.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:36.012Z

@@ -2,7 +2,7 @@
 title: Apt-mark
 description: 
 published: true
-date: 2022-05-08T07:58:08.011Z
+date: 2022-05-08T07:58:09.996Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:04.106Z

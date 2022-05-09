@@ -1,8 +1,8 @@
 ---
-title: WxMaxima
+title: 待分类/WxMaxima
 description: 
 published: true
-date: 2022-05-07T02:22:13.390Z
+date: 2022-05-07T07:48:30.436Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:00.978Z

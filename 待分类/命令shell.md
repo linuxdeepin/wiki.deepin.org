@@ -1,8 +1,8 @@
 ---
-title: 命令shell
+title: 待分类/命令shell
 description: 
 published: true
-date: 2022-05-07T02:23:34.842Z
+date: 2022-05-07T07:49:27.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:47:05.705Z
