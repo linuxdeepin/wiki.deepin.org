@@ -2,22 +2,25 @@
 title: 待分类/Deepin用Create_ap建热点辅助脚本21
 description: 
 published: true
-date: 2022-05-07T07:47:22.130Z
+date: 2022-05-11T15:29:49.625Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:41.541Z
 ---
 
 ## 简介
+
 本经验由深度论坛用户(comzhong)分享，[原地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=132223&extra=)
+
 使用您的网卡建立虚拟wifi热点，让您不用路由器也能用WiFi，好东西必须收藏喔。
 
 ## 正文
+
 前面发过开热点的，写了个脚本，虽然比较简陋，算是勉强能用
 
 1. 创建一个txt文本，将如下代码复制到正文，然后把名称修改为“create_ap.sh”，右键——属性中勾选”允许以程序执行“
 
-```
+```bash
 #!/bin/bash
 temfile=tmp.txt
 
@@ -148,7 +151,7 @@ read -n 1
 ```
 
 2. 双击打开，选择“在终端中运行”
-
+ 
 3. 网络接口
 
 4. 网卡信息和驱动支持，查询驱动是否支持AP，有些网卡支持AP，但是某些驱动版本不支持，在终端中点击网址打开网站，查看驱动支持情况
@@ -157,9 +160,9 @@ read -n 1
 
 6. 在终端中使用命令开启和关闭AP。
 
-## 网络接口  和 网卡
+## 网络接口 和 网卡
 
-网络接口  和 网卡 不一样，网卡是物理硬件，网络接口是虚拟的，当然，大多数时候一个网络接口对应一个网卡。
+网络接口 和 网卡 不一样，网卡是物理硬件，网络接口是虚拟的，当然，大多数时候一个网络接口对应一个网卡。
 
 但是比如 宽带连接 就是一个虚拟网络接口，你用宽带连接上网，流量要走宽带连接这个网络接口才能访问互联网，VPN也是虚拟网络接口。
 
@@ -169,13 +172,13 @@ read -n 1
 
 **用了有线网络接口上网，却选择共享无线网络接口**
 
-刚开始 用的是
+刚开始 用的是 
 
 ```sudo create_ap wlp8s0b1 wlp8s0b1 Deepin_AP 123456789```
 
 Wan-->AP 是连接无线网开AP
 
-反复出现  错误
+反复出现 错误
 
 ```
 WARN: Your adapter does not fully support AP virtual interface, enabling --no-virt
@@ -183,7 +186,9 @@ ERROR: You can not share your connection from the same interface if you are usin
 ````
 
 以为是没装成功 各种百度
+
 后来才发现 是用错了命令
+
 应该用这个  
 
 ```
