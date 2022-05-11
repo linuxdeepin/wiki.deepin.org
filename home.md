@@ -2,7 +2,7 @@
 title: 首页
 description: 
 published: true
-date: 2022-05-11T07:00:04.585Z
+date: 2022-05-11T07:07:45.032Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T05:07:49.469Z
@@ -38,6 +38,7 @@ Deepin基于Qt技术开发了深度桌面环境和深度控制中心，并且开
 ## 如何贡献
 
 ### [参与搭建](/zh/关于Deepin/Deepin_Wiki/参与搭建)
+### [搭建小组](/zh/关于Deepin/Deepin_Wiki/搭建小组)
 ### [编辑帮助](/zh/关于Deepin/Deepin_Wiki/编辑帮助)
 
 
