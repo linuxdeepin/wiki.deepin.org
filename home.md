@@ -2,7 +2,7 @@
 title: 首页
 description: 
 published: true
-date: 2022-05-11T06:56:18.889Z
+date: 2022-05-11T06:59:39.255Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T05:07:49.469Z
@@ -34,9 +34,16 @@ Deepin基于Qt技术开发了深度桌面环境和深度控制中心，并且开
 
 ### 搜索
 
+
 ## 如何贡献
 
+### [参与搭建](/zh/关于Deepin/Deepin_Wiki/参与搭建)
+### [搭建小组](/zh/关于Deepin/Deepin_Wiki/搭建小组)
+### [编辑帮助](/zh/关于Deepin/Deepin_Wiki/编辑帮助)
+
+
 ## 鸣谢
+
 
 # 公司简介
 武汉深之度科技有限公司（以下简称深度科技）成立于 2011 年，是专注基于 Linux 的操作系统研发与服务的商业公司。
