@@ -2,7 +2,7 @@
 title: 搭建小组
 description: 
 published: true
-date: 2022-05-11T06:54:11.288Z
+date: 2022-05-11T07:03:23.223Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T06:41:48.172Z
@@ -30,5 +30,5 @@ dateCreated: 2022-05-11T06:41:48.172Z
 
 
  ## Designer组
--  进行主页内容的板块设计，在群内接收主页设计意见，与各位搭建者进行讨论。
+-  进行主页内容的板块设计，在小组群内接收主页设计意见，与各位搭建者进行讨论。
 
