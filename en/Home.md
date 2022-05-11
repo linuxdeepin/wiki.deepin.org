@@ -1,8 +1,8 @@
 ---
 title: Home
-description: Welcome to the Deepin wiki
+description: Official Documentation for Deepin Linux Distribution
 published: true
-date: 2022-05-11T10:54:00.186Z
+date: 2022-05-11T11:15:11.913Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
