@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin上使用惠普打印机
+title: Deepin上使用惠普打印机
 description: 
 published: true
 date: 2022-05-07T07:47:22.158Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/YEd_Graph_Editor
+title: YEd_Graph_Editor
 description: 
 published: true
 date: 2022-05-07T07:49:22.391Z

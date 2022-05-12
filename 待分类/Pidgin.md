@@ -1,5 +1,5 @@
 ---
-title: 待分类/Pidgin
+title: Pidgin
 description: 
 published: true
 date: 2022-05-07T07:48:25.027Z

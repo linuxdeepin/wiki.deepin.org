@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin_154_Windows_10_双系统安装教程
+title: Deepin_154_Windows_10_双系统安装教程
 description: 
 published: true
 date: 2022-05-07T07:47:22.056Z

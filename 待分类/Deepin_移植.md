@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin_移植
+title: Deepin_移植
 description: 
 published: true
 date: 2022-05-07T07:47:22.064Z

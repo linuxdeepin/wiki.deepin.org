@@ -1,5 +1,5 @@
 ---
-title: 待分类/安装Net_core
+title: 安装Net_core
 description: 
 published: true
 date: 2022-05-07T07:49:30.783Z

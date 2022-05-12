@@ -1,5 +1,5 @@
 ---
-title: 待分类/Scilab
+title: Scilab
 description: 
 published: true
 date: 2022-05-07T07:48:26.723Z

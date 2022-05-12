@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin_Terminal
+title: Deepin_Terminal
 description: 
 published: true
 date: 2022-05-07T07:47:22.059Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/如何在deepin上安装kali软件
+title: 如何在deepin上安装kali软件
 description: 
 published: true
 date: 2022-05-07T07:49:29.254Z

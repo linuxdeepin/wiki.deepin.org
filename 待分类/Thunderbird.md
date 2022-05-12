@@ -1,5 +1,5 @@
 ---
-title: 待分类/Thunderbird
+title: Thunderbird
 description: 
 published: true
 date: 2022-05-07T07:52:12.504Z

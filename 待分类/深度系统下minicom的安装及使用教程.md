@@ -1,5 +1,5 @@
 ---
-title: 待分类/深度系统下minicom的安装及使用教程
+title: 深度系统下minicom的安装及使用教程
 description: 
 published: true
 date: 2022-05-07T07:49:37.085Z

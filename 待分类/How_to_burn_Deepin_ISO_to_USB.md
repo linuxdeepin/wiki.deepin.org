@@ -1,5 +1,5 @@
 ---
-title: 待分类/How_to_burn_Deepin_ISO_to_USB
+title: How_to_burn_Deepin_ISO_to_USB
 description: 
 published: true
 date: 2022-05-07T07:47:22.515Z

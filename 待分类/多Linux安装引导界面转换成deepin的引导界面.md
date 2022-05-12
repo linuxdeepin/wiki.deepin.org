@@ -1,5 +1,5 @@
 ---
-title: 待分类/多Linux安装引导界面转换成deepin的引导界面
+title: 多Linux安装引导界面转换成deepin的引导界面
 description: 
 published: true
 date: 2022-05-07T07:49:29.058Z

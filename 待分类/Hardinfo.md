@@ -1,5 +1,5 @@
 ---
-title: 待分类/Hardinfo
+title: Hardinfo
 description: 
 published: true
 date: 2022-05-07T07:47:22.463Z

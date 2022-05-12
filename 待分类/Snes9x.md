@@ -1,5 +1,5 @@
 ---
-title: 待分类/Snes9x
+title: Snes9x
 description: 
 published: true
 date: 2022-05-07T07:48:26.988Z

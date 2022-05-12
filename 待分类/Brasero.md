@@ -1,5 +1,5 @@
 ---
-title: 待分类/Brasero
+title: Brasero
 description: 
 published: true
 date: 2022-05-07T07:47:19.730Z

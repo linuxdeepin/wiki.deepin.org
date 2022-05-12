@@ -1,5 +1,5 @@
 ---
-title: 待分类/笔记本双显卡安装过程(I卡_N卡)
+title: 笔记本双显卡安装过程(I卡_N卡)
 description: 
 published: true
 date: 2022-05-07T07:49:38.296Z

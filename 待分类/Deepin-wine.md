@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin-wine
+title: Deepin-wine
 description: 
 published: true
 date: 2022-05-07T07:47:22.065Z

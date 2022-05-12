@@ -1,5 +1,5 @@
 ---
-title: 待分类/System_startup_process
+title: System_startup_process
 description: 
 published: true
 date: 2022-05-07T07:52:12.162Z

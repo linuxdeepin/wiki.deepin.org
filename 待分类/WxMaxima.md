@@ -1,5 +1,5 @@
 ---
-title: 待分类/WxMaxima
+title: WxMaxima
 description: 
 published: true
 date: 2022-05-07T07:48:30.436Z

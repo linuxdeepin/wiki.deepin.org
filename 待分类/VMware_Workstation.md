@@ -1,5 +1,5 @@
 ---
-title: 待分类/VMware_Workstation
+title: VMware_Workstation
 description: 
 published: true
 date: 2022-05-07T07:48:30.345Z

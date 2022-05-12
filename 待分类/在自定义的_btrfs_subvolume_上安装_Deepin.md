@@ -1,5 +1,5 @@
 ---
-title: 待分类/在自定义的_btrfs_subvolume_上安装_Deepin
+title: 在自定义的_btrfs_subvolume_上安装_Deepin
 description: 
 published: true
 date: 2022-05-07T07:49:28.217Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/安装virtualbox增强功能全屏化显示
+title: 安装virtualbox增强功能全屏化显示
 description: 
 published: true
 date: 2022-05-07T07:49:30.808Z

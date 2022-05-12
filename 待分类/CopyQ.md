@@ -1,5 +1,5 @@
 ---
-title: 待分类/CopyQ
+title: CopyQ
 description: 
 published: true
 date: 2022-05-07T07:47:21.489Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/Stunt_Rally
+title: Stunt_Rally
 description: 
 published: true
 date: 2022-05-07T07:48:27.944Z

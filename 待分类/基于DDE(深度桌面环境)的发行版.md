@@ -1,5 +1,5 @@
 ---
-title: 待分类/基于DDE(深度桌面环境)的发行版
+title: 基于DDE(深度桌面环境)的发行版
 description: 
 published: true
 date: 2022-05-07T07:49:28.218Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/Notepadqq
+title: Notepadqq
 description: 
 published: true
 date: 2022-05-07T07:49:45.272Z

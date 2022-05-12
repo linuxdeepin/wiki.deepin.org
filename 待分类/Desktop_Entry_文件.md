@@ -1,5 +1,5 @@
 ---
-title: 待分类/Desktop_Entry_文件
+title: Desktop_Entry_文件
 description: 
 published: true
 date: 2022-05-07T07:47:22.189Z

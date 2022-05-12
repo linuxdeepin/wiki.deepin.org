@@ -1,5 +1,5 @@
 ---
-title: 待分类/DEEPIN_桌面系统安装概述
+title: DEEPIN_桌面系统安装概述
 description: 
 published: true
 date: 2022-05-07T07:47:22.063Z

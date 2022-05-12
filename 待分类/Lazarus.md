@@ -1,5 +1,5 @@
 ---
-title: 待分类/Lazarus
+title: Lazarus
 description: 
 published: true
 date: 2022-05-07T07:48:16.075Z

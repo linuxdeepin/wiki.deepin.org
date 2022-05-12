@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin_Movie
+title: Deepin_Movie
 description: 
 published: true
 date: 2022-05-07T07:47:22.058Z

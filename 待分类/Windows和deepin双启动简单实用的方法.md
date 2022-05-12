@@ -1,5 +1,5 @@
 ---
-title: 待分类/Windows和deepin双启动简单实用的方法
+title: Windows和deepin双启动简单实用的方法
 description: 
 published: true
 date: 2022-05-07T07:48:30.435Z

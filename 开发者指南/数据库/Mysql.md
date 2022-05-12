@@ -1,5 +1,5 @@
 ---
-title: 待分类/Mysql
+title: Mysql
 description: 
 published: true
 date: 2022-05-07T07:48:24.136Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/GNU_Emacs
+title: GNU_Emacs
 description: 
 published: true
 date: 2022-05-07T07:47:22.383Z

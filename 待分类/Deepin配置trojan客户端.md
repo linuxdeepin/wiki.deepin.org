@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin配置trojan客户端
+title: Deepin配置trojan客户端
 description: 
 published: true
 date: 2022-05-07T07:47:22.188Z

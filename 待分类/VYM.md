@@ -1,5 +1,5 @@
 ---
-title: 待分类/VYM
+title: VYM
 description: 
 published: true
 date: 2022-05-07T07:48:29.726Z

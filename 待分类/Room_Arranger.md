@@ -1,5 +1,5 @@
 ---
-title: 待分类/Room_Arranger
+title: Room_Arranger
 description: 
 published: true
 date: 2022-05-07T07:48:26.583Z

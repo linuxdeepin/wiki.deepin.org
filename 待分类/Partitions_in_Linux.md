@@ -1,5 +1,5 @@
 ---
-title: 待分类/Partitions_in_Linux
+title: Partitions_in_Linux
 description: 
 published: true
 date: 2022-05-07T07:48:25.024Z

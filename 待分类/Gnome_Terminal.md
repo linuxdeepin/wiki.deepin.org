@@ -1,5 +1,5 @@
 ---
-title: 待分类/Gnome_Terminal
+title: Gnome_Terminal
 description: 
 published: true
 date: 2022-05-07T07:47:22.355Z

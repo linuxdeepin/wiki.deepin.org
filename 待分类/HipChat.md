@@ -1,5 +1,5 @@
 ---
-title: 待分类/HipChat
+title: HipChat
 description: 
 published: true
 date: 2022-05-07T07:47:22.465Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/Open_Broadcaster_Software
+title: Open_Broadcaster_Software
 description: 
 published: true
 date: 2022-05-07T07:49:45.272Z

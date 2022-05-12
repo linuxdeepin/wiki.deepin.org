@@ -1,5 +1,5 @@
 ---
-title: 待分类/Video_card
+title: Video_card
 description: 
 published: true
 date: 2022-05-07T07:48:27.942Z

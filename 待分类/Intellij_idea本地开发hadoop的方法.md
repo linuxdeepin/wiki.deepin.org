@@ -1,5 +1,5 @@
 ---
-title: 待分类/Intellij_idea本地开发hadoop的方法
+title: Intellij_idea本地开发hadoop的方法
 description: 
 published: true
 date: 2022-05-07T07:47:22.598Z

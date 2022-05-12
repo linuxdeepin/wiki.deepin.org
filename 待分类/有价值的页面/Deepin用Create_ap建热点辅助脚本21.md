@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin用Create_ap建热点辅助脚本21
+title: Deepin用Create_ap建热点辅助脚本21
 description: 
 published: true
 date: 2022-05-11T15:29:49.625Z

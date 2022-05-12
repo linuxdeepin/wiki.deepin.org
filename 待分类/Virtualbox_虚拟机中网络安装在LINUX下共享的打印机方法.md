@@ -1,5 +1,5 @@
 ---
-title: 待分类/Virtualbox_虚拟机中网络安装在LINUX下共享的打印机方法
+title: Virtualbox_虚拟机中网络安装在LINUX下共享的打印机方法
 description: 
 published: true
 date: 2022-05-07T07:48:28.372Z

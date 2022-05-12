@@ -1,5 +1,5 @@
 ---
-title: 待分类/Gconf_Editor
+title: Gconf_Editor
 description: 
 published: true
 date: 2022-05-07T07:47:22.281Z

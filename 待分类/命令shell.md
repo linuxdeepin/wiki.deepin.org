@@ -1,5 +1,5 @@
 ---
-title: 待分类/命令shell
+title: 命令shell
 description: 
 published: true
 date: 2022-05-07T07:49:27.977Z

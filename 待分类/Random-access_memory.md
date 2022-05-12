@@ -1,5 +1,5 @@
 ---
-title: 待分类/Random-access_memory
+title: Random-access_memory
 description: 
 published: true
 date: 2022-05-07T07:48:26.094Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/Repair_Boot
+title: Repair_Boot
 description: 
 published: true
 date: 2022-05-07T07:48:26.725Z

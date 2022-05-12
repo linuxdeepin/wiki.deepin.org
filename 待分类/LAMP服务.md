@@ -1,5 +1,5 @@
 ---
-title: 待分类/LAMP服务
+title: LAMP服务
 description: 
 published: true
 date: 2022-05-07T07:48:16.060Z

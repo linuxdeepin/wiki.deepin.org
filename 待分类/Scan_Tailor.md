@@ -1,5 +1,5 @@
 ---
-title: 待分类/Scan_Tailor
+title: Scan_Tailor
 description: 
 published: true
 date: 2022-05-07T07:48:26.618Z

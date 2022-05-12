@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin1541安装Caffe
+title: Deepin1541安装Caffe
 description: 
 published: true
 date: 2022-05-07T07:47:22.069Z

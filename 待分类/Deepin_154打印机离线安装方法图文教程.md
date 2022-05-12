@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin_154打印机离线安装方法图文教程
+title: Deepin_154打印机离线安装方法图文教程
 description: 
 published: true
 date: 2022-05-07T07:47:21.819Z

@@ -1,5 +1,5 @@
 ---
-title: 待分类/Stellarium
+title: Stellarium
 description: 
 published: true
 date: 2022-05-07T07:48:27.279Z

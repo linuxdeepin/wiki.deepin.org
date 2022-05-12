@@ -1,5 +1,5 @@
 ---
-title: 待分类/Yakuake
+title: Yakuake
 description: 
 published: true
 date: 2022-05-07T07:49:21.153Z

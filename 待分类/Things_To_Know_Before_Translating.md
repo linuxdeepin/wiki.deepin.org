@@ -1,5 +1,5 @@
 ---
-title: 待分类/Things_To_Know_Before_Translating
+title: Things_To_Know_Before_Translating
 description: 
 published: true
 date: 2022-05-07T07:52:12.332Z

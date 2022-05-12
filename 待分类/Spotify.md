@@ -1,5 +1,5 @@
 ---
-title: 待分类/Spotify
+title: Spotify
 description: 
 published: true
 date: 2022-05-07T07:48:27.263Z

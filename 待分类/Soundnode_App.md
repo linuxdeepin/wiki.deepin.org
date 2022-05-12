@@ -1,5 +1,5 @@
 ---
-title: 待分类/Soundnode_App
+title: Soundnode_App
 description: 
 published: true
 date: 2022-05-07T07:48:27.262Z

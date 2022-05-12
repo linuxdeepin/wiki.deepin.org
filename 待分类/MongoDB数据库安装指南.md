@@ -1,5 +1,5 @@
 ---
-title: 待分类/MongoDB数据库安装指南
+title: MongoDB数据库安装指南
 description: 
 published: true
 date: 2022-05-07T07:48:24.012Z

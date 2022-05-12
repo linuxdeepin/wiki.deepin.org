@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin系统管理
+title: Deepin系统管理
 description: 
 published: true
 date: 2022-05-07T07:47:22.131Z

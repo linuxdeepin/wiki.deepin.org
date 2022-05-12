@@ -1,5 +1,5 @@
 ---
-title: 待分类/Deepin_安装oracle12c过程
+title: Deepin_安装oracle12c过程
 description: 
 published: true
 date: 2022-05-11T15:44:40.022Z
