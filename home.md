@@ -2,7 +2,7 @@
 title: 首页
 description: 
 published: true
-date: 2022-05-12T07:03:20.525Z
+date: 2022-05-12T07:24:03.524Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T05:07:49.469Z
@@ -32,7 +32,7 @@ Deepin基于Qt技术开发了深度桌面环境和深度控制中心，并且开
 
 ## 如何使用
 
--   ### 分类结构
+-   ### 查看
     
 -   ### 搜索
     
