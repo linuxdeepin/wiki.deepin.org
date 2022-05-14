@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:28:40.058Z
+date: 2022-05-14T14:33:41.224Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -45,9 +45,16 @@ https://txt2tags.org/ || txt2tags
 
 #### AsciiDoc
 
+AsciiDoc — 原始实现，用 Python 编写。
+https://asciidoc.org/ || asciidoc
 
+Asciidoctor — 用 Ruby 编写的实现，具有许多额外的功能。
+https://asciidoctor.org/ || asciidoctor
 
 #### Markdown
+
+
+
 #### Typesetting systems
 #### TeX editors
 #### TeX formula editors
