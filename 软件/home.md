@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:20:25.145Z
+date: 2022-05-14T14:22:21.289Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -14,6 +14,24 @@ dateCreated: 2022-05-14T13:59:42.139Z
 ## 办公软件
 
 ### 办公软件套装
+
+Calligra — KDE 办公软件套装，即 KOffice 的活跃分支。它提供了 OpenOffice 大多功能，又有智能手机和平板的版本。
+https://www.calligra-suite.org/ || calligra
+
+Kingsoft Office — 专有，又名 WPS.
+http://www.kingsoftstore.com/ || wps-office
+
+LibreOffice — OpenOffice 的超活跃分支之一。
+https://www.libreoffice.org/ || libreoffice-still 或 libreoffice-fresh
+
+OpenOffice — 开源的办公软件，集成了字处理，表格，幻灯片，图像，数据库以及更多的软件，采用 Apache 许可证。
+https://www.openoffice.org/ || openoffice
+
+Siag Office — 极度轻量，有字处理、表格、文本编辑器、文件管理器和预览器。
+https://siag.nu/ || siag-office
+
+SoftMaker Office — 完全，稳定，轻快，兼容微软办公格式，有字处理，表格，幻灯片。
+https://www.freeoffice.com/ || freeoffice
 
 ### 标记语言文档
 #### AsciiDoc
