@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:22:21.289Z
+date: 2022-05-14T14:26:07.988Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -19,13 +19,13 @@ Calligra — KDE 办公软件套装，即 KOffice 的活跃分支。它提供了
 https://www.calligra-suite.org/ || calligra
 
 Kingsoft Office — 专有，又名 WPS.
-http://www.kingsoftstore.com/ || wps-office
+http://www.kingsoftstore.com/ || [wps-office](https://wiki.deepin.org/zh/%E8%BD%AF%E4%BB%B6/%E5%8A%9E%E5%85%AC/Office%E4%B8%89%E4%BB%B6%E5%A5%97/WPS_Office)
 
 LibreOffice — OpenOffice 的超活跃分支之一。
-https://www.libreoffice.org/ || libreoffice-still 或 libreoffice-fresh
+https://www.libreoffice.org/ || [libreoffice](https://wiki.deepin.org/zh/%E8%BD%AF%E4%BB%B6/%E5%8A%9E%E5%85%AC/Office%E4%B8%89%E4%BB%B6%E5%A5%97/LibreOffice)
 
 OpenOffice — 开源的办公软件，集成了字处理，表格，幻灯片，图像，数据库以及更多的软件，采用 Apache 许可证。
-https://www.openoffice.org/ || openoffice
+https://www.openoffice.org/ || [openoffice](https://wiki.deepin.org/zh/%E8%BD%AF%E4%BB%B6/%E5%8A%9E%E5%85%AC/Office%E4%B8%89%E4%BB%B6%E5%A5%97/OpenOffice)
 
 Siag Office — 极度轻量，有字处理、表格、文本编辑器、文件管理器和预览器。
 https://siag.nu/ || siag-office
