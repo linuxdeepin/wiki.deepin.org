@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:26:07.988Z
+date: 2022-05-14T14:28:40.058Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -34,7 +34,19 @@ SoftMaker Office — 完全，稳定，轻快，兼容微软办公格式，有�
 https://www.freeoffice.com/ || freeoffice
 
 ### 标记语言文档
+
+[什么是标记语言](https://baike.baidu.com/item/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/5964436)
+
+Sphinx — 使用 reStructuredText 生成多种格式的输出的文档生成系统（Python 项目的主要文档系统）。
+https://www.sphinx-doc.org/ || Sphinx
+
+txt2tags — 非常简单、符合 KISS 标准的轻量级、人类可读的标记语言，可从纯文本文件中生成丰富的格式内容。
+https://txt2tags.org/ || txt2tags
+
 #### AsciiDoc
+
+
+
 #### Markdown
 #### Typesetting systems
 #### TeX editors
