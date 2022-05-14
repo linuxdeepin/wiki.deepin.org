@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:33:41.224Z
+date: 2022-05-14T14:35:22.185Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -53,7 +53,16 @@ https://asciidoctor.org/ || asciidoctor
 
 #### Markdown
 
+Discount — 用 C 编写的 Markdown 实现。
+https://www.pell.portland.or.us/~orc/Code/discount/ || Discount
 
+lowdown — 以 ms 和 man 格式生成 HTML5 和 roff 文档的 Markdown 解释器。
+https://kristaps.bsd.lv/lowdown/ || lowdown
+
+Marked — 为提高速度而构建的 Markdown 解析器和编译器。
+https://marked.js.org/ || Marked
+
+Pandoc 也支持 Markdown。
 
 #### Typesetting systems
 #### TeX editors
