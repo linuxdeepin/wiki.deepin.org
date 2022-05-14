@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:38:31.624Z
+date: 2022-05-14T14:38:46.709Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -74,7 +74,7 @@ https://fabiocolacio.github.io/Marker/ || Marker
 Mark My Words - 最小的降价编辑器。
 https://github.com/voldyman/MarkMyWords || markmywords
 
-Mark Text - 下一代 lowmark 编辑器。基于 Electron 平台。
+Mark Text - 下一代 Markdown 编辑器。基于 Electron 平台。
 https://marktext.app/ ||标记文本AUR
 Moeditor——你的万能降价编辑器。基于 Electron 平台。自 2016 年起停产。
 https://moeditor.js.org/ || moeditor-binAUR[损坏的链接：package not found]
