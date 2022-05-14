@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:42:08.554Z
+date: 2022-05-14T14:45:19.802Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -95,6 +95,47 @@ Pandoc 也支持 Markdown。
 
 撰写各种科学文档、文章、期刊一般会使用 TeX、LaTeX。
 
+AUCTeX — AUCTeX 与 RefTex 一起为在 Emacs 中编写和格式化 TeX 文件提供了一个可扩展的环境。
+https://www.gnu.org/software/auctex/ || auctex
+
+gedit LaTeX 插件 - 向 gedit 添加代码完成功能，并允许编译 LaTeX 文档和管理 BibTeX 参考书目。
+https://wiki.gnome.org/Apps/Gedit/LaTeXPlugin || gedit-latex
+
+GNOME LaTeX — GNOME 桌面的 LaTeX 编辑器，包括对代码完成、编译和项目管理的支持。
+https://wiki.gnome.org/Apps/GNOME-LaTeX || GNOME LaTeX
+
+Gummi - 基于 TeX/LaTeX GTK 的轻量级编辑器。它具有连续预览模式、集成的 BibTeX 支持、可扩展的片段界面和多文档支持。
+https://github.com/alexandervdm/gummi/ || Gummi 
+
+Kile — 用于 KDE 桌面的用户友好的 TeX/LaTeX 编辑器，具有许多功能。
+https://kile.sourceforge.io/ || Kile
+
+Ktikz — 帮助您为出版物创建 PGF/TikZ 图表的小型应用程序。
+http://www.hackenberger.at/blog/ktikz-editor-for-the-tikz-language/ || ktikz
+
+LyX - 文档处理器，它鼓励基于文档结构 (WYSIWYM) 而不仅仅是外观 (WYSIWYG) 的写作方法。
+https://www.lyx.org/ || lyx
+
+Setzer — 用 Python 和 GTK 编写的 LaTeX 编辑器。
+https://www.cvfosammmm.org/setzer/ || setzer
+
+TeXmacs — 所见即所得（所见即所得）编辑平台，具有科学家的特殊功能。
+https://www.texmacs.org/ || texmacsAUR
+
+Texmaker — 跨平台、轻量且易于使用的 LaTeX IDE。它在一个应用程序中集成了许多使用 LaTeX 开发文档所需的工具
+https://www.xm1math.net/texmaker/ || Texmaker
+
+TeXstudio — TeXMaker 的分支，包括支持 bibtex 项目的代码完成、语法检查和自动检测是否需要多次运行 LaTeX。
+http://texstudio.sourceforge.net/ || TeXstudio
+
+TeXworks — 以 TeXShop 为模型的简单 TeX 前端程序。
+https://tug.org/texworks/ || TeXworks
+
+TikZiT — 使用 PGF/TikZ 快速创建图形和图表的图形工具。
+https://tikzit.github.io/ || TikZiT
+
+Vim-LaTeX-suite — Vim 的可定制 LaTeX 环境。
+http://vim-latex.sourceforge.net/ || vim-latexsuite
 
 #### XML editors
 
