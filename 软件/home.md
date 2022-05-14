@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:40:41.765Z
+date: 2022-05-14T14:42:08.554Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -92,6 +92,9 @@ https://typora.io/ || Typora
 Pandoc 也支持 Markdown。
 
 #### TeX editors
+
+撰写各种科学文档、文章、期刊一般会使用 TeX、LaTeX。
+
 
 #### XML editors
 
