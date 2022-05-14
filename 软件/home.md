@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:37:18.961Z
+date: 2022-05-14T14:38:31.624Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -63,14 +63,18 @@ CuteMarkEd — 基于 Qt 的 Markdown 编辑器，具有实时 HTML 预览、数
 https://close.github.io/CuteMarkEd/ || CuteMarkEd
 
 Formiko — reStructuredText 和 Markdown 编辑器以及使用 GTK 用 Python 编写的实时预览器。
-https://github.com/ondratu/formiko || formikoAUR
+https://github.com/ondratu/formiko || formiko
+
 ghostwriter - 无干扰的 Markdown 编辑器。
-https://wereturtle.github.io/ghostwriter/ ||代笔人
+https://wereturtle.github.io/ghostwriter/ || ghostwriter
+
 Marker - 简单而强大的 Markdown 编辑器。
-https://fabiocolacio.github.io/Marker/ ||标记
+https://fabiocolacio.github.io/Marker/ || Marker
+
 Mark My Words - 最小的降价编辑器。
-https://github.com/voldyman/MarkMyWords || markmywordsAUR
-Mark Text - 下一代降价编辑器。基于 Electron 平台。
+https://github.com/voldyman/MarkMyWords || markmywords
+
+Mark Text - 下一代 lowmark 编辑器。基于 Electron 平台。
 https://marktext.app/ ||标记文本AUR
 Moeditor——你的万能降价编辑器。基于 Electron 平台。自 2016 年起停产。
 https://moeditor.js.org/ || moeditor-binAUR[损坏的链接：package not found]
@@ -82,15 +86,6 @@ ThiefMD — 受 Ulysses 启发的 Markdown 和 Fountain 编辑器。
 https://thiefmd.com/ ||盗贼AUR
 Typora - 专有的极简 Markdown 编辑器。
 https://typora.io/ || TyporaAUR
-
-Discount — 用 C 编写的 Markdown 实现。
-https://www.pell.portland.or.us/~orc/Code/discount/ || Discount
-
-lowdown — 以 ms 和 man 格式生成 HTML5 和 roff 文档的 Markdown 解释器。
-https://kristaps.bsd.lv/lowdown/ || lowdown
-
-Marked — 为提高速度而构建的 Markdown 解析器和编译器。
-https://marked.js.org/ || Marked
 
 Pandoc 也支持 Markdown。
 
