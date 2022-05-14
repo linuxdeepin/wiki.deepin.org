@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:35:22.185Z
+date: 2022-05-14T14:37:18.961Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -52,6 +52,36 @@ Asciidoctor — 用 Ruby 编写的实现，具有许多额外的功能。
 https://asciidoctor.org/ || asciidoctor
 
 #### Markdown
+
+Abricotine — 为桌面构建的 Markdown 编辑器。基于 Electron 平台。
+https://abricotine.brrd.fr/ || Abricotine 
+
+Apostrophe - 使用 GTK 制作的无干扰 Markdown 编辑器。
+https://gitlab.gnome.org/World/apostrophe ||Apostrophe
+
+CuteMarkEd — 基于 Qt 的 Markdown 编辑器，具有实时 HTML 预览、数学表达式、代码和 Markdown 语法突出显示。自 2016 年起停产。
+https://close.github.io/CuteMarkEd/ || CuteMarkEd
+
+Formiko — reStructuredText 和 Markdown 编辑器以及使用 GTK 用 Python 编写的实时预览器。
+https://github.com/ondratu/formiko || formikoAUR
+ghostwriter - 无干扰的 Markdown 编辑器。
+https://wereturtle.github.io/ghostwriter/ ||代笔人
+Marker - 简单而强大的 Markdown 编辑器。
+https://fabiocolacio.github.io/Marker/ ||标记
+Mark My Words - 最小的降价编辑器。
+https://github.com/voldyman/MarkMyWords || markmywordsAUR
+Mark Text - 下一代降价编辑器。基于 Electron 平台。
+https://marktext.app/ ||标记文本AUR
+Moeditor——你的万能降价编辑器。基于 Electron 平台。自 2016 年起停产。
+https://moeditor.js.org/ || moeditor-binAUR[损坏的链接：package not found]
+Remarkable - 功能齐全的 Markdown 编辑器。
+https://remarkableapp.github.io/ ||非凡的AUR
+ReText — Markdown 和 reStructuredText 的简单文本编辑器。
+https://github.com/retext-project/retext ||重新文本
+ThiefMD — 受 Ulysses 启发的 Markdown 和 Fountain 编辑器。
+https://thiefmd.com/ ||盗贼AUR
+Typora - 专有的极简 Markdown 编辑器。
+https://typora.io/ || TyporaAUR
 
 Discount — 用 C 编写的 Markdown 实现。
 https://www.pell.portland.or.us/~orc/Code/discount/ || Discount
