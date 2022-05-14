@@ -1,8 +1,8 @@
 ---
-title: 软件/影音播放/Blender
+title: Blender
 description: 
 published: true
-date: 2022-05-07T06:47:45.452Z
+date: 2022-05-14T03:03:48.369Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:53.482Z
