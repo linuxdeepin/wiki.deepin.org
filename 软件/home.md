@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:39:36.549Z
+date: 2022-05-14T14:39:56.667Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -84,9 +84,10 @@ ReText — Markdown 和 reStructuredText 的简单文本编辑器。
 https://github.com/retext-project/retext || ReText
 
 ThiefMD — 受 Ulysses 启发的 Markdown 和 Fountain 编辑器。
-https://thiefmd.com/ ||盗贼AUR
+https://thiefmd.com/ || ThiefMD 
+
 Typora - 专有的极简 Markdown 编辑器。
-https://typora.io/ || TyporaAUR
+https://typora.io/ || Typora
 
 Pandoc 也支持 Markdown。
 
