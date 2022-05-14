@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:39:24.967Z
+date: 2022-05-14T14:39:36.549Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -71,7 +71,7 @@ https://wereturtle.github.io/ghostwriter/ || ghostwriter
 Marker - 简单而强大的 Markdown 编辑器。
 https://fabiocolacio.github.io/Marker/ || Marker
 
-Mark My Words - 最小的降价编辑器。
+Mark My Words - 最小的 Markdown 编辑器。
 https://github.com/voldyman/MarkMyWords || markmywords
 
 Mark Text - 下一代 Markdown 编辑器。基于 Electron 平台。
