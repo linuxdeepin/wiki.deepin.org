@@ -1,8 +1,8 @@
 ---
-title: Modify_keyboard_mapping
+title: Hardware/Modify_keyboard_mapping
 description: 
 published: true
-date: 2022-05-07T02:30:11.783Z
+date: 2022-05-13T07:55:08.957Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:12.333Z
