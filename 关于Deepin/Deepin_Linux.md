@@ -1,15 +1,15 @@
 ---
-title: Deepin Linux
+title: deepin 简介
 description: 
 published: true
-date: 2022-05-15T01:46:29.286Z
+date: 2022-05-15T01:48:06.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:06:20.611Z
 ---
 
 
-## Deepin Linux
+## 公司简介
 
 武汉深之度科技有限公司（简称：深度科技）成立于2011年，是专注基于Linux的操作系统研发与服务的商业公司。
 
