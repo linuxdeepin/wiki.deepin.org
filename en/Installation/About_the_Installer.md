@@ -2,7 +2,7 @@
 title: About_the_Installer
 description: 
 published: true
-date: 2022-05-07T02:28:22.096Z
+date: 2022-05-15T02:11:06.661Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:53:55.712Z
