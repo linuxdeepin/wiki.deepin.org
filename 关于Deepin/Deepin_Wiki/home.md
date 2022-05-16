@@ -2,13 +2,13 @@
 title: Deepin Wiki
 description: 
 published: true
-date: 2022-05-16T07:00:22.141Z
+date: 2022-05-16T07:02:11.355Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-16T06:58:57.870Z
 ---
 
-
+## 搭建计划
 ### 重新起航
 此前，我们关注到已有大量社区用户自发进行协作，整理deepin相关资源、搭建非官方的社区wiki。
 衷心感谢你们的热情与长久陪伴！你们的所有努力，极大地帮助后来者用户最快上手deepin，帮助大量用户更好地使用deepin。
