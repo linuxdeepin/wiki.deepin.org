@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Deepin Linux Distribution
 published: true
-date: 2022-05-17T03:43:35.406Z
+date: 2022-05-17T03:44:39.398Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -48,7 +48,7 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 - [Beautify *wallpaper ,theme,icon fonts.*](/guide/user)
 - [Software *office ,terminal,content creation,game,tool.*](/Software/Deepin_Application_Management)
-- [Hardware *CPU ,GPU,RAM ,Disk ,Mother board,Storage,printers*](/guide/user)
+- [Hardware *CPU ,GPU,RAM ,Disk ,Mother board,Storage,printers*](/hardware)
 - [Frequently asked questions *How to deal with the problem of using Deepin linux.*](/guide/user)
 - [User Feedback *User Feedback.*](/guide/user)
 {.links-list}
