@@ -2,7 +2,7 @@
 title: File_permission
 description: 
 published: true
-date: 2022-05-07T02:29:37.095Z
+date: 2022-05-17T04:25:48.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:31.432Z
