@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Deepin Linux Distribution
 published: true
-date: 2022-05-15T02:20:00.036Z
+date: 2022-05-17T03:40:35.322Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -54,7 +54,7 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 {.links-list}
 
 # Administrator Guide
-- [File & Directory*File & Directory*](/guide/administrator)
+- [File & Directory*File & Directory*](/system_management/file_and_directory)
 - [User & Groups *User & Groups*](/guide/administrator)
 - [Storage Management *partition table and file system.*](/guide/administrator)
 - [Process Management *kill a process*](/guide/administrator)
