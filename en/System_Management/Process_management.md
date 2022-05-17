@@ -2,7 +2,7 @@
 title: Process_management
 description: 
 published: true
-date: 2022-05-07T02:30:40.895Z
+date: 2022-05-17T03:07:45.773Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:43.636Z
