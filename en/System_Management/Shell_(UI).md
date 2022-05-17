@@ -1,8 +1,8 @@
 ---
-title: System_Management/Shell_(UI)
+title: Shell_(UI)
 description: 
 published: true
-date: 2022-05-13T07:06:32.032Z
+date: 2022-05-17T04:25:10.752Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:57:14.150Z
