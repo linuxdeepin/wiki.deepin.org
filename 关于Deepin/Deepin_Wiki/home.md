@@ -2,7 +2,7 @@
 title: Deepin Wiki
 description: 
 published: true
-date: 2022-05-18T09:09:21.500Z
+date: 2022-05-18T09:17:59.913Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-16T06:58:57.870Z
@@ -39,10 +39,10 @@ dateCreated: 2022-05-16T06:58:57.870Z
 ![《编辑指南》.png](/《编辑指南》.png)
 
 ### 编辑方式
-**- 直接通过网站编辑**
+- 直接通过网站编辑
 wiki.deepin.org使用wikijs搭建，有着易用的界面和简单的操作逻辑，目前正在招募贡献者，加入贡献者小组，获取后台编辑权限。
 
-**- 通过git提交**
+- 通过git提交
 目前wikijs缺少批量操作的功能，如果您需要导入或移动多个内容，推荐使用git操作
 
 ### 编辑规则
