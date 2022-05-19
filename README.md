@@ -2,13 +2,12 @@
 title: README
 description: 
 published: true
-date: 2022-05-19T07:49:55.316Z
+date: 2022-05-19T07:50:02.783Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-17T03:49:13.961Z
 ---
 
-# DeepinWIKI
 
 ## 基本情况
 wiki.deepin.org是Deepin社区官方的百科网站，用于分享Deepin和Linux相关知识。
