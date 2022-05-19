@@ -1,13 +1,3 @@
----
-title: README
-description: 
-published: true
-date: 2022-05-19T10:02:42.653Z
-tags: 
-editor: markdown
-dateCreated: 2022-05-17T03:49:13.961Z
----
-
 
 ## Introduction
 wiki.deepin.org is Deepin community official wiki website for sharing the relevent technique of Deepin and Linux.
