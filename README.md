@@ -1,8 +1,19 @@
+---
+title: README
+description: 
+published: true
+date: 2022-05-19T03:09:49.107Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-17T03:49:13.961Z
+---
+
 # DeepinWIKI
 
-这是 wiki.deepin.org 的内容同步仓库。wiki.deepin.org是Deepin社区官方的百科网站，用于分享Deepin和Linux相关知识。
+## 基本情况
+wiki.deepin.org是Deepin社区官方的百科网站，用于分享Deepin和Linux相关知识。
 
-wiki.deepin.org 和 github.com/linuxdeepin/wiki.deepin.org 每五分钟执行一次**双向同步**。
+这是 wiki.deepin.org 的内容同步仓库。wiki.deepin.org 和 github.com/linuxdeepin/wiki.deepin.org 每五分钟执行一次**双向同步**。
 
 同步包括wiki页面内容、页面信息、发布状态和媒体资源，不包括页面的脚本和样式。
 
@@ -23,3 +34,5 @@ wiki.deepin.org 和 github.com/linuxdeepin/wiki.deepin.org 每五分钟执行一
 2. 通过git提交
 
     目前wikijs缺少批量操作的功能，如果您需要导入或移动多个内容，推荐使用git操作。
+
+## 编辑要求
