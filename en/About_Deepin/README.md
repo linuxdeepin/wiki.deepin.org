@@ -1,8 +1,8 @@
 ---
-title: Deepin_WIKI
+title: Deepin_Wiki
 description: 
 published: true
-date: 2022-05-20T07:32:40.798Z
+date: 2022-05-20T07:33:43.683Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-20T01:39:56.919Z
