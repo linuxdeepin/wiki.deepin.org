@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-20T11:01:38.388Z
+date: 2022-05-20T11:20:39.881Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -18,6 +18,13 @@ Please ensure that your computer meets the following requirements, otherwise you
 - CPU: Intel Pentium IV 2GHz or higher
 - Memory: more than 2G RAM, 4G or higher is recommended
 - Disk: more than 25 GB free disk space
+
+| **Component** |                 **Minimum Hardware Specifications**              |
+| :------------ | :--------------------------------------------------------------: |
+| Architecture  | AArch64 or x86_64                                                |
+| CPU           | Two CPUs                                                         |
+| Memory        | ≥ 4 GB (8 GB or higher recommended for better user experience)   |
+| Hard disk     | ≥ 32 GB (120 GB or higher recommended for better user experience)|
 
 Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
 
