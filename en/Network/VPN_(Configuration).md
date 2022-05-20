@@ -1,8 +1,8 @@
 ---
-title: VPN_(Configuration)
+title: VPN_Configuration
 description: 
 published: true
-date: 2022-05-07T02:31:33.421Z
+date: 2022-05-20T10:41:04.335Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:57:36.510Z
