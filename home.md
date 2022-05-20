@@ -2,14 +2,13 @@
 title: 首页
 description: 欢迎来到deepin wiki！
 published: true
-date: 2022-05-19T09:27:36.649Z
+date: 2022-05-20T06:56:24.002Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-19T09:26:23.076Z
 ---
 
-![logo抠图1.png](/logo抠图1.png)
-
+![deepin_logo.png](/图片存储/deepin_logo.png)
 # 深度操作系统
 Deepin(原名Linux Deepin)致力于为全球用户提供美观易用，安全可靠的Linux发行版。deepin项目于2008年发起，并在2009年发布了以linux deepin为名称的第一个版本9.12。2014年4月更名为Deepin，在中国常被称为“深度操作系统“。
 
