@@ -1,8 +1,8 @@
 ---
-title: Software/Deepin_Application_Management
+title: Deepin_Application_Management
 description: 
 published: true
-date: 2022-05-13T07:46:05.707Z
+date: 2022-05-13T08:08:19.586Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
