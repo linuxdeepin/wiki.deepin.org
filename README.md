@@ -2,7 +2,7 @@
 title: README
 description: 
 published: true
-date: 2022-05-19T10:02:42.653Z
+date: 2022-05-20T06:57:09.117Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-17T03:49:13.961Z
@@ -47,6 +47,6 @@ wiki.deepin.org是Deepin社区官方的百科网站，用于分享Deepin和Linux
 ### 图片
 1、建议图片格式为jpg、png，大小不超过150K。
 2、为避免纠纷，请使用个人原创图片，或是遵循CC0协议的无版权图片。
-3、导入的图片，请以图片相关的内容命名，不能以数字和符号命名。
+3、导入的图片请统一存放于【图片储存】文件夹之后，建议以图片相关的内容命名，不以数字和符号命名。
 
 
