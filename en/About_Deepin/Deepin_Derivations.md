@@ -1,8 +1,8 @@
 ---
-title: Deepin_Derivations
+title: Deepin_Derivatives
 description: 
 published: true
-date: 2022-05-18T10:59:09.959Z
+date: 2022-05-20T08:35:12.208Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:31.076Z
