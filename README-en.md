@@ -4,7 +4,7 @@ wiki.deepin.org is Deepin community official wiki website for sharing the releve
 
 This is wiki.deepin.org content synchronization repository. wiki.deepin.org and github.com/linuxdeepin/wiki.deepin.org perform **two-way synchronization** every five minutes.
 
-Synchronization includes wiki page content, page information, release status, and media resources, excluding page scripts and styles.
+Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
 
 
 ## Catalogue Structure
