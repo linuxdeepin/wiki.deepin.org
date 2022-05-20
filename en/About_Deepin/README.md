@@ -1,3 +1,13 @@
+---
+title: Deepin_WIKI
+description: 
+published: true
+date: 2022-05-20T07:32:40.798Z
+tags: 
+editor: markdown
+dateCreated: 2022-05-20T01:39:56.919Z
+---
+
 
 ## Introduction
 wiki.deepin.org is Deepin community official wiki website for sharing the relevent technique of Deepin and Linux.
