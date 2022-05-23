@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-23T03:16:55.302Z
+date: 2022-05-23T03:26:21.664Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -46,9 +46,14 @@ graph LR
    
    ```
     
-Plan of Deepin after 2022 years 
+Plan of Deepin after 2023 years 
 ---
+```mermaid
+graph LR
+   1(Linux Kernel)---2(Deepin)---3(UniontechOS)
+   2(Deepin)---4(Other OS)
 
+```
    
    
    
