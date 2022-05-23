@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-20T11:30:17.711Z
+date: 2022-05-23T01:38:15.421Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -29,7 +29,7 @@ Table of Minimum Hardware Specifications
 
 ## Obtaining the Installation Source
 
-   Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
+&nbsp;&nbsp;&nbsp;Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
 
 ## Installation Process
 
