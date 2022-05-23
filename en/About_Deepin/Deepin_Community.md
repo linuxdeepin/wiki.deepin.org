@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-23T02:50:22.844Z
+date: 2022-05-23T03:12:42.079Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -25,5 +25,29 @@ graph TB
   3[SIG]---9[deepinRISCV]
   3[SIG]---10[deepinWiki]
   3[SIG]---11[deepinM1]
+  
+  ```
+  
+  History of Deepin
+  ---
+  ```mermaid
+graph LR
+   1(Linux Kernel)---1.1(OpenSUSE)
+   1(Linux Kernel)---1.2(Fedora)
+   1(Linux Kernel)---1.3(Debian)
+   1(Linux Kernel)---1.4(Arch)
+   1.1(OpenSUSE)---2.1(SUSE SLES)
+   1.2(Fedora)---2.2(Redhat RHEL)
+   2.2(Redhat RHEL)---3.1(CentOS)
+   1.3(Debian)---2.3(Ubuntu)
+   1.3(Debian)---2.4(Deepin)
+   2.3(Ubuntu)---3.2(UbuntuKylin)
+   2.4(Deepin)---3.3(UniontechOS)
+   
+   
+   
+   
+   
+  
   
   
