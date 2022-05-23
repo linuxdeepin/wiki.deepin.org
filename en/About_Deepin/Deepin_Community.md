@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-23T03:12:42.079Z
+date: 2022-05-23T03:16:55.302Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -28,7 +28,7 @@ graph TB
   
   ```
   
-  History of Deepin
+  History of Deepin 2022 years ago
   ---
   ```mermaid
 graph LR
@@ -43,6 +43,12 @@ graph LR
    1.3(Debian)---2.4(Deepin)
    2.3(Ubuntu)---3.2(UbuntuKylin)
    2.4(Deepin)---3.3(UniontechOS)
+   
+   ```
+    
+Plan of Deepin after 2022 years 
+---
+
    
    
    
