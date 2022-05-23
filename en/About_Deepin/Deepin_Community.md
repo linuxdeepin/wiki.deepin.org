@@ -2,13 +2,14 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-23T03:28:13.580Z
+date: 2022-05-23T03:35:49.671Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
 ---
 
 #  Deepin Community
+
 Community Organization Structure
 ---
 
@@ -26,11 +27,11 @@ graph TB
   3[SIG]---10[deepinWiki]
   3[SIG]---11[deepinM1]
   
-  ```
+```
   
   History of Deepin 2022 years ago
   ---
-  ```mermaid
+```mermaid
 graph LR
    1(Linux Kernel)---1.1(OpenSUSE)
    1(Linux Kernel)---1.2(Fedora)
@@ -44,7 +45,7 @@ graph LR
    2.3(Ubuntu)---3.2(UbuntuKylin)
    2.4(Deepin)---3.3(UniontechOS)
    
-   ```
+```
     
 Plan of Deepin after 2023 years 
 ---
