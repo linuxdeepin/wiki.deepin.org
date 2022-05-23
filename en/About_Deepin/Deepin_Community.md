@@ -2,16 +2,14 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-23T03:35:49.671Z
+date: 2022-05-23T04:00:12.695Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
 ---
 
 #  Deepin Community
-
-Community Organization Structure
----
+## Community Organization Structure
 
 ```mermaid
 graph TB
@@ -29,8 +27,8 @@ graph TB
   
 ```
   
-  History of Deepin 2022 years ago
-  ---
+## History of Deepin 2022 years ago
+
 ```mermaid
 graph LR
    1(Linux Kernel)---1.1(OpenSUSE)
@@ -47,8 +45,8 @@ graph LR
    
 ```
     
-Plan of Deepin after 2023 years 
----
+## Plan of Deepin after 2023 years 
+
 ```mermaid
 graph LR
    1(Linux Kernel)---2(Deepin)
@@ -57,7 +55,11 @@ graph LR
    
 ```
    
-   
+## Code of conduct
+- Respect other users
+- Respect other operating systems and projects
+- Respect the staff
+- Be responsible
    
    
    
