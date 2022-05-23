@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Deepin Linux Distribution
 published: true
-date: 2022-05-17T03:47:11.019Z
+date: 2022-05-23T03:42:49.472Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -25,7 +25,7 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 # Our Community
 
-- [Declaration of community *Value of the deepin community.*](/community)
+- [Declaration of community *Value of the deepin community.*](/about_deepin/deepin_community)
 - [Code of conduct *Guidelines for the deepin community.*](/community)
 - [International communities *Collection of links to the deepin Linux communities around the world..*](/community)
 - [Teams:*develop test translation etc.*](/community)
@@ -33,15 +33,15 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 # Wiki Interaction
 
-- [Browsing *How to find the information of your need.*](/wiki)
-- [Editing *How to edit the information of your interesting.*](/wiki)
-- [Thanks *thank fot the contributor.*](/wiki)
+- [Browsing *How to find the information of your need.*](/about_deepin/deepin_wiki)
+- [Editing *How to edit the information of your interesting.*](/about_deepin/edit_help)
+- [Thanks *thank fot the contributor.*](/about_deepin/deepin_wiki)
 {.links-list}
 
 # Getting Started
 
-- [Requirements *CPU MEMORY space of disk.*](/install)
-- [Installation Guide *Detailed installation process for all platforms.*](/install)
+- [Requirements *CPU MEMORY space of disk.*](/installation/installation_requirements)
+- [Installation Guide *Detailed installation process for all platforms.*](/installation/native_install)
 {.links-list}
 
 # User Guide
