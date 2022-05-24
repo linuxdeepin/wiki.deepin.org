@@ -2,13 +2,33 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-24T01:09:00.379Z
+date: 2022-05-24T03:49:32.659Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
 ---
 
-# Community Organization Structure
+# The declaration of the community
+- Open
+- Transparency
+- Innovation
+- Co-Creation
+# Code of conduct
+[Reference](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
+# SIG & Teams
+## Administration teams
+- Community Administrator
+- Community Assistant
+- Technical Committee
+- Operating Committee
+## SIG 
+Special interest groups
+- deepinWSL
+- deepinRISCV
+- deepinWiki
+- deepinM1
+
+## Community Organization Structure
 
 ```mermaid
 graph TB
@@ -54,8 +74,13 @@ graph LR
    
 ```
    
-# Code of conduct
-[Reference](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
+# Iternational Communites
+- Spain Community
+- Slovakia Community
+- Turkey Community
+- Brazil Community
+- France Community
+- Italy Community
 
 # Mailling list
 - wiki@deepin.org
