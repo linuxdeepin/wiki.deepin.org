@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-24T06:28:07.567Z
+date: 2022-05-24T06:32:53.839Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -37,7 +37,11 @@ Table of Minimum Hardware Specifications
 &nbsp;&nbsp;&nbsp;Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
 
 # Planning Disk Partitions
-## Installation Process
+# Install Mode
+## install on physical host
+## install on virtual machine
+
+# Installation Process
 
    Usually, the computer boots from hard disk, so before system installation, you should enter BIOS to set CD/USB flash drive as the first boot entry.
    For desktop computer, press Delete key, and for notebook, press F2, F10 or F12 key to enter BIOS settings.
