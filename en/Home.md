@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Deepin Linux Distribution
 published: true
-date: 2022-05-24T03:07:24.034Z
+date: 2022-05-24T04:19:13.995Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -16,8 +16,8 @@ dateCreated: 2022-05-11T10:54:00.186Z
 Deepin is a Linux distribution dedicated to providing beautiful, easy to use, secure and stable services to users around the world, and has always been the highest ranked Linux distribution developed by a Chinese team .
 
 - [deepin linux *Introduction to the deepin linux.*](/About_Deepin/Deepin_Profile)
-- [Mailstone *history of Deepin linux distribution.*](/distribution)
-- [Key features *differences between deepin and other distributions.*](/distribution)
+- [Mailstone *history of Deepin linux distribution.*](/About_Deepin/Deepin_Profile)
+- [Key features *differences between deepin and other distributions.*](/software/offical_projects/deepin_desktop_environment)
 - [Offical applications *Deepin-moive deepin-paint deepin-terminal.*](https://www.deepin.org/zh/original/deepin-boot-maker)
 - [Source Code *https://github.com/linuxdeepin.*](https://github.com/linuxdeepin)
 - [Image source list *https://www.deepin.org/zh/mirrors/releases*](https://www.deepin.org/zh/mirrors/releases)
