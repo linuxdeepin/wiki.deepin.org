@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-24T03:49:32.659Z
+date: 2022-05-24T03:50:25.668Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -74,7 +74,7 @@ graph LR
    
 ```
    
-# Iternational Communites
+# Iternational Communities
 - Spain Community
 - Slovakia Community
 - Turkey Community
