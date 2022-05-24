@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-24T06:57:24.631Z
+date: 2022-05-24T09:42:47.582Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -11,8 +11,12 @@ dateCreated: 2022-05-13T07:49:06.118Z
 # Obtaining the Installation Source
 &emsp;&ensp;Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
 
+System ISO images can be downloaded from the deepin.org download page. 
+1. Download 
+
 # Burn ISO images
 The installation media can be burned to a CD, or now more commonly, “burned” to a USB drive
+&emsp;&ensp;Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
 # Check Hardware Requirement
 ## Minimum Hardware Specifications
 
