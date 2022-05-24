@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-24T10:56:35.161Z
+date: 2022-05-24T11:04:20.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -53,11 +53,13 @@ Please ensure that your computer meets the following requirements, otherwise you
 Table of Minimum Hardware Specifications
 
 | **Component** |                 **Minimum Hardware Specifications**              |
-| :------------ | :--------------------------------------------------------------: |
+| :------------ | :-------------------------------------------------------------- |
 | Architecture  |  x86_64                                                |
 | CPU           | Two CPUs                                                         |
 | Memory        | ≥ 4 GB (8 GB or higher recommended for better user experience)   |
 | Hard disk     | ≥ 64 GB (120 GB or higher recommended for better user experience)|
+
+### Hardware compatibility
 
 # Change Motherboard Settings
 
