@@ -2,7 +2,7 @@
 title: Home
 description: Official Documentation for Deepin Linux Distribution
 published: true
-date: 2022-05-23T03:42:49.472Z
+date: 2022-05-24T03:07:24.034Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -26,9 +26,10 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 # Our Community
 
 - [Declaration of community *Value of the deepin community.*](/about_deepin/deepin_community)
-- [Code of conduct *Guidelines for the deepin community.*](/community)
-- [International communities *Collection of links to the deepin Linux communities around the world..*](/community)
-- [Teams:*develop test translation etc.*](/community)
+- [Code of conduct *Guidelines for the deepin community.*](/about_deepin/deepin_community)
+- [International communities *Collection of links to the deepin Linux communities around the world..*](/about_deepin/deepin_community)
+- [SIG & Teams:*special interest groups and other organization  etc.*](/about_deepin/deepin_community)
+- [Mailling list:*mailling list of community.*](/about_deepin/deepin_community)
 {.links-list}
 
 # Wiki Interaction
