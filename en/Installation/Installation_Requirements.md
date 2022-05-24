@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-24T06:32:53.839Z
+date: 2022-05-24T06:57:24.631Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -12,7 +12,7 @@ dateCreated: 2022-05-13T07:49:06.118Z
 &emsp;&ensp;Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
 
 # Burn ISO images
-
+The installation media can be burned to a CD, or now more commonly, “burned” to a USB drive
 # Check Hardware Requirement
 ## Minimum Hardware Specifications
 
@@ -32,9 +32,8 @@ Table of Minimum Hardware Specifications
 | Memory        | ≥ 4 GB (8 GB or higher recommended for better user experience)   |
 | Hard disk     | ≥ 64 GB (120 GB or higher recommended for better user experience)|
 
-# Change BIOS Settings
+# Change Motherboard Settings
 
-&nbsp;&nbsp;&nbsp;Besides, you need to prepare a USB flash drive, or a disc and CD/DVD drive, then visit Deepin website (https://www.deepin.org) to download the latest ISO file, and create a boot disk.
 
 # Planning Disk Partitions
 # Install Mode
