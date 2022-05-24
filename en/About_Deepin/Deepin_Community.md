@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-24T01:01:54.060Z
+date: 2022-05-24T01:09:00.379Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -57,6 +57,8 @@ graph LR
 # Code of conduct
 [Reference](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
 
+# Mailling list
+- wiki@deepin.org
    
    
    
