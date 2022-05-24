@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-24T11:04:20.007Z
+date: 2022-05-24T11:08:49.737Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -63,6 +63,19 @@ Table of Minimum Hardware Specifications
 
 # Change Motherboard Settings
 
+If your computer's motherboard is in UEFI mode, please turn off Secure Boot in the motherboard settings, then restart the computer and press the key in the BIOS/UEFI interface which indicates "change boot order". 
+For example, the shortcut keys might be: 
+- Desktop: Delete key 
+- Notebook: F2 key 
+- HP notebooks: F10 key 
+- Lenovo notebooks: F12 key 
+- Apple computers: C key 
+
+For details on how to install deepin, see How to install.
+
+## When The installation is completed 
+According to the installer interface prompts, enter and select the corresponding information, the system will install automatically. During the process, the installer will use the slides to show the features of the current system until the installation process is completed. After completed, follow the prompts to restart the computer to enter deepin. 
+> Note: If the installation fails, it will show error info. You can scan QR code on mobile phones to send the error log to servers.
 
 # Planning Disk Partitions
 # Install Mode
