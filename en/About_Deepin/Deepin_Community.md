@@ -2,14 +2,13 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-05-23T04:00:12.695Z
+date: 2022-05-24T01:01:54.060Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
 ---
 
-#  Deepin Community
-## Community Organization Structure
+# Community Organization Structure
 
 ```mermaid
 graph TB
@@ -26,7 +25,7 @@ graph TB
   3[SIG]---11[deepinM1]
   
 ```
-  
+# Mailstone  
 ## History of Deepin 2022 years ago
 
 ```mermaid
@@ -55,11 +54,9 @@ graph LR
    
 ```
    
-## Code of conduct
-- Respect other users
-- Respect other operating systems and projects
-- Respect the staff
-- Be responsible
+# Code of conduct
+[Reference](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)
+
    
    
    
