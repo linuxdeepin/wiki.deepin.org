@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-25T02:42:07.544Z
+date: 2022-05-25T12:53:52.025Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -17,13 +17,12 @@ dateCreated: 2022-05-13T07:49:06.118Z
 ## 2. ISO image integrity check
 &emsp;After downloaded deepin image, you need to verify it. An unofficial or incomplete image should not be used to install deepin:  
 - Windows system: Download Hash software, verify that the MD5/SHA256 you downloaded is consistent with the Download Page provided. 
-- Linux system: At the corresponding path of image file, open Deepin Terminal and execute md5sum deepin-desktop-community-20.5-amd64.iso and confirm that the MD5/SHA256 is consistent with the Download Page provided.
+- Linux system: At the corresponding path of image file, open Deepin Terminal and execute md5sum/sha256sum deepin-desktop-community-20.5-amd64.iso and confirm that the MD5/SHA256 is consistent with the Download Page provided.
 
 ```bash
  md5sum deepin-desktop-community-20.5-amd64.iso
 ```
 ```bash
-
  sha256sum deepin-desktop-community-20.5-amd64.iso
 ```
 
@@ -52,15 +51,15 @@ Please ensure that your computer meets the following requirements, otherwise you
 
 - Architecture: x86_64 (AMD or Intel)
 - CPU: Intel Pentium IV 2GHz or higher
-- Memory: more than 4G RAM, 8G or higher is recommended
-- Disk: more than 64 GB free disk space
+- Memory: more than 4G RAM,8G or higher is recommended
+- Disk: more than 64 GB free disk space,120 GB or higher is recommended 
 
 Table of Minimum Hardware Specifications
 
 | **Component** |                 **Minimum Hardware Specifications**              |
 | :------------ | :-------------------------------------------------------------- |
-| Architecture  | x86_64                                                |
-| CPU           | Two CPUs                                                         |
+| Architecture  | x86_64                                                      |
+| CPU           | ≥ Intel Pentium IV 2GHz                                     |
 | Memory        | ≥ 4 GB (8 GB or higher recommended for better user experience)   |
 | Hard disk     | ≥ 64 GB (120 GB or higher recommended for better user experience)|
 
