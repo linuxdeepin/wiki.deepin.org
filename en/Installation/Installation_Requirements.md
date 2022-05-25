@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-25T12:53:52.025Z
+date: 2022-05-25T12:58:46.545Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -63,12 +63,12 @@ Table of Minimum Hardware Specifications
 | Memory        | ≥ 4 GB (8 GB or higher recommended for better user experience)   |
 | Hard disk     | ≥ 64 GB (120 GB or higher recommended for better user experience)|
 
-### Hardware compatibility
+## Hardware compatibility
 
 # Change Motherboard Settings
 
 &emsp;Usually, the computer boots from hard disk, so before system installation, you should enter BIOS to set CD/USB flash drive as the first boot entry.
-&emsp;For desktop computer, you can press <kbd>Delete</kbd> key, but for laptop, you can press the shortcut key to enter quick boot menu.
+&emsp;For desktop computer, you can press <kbd>Delete</kbd> key, but for laptop, you can press the shortcut key to enter boot menu.
 
 For example, the shortcut keys might be: 
 | Laptop | Key |
@@ -84,28 +84,7 @@ For example, the shortcut keys might be:
 
 > Note: If your computer's motherboard is in UEFI mode, please turn off Secure Boot in the motherboard settings, then restart the computer and press the key in the BIOS/UEFI interface which indicates "change boot order". 
 
-
-## When The installation is completed 
-According to the installer interface prompts, enter and select the corresponding information, the system will install automatically. During the process, the installer will use the slides to show the features of the current system until the installation process is completed. After completed, follow the prompts to restart the computer to enter deepin. 
-> Note: If the installation fails, it will show error info. You can scan QR code on mobile phones to send the error log to servers.
-
 # Planning Disk Partitions
 # Install Mode
 ## install on physical host
 ## install on virtual machine
-
-# Installation Process
-
-   Usually, the computer boots from hard disk, so before system installation, you should enter BIOS to set CD/USB flash drive as the first boot entry.
-   For desktop computer, press Delete key, and for notebook, press F2, F10 or F12 key to enter BIOS settings.
-   You can finish the installation process in just a cup of tea's time.
-
-1. Put CD into the CD drive.
-2. Boot and enter BIOS to set the CD as the first boot entry.
-3. Enter the installation interface and choose the language you want to install.
-4. Enter the account settings, input username and password.
-5. Click Next.
-6. Choose format, mountpoint and allocate disk space, etc.
-7. Click Install.
-8. In the popup confirm window, click OK.
-9. The installation process will start automatically.
