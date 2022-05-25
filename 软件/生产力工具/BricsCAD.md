@@ -1,8 +1,8 @@
 ---
-title: 软件/生产力工具/BricsCAD
+title: BricsCAD
 description: 
 published: true
-date: 2022-05-08T03:22:45.048Z
+date: 2022-05-25T07:05:22.378Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:30:11.527Z
