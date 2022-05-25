@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-25T01:37:09.658Z
+date: 2022-05-25T01:38:49.935Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -79,7 +79,7 @@ For example, the shortcut keys might be:
 | Acer | F12 |
 | ASUS | F12 |
 | Lenovo | F12 |
-| Apple | C |
+| Apple | Command |
 | Huawei | F12 |
 | Xiaomi | F12 |
 
