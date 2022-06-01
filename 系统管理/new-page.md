@@ -2,7 +2,7 @@
 title: 根目录扩容
 description: 系统在随着日渐使用的过程中，根目录空间会越来越小，可能部分同学需要进行扩容操作，可以参考此思路完成。
 published: true
-date: 2022-06-01T02:00:55.220Z
+date: 2022-06-01T02:02:04.033Z
 tags: 扩容 根目录扩容  空间不足 手动扩容
 editor: markdown
 dateCreated: 2022-06-01T02:00:55.220Z
@@ -38,7 +38,7 @@ dateCreated: 2022-06-01T02:00:55.220Z
    ![2.png](https://storage.deepin.org/thread/20220520162047272_2.png)
 5. 然后直接按键盘上F10按键，接下来就会直接进入live系统界面了。
 6. 进入live系统后是如下界面的样子（下图是V20.6的镜像）：
-7. > 特别提醒：在live系统下长时间也会自动锁屏了，如果你也遇到了锁屏发现没有密码无法进入系统，可能你需要重新来一次，此时可以直接通过ctrl+alt+F2 进入TTY，然后在TTY界面设置密码即可：``sudo passwd uos``,然后再切回来用设置的密码登录即可。
+> 特别提醒：在live系统下长时间也会自动锁屏了，如果你也遇到了锁屏发现没有密码无法进入系统，可能你需要重新来一次，此时可以直接通过ctrl+alt+F2 进入TTY，然后在TTY界面设置密码即可：``sudo passwd uos``,然后再切回来用设置的密码登录即可。
    >
 
 ![](https://vjxs22vadq.feishu.cn/space/api/box/stream/download/asynccode/?code=YzA2MjdlZDQ0ZWNjZDM2MjY2NWMwMThmYjk3OTI5OTRfeEg3SXo2OFE3cTR4WlhTRzhkOTh3SmxxY0l3V0doUWJfVG9rZW46Ym94Y25TaHNCQ0kzalI5RjRYOWlFYTF2a1diXzE2NTMwMTYzMzY6MTY1MzAxOTkzNl9WNA)![3.png](https://storage.deepin.org/thread/202205201621386209_3.png)
