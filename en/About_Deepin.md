@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-02T10:16:30.137Z
+date: 2022-06-02T10:21:36.490Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -30,6 +30,7 @@ graph LR
    1.3(Debian)---2.4(Deepin)
    2.3(Ubuntu)---3.2(UbuntuKylin)
    2.4(Deepin)---3.3(UniontechOS)
+   2.4(Deepin)---3.5(Other OS)
    
 ```
     
@@ -45,9 +46,9 @@ graph LR
 
 ### Key features 
 The differences between deepin and other distributions
-- DDE
-- Uengine
-- Deepin-wine
+- DDE (Deepin Desktop Environment)
+- Uengine (Android Running Environment)
+- Deepin-wine (Windows Running Environment)
 ### Offical applications
 https://www.deepin.org/en/original/deepin-boot-maker/
 ### Source Code  
