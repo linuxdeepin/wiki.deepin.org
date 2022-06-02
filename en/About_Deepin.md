@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-02T11:12:26.881Z
+date: 2022-06-02T11:30:14.749Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -66,6 +66,27 @@ https://www.deepin.org/en/mirrors/releases
 - [**More >>**](./about_deepin/deepin_community) 
 
 # Deepin Wiki
+## Introduction
+wiki.deepin.org is Deepin community official wiki website for sharing the relevent technique of Deepin and Linux.
+This is wiki.deepin.org content synchronization repository. wiki.deepin.org and github.com/linuxdeepin/wiki.deepin.org perform two-way synchronization every five minutes.Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
+
+## How to use ?
+### browsing
+you can find the contents by your family language
+- /en/ wiki contents in English
+- /zh/ wiki contents in Chinese
+### editting
+You can submit contributions in two ways.
+- Edit via website 
+wiki.deepin.org is built using wikijs, with an easy-to-use interface and simple operation logic. We are currently recruiting contributors, welcome to click here to submit your contributions.
+- Submit via git 
+We recommend submitting contributions via git when multiple contents need to be imported or moved due to the inperfect function of batch operation in wikijs.
+## How to contribute ?
+The Deepin Wiki collects various information like experience of developing, system using as well as helpful tips, then shares them to users. You can also have your own contribution here!
+**For example : join the SIG of deepin wiki**
+- Editor Group：  
+- Designer Group：
+- Collector Group：
 
 # Deepin Company Profile
 &emsp; Established in 2011, Wuhan Deepin Technology Co., Ltd. (hereinafter referred to as Deepin Technology) is a commercial company focused on the R&D and service of Linux-based Chinese operating system.
