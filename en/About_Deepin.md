@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-02T11:30:14.749Z
+date: 2022-06-02T11:31:32.763Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -88,6 +88,7 @@ The Deepin Wiki collects various information like experience of developing, syst
 - Designer Group：
 - Collector Group：
 
+## [more >>](./about_deepin/README)
 # Deepin Company Profile
 &emsp; Established in 2011, Wuhan Deepin Technology Co., Ltd. (hereinafter referred to as Deepin Technology) is a commercial company focused on the R&D and service of Linux-based Chinese operating system.
 &emsp; As the leading research and development team of operating systems in China, Deepin Technology aims to provide safe, reliable, beautiful and easy to use Chinese operating system and open source solutions. There are many professionals in system research and development, industry custom, internationalization, porting and adaptation, interaction design, support service and training, which can meet a wide range of needs to operating system products from different users and application scenarios.
