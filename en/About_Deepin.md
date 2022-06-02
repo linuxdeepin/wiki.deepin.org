@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-02T10:42:46.346Z
+date: 2022-06-02T10:45:50.019Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -62,7 +62,9 @@ https://www.deepin.org/en/mirrors/releases
 - **Declaration:** Open、Transparency、Innovation、Co-Creation、Code of conduct
 - **Organization Structure:** Administration teams 、 SIG
 - **Iternational Communities:** Spain Community、Slovakia Community、Turkey Community、Brazil Community、France Community、Italy Community
-- **Mailling list:** wiki.deepin.org
+- **Mailling list:** wiki@deepin.org
+- [**More >>**](/about_deepin/deepin_community) 
+
 # Deepin Wiki
 
 # Deepin Company Profile
