@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-02T10:27:25.042Z
+date: 2022-06-02T10:42:46.346Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -44,22 +44,26 @@ graph LR
    
 ```
 
-### Key features 
+## Key features 
 The differences between deepin and other distributions
 - **DDE** (Deepin Desktop Environment)
 - **Uengine** (Android Running Environment)
 - **Deepin-wine** (Windows Running Environment)
-### Offical applications
+## Offical applications
 https://www.deepin.org/en/original/deepin-boot-maker/
-### Source Code  
+## Source Code  
 https://github.com/linuxdeepin
-### Software Source  
+## Software Source  
 https://www.deepin.org/en/mirrors/packages
-### Image source list  
+## Image source list  
 https://www.deepin.org/en/mirrors/releases
 
 # Deepin Open Source Community
-
+- **Declaration:** Open、Transparency、Innovation、Co-Creation、Code of conduct
+- **Organization Structure:** Administration teams 、 SIG
+- **Iternational Communities:** Spain Community、Slovakia Community、Turkey Community、Brazil Community、France Community、Italy Community
+- **Mailling list:** wiki.deepin.org
 # Deepin Wiki
+
 # Deepin Company Profile
 
