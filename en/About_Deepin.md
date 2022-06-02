@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-02T10:00:34.552Z
+date: 2022-06-02T10:16:30.137Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -11,16 +11,51 @@ dateCreated: 2022-05-13T08:00:55.855Z
 
 ![deepin_logo.png](/图片存储/deepin_logo.png)
 # Deepin Operating System
-
-## deepin linux Introduction to the deepin linux.
 Deepin is a Linux distribution dedicated to providing beautiful, easy to use, secure and stable services to users around the world, and has always been the highest ranked Linux distribution developed by a Chinese team .
-### Mailstone history of Deepin linux distribution.
+## Mailstone  
+### Release Plan in 2022 
+https://www.deepin.org/en/developer-community/planning/
+### History of Deepin 2022 years ago
 
-### Key features differences between deepin and other distributions
-### Offical applications Deepin-moive deepin-paint deepin-terminal.
-### Source Code  https://github.com/linuxdeepin.
-### Software Source  https://www.deepin.org/en/mirrors/packages
-### Image source list  https://www.deepin.org/en/mirrors/releases
+```mermaid
+graph LR
+   1(Linux Kernel)---1.1(OpenSUSE)
+   1(Linux Kernel)---1.2(Fedora)
+   1(Linux Kernel)---1.3(Debian)
+   1(Linux Kernel)---1.4(Arch)
+   1.1(OpenSUSE)---2.1(SUSE SLES)
+   1.2(Fedora)---2.2(Redhat RHEL)
+   2.2(Redhat RHEL)---3.1(CentOS)
+   1.3(Debian)---2.3(Ubuntu)
+   1.3(Debian)---2.4(Deepin)
+   2.3(Ubuntu)---3.2(UbuntuKylin)
+   2.4(Deepin)---3.3(UniontechOS)
+   
+```
+    
+### Plan of Deepin after 2023 years 
+
+```mermaid
+graph LR
+   1(Linux Kernel)---2(Deepin)
+   2(Deepin)---3(UniontechOS)
+   2(Deepin)---4(Other OS)
+   
+```
+
+### Key features 
+The differences between deepin and other distributions
+- DDE
+- Uengine
+- Deepin-wine
+### Offical applications
+https://www.deepin.org/en/original/deepin-boot-maker/
+### Source Code  
+https://github.com/linuxdeepin
+### Software Source  
+https://www.deepin.org/en/mirrors/packages
+### Image source list  
+https://www.deepin.org/en/mirrors/releases
 
 # Deepin Open Source Community
 # Deepin Wiki
