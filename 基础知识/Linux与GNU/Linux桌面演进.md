@@ -2,7 +2,7 @@
 title: Linux桌面演进
 description: 
 published: true
-date: 2022-06-06T09:53:02.327Z
+date: 2022-06-06T12:37:01.389Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:39.141Z
@@ -80,7 +80,7 @@ Knoppix，由 Klaus Knopper 开发的 Debian 系发行版本，当时红极一�
 
 2.4 版本内核，支持 USB、PC 卡、ISA 插拔和播放，同时增加了对蓝牙、RAID 和 EXT3 的支持。2.4.x 系列版本内核是维护期最长的内核，在 2011 年以 2.4.37.11 版本结束。
 
-Red Hat 公司上市，也不断探寻更加商业化的途径。于是，RedHat 企业版本诞生，Fedora Core 成为社区发行版本。因 RHEL 开源，一些爱好者或组织也利用这些源码制作自己的发行版本，如 Cent OS、CERN、Oracle Linux 和 Scientific Linux 等。 介绍下 CRUX，Crux 在别家发行版本越来越像 Windows，想要替代 Windows 时，它独辟蹊径、特立独行，不断将自己瘦身，成为最受欢迎的最小化发行版本。它也成为 Arch Linux 的基础操作系统。
+Red Hat 公司上市，也不断探寻更加商业化的途径。于是，RedHat 企业版本诞生，Fedora Core 成为社区发行版本。因 RHEL 开源，一些爱好者或组织也利用这些源码制作自己的发行版本，如 Cent OS、CERN、Oracle Linux 和 Scientific Linux 等。 介绍下 CRUX，Crux 在别家发行版本越来越像 Windows，想要替代 Windows 时，它却独辟蹊径、特立独行，不断将自己瘦身，成为最受欢迎的最小化发行版本。它也成为 Arch Linux 的基础操作系统。
 
 2.6 版本的内核支持 PAE、新的 CPU、64 位支持改进，支持 16 TB 大小的文件系统容量，EXT4 文件系统等。
 
@@ -96,7 +96,7 @@ KDE 4.0 发布，但因缺乏稳定，饱受诟病。
 
 2009 年发布的 KDE 4.2 更加新潮美观，这让人们忘记了过去的痛苦。9 月 23 日，最最流行的 Linux 操作系统– Android 发布。
 
-在此阶段，Ubuntu 势力不断稳固，坐上了第一流行操作系统的交椅。但在 11.04 发布的 Unity 桌面环境，让人另眼相看。几乎大家一开始无一不对它产生厌恶之感，不是 Gnome 3，也不是 KDE4，生的倒也奇葩。
+在此阶段，Ubuntu 势力不断稳固，坐上了第一流行操作系统的交椅。但在 11.04 发布的 Unity 桌面环境，让人另眼相看。大家一开始几乎无一不对它产生厌恶之感，不是 Gnome 3，也不是 KDE4，生的倒也奇葩。
 
 2011 年 4 月，GNOME 3.0 发布，大家又是一片哗然。
 
