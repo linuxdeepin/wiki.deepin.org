@@ -2,7 +2,7 @@
 title: Linux桌面演进
 description: 
 published: true
-date: 2022-06-06T12:37:01.389Z
+date: 2022-06-07T02:06:21.665Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:39.141Z
@@ -106,4 +106,4 @@ KDE 4.0 发布，但因缺乏稳定，饱受诟病。
 
 ## 来源链接
 
-[岁月有痕：Linux 桌面演进](http://www.linuxeden.com/html/news/20121123/132368.html)
+引用于 岁月有痕：Linux 桌面演进 
