@@ -2,7 +2,7 @@
 title: 首页
 description: 欢迎来到deepin wiki！
 published: true
-date: 2022-06-08T09:18:02.437Z
+date: 2022-06-08T09:45:09.295Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -28,6 +28,7 @@ Deepin基于Qt技术开发了深度桌面环境和深度控制中心，并且开
 协作：倡导团队协作，发挥领导作用，使社区工作进展得更为有序。
 
 # 特别鸣谢
+
 Editor：
 
 Desinger：
