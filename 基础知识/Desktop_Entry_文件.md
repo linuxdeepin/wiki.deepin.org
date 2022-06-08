@@ -1,8 +1,8 @@
 ---
-title: Desktop_Entry_文件
+title: Desktop Entry 文件
 description: 
 published: true
-date: 2022-05-07T07:47:22.189Z
+date: 2022-06-08T07:01:32.662Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:02.433Z
