@@ -2,14 +2,14 @@
 title: 双显卡之bumblebee(大黄蜂)、Prime及手动切换方案
 description: 
 published: true
-date: 2022-05-26T03:24:05.973Z
+date: 2022-06-09T01:20:27.582Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-26T03:24:05.973Z
 ---
 
 ## 简介
-感谢论坛用户black-hole提供的内容
+本文由论坛用户black-hole分享
 时间：2021年1月17日
 原帖地址：https://bbs.deepin.org/zh/post/210053
 
