@@ -2,8 +2,8 @@
 title: VirtualBox
 description: 
 published: true
-date: 2022-06-09T05:23:33.292Z
-tags: 虚拟机, virtualbox, vbox
+date: 2022-06-09T06:38:47.216Z
+tags: vbox, virtualbox, 虚拟机
 editor: markdown
 dateCreated: 2022-04-21T03:44:18.313Z
 ---
@@ -18,7 +18,7 @@ Oracle VM VirtualBox是一款开源的虚拟机软件，它可以虚拟化安装
 
 ## 卸载
 
-`sudo apt-get remove pool/main/v/virtualbox/`
+`sudo apt-get remove virtualbox`
 
 ## 仓库地址
 
