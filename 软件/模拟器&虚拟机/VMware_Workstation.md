@@ -2,8 +2,8 @@
 title: VMware_Workstation
 description: 
 published: true
-date: 2022-05-07T07:48:30.345Z
-tags: 
+date: 2022-06-09T05:25:52.374Z
+tags: 虚拟机, vmware
 editor: markdown
 dateCreated: 2022-04-21T03:43:56.698Z
 ---
@@ -27,3 +27,4 @@ VMware Workstation是一款桌面虚拟计算机软件，提供用户在单一�
 ## 常见问题
 
 ## 相关链接
+官方网站：https://www.vmware.com
