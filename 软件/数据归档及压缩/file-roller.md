@@ -1,16 +1,16 @@
 ---
-title: 归档管理器
+title: File Roller
 description: 
 published: true
-date: 2022-05-07T07:49:32.579Z
-tags: 
+date: 2022-06-09T06:22:21.410Z
+tags: file roller
 editor: markdown
 dateCreated: 2022-04-21T03:48:26.897Z
 ---
 
 ## 简介
 
-Fileroller（归档管理器）是一个归档管理器，它具有创建、修改、查看、提取等功能，以及可以保存为不同格式的文档。
+File Roller是GNOME桌面环境的归档管理器，它具有创建、修改、查看、提取等功能，以及可以保存为不同格式的文档。
 
 ## 安装
 
@@ -27,3 +27,4 @@ Fileroller（归档管理器）是一个归档管理器，它具有创建、修�
 ## 常见问题
 
 ## 相关链接
+官方网站：http://fileroller.sourceforge.net/
