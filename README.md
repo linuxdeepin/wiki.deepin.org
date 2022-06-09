@@ -2,7 +2,7 @@
 title: README
 description: 
 published: false
-date: 2022-06-09T01:29:31.841Z
+date: 2022-06-09T01:36:18.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-17T03:49:13.961Z
@@ -47,7 +47,7 @@ wiki.deepin.org是Deepin社区官方的百科网站，用于分享Deepin和Linux
 2、单个页面中，请使用**二级标题**区分各部分内容；
 3、如编辑内容为个人原创，则需留下**作者ID、时间**；如该内容转载至论坛，则同时留下**原帖地址**。如：
 
-![简介编辑.png](/简介编辑.png)
+![简介编辑-样式.png](/图片存储/简介编辑-样式.png)
   
   
 ### 图片
