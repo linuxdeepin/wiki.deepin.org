@@ -2,8 +2,8 @@
 title: VirtualBox
 description: 
 published: true
-date: 2022-05-07T07:48:29.717Z
-tags: 
+date: 2022-06-09T05:23:33.292Z
+tags: 虚拟机, virtualbox, vbox
 editor: markdown
 dateCreated: 2022-04-21T03:44:18.313Z
 ---
@@ -27,3 +27,4 @@ Oracle VM VirtualBox是一款开源的虚拟机软件，它可以虚拟化安装
 ## 常见问题
 
 ## 相关链接
+官方网站：https://www.virtualbox.org/
