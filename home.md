@@ -2,7 +2,7 @@
 title: 首页
 description: 欢迎来到deepin wiki！
 published: true
-date: 2022-06-08T09:54:30.913Z
+date: 2022-06-09T06:10:27.535Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -28,10 +28,17 @@ Deepin基于Qt技术开发了深度桌面环境和深度控制中心，并且开
 协作：倡导团队协作，发挥领导作用，使社区工作进展得更为有序。
 
 # 特别鸣谢
+**衷心感谢以下社区用户为wiki做出的贡献，因为你们，deepin wiki才能越来越好！（排名不分先后）**
 
-Editor：
+### Editor组
 
-Desinger：
+
+### Desinger组
+
+
+### Collector组：
+
+### 荣誉贡献者：
 
 # 公司简介
 武汉深之度科技有限公司（以下简称深度科技）成立于 2011 年，是专注基于 Linux 的操作系统研发与服务的商业公司。
