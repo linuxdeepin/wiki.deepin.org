@@ -2,8 +2,8 @@
 title: Firefox
 description: 
 published: true
-date: 2022-05-07T02:34:42.481Z
-tags: 
+date: 2022-06-09T05:32:37.690Z
+tags: firefox, 浏览器
 editor: markdown
 dateCreated: 2022-04-21T03:34:19.832Z
 ---
