@@ -1,8 +1,8 @@
 ---
-title: DEEPIN安装概述
+title: Deepin安装概述
 description: 
 published: true
-date: 2022-06-09T01:15:02.841Z
+date: 2022-06-09T01:15:24.932Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-12T05:47:26.110Z
