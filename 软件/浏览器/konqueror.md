@@ -2,8 +2,8 @@
 title: Konqueror
 description: 
 published: true
-date: 2022-06-09T06:43:45.381Z
-tags: konqueror
+date: 2022-06-09T15:07:57.328Z
+tags: konqueror, 浏览器
 editor: markdown
 dateCreated: 2022-06-09T06:43:45.381Z
 ---
