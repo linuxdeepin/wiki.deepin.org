@@ -1,8 +1,8 @@
 ---
-title: Home
-description: Official Documentation for Deepin Linux Distribution
+title: Deepin - Deepin Linux Distribution  Wiki
+description: Deepin Wiki is designed to be an extended documentation for end users and developers.
 published: true
-date: 2022-06-02T11:36:34.210Z
+date: 2022-06-09T07:44:16.380Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
