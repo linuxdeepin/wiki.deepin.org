@@ -1,11 +1,11 @@
 ---
-title: DEEPIN_桌面系统安装概述
+title: DEEPIN安装概述
 description: 
 published: true
-date: 2022-05-07T07:47:22.063Z
+date: 2022-06-09T01:15:02.841Z
 tags: 
 editor: markdown
-dateCreated: 2022-04-21T03:31:20.862Z
+dateCreated: 2022-05-12T05:47:26.110Z
 ---
 
 # 计算机引导过程
