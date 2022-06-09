@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-02T11:31:32.763Z
+date: 2022-06-09T02:36:17.876Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -55,7 +55,7 @@ https://www.deepin.org/en/original/deepin-boot-maker/
 https://github.com/linuxdeepin
 ## Software Source  
 https://www.deepin.org/en/mirrors/packages
-## Image source list  
+## Image Source 
 https://www.deepin.org/en/mirrors/releases
 
 # Deepin Open Source Community
