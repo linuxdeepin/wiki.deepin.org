@@ -2,8 +2,8 @@
 title: GNU Compiler Collection
 description: GNU编译器集合
 published: true
-date: 2022-06-09T15:32:57.696Z
-tags: gcc, g++, c, c++, go, fortran, objective c, objective c++, 编译器
+date: 2022-06-09T15:52:31.235Z
+tags: c, c++, fortran, g++, gcc, go, objective c, objective c++, 编译器
 editor: markdown
 dateCreated: 2022-06-09T15:32:57.696Z
 ---
@@ -11,6 +11,7 @@ dateCreated: 2022-06-09T15:32:57.696Z
 ## 简介
 
 GNU编译器集合包括C、C++、Objective-C、Fortran、Ada、Go和D语言的前端，以及这些语言的库（libstdc++，…）。
+Gcc 11版及之前使用C语言编写，Gcc 12版及之后转换为C++语言编写。
 
 ## 安装C语言的GNU编译器
 
