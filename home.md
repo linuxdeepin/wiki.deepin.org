@@ -1,8 +1,8 @@
 ---
-title: 首页
-description: 欢迎来到deepin wiki！
+title: Deepin - 深度百科Wiki
+description: 深度百科wiki 旨在成为最终用户和开发人员的扩展文档。
 published: true
-date: 2022-06-09T06:11:09.264Z
+date: 2022-06-09T07:43:29.559Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
