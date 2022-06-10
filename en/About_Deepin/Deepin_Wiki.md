@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-10T11:24:51.008Z
+date: 2022-06-10T11:27:19.776Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -17,7 +17,7 @@ dateCreated: 2022-05-24T04:47:14.524Z
 
 
 ## Edit help
-
+### Edit methods
 1. Click the "Edit" tab at the top of the page.
 2. Change the text.
 3. Click the "Save Page" button.
