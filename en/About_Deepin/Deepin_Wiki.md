@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-10T11:17:42.987Z
+date: 2022-06-10T11:20:15.421Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -10,15 +10,10 @@ dateCreated: 2022-05-24T04:47:14.524Z
 
 # Introduction
  > Deepin community official wiki website for sharing the relevent technique of Deepin and Linux.
-
-&emsp; The Deepin Wiki collects various information like experience of developing, system using  as well as helpful tips, then shares them to users.
-This article is used to help users understand Deepin Wiki's editing methods and techniques. You can also have your own contribution here!
-
+ 
+&emsp; The Deepin Wiki collects various information like experience of developing, system using  as well as helpful tips, then shares them to users.You can also have your own contribution here!
 &emsp; This is wiki content synchronization repository. The website content between wiki.deepin.org and github.com/linuxdeepin/wiki.deepin.org perform **two-way synchronization** every five minutes.
-Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
-
-
-
+&emsp; Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
 
 
 ## Instructions
@@ -30,6 +25,7 @@ Synchronization includes wiki page content, page information, publish status, an
 # Edit Rules
 
 ## Obey the rules of contributions
+This article is used to help users understand Deepin Wiki's editing methods and techniques. 
 
 ### Principles
 1. There are no restrictions on content topics, so any content helpful for deepin can be imported.
