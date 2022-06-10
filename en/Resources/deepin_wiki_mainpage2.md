@@ -2,7 +2,7 @@
 title: deepin_wiki_mainpage2
 description: Welcome to the Deepin Wiki
 published: true
-date: 2022-05-09T10:30:50.337Z
+date: 2022-06-10T10:32:32.851Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-09T10:29:38.628Z
