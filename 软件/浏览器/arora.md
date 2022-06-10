@@ -2,7 +2,7 @@
 title: Arora
 description: Arora网页浏览器
 published: true
-date: 2022-06-09T15:04:57.596Z
+date: 2022-06-10T05:57:28.656Z
 tags: arora, 浏览器
 editor: markdown
 dateCreated: 2022-06-09T15:04:55.511Z
@@ -27,6 +27,6 @@ Arora是一个基于QtWebKit开发的跨平台浏览器。
 ## 常见问题
 
 ## 相关链接
-官方网站：http://qmmp.ylsoftware.com/
+官方网站：http://qmmp.ylsoftware.com
 
 维基百科：
