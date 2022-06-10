@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-10T11:27:19.776Z
+date: 2022-06-10T11:28:05.612Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -20,7 +20,7 @@ dateCreated: 2022-05-24T04:47:14.524Z
 ### Edit methods
 1. Click the "Edit" tab at the top of the page.
 2. Change the text.
-3. Click the "Save Page" button.
+3. Click the "Save" button.
 ### Edit the Summary
 
 Before saving your changes, you can enter short comments in the Summary box that describes the changes. Do not think too much, just simply describe what you have just changed. For example, you might say "fixed spelling errors" or "add more relevant information".
