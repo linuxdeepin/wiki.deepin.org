@@ -2,8 +2,8 @@
 title: Chrome
 description: 
 published: true
-date: 2022-05-07T02:34:37.618Z
-tags: 
+date: 2022-06-10T06:08:41.673Z
+tags: 浏览器, chrome
 editor: markdown
 dateCreated: 2022-04-21T03:30:37.500Z
 ---
