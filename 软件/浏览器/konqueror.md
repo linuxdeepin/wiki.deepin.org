@@ -1,8 +1,8 @@
 ---
 title: Konqueror
-description: 
+description: Konqueror网页浏览器
 published: true
-date: 2022-06-09T15:07:57.328Z
+date: 2022-06-10T06:04:26.288Z
 tags: konqueror, 浏览器
 editor: markdown
 dateCreated: 2022-06-09T06:43:45.381Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-09T06:43:45.381Z
 
 ## 简介
 
-Konqueror 是 KDE 的网页浏览器，以及文件管理和预览的全能利器。
+Konqueror 是 KDE 默认的网页浏览器，以及文件管理和预览的全能利器。
 
 ## 安装
 
