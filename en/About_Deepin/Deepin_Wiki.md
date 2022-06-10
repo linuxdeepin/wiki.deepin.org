@@ -2,20 +2,23 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-10T10:40:05.494Z
+date: 2022-06-10T10:58:34.583Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
 ---
 
-# Deepin_Wiki
-Your content here
-## Introduction
+# Introduction
 
 This article is used to help users understand Deepin Wiki's editing methods and techniques.
-## Introduction
 
 The Deepin Wiki collects various information like experience of developing, system using  as well as helpful tips, then shares them to users. You can also have your own contribution here!
+
+wiki.deepin.org is Deepin community official wiki website for sharing the relevent technique of Deepin and Linux.
+
+This is wiki.deepin.org content synchronization repository. wiki.deepin.org and github.com/linuxdeepin/wiki.deepin.org perform **two-way synchronization** every five minutes.
+
+Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
 
 ## Instructions
 
@@ -23,9 +26,24 @@ The Deepin Wiki collects various information like experience of developing, syst
 2. Change the text.
 3. Click the "Save Page" button.
 
-**It is so simple!**
+# Edit Rules
 
-## Edit Rules
+## Obey the rules of contributions
+
+### Principles
+1. There are no restrictions on content topics, so any content helpful for deepin can be imported.
+
+1. However, any content shall not violate laws and regulations. Advertisements, insulting words and sensitive words are prohibited from appearing in the content.
+
+### Content Editing
+1. In a single interface, please use **secondary title** to distinguish the contents of each part, and then use **tertiary title** to describe each part.
+2. It is necessary to show **user ID** and **original essay address** at the beginning of the corresponding content if the imported content is from community user sharing experience.
+  
+### Pictures
+1. It is recommend that the picture format is jpg or png, with less than 150kB file size.
+2. To avoid disputes, please use personal original pictures or copyrightless pictures following CC0 License.
+3. Please name the imported picture with the related content, not with numbers or symbols.
+
 
 The first rule for encyclopedia editors is to be bold and then modify encyclopedia. Other people can correct any mistakes you made, so have confidence and try! Wikipedia page editors have a variety of editorial conventions, rules and philosophy, but be bold is one of the most important rules!
 
@@ -53,26 +71,19 @@ Using wiki editing, you can start a new page, move (or rename) a page, or even d
 
 Remember that you should always aim to improve the overall content of your encyclopedia with your editors.
 
-## Discussion
+# Discussion
 
 Each article has its own "conversation page" where you can ask questions, make suggestions, or discuss corrections.
 
 
-## Introduction
-wiki.deepin.org is Deepin community official wiki website for sharing the relevent technique of Deepin and Linux.
 
-This is wiki.deepin.org content synchronization repository. wiki.deepin.org and github.com/linuxdeepin/wiki.deepin.org perform **two-way synchronization** every five minutes.
-
-Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
-
-
-## Catalogue Structure
+# Catalogue Structure
 
 /en/ wiki contents in English 
 
 /** wiki contents in Chinese
 
-## Contribution
+# Contribution
 
 You can submit contributions in two ways.
 
@@ -85,20 +96,5 @@ You can submit contributions in two ways.
     We recommend submitting contributions via git when multiple contents need to be imported or moved due to the inperfect function of batch operation in wikijs.
 
 
-## Obey the rules of contributions
-
-### Principles
-1. There are no restrictions on content topics, so any content helpful for deepin can be imported.
-
-1. However, any content shall not violate laws and regulations. Advertisements, insulting words and sensitive words are prohibited from appearing in the content.
-
-### Content Editing
-1. In a single interface, please use **secondary title** to distinguish the contents of each part, and then use **tertiary title** to describe each part.
-2. It is necessary to show **user ID** and **original essay address** at the beginning of the corresponding content if the imported content is from community user sharing experience.
-  
-### Pictures
-1. It is recommend that the picture format is jpg or png, with less than 150kB file size.
-2. To avoid disputes, please use personal original pictures or copyrightless pictures following CC0 License.
-3. Please name the imported picture with the related content, not with numbers or symbols.
 
 
