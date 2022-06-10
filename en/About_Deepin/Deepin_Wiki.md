@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-10T10:38:22.928Z
+date: 2022-06-10T10:39:11.454Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -13,6 +13,9 @@ Your content here
 ## Introduction
 
 This article is used to help users understand Deepin Wiki's editing methods and techniques.
+## Introduction
+
+The Deepin Wiki collects various information like experience of developing, system using  as well as helpful tips, then shares them to users. You can also have your own contribution here!
 
 ## Instructions
 
