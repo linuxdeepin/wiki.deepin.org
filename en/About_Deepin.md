@@ -2,7 +2,7 @@
 title: About_Deepin
 description: 
 published: true
-date: 2022-06-09T02:40:15.036Z
+date: 2022-06-10T10:21:16.225Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -15,7 +15,25 @@ dateCreated: 2022-05-13T08:00:55.855Z
 ## Mailstone  
 ### Release Plan in 2022 
 https://www.deepin.org/en/developer-community/planning/
-### History of Deepin 2022 years ago
+### Released in 2008-2015 years
+- based on  ubuntu 
+
+```mermaid
+graph LR
+  
+   1(Linux Kernel)---1.1(Debian)
+   1(Linux Kernel)---1.2(Fedora)
+   1.1(Debian)---2.1(Ubuntu)
+   1.1(Debian)---2.2(Other OS)
+   1.2(Fedora)---2.3(Redhat RHEL)
+   2.1(Ubuntu)---3.1(UbuntuKylin)
+   2.1(Ubuntu)---3.2(Deepin)
+   2.3(Redhat RHEL)---3.3(CentOS)
+   
+```
+
+### Released in 2015-2022 years
+- based on debian
 
 ```mermaid
 graph LR
@@ -34,7 +52,8 @@ graph LR
    
 ```
     
-### Plan of Deepin after 2023 years 
+### Plan of Deepin after 2022 year
+- based on kernel
 
 ```mermaid
 graph LR
