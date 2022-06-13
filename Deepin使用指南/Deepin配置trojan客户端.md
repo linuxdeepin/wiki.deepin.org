@@ -14,24 +14,16 @@ sudo apt install trojan
 mv /usr/share/doc/trojan/examples/client.json-example /etc/trojan/config.json
 #修改配置文件#
 sudo dedit /etc/trojan/config.josn
-
-......
-
- "remote_addr": "example.com"
-
-......"password": [
-
-        "password1"
-
-    ],
-
-......
-
- "ssl": {
-
-        "verify": flase,
-
-......
+```json
+  ......
+  "remote_addr": "example.com",
+  "password": [
+    "password1"
+  ],
+  "ssl": {
+    "verify": false
+  ......
+```
 
 我填写的flase，不是最正确的做法，但是方便，具体查看<https://github.com/trojan-gfw/trojan/issues/362>
 
