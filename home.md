@@ -2,7 +2,7 @@
 title: Deepin - 深度百科Wiki
 description: 深度百科wiki 旨在成为最终用户和开发人员的扩展文档。
 published: true
-date: 2022-06-13T03:04:52.868Z
+date: 2022-06-13T03:05:28.452Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -11,7 +11,7 @@ dateCreated: 2022-06-08T09:01:18.650Z
 ![deepin_logo_1.png](/deepin_logo_1.png)
 # 深度操作系统
 
-           Deepin(原名Linux Deepin)致力于为全球用户提供美观易用，安全可靠的Linux发行版。deepin项目于2008年发起，并在2009年发布了以linux deepin为名称的第一个版本。2014年4月更名为Deepin，在中国常被称为“深度操作系统“。 
+Deepin(原名Linux Deepin)致力于为全球用户提供美观易用，安全可靠的Linux发行版。deepin项目于2008年发起，并在2009年发布了以linux deepin为名称的第一个版本。2014年4月更名为Deepin，在中国常被称为“深度操作系统“。 
 
 Deepin基于Qt技术开发了深度桌面环境和深度控制中心，并且开发了一系列面向日常使用的深度特色应用如深度商店、深度截图、深度音乐、深度影院等。深度操作系统非常注重易用的体验和美观的设计，对于多数用户来说，它易于安装和使用，能方便地进行工作与娱乐。
 
