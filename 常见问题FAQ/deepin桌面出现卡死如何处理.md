@@ -2,8 +2,8 @@
 title: deepin桌面卡死如何处理
 description: 桌面卡死
 published: true
-date: 2022-06-13T08:08:43.764Z
-tags: 桌面, 卡死
+date: 2022-06-13T08:09:49.533Z
+tags: 卡死, 桌面
 editor: markdown
 dateCreated: 2022-06-13T08:03:28.189Z
 ---
@@ -19,7 +19,7 @@ Ctrl + ALT + T启用终端（Terminal）；若终端无法启用，使用ctrl+al
 - `reboot`         
 - `shutdown -t now`
 
-但若存在部分文档未保存，直接重启就会导致数据丢失。可以尝试使用以下方法：输入命令htop，查看各项进程占用CPU比率，CPU占用100%的进程一定异常，需把该进程杀死。可以使用的命令：
+但若存在部分文档未保存，直接重启就会导致数据丢失。可以尝试使用以下方法：输入命令top，查看各项进程占用CPU比率，CPU占用100%的进程一定异常，需把该进程杀死。可以使用的命令：
 - `kill -9 + PID    #PID为进程识别号`
 - `sudo systemctl restart lightdm    #重新加载图形界面`
 
