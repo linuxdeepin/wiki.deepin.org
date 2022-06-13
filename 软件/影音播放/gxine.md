@@ -2,13 +2,13 @@
 title: gxine
 description: gxine播放器
 published: true
-date: 2022-06-13T12:27:32.728Z
+date: 2022-06-13T12:31:18.286Z
 tags: gxine, xine
 editor: markdown
 dateCreated: 2022-06-13T12:16:47.028Z
 ---
 
-## 简介
+# 简介
 
 gxine 是一个基於gtk2的libxine免费的媒体播放器，支持 CDs, DVDs 和 VCDs，支持多媒体文件格式包括：AVI, MOV, WMV, 和 MP3等，支持直接从互联网上播放视频。
 
@@ -19,6 +19,14 @@ gxine 是一个基於gtk2的libxine免费的媒体播放器，支持 CDs, DVDs �
 ## 卸载
 
 `sudo apt-get remove gxine`
+
+## 插件安装
+
+`sudo apt-get install gxineplugin`
+
+## 插件卸载
+
+`sudo apt-get remove gxineplugin`
 
 ## 仓库地址
 
