@@ -2,7 +2,7 @@
 title: PCManFM-Qt
 description: PCManFM-Qt文件浏览器
 published: true
-date: 2022-06-13T06:12:22.913Z
+date: 2022-06-13T06:13:09.704Z
 tags: pcmanfm-qt
 editor: markdown
 dateCreated: 2022-06-13T06:12:22.913Z
@@ -27,4 +27,4 @@ PCMan File Manager Qt ( PCManFM-Qt) 是 LXQT 桌面默认的文件管理器，PC
 ## 常见问题
 
 ## 相关链接
-官方网站：https://apps.kde.org/dolphin/
+官方网站：https://github.com/lxqt/pcmanfm-qt
