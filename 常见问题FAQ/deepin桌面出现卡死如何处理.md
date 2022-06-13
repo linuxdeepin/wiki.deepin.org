@@ -2,7 +2,7 @@
 title: deepin桌面卡死如何处理
 description: 桌面卡死
 published: true
-date: 2022-06-13T08:09:49.533Z
+date: 2022-06-13T08:11:27.292Z
 tags: 卡死, 桌面
 editor: markdown
 dateCreated: 2022-06-13T08:03:28.189Z
@@ -15,7 +15,7 @@ dateCreated: 2022-06-13T08:03:28.189Z
 3. 启用某个进程导致（如打开wine qq）
 
 ## 解决方法
-Ctrl + ALT + T启用终端（Terminal）；若终端无法启用，使用ctrl+alt+Fn(主要针对笔记本)+F2/F3/F4/F5/F6进入tty界面，需输入帐户、密码。可以直接使用重启命令：
+Ctrl + Alt + T启用终端（Terminal）；若终端无法启用，使用Ctrl + Alt + Fn(主要针对笔记本) + F2/F3/F4/F5/F6进入tty界面，需输入帐户、密码。可以直接使用重启命令：
 - `reboot`         
 - `shutdown -t now`
 
@@ -23,4 +23,4 @@ Ctrl + ALT + T启用终端（Terminal）；若终端无法启用，使用ctrl+al
 - `kill -9 + PID    #PID为进程识别号`
 - `sudo systemctl restart lightdm    #重新加载图形界面`
 
-然后使用快捷键alt+ctrl+f1，回到图形界面即可。
+然后使用快捷键Ctrl + Alt + F1，回到图形界面即可。
