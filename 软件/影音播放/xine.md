@@ -2,7 +2,7 @@
 title: xine
 description: xine播放器
 published: true
-date: 2022-06-13T12:19:05.046Z
+date: 2022-06-13T12:23:24.254Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T12:11:26.380Z
@@ -10,8 +10,7 @@ dateCreated: 2022-06-13T12:11:26.380Z
 
 ## 简介
 
-Xine 是一个免费的媒体播放器，支持 CDs, DVDs 和 VCDs，支持多媒体文件格式包括：AVI, MOV, WMV, 和 MP3
-等，支持直接从互联网上播放视频。
+Xine 是一个免费的媒体播放器，支持 CDs, DVDs 和 VCDs，支持多媒体文件格式包括：AVI, MOV, WMV, 和 MP3等，支持直接从互联网上播放视频。
 
 ## 安装
 
