@@ -2,8 +2,8 @@
 title: gxine
 description: gxine播放器
 published: true
-date: 2022-06-13T12:22:52.489Z
-tags: xine, gxine
+date: 2022-06-13T12:27:32.728Z
+tags: gxine, xine
 editor: markdown
 dateCreated: 2022-06-13T12:16:47.028Z
 ---
@@ -27,6 +27,6 @@ gxine 是一个基於gtk2的libxine免费的媒体播放器，支持 CDs, DVDs �
 ## 常见问题
 
 ## 相关链接
-官方网站：https://sourceforge.net/projects/xine/ , http://xinehq.de/
+官方网站：https://www.linuxtv.org/wiki/index.php/Gxine
 
 维基百科：
