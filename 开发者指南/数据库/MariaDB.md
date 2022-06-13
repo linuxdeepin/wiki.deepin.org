@@ -2,7 +2,7 @@
 title: MariaDB
 description: MariaDB数据库管理系统
 published: true
-date: 2022-06-13T15:48:31.845Z
+date: 2022-06-13T16:31:18.828Z
 tags: mariadb, mysql
 editor: markdown
 dateCreated: 2022-05-12T06:01:47.459Z
@@ -10,7 +10,7 @@ dateCreated: 2022-05-12T06:01:47.459Z
 
 # 简介
 
-MariaDB 前身是MySQL，主要由开源社区在维护，MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。。
+MariaDB 前身是MySQL，主要由开源社区在维护，MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。
 
 ## 安装
 
