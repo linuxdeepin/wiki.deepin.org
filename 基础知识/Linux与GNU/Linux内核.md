@@ -2,7 +2,7 @@
 title: Linux内核
 description: 
 published: true
-date: 2022-06-13T01:31:49.871Z
+date: 2022-06-13T01:33:07.254Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:32.004Z
@@ -20,7 +20,7 @@ Linux 内核是在 GNU 通用公共许可证第 2 版之下发布的（加上一
 
 贡献者遍布世界各地，日常开发在 Linux 内核邮件列表。
 
-## 源代码 {.tabset}
+## 源代码
 
 一般情况下 Linux 内核源代码位于 `/usr/src/linux` 目录下。
 
