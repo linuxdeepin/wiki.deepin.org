@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-14T05:17:03.920Z
+date: 2022-06-14T05:17:48.408Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -17,10 +17,8 @@ dateCreated: 2022-05-24T04:47:14.524Z
 &emsp; Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
 
 # Catalogue Structure
-
 - /en/ wiki contents in English 
 - /zh/ wiki contents in Chinese
-
 # Discussion
 
 &emsp; Each article has its own "conversation page" where you can ask questions, make suggestions, or discuss corrections.
