@@ -2,7 +2,7 @@
 title: Deepin - Deepin Linux Distribution  Wiki
 description: Deepin Wiki is designed to be an extended documentation for end users and developers.
 published: true
-date: 2022-06-14T09:43:14.300Z
+date: 2022-06-14T09:45:12.042Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -68,9 +68,9 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 Wiki.js is fully extensible for maximum customization.
 
-- [Programming Language *C/C++, GOLANG, Python, C#.*](/guide/developer)
-- [Frameworks *.NET,  DTK.*](/guide/developer)
-- [IDE *VSCode  Eclipse .*](/guide/developer)
+- [Programming Language *C/C++, GOLANG, Python, C#.*](/development)
+- [Frameworks *.NET,  DTK.*](/development)
+- [IDE *VSCode  Eclipse .*](/development)
 {.links-list}
 
 # Contribute
