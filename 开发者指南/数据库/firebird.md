@@ -2,13 +2,13 @@
 title: Firebird
 description: Firebird数据库
 published: true
-date: 2022-06-14T14:20:16.367Z
+date: 2022-06-14T14:21:19.329Z
 tags: firebird
 editor: markdown
 dateCreated: 2022-06-14T14:10:27.809Z
 ---
 
-## 简介
+# 简介
 
 Firebird RDBMS 基于 InterBase 6.0 的代码开发 。
 
