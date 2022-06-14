@@ -2,7 +2,7 @@
 title: 在Linux中使用flatpak
 description: Flatpak是一个程序包管理实用程序，可让您分发，安装和管理软件，而不必担心依赖项，运行时或Linux分发。由于您可以安装软件而没有任何问题，而与Linux发行版无关（无论是基于Debian的发行版还是基于Arch的发行版），因此Flatpak称为通用软件包。
 published: true
-date: 2022-06-14T06:59:33.615Z
+date: 2022-06-14T07:11:51.386Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T06:30:47.687Z
@@ -28,7 +28,7 @@ flatpak update xxx
 flatpak  run xxx
 
 ---------------------------------------------
-# flatpak安装包下载
+# Flatpak安装包下载
 https://flatpak.org/setup/
 # Flathub仓库
 https://www.flathub.org/apps
