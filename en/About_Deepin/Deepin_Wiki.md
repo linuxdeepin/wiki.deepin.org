@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-14T05:05:18.208Z
+date: 2022-06-14T05:17:03.920Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -42,12 +42,12 @@ You can submit contributions in two ways.
 
 &emsp; Editors can provide information about the entire new paragraph or page, or as simple as repairing misspellings or spelling errors. In general, try to add or edit text to make it clear and concise. The most important thing is to make sure you are improving the encyclopedia to make it more accurate.
 
-&emsp; When you need to use a certain type of format, for example for new or bold text, you can use the markdown syntax or edit the buttons in the edit toolbar above the area.
+&emsp; When you need to use a certain type of format, for example for new or bold text, you can use the **markdown syntax** or edit the buttons in the edit toolbar above the area.
 ## Edit methods
 
-1. Click the "Edit" tab at the top of the page.
-2. Change the text.
-3. Click the "Save" button.
+1. Click the "Page Actions-->Edit" tab at the top of the page.
+2. Modify the text content in the editors.
+3. Click the "Save" button at the top of the page.
 
 ## Edit the Summary
 
