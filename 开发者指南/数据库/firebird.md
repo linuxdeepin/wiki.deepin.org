@@ -2,7 +2,7 @@
 title: Firebird
 description: Firebird数据库
 published: true
-date: 2022-06-14T14:10:27.809Z
+date: 2022-06-14T14:20:16.367Z
 tags: firebird
 editor: markdown
 dateCreated: 2022-06-14T14:10:27.809Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-14T14:10:27.809Z
 
 ## 简介
 
-Clang 是一个用 C++ 编写、基于LLVM，支持（C、C++、Objective C/C++、OpenCL、CUDA和RenderScript）语言的编译器。提供了与GCC兼容clang编译器和与MSVC的cl.exe兼容的clang-cl.exe编译器。 
+Firebird RDBMS 基于 InterBase 6.0 的代码开发 。
 
 ## 安装
 
@@ -28,6 +28,6 @@ Clang 是一个用 C++ 编写、基于LLVM，支持（C、C++、Objective C/C++�
 ## 常见问题
 
 ## 相关链接
-官方网站：https://clang.llvm.org/
+官方网站：https://firebirdsql.org/ ， https://sourceforge.net/projects/firebird/
 
 维基百科：
