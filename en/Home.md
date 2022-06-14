@@ -2,7 +2,7 @@
 title: Deepin - Deepin Linux Distribution  Wiki
 description: Deepin Wiki is designed to be an extended documentation for end users and developers.
 published: true
-date: 2022-06-09T07:44:16.380Z
+date: 2022-06-14T09:43:14.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -57,7 +57,7 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 # Administrator Guide
 - [File & Directory*File & Directory*](/system_management/file_and_directory)
-- [User & Groups *User & Groups*](/system_management/user_group)
+- [User & Groups *User & Groups*](/system_management/user_and_group)
 - [Storage Management *partition table and file system.*](/system_management/storage_management)
 - [Process Management *kill a process*](/system_management/process_management)
 - [Services Management *install a server*](/system_management/service_management)
