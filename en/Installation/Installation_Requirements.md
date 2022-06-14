@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-05-25T12:58:46.545Z
+date: 2022-06-14T08:49:15.225Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -44,33 +44,63 @@ The installation media can be burned to a CD, or now more commonly, “burned”
 4.The capacity of USB disk should not be less than 4G, or it can not create a bootable disk successfully.
 5.Don't touch the USB disk during the production process, so as to avoid writing failure due to incomplete production.
 
-# Check Hardware Requirement
-## Minimum Hardware Specifications
+# Minimum Hardware Specifications
 
-Please ensure that your computer meets the following requirements, otherwise you may not experience deepin perfectly:
+&emsp;Please ensure that your computer meets the following requirements, otherwise you may not experience deepin perfectly:
 
-- Architecture: x86_64 (AMD or Intel)
-- CPU: Intel Pentium IV 2GHz or higher
-- Memory: more than 4G RAM,8G or higher is recommended
-- Disk: more than 64 GB free disk space,120 GB or higher is recommended 
+## Table of Minimum Hardware Specifications
 
-Table of Minimum Hardware Specifications
-
-| **Component** |                 **Minimum Hardware Specifications**              |
+| **Component** |                 **Minimum Hardware Specifications**             |
 | :------------ | :-------------------------------------------------------------- |
-| Architecture  | x86_64                                                      |
-| CPU           | ≥ Intel Pentium IV 2GHz                                     |
+| Architecture  | Amd64 (AMD or Intel)                                       |
+| CPU           | ≥ Intel Pentium IV 2GHz or higher                               |
 | Memory        | ≥ 4 GB (8 GB or higher recommended for better user experience)   |
 | Hard disk     | ≥ 64 GB (120 GB or higher recommended for better user experience)|
 
-## Hardware compatibility
+# Motherboard Settings
 
-# Change Motherboard Settings
+## How to choose BIOS boot mode when booting deepin Setup ?
+There are two style of boot mode in motherboard firmware :  
+- UEFI Mode 
+- Legacy BIOS Mode
 
+In general, install deepin using the newer UEFI mode, as it includes more better features than the legacy BIOS mode.After deepin is installed, the device boots automatically using the same mode it was installed with.
+
+## How to change the boot mode setting ?
+ 1. Boot the PC, and press the motherboard manufacturer's key to open the BIOS menus.
+ 
+> Note: Common keys used: Esc, Delete, F1, F2, F10, F11, or F12. During startup, there's often a screen that mentions the key. If there's not one, or if the screen goes by too fast to see it, check your manufacturer's site.
+
+2. Select legacy only/UEFI only in boot section in BIOS menus, or select both in boot option and set legacy first/UEFI first in boot priority option
+
+## How to make sure  you're booted into the right boot mode every time you start your PC?
+
+There are two style of partition style in hard disk:
+- GPT partition style 
+- MBR partition style
+
+If you want to ensure that your drive boots into a certain mode, use disk that you've preformatted with the GPT partition style for UEFI mode, or the MBR partition style for BIOS mode.
+
+- GPT partition style + UEFI boot mode
+- MBR partition style + legacy BIOS mode
+
+> Note: When the installation starts, if the PC is booted to the wrong mode, deepin installation will fail. To fix this, restart the PC in the correct boot mode.
+
+#### Summary of BIOS settings
+
+| Option | Value |
+| --- | --- |
+| Secure Boot | Disabled |
+| OS Optimized |Others or Disabled
+| CSM(Compatibility Support Module) Support | Yes or Enabled |
+| Boot | Legacy only or UEFI only or Both
+| Boot Priority (Boot=both) | Legacy First or UEFI First |
+
+## Boot Device Priority
 &emsp;Usually, the computer boots from hard disk, so before system installation, you should enter BIOS to set CD/USB flash drive as the first boot entry.
 &emsp;For desktop computer, you can press <kbd>Delete</kbd> key, but for laptop, you can press the shortcut key to enter boot menu.
 
-For example, the shortcut keys might be: 
+#### The shortcut keys of laptop might be: 
 | Laptop | Key |
 |---|---|
 | HP | F10 | 
@@ -84,7 +114,14 @@ For example, the shortcut keys might be:
 
 > Note: If your computer's motherboard is in UEFI mode, please turn off Secure Boot in the motherboard settings, then restart the computer and press the key in the BIOS/UEFI interface which indicates "change boot order". 
 
-# Planning Disk Partitions
+# Disk Partitions and File System
+
+| **Mount point** |	**Name**	| **File system**	| **Size** |
+| --- | --- | --- | --- | 
+| / | root (required)	| EXT4(recommend)	| more than 15G |
+| /home | home (recommend) |	EXT4(recommend) |	more than 15G |
+| swap | swap(optional) |	None | less than 4G memory should get 4G size, memory more than 4G can ignore |
+
 # Install Mode
 ## install on physical host
 ## install on virtual machine
