@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-14T04:35:58.612Z
+date: 2022-06-14T04:37:07.095Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -37,7 +37,7 @@ You can submit contributions in two ways.
 
     We recommend submitting contributions via git when multiple contents need to be imported or moved due to the inperfect function of batch operation in wikijs.
 
-## Edit help
+# Edit help
 ### Edit methods
 1. Click the "Edit" tab at the top of the page.
 2. Change the text.
@@ -62,7 +62,7 @@ Using wiki editing, you can start a new page, move (or rename) a page, or even d
 
 Remember that you should always aim to improve the overall content of your encyclopedia with your editors.
 
-# Edit Rules
+## Edit Rules
 
 ## Obey the rules of contributions
 This article is used to help users understand Deepin Wiki's editing methods and techniques. 
