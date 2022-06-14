@@ -2,19 +2,40 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-10T11:28:05.612Z
+date: 2022-06-14T04:35:58.612Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
 ---
 
 # Introduction
+
  > Deepin community official wiki website for sharing the relevent technique of Deepin and Linux.
  
 &emsp; The Deepin Wiki collects various information like experience of developing, system using  as well as helpful tips, then shares them to users.You can also have your own contribution here!
 &emsp; This is wiki content synchronization repository. The website content between https://wiki.deepin.org and https://github.com/linuxdeepin/wiki.deepin.org perform **two-way synchronization** every five minutes.
 &emsp; Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
 
+# Catalogue Structure
+
+- /en/ wiki contents in English 
+- /zh/ wiki contents in Chinese
+
+# Discussion
+
+&emsp; Each article has its own "conversation page" where you can ask questions, make suggestions, or discuss corrections.
+
+# Contribution
+
+You can submit contributions in two ways.
+
+1. Edit via website
+
+    wiki.deepin.org is built using wikijs, with an easy-to-use interface and simple operation logic. We are currently recruiting contributors, welcome to [click here](https://wiki.deepin.org/zh/%E5%85%B3%E4%BA%8EDeepin/Deepin_Wiki/%E5%8F%82%E4%B8%8E%E6%90%AD%E5%BB%BA) to submit your contributions. 
+
+2. Submit via git
+
+    We recommend submitting contributions via git when multiple contents need to be imported or moved due to the inperfect function of batch operation in wikijs.
 
 ## Edit help
 ### Edit methods
@@ -68,29 +89,13 @@ Editors can provide information about the entire new paragraph or page, or as si
 When you need to use a certain type of format, for example for new or bold text, you can use the markdown syntax or edit the buttons in the edit toolbar above the area.
 
 
-# Discussion
-
-Each article has its own "conversation page" where you can ask questions, make suggestions, or discuss corrections.
 
 
 
-# Catalogue Structure
 
-/en/ wiki contents in English 
 
-/zh/ wiki contents in Chinese
 
-# Contribution
 
-You can submit contributions in two ways.
-
-1. Edit via website
-
-    wiki.deepin.org is built using wikijs, with an easy-to-use interface and simple operation logic. We are currently recruiting contributors, welcome to [click here](https://wiki.deepin.org/zh/%E5%85%B3%E4%BA%8EDeepin/Deepin_Wiki/%E5%8F%82%E4%B8%8E%E6%90%AD%E5%BB%BA) to submit your contributions. 
-
-2. Submit via git
-
-    We recommend submitting contributions via git when multiple contents need to be imported or moved due to the inperfect function of batch operation in wikijs.
 
 
 
