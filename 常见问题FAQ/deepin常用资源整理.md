@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:11:04.419Z
+date: 2022-06-15T03:11:41.380Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -28,3 +28,18 @@ dateCreated: 2022-06-15T02:54:30.594Z
 3. 写给deepin小白的入门教程：https://bbs.deepin.org/zh/post/209755
 4. 深度系统浅度入门指南：https://bbs.deepin.org/zh/post/206130
 5. 终于基本能用了，分享一下心得：https://bbs.deepin.org/zh/post/217375
+
+### 1.2 知识汇总
+1. 助力UOS总站：论坛页面  腾讯文档页面
+2. 统信UOS家庭版帮助文档：https://home.uniontech.com/help/zh_CN/Home/21.3/dde.html
+3. Deepin Community Wiki：https://deepin.wiki/index.php?title= 
+4. 深度易经：https://github.com/bubifengyun/deepin-bible （作者）  金山文档转存链接
+5. deepin折腾笔记：https://bbs.deepin.org/zh/post/191781  金山文档转存链接(v6.6) 
+6. 自己摸索的一些解决方案汇总 ：https://bbs.deepin.org/zh/post/209636  
+
+
+
+### 1.3 博客等
+1. 青菜芋子的博客：https://loafing.cn/tags/Deepin/
+2. shenmo的世界 | Linux：https://shenmo7192.gitee.io/tags/linux
+3. ManateeLazyCat的博客：https://manateelazycat.github.io
