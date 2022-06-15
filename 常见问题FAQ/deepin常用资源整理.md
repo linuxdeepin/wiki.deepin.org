@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T05:56:21.357Z
+date: 2022-06-15T06:18:55.943Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -186,30 +186,32 @@ dateCreated: 2022-06-15T02:54:30.594Z
 9. 格式化硬盘后文件管理器显示62.3G占用：https://bbs.deepin.org/post/238570
 
 **2.6.7 其它** 
-优雅地创作和分享技术博客：https://bbs.deepin.org/post/228934
-在deepin上使用LaTeX：https://bbs.deepin.org/zh/post/229734
-一句命令行安装live系统 解决手动分区无备份还原系统等问题：https://bbs.deepin.org/zh/post/215165
-Windows ssh 客户端 PuTTY 正向与反向流量转发（转）：https://bbs.deepin.org/zh/post/230148
-deepin下ssh常用网络功能：https://bbs.deepin.org/zh/post/231835
-桌面固定网络驱动器的教程视频-适用群晖、威联通NAS/共享文件夹：https://bbs.deepin.org/zh/post/231878
-助力轻松修改你的系统用户名：https://bbs.deepin.org/zh/post/232575
-深度文件管理器改造小记：https://bbs.deepin.org/zh/post/237345
-找了很久的 while 无限循环终于解决了输入判断的问题：https://bbs.deepin.org/zh/post/236712
-自定义控制中心的关于本机：https://bbs.deepin.org/zh/post/237500
-如何设置锁屏时间为3min?：https://bbs.deepin.org/zh/post/237606
-控制中心 VPN 网关只能输入 IP 地址很反人类？试试这个：https://bbs.deepin.org/zh/post/238342
-2.7 系统美化
-2.7.1 壁纸
-壁纸图片见下面的“5.3 壁纸”。
-壁纸与屏保--让你的deepin更好用：https://bbs.deepin.org/zh/post/225531
-修改锁屏壁纸：https://bbs.deepin.org/zh/post/224150
-让Deepin吃上macOS的动态壁纸：https://bbs.deepin.org/zh/post/206933
-deepin上超好用的动态壁纸软件-幻梦动态壁纸：https://bbs.deepin.org/zh/post/220785
-幻梦动态壁纸,DIY系统版：https://bbs.deepin.org/zh/post/228082
-发现deepin登陆壁纸寻找逻辑：https://bbs.deepin.org/zh/post/227912
-觉得启动器背景太丑？试试这个：https://bbs.deepin.org/zh/post/237678
-教你怎样自己制作暗色壁纸：https://bbs.deepin.org/zh/post/238967
-2.7.2 程序窗口
+1. 优雅地创作和分享技术博客：https://bbs.deepin.org/post/228934
+2. 在deepin上使用LaTeX：https://bbs.deepin.org/zh/post/229734
+3. 一句命令行安装live系统 解决手动分区无备份还原系统等问题：https://bbs.deepin.org/zh/post/215165
+4. Windows ssh 客户端 PuTTY 正向与反向流量转发（转）：https://bbs.deepin.org/zh/post/230148
+5. deepin下ssh常用网络功能：https://bbs.deepin.org/zh/post/231835
+6. 桌面固定网络驱动器的教程视频-适用群晖、威联通NAS/共享文件夹：https://bbs.deepin.org/zh/post/231878
+7. 助力轻松修改你的系统用户名：https://bbs.deepin.org/zh/post/232575
+8. 深度文件管理器改造小记：https://bbs.deepin.org/zh/post/237345
+9. 找了很久的 while 无限循环终于解决了输入判断的问题：https://bbs.deepin.org/zh/post/236712
+10. 自定义控制中心的关于本机：https://bbs.deepin.org/zh/post/237500
+11. 如何设置锁屏时间为3min?：https://bbs.deepin.org/zh/post/237606
+12. 控制中心 VPN 网关只能输入 IP 地址很反人类？试试这个：https://bbs.deepin.org/zh/post/238342
+
+### 2.7 系统美化
+**2.7.1 壁纸**
+1. 壁纸图片见下面的“5.3 壁纸”
+2. 壁纸与屏保--让你的deepin更好用：https://bbs.deepin.org/zh/post/225531
+3. 修改锁屏壁纸：https://bbs.deepin.org/zh/post/224150
+4. 让Deepin吃上macOS的动态壁纸：https://bbs.deepin.org/zh/post/206933
+5. deepin上超好用的动态壁纸软件-幻梦动态壁纸：https://bbs.deepin.org/zh/post/220785
+6. 幻梦动态壁纸,DIY系统版：https://bbs.deepin.org/zh/post/228082
+7. 发现deepin登陆壁纸寻找逻辑：https://bbs.deepin.org/zh/post/227912
+8. 觉得启动器背景太丑？试试这个：https://bbs.deepin.org/zh/post/237678
+9. 教你怎样自己制作暗色壁纸：https://bbs.deepin.org/zh/post/238967
+
+**2.7.2 程序窗口**
 一行命令美化标题栏大额头，可设置任意高度和任意颜色：https://bbs.deepin.org/zh/post/197036
 定制版最大化最小化关闭按钮：https://bbs.deepin.org/zh/post/210071
 将菜单显示在标题栏上：https://bbs.deepin.org/zh/post/224774
