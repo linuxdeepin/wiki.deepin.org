@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:20:23.420Z
+date: 2022-06-15T03:24:14.489Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -68,19 +68,23 @@ dateCreated: 2022-06-15T02:54:30.594Z
 19. 自制 deepin Live CD——1.1.0——支持本地安装启动：https://bbs.deepin.org/zh/post/236521
 20. 【建议】使用Btrfs分区方案：https://bbs.deepin.org/zh/post/238188
 
-附  在U盘上安装deepin
+**附  在U盘上安装deepin**
+
 建议在USB 3.0或以上的U盘中安装deepin，启动时使用电脑的USB 3.0接口，否则会很卡。U盘存储空间至少为20GB。
-[grub实现]U盘引导多个linux镜像安装,同时支持BIOS和UEFI模式：https://my.oschina.net/abcfy2/blog/491140
-关于 Linux/Deepin to go 的一些心得：https://bbs.deepin.org/zh/post/224084
-简单6步，把deepin装进口袋：https://bbs.deepin.org/zh/post/224438
-Deepin装在 vhd/vdi 中使用：https://bbs.deepin.org/zh/post/209674
-2.2 系统启动和引导
-启动显示BusyBox … built-in shell(ash) ：https://www.cnblogs.com/lbhqq/p/6964746.html
-Grub进入命令行：https://bbs.deepin.org/zh/post/210805
-华为、荣耀笔记本双系统无法正常引导Windows解决办法：https://bbs.deepin.org/zh/post/205701
-grub修复：https://bbs.deepin.org/zh/post/222216 （这里的修复只适用于部分情况）
-无法开机，提示You are in emergency mode ... Cannot open access：https://bbs.deepin.org/zh/post/237419
-2.3 系统内核
+
+1. [grub实现]U盘引导多个linux镜像安装,同时支持BIOS和UEFI模式：https://my.oschina.net/abcfy2/blog/491140
+2. 关于 Linux/Deepin to go 的一些心得：https://bbs.deepin.org/zh/post/224084
+3. 简单6步，把deepin装进口袋：https://bbs.deepin.org/zh/post/224438
+4. Deepin装在 vhd/vdi 中使用：https://bbs.deepin.org/zh/post/209674
+
+### 2.2 系统启动和引导
+1. 启动显示BusyBox … built-in shell(ash) ：https://www.cnblogs.com/lbhqq/p/6964746.html
+2. Grub进入命令行：https://bbs.deepin.org/zh/post/210805
+3. 华为、荣耀笔记本双系统无法正常引导Windows解决办法：https://bbs.deepin.org/zh/post/205701
+4. grub修复：https://bbs.deepin.org/zh/post/222216 （这里的修复只适用于部分情况）
+5. 无法开机，提示You are in emergency mode ... Cannot open access：https://bbs.deepin.org/zh/post/237419
+
+### 2.3 系统内核
 双内核使用说明：https://bbs.deepin.org/zh/post/216952
 操作系统的内核到底是什么：https://bbs.deepin.org/zh/post/229142
 deepin20.5+Linux内核5.18稳定版：https://bbs.deepin.org/zh/post/237619
