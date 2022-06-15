@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:12:20.793Z
+date: 2022-06-15T03:15:53.908Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -43,9 +43,11 @@ dateCreated: 2022-06-15T02:54:30.594Z
 2. shenmo的世界 | Linux：https://shenmo7192.gitee.io/tags/linux
 3. ManateeLazyCat的博客：https://manateelazycat.github.io
 
-二、系统
-2.1 系统安装
+## 二、系统
+### 2.1 系统安装
+
 安装deepin 20.4之后的版本，安装器能自动识别已有EFI分区，无需再另外手动创建。
+
 安装教程（官方）：https://www.deepin.org/zh/installation/
 win10下的Deepin双系统安装小白教程：https://bbs.deepin.org/zh/post/197659  金山文档转存链接
 如何安装deepin-windows双系统：https://bbs.deepin.org/zh/post/222739
