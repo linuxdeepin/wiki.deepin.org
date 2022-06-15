@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:24:17.756Z
+date: 2022-06-15T03:36:12.775Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -85,36 +85,41 @@ dateCreated: 2022-06-15T02:54:30.594Z
 5. 无法开机，提示You are in emergency mode ... Cannot open access：https://bbs.deepin.org/zh/post/237419
 
 ### 2.3 系统内核
-双内核使用说明：https://bbs.deepin.org/zh/post/216952
-操作系统的内核到底是什么：https://bbs.deepin.org/zh/post/229142
-deepin20.5+Linux内核5.18稳定版：https://bbs.deepin.org/zh/post/237619
-如何编译安装Linux内核：https://www.cnblogs.com/harrypotterjackson/p/11846222.html
-2.4 硬件和设备
-显卡笔记本安装N卡闭源驱动教程：https://bbs.deepin.org/zh/post/215066
-Deepin双显卡之bumblebee(大黄蜂)、Prime及手动切换方案：https://bbs.deepin.org/zh/post/210053
-NVIDIA独立显卡的安装方法：https://bbs.deepin.org/zh/post/223856
-一键安装NVIDIA显卡驱动：https://bbs.deepin.org/zh/post/227866
-UOS/DEEPIN安装nvidia最新闭源驱动的教程：https://bbs.deepin.org/zh/post/232923
-deepin安装N卡驱动教程：https://bbs.deepin.org/zh/post/238766
-uos和deepin安装较新amd显卡驱动完整版：https://bbs.deepin.org/zh/post/237734
-屏幕闪烁问题的解决办法：https://bbs.deepin.org/zh/post/224687
-如何解决系统安装之后没有声音的情况：https://bbs.deepin.org/zh/post/195889
-20.3打印成功经验分享：https://bbs.deepin.org/zh/post/228900
-关于使用虚拟机解决驱动问题的可能性探讨：https://bbs.deepin.org/zh/post/228005
-linux下外设辅助软件推荐：https://bbs.deepin.org/zh/post/226246
-安装兄弟Brother打印机扫描驱动及配置文件的方法：https://bbs.deepin.org/zh/post/232569
-惠普打印扫描一体机开启扫描功能：https://bbs.deepin.org/zh/post/238968
-2.5 问题解决
-deepin和windows双系统时间不同步的解决方法：https://bbs.deepin.org/zh/post/220213  最好的方法是分别设置Windows和Linux的时间与网络同步
-用snapd安装软件后出现多个磁盘：https://bbs.deepin.org/zh/post/203517 （解决方法在7楼）
-终于干掉snapd分区了：https://bbs.deepin.org/zh/post/213673
-出现I/O或者blk报错的简易解决方法：https://bbs.deepin.org/zh/post/224416
-dde-control-center的快捷键设置无法拉起deepin-screen-recorder：https://bbs.deepin.org/zh/post/227910
-禁止kwin的自动关闭3D窗管的方法：https://bbs.deepin.org/zh/post/232810
-还在为没有公钥导致的无法更新而烦恼吗？这里有解决方案：https://bbs.deepin.org/zh/post/237312
-deepin忘记密码怎么办？--Live系统一步修改用户密码：https://bbs.deepin.org/zh/post/238135  （注意：任何人都可以重设密码，因此请勿单纯依赖系统密码来保护数据安全）
-2.6 系统使用
-2.6.1 桌面环境
+1. 双内核使用说明：https://bbs.deepin.org/zh/post/216952
+2. 操作系统的内核到底是什么：https://bbs.deepin.org/zh/post/229142
+3. deepin20.5+Linux内核5.18稳定版：https://bbs.deepin.org/zh/post/237619
+4. 如何编译安装Linux内核：https://www.cnblogs.com/harrypotterjackson/p/11846222.html
+
+### 2.4 硬件和设备
+1. 显卡笔记本安装N卡闭源驱动教程：https://bbs.deepin.org/zh/post/215066
+2. Deepin双显卡之bumblebee(大黄蜂)、Prime及手动切换方案：https://bbs.deepin.org/zh/post/210053
+3. NVIDIA独立显卡的安装方法：https://bbs.deepin.org/zh/post/223856
+4. 一键安装NVIDIA显卡驱动：https://bbs.deepin.org/zh/post/227866
+5. UOS/DEEPIN安装nvidia最新闭源驱动的教程：https://bbs.deepin.org/zh/post/232923
+6. deepin安装N卡驱动教程：https://bbs.deepin.org/zh/post/238766
+7. uos和deepin安装较新amd显卡驱动完整版：https://bbs.deepin.org/zh/post/237734
+8. 屏幕闪烁问题的解决办法：https://bbs.deepin.org/zh/post/224687
+9. 如何解决系统安装之后没有声音的情况：https://bbs.deepin.org/zh/post/195889
+10. 20.3打印成功经验分享：https://bbs.deepin.org/zh/post/228900
+11. 关于使用虚拟机解决驱动问题的可能性探讨：https://bbs.deepin.org/zh/post/228005
+12. linux下外设辅助软件推荐：https://bbs.deepin.org/zh/post/226246
+13. 安装兄弟Brother打印机扫描驱动及配置文件的方法：https://bbs.deepin.org/zh/post/232569
+14. 惠普打印扫描一体机开启扫描功能：https://bbs.deepin.org/zh/post/238968
+
+2.5 问题解决  
+1. deepin和windows双系统时间不同步的解决方法：https://bbs.deepin.org/zh/post/220213  最好的方法是分别设置Windows和Linux的时间与网络同步
+2. 用snapd安装软件后出现多个磁盘：https://bbs.deepin.org/zh/post/203517 （解决方法在7楼）
+3. 终于干掉snapd分区了：https://bbs.deepin.org/zh/post/213673
+4. 出现I/O或者blk报错的简易解决方法：https://bbs.deepin.org/zh/post/224416
+5. dde-control-center的快捷键设置无法拉起deepin-screen-recorder：https://bbs.deepin.org/zh/post/227910
+6. 禁止kwin的自动关闭3D窗管的方法：https://bbs.deepin.org/zh/post/232810
+7. 还在为没有公钥导致的无法更新而烦恼吗？这里有解决方案：https://bbs.deepin.org/zh/post/237312
+8. deepin忘记密码怎么办？--Live系统一步修改用户密码：https://bbs.deepin.org/zh/post/238135  （注意：任何人都可以重设密码，因此请勿单纯依赖系统密码来保护数据安全）
+
+### 2.6 系统使用  
+
+**2.6.1 桌面环境**  
+
 在Linux中创建应用图标：https://bbs.deepin.org/zh/post/225323
 安装gnome：https://bbs.deepin.org/zh/post/207834（见回复）
 通过外部应用实现的热区：omd-requ：https://bbs.deepin.org/zh/post/226623
