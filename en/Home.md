@@ -2,7 +2,7 @@
 title: Deepin - Deepin Linux Distribution  Wiki
 description: Deepin Wiki is designed to be an extended documentation for end users and developers.
 published: true
-date: 2022-06-14T09:45:12.042Z
+date: 2022-06-15T00:35:07.934Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -15,12 +15,12 @@ dateCreated: 2022-05-11T10:54:00.186Z
 
 Deepin is a Linux distribution dedicated to providing beautiful, easy to use, secure and stable services to users around the world, and has always been the highest ranked Linux distribution developed by a Chinese team .
 
-- [deepin linux *Introduction to the deepin linux.*](./About_Deepin)
-- [Mailstone *history of Deepin linux distribution.*](./About_Deepin)
-- [Key features *differences between deepin and other distributions.*](./About_Deepin)
-- [Offical applications *Deepin-moive deepin-paint deepin-terminal.*](./About_Deepin)
-- [Source Code *https://github.com/linuxdeepin.*](./About_Deepin)
-- [Image source list *https://www.deepin.org/zh/mirrors/releases*](./About_Deepin)
+- [deepin linux *Introduction to the deepin linux.*](/About_Deepin/Deepin_Profile)
+- [Mailstone *history of Deepin linux distribution.*](/About_Deepin/Deepin_Profile)
+- [Key features *differences between deepin and other distributions.*](/About_Deepin/Deepin_Profile)
+- [Offical applications *Deepin-moive deepin-paint deepin-terminal.*](/About_Deepin/Deepin_Profile)
+- [Source Code *https://github.com/linuxdeepin.*](/About_Deepin/Deepin_Profile)
+- [Image source list *https://www.deepin.org/zh/mirrors/releases*](/About_Deepin/Deepin_Profile)
 {.links-list}
 
 # Our Community
