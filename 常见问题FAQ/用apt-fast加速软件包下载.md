@@ -2,7 +2,7 @@
 title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T02:12:08.811Z
+date: 2022-06-15T02:12:19.372Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -90,6 +90,7 @@ A2166B8DE8BDC3367D1901C11EE2FF37CA8DA16B`
 
 视频链接：
 https://www.bilibili.com/video/BV1JZ4y1f7At?share_source=copy_web
+
 
 
 由于作者能力有限，若文章存在需要改进之处，或者apt-fast最新版本在deepin上有bug，请指出。
