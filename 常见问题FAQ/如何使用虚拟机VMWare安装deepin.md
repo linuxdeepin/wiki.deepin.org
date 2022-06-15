@@ -2,8 +2,8 @@
 title: 如何使用虚拟机VMWare Workstation安装deepin
 description: VMWare Workstation安装deepin
 published: true
-date: 2022-06-15T02:18:22.869Z
-tags: vmware, 虚拟机, deepin
+date: 2022-06-15T02:41:53.638Z
+tags: deepin, vmware, 虚拟机
 editor: markdown
 dateCreated: 2022-06-15T02:18:22.869Z
 ---
@@ -47,21 +47,21 @@ VMware workstation 提供主机运行的硬件基础，deepin提供主机运行�
 - 不立即分配所有磁盘空间，主要是虚拟磁盘会占用物理机的磁盘空间。我们珍惜一下物理机的磁盘空间
 - 存储为单个文件，便于以后成为高级玩家以后，可以把虚拟机到处拷贝，导入到其他物理机
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060856403015_image.png)
+
 然后选择磁盘的格式，默认即可
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060858555541_image.png)
 接下来是配置汇总清单
 ![alt 新建虚拟机向导](	https://storage.deepin.org/thread/20220306085920408_image.png)
 到这里，我们就组装好了一台电脑，点击选择【完成】即可。
-
 以下内容是我个人习惯配置，仅供参考，与本节内容无关：
-
 点击【自定义硬件】，我们还可以对配置好的硬件，进行各种自定义和修改
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060901037387_image.png)
 假如你想在deepin里面体验虚拟化，比如配置kvm环境，那么需要点击【处理器】勾选【虚拟化引擎】功能，如下图：
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060902146831_image.png)
 如果你想给虚拟机固定MAC地址（网卡ID），在【网络适配器】选择高级，然后配置MAC地址，如下图：
 
-本篇把deepin20的虚拟机地址配置为：00:00:00:80:00:20。以后deepinV23的话，可以设置为：00:00:00:80:00:23，便于区分对比
+> 本篇把deepin20的虚拟机地址配置为：00:00:00:80:00:20。以后deepinV23的话，可以设置为：00:00:00:80:00:23，便于区分对比
+
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060903295429_image.png)
 最后是【显示器】选择，如下，禁用3D加速即可
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060905065356_image.png)
@@ -69,6 +69,7 @@ VMware workstation 提供主机运行的硬件基础，deepin提供主机运行�
 - 多网卡
 - 双系统
 - 等
+
 还可以选择【添加】，来配置更多的硬件环境。如下图：
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/20220306084714495_image.png)
 ## 安装操作系统deepin
@@ -92,7 +93,7 @@ VMware workstation 提供主机运行的硬件基础，deepin提供主机运行�
 
 没关系，不要忘了我们正在使用VMware，而且我们玩的是虚拟机。那么这些问题重要吗？不重要，为啥？大不了重新来呗。虚拟机不就是用来体验摸索的嘛，摸索熟了，自然就知道了对吧。
 
-那么首先来一个重磅功能：快照！
+**那么首先来一个重磅功能：快照！**
 
 快照很好理解。照相知道吧，照相能保留快门按下的那一瞬间，你的动作，表情，神态。VMware 快照就是保留这一瞬间虚拟机的状态。虽然照片没有办法让你回到过去某个时间点重新来过，但是虚拟机管理的快照却可以让虚拟机回到那个状态。回去干什么？重新来过啊，你即便是把虚拟机玩坏了，没事，一个菠萝菠萝蜜咒语直接回去，重新搞！
 
@@ -116,12 +117,10 @@ VMware workstation 提供主机运行的硬件基础，deepin提供主机运行�
 选择手动分区后，如下图。
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060930514324_image.png)
 那到底该如何手动分？其实deepin早就为你做好了一切，你只需选择就可以了。如下：
-
 当我们把鼠标放到磁盘是，主要观察磁盘右下角
-![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060932066159_image.png)
-没错，有个+号，先点点看
 
-出现一个对话框
+![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060932066159_image.png)
+没错，有个+号，先点点看，出现一个对话框
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060932461353_image.png)
 这是干啥的？这就是要如何分区。其实看不懂，尤其是没有Linux磁盘管理和文件系统基础的人。
 
@@ -131,13 +130,13 @@ VMware workstation 提供主机运行的硬件基础，deepin提供主机运行�
 
 这里主要选择文件系统格式和挂载点。文件系统默认ext4，没问题。挂载点吧，选择/boot分区，然后点击新建
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060936211957_image.png)
-然后出现了如下界面
+然后出现了如下界面：
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060936533721_image.png)
 继续按照上面的方式操作，这次选择/根分区，如下图：
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060937387189_image.png)
 到这里，直接下一步即可。
 
-注意：出现任何友情提示，都直接点击确定。老司机告诉你，不会有问题。
+> 注意：出现任何友情提示，都直接点击确定。老司机告诉你，不会有问题。
 
 然后就是这个界面了
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/202203060938472199_image.png)
