@@ -1,13 +1,13 @@
 ---
-title: CLI_1
+title: Basic_Commands
 description: 
 published: true
-date: 2022-06-15T07:05:54.080Z
+date: 2022-06-15T10:54:47.047Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T07:05:54.080Z
 ---
 
-# CLI_1
+# Basic Commands
 command line inerface
 
