@@ -2,7 +2,7 @@
 title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T02:06:33.133Z
+date: 2022-06-15T02:11:36.487Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -74,3 +74,12 @@ A2166B8DE8BDC3367D1901C11EE2FF37CA8DA16B`
 ![apt-fast3.png](/apt-fast3.png)
 ![apt-fast4.png](/apt-fast4.png)
 ![apt-fast5.png](/apt-fast5.png)
+
+如果命令执行过程中没有报错或意外终止，那么apt-fast至此安装完成。
+
+# 三 使用apt-fast
+
+如果要使用apt-fast加速软件包下载，把命令中的 apt替换成 apt-fast再执行。一般只在下载软件包或更新时用到apt-fast。
+
+![apt-fast6.png](/apt-fast6.png)
+![apt-fast7.png](/apt-fast7.png)
