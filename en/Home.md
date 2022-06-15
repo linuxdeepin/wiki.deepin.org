@@ -2,7 +2,7 @@
 title: Deepin - Deepin Linux Distribution  Wiki
 description: Deepin Wiki is designed to be an extended documentation for end users and developers.
 published: true
-date: 2022-06-15T00:35:07.934Z
+date: 2022-06-15T00:37:59.622Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -37,7 +37,6 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 - [Browsing *How to find the information of your need.*](/about_deepin/deepin_wiki)
 - [Editing *How to edit the information of your interesting.*](/about_deepin/edit_help)
 - [Thanks *thank fot the contributor.*](/about_deepin/deepin_wiki)
-
 {.links-list}
 
 # Getting Started
@@ -56,6 +55,7 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 {.links-list}
 
 # Administrator Guide
+
 - [File & Directory*File & Directory*](/system_management/file_and_directory)
 - [User & Groups *User & Groups*](/system_management/user_and_group)
 - [Storage Management *partition table and file system.*](/system_management/storage_management)
