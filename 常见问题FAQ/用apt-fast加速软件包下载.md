@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
+title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T01:55:13.092Z
+date: 2022-06-15T01:55:39.748Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
