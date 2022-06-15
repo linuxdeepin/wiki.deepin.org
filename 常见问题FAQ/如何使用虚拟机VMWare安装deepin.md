@@ -2,7 +2,7 @@
 title: 如何使用虚拟机VMWare Workstation安装deepin
 description: VMWare Workstation安装deepin
 published: true
-date: 2022-06-15T02:52:28.956Z
+date: 2022-06-15T02:52:52.089Z
 tags: deepin, vmware, 虚拟机
 editor: markdown
 dateCreated: 2022-06-15T02:18:22.869Z
