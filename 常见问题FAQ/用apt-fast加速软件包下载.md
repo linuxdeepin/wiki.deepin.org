@@ -2,7 +2,7 @@
 title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T02:05:04.427Z
+date: 2022-06-15T02:06:33.133Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -69,3 +69,8 @@ A2166B8DE8BDC3367D1901C11EE2FF37CA8DA16B`
 ![apt-fast2.png](/apt-fast2.png)
 
 1. 安装apt-fast时需要进行3项设定。第1项选择apt，第2项和第3项按个人习惯选择，我全部选择默认的选项。  
+
+
+![apt-fast3.png](/apt-fast3.png)
+![apt-fast4.png](/apt-fast4.png)
+![apt-fast5.png](/apt-fast5.png)
