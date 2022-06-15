@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:20:20.628Z
+date: 2022-06-15T03:20:23.420Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
