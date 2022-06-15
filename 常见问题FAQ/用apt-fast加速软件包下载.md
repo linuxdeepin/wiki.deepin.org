@@ -2,7 +2,7 @@
 title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T01:59:02.333Z
+date: 2022-06-15T02:00:49.516Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -47,6 +47,9 @@ apt-fast是一款命令行工具，能够通过多线程下载软件包来提升
 
 如果系统中已经安装了 星火应用商店 ，可以直接在终端执行命令 sudo apt install apt-fast 来安装它，但安装的apt-fast不是最新版本。
 
-打开文件管理器，进入系统盘的/etc/apt/source.list.d/ 文件夹。右击窗口内空白处，点击“以管理员身份打开”，输入密码。待弹出新窗口后，在文件夹中新建一个任意格式的文件，将它的名称和后缀全部删除，改成 apt-fast.list 。 
- 打开这个文件，写入以下内容： 
-然后保存并退出。  
+1. 打开文件管理器，进入系统盘的/etc/apt/source.list.d/ 文件夹。右击窗口内空白处，点击“以管理员身份打开”，输入密码。待弹出新窗口后，在文件夹中新建一个任意格式的文件，将它的名称和后缀全部删除，改成 apt-fast.list 。 
+
+1. 打开这个文件，写入以下内容： 然后保存并退出。  
+
+`deb http://ppa.launchpad.net/apt-fast/stable/ubuntu focal main`
+`deb-src http://ppa.launchpad.net/apt-fast/stable/ubuntu focal main`
