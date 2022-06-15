@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T07:46:55.873Z
+date: 2022-06-15T07:54:54.534Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -236,142 +236,153 @@ dateCreated: 2022-06-15T02:54:30.594Z
 3. 图标主题的继承关系：https://bbs.deepin.org/zh/post/203946
 4. deepin美化系列教程（五）：https://bbs.deepin.org/zh/post/227803  
 
-
 ### 2.8 系统有关介绍
+
 1. 你好，deepin：https://bbs.deepin.org/zh/post/223462
 2. 深度桌面环境介绍：https://bbs.deepin.org/zh/post/213341
 3. 分享那些可能被你忽略的deepin自带工具：https://bbs.deepin.org/zh/post/227223
 4. 20.2.3新功能展示——OCR文字识别：https://bbs.deepin.org/zh/post/225260
 5. 万众7待，焕新出发，deepin新版商店为你而来：https://bbs.deepin.org/zh/post/222677
 6. 全新的图标主题，就静静地欣赏，细细的品味：https://bbs.deepin.org/zh/post/223494
-20.3新版本特性介绍（一）全局搜索：https://bbs.deepin.org/zh/post/228676
-20.3新版本特性-文件管理器：https://bbs.deepin.org/zh/post/230030
-20.4新版本特性①藏宝箱：https://bbs.deepin.org/zh/post/231326
-20.4新版本特性②安装器：https://bbs.deepin.org/zh/post/231570
-【视频】怀一腔孤勇，筑梦前行：https://bbs.deepin.org/zh/post/231100
-20.4深度使用体验：https://bbs.deepin.org/zh/post/231912
-deepin 20.5——人脸解锁背后的那些事：https://bbs.deepin.org/zh/post/234359
-20.6 deepin文字识别突然变得好用了？OCR升级的秘密在这里：https://bbs.deepin.org/zh/post/238149
-三、应用软件
-3.1 应用分享和使用技巧
+7. 20.3新版本特性介绍（一）全局搜索：https://bbs.deepin.org/zh/post/228676
+8. 20.3新版本特性-文件管理器：https://bbs.deepin.org/zh/post/230030
+9. 20.4新版本特性①藏宝箱：https://bbs.deepin.org/zh/post/231326
+10. 20.4新版本特性②安装器：https://bbs.deepin.org/zh/post/231570
+11. 【视频】怀一腔孤勇，筑梦前行：https://bbs.deepin.org/zh/post/231100
+12. 20.4深度使用体验：https://bbs.deepin.org/zh/post/231912
+13. deepin 20.5——人脸解锁背后的那些事：https://bbs.deepin.org/zh/post/234359
+14. 20.6 deepin文字识别突然变得好用了？OCR升级的秘密在这里：https://bbs.deepin.org/zh/post/238149
+
+# 三、应用软件
+## 3.1 应用分享和使用技巧
 你可以从星火应用商店（一款由社区爱好者维护，致力于丰富Linux生态的第三方应用商店）获取一些最新版本的Linux应用和开箱即用的wine应用。官网：https://www.spark-app.store（向星火商店捐赠）
 deepin软件推荐（很多）：https://bbs.deepin.org/zh/post/237514
-3.1.1 系统工具
-Oh my dde：论坛页面  Gitee页面
-iOS14风格小部件正式发布啦：https://bbs.deepin.org/zh/post/213377
-Linux桌面小部件第一个阶段性版本来了：https://bbs.deepin.org/zh/post/231461
-AppImage安装器 大更新 全新版本：https://bbs.deepin.org/zh/post/230017
-deepin下的超级效率工具—超级标签栏：https://bbs.deepin.org/zh/post/220860
-云旗OS助手，安装系统的新方法，免启动盘！：https://bbs.deepin.org/zh/post/203108 （不支持deepin，支持UOS）
-deepin下使用Ventoy安装Windows：https://bbs.deepin.org/zh/post/209123
-超卓文件管理器deb一键安装包分享：https://bbs.deepin.org/zh/post/222897
-用DTK写的定时器：https://bbs.deepin.org/zh/post/223465
-R计算器手动打包：https://bbs.deepin.org/zh/post/191341
-MPaste：剪贴板管理工具：https://bbs.deepin.org/zh/post/220914
-UOS 21.1提取软件包分享：深度安全中心&远程协助&系统诊断工具：https://bbs.deepin.org/zh/post/228885
-统信UOS助手移植分享：https://bbs.deepin.org/zh/post/230801
-App 4 Deepin(国际开发者为deepin开发的一套实用软件)：https://app4deepin.com/#home
-OBS教程：3分钟学会直播推流与视频录制：https://bbs.deepin.org/zh/post/224816
-screenkey：在屏幕上实时显示键盘操作：https://bbs.deepin.org/zh/post/227849
-一个好用又好看的UEFI启动管理器rEFInd：https://bbs.deepin.org/zh/post/221068
-Pensela：一款跨平台屏幕注释工具：https://bbs.deepin.org/zh/post/227701
-用apt-fast加速软件包下载：https://bbs.deepin.org/zh/post/230874
-Clash for Windows Linux版分享：https://bbs.deepin.org/zh/post/229552
-做了个小应用：Tips 生成器 增添新手使用乐趣：https://bbs.deepin.org/zh/post/228818
-apt 软件包信息查看器：论坛页面  Gitee页面
-infomation-tips 系统状态提示器：https://bbs.deepin.org/zh/post/230635
-desktop 图标文件生成器：https://bbs.deepin.org/zh/post/231528
-一个类似uTools的快速启动器Albert：https://bbs.deepin.org/post/142027
-自己写的小工具：folder-merger文件夹合并：https://bbs.deepin.org/zh/post/232545
-开发了一款自定义触摸板手势的管理工具，有需要的朋友可以试试：https://bbs.deepin.org/zh/post/232824
-Steam++ 加速你的github 和 steam游戏商店：https://bbs.deepin.org/zh/post/233231
-deepin下载器接管Edge：https://bbs.deepin.org/post/236400
-Deepin Maye：https://bbs.deepin.org/post/236438
-WingCleaner 一个个人开发简单实用的脚本：论坛页面   gitee页面
-基于dtk和rdesktop的rdp远程桌面工具1.2.0-1发布：https://bbs.deepin.org/zh/post/237866
-深度取色器：https://bbs.deepin.org/zh/post/237906
-基于Deepin下的Anaconda3安装与使用：https://bbs.deepin.org/zh/post/238563
-截屏+OCR+搜索+贴图+以图搜图 ----eSearch应用：https://bbs.deepin.org/zh/post/238703
-船新的Dock插件，助你认识网瘾，欢迎尝鲜/捉虫：https://bbs.deepin.org/zh/post/238791
-3.1.2 网络应用
-天翼云网盘（wine）下载及打包教程：https://bbs.deepin.org/zh/post/221558
-一条命令让火狐浏览器可自动更新到最新版：https://bbs.deepin.org/zh/post/224603
-如何让火狐国际版拥有中国版的功能：https://bbs.deepin.org/zh/post/228249
-火狐浏览器国际版的简单设置：https://bbs.deepin.org/zh/post/237756
-优雅地使用坚果云：https://bbs.deepin.org/zh/post/225170
-解决megasync不能打开的问题：https://bbs.deepin.org/zh/post/206774
-写了一个简单的图床管理软件，欢迎各位试用：https://bbs.deepin.org/zh/post/233372
-3.1.3 办公学习
-为知笔记deepin版闪亮登场：https://bbs.deepin.org/zh/post/209845
-为知笔记最新版编译，有一丝丝的deepin特殊适配：https://bbs.deepin.org/zh/post/222180
-有道云笔记linux版beta-1.1.3：https://bbs.deepin.org/zh/post/221134
-为知笔记重构版（官方重构）无依赖打包分享：https://bbs.deepin.org/zh/post/227217
-Microsoft Office PowerPoint 2007(wine)：https://bbs.deepin.org/zh/post/224229
-专业的云端知识库——语雀：https://bbs.deepin.org/zh/post/221917
-专业的素材管理应用——Eagle：https://bbs.deepin.org/zh/post/221954
-完美解决腾讯会议在deepin上运行问题：https://bbs.deepin.org/zh/post/209769
-安卓版腾讯会议…居然还挺好用？[附食用教程]：https://bbs.deepin.org/zh/post/238329
-WPS for linux字体显示问题：https://blog.csdn.net/qq_36191272/article/details/105596225
-使用 Dtk 开发了一个 MarkDown 编辑器，欢迎大家试用：https://bbs.deepin.org/zh/post/228829
-一款词典工具：https://bbs.deepin.org/zh/post/227166
-Pixso上架deepin应用商店，设计应用生态强势补充：https://bbs.deepin.org/zh/post/235058
-3.1.4 社交沟通
-Icalingua：第三方QQ客户端：https://bbs.deepin.org/zh/post/226550
-解决QQ(wine)因字体卡死&宋体发虚太难看的一种方法：https://bbs.deepin.org/post/213530
-Wechat（微信） Linux升级版：freechat-spark 可过验证：https://bbs.deepin.org/zh/post/226549
-星火微信Linux2.1.2-2已更新：https://bbs.deepin.org/zh/post/231200
-deepin foxmail通信录导入：https://bbs.deepin.org/post/233037
-3.1.5 音乐视频
-自动从网络上匹配歌词的Deepin Music：https://bbs.deepin.org/zh/post/221829
-功能完善、社区活跃的超级播放器——KODI：https://bbs.deepin.org/zh/post/224939
-神奇的全网视频下载工具 you-get：https://bbs.deepin.org/zh/post/221314
-网易云音乐调整缩放比例的方法：https://bbs.deepin.org/zh/post/225377
-使用Deepin深度系统制作音乐：https://bbs.deepin.org/zh/post/223386
-开源的第三方SoundCloud客户端 SoundNote：https://bbs.deepin.org/zh/post/237530
-bilimini——跨平台的好用的 B 站“桌面端”：https://bbs.deepin.org/zh/post/225784
-b站辅助插件bilibili-evolved现已支持b站视频导出至mpv播放：https://bbs.deepin.org/zh/post/232228
-高颜值的第三方网易云音乐播放器（强烈推荐）：https://github.com/qier222/YesPlayMusic/releases
-Kdenlive22.04.0-2修复Deb包，支持字幕自动生成功能：https://bbs.deepin.org/zh/post/237153
-wine版剪映基本能用了，字幕和画面都出来了：https://bbs.deepin.org/zh/post/238330
-Wine7.9安装剪映全过程指南：https://bbs.deepin.org/zh/post/238301
-打包剪映专业版（wine），并教你解决视频预览窗口显示黑屏的问题：https://bbs.deepin.org/zh/post/238449
-3.1.6 游戏娱乐
-Wine游戏收集贴-持续不定期更新-不定期更新链接：https://bbs.deepin.org/zh/post/217731
-使用 PlayOnLinux 和 winetricks 完美运行《白色相簿2》：https://bbs.deepin.org/zh/post/214585
-云原神 1.1.0版本直装包：https://bbs.deepin.org/zh/post/225788
-linux下玩24点(题目生成+计算)：https://bbs.deepin.org/zh/post/217418
-用 mame 命令玩 MAME 街机游戏：https://bbs.deepin.org/zh/post/208391
-植物大战僵尸中文版打包分享：https://bbs.deepin.org/zh/post/195096
-谁说deepin不能玩游戏：https://bbs.deepin.org/zh/post/235387
-一个动漫游戏启动器-2.3.2-wine版本：自带wine和dxvk测试：https://bbs.deepin.org/post/236466
-3.1.7 多设备协同
-安卓手机后台管理工具黑阈激活器（DTK版本）：https://bbs.deepin.org/zh/post/208066
-Macast —— 一个跨平台的DLNA投屏接收器：https://bbs.deepin.org/zh/post/225095
-Deskreen投屏，Linux同wifi下投屏的解决方案：https://bbs.deepin.org/zh/post/230214
-vivo互传（wine）：https://bbs.deepin.org/zh/post/221939
-deepin下安装Citrix Receiver连接云桌面：https://bbs.deepin.org/zh/post/232020
-3.1.8 其他应用
-分享几个脚本工具：https://bbs.deepin.org/zh/post/221680
-几款国产软件的设置：https://bbs.deepin.org/zh/post/222707
-deepin20.2.3 安装win版招商证券  V7.09的方法：https://bbs.deepin.org/zh/post/226419
-星火商店柚子重构版尝鲜下载：https://bbs.deepin.org/zh/post/228515
-deepin如何寻找、安装非商店软件(Linux通用)：https://bbs.deepin.org/post/157341
-3.2 运行其他平台应用、虚拟机
-3.2.1 Uengine
-Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用就使用了Uengine。同类应用还有Anbox、xDroid等。
-uengine 使用总结：https://uos.osystem.club/102.html
-Deepin20.2.2运行安卓和自行安装软件：https://bbs.deepin.org/zh/post/222222
-大家快来安装安卓应用：https://bbs.deepin.org/zh/post/222286
-UEngine 运行器：论坛页面 (1.6.1)  Gitee页面
-APK打包器beta：https://bbs.deepin.org/zh/post/222729
-成功Root Deepin的Android子系统（Uengine）：https://bbs.deepin.org/zh/post/228520
-关于安装未知来源的apk，被禁止安装处理方法：https://bbs.deepin.org/zh/post/237401
-3.2.2 Wine
-Wine用来在Linux等系统上运行Windows应用。应用商店中的Wine应用使用了deepin-wine（deepin基于Wine进行了优化的版本）。
-Deepin-Wine适配知识库：https://docs.qq.com/mind/DWFBpbmpjd0RtV2Z0
-deepin-wine5 折腾过程兼新手教程：https://bbs.deepin.org/zh/post/200942
-Wine助手初体验，一款跨平台应用安装兼容工具：https://bbs.deepin.org/zh/post/223564
-wine 运行器1.3.1：论坛页面   Gitee页面
+
+**3.1.1 系统工具**
+1. Oh my dde：论坛页面  Gitee页面
+2. iOS14风格小部件正式发布啦：https://bbs.deepin.org/zh/post/213377
+3. Linux桌面小部件第一个阶段性版本来了：https://bbs.deepin.org/zh/post/231461
+4. AppImage安装器 大更新 全新版本：https://bbs.deepin.org/zh/post/230017
+5. deepin下的超级效率工具—超级标签栏：https://bbs.deepin.org/zh/post/220860
+6. 云旗OS助手，安装系统的新方法，免启动盘！：https://bbs.deepin.org/zh/post/203108 （不支持deepin，支持UOS）
+7. deepin下使用Ventoy安装Windows：https://bbs.deepin.org/zh/post/209123
+8. 超卓文件管理器deb一键安装包分享：https://bbs.deepin.org/zh/post/222897
+9. 用DTK写的定时器：https://bbs.deepin.org/zh/post/223465
+10. R计算器手动打包：https://bbs.deepin.org/zh/post/191341
+11. MPaste：剪贴板管理工具：https://bbs.deepin.org/zh/post/220914
+12. UOS 21.1提取软件包分享：深度安全中心&远程协助&系统诊断工具：https://bbs.deepin.org/zh/post/228885
+13. 统信UOS助手移植分享：https://bbs.deepin.org/zh/post/230801
+14. App 4 Deepin(国际开发者为deepin开发的一套实用软件)：https://app4deepin.com/#home
+15. OBS教程：3分钟学会直播推流与视频录制：https://bbs.deepin.org/zh/post/224816
+16. screenkey：在屏幕上实时显示键盘操作：https://bbs.deepin.org/zh/post/227849
+17. 一个好用又好看的UEFI启动管理器rEFInd：https://bbs.deepin.org/zh/post/221068
+18. Pensela：一款跨平台屏幕注释工具：https://bbs.deepin.org/zh/post/227701
+19. 用apt-fast加速软件包下载：https://bbs.deepin.org/zh/post/230874
+20. Clash for Windows Linux版分享：https://bbs.deepin.org/zh/post/229552
+21. 做了个小应用：Tips 生成器 增添新手使用乐趣：https://bbs.deepin.org/zh/post/228818
+22. apt 软件包信息查看器：论坛页面  Gitee页面
+23. infomation-tips 系统状态提示器：https://bbs.deepin.org/zh/post/230635
+24. desktop 图标文件生成器：https://bbs.deepin.org/zh/post/231528
+25. 一个类似uTools的快速启动器Albert：https://bbs.deepin.org/post/142027
+26. 自己写的小工具：folder-merger文件夹合并：https://bbs.deepin.org/zh/post/232545
+27. 开发了一款自定义触摸板手势的管理工具，有需要的朋友可以试试：https://bbs.deepin.org/zh/post/232824
+28. Steam++ 加速你的github 和 steam游戏商店：https://bbs.deepin.org/zh/post/233231
+29. deepin下载器接管Edge：https://bbs.deepin.org/post/236400
+30. Deepin Maye：https://bbs.deepin.org/post/236438
+31. WingCleaner 一个个人开发简单实用的脚本：论坛页面   gitee页面
+32. 基于dtk和rdesktop的rdp远程桌面工具1.2.0-1发布：https://bbs.deepin.org/zh/post/237866
+33. 深度取色器：https://bbs.deepin.org/zh/post/237906
+34. 基于Deepin下的Anaconda3安装与使用：https://bbs.deepin.org/zh/post/238563
+35. 截屏+OCR+搜索+贴图+以图搜图 ----eSearch应用：https://bbs.deepin.org/zh/post/238703
+36. 船新的Dock插件，助你认识网瘾，欢迎尝鲜/捉虫：https://bbs.deepin.org/zh/post/238791
+
+**3.1.2 网络应用**
+1. 天翼云网盘（wine）下载及打包教程：https://bbs.deepin.org/zh/post/221558
+2. 一条命令让火狐浏览器可自动更新到最新版：https://bbs.deepin.org/zh/post/224603
+3. 如何让火狐国际版拥有中国版的功能：https://bbs.deepin.org/zh/post/228249
+4. 火狐浏览器国际版的简单设置：https://bbs.deepin.org/zh/post/237756
+5. 优雅地使用坚果云：https://bbs.deepin.org/zh/post/225170
+6. 解决megasync不能打开的问题：https://bbs.deepin.org/zh/post/206774
+7. 写了一个简单的图床管理软件，欢迎各位试用：https://bbs.deepin.org/zh/post/233372
+
+**3.1.3 办公学习**
+1. 为知笔记deepin版闪亮登场：https://bbs.deepin.org/zh/post/209845
+2. 为知笔记最新版编译，有一丝丝的deepin特殊适配：https://bbs.deepin.org/zh/post/222180
+3. 有道云笔记linux版beta-1.1.3：https://bbs.deepin.org/zh/post/221134
+4. 为知笔记重构版（官方重构）无依赖打包分享：https://bbs.deepin.org/zh/post/227217
+5. Microsoft Office PowerPoint 2007(wine)：https://bbs.deepin.org/zh/post/224229
+6. 专业的云端知识库——语雀：https://bbs.deepin.org/zh/post/221917
+7. 专业的素材管理应用——Eagle：https://bbs.deepin.org/zh/post/221954
+8. 完美解决腾讯会议在deepin上运行问题：https://bbs.deepin.org/zh/post/209769
+9. 安卓版腾讯会议…居然还挺好用？[附食用教程]：https://bbs.deepin.org/zh/post/238329
+10. WPS for linux字体显示问题：https://blog.csdn.net/qq_36191272/article/details/105596225
+11. 使用 Dtk 开发了一个 MarkDown 编辑器，欢迎大家试用：https://bbs.deepin.org/zh/post/228829
+12. 一款词典工具：https://bbs.deepin.org/zh/post/227166
+13. Pixso上架deepin应用商店，设计应用生态强势补充：https://bbs.deepin.org/zh/post/235058
+
+**3.1.4 社交沟通**
+1. Icalingua：第三方QQ客户端：https://bbs.deepin.org/zh/post/226550
+2. 解决QQ(wine)因字体卡死&宋体发虚太难看的一种方法：https://bbs.deepin.org/post/213530
+3. Wechat（微信） Linux升级版：freechat-spark 可过验证：https://bbs.deepin.org/zh/post/226549
+4. 星火微信Linux2.1.2-2已更新：https://bbs.deepin.org/zh/post/231200
+5. deepin foxmail通信录导入：https://bbs.deepin.org/post/233037
+
+**3.1.5 音乐视频**
+1. 自动从网络上匹配歌词的Deepin Music：https://bbs.deepin.org/zh/post/221829
+2. 功能完善、社区活跃的超级播放器——KODI：https://bbs.deepin.org/zh/post/224939
+3. 神奇的全网视频下载工具 you-get：https://bbs.deepin.org/zh/post/221314
+4. 网易云音乐调整缩放比例的方法：https://bbs.deepin.org/zh/post/225377
+5. 使用Deepin深度系统制作音乐：https://bbs.deepin.org/zh/post/223386
+6. 开源的第三方SoundCloud客户端 SoundNote：https://bbs.deepin.org/zh/post/237530
+7. bilimini——跨平台的好用的 B 站“桌面端”：https://bbs.deepin.org/zh/post/225784
+8. b站辅助插件bilibili-evolved现已支持b站视频导出至mpv播放：https://bbs.deepin.org/zh/post/232228
+9. 高颜值的第三方网易云音乐播放器（强烈推荐）：https://github.com/qier222/YesPlayMusic/releases
+10. Kdenlive22.04.0-2修复Deb包，支持字幕自动生成功能：https://bbs.deepin.org/zh/post/237153
+11. wine版剪映基本能用了，字幕和画面都出来了：https://bbs.deepin.org/zh/post/238330
+12. Wine7.9安装剪映全过程指南：https://bbs.deepin.org/zh/post/238301
+13. 打包剪映专业版（wine），并教你解决视频预览窗口显示黑屏的问题：https://bbs.deepin.org/zh/post/238449
+
+**3.1.6 游戏娱乐**
+1. Wine游戏收集贴-持续不定期更新-不定期更新链接：https://bbs.deepin.org/zh/post/217731
+2. 使用 PlayOnLinux 和 winetricks 完美运行《白色相簿2》：https://bbs.deepin.org/zh/post/214585
+3. 云原神 1.1.0版本直装包：https://bbs.deepin.org/zh/post/225788
+4. linux下玩24点(题目生成+计算)：https://bbs.deepin.org/zh/post/217418
+5. 用 mame 命令玩 MAME 街机游戏：https://bbs.deepin.org/zh/post/208391
+6. 植物大战僵尸中文版打包分享：https://bbs.deepin.org/zh/post/195096
+7. 谁说deepin不能玩游戏：https://bbs.deepin.org/zh/post/235387
+8. 一个动漫游戏启动器-2.3.2-wine版本：自带wine和dxvk测试：https://bbs.deepin.org/post/236466
+
+**3.1.7 多设备协同**
+1. 安卓手机后台管理工具黑阈激活器（DTK版本）：https://bbs.deepin.org/zh/post/208066
+2. Macast —— 一个跨平台的DLNA投屏接收器：https://bbs.deepin.org/zh/post/225095
+3. Deskreen投屏，Linux同wifi下投屏的解决方案：https://bbs.deepin.org/zh/post/230214
+4. vivo互传（wine）：https://bbs.deepin.org/zh/post/221939
+5. deepin下安装Citrix Receiver连接云桌面：https://bbs.deepin.org/zh/post/232020
+
+**3.1.8 其他应用**
+1. 分享几个脚本工具：https://bbs.deepin.org/zh/post/221680
+2. 几款国产软件的设置：https://bbs.deepin.org/zh/post/222707
+3. deepin20.2.3 安装win版招商证券  V7.09的方法：https://bbs.deepin.org/zh/post/226419
+4. 星火商店柚子重构版尝鲜下载：https://bbs.deepin.org/zh/post/228515
+5. deepin如何寻找、安装非商店软件(Linux通用)：https://bbs.deepin.org/post/157341
+
+## 3.2 运行其他平台应用、虚拟机
+**3.2.1 Uengine**
+1. Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用就使用了Uengine。同类应用还有Anbox、xDroid等。
+2. uengine 使用总结：https://uos.osystem.club/102.html
+3. Deepin20.2.2运行安卓和自行安装软件：https://bbs.deepin.org/zh/post/222222
+4. 大家快来安装安卓应用：https://bbs.deepin.org/zh/post/222286
+5. UEngine 运行器：论坛页面 (1.6.1)  Gitee页面
+6. APK打包器beta：https://bbs.deepin.org/zh/post/222729
+7. 成功Root Deepin的Android子系统（Uengine）：https://bbs.deepin.org/zh/post/228520
+8. 关于安装未知来源的apk，被禁止安装处理方法：https://bbs.deepin.org/zh/post/237401
+
+**3.2.2 Wine**
+1. Wine用来在Linux等系统上运行Windows应用。应用商店中的Wine应用使用了deepin-wine（deepin基于Wine进行了优化的版本）。
+2. Deepin-Wine适配知识库：https://docs.qq.com/mind/DWFBpbmpjd0RtV2Z0
+3. deepin-wine5 折腾过程兼新手教程：https://bbs.deepin.org/zh/post/200942
+4. Wine助手初体验，一款跨平台应用安装兼容工具：https://bbs.deepin.org/zh/post/223564
+5. wine 运行器1.3.1：论坛页面   Gitee页面
 deepin-wine5 应用打包器：https://bbs.deepin.org/zh/post/214306
 wine自动打包程序：https://bbs.deepin.org/zh/post/221842
 Deepin用wine安装的Windows软件目录在哪：https://bbs.deepin.org/zh/post/227183
