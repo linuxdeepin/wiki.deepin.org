@@ -2,7 +2,7 @@
 title: 如何使用虚拟机VMWare Workstation安装deepin
 description: VMWare Workstation安装deepin
 published: true
-date: 2022-06-15T02:47:09.441Z
+date: 2022-06-15T02:52:28.956Z
 tags: deepin, vmware, 虚拟机
 editor: markdown
 dateCreated: 2022-06-15T02:18:22.869Z
@@ -15,7 +15,8 @@ dateCreated: 2022-06-15T02:18:22.869Z
 若为windows系统，下载.exe版本VMWare Workstation，双击运行安装包即可安装；若为linux系统，下载.bunble版本VMWare Workststion，使用命令`sudo ./VMWare安装包`即可安装。
 VMware workstation 提供主机运行的硬件基础，deepin提供主机运行的软件基础。
 ## 新建虚拟机
-#### 本节主要内容：使用VMware workstation创建一台配置自定义的虚拟机。简单来说，就是定制一台PC的硬件。
+> *本节主要内容：使用VMware workstation创建一台配置自定义的虚拟机。简单来说，就是定制一台PC的硬件。*
+
 首先打开VMware workstation，点击【创建新的虚拟机】，如下图：
 ![alt 创建新的虚拟机](https://storage.deepin.org/thread/202203060843451445_image.png)
 在出现的对话框中，选择【自定义(高级)】，如下图：
@@ -73,7 +74,7 @@ VMware workstation 提供主机运行的硬件基础，deepin提供主机运行�
 还可以选择【添加】，来配置更多的硬件环境。如下图：
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/20220306084714495_image.png)
 ## 安装操作系统deepin
-在第二节【创建虚拟机】里面，我们已经通过VMware workstation 创建一个名为:deepin20的裸机(没有操作系统的电脑)，本节我们就开始来为此虚拟机安装deepin操作系统
+> 在第二节【创建虚拟机】里面，我们已经通过VMware workstation 创建一个名为:deepin20的裸机(没有操作系统的电脑)，本节我们就开始来为此虚拟机安装deepin操作系统
 
 首先要做的就是，为虚拟机deepin20的CD插入一个光盘，操作如下图：
 ![alt 新建虚拟机向导](https://storage.deepin.org/thread/20220306090916631_image.png)
