@@ -2,7 +2,7 @@
 title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T02:00:49.516Z
+date: 2022-06-15T02:00:56.819Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -53,3 +53,5 @@ apt-fast是一款命令行工具，能够通过多线程下载软件包来提升
 
 `deb http://ppa.launchpad.net/apt-fast/stable/ubuntu focal main`
 `deb-src http://ppa.launchpad.net/apt-fast/stable/ubuntu focal main`
+
+说明：这里使用了 Ubuntu 的 PPA 仓库，有极小的依赖风险。如果后续不需要更新apt-fast可以删除这个文件。
