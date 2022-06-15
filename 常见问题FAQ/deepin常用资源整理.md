@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:36:28.376Z
+date: 2022-06-15T03:38:06.856Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -114,20 +114,23 @@ dateCreated: 2022-06-15T02:54:30.594Z
 5. dde-control-center的快捷键设置无法拉起deepin-screen-recorder：https://bbs.deepin.org/zh/post/227910
 6. 禁止kwin的自动关闭3D窗管的方法：https://bbs.deepin.org/zh/post/232810
 7. 还在为没有公钥导致的无法更新而烦恼吗？这里有解决方案：https://bbs.deepin.org/zh/post/237312
-8. deepin忘记密码怎么办？--Live系统一步修改用户密码：https://bbs.deepin.org/zh/post/238135  （注意：任何人都可以重设密码，因此请勿单纯依赖系统密码来保护数据安全）
+8. deepin忘记密码怎么办？--Live系统一步修改用户密码：https://bbs.deepin.org/zh/post/238135  （注意：任何人都可以重设密码，因此请勿单纯依赖系统密码来保护数据安全）  
+
 
 ### 2.6 系统使用  
 
 **2.6.1 桌面环境**  
 
-在Linux中创建应用图标：https://bbs.deepin.org/zh/post/225323
-安装gnome：https://bbs.deepin.org/zh/post/207834（见回复）
-通过外部应用实现的热区：omd-requ：https://bbs.deepin.org/zh/post/226623
-在Linux下配置人脸识别：https://bbs.deepin.org/zh/post/224848
-深度Linux Deepin设置分辨率为1920x1080：https://www.jianshu.com/p/89a1bf1905d8
-手把手教你用deepin20——多任务视图与窗口技巧：https://bbs.deepin.org/post/233111
-better-dde: 让 DDE 更美好：https://bbs.deepin.org/zh/post/237746
-2.6.2 应用处理
+1. 在Linux中创建应用图标：https://bbs.deepin.org/zh/post/225323
+2. 安装gnome：https://bbs.deepin.org/zh/post/207834（见回复）
+3. 通过外部应用实现的热区：omd-requ：https://bbs.deepin.org/zh/post/226623
+4. 在Linux下配置人脸识别：https://bbs.deepin.org/zh/post/224848
+5. 深度Linux Deepin设置分辨率为1920x1080：https://www.jianshu.com/p/89a1bf1905d8
+6. 手把手教你用deepin20——多任务视图与窗口技巧：https://bbs.deepin.org/post/233111
+7. better-dde: 让 DDE 更美好：https://bbs.deepin.org/zh/post/237746
+
+**2.6.2 应用处理**
+
 删除卸载残留的应用配置：https://bbs.deepin.org/zh/post/227702
 在dde File Manager的较上端加入菜单项（类似深度压缩）：https://bbs.deepin.org/zh/post/229467
 deb软件包安装卸载失败修复教程：https://bbs.deepin.org/zh/post/217421
