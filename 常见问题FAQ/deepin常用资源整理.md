@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T07:58:32.198Z
+date: 2022-06-15T08:04:26.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -443,64 +443,71 @@ deepin软件推荐（很多）：https://bbs.deepin.org/zh/post/237514
 5. DDUC2021，我们不见不散：https://bbs.deepin.org/zh/post/228899
 6. DDUC活动礼品设计灵感：https://bbs.deepin.org/zh/post/228868
 7. DDUC2021——开源你我，始终如一：https://bbs.deepin.org/zh/post/228582
-deepin开源社区中心星火行动启动：https://bbs.deepin.org/zh/post/230086
-深度开源社区版主轮值活动：https://bbs.deepin.org/zh/post/233938
-deepin高校开源社区中心招募啦！就等你来：https://bbs.deepin.org/zh/post/232405
-deepin荣获2021年度“科创中国”开源创新榜优秀开源产品：https://bbs.deepin.org/zh/post/232217
-深度社区全新规划：打造中国主导的桌面系统根社区：https://bbs.deepin.org/zh/post/237175
-五、更多
-5.1 测评感受
-deepin生产环境下的使用体会：https://bbs.deepin.org/zh/post/222880
-Deepin 20.2.2软件深度体验：https://bbs.deepin.org/zh/post/223513
-深度向左，优麒麟向右-- Ubuntu Kylin 20.04 LTS Pro 体验测评：https://bbs.deepin.org/zh/post/220515
-DEEPIN20.3升级和体验：https://bbs.deepin.org/post/228774
-【deepin 20.3】使用心得和未来改进的建议：https://bbs.deepin.org/post/228812
-首次体验deepin是什么感觉？ https://bbs.deepin.org/zh/post/229071
-强大的深度截图：https://bbs.deepin.org/zh/post/229378
-深度操作系统deepin体验分享：（一）  （二）  （三）
-5.2 其他系统的资源
-UOS各版本系统说明：http://bbs.chinauos.com/post/6514
-在其他发行版使用Deepin-Wine的终级方案：https://zhuanlan.zhihu.com/p/379196410
-嫁接Deepin到一个兼容你设备的Linux系统：https://bbs.deepin.org/zh/post/206117
- 在ubuntu上完美使用deepin-wine5：https://bbs.deepin.org/zh/post/204884
-关于 Deepin 桌面移植到 Gentoo Linux 发行版：https://bbs.deepin.org/zh/post/221216
-WSL Deepin：https://bbs.deepin.org/zh/post/206395
-Deepin鼠标指针：https://bbs.deepin.org/zh/post/199527
-从deepin迁移到其他Linux
-CutefishOS 0.5 安装搜狗输入法教程：https://bbs.cutefishos.com/d/283-cutefishos-05 （Cutefish OS网站关闭，此资源过时）
-移植deepin-contacts到其他Debian系发行版：https://bbs.deepin.org/zh/post/229606
-用 Nix 制作自定义的 live 镜像：https://bbs.deepin.org/zh/post/236303
-阅读其他系统的Wiki
+8. deepin开源社区中心星火行动启动：https://bbs.deepin.org/zh/post/230086
+9. 深度开源社区版主轮值活动：https://bbs.deepin.org/zh/post/233938
+10. deepin高校开源社区中心招募啦！就等你来：https://bbs.deepin.org/zh/post/232405
+11. deepin荣获2021年度“科创中国”开源创新榜优秀开源产品：https://bbs.deepin.org/zh/post/232217
+12. 深度社区全新规划：打造中国主导的桌面系统根社区：https://bbs.deepin.org/zh/post/237175
+
+# 五、更多
+## 5.1 测评感受
+1. deepin生产环境下的使用体会：https://bbs.deepin.org/zh/post/222880
+2. Deepin 20.2.2软件深度体验：https://bbs.deepin.org/zh/post/223513
+3. 深度向左，优麒麟向右-- Ubuntu Kylin 20.04 LTS Pro 体验测评：https://bbs.deepin.org/zh/post/220515
+4. DEEPIN20.3升级和体验：https://bbs.deepin.org/post/228774
+5. 【deepin 20.3】使用心得和未来改进的建议：https://bbs.deepin.org/post/228812
+6. 首次体验deepin是什么感觉？ https://bbs.deepin.org/zh/post/229071
+7. 强大的深度截图：https://bbs.deepin.org/zh/post/229378
+8. 深度操作系统deepin体验分享：（一）  （二）  （三）
+
+## 5.2 其他系统的资源
+1. UOS各版本系统说明：http://bbs.chinauos.com/post/6514
+2. 在其他发行版使用Deepin-Wine的终级方案：https://zhuanlan.zhihu.com/p/379196410
+3. 嫁接Deepin到一个兼容你设备的Linux系统：https://bbs.deepin.org/zh/post/206117
+4. 在ubuntu上完美使用deepin-wine5：https://bbs.deepin.org/zh/post/204884
+5. 关于 Deepin 桌面移植到 Gentoo Linux 发行版：https://bbs.deepin.org/zh/post/221216
+6. WSL Deepin：https://bbs.deepin.org/zh/post/206395
+7. Deepin鼠标指针：https://bbs.deepin.org/zh/post/199527
+8. 从deepin迁移到其他Linux
+9. CutefishOS 0.5 安装搜狗输入法教程：https://bbs.cutefishos.com/d/283-cutefishos-05 （Cutefish OS网站关闭，此资源过时）
+10. 移植deepin-contacts到其他Debian系发行版：https://bbs.deepin.org/zh/post/229606
+11. 用 Nix 制作自定义的 live 镜像：https://bbs.deepin.org/zh/post/236303
+
+**阅读其他系统的Wiki**
 deepin 20是Debian Linux的一个分支。尽管其他的Linux与deepin有所不同，它们的Wiki仍有值得学习的知识。
-Debian Wiki：https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5
-openSUSE Wiki：https://zh.opensuse.org/%E9%A6%96%E9%A1%B5
-ArchWiki：https://wiki.archlinux.org/title/Main_page_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
-5.3 壁纸
-壁纸汇总：https://gfdgd-xi.github.io/deepin.background.github.io/ （感谢@gfdgd xi）
-deepin壁纸（官方）：https://bbs.deepin.org/zh/post/209087
-Zorin OS 壁纸：https://bbs.deepin.org/zh/post/219669
-两张失散已久的壁纸：https://bbs.deepin.org/zh/post/223085
-从微博搬过来的两张壁纸：https://bbs.deepin.org/zh/post/215923
-一个果里果气的桌面——CuteFish Desktop：https://bbs.deepin.org/zh/post/223226
-deepin 20.4& Cutefish OS 0.8壁纸：https://bbs.deepin.org/zh/post/231497
-deepin壁纸大赛优质壁纸分享：https://bbs.deepin.org/zh/post/236372
-5.4 PPT SHOW
+1. Debian Wiki：https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5
+2. openSUSE Wiki：https://zh.opensuse.org/%E9%A6%96%E9%A1%B5
+3. ArchWiki：https://wiki.archlinux.org/title/Main_page_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+
+## 5.3 壁纸
+1. 壁纸汇总：https://gfdgd-xi.github.io/deepin.background.github.io/ （感谢@gfdgd xi）
+2. deepin壁纸（官方）：https://bbs.deepin.org/zh/post/209087
+3. Zorin OS 壁纸：https://bbs.deepin.org/zh/post/219669
+4. 两张失散已久的壁纸：https://bbs.deepin.org/zh/post/223085
+5. 从微博搬过来的两张壁纸：https://bbs.deepin.org/zh/post/215923
+6. 一个果里果气的桌面——CuteFish Desktop：https://bbs.deepin.org/zh/post/223226
+7. deepin 20.4& Cutefish OS 0.8壁纸：https://bbs.deepin.org/zh/post/231497
+8. deepin壁纸大赛优质壁纸分享：https://bbs.deepin.org/zh/post/236372
+
+## 5.4 PPT SHOW
 此部分作品由社区用户@PossibleVing 设计。
-1.第一期：新论坛的 UI ？我觉得这样很 OK：https://bbs.deepin.org/zh/post/191168
-2.第二期：deepin V20 社区概念版正式发布！（？）：https://bbs.deepin.org/zh/post/191489
-3.第三期：最新版启动器尝鲜体验！（不是）：https://bbs.deepin.org/zh/post/197545
-4.第四期：这次是 deepin-greeter 和 dde-dock ~：https://bbs.deepin.org/zh/post/197602
-5.第五期：腾讯不可能做出这样的 Linux QQ，除非……：https://bbs.deepin.org/zh/post/197633
-6.第六期：DDE，FILE，MANAGER！：https://bbs.deepin.org/zh/post/197723
-7.第七期：星星之火，可以燎原！：https://bbs.deepin.org/zh/post/197824
-8.第八期：星火应用商店更新好快啊！：https://bbs.deepin.org/zh/post/198986
-9.第九期：PPT 自制 deepin 壁纸（和星火壁纸）分享~：https://bbs.deepin.org/zh/post/199297
-10.第十期：多屏协同就看它了~：https://bbs.deepin.org/zh/post/199838
-11.第十一期：又双叒叕是星火商店官网……：https://bbs.deepin.org/zh/post/200999
-12.第十二期：这次……真的是个 PPT ！：https://bbs.deepin.org/zh/post/203159
-5.5 其他
-网页版deepin：https://bbs.deepin.org/zh/post/219792
-盘点 23 款国产桌面发行版：https://bbs.deepin.org/zh/post/231369
-回去体验了一下15.7：https://bbs.deepin.org/zh/post/237403
+
+1. 第一期：新论坛的 UI ？我觉得这样很 OK：https://bbs.deepin.org/zh/post/191168
+2. 第二期：deepin V20 社区概念版正式发布！（？）：https://bbs.deepin.org/zh/post/191489
+3. 第三期：最新版启动器尝鲜体验！（不是）：https://bbs.deepin.org/zh/post/197545
+4. 第四期：这次是 deepin-greeter 和 dde-dock ~：https://bbs.deepin.org/zh/post/197602
+5. 第五期：腾讯不可能做出这样的 Linux QQ，除非……：https://bbs.deepin.org/zh/post/197633
+6. 第六期：DDE，FILE，MANAGER！：https://bbs.deepin.org/zh/post/197723
+7. 第七期：星星之火，可以燎原！：https://bbs.deepin.org/zh/post/197824
+8. 第八期：星火应用商店更新好快啊！：https://bbs.deepin.org/zh/post/198986
+9. 第九期：PPT 自制 deepin 壁纸（和星火壁纸）分享~：https://bbs.deepin.org/zh/post/199297
+10. 第十期：多屏协同就看它了~：https://bbs.deepin.org/zh/post/199838
+11. 第十一期：又双叒叕是星火商店官网……：https://bbs.deepin.org/zh/post/200999
+12. 第十二期：这次……真的是个 PPT ！：https://bbs.deepin.org/zh/post/203159
+
+## 5.5 其他
+1. 网页版deepin：https://bbs.deepin.org/zh/post/219792
+2. 盘点 23 款国产桌面发行版：https://bbs.deepin.org/zh/post/231369
+3. 回去体验了一下15.7：https://bbs.deepin.org/zh/post/237403
 
 
