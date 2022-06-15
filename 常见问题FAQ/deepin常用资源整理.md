@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T07:54:57.560Z
+date: 2022-06-15T07:58:32.198Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -383,62 +383,66 @@ deepin软件推荐（很多）：https://bbs.deepin.org/zh/post/237514
 3. deepin-wine5 折腾过程兼新手教程：https://bbs.deepin.org/zh/post/200942
 4. Wine助手初体验，一款跨平台应用安装兼容工具：https://bbs.deepin.org/zh/post/223564
 5. wine 运行器1.3.1：论坛页面   Gitee页面
-deepin-wine5 应用打包器：https://bbs.deepin.org/zh/post/214306
-wine自动打包程序：https://bbs.deepin.org/zh/post/221842
-Deepin用wine安装的Windows软件目录在哪：https://bbs.deepin.org/zh/post/227183
-用wine安装官方最新版钉钉：https://bbs.deepin.org/zh/post/189460 (这是旧版系统的教程，但仍可以学习借鉴)
-wine程序添加快捷键：https://bbs.deepin.org/zh/post/219312
-安装wine-gecko 和wine-mono的步骤：https://bbs.deepin.org/zh/post/208082
-CrossOver 17 测试版，解除时间限制：https://bbs.deepin.org/zh/post/231306
-wine工具盘点——linux上运行windows软件必备神器：https://bbs.deepin.org/zh/post/237398
-Deepin Wine6的run_v4脚本探索——启动方式：https://bbs.deepin.org/zh/post/237953
-安装WineHQ：https://bbs.deepin.org/zh/post/238337
-WineHQ使用时出现中文乱码：https://bbs.deepin.org/zh/post/238339
-wine使用教程3-打包deepin-wine6-stable应用的方法：https://bbs.deepin.org/zh/post/238778
-3.2.3 虚拟机
-VMware 虚拟机3种安装方法： https://bbs.deepin.org/zh/post/221632
-开箱即用的虚拟机软件——GNOME Boxes，应用商店可下载！：https://bbs.deepin.org/zh/post/220484
-在kde或者gnome实现类 "linux subsystem for windows"体验：https://bbs.deepin.org/zh/post/228448  (可能不适用于deepin)
-【deepin安装系列(1)】使用VMware workstation 安装和管理deepin：https://bbs.deepin.org/post/232566
-3.3 开发程序
-解包/打包deb教程 一周年重置版：https://bbs.deepin.org/zh/post/227931
-deb打包教程：https://bbs.deepin.org/zh/post/194188
-超级简单打包软件分享：https://bbs.deepin.org/zh/post/194219
-统信软件社区开发培训——打包：https://bbs.deepin.org/zh/post/201183
-这个打包deb的操作特简单，uos/Deepin打包操作方式，供大家参考：https://bbs.deepin.org/zh/post/225931
-UOS/Deepin 中配置 DTK 开发环境：https://bbs.deepin.org/zh/post/209405
-DTK程序简单的开发教程（简易的浏览器）：https://bbs.deepin.org/zh/post/207250
-一个Dtk程序开发的实例，自己做一个deepin风格的程序：https://bbs.deepin.org/zh/post/198578
-C++太繁琐？快来一起给QtQuick（QML）适配dtk风格的控件！：https://bbs.deepin.org/zh/post/222435
-参考当年王勇做的DTK列表搞了个新的：https://bbs.deepin.org/zh/post/229550
-使用 apt-build 从 deepin 仓库源码构建安装软件包：https://bbs.deepin.org/zh/post/223853
-Oracle %ROWTYPE 在MySQL中的移植：https://bbs.deepin.org/zh/post/224122
-Deepin Learning on Deepin —— 基础环境架设：https://bbs.deepin.org/zh/post/225041
-pyside6开发环境搭建——基于pycharm：https://bbs.deepin.org/zh/post/226994
-从源码编译安装GnuCash-4.8：https://bbs.deepin.org/zh/post/228255
-最近在跟QtQuick教程，想搞Qt的一起来耍呀：https://bbs.deepin.org/zh/post/232135
-微信开发者工具 Linux版 v1.05.2203070 免wine：https://bbs.deepin.org/post/232284
-deepin，做一个开发者友好的发行版：https://bbs.deepin.org/zh/post/234593
-使用go语言重新实现一款软件包管理器：https://bbs.deepin.org/zh/post/233959
-关于preinst等维护者脚本被唤起时可能会获得的参数/状态提示总结：https://bbs.deepin.org/zh/post/237895
-spark-dwine-helper文档：https://shenmo7192.gitee.io/categories/spark-dwine-helper%E6%96%87%E6%A1%A3/
-四、社区与论坛
-4.1 论坛使用
-利用百度替代论坛搜索功能：https://bbs.deepin.org/zh/post/221982
-（UOS）社区问题及建议反馈须知：http://bbs.chinauos.com/post/5005
-使用 markdown 发论坛：https://bbs.deepin.org/zh/post/225059
-社区黑暗模式的常用界面已经适配完成，大家可以体验：https://bbs.deepin.org/zh/post/216104
-使用油猴将论坛中的图片查看功能全面改造：https://bbs.deepin.org/zh/post/229849
-TG交流群组建立,欢迎大家加入：https://bbs.deepin.org/zh/post/230231
-如何优雅地在论坛插入b站视频：https://bbs.deepin.org/zh/post/232626
-4.2 社区活动（部分）
-访谈依云和来自深度社区的竹子和马强：https://bbs.deepin.org/zh/post/220802
-深度中国社区大佬面对面第一期：Arch中文社区依云：https://bbs.deepin.org/zh/post/221930
-deepin社区AMA「深度用户面对面」直播活动精彩回顾：https://bbs.deepin.org/zh/post/221738
-深度中国社区大佬面对面第三期——openSUSE中国社区山木老师：https://bbs.deepin.org/zh/post/226072
-DDUC2021，我们不见不散：https://bbs.deepin.org/zh/post/228899
-DDUC活动礼品设计灵感：https://bbs.deepin.org/zh/post/228868
-DDUC2021——开源你我，始终如一：https://bbs.deepin.org/zh/post/228582
+6. deepin-wine5 应用打包器：https://bbs.deepin.org/zh/post/214306
+7. wine自动打包程序：https://bbs.deepin.org/zh/post/221842
+8. Deepin用wine安装的Windows软件目录在哪：https://bbs.deepin.org/zh/post/227183
+9. 用wine安装官方最新版钉钉：https://bbs.deepin.org/zh/post/189460 (这是旧版系统的教程，但仍可以学习借鉴)
+10. wine程序添加快捷键：https://bbs.deepin.org/zh/post/219312
+11. 安装wine-gecko 和wine-mono的步骤：https://bbs.deepin.org/zh/post/208082
+12. CrossOver 17 测试版，解除时间限制：https://bbs.deepin.org/zh/post/231306
+13. wine工具盘点——linux上运行windows软件必备神器：https://bbs.deepin.org/zh/post/237398
+14. Deepin Wine6的run_v4脚本探索——启动方式：https://bbs.deepin.org/zh/post/237953
+15. 安装WineHQ：https://bbs.deepin.org/zh/post/238337
+16. WineHQ使用时出现中文乱码：https://bbs.deepin.org/zh/post/238339
+17. wine使用教程3-打包deepin-wine6-stable应用的方法：https://bbs.deepin.org/zh/post/238778
+
+**3.2.3 虚拟机**
+1. VMware 虚拟机3种安装方法： https://bbs.deepin.org/zh/post/221632
+2. 开箱即用的虚拟机软件——GNOME Boxes，应用商店可下载！：https://bbs.deepin.org/zh/post/220484
+3. 在kde或者gnome实现类 "linux subsystem for windows"体验：https://bbs.deepin.org/zh/post/228448  (可能不适用于deepin)
+4. 【deepin安装系列(1)】使用VMware workstation 安装和管理deepin：https://bbs.deepin.org/post/232566
+
+**3.3 开发程序**
+1. 解包/打包deb教程 一周年重置版：https://bbs.deepin.org/zh/post/227931
+2. deb打包教程：https://bbs.deepin.org/zh/post/194188
+3. 超级简单打包软件分享：https://bbs.deepin.org/zh/post/194219
+4. 统信软件社区开发培训——打包：https://bbs.deepin.org/zh/post/201183
+5. 这个打包deb的操作特简单，uos/Deepin打包操作方式，供大家参考：https://bbs.deepin.org/zh/post/225931
+6. UOS/Deepin 中配置 DTK 开发环境：https://bbs.deepin.org/zh/post/209405
+7. DTK程序简单的开发教程（简易的浏览器）：https://bbs.deepin.org/zh/post/207250
+8. 一个Dtk程序开发的实例，自己做一个deepin风格的程序：https://bbs.deepin.org/zh/post/198578
+9. C++太繁琐？快来一起给QtQuick（QML）适配dtk风格的控件！：https://bbs.deepin.org/zh/post/222435
+10. 参考当年王勇做的DTK列表搞了个新的：https://bbs.deepin.org/zh/post/229550
+11. 使用 apt-build 从 deepin 仓库源码构建安装软件包：https://bbs.deepin.org/zh/post/223853
+12. Oracle %ROWTYPE 在MySQL中的移植：https://bbs.deepin.org/zh/post/224122
+13. Deepin Learning on Deepin —— 基础环境架设：https://bbs.deepin.org/zh/post/225041
+14. pyside6开发环境搭建——基于pycharm：https://bbs.deepin.org/zh/post/226994
+15. 从源码编译安装GnuCash-4.8：https://bbs.deepin.org/zh/post/228255
+16. 最近在跟QtQuick教程，想搞Qt的一起来耍呀：https://bbs.deepin.org/zh/post/232135
+17. 微信开发者工具 Linux版 v1.05.2203070 免wine：https://bbs.deepin.org/post/232284
+18. deepin，做一个开发者友好的发行版：https://bbs.deepin.org/zh/post/234593
+19. 使用go语言重新实现一款软件包管理器：https://bbs.deepin.org/zh/post/233959
+20. 关于preinst等维护者脚本被唤起时可能会获得的参数/状态提示总结：https://bbs.deepin.org/zh/post/237895
+21. spark-dwine-helper文档：https://shenmo7192.gitee.io/categories/spark-dwine-helper%E6%96%87%E6%A1%A3/
+
+# 四、社区与论坛
+## 4.1 论坛使用
+1. 利用百度替代论坛搜索功能：https://bbs.deepin.org/zh/post/221982
+2. (UOS)社区问题及建议反馈须知：http://bbs.chinauos.com/post/5005
+3. 使用 markdown 发论坛：https://bbs.deepin.org/zh/post/225059
+4. 社区黑暗模式的常用界面已经适配完成，大家可以体验：https://bbs.deepin.org/zh/post/216104
+5. 使用油猴将论坛中的图片查看功能全面改造：https://bbs.deepin.org/zh/post/229849
+6. TG交流群组建立,欢迎大家加入：https://bbs.deepin.org/zh/post/230231
+7. 如何优雅地在论坛插入b站视频：https://bbs.deepin.org/zh/post/232626
+
+## 4.2 社区活动（部分）
+1. 访谈依云和来自深度社区的竹子和马强：https://bbs.deepin.org/zh/post/220802
+2. 深度中国社区大佬面对面第一期：Arch中文社区依云：https://bbs.deepin.org/zh/post/221930
+3. deepin社区AMA「深度用户面对面」直播活动精彩回顾：https://bbs.deepin.org/zh/post/221738
+4. 深度中国社区大佬面对面第三期——openSUSE中国社区山木老师：https://bbs.deepin.org/zh/post/226072
+5. DDUC2021，我们不见不散：https://bbs.deepin.org/zh/post/228899
+6. DDUC活动礼品设计灵感：https://bbs.deepin.org/zh/post/228868
+7. DDUC2021——开源你我，始终如一：https://bbs.deepin.org/zh/post/228582
 deepin开源社区中心星火行动启动：https://bbs.deepin.org/zh/post/230086
 深度开源社区版主轮值活动：https://bbs.deepin.org/zh/post/233938
 deepin高校开源社区中心招募啦！就等你来：https://bbs.deepin.org/zh/post/232405
