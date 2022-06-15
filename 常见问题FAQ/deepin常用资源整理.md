@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:15:56.555Z
+date: 2022-06-15T03:20:20.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -47,27 +47,27 @@ dateCreated: 2022-06-15T02:54:30.594Z
 ### 2.1 系统安装
 
 安装deepin 20.4之后的版本，安装器能自动识别已有EFI分区，无需再另外手动创建。
+1. 安装教程（官方）：https://www.deepin.org/zh/installation/ 
+2. swin10下的Deepin双系统安装小白教程：https://bbs.deepin.org/zh/post197659  金山文档转存链接
+3. 如何安装deepin-windows双系统：https://bbs.deepin.org/zh/post/222739
+4. 系统安装教程：https://bbs.deepin.org/zh/post/226286
+5. 双系统安装及手动分区方法：https://bbs.deepin.org/zh/post/226463
+6. 11代Intel新硬件安装深度：https://bbs.deepin.org/zh/post/220443
+7. 不知道怎么分区的看过来：https://bbs.deepin.org/zh/post/194267
+8. 关于装系统出现代码花屏解决方法，grub引导：https://bbs.deepin.org/zh/post/196084
+9. 判断BIOS的启动模式和磁盘分区格式：https://bbs.deepin.org/zh/post/225766
+10. 自定义安装后如何给分区分配卷标/盘符：https://bbs.deepin.org/zh/post/207279
+11. 用ventoy运行deepin不用安装到硬盘的方法：https://bbs.deepin.org/zh/post/223203 （不推荐，这样做要等很长时间才能进入桌面，且系统密码未知）
+12. Linux逻辑卷管理（LVM）系统折腾者的利器-分分钟再加一个Linux：https://bbs.deepin.org/zh/post/227941
+13. 把 Deepin Linux 安装到“带区卷软阵列+逻辑卷（RAID0+LVM）”上：https://bbs.deepin.org/zh/post/227880
+14. 无需命令行，双系统加密安装deepin的解决方案：https://bbs.deepin.org/zh/post/215392
+15. 通过PXE批量部署安装Deepin V20【视频教程】：https://bbs.deepin.org/zh/post/207368
+16. 我的Deepin初始化脚本：https://bbs.deepin.org/post/228930
+17. 使用VMware workstation 安装和管理deepin：https://bbs.deepin.org/zh/post/232573
+18. 使用kvm安装和管理deepin：https://bbs.deepin.org/zh/post/232573
+19. 自制 deepin Live CD——1.1.0——支持本地安装启动：https://bbs.deepin.org/zh/post/236521
+20. 【建议】使用Btrfs分区方案：https://bbs.deepin.org/zh/post/238188
 
-安装教程（官方）：https://www.deepin.org/zh/installation/
-win10下的Deepin双系统安装小白教程：https://bbs.deepin.org/zh/post/197659  金山文档转存链接
-如何安装deepin-windows双系统：https://bbs.deepin.org/zh/post/222739
-系统安装教程：https://bbs.deepin.org/zh/post/226286
-双系统安装及手动分区方法：https://bbs.deepin.org/zh/post/226463
-11代Intel新硬件安装深度：https://bbs.deepin.org/zh/post/220443
-不知道怎么分区的看过来：https://bbs.deepin.org/zh/post/194267
-关于装系统出现代码花屏解决方法，grub引导：https://bbs.deepin.org/zh/post/196084
-判断BIOS的启动模式和磁盘分区格式：https://bbs.deepin.org/zh/post/225766
-自定义安装后如何给分区分配卷标/盘符：https://bbs.deepin.org/zh/post/207279
-用ventoy运行deepin不用安装到硬盘的方法：https://bbs.deepin.org/zh/post/223203 （不推荐，这样做要等很长时间才能进入桌面，且系统密码未知）
-Linux逻辑卷管理（LVM）系统折腾者的利器-分分钟再加一个Linux：https://bbs.deepin.org/zh/post/227941
-把 Deepin Linux 安装到“带区卷软阵列+逻辑卷（RAID0+LVM）”上：https://bbs.deepin.org/zh/post/227880
-无需命令行，双系统加密安装deepin的解决方案：https://bbs.deepin.org/zh/post/215392
-通过PXE批量部署安装Deepin V20【视频教程】：https://bbs.deepin.org/zh/post/207368
-我的Deepin初始化脚本：https://bbs.deepin.org/post/228930
-使用VMware workstation 安装和管理deepin：https://bbs.deepin.org/zh/post/232573
-使用kvm安装和管理deepin：https://bbs.deepin.org/zh/post/232573
-自制 deepin Live CD——1.1.0——支持本地安装启动：https://bbs.deepin.org/zh/post/236521
-【建议】使用Btrfs分区方案：https://bbs.deepin.org/zh/post/238188
 附  在U盘上安装deepin
 建议在USB 3.0或以上的U盘中安装deepin，启动时使用电脑的USB 3.0接口，否则会很卡。U盘存储空间至少为20GB。
 [grub实现]U盘引导多个linux镜像安装,同时支持BIOS和UEFI模式：https://my.oschina.net/abcfy2/blog/491140
