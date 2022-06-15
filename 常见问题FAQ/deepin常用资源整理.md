@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:36:12.775Z
+date: 2022-06-15T03:36:25.756Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -106,7 +106,7 @@ dateCreated: 2022-06-15T02:54:30.594Z
 13. 安装兄弟Brother打印机扫描驱动及配置文件的方法：https://bbs.deepin.org/zh/post/232569
 14. 惠普打印扫描一体机开启扫描功能：https://bbs.deepin.org/zh/post/238968
 
-2.5 问题解决  
+### 2.5 问题解决  
 1. deepin和windows双系统时间不同步的解决方法：https://bbs.deepin.org/zh/post/220213  最好的方法是分别设置Windows和Linux的时间与网络同步
 2. 用snapd安装软件后出现多个磁盘：https://bbs.deepin.org/zh/post/203517 （解决方法在7楼）
 3. 终于干掉snapd分区了：https://bbs.deepin.org/zh/post/213673
