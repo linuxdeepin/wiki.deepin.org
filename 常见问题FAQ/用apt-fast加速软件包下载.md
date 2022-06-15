@@ -2,7 +2,7 @@
 title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T02:02:41.263Z
+date: 2022-06-15T02:04:22.004Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -60,6 +60,11 @@ apt-fast是一款命令行工具，能够通过多线程下载软件包来提升
 
 1.打开终端，依次执行以下命令：（建议将命令一条一条地复制到终端中执行）
 
-`apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A2166B8DE8BDC3367D1901C11EE2FF37CA8DA16B`
+`apt-key adv --keyserver keyserver.ubuntu.com --recv-keys
+A2166B8DE8BDC3367D1901C11EE2FF37CA8DA16B`
 `sudo apt update`
 `sudo apt install apt-fast`
+
+![apt-fast2.png](/apt-fast2.png)
+
+1.安装apt-fast时需要进行3项设定。第1项选择apt，第2项和第3项按个人习惯选择，我全部选择默认的选项。
