@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T03:38:09.640Z
+date: 2022-06-15T05:56:18.487Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -131,53 +131,61 @@ dateCreated: 2022-06-15T02:54:30.594Z
 
 **2.6.2 应用处理**
 
-删除卸载残留的应用配置：https://bbs.deepin.org/zh/post/227702
-在dde File Manager的较上端加入菜单项（类似深度压缩）：https://bbs.deepin.org/zh/post/229467
-deb软件包安装卸载失败修复教程：https://bbs.deepin.org/zh/post/217421
-deepin中Typora无法设置为默认程序的解决办法：https://blog.csdn.net/Charley_Leo/article/details/107091222
-deepin更新提示缺少release文件：https://bbs.deepin.org/post/238809
-2.6.3 输入法
-创作自己的输入法皮肤(适用于旧版fcitx)：https://bbs.deepin.org/zh/post/210018
-安装及使用Rime输入法--中州韵输入法：https://bbs.deepin.org/zh/post/207410
-手动编绎fcitx5教程：https://bbs.deepin.org/zh/post/208959
-Deepin 20.3上使用Fcitx5的方法：https://bbs.deepin.org/post/224852
-deepin正式版/uos家庭版安装fcitx5：https://bbs.deepin.org/zh/post/223758
-fcitx5输入法使用技巧&简约皮肤分享：https://bbs.deepin.org/zh/post/223743
-deepin深度简约 fcitx5主题：https://bbs.deepin.org/zh/post/228832
-中州韵98五笔助手：https://bbs.deepin.org/zh/post/231400
-输入法不跟随光标：https://bbs.deepin.org/zh/post/231849
-默认输入法配置：https://bbs.deepin.org/zh/post/232652
-【deepin个性化配置(2)】安装和配置Fcitx5输入法：https://bbs.deepin.org/zh/post/233230
-2.6.4 性能
-交换空间：https://wiki.archlinux.org/title/Swap_(简体中文) （适用于deepin，安装系统后可按“交换文件”部分设置swap）
-对小内存用户的使用建议 防卡设置：https://bbs.deepin.org/zh/post/199563 （文件所在位置为/usr/lib/sysctl.d/deepin.conf ，要以管理员身份打开）
-为什么空闲时CPU睿频起飞：https://bbs.deepin.org/zh/post/222430
-解决Deepin下CPU不能自主降频问题：https://bbs.deepin.org/zh/post/194744
-deepin桌面卡死处理：https://bbs.deepin.org/zh/post/225151
-启动wine qq时偶发性使桌面崩溃：https://bbs.deepin.org/zh/post/207380
-性能与功耗之间的权衡与调整第三版：https://bbs.deepin.org/zh/post/223793
-nvidia显卡firefox硬解在线视频：https://bbs.deepin.org/zh/post/233052
-deepin如何给根目录扩容：https://bbs.deepin.org/zh/post/237402
-2.6.5 命令与终端
-deepin-terminal的新改造：https://bbs.deepin.org/zh/post/225366
-终端deepin-terminal自定义命令和分屏杂谈：https://bbs.deepin.org/zh/post/237641
-使用过的一些命令分享：https://bbs.deepin.org/zh/post/223660
-以root权限运行命令配置无需输入密码（sudo和pkexec）：https://bbs.deepin.org/zh/post/229374
-apt和apt-get的区别：https://bbs.deepin.org/zh/post/208702
-查看系统安装的日期与时间：https://bbs.deepin.org/zh/post/229311
-手把手教你装zsh，所有github链接都换成了gitee，包你安装顺利：https://bbs.deepin.org/zh/post/237774
-使用fish代替bash，真好用：https://bbs.deepin.org/zh/post/238189
-2.6.6 文件处理
-不安装任何软件实现局域网快速共享文件：https://bbs.deepin.org/zh/post/209250
-如何设置共享文件，windows访问deepin共享文件方法：https://bbs.deepin.org/zh/post/195192
-deepin下如何访问Windows共享资料：https://bbs.deepin.org/zh/post/208246
-Linux桌面环境与Win10之间共享文件夹的互相访问：https://www.jianshu.com/p/f872fe1d02dc
-回收站无法清空的解决方法：https://bbs.deepin.org/zh/post/205839
-开机自动挂载webdav：https://bbs.deepin.org/zh/post/229044
-FTP服务搭建（vsftpd配置使用）：https://blog.csdn.net/babyfengfjx/article/details/122837362
-使用docker拉取CloudDrive镜像实现把网盘挂载到系统：https://bbs.deepin.org/zh/post/237552
-格式化硬盘后文件管理器显示62.3G占用：https://bbs.deepin.org/post/238570
-2.6.7 其它
+1. 删除卸载残留的应用配置：https://bbs.deepin.org/zh/post/227702
+2. 在dde File Manager的较上端加入菜单项（类似深度压缩）：https://bbs.deepin.org/zh/post/229467
+3. deb软件包安装卸载失败修复教程：https://bbs.deepin.org/zh/post/217421
+4. deepin中Typora无法设置为默认程序的解决办法：https://blog.csdn.net/Charley_Leo/article/details/107091222
+5. deepin更新提示缺少release文件：https://bbs.deepin.org/post/238809
+
+**2.6.3 输入法**
+1. 创作自己的输入法皮肤(适用于旧版fcitx)：https://bbs.deepin.org/zh/post/210018
+2. 安装及使用Rime输入法--中州韵输入法：https://bbs.deepin.org/zh/post/207410
+3. 手动编绎fcitx5教程：https://bbs.deepin.org/zh/post/208959
+4. Deepin 20.3上使用Fcitx5的方法：https://bbs.deepin.org/post/224852
+5. deepin正式版/uos家庭版安装fcitx5：https://bbs.deepin.org/zh/post/223758
+6. fcitx5输入法使用技巧&简约皮肤分享：https://bbs.deepin.org/zh/post/223743
+7. deepin深度简约 fcitx5主题：https://bbs.deepin.org/zh/post/228832
+8. 中州韵98五笔助手：https://bbs.deepin.org/zh/post/231400
+9. 输入法不跟随光标：https://bbs.deepin.org/zh/post/231849
+10. 默认输入法配置：https://bbs.deepin.org/zh/post/232652
+11. 【deepin个性化配置(2)】安装和配置Fcitx5输入法：https://bbs.deepin.org/zh/post/233230
+
+**2.6.4 性能**
+
+1. 交换空间：https://wiki.archlinux.org/title/Swap_(简体中文) （适用于deepin，安装系统后可按“交换文件”部分设置swap）
+2. 对小内存用户的使用建议 防卡设置：https://bbs.deepin.org/zh/post/199563 （文件所在位置为/usr/lib/sysctl.d/deepin.conf ，要以管理员身份打开）
+3. 为什么空闲时CPU睿频起飞：https://bbs.deepin.org/zh/post/222430
+4. 解决Deepin下CPU不能自主降频问题：https://bbs.deepin.org/zh/post/194744
+5. deepin桌面卡死处理：https://bbs.deepin.org/zh/post/225151
+6. 启动wine qq时偶发性使桌面崩溃：https://bbs.deepin.org/zh/post/207380
+7. 性能与功耗之间的权衡与调整第三版：https://bbs.deepin.org/zh/post/223793
+8. nvidia显卡firefox硬解在线视频：https://bbs.deepin.org/zh/post/233052
+9. deepin如何给根目录扩容：https://bbs.deepin.org/zh/post/237402
+
+**2.6.5 命令与终端**
+
+1. deepin-terminal的新改造：https://bbs.deepin.org/zh/post/225366
+2. 终端deepin-terminal自定义命令和分屏杂谈：https://bbs.deepin.org/zh/post/237641
+3. 使用过的一些命令分享：https://bbs.deepin.org/zh/post/223660
+4. 以root权限运行命令配置无需输入密码（sudo和pkexec）：https://bbs.deepin.org/zh/post/229374
+5. apt和apt-get的区别：https://bbs.deepin.org/zh/post/208702
+6. 查看系统安装的日期与时间：https://bbs.deepin.org/zh/post/229311
+7. 手把手教你装zsh，所有github链接都换成了gitee，包你安装顺利：https://bbs.deepin.org/zh/post/237774
+8. 使用fish代替bash，真好用：https://bbs.deepin.org/zh/post/238189
+
+**2.6.6 文件处理**
+
+1. 不安装任何软件实现局域网快速共享文件：https://bbs.deepin.org/zh/post/209250
+2. 如何设置共享文件，windows访问deepin共享文件方法：https://bbs.deepin.org/zh/post/195192
+3. deepin下如何访问Windows共享资料：https://bbs.deepin.org/zh/post/208246
+4. Linux桌面环境与Win10之间共享文件夹的互相访问：https://www.jianshu.com/p/f872fe1d02dc
+5. 回收站无法清空的解决方法：https://bbs.deepin.org/zh/post/205839
+6. 开机自动挂载webdav：https://bbs.deepin.org/zh/post/229044
+7. FTP服务搭建（vsftpd配置使用）：https://blog.csdn.net/babyfengfjx/article/details/122837362
+8. 使用docker拉取CloudDrive镜像实现把网盘挂载到系统：https://bbs.deepin.org/zh/post/237552
+9. 格式化硬盘后文件管理器显示62.3G占用：https://bbs.deepin.org/post/238570
+
+**2.6.7 其它** 
 优雅地创作和分享技术博客：https://bbs.deepin.org/post/228934
 在deepin上使用LaTeX：https://bbs.deepin.org/zh/post/229734
 一句命令行安装live系统 解决手动分区无备份还原系统等问题：https://bbs.deepin.org/zh/post/215165
