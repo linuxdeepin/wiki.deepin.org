@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T07:45:14.086Z
+date: 2022-06-15T07:46:55.873Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -225,22 +225,25 @@ dateCreated: 2022-06-15T02:54:30.594Z
 4. Deepin 上的实时网速推荐 lfxNet（重构 lfxSpeed ）：https://bbs.deepin.org/zh/post/213210
 
 **2.7.4 字体**
-如何在deepinOS上加入方正字体：https://bbs.deepin.org/zh/post/228540
-超1000款UOS字体包：链接: https://cloud.189.cn/t/uyeuQjU3IBZz 密码: dr0l
-华为鸿蒙中文字体DEB包：https://bbs.deepin.org/zh/post/221591
-更换系统默认中文字体的技巧：https://bbs.deepin.org/zh/post/237625
-2.7.5 其他
-【Mac布局美化】美化无止境，只要肯折腾：https://bbs.deepin.org/zh/post/196796
-Bloom Origin 图标提取分享：https://bbs.deepin.org/zh/post/223230
-图标主题的继承关系：https://bbs.deepin.org/zh/post/203946
-deepin美化系列教程（五）：https://bbs.deepin.org/zh/post/227803
-2.8 系统有关介绍
-你好，deepin：https://bbs.deepin.org/zh/post/223462
-深度桌面环境介绍：https://bbs.deepin.org/zh/post/213341
-分享那些可能被你忽略的deepin自带工具：https://bbs.deepin.org/zh/post/227223
-20.2.3新功能展示——OCR文字识别：https://bbs.deepin.org/zh/post/225260
-万众7待，焕新出发，deepin新版商店为你而来：https://bbs.deepin.org/zh/post/222677
-全新的图标主题，就静静地欣赏，细细的品味：https://bbs.deepin.org/zh/post/223494
+1. 如何在deepinOS上加入方正字体：https://bbs.deepin.org/zh/post/228540
+2. 超1000款UOS字体包：链接: https://cloud.189.cn/t/uyeuQjU3IBZz 密码: dr0l
+3. 华为鸿蒙中文字体DEB包：https://bbs.deepin.org/zh/post/221591
+4. 更换系统默认中文字体的技巧：https://bbs.deepin.org/zh/post/237625
+
+**2.7.5 其他**
+1. 【Mac布局美化】美化无止境，只要肯折腾：https://bbs.deepin.org/zh/post/196796
+2. Bloom Origin 图标提取分享：https://bbs.deepin.org/zh/post/223230
+3. 图标主题的继承关系：https://bbs.deepin.org/zh/post/203946
+4. deepin美化系列教程（五）：https://bbs.deepin.org/zh/post/227803  
+
+
+### 2.8 系统有关介绍
+1. 你好，deepin：https://bbs.deepin.org/zh/post/223462
+2. 深度桌面环境介绍：https://bbs.deepin.org/zh/post/213341
+3. 分享那些可能被你忽略的deepin自带工具：https://bbs.deepin.org/zh/post/227223
+4. 20.2.3新功能展示——OCR文字识别：https://bbs.deepin.org/zh/post/225260
+5. 万众7待，焕新出发，deepin新版商店为你而来：https://bbs.deepin.org/zh/post/222677
+6. 全新的图标主题，就静静地欣赏，细细的品味：https://bbs.deepin.org/zh/post/223494
 20.3新版本特性介绍（一）全局搜索：https://bbs.deepin.org/zh/post/228676
 20.3新版本特性-文件管理器：https://bbs.deepin.org/zh/post/230030
 20.4新版本特性①藏宝箱：https://bbs.deepin.org/zh/post/231326
