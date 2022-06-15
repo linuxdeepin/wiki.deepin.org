@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2022-06-15T01:54:05.622Z
+date: 2022-06-15T01:55:13.092Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -20,3 +20,4 @@ apt-fast是一款命令行工具，能够通过多线程下载软件包来提升
 
 打开终端，输入以下命令并回车：
 
+`
