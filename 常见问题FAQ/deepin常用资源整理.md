@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 
 published: true
-date: 2022-06-15T06:18:55.943Z
+date: 2022-06-15T07:45:14.086Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z
@@ -212,17 +212,19 @@ dateCreated: 2022-06-15T02:54:30.594Z
 9. 教你怎样自己制作暗色壁纸：https://bbs.deepin.org/zh/post/238967
 
 **2.7.2 程序窗口**
-一行命令美化标题栏大额头，可设置任意高度和任意颜色：https://bbs.deepin.org/zh/post/197036
-定制版最大化最小化关闭按钮：https://bbs.deepin.org/zh/post/210071
-将菜单显示在标题栏上：https://bbs.deepin.org/zh/post/224774
-第三方应用圆角适配，移植于cutefish：https://bbs.deepin.org/zh/post/226223
-分享一种缩小应用标题栏（额头）高度的方法：https://bbs.deepin.org/zh/post/234783
-2.7.3 Dock、顶栏
-dde-top-panel 顶栏程序+全局菜单 (V20)：https://bbs.deepin.org/zh/post/195128
-定制的dde-dock分享：https://bbs.deepin.org/zh/post/224228
-Linux桌面最轻量的Dock之Plank：https://bbs.deepin.org/zh/post/215170
-Deepin 上的实时网速推荐 lfxNet（重构 lfxSpeed ）：https://bbs.deepin.org/zh/post/213210
-2.7.4 字体
+1. 一行命令美化标题栏大额头，可设置任意高度和任意颜色：https://bbs.deepin.org/zh/post/197036
+2. 定制版最大化最小化关闭按钮：https://bbs.deepin.org/zh/post/210071
+3. 将菜单显示在标题栏上：https://bbs.deepin.org/zh/post/224774
+4. 第三方应用圆角适配，移植于cutefish：https://bbs.deepin.org/zh/post/226223
+5. 分享一种缩小应用标题栏（额头）高度的方法：https://bbs.deepin.org/zh/post/234783
+
+**2.7.3 Dock、顶栏**
+1. dde-top-panel 顶栏程序+全局菜单 (V20)：https://bbs.deepin.org/zh/post/195128
+2. 定制的dde-dock分享：https://bbs.deepin.org/zh/post/224228
+3. Linux桌面最轻量的Dock之Plank：https://bbs.deepin.org/zh/post/215170
+4. Deepin 上的实时网速推荐 lfxNet（重构 lfxSpeed ）：https://bbs.deepin.org/zh/post/213210
+
+**2.7.4 字体**
 如何在deepinOS上加入方正字体：https://bbs.deepin.org/zh/post/228540
 超1000款UOS字体包：链接: https://cloud.189.cn/t/uyeuQjU3IBZz 密码: dr0l
 华为鸿蒙中文字体DEB包：https://bbs.deepin.org/zh/post/221591
