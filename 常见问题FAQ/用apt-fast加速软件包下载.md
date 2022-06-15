@@ -2,7 +2,7 @@
 title: 用apt-fast加速软件包下载
 description: 
 published: true
-date: 2022-06-15T02:41:48.570Z
+date: 2022-06-15T02:51:36.765Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
@@ -44,7 +44,7 @@ apt-fast是一款命令行工具，能够通过多线程下载软件包来提升
 2. 如果要跳过更改软件包前的确认操作，请在命令的末尾加上  -y（注意空格）。
 3. 执行命令时，按 Ctrl+C 终止运行。
 
-二 安装apt-fast
+# 二 安装apt-fast
 
 如果系统中已经安装了 星火应用商店 ，可以直接在终端执行命令 sudo apt install apt-fast 来安装它，但安装的apt-fast不是最新版本。
 
