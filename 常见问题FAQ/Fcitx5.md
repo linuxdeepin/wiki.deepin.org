@@ -2,7 +2,7 @@
 title: Fcitx5
 description: 
 published: true
-date: 2022-06-16T02:34:38.778Z
+date: 2022-06-16T02:35:46.300Z
 tags: fcitx5
 editor: markdown
 dateCreated: 2022-06-16T02:34:38.778Z
@@ -10,6 +10,7 @@ dateCreated: 2022-06-16T02:34:38.778Z
 
 # Fcitx5
 
+Fcitx (Flexible Input Method Framework) ──即小企鹅输入法，它是一个以 GPL 方式发布的[输入法](http://old.deepin.wiki/index.php?title=输入法)平台，可以通过安装引擎支持多种输入法，支持简入繁出，是在 [Linux](http://old.deepin.wiki/index.php?title=Linux) 操作系统中常用的中文输入法。它的优点是，短小精悍、跟程序的兼容性比较好。下一代版本为 [Fcitx5](http://old.deepin.wiki/index.php?title=Fcitx5)。
 [跳到导航](http://old.deepin.wiki/index.php?title=Fcitx5#mw-head)[跳到搜索](http://old.deepin.wiki/index.php?title=Fcitx5#searchInput)
 
 Fcitx5 是继 [Fcitx](http://old.deepin.wiki/index.php?title=Fcitx) 后的新一代输入法框架。自 20.2.3 后被集成到仓库中，系统预装版本仍为 fcitx4。
