@@ -2,7 +2,7 @@
 title: Deepin安装概述
 description: 
 published: true
-date: 2022-06-09T01:15:24.932Z
+date: 2022-06-16T04:59:38.514Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-12T05:47:26.110Z
@@ -141,7 +141,11 @@ initrd 分 image-initrd 及 cpio-initrd 两种：
 
 Windows系统：
 
-下载Hash软件，校验您下载的镜像的MD5值与下载页面提供的MD5值是否一致
+下载Hash软件，校验您下载的镜像的MD5值与下载页面提供的MD5值是否一致。或者在CMD中使用命令行校验：
+  
+```shell
+certutil.exe -hashfile deepin-xx-xx.iso md5
+```
 
 Linux系统：
 
@@ -185,6 +189,8 @@ deepin-xx-xx.iso即为您下载的系统镜像文件名，可使用Tab键自动�
 在计算机上已经安装后 Windows 操作系统的情况下，如果想要保留已有 Windows 系统，则可安装双/多系统，实现 deepin 与 Windows 的共存。
 
 与全新安装一样的，保证磁盘上有20G以上的未分配空间或空白分区即可。
+  
+如果想要安装windows + deepin双系统，应该先安装windows，再安装deepin。因为Windows安装时会重写整个分区表，如果先安装了deepin，deepin的分区信息会被windows抹掉。
 
 ### 在 WINDOWS 下安装体验版
 
