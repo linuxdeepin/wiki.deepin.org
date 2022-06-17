@@ -2,7 +2,7 @@
 title: Boot_Loader
 description: 
 published: true
-date: 2022-05-09T15:58:57.549Z
+date: 2022-06-17T07:40:23.363Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:59.117Z
@@ -11,7 +11,7 @@ dateCreated: 2022-04-21T03:29:59.117Z
 ## Debian default boot loaders
 
 | Architecture  | Default Bootloader| Alternatives Bootloader | DebianInstaller Bootloader |
-|:------:||:------:||:------:||:------:|
+|:------:|:------:|:------:|:------:|
 | i386, amd64 (BIOS)| GRUB 2 | lilo, syslinux, grub v1 | syslinux, pxelinux |
 | i386, amd64 (UEFI) | GRUB-EFI 2 | lilo, syslinux, grub-efi-v2, kernel EFI stub | |
 | powerpc (NewWorld) | yaboot | grub-ieee1275 | |
@@ -67,9 +67,9 @@ CONs : Doesn't support Hurd/Mach.
 
 By using the EFI Boot Stub it's possible to boot a Linux kernel without the use of a conventional EFI boot loader, such as grub or elilo.
 
-PROs :* speed up the boot process.* can theoretically improve the kernel's ability to initialize the computer's hardware in a sane way. Whether this translates into improvements in practice is another matter.
+PROs: *speed up the boot process.* can theoretically improve the kernel's ability to initialize the computer's hardware in a sane way. Whether this translates into improvements in practice is another matter.
 
-CONs :* not flexible.* not really usable with multiple kernels.* you should keep a traditional bootloader, just in case...
+CONs: *not flexible.* not really usable with multiple kernels.* you should keep a traditional bootloader, just in case...
 
 ### SPARC
 
