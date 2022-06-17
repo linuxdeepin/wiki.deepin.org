@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-06-17T01:26:56.757Z
+date: 2022-06-17T01:29:34.267Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -132,6 +132,6 @@ If you want to ensure that your drive boots into a certain mode, use disk that y
 | None | None | EXT4 | 15G | Rootb |
 | /data | None |	EXT4 | 15G | _dde_data |
 | /recovery | None |	EXT4 | 15G | Backup |
-| swap | swap) |	swap | 1.5 * memory size | SWAP |
+| swap | swap) | swap | 1.5 * memory size | SWAP |
 
 
