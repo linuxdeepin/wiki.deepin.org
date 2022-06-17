@@ -2,7 +2,7 @@
 title: Installation_Requirements
 description: 
 published: true
-date: 2022-06-15T01:19:10.548Z
+date: 2022-06-17T01:26:56.757Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T07:49:06.118Z
@@ -115,11 +115,23 @@ If you want to ensure that your drive boots into a certain mode, use disk that y
 > Note: If your computer's motherboard is in UEFI mode, please turn off Secure Boot in the motherboard settings, then restart the computer and press the key in the BIOS/UEFI interface which indicates "change boot order". 
 
 # Disk Partitions and File System
+## Manual operation 
 
 | **Mount point** |	**Name**	| **File system**	| **Size** |
 | --- | --- | --- | --- | 
 | / | root (required)	| EXT4(recommend)	| more than 15G |
 | /home | home (recommend) |	EXT4(recommend) |	more than 15G |
-| swap | swap(optional) |	None | less than 4G memory should get 4G size, memory more than 4G can ignore |
+| swap | swap(optional) |	 | less than 4G memory should get 4G size, memory more than 4G can ignore |
+
+## Auto operation 
+
+| **Mount point** |	**Name**	| **File system**	| **Size** | **Label** |
+| --- | --- | --- | --- | --- |
+| /boot| boot | EXT4 | 1G | Boot |
+| / | root | EXT4	| 15G | Roota |
+| None | None | EXT4 | 15G | Rootb |
+| /data | None |	EXT4 | 15G | _dde_data |
+| /recovery | None |	EXT4 | 15G | Backup |
+| swap | swap) |	swap | 1.5 * memory size | SWAP |
 
 
