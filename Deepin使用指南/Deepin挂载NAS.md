@@ -2,7 +2,7 @@
 title: Deepin挂载NAS
 description: 深度系统下挂载NAS盘的方法
 published: true
-date: 2022-06-17T05:59:58.568Z
+date: 2022-06-17T06:01:06.496Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-16T09:49:53.520Z
@@ -55,7 +55,7 @@ sudo mount -a
 
 ---------
 
-## Deepin20下实例
+### Deepin20下实例
 
 我想挂载整个NAS，于是我在`/mnt` 下建立了 `NAS`文件夹
 
