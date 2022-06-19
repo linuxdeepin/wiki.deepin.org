@@ -2,7 +2,7 @@
 title: Qt Creator
 description: 
 published: true
-date: 2022-06-19T05:34:50.475Z
+date: 2022-06-19T05:51:02.499Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:43.398Z
@@ -13,20 +13,20 @@ dateCreated: 2022-04-21T03:40:43.398Z
 Qt Creator是跨平台的轻量级集成开发环境，它包括项目生成向导、C++代码编辑器、浏览文件，集成了Qt Designer、Qt Assistant、QtLinguist、图形化的GDB 调试前端，集成qmake 构建工具等功能。
 
 # 安装方法一
-## 安装
+## 1.1 安装
 
 `sudo apt-get install qtcreator`
 
-## 卸载
+## 1.2 卸载
 
 `sudo apt-get remove qtcreator`
 
-## 仓库地址
+## 1.3 仓库地址
 
 [http://packages.deepin.com/deepin/pool/main/q/qtcreator/](http://packages.deepin.com/deepin/pool/main/q/qtcreator/)
 
 
-## 常见问题
+## 1.4 常见问题
 
 ### 脚本，安装完QT，添加gcc g++ gdb cmake ，修正libGL.so，以及fcitx中文输入支持。
     #!/bin/bash
