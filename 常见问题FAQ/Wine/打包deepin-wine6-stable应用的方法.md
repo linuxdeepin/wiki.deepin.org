@@ -2,7 +2,7 @@
 title: 打包deepin-wine6-stable应用的方法
 description: 
 published: true
-date: 2022-06-20T08:58:15.752Z
+date: 2022-06-20T08:59:30.229Z
 tags: wine6 stable
 editor: markdown
 dateCreated: 2022-06-20T08:57:09.981Z
@@ -18,9 +18,11 @@ dateCreated: 2022-06-20T08:57:09.981Z
 
 ### 一、准备deb的基本信息
 
-建议将以下1-6点信息写到一个txt文件中备用，比如像这样
+建议将以下1-6点信息写到一个txt文件中备用，比如像这样  
 
-![1](https://storage.deepin.org/thread/202206110036522199_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220611003645.png)
+
+![1](https://storage.deepin.org/thread/202206110036522199_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220611003645.png)  
+
 
 #### 1、容器名
 
@@ -28,7 +30,8 @@ dateCreated: 2022-06-20T08:57:09.981Z
 
 案例：Spark-7zip
 
-BOTTLENAME="Spark-7zip"
+BOTTLENAME="Spark-7zip"  
+
 
 #### 2、版本号
 
@@ -36,43 +39,51 @@ BOTTLENAME="Spark-7zip"
 
 案例：21.7.0.0spark0 （其中21.7.0.0是该软件windows版本号，spark是指星火应用商店，0是指投稿的初始版本）
 
-APPVER="21.7.0.0spark0"
+APPVER="21.7.0.0spark0"  
+
 
 #### 3、exe的主执行程序路径
 
 案例：c:/Program Files/7-Zip/7zFM.exe
 
-EXEC_PATH="c:/Program Files/7-Zip/7zFM.exe"
+EXEC_PATH="c:/Program Files/7-Zip/7zFM.exe"  
+
 
 #### 4、包名（应用标识）
 
 建议格式：软件官网网址倒着写，www替换为你要投稿的应用商店平台名称，深度应用商店为deepin，星火应用商店为spark
 
-案例：org.7-zip.spark
+案例：org.7-zip.spark  
+
 
 #### 5、图标Exce执行路径
 
 格式："/opt/apps/包名/files/run.sh" -f %f
 
-案例："/opt/apps/org.7-zip.spark/files/run.sh" -f %f
+案例："/opt/apps/org.7-zip.spark/files/run.sh" -f %f  
+
 
 #### 6、短述：一句话介绍你打包的软件
 
-案例：7-Zip是一款高压缩比的压缩软件。
+案例：7-Zip是一款高压缩比的压缩软件。  
+
 
 ### 二、创建空白文件夹
 
 建议在下载文件下创建package文件夹；
 
-在package文件夹创建**files、entries、build**三个文件夹
+在package文件夹创建**files、entries、build**三个文件夹  
 
-![2](https://storage.deepin.org/thread/202206101931562540_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610182846.png)
+
+![2](https://storage.deepin.org/thread/202206101931562540_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610182846.png)  
+
 
 ### 三、制作桌面图标
 
 #### 1、下载或提取图标文件
 
-在网上下载该软件的图标文件或使用图标提取工具提取该软件的图标文件，通常格式是png、ico、svg。
+在网上下载该软件的图标文件或使用图标提取工具提取该软件的图标文件，通常格式是png、ico、svg。  
+
 
 #### 2、将图标文件格式转为svg格式
 
