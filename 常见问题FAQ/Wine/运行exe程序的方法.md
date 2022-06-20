@@ -2,7 +2,7 @@
 title: 用deepin-wine6安装/运行exe程序的方法
 description: 
 published: true
-date: 2022-06-20T08:45:56.826Z
+date: 2022-06-20T08:46:07.722Z
 tags: wine6 exe
 editor: markdown
 dateCreated: 2022-06-20T08:34:34.911Z
@@ -128,7 +128,8 @@ WINEPREFIX=~/.deepinwine/Wine-7zip /opt/deepin-wine6-stable/bin/regedit
 `WINEPREFIX=~/.deepinwine/Wine-7zip winetricks`
 选择默认的wine容器——安装windows DLL和组件，然后根据需要安装运行时、组件、dll。
 
-六、给exe软件制作一个桌面图标
+六、给exe软件制作一个桌面图标  
+
 在桌面新建一个txt文件（如7zip.txt），复制以下内容到txt文件里：
 
 [Desktop Entry]
