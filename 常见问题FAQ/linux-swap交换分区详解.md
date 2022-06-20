@@ -2,7 +2,7 @@
 title: linux-swap交换分区详解
 description: 
 published: true
-date: 2022-06-20T07:55:40.986Z
+date: 2022-06-20T07:57:03.631Z
 tags: swap
 editor: markdown
 dateCreated: 2022-06-20T07:26:50.183Z
@@ -32,4 +32,10 @@ vm.swappiness = 60
 $ sysctl vm.swappiness=10
 $ sysctl -q vm.swappiness
 vm.swappiness = 10
+```
+
+持久操作
+```
+1、$ vim /etc/sysctl.conf
+2、vm.swappiness=10    #到末行，需要重启生效```
 ```
