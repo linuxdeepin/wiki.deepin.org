@@ -2,7 +2,7 @@
 title: 用deepin-wine6安装/运行exe程序的方法
 description: 
 published: true
-date: 2022-06-20T08:45:52.126Z
+date: 2022-06-20T08:45:56.826Z
 tags: wine6 exe
 editor: markdown
 dateCreated: 2022-06-20T08:34:34.911Z
@@ -157,7 +157,8 @@ Name= ————图标文件显示的名称
 
 **特别说明，Exec=后面不能用~来代替/home/$USER**
 
-七、卸载exe软件
+七、卸载exe软件  
+
 终端命令：
 
 `WINEPREFIX=容器路径 deepin-wine6-stable "c:/exe软件的卸载程序uninstall.exe的路径"`  
