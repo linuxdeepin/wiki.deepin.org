@@ -2,7 +2,7 @@
 title: linux-swap交换分区详解
 description: 
 published: true
-date: 2022-06-20T08:00:59.105Z
+date: 2022-06-20T08:08:43.245Z
 tags: swap
 editor: markdown
 dateCreated: 2022-06-20T07:26:50.183Z
@@ -56,49 +56,31 @@ kswapd周期检查和直接内存回收的两种内存回收机制。当申请�
 kswapd根据内存水位标记决定是否开始回收内存，如果标记达到low就开始回收，回收到剩余内存达到high标记为止。
 
 查看当前系统的内存水位标记
-$ cat /proc/zoneinfo
+$ `cat /proc/zoneinfo`
 
 
 ## 4.swap分区的优先级（priority）
 可以使用-p参数指定相关swap空间的优先级， 值越大优先级越高 ，可以指定的数字范围是－1到32767.
 
-$ swapoff /dev/sdc1; swapon -p 0 /dev/sdc1
-$ swapon -s
+$ `swapoff /dev/sdc1; swapon -p 0 /dev/sdc1`
+$ `swapon -s`
 Filename    Type  Size Used Priority
 /dev/sdc1                             file     2097148 0 0
  
-$ cat /proc/swaps
+$ `cat /proc/swaps`
 Filename    Type  Size Used Priority
 /dev/sdc1                             file     2097148 0 0
-/etc/ fstab放入一个条目，以使其在每次Linux重新启动时生效：
+`/etc/ fstab`放入一个条目，以使其在每次Linux重新启动时生效：
 
-1
 /dev/sdc1 swap swap pri=0 0 0
 
-5. 启停swap
-1
-2
-$ swapoff -a  停止
-$ swapon -a  启动
+## 5.启停swap
 
-6. 创建swap空间
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
+1 $ `swapoff -a`  停止
+2 $ `swapon -a`  启动
+
+## 6.创建swap空间
+```
 制作swap文件
 dd if=/dev/sda3 of=./swapfile bs=1M count=1G
 mkswap ./swapfile
@@ -116,3 +98,4 @@ $ swapoff swapfile
 $ swapon -s
 Filename    Type  Size Used Priority
 /swap.img                               file     2097148 3156 0
+```
