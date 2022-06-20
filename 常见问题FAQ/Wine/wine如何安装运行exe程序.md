@@ -2,7 +2,7 @@
 title: wine如何安装运行exe程序
 description: 
 published: true
-date: 2022-06-20T08:18:46.536Z
+date: 2022-06-20T08:19:03.687Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T08:14:10.550Z
@@ -162,4 +162,5 @@ WINEPREFIX=~/.deepinwine/Wine-7zip regedit
 
 一个一个添加字符串太麻烦，楼主做了一个字体替换注册表字体替换自建注册表10.zip，解压后把里面的.reg文件导入注册表即可（regedit界面左上角——注册表——导入注册表文件）。
 
-![
+![图片2](https://storage.deepin.org/thread/202206101543466844_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610154327.png)
+
