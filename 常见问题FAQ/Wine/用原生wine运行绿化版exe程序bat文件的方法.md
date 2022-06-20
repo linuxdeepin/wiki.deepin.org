@@ -2,7 +2,7 @@
 title: 用原生wine运行绿化版exe程序bat文件的方法
 description: 
 published: true
-date: 2022-06-20T09:08:38.886Z
+date: 2022-06-20T09:14:29.660Z
 tags: wine exe bat
 editor: markdown
 dateCreated: 2022-06-20T09:08:38.886Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-20T09:08:38.886Z
 
 # 用原生wine运行绿化版exe程序（bat文件）的方法
 
-
+## 第5辑 用原生wine运行绿化版exe程序（bat文件）的方法
 
 之前开帖介绍过用原生wine运行便携式exe程序（绿色程序）的方法，有朋友想知道bat程序如何运行，现在再开一帖介绍一下方法。学习本帖内容前建议先看前四帖内容。
 
