@@ -2,7 +2,7 @@
 title: 用deepin-wine6安装/运行exe程序的方法
 description: 
 published: true
-date: 2022-06-20T08:44:53.552Z
+date: 2022-06-20T08:45:52.126Z
 tags: wine6 exe
 editor: markdown
 dateCreated: 2022-06-20T08:34:34.911Z
@@ -143,7 +143,7 @@ X-Deepin-Vendor=user-custom
 
 保存退出txt，右键重命名，把这个txt文件的后缀改为desktop（如7zip.desktop）
 
-![3] (https://storage.deepin.org/thread/202206101638494169_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610163830.png)
+![3](https://storage.deepin.org/thread/202206101638494169_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610163830.png)
 
 注：
 
@@ -155,15 +155,14 @@ Name= ————图标文件显示的名称
 
 以上三项后面的内容可以根据你自己所安装的软件的实际情况更改。
 
-特别说明，Exec=后面不能用~来代替/home/$USER
+**特别说明，Exec=后面不能用~来代替/home/$USER**
 
 七、卸载exe软件
 终端命令：
 
-WINEPREFIX=容器路径 deepin-wine6-stable "c:/exe软件的卸载程序uninstall.exe的路径"
+`WINEPREFIX=容器路径 deepin-wine6-stable "c:/exe软件的卸载程序uninstall.exe的路径"`  
+
 案例:
 
-WINEPREFIX=~/.deepinwine/Wine-7zip deepin-wine6-stable "c:/Program Files/7-Zip/Uninstall.exe"
-
-WINEPREFIX=~/.deepinwine/Wine-7zip deepin-wine6-stable "c:/Program Files/7-Zip/Uninstall.exe"
+`WINEPREFIX=~/.deepinwine/Wine-7zip deepin-wine6-stable "c:/Program Files/7-Zip/Uninstall.exe"`
 
