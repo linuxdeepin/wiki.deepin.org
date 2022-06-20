@@ -2,15 +2,17 @@
 title: 打包deepin-wine6-stable应用的方法
 description: 
 published: true
-date: 2022-06-20T08:57:09.981Z
+date: 2022-06-20T08:58:15.752Z
 tags: wine6 stable
 editor: markdown
 dateCreated: 2022-06-20T08:57:09.981Z
 ---
 
-# wine使用教程
+# wine使用教程  
 
-## 第3辑：打包deepin-wine6-stable应用的方法
+
+## 第3辑：打包deepin-wine6-stable应用的方法  
+
 
 本帖衔接上一帖《[wine使用教程2-用deepin-wine6安装/运行exe程序的方法](https://bbs.deepin.org/post/238765)》内容，将上一帖已安装的windows软件7-zip（版本21.7.0.0）打包为deb格式。
 
