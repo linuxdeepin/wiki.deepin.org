@@ -2,14 +2,14 @@
 title: samba常见问题
 description: 
 published: true
-date: 2022-06-20T07:42:57.278Z
+date: 2022-06-20T07:43:17.505Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-20T07:42:57.278Z
 ---
 
 # samba 常见问题
-## 一.网络邻居中不能查看设备
+## 网络邻居中不能查看设备
 初步分析为访问网络领居需要samba低版本的协议，现在默认是高版本。可以手动降低协议，但不建议；
 1.降低后不能访问windows的共享，协议不匹配；
 2.低版本协议有严重的安全漏洞.试下在`/etc/samba/smb.conf`配置文件中的加入一行代码，如下：
