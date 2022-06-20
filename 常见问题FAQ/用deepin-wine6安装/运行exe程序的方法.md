@@ -2,7 +2,7 @@
 title: 用deepin-wine6安装/运行exe程序的方法
 description: 
 published: true
-date: 2022-06-20T08:34:34.911Z
+date: 2022-06-20T08:35:10.547Z
 tags: wine6 exe
 editor: markdown
 dateCreated: 2022-06-20T08:34:34.911Z
