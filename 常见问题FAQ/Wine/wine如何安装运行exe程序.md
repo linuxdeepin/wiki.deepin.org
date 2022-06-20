@@ -1,8 +1,8 @@
 ---
-title: wine如何安装运行exe程序
+title: 原生wine安装/运行exe程序的方法
 description: 
 published: true
-date: 2022-06-20T08:20:02.319Z
+date: 2022-06-20T08:31:45.436Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T08:14:10.550Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-20T08:14:10.550Z
 
 # wine使用教程
 
-## 第1辑：在Deepin/UOS家庭版用原生wine安装/运行exe程序的方法
+## 第1辑：在Deepin用原生wine安装/运行exe程序的方法
 
 注：
 
