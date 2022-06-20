@@ -2,7 +2,7 @@
 title: wine如何安装运行exe程序
 description: 
 published: true
-date: 2022-06-20T08:19:03.687Z
+date: 2022-06-20T08:20:02.319Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T08:14:10.550Z
@@ -163,4 +163,73 @@ WINEPREFIX=~/.deepinwine/Wine-7zip regedit
 一个一个添加字符串太麻烦，楼主做了一个字体替换注册表字体替换自建注册表10.zip，解压后把里面的.reg文件导入注册表即可（regedit界面左上角——注册表——导入注册表文件）。
 
 ![图片2](https://storage.deepin.org/thread/202206101543466844_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610154327.png)
+
+### 五、winetricks设置
+
+可以添加一些运行时、组件、dll。不是每一个exe软件都需要用到winetricks。案例软件7-zip无需设置winetricks。
+
+安装winetricks的终端命令：
+
+```
+sudo apt install winetricks
+```
+
+运行winetricks的终端命令：
+
+```
+WINEPREFIX=~/.deepinwine/Wine-7zip winetricks
+```
+
+选择默认的wine容器——安装windows DLL和组件，然后根据需要安装运行时、组件、dll。
+
+### 六、给exe软件制作一个桌面图标
+
+在桌面新建一个txt文件（如7zip.txt），复制以下内容：
+
+[Desktop Entry]
+Categories=Application
+Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Wine-7zip wine "c:/Program Files/7-Zip/7zFM.exe"'
+Icon=/usr/share/icons/Default/devices/64/media-optical.svg
+MimeType=
+Name=7-zip
+StartupNotify=true
+Type=Application
+X-Deepin-Vendor=user-custom
+
+保存txt，右键重命名，把这个txt文件的后缀改为desktop（如7zip.desktop）
+
+![图片3](https://storage.deepin.org/thread/202206101638494169_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610163830.png)
+
+注：
+
+Exec= ————sh -c 'WINEPREFIX=容器路径 wine "c:/exe主程序路径在虚拟C盘里的路径"'
+
+Icon= ————指图标路径，文件格式一般为png、svg、icon，图标大小64×64为宜，图标格式最好是svg。
+
+Name= ————图标文件显示的名称
+
+以上三项后面的内容可以根据你自己所安装的软件的实际情况更改。
+
+**特别说明，Exec=后面不能用~来代替/home/$USER**
+
+
+### 七、卸载exe软件
+
+终端命令：
+
+```
+WINEPREFIX=容器路径 wine "c:/exe软件的卸载程序uninstall.exe的路径"
+```
+
+案例:
+
+```
+WINEPREFIX=~/.deepinwine/Wine-7zip wine "c:/Program Files/7-Zip/Uninstall.exe"
+```
+
+### 八、升级原生wine版本
+
+具体方法参考[WineHQ官网方法](https://wiki.winehq.org/Debian_zhcn)
+
+Deepin/UOS预装的原生wine版本为4.0，已经很老旧了。而WineHQ官网稳定版原生wine版本是7.0，开发版原生wine版本是7.10。推荐想尝新的小伙伴升级wine版本。
 
