@@ -2,7 +2,7 @@
 title: Desktop Entry 文件
 description: 
 published: true
-date: 2022-06-08T07:01:36.016Z
+date: 2022-06-23T09:14:36.047Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:02.433Z
@@ -70,6 +70,7 @@ Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信�
 ## 来源链接
 
 [ubuntu unity .desktop 文件书写方法](http://blog.sina.com.cn/s/blog_55e606c2010161xz.html)
+[Freedesktop Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
 
 ## 类别（Categories）列表
 
