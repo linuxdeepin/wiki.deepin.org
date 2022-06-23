@@ -2,7 +2,7 @@
 title: Deepin1541安装Caffe
 description: 
 published: true
-date: 2022-06-23T10:10:27.979Z
+date: 2022-06-23T10:20:39.065Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:31.568Z
@@ -100,8 +100,8 @@ sudo apt install nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual
 ```
 optirun nsight
 ```
+![20170920015015566.png](/图片存储/20170920015015566.png)
 
-![](http://img.blog.csdn.net/20170920015015566?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ### 安装pycuda扩展
 
@@ -151,8 +151,7 @@ time.sleep(10)
 ```
 optirun python python cuda_test.py
 ```
-
-![](http://img.blog.csdn.net/20170920015046578?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920015046578.png](/图片存储/20170920015046578.png)
 
 至此cuda的安装完成，为了用NVIDIA显卡加速深度学习，还需要安装cudnn
 
@@ -199,7 +198,8 @@ sudo apt-get install libglu1-mesa-dev （OpenGL相关的依赖项）
 
 然后打开该软件，输入OpenCV源码在本地的路径，已经编译配置过程产生的中间文件保存在本地的路径（一般是建一个build目录）
 
-![](http://img.blog.csdn.net/20170920015110602?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920015110602.png](/图片存储/20170920015110602.png)
+
 
 - 路径配置完之后，点击左下角的Configure按钮，开始执行依赖检查等环境配置
 
@@ -219,7 +219,7 @@ sudo ldconfig
 
 测试opencv安装是否成功，opencv完全编译安装会安装对应的python接口，在终端中简单测试即可
 
-![](http://img.blog.csdn.net/20170920015216074?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920015216074.png](/图片存储/20170920015216074.png)
 
 至此opencv3.2安装完成
 
@@ -296,8 +296,7 @@ make check -j8
 sudo make install
 sudo ldconfig
 ```
-
-![](http://img.blog.csdn.net/20170920015251627?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920015251627.png](/图片存储/20170920015251627.png)
 
 gflags安装
 
@@ -418,26 +417,25 @@ make test -j8
 ```
 data/mnist/get_mnist.sh
 ```
+![20170920015317945.png](/图片存储/20170920015317945.png)
 
-![](http://img.blog.csdn.net/20170920015317945?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 数据格式转换
 
 ```
 optirun examples/mnist/create_mnist.sh
 ```
-
-![](http://img.blog.csdn.net/20170920015330111?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920015330111.png](/图片存储/20170920015330111.png)
 
 训练LeNet-5超参数(hyperparameters)
 
 ```
 optirun examples/mnist/train_lenet.sh
 ```
+![20170920015341967.png](/图片存储/20170920015341967.png)
 
-![](http://img.blog.csdn.net/20170920015341967?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920015351626.png](/图片存储/20170920015351626.png)
 
-![](http://img.blog.csdn.net/20170920015351626?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 测试集上做预测测试
 
@@ -447,8 +445,8 @@ optirun build/tools/caffe.bin test \
 -weights examples/mnist/lenet_iter_10000.caffemodel \
 -iterations 100
 ```
+![20170920015403052.png](/图片存储/20170920015403052.png)
 
-![](http://img.blog.csdn.net/20170920015403052?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920015412404.png](/图片存储/20170920015412404.png)
 
-![](http://img.blog.csdn.net/20170920015412404?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 至此，全部教程结束。
