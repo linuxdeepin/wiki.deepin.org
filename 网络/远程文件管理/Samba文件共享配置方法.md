@@ -2,7 +2,7 @@
 title: 如何创建samba共享文件夹
 description: 在 Linux 上创建共享文件夹，并对不同的用户赋予不同的访问权限
 published: true
-date: 2022-06-23T11:58:15.127Z
+date: 2022-06-23T12:08:27.516Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T11:39:21.257Z
@@ -130,5 +130,12 @@ net usershare add myShare /home/uos/publicShares "no comment" u1:F,u2:R
 ```
 
 配置完成后保存文件，此时在访问端输入主机 ip 地址，即可以不用用户不同权限进行访问了。
+
+**注意，以上两种方式的共享均满足以下规则：**
+若一个用户能适用多种共享权限，比如用户 `u1:g1`，配置中，对 `u1` 用户配置权限为只读，对 `g1` 组配置权限为读写，那么最终 `u1` 用户在访问时获得的权限为**读写**。
+
+且，如果 acl 中出现了 `Everyone:F`，那么其余用户分别配置的权限均失效，均能以读写访问该文件夹。
+
+因此，在分用户/组配置访问权限时，一定要**移除 Everyone:F 配置**。
 
 
