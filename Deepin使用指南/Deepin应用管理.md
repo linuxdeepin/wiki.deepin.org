@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T13:53:17.841Z
+date: 2022-06-23T14:19:58.435Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -12,8 +12,8 @@ dateCreated: 2022-04-21T03:32:34.710Z
 ## ⚙️网络应用
 ### Title {.tabset}
 #### 🪟浏览器
-- [Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
-- [Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
+- [<img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
+- [<img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
 - [<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">Chromium*是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
 - [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
 - [<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera*是一款网络浏览器*](http://www.opera.com/)
@@ -23,17 +23,17 @@ dateCreated: 2022-04-21T03:32:34.710Z
 {.links-list}
 
 #### 🖥️远程桌面客户端
-- [TeamViewer*是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
-- [Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
-- [UGet*是一个下载管理器*](http://ugetdm.com/)
-- [FileZilla*是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
-- [Transmission*是一个BitTorrent客户端软件*](https://transmissionbt.com/)
-- [qBittorrent*是一个轻量级BitTorrent客户端*](https://www.qbittorrent.org/)
-- [FlareGet*是一个跨平台的下载管理器和加速器*](http://flareget.com/)
-- [gFTP*是一个FTP客户端工具*](https://www.gftp.org/)
-- [CrossFTP*是一款FTP客戶端工具*](http://www.crossftp.com/)
-- [Xtreme Download Manager*是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
-- [AnyDesk*是一款远程桌面控制应用*](https://anydesk.com/)
+- [<img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer*是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
+- [<img height="16" width="16" align="center"  src="/favicon.ico">Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
+- [<img height="16" width="16" align="center"  src="/favicon.ico">UGet*是一个下载管理器*](http://ugetdm.com/)
+- [<img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla*是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
+- [<img height="16" width="16" align="center"  src="/favicon.ico">Transmission*是一个BitTorrent客户端软件*](https://transmissionbt.com/)
+- [<img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent*是一个轻量级BitTorrent客户端*](https://www.qbittorrent.org/)
+- [<img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet*是一个跨平台的下载管理器和加速器*](http://flareget.com/)
+- [<img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP*是一个FTP客户端工具*](https://www.gftp.org/)
+- [<img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP*是一款FTP客戶端工具*](http://www.crossftp.com/)
+- [<img height="16" width="16" align="center"  src="https://sourceforge.net/favicon.ico">Xtreme Download Manager*是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
+- [<img height="16" width="16" align="center"  src="https://anydesk.com/favicon.ico">AnyDesk*是一款远程桌面控制应用*](https://anydesk.com/)
 {.links-list}
 
 #### 📧邮件客户端
@@ -45,9 +45,9 @@ dateCreated: 2022-04-21T03:32:34.710Z
 {.links-list}
 
 ## 💬社交沟通
-- [QQ*是腾讯开发的一款基于Internet的即时通信软件*](https://im.qq.com/)
-- [QQ轻聊版*是中国主流聊天工具QQ的精简版本*](http://im.qq.com/lightqq/)
-- [BearyChat*是一款为工作场景设计的团队沟通工具*](https://bearychat.com/)
+- [<img height="16" width="16" align="center"  src="https://im.qq.com/favicon.ico">QQ*是腾讯开发的一款基于Internet的即时通信软件*](https://im.qq.com/)
+- [<img height="16" width="16" align="center"  src="https://im.qq.com/favicon.ico">QQ轻聊版*是中国主流聊天工具QQ的精简版本*](http://im.qq.com/lightqq/)
+- [<img height="16" width="16" align="center"  src="https://bearychat.com/favicon.ico">BearyChat*是一款为工作场景设计的团队沟通工具*](https://bearychat.com/)
 - [安司密信*是一款社交应用*](http://www.akey.me/)
 - [Telegram*是一个聊天应用软件*](https://telegram.org/)
 - [Skype*是一款即时通讯软件*](http://skype.gmw.cn/)
@@ -258,7 +258,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [GNU Octave*是一种高级编程语言*](https://www.gnu.org/software/octave/)
 {.links-list}
 
-## 系统管理
+## ⚜️系统管理
 - [深度文件管理器*是深度科技开发的一款功能强大、简单易用的文件管理工具*](https://www.deepin.org/original/dde-file-manager/)
 - [深度终端*是深度科技精心打造的一款终端模拟器*](https://www.deepin.org/original/deepin-terminal/)
 - [深度启动盘制作工具*是深度科技团队开发的一款系统启动盘制作工具*](https://www.deepin.org/original/deepin-boot-maker/)
@@ -324,7 +324,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [BirdFont*是一个免费的字体编辑器*](https://birdfont.org/)
 {.links-list}
 
-## 其他应用
+## 🔨其他应用
 - [BOINC*是一款用来贡献计算资源的应用*](http://boinc.berkeley.edu/)
 - [KRuler*是一款制定屏幕分辨率规则和颜色测量的工具*](https://www.kde.org/applications/graphics/kruler/)
 - [Dr.Geo*是一款交互式的几何形状分布的应用*](http://www.drgeo.eu/)
