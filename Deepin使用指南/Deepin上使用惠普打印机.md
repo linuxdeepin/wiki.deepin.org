@@ -2,7 +2,7 @@
 title: Deepin上使用惠普打印机
 description: 
 published: true
-date: 2022-06-23T09:48:50.534Z
+date: 2022-06-23T09:50:50.871Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-12T05:48:03.281Z
@@ -45,7 +45,8 @@ under certain conditions. See COPYING file for more details.
 如果使用hp-plugin这个命令在线安装，往往会因为网络问题，下载失败。建议手动下载plugin。
 
 ### 下载地址：
-<https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/>
+[点击跳转](https://www.openprinting.org/download/printdriver/auxfiles/HP/plugins/)
+
 该网站会有很多版本提供下载。根据上面看到的版本，我们需要下载3.16.10的版本（就是上面括号中给出的提示ver.3.16.X，请注意根据这个提示下载对应版本）。主要下载的文件为：
 hplip-3.16.10-plugin.run
 hplip-3.16.10-plugin.run.asc
