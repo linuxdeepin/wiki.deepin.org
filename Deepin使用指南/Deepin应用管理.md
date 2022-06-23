@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T10:47:03.238Z
+date: 2022-06-23T10:47:51.665Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -19,8 +19,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [Midori *是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
 - [Vivaldi *是一款极速浏览器*](https://vivaldi.com/)
 - [Yandex *是一款免费的浏览器*](https://www.yandex.com/)
-- [TeamViewer *是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。
-  *](https://www.teamviewer.com)
+- [TeamViewer *是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
 - [Remmina *是一个远程桌面客户端*](http://www.remmina.org/)
 - [UGet *是一个下载管理器*](http://ugetdm.com/)
 - [FileZilla *是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
