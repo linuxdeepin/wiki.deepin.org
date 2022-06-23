@@ -2,7 +2,7 @@
 title: Deepin-wine
 description: 
 published: true
-date: 2022-06-23T09:32:23.090Z
+date: 2022-06-23T09:33:58.454Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:28.645Z
@@ -19,13 +19,19 @@ dateCreated: 2022-04-21T03:31:28.645Z
 ```
 cp -r ~/.deepinwine/Deepin-QQ ~/.bottle
 ```
-创建一个干净的容器可以用如下命令：WINEPREFIX=~/.bottle deepin-wine winecfg 。但是这样可能会有一些字体乱码的问题。
+创建一个干净的容器可以用如下命令：
+```
+WINEPREFIX=~/.bottle deepin-wine winecfg 。
+```
+但是这样可能会有一些字体乱码的问题。
 
 ### 运行程序
 只通过deepin-wine *.exe 可以运行程序，但是默认通~/.wine的容器运行，~/.wine是wine默认生成的干净的容器，没有适配应用运行可能会有一些问题，所以最好通过上一步创建好的容器，可以每一个应用对应一个容器，不同的应用可能会需要不同的配置。
 
-通过WINEPREFIX的环境变量可以指定容器运行程序。如WINEPREFIX=~/.bottle deepin-wine *.exe
-
+通过WINEPREFIX的环境变量可以指定容器运行程序。如
+```
+WINEPREFIX=~/.bottle deepin-wine *.exe
+```
 ### 简单debug
 简单的分析程序运行出现的问题，可以打开deepin-wine输出日志的通道，通过WINEDEBUG环境开关。
 如： 
