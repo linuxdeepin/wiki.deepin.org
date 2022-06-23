@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T10:47:51.665Z
+date: 2022-06-23T10:50:59.592Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -38,9 +38,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 {.links-list}
 
 ### 社交沟通
-
 - [QQ](QQ)：QQ是腾讯开发的一款基于Internet的即时通信软件
-  
   [https://im.qq.com/](https://im.qq.com/)
 
 - [QQ轻聊版](QQ轻聊版)：QQ轻聊版是中国主流聊天工具QQ的精简版本
