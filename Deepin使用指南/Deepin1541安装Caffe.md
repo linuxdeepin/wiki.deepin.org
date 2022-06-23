@@ -2,13 +2,13 @@
 title: Deepin1541安装Caffe
 description: 
 published: true
-date: 2022-06-08T05:41:04.402Z
+date: 2022-06-23T09:41:27.134Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:31.568Z
 ---
 
-## 简介
+# 简介
 
 本文有深度论坛用户（deepin207）分享，
 [原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=145765)
@@ -21,15 +21,15 @@ cpu：intel core i7 6700Q
 
 操作系统： deepin15.4.1 x64
 
-## 步骤
-
+# 步骤
+## {.tabset}
 ### cuda及cudnn安装
-
-#### 安装nvidia-bumblebee，实现双显卡切换
+> 安装nvidia-bumblebee，实现双显卡切换
+{.is-success}
 
 对于笔记本用户来说，一直开着独显的话发热量会明显增大，并且耗电也会变快，所以需要安装bumblebee来切换显卡，平时只用核显就足够了，需要运行cuda或者玩游戏的话才开启独显。
 
-#### 安装cuda开发工具
+### 安装cuda开发工具
 
 cuda在linux下的开发工具基本上够用了，有基于eclipse 的nsight，有visual profiler性能分析工具，还有pycuda库实现对python运算的加速。但是我以前在deepin上面尝试安装官方的.run包，均以失败告终，很容易把电脑搞崩溃。最近终于找到了从软件源直接安装cuda的方法。
 
@@ -48,19 +48,25 @@ sudo apt install bumblebee bumblebee-nvidia nvidia-smi
 
 2. 重启
 
-```sudo reboot```
+```
+sudo reboot
+```
 
 重启后测试
 
-```nvidia-smi```
-
+```
+nvidia-smi
+```
 和
-
-```optirun nvidia-smi```
+```
+optirun nvidia-smi
+```
 
 ![](http://img.blog.csdn.net/20170920014959449?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-```optirun -b none nvidia-settings -c :8```
+```
+optirun -b none nvidia-settings -c :8
+```
 
 （默认情况下，使用Intel显卡，如果要使用nvidia显卡，需要在命令前加optirun）
 
@@ -70,7 +76,9 @@ sudo apt install bumblebee bumblebee-nvidia nvidia-smi
 
 所以gcc需要降级
 
-```sudo apt install g++-4.8 gcc-4.8```
+```
+sudo apt install g++-4.8 gcc-4.8
+```
 
 4. 更改软连接
 
@@ -83,19 +91,25 @@ sudo ln -s gcc-4.8 gcc
 
 5. 然后下载开发工具
 
-```sudo apt install nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler```
+```
+sudo apt install nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler
+```
 
 6. 使用nsight的方法为:在终端下输入
 
-```optirun nsight```
+```
+optirun nsight
+```
 
 ![](http://img.blog.csdn.net/20170920015015566?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-#### 安装pycuda扩展
+### 安装pycuda扩展
 
 有的同学有使用python 写cuda的需求，推荐pycuda，能够自定义核函数，并且里面带的GpuArray这个数据结构很好用安装方法为：
 
-```sudo apt install python-pycuda```
+```
+sudo apt install python-pycuda
+```
 
 写一个简单的测试代码
 
@@ -134,13 +148,15 @@ time.sleep(10)
 
 然后
 
-```optirun python python cuda_test.py```
+```
+optirun python python cuda_test.py
+```
 
 ![](http://img.blog.csdn.net/20170920015046578?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 至此cuda的安装完成，为了用NVIDIA显卡加速深度学习，还需要安装cudnn
 
-#### cudnn详细安装步骤
+### cudnn详细安装步骤
 
 1. 从官网上下载cudnn的安装包。
 
@@ -308,7 +324,9 @@ sudo make install
 
 下载caffe源码
 
-```git clone https://github.com/BVLC/caffe.git```
+```
+git clone https://github.com/BVLC/caffe.git
+```
 
 修改Makefile.config
 
@@ -377,10 +395,14 @@ CUDA_DIR := /usr
 
 修改Makefile
 
-```LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_hl hdf5```
+```
+LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_hl hdf5
+```
 
 修改为
-```LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl hdf5_serial```
+```
+LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl hdf5_serial
+```
 
 至此准备工作结束，开始编译
 
@@ -393,19 +415,25 @@ make test -j8
 
 下载MNIST数据
 
-```data/mnist/get_mnist.sh```
+```
+data/mnist/get_mnist.sh
+```
 
 ![](http://img.blog.csdn.net/20170920015317945?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 数据格式转换
 
-```optirun examples/mnist/create_mnist.sh```
+```
+optirun examples/mnist/create_mnist.sh
+```
 
 ![](http://img.blog.csdn.net/20170920015330111?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 训练LeNet-5超参数(hyperparameters)
 
-```optirun examples/mnist/train_lenet.sh```
+```
+optirun examples/mnist/train_lenet.sh
+```
 
 ![](http://img.blog.csdn.net/20170920015341967?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
@@ -423,5 +451,4 @@ optirun build/tools/caffe.bin test \
 ![](http://img.blog.csdn.net/20170920015403052?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ![](http://img.blog.csdn.net/20170920015412404?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
 至此，全部教程结束。
