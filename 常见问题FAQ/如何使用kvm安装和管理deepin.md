@@ -2,13 +2,14 @@
 title: 如何使用kvm安装和管理deepin
 description: 本篇主要介绍在Linux平台下，使用KVM虚拟化套件，来创建和安装deepin操作系统。
 published: true
-date: 2022-06-23T03:46:59.915Z
+date: 2022-06-23T05:18:34.395Z
 tags: deepin, kvm
 editor: markdown
 dateCreated: 2022-06-23T03:09:48.173Z
 ---
 
 # 使用kvm安装和管理deepin
+本篇文档来自论坛用户（木一明）的分享-[《使用kvm安装和管理deepin》](https://bbs.deepin.org/post/232573)
 ## 1. 配置虚拟化环境
 无论在哪个操作系统上使用虚拟化环境，首先最基本的要求就是BIOS里面开启了虚拟化技术。这个部分略。
 
@@ -117,7 +118,7 @@ dateCreated: 2022-06-23T03:09:48.173Z
 
 ![15.png](/for_trans/kvm/15.png)
 
-这个过程与[《使用VMware workstation 安装和管理deepin》]（https://wiki.deepin.org/zh/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E6%9C%BAVMWare%E5%AE%89%E8%A3%85deepin） 一样，可完全参考，为节省篇幅，此处省略安装过程。
+这个过程与[《如何使用虚拟机VMWare安装deepin》](/zh/常见问题FAQ/如何使用虚拟机VMWare安装deepin) 一样，可完全参考，为节省篇幅，此处省略安装过程。
 
 ## 4. 用virsh的快照管理命令来管理deepin
 在第4小节中，我们完成了deepin的安装和基本配置。现在进入到了deepin登录界面。我们同样在进行任何操作之前可以对deepin使用快照管理的方式，保证我们能够对deepin虚拟机进行版本控制。这样做的好处就是能够回滚到我们保存的某个快照，重新拉一个时间线，继续倒腾。不至于重新安装虚拟机。
