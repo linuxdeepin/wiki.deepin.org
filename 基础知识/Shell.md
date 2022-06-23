@@ -2,7 +2,7 @@
 title: Shell
 description: 
 published: true
-date: 2022-06-23T09:25:21.179Z
+date: 2022-06-23T09:25:38.998Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:39.333Z
@@ -797,3 +797,6 @@ Shell 不但提供了位置变量,而且还提供很多的特殊变量,这些变
 [维基百科:Unix shell](http://zh.wikipedia.org/wiki/Unix_shell)
 
 [百度百科:shell](http://baike.baidu.com/view/849.htm)
+
+[来源_balaamwe博客:linux特殊符号大全](http://www.cnblogs.com/balaamwe/archive/2012/03/15/2397998.html)
+
