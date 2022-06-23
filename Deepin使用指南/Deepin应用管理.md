@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T11:45:44.405Z
+date: 2022-06-23T11:49:22.780Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -15,7 +15,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [Firefox *火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
 - [Chrome *谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
 - [Chromium *是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
-- <img src="https://www.maxthon.cn/favicon.ico"> [傲游云浏览器 *傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
+- <img height="16" width="16" src="https://www.maxthon.cn/favicon.ico"> [傲游云浏览器 *傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
 - [Opera *是一款网络浏览器*](http://www.opera.com/)
 - [Midori *是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
 - [Vivaldi *是一款极速浏览器*](https://vivaldi.com/)
