@@ -2,7 +2,7 @@
 title: Deepin1541安装Caffe
 description: 
 published: true
-date: 2022-06-23T09:41:27.134Z
+date: 2022-06-23T10:10:27.979Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:31.568Z
@@ -62,7 +62,7 @@ nvidia-smi
 optirun nvidia-smi
 ```
 
-![](http://img.blog.csdn.net/20170920014959449?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbHV6aGFuYm8yMDc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![20170920014959449.png](/图片存储/20170920014959449.png)
 
 ```
 optirun -b none nvidia-settings -c :8
