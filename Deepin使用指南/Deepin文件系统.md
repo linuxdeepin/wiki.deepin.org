@@ -2,7 +2,7 @@
 title: Deepin文件系统
 description: 
 published: true
-date: 2022-06-08T05:43:03.098Z
+date: 2022-06-23T09:21:52.329Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:38.662Z
@@ -27,10 +27,15 @@ deepin的默认文件系统是ext4，大多数linux系统均采用ext格式的�
 |sys/fs/cgroup|tmpfs<sup>[3]</sup>|分组线程进行管理|
 
 *注释
->>[1]：udev是设备节点，参考资料<a href="https://baike.baidu.com/item/udev/989800?fr=aladdin">udev-百度百科</a>和<a href="https://zh.wikipedia.org/wiki/Udev">udev-维基百科</a>
+>[1]：udev是设备节点，参考资料<a href="https://baike.baidu.com/item/udev/989800?fr=aladdin">udev-百度百科</a>和<a href="https://zh.wikipedia.org/wiki/Udev">udev-维基百科</a>
+{.is-success}
 
->>[2]：tmpfs是基于内存的暂时文件系统，参考资料<a href="https://baike.baidu.com/item/tmpfs/1476960?fr=aladdin">tmpfs-百度百科</a>和<a href="https://zh.wikipedia.org/wiki/Tmpfs">tmpfs-维基百科</a>
+>[2]：tmpfs是基于内存的暂时文件系统，参考资料<a href="https://baike.baidu.com/item/tmpfs/1476960?fr=aladdin">tmpfs-百度百科</a>和<a href="https://zh.wikipedia.org/wiki/Tmpfs">tmpfs-维基百科</a>
+{.is-success}
 
 ## deepin文件系统的U盘挂载
 deepin linux是自动挂载U盘或者移动硬盘的，如果需要在命令行下操作U盘/移动硬盘，挂载点在<br/>
 `/media/(用户名)/(U盘名字或者U盘的uuid)`
+
+
+
