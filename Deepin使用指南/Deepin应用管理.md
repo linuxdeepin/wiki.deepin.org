@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T12:02:34.685Z
+date: 2022-06-23T12:08:40.634Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -17,7 +17,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">Chromium *是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
 - [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器 *傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
 - [<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera *是一款网络浏览器*](http://www.opera.com/)
-- [Midori *是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
+- [<img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori *是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
 - [<img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi *是一款极速浏览器*](https://vivaldi.com/)
 - [<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">Yandex *是一款免费的浏览器*](https://www.yandex.com/)
 {.links-list}
