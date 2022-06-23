@@ -2,7 +2,7 @@
 title: Deepin-wine
 description: 
 published: true
-date: 2022-06-23T09:28:56.653Z
+date: 2022-06-23T09:32:23.090Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:28.645Z
@@ -35,7 +35,9 @@ WINEDEBUG=+pid,+tid,+process WINEPREFIX=~/.bottle deepin-wine *.exe
 # Deepin-wine应用全局快捷键设置
 ## Tabset {.tabset}
 ### 启动快捷键脚本
-#### 更新deepin-wine-helper
+> 更新deepin-wine-helper
+{.is-success}
+
 ```
 sudo apt-get update && sudo apt-get install deepin-wine-helper
 ```
@@ -43,13 +45,15 @@ sudo apt-get update && sudo apt-get install deepin-wine-helper
 {.is-success}
 
 
-#### 确认需要设置快捷键的进程名和快捷键
+> 确认需要设置快捷键的进程名和快捷键
+{.is-success}
+
 如果不清楚需要设置的快捷键组合是什么，可以在设置中找到。如打开微信的快捷键是　ctrl+alt+W
 
 进程名就是运行的exe的名字，可以用深度系统监视器查看。程序运行之后可以在监视器中找到对应的进程->右键菜单中选择属性->查看命令行的信息可以看出进程名。
 如微信的进程名是:  WeChat
 
-#### 验证启动快捷键的脚本
+### 验证启动快捷键的脚本
 启动快捷键是通过/opt/deepinwine/tools/sendkeys.sh脚本运行，第一个参数是快捷键的键值，目前只支持字母，第二个参数是进程名，第三个参数是控制键的组合。详细说明参考/opt/deepinwine/tools/sendkeys.sh的注释。如打开微信的快捷键就可以写成：　
 ```
 /opt/deepinwine/tools/sendkeys.sh w WeChat 4
