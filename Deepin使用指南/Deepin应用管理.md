@@ -2,13 +2,15 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-08T05:42:54.430Z
+date: 2022-06-23T09:17:36.328Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
 ---
 
-## 网络应用
+# 应用快捷
+## Tabset {.tabset}
+### 网络应用
 
 * [Firefox](Firefox)：火狐浏览器是一个安全高效的浏览器
   
@@ -106,7 +108,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [https://wiki.gnome.org/Apps/Geary](https://wiki.gnome.org/Apps/Geary)
 
-## 社交沟通
+### 社交沟通
 
 * [QQ](QQ)：QQ是腾讯开发的一款基于Internet的即时通信软件
   
@@ -164,7 +166,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://www.hipchat.com/](http://www.hipchat.com/)
 
-## 音乐欣赏
+### 音乐欣赏
 
 * [深度音乐](深度音乐)：深度音乐是深度科技重新打造的一款专注于本地音乐播放的应用程序
   
@@ -214,7 +216,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://muse-sequencer.org/](http://muse-sequencer.org/)
 
-## 视频播放
+### 视频播放
 
 * [深度影院](深度影院)：深度影院是深度科技打造的一款专注于本地视频播放的应用程序
   
@@ -280,7 +282,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [https://natron.inria.fr/](https://natron.inria.fr/)
 
-## 图形图像
+### 图形图像
 
 * [深度看图](深度看图)：深度看图是深度科技精心打造的一款图片查看和管理应用
   
@@ -378,7 +380,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://www.yworks.com/](http://www.yworks.com/)
 
-## 娱乐游戏
+### 娱乐游戏
 
 * [Steam](Steam)：Steam是一款方便迅速的综合性游戏平台
   
@@ -420,7 +422,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://stuntrally.tuxfamily.org/](http://stuntrally.tuxfamily.org/)
 
-## 办公学习
+### 办公学习
 
 * [WPS Office](WPS_Office)：WPS Office是由金山软件股份有限公司自主研发的一款办公软件套件
   
@@ -618,7 +620,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [http://www.roomarranger.com/](http://www.roomarranger.com/)
 
-## 翻译阅读
+### 翻译阅读
 
 * [福昕阅读器](福昕阅读器)：福昕阅读器（Foxit Reader）是一款PDF文档阅读器
   
@@ -668,7 +670,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [http://pdfshuffler.sourceforge.net/](http://pdfshuffler.sourceforge.net/)
 
-## 编程开发
+### 编程开发
 
 * [Android Studio](Android_Studio)：Android Studio是一个基于IntelliJ IDEA的Android集成开发环境
 
@@ -878,7 +880,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [https://www.gnu.org/software/octave/](https://www.gnu.org/software/octave/)
 
-## 系统管理
+### 系统管理
 
 * [深度文件管理器](深度文件管理器)：深度文件管理器是深度科技开发的一款功能强大、简单易用的文件管理工具
 
