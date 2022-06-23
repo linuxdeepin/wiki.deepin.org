@@ -2,8 +2,8 @@
 title: gxine
 description: gxine播放器
 published: true
-date: 2022-06-13T12:31:18.286Z
-tags: gxine, xine
+date: 2022-06-13T12:31:20.647Z
+tags: xine, gxine
 editor: markdown
 dateCreated: 2022-06-13T12:16:47.028Z
 ---

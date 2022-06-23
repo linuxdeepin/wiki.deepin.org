@@ -2,7 +2,7 @@
 title: KeePassX
 description: 
 published: true
-date: 2022-05-07T07:47:22.577Z
+date: 2022-06-08T06:04:36.378Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:54.887Z

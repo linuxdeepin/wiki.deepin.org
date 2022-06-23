@@ -2,7 +2,7 @@
 title: Texmaker
 description: 
 published: true
-date: 2022-05-07T07:49:46.355Z
+date: 2022-06-08T08:50:09.550Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:19.043Z

@@ -2,7 +2,7 @@
 title: krusader
 description: Krusader文件管理器
 published: true
-date: 2022-06-13T06:18:58.772Z
+date: 2022-06-13T06:19:01.543Z
 tags: krusader
 editor: markdown
 dateCreated: 2022-06-13T06:18:58.772Z

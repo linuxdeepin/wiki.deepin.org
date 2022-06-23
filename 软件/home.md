@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:45:19.802Z
+date: 2022-05-14T14:45:22.113Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z

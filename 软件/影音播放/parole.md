@@ -2,7 +2,7 @@
 title: Parole
 description: Parole多媒体播放器
 published: true
-date: 2022-06-13T14:20:46.945Z
+date: 2022-06-13T14:20:49.244Z
 tags: parole
 editor: markdown
 dateCreated: 2022-06-13T14:20:46.945Z

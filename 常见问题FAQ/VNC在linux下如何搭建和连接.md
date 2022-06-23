@@ -2,7 +2,7 @@
 title: VNC在linux下的搭建和连接
 description: 
 published: true
-date: 2022-06-20T02:21:51.148Z
+date: 2022-06-20T02:21:53.200Z
 tags: vnc, linux, 搭建, 连接
 editor: markdown
 dateCreated: 2022-06-20T02:21:51.148Z

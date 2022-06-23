@@ -2,7 +2,7 @@
 title: NVIDIA独立显卡的安装方法
 description: 
 published: true
-date: 2022-06-08T06:04:19.384Z
+date: 2022-06-08T06:04:21.933Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-26T03:30:22.290Z

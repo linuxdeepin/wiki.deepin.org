@@ -2,7 +2,7 @@
 title: PCManFM
 description: PCManFM文件管理器
 published: true
-date: 2022-06-13T06:07:41.026Z
+date: 2022-06-13T06:07:43.505Z
 tags: pcmanfm
 editor: markdown
 dateCreated: 2022-06-13T06:07:41.026Z

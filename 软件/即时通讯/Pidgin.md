@@ -2,7 +2,7 @@
 title: Pidgin
 description: 
 published: true
-date: 2022-05-07T07:48:25.027Z
+date: 2022-06-08T08:20:17.742Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:57.292Z

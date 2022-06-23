@@ -2,7 +2,7 @@
 title: Eric
 description: 
 published: true
-date: 2022-05-07T07:47:22.209Z
+date: 2022-06-08T05:50:37.191Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:57.688Z

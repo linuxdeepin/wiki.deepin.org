@@ -2,8 +2,8 @@
 title: GNU Compiler Collection
 description: GNU编译器集合
 published: true
-date: 2022-06-09T15:52:31.235Z
-tags: c, c++, fortran, g++, gcc, go, objective c, objective c++, 编译器
+date: 2022-06-09T15:52:33.394Z
+tags: gcc, g++, c, c++, go, fortran, objective c, objective c++, 编译器
 editor: markdown
 dateCreated: 2022-06-09T15:32:57.696Z
 ---

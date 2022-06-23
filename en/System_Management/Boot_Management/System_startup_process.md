@@ -2,7 +2,7 @@
 title: System_startup_process
 description: 
 published: true
-date: 2022-05-07T07:52:12.162Z
+date: 2022-06-15T06:42:31.837Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:42:58.330Z

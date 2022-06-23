@@ -2,7 +2,7 @@
 title: Random-access_memory
 description: 
 published: true
-date: 2022-05-07T07:48:26.094Z
+date: 2022-06-16T02:37:41.184Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:53.227Z

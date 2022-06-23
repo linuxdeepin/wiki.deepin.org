@@ -2,7 +2,7 @@
 title: MonoDevelop
 description: 
 published: true
-date: 2022-05-07T07:48:24.013Z
+date: 2022-06-08T07:34:17.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:38:27.638Z

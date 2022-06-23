@@ -2,7 +2,7 @@
 title: 服务端部署jenkins
 description: 
 published: true
-date: 2022-06-20T02:48:27.477Z
+date: 2022-06-20T02:48:29.590Z
 tags: 服务端, jenkins
 editor: markdown
 dateCreated: 2022-06-20T02:48:27.477Z

@@ -2,7 +2,7 @@
 title: Partitions_in_Linux
 description: 
 published: true
-date: 2022-05-07T07:48:25.024Z
+date: 2022-06-17T07:28:29.573Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:45.330Z

@@ -2,7 +2,7 @@
 title: DBeaver
 description: 
 published: true
-date: 2022-05-12T05:58:48.648Z
+date: 2022-05-12T05:58:51.041Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:18.027Z

@@ -2,7 +2,7 @@
 title: Program_and_process
 description: 
 published: true
-date: 2022-05-17T03:26:03.612Z
+date: 2022-05-17T03:26:05.901Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:47.965Z

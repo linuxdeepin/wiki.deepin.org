@@ -2,7 +2,7 @@
 title: RAM
 description: 
 published: true
-date: 2022-05-07T07:48:26.093Z
+date: 2022-06-16T02:37:08.824Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:47.096Z

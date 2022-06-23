@@ -2,7 +2,7 @@
 title: Firebird
 description: Firebird数据库
 published: true
-date: 2022-06-14T14:21:19.329Z
+date: 2022-06-14T14:21:21.506Z
 tags: firebird
 editor: markdown
 dateCreated: 2022-06-14T14:10:27.809Z

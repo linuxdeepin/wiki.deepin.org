@@ -2,7 +2,7 @@
 title: QElectroTech
 description: 
 published: true
-date: 2022-05-07T07:48:25.442Z
+date: 2022-06-08T08:30:45.888Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:29.105Z

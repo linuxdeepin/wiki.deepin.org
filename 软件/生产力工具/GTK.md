@@ -2,7 +2,7 @@
 title: GTK
 description: 
 published: true
-date: 2022-06-16T02:24:02.827Z
+date: 2022-06-20T03:06:11.394Z
 tags: gtk
 editor: markdown
 dateCreated: 2022-06-16T02:24:02.827Z

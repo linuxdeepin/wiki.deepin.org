@@ -2,7 +2,7 @@
 title: HipChat
 description: 
 published: true
-date: 2022-05-07T07:47:22.465Z
+date: 2022-06-08T06:02:11.857Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:16.606Z

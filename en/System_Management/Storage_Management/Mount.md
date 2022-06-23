@@ -2,7 +2,7 @@
 title: Mount
 description: 
 published: true
-date: 2022-05-17T04:24:37.684Z
+date: 2022-06-15T06:47:37.015Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:16.040Z

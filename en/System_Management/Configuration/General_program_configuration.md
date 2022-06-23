@@ -2,7 +2,7 @@
 title: General_program_configuration
 description: 
 published: true
-date: 2022-05-17T03:25:01.034Z
+date: 2022-06-15T07:13:56.516Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:42.869Z

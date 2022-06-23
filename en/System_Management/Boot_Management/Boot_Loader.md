@@ -2,7 +2,7 @@
 title: Boot_Loader
 description: 
 published: true
-date: 2022-06-17T07:40:23.363Z
+date: 2022-06-17T07:40:25.705Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:59.117Z

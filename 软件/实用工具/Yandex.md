@@ -2,7 +2,7 @@
 title: Yandex
 description: 
 published: true
-date: 2022-05-07T07:49:21.154Z
+date: 2022-06-08T08:16:24.982Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:33.657Z

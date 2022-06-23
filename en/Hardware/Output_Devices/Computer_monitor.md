@@ -2,7 +2,7 @@
 title: Computer_monitor
 description: 
 published: true
-date: 2022-05-07T07:47:21.488Z
+date: 2022-06-16T03:09:06.986Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:30:57.281Z

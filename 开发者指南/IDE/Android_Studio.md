@@ -2,7 +2,7 @@
 title: Android Studio
 description: 
 published: true
-date: 2022-05-14T02:49:43.496Z
+date: 2022-05-14T02:50:24.902Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:28:58.016Z

@@ -2,8 +2,8 @@
 title: Clang
 description: LLVM的Clang前端
 published: true
-date: 2022-06-17T09:02:48.395Z
-tags: c, c++, clang, clang++, objective c, objective c++, 编译器
+date: 2022-06-17T09:02:50.351Z
+tags: c, c++, objective c, objective c++, 编译器, clang, clang++
 editor: markdown
 dateCreated: 2022-06-09T15:47:24.747Z
 ---

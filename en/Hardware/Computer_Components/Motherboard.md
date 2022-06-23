@@ -2,7 +2,7 @@
 title: Motherboard
 description: 
 published: true
-date: 2022-05-07T07:48:24.013Z
+date: 2022-06-16T02:36:54.773Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:38:30.437Z

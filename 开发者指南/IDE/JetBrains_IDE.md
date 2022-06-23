@@ -2,7 +2,7 @@
 title: JetBrains_IDE
 description: 
 published: true
-date: 2022-06-14T10:04:20.180Z
+date: 2022-06-14T10:04:22.304Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:36.894Z

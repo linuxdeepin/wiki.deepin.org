@@ -2,7 +2,7 @@
 title: Thunderbird
 description: 
 published: true
-date: 2022-06-08T08:06:10.779Z
+date: 2022-06-08T08:06:12.862Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:24.695Z

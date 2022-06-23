@@ -2,10 +2,10 @@
 title: XMind
 description: 
 published: true
-date: 2022-05-07T07:49:11.871Z
+date: 2022-06-08T08:34:44.602Z
 tags: 
 editor: markdown
-dateCreated: 2022-04-21T03:45:07.046Z
+dateCreated: 2022-05-12T05:56:20.280Z
 ---
 
 ## 简介

@@ -2,7 +2,7 @@
 title: Synergy
 description: 
 published: true
-date: 2022-05-07T07:49:46.184Z
+date: 2022-06-08T08:48:37.132Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:42:52.439Z

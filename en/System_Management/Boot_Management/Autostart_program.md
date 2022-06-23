@@ -2,7 +2,7 @@
 title: Autostart_program
 description: 
 published: true
-date: 2022-05-17T04:28:22.139Z
+date: 2022-06-15T06:31:00.424Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:53:58.615Z

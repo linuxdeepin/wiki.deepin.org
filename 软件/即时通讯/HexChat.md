@@ -2,7 +2,7 @@
 title: HexChat
 description: 
 published: true
-date: 2022-05-07T07:47:22.570Z
+date: 2022-05-12T06:01:19.690Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:13.793Z

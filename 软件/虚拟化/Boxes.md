@@ -2,7 +2,7 @@
 title: Boxes
 description: 
 published: true
-date: 2022-06-09T05:20:48.802Z
+date: 2022-06-09T11:44:53.532Z
 tags: gnome-boxes, boxes, 虚拟机
 editor: markdown
 dateCreated: 2022-04-21T03:30:02.133Z

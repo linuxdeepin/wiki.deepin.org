@@ -2,7 +2,7 @@
 title: Personalization
 description: 
 published: true
-date: 2022-05-13T02:42:26.059Z
+date: 2022-05-13T02:42:28.293Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T02:42:26.059Z

@@ -2,7 +2,7 @@
 title: GVim
 description: 
 published: true
-date: 2022-05-07T07:47:22.383Z
+date: 2022-06-08T05:59:41.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:52.935Z

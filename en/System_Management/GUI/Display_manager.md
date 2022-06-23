@@ -2,7 +2,7 @@
 title: Display_manager
 description: 
 published: true
-date: 2022-05-17T04:27:26.203Z
+date: 2022-06-15T07:08:07.290Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:16.766Z

@@ -2,7 +2,7 @@
 title: Video_card
 description: 
 published: true
-date: 2022-05-07T07:48:27.942Z
+date: 2022-06-16T02:36:28.681Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:12.379Z

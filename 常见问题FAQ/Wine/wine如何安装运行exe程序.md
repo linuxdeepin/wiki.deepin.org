@@ -2,7 +2,7 @@
 title: 原生wine安装/运行exe程序的方法
 description: 
 published: true
-date: 2022-06-20T08:31:45.436Z
+date: 2022-06-20T08:31:47.833Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T08:14:10.550Z

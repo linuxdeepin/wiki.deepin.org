@@ -2,7 +2,7 @@
 title: GUI_1
 description: 
 published: true
-date: 2022-06-15T07:04:09.463Z
+date: 2022-06-15T07:04:11.692Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T07:04:09.463Z

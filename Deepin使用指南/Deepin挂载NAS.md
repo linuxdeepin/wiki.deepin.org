@@ -2,7 +2,7 @@
 title: Deepin挂载NAS
 description: 深度系统下挂载NAS盘的方法
 published: true
-date: 2022-06-17T06:01:06.496Z
+date: 2022-06-17T06:01:08.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-16T09:49:53.520Z

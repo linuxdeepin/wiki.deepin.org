@@ -2,12 +2,11 @@
 title: deepin桌面卡死如何处理
 description: 桌面卡死
 published: true
-date: 2022-06-13T08:11:27.292Z
-tags: 卡死, 桌面
+date: 2022-06-13T08:11:32.051Z
+tags: 桌面, 卡死
 editor: markdown
 dateCreated: 2022-06-13T08:03:28.189Z
 ---
-
 
 ## 出现桌面卡死的情况
 1. 出现文件错误

@@ -2,7 +2,7 @@
 title: OwnCloud
 description: 
 published: true
-date: 2022-05-07T07:48:25.046Z
+date: 2022-05-12T06:01:15.585Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:32.364Z

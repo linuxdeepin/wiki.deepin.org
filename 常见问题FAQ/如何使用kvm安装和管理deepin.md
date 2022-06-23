@@ -2,7 +2,7 @@
 title: 如何使用kvm安装和管理deepin
 description: 本篇主要介绍在Linux平台下，使用KVM虚拟化套件，来创建和安装deepin操作系统。
 published: true
-date: 2022-06-23T05:18:34.395Z
+date: 2022-06-23T05:18:36.530Z
 tags: deepin, kvm
 editor: markdown
 dateCreated: 2022-06-23T03:09:48.173Z

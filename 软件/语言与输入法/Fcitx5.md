@@ -2,7 +2,7 @@
 title: Fcitx5
 description: 
 published: true
-date: 2022-06-16T02:35:46.300Z
+date: 2022-06-20T03:09:37.513Z
 tags: fcitx5
 editor: markdown
 dateCreated: 2022-06-16T02:34:38.778Z

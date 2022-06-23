@@ -2,7 +2,7 @@
 title: 双显卡之bumblebee(大黄蜂)、Prime及手动切换方案
 description: 
 published: true
-date: 2022-06-09T01:20:27.582Z
+date: 2022-06-09T01:20:29.902Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-26T03:24:05.973Z

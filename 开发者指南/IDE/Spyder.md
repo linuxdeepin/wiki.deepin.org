@@ -2,7 +2,7 @@
 title: Spyder
 description: 
 published: true
-date: 2022-05-07T07:48:27.264Z
+date: 2022-05-18T10:58:40.907Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:42:22.981Z

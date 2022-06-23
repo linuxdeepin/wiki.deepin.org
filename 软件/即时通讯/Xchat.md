@@ -2,7 +2,7 @@
 title: Xchat
 description: 
 published: true
-date: 2022-05-07T07:48:58.502Z
+date: 2022-06-08T08:35:53.778Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:12.971Z

@@ -2,7 +2,7 @@
 title: I-Nex
 description: 
 published: true
-date: 2022-05-07T07:47:22.581Z
+date: 2022-06-08T06:02:40.787Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:25.217Z

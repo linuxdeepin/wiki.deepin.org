@@ -2,8 +2,8 @@
 title: Intel® C++ 编译器
 description: Intel® C++ Compiler 
 published: true
-date: 2022-06-09T16:19:16.570Z
-tags: c, c++, icc, 编译器
+date: 2022-06-09T16:19:18.662Z
+tags: c, c++, 编译器, icc
 editor: markdown
 dateCreated: 2022-06-09T16:16:42.558Z
 ---

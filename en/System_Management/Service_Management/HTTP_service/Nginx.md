@@ -2,7 +2,7 @@
 title: Nginx
 description: 
 published: true
-date: 2022-06-16T04:56:51.551Z
+date: 2022-06-16T04:56:53.668Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-16T04:56:51.551Z

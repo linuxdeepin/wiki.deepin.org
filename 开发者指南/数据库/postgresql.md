@@ -2,7 +2,7 @@
 title: PostgreSQL
 description: PostgreSQL数据库
 published: true
-date: 2022-06-13T16:11:03.303Z
+date: 2022-06-13T16:12:41.924Z
 tags: postgresql
 editor: markdown
 dateCreated: 2022-06-13T16:11:03.303Z

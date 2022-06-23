@@ -2,7 +2,7 @@
 title: Scan_Tailor
 description: 
 published: true
-date: 2022-05-07T07:48:26.618Z
+date: 2022-06-08T08:42:34.775Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:27.811Z

@@ -2,7 +2,7 @@
 title: Geany
 description: 
 published: true
-date: 2022-05-14T02:45:09.777Z
+date: 2022-05-14T02:45:11.986Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:08.137Z

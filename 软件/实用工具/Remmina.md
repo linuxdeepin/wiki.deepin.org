@@ -2,7 +2,7 @@
 title: Remmina
 description: 
 published: true
-date: 2022-05-07T07:48:26.577Z
+date: 2022-06-08T08:39:42.813Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:11.335Z

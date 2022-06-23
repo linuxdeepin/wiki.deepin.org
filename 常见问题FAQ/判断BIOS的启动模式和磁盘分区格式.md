@@ -2,7 +2,7 @@
 title: 判断BIOS的启动模式和磁盘分区格式
 description: 
 published: true
-date: 2022-06-23T06:04:18.749Z
+date: 2022-06-23T06:04:21.619Z
 tags: 启动模式, 磁盘分区, uefi, legacy
 editor: markdown
 dateCreated: 2022-06-23T06:04:18.749Z

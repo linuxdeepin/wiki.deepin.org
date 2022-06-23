@@ -2,7 +2,7 @@
 title: deepin下使用Ventoy安装Windows
 description: 
 published: true
-date: 2022-06-15T03:24:14.525Z
+date: 2022-06-15T03:24:17.148Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T03:24:14.525Z

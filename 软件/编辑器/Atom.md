@@ -2,7 +2,7 @@
 title: Atom
 description: 
 published: true
-date: 2022-05-14T03:00:44.350Z
+date: 2022-05-14T03:00:46.448Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:21.884Z

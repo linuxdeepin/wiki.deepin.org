@@ -2,7 +2,7 @@
 title: PyRenamer
 description: 
 published: true
-date: 2022-05-07T07:48:25.434Z
+date: 2022-06-08T08:28:55.891Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:17.581Z

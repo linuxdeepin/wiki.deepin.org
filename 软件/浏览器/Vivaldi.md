@@ -2,7 +2,7 @@
 title: Vivaldi
 description: 
 published: true
-date: 2022-05-07T07:48:28.376Z
+date: 2022-06-10T06:34:59.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:27.719Z

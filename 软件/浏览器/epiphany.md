@@ -2,7 +2,7 @@
 title: Epiphany
 description: Epiphany网页浏览器
 published: true
-date: 2022-06-13T14:28:09.397Z
+date: 2022-06-13T14:28:11.704Z
 tags: epiphany
 editor: markdown
 dateCreated: 2022-06-13T14:28:09.397Z

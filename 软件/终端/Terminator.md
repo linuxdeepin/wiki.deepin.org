@@ -2,8 +2,8 @@
 title: Terminator
 description: terminator
 published: true
-date: 2022-05-10T07:25:06.722Z
-tags: console, terminal, 终端
+date: 2022-05-10T07:25:08.789Z
+tags: 终端, terminal
 editor: markdown
 dateCreated: 2022-05-05T05:05:09.041Z
 ---

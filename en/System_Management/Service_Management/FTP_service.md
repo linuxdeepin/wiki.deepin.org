@@ -2,7 +2,7 @@
 title: FTP_service
 description: 
 published: true
-date: 2022-05-17T03:18:56.628Z
+date: 2022-05-17T03:18:59.616Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:23.410Z

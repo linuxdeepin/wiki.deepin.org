@@ -2,7 +2,7 @@
 title: Transmission
 description: Transmission是一种BitTorrent客户端
 published: true
-date: 2022-06-13T16:46:11.155Z
+date: 2022-06-13T16:46:13.204Z
 tags: transmission
 editor: markdown
 dateCreated: 2022-06-13T16:46:11.155Z

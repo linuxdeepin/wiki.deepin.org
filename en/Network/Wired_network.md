@@ -2,7 +2,7 @@
 title: Wired_network
 description: 
 published: true
-date: 2022-05-20T10:41:47.252Z
+date: 2022-05-20T10:41:49.248Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:57:53.292Z
