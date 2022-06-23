@@ -2,7 +2,7 @@
 title: Deepin-wine
 description: 
 published: true
-date: 2022-06-23T09:27:25.686Z
+date: 2022-06-23T09:28:56.653Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:28.645Z
@@ -56,7 +56,9 @@ sudo apt-get update && sudo apt-get install deepin-wine-helper
 ```
 程序运行的情况下，在终端运行脚本验证脚本是否有效。
 
-## 添加自定义快捷键
+# 添加自定义快捷键
+## Tabset {.tabset}
+### 添加自定义快捷键
 在deepin的控制中心中添加自定义的快捷键。
 
 名称：自己随意填
