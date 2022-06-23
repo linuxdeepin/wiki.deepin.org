@@ -2,7 +2,7 @@
 title: 使用action创建新的git仓库
 description: 
 published: true
-date: 2022-06-22T08:51:47.006Z
+date: 2022-06-23T01:40:20.747Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-22T08:51:47.006Z
@@ -130,7 +130,7 @@ sudo DEB_BUILD_OPTIONS=nocheck pbuilder --build \
 在 `/etc/apt/sources.list.d/deepin-git.list` 中添加以下内容:
 
 ```
-deb [trusted=yes] https://deepin-community.github.io/deepin-dde-repo apricot main
+deb [trusted=yes] https://deepin-community.github.io/deepin-dde-repo sid main
 deb [trusted=yes] https://deepin-community.github.io/deepin-dde-deps-repo apricot main
 ```
 
