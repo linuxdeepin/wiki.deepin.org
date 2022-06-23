@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T11:56:59.872Z
+date: 2022-06-23T12:02:31.708Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -14,14 +14,13 @@ dateCreated: 2022-04-21T03:32:34.710Z
 #### 🪟浏览器
 - [Firefox *火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
 - [Chrome *谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
-- [Chromium *是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
+- [<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">Chromium *是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
 - [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器 *傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
-- [Opera *是一款网络浏览器*](http://www.opera.com/)
+- [<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera *是一款网络浏览器*](http://www.opera.com/)
 - [Midori *是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
-- [Vivaldi *是一款极速浏览器*](https://vivaldi.com/)
-- [Yandex *是一款免费的浏览器*](https://www.yandex.com/)
+- [<img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi *是一款极速浏览器*](https://vivaldi.com/)
+- [<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">Yandex *是一款免费的浏览器*](https://www.yandex.com/)
 {.links-list}
-
 
 #### 🖥️远程桌面客户端
 - [TeamViewer *是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
