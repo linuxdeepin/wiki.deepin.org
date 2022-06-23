@@ -2,7 +2,7 @@
 title: 如何创建samba共享文件夹
 description: 在 Linux 上创建共享文件夹，并对不同的用户赋予不同的访问权限
 published: true
-date: 2022-06-23T11:39:21.257Z
+date: 2022-06-23T11:58:15.127Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T11:39:21.257Z
@@ -95,3 +95,40 @@ net usershare add myShare /home/uos/publicShares "no comment" u1:F,u2:R
 
 
 ## 方法二. 修改 `smb.conf` 文件配置共享
+相较上述方法，通过修改配置文件可更改的配置更多了，具体可见该配置文件中注释的部分，基本每一个配置在该文件中都有详细的注释信息。
+文件位于 `/etc/samba/smb.conf`
+
+---
+
+通过此种方式共享文件夹与方法一共享文件夹**可能会**有冲突（笔主未进行测试），用户可自行测试。
+
+该文件格式为 `ini` 类型，不同的组以 `[]` 括号标识。
+除了最顶部的 `[global]` 标识全局配置以外，其余的 `[]` 包裹的均标识共享文件夹，例如该文件中默认的
+```
+[print$]
+   comment = Printer Drivers
+   path = /var/lib/samba/printers
+   browseable = yes
+   read only = yes
+   guest ok = no
+
+```
+假定该主机 ip 地址为 `192.168.8.17`，通过 `smb://192.168.8.17` 在文件管理器中访问时，即能在工作区中看见 `print$` 共享文件夹。
+![访问共享.png](/访问共享.png)
+上图的 `myShare` 是我们在方法一中最后共享的文件夹。
+
+关于 `[print$]` 的共享配置，创建我们自己的共享：
+```
+[myShareViaCfg] # 访问端能见的文件名
+	comment = "这里请随意，该共享文件夹的简介"
+  path = /home/uos/publicShares # 需要共享的文件夹的绝对路径
+  browseable = yes # 该字段决定了当前这个共享能否在客户端中可见
+  read only = yes # 只读，no 为读写，可省略
+  guest ok = no # 不允许匿名访问
+  valid user = @g1,u1,@g2,u2 # 重点字段：@开头表示组，否则标识用户，该行表示 g1,g2组的用户以及 u1,u2 用户都可以访问该共享
+  write list = u1,@g1 # 重点字段：该行标识仅 u1 用户以及 g1 组具备写入权限
+```
+
+配置完成后保存文件，此时在访问端输入主机 ip 地址，即可以不用用户不同权限进行访问了。
+
+
