@@ -2,7 +2,7 @@
 title: 使用action创建新的git仓库
 description: 
 published: true
-date: 2022-06-23T01:40:20.747Z
+date: 2022-06-23T01:52:59.869Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-22T08:51:47.006Z
@@ -55,8 +55,8 @@ deepin-x86_64-build
 在 `/etc/apt/sources.list.d/deepin-git.list` 中添加以下内容:
 
 ```
-deb [trusted=yes] https://deepin-community.github.io/debian-sid-dde-deps-repo sid main
-deb [trusted=yes] https://deepin-community.github.io/debian-sid-dde-repo sid main
+deb [trusted=yes arch=amd64] https://deepin-community.github.io/debian-sid-dde-deps-repo sid main
+deb [trusted=yes arch=amd64] https://deepin-community.github.io/debian-sid-dde-repo sid main
 ```
 
 debian sid 提供了两个仓库，理论上所有发行版仓库都会提供两个仓库，一个是保存 deepin 构建的软件包，另一个是提供官方仓库的补充。
@@ -130,8 +130,8 @@ sudo DEB_BUILD_OPTIONS=nocheck pbuilder --build \
 在 `/etc/apt/sources.list.d/deepin-git.list` 中添加以下内容:
 
 ```
-deb [trusted=yes] https://deepin-community.github.io/deepin-dde-repo sid main
-deb [trusted=yes] https://deepin-community.github.io/deepin-dde-deps-repo apricot main
+deb [trusted=yes arch=amd64] https://deepin-community.github.io/deepin-dde-repo sid main
+deb [trusted=yes arch=amd64] https://deepin-community.github.io/deepin-dde-deps-repo apricot main
 ```
 
 在 deepin 上使用该仓库，需要注意 **不要** 同时使用内测仓库，混用不同的仓库可能会导致依赖关系解析错误，从而破坏系统。
