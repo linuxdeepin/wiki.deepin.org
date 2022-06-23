@@ -2,15 +2,14 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T10:55:15.260Z
+date: 2022-06-23T10:56:05.286Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
 ---
 
-# 应用快捷
-## Tabset {.tabset}
-### 网络应用
+# 应用快捷{.tabset}
+## 网络应用
 ### Title {.tabset}
 #### 浏览器
 - [Firefox *火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
