@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T10:56:05.286Z
+date: 2022-06-23T10:57:07.093Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -100,7 +100,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://www.hipchat.com/](http://www.hipchat.com/)
 
-### 音乐欣赏
+## 音乐欣赏
 
 - [深度音乐](深度音乐)：深度音乐是深度科技重新打造的一款专注于本地音乐播放的应用程序
   
@@ -150,7 +150,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://muse-sequencer.org/](http://muse-sequencer.org/)
 
-### 视频播放
+## 视频播放
 
 - [深度影院](深度影院)：深度影院是深度科技打造的一款专注于本地视频播放的应用程序
   
@@ -216,7 +216,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [https://natron.inria.fr/](https://natron.inria.fr/)
 
-### 图形图像
+## 图形图像
 
 - [深度看图](深度看图)：深度看图是深度科技精心打造的一款图片查看和管理应用
   
@@ -314,7 +314,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://www.yworks.com/](http://www.yworks.com/)
 
-### 娱乐游戏
+## 娱乐游戏
 
 - [Steam](Steam)：Steam是一款方便迅速的综合性游戏平台
   
@@ -356,7 +356,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
   
   [http://stuntrally.tuxfamily.org/](http://stuntrally.tuxfamily.org/)
 
-### 办公学习
+## 办公学习
 
 - [WPS Office](WPS_Office)：WPS Office是由金山软件股份有限公司自主研发的一款办公软件套件
   
@@ -554,7 +554,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [http://www.roomarranger.com/](http://www.roomarranger.com/)
 
-### 翻译阅读
+## 翻译阅读
 
 - [福昕阅读器](福昕阅读器)：福昕阅读器（Foxit Reader）是一款PDF文档阅读器
   
@@ -604,7 +604,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [http://pdfshuffler.sourceforge.net/](http://pdfshuffler.sourceforge.net/)
 
-### 编程开发
+## 编程开发
 
 - [Android Studio](Android_Studio)：Android Studio是一个基于IntelliJ IDEA的Android集成开发环境
 
@@ -814,7 +814,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [https://www.gnu.org/software/octave/](https://www.gnu.org/software/octave/)
 
-### 系统管理
+## 系统管理
 
 - [深度文件管理器](深度文件管理器)：深度文件管理器是深度科技开发的一款功能强大、简单易用的文件管理工具
 
@@ -1068,7 +1068,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [https://birdfont.org/](https://birdfont.org/)
 
-### 其他应用
+## 其他应用
 
 - [BOINC](BOINC)：BOINC是一款用来贡献计算资源的应用
 
