@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T09:18:18.281Z
+date: 2022-06-23T10:32:23.976Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -12,13 +12,9 @@ dateCreated: 2022-04-21T03:32:34.710Z
 ## Tabset {.tabset}
 ### 网络应用
 
-* [Firefox](Firefox)：火狐浏览器是一个安全高效的浏览器
-  
-  [http://www.firefox.org/](http://www.firefox.org/)
-
-* [Chrome](Chrome)：谷歌浏览器是一个由Google公司开发的网页浏览器
-  
-  [https://www.google.com/chrome](https://www.google.com/chrome)
+- [Firefox *火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
+- [Chrome *谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
+{.links-list}
 
 * [Chromium](Chromium)：Chromium是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器
   
