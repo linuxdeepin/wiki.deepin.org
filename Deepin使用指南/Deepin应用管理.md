@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T12:08:40.634Z
+date: 2022-06-23T12:24:34.647Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -12,143 +12,69 @@ dateCreated: 2022-04-21T03:32:34.710Z
 ## ⚙️网络应用
 ### Title {.tabset}
 #### 🪟浏览器
-- [Firefox *火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
-- [Chrome *谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
-- [<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">Chromium *是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
-- [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器 *傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
-- [<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera *是一款网络浏览器*](http://www.opera.com/)
-- [<img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori *是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
-- [<img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi *是一款极速浏览器*](https://vivaldi.com/)
-- [<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">Yandex *是一款免费的浏览器*](https://www.yandex.com/)
+- [Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
+- [Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
+- [<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">Chromium*是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
+- [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
+- [<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera*是一款网络浏览器*](http://www.opera.com/)
+- [<img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori*是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
+- [<img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi*是一款极速浏览器*](https://vivaldi.com/)
+- [<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">Yandex*是一款免费的浏览器*](https://www.yandex.com/)
 {.links-list}
 
 #### 🖥️远程桌面客户端
-- [TeamViewer *是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
-- [Remmina *是一个远程桌面客户端*](http://www.remmina.org/)
-- [UGet *是一个下载管理器*](http://ugetdm.com/)
-- [FileZilla *是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
-- [Transmission *是一个BitTorrent客户端软件*](https://transmissionbt.com/)
-- [qBittorrent *是一个轻量级BitTorrent客户端*](https://www.qbittorrent.org/)
-- [FlareGet *是一个跨平台的下载管理器和加速器*](http://flareget.com/)
+- [TeamViewer*是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
+- [Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
+- [UGet*是一个下载管理器*](http://ugetdm.com/)
+- [FileZilla*是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
+- [Transmission*是一个BitTorrent客户端软件*](https://transmissionbt.com/)
+- [qBittorrent*是一个轻量级BitTorrent客户端*](https://www.qbittorrent.org/)
+- [FlareGet*是一个跨平台的下载管理器和加速器*](http://flareget.com/)
 - [gFTP*是一个FTP客户端工具*](https://www.gftp.org/)
 - [CrossFTP*是一款FTP客戶端工具*](http://www.crossftp.com/)
-- [Xtreme Download Manager *是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
-- [AnyDesk *是一款远程桌面控制应用*](https://anydesk.com/)
+- [Xtreme Download Manager*是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
+- [AnyDesk*是一款远程桌面控制应用*](https://anydesk.com/)
 {.links-list}
 
 #### 📧邮件客户端
-- [Evolution *是一款电子邮件和日程安排工具*](http://wiki.gnome.org/Apps/Evolution)
-- [雷鸟邮件 *是一个邮件客户端*](http://www.mozilla.org/zh-CN/thunderbird/)
-- [Nylas N1 *是一个开源的邮件客户端*](https://www.nylas.com/)
-- [ownCloud *是一款用来创建私有云服务的工具*](https://owncloud.org/)
-- [Geary *是一款桌面电子邮件客户端程序*](https://wiki.gnome.org/Apps/Geary)
+- [Evolution*是一款电子邮件和日程安排工具*](http://wiki.gnome.org/Apps/Evolution)
+- [雷鸟邮件*是一个邮件客户端*](http://www.mozilla.org/zh-CN/thunderbird/)
+- [Nylas N1*是一个开源的邮件客户端*](https://www.nylas.com/)
+- [ownCloud*是一款用来创建私有云服务的工具*](https://owncloud.org/)
+- [Geary*是一款桌面电子邮件客户端程序*](https://wiki.gnome.org/Apps/Geary)
 {.links-list}
 
 ## 社交沟通
-- [QQ](QQ)：QQ是腾讯开发的一款基于Internet的即时通信软件
-  [https://im.qq.com/](https://im.qq.com/)
-
-- [QQ轻聊版](QQ轻聊版)：QQ轻聊版是中国主流聊天工具QQ的精简版本
-  
-  [http://im.qq.com/lightqq/](http://im.qq.com/lightqq/)
-
-- [BearyChat](BearyChat)：BearyChat是一款为工作场景设计的团队沟通工具
-  
-  [https://bearychat.com/](https://bearychat.com/)
-
-- [安司密信](安司密信):安司密信是一款社交应用
-  
-  [http://www.akey.me/](http://www.akey.me/)
-
-- [Telegram](Telegram)：Telegram是一个聊天应用软件
-  
-  [https://telegram.org/](https://telegram.org/)
-
-- [Skype](Skype)：Skype是一款即时通讯软件
-  
-  [http://skype.gmw.cn/](http://skype.gmw.cn/)
-
-- [企业QQ](企业QQ)：企业QQ是一个面向中小企业用户的即使通信产品
-  
-  [http://b.qq.com/](http://b.qq.com/)
-
-- [腾讯通](腾讯通)：腾讯通是一个企业级的实时通信平台
-  
-  [http://rtx.tencent.com/](http://rtx.tencent.com/)
-
-- [阿里旺旺](阿里旺旺)：阿里旺旺是一款专为淘宝会员量身定做的个人交易沟通软件
-  
-  [http://wangwang.taobao.com/](http://wangwang.taobao.com/)
-
-- [千牛工作台](千牛工作台)：千牛工作台是阿里巴巴官方出品的卖家一站式店铺管理工具
-  
-  [https://alimarket.taobao.com/markets/qnww/pc](https://alimarket.taobao.com/markets/qnww/pc)
-
-- [Pidgin](Pidgin)：Pidgin是一款即时通讯软件
-  
-  [http://www.pidgin.im/](http://www.pidgin.im/)
-
-- [Xchat](Xchat)：Xchat是一款跨平台的IRC通讯协议软件
-  
-  [http://xchat.org/](http://xchat.org/)
-
-- [HexChat](HexChat)：HexChat是基于XChat的一款聊天工具
-  
-  [https://hexchat.github.io/](https://hexchat.github.io/)
-
-- [HipChat](HipChat)：HipChat是一款专为团队内部群聊设计的聊天工具
-  
-  [http://www.hipchat.com/](http://www.hipchat.com/)
+- [QQ*是腾讯开发的一款基于Internet的即时通信软件*](https://im.qq.com/)
+- [QQ轻聊版*是中国主流聊天工具QQ的精简版本*](http://im.qq.com/lightqq/)
+- [BearyChat*是一款为工作场景设计的团队沟通工具*](https://bearychat.com/)
+- [安司密信*是一款社交应用*](http://www.akey.me/)
+- [Telegram*是一个聊天应用软件*](https://telegram.org/)
+- [Skype*是一款即时通讯软件*](http://skype.gmw.cn/)
+- [企业QQ*是一个面向中小企业用户的即使通信产品*](http://b.qq.com/)
+- [腾讯通 *是一个企业级的实时通信平台*](http://rtx.tencent.com/)
+- [阿里旺旺*是一款专为淘宝会员量身定做的个人交易沟通软件*](http://wangwang.taobao.com/)
+- [千牛工作台 *是阿里巴巴官方出品的卖家一站式店铺管理工具*](https://alimarket.taobao.com/markets/qnww/pc)
+- [Pidgin*是一款即时通讯软件*](http://www.pidgin.im/)
+- [Xchat*是一款跨平台的IRC通讯协议软件*](http://xchat.org/)
+- [HexChat*是基于XChat的一款聊天工具*](https://hexchat.github.io/)
+- [HipChat*是一款专为团队内部群聊设计的聊天工具*](http://www.hipchat.com/)
+{.links-list}
 
 ## 音乐欣赏
-
-- [深度音乐](深度音乐)：深度音乐是深度科技重新打造的一款专注于本地音乐播放的应用程序
-  
-  [https://www.deepin.org/original/deepin-music/](https://www.deepin.org/original/deepin-music/)
-
-- [网易云音乐](网易云音乐)：网易云音乐是一款专注于发现与分享的音乐产品
-  
-  [http://music.163.com/](http://music.163.com/)
-
-- [Soundnode App](Soundnode_App)：Soundnode App是一款音乐播放器应用
-  
-  [http://www.soundnodeapp.com/](http://www.soundnodeapp.com/)
-
-- [Kreogist Mu](Kreogist_Mu)：Kreogist Mu是一个音乐管理中心
-  
-  [http://kreogist.github.io/](http://kreogist.github.io/)
-
-- [Clementine](Clementine)：Clementine是一个音乐播放器和媒体库管理器
-  
-  [https://www.clementine-player.org/](https://www.clementine-player.org/)
-
-- [Spotify](Spotify)：Spotify是一种专有的P2P音乐流媒体服务
-  
-  [https://www.spotify.com/](https://www.spotify.com/)
-
-- [Audacious](Audacious)：Audacious是一款音乐播放器
-  
-  [http://audacious-media-player.org/](http://audacious-media-player.org/)
-
-- [Rhythmbox](Rhythmbox)：Rhythmbox是一个音乐播放和管理应用
-  
-  [https://wiki.gnome.org/Apps/Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox)
-
-- [Amarok](Amarok)：Amarok是一款音乐播放器
-  
-  [https://amarok.kde.org/](https://amarok.kde.org/)
-
-- [Tomahawk](Tomahawk)：Tomahawk是一款网络音乐播放器
-  
-  [https://www.tomahawk-player.org/](https://www.tomahawk-player.org/)
-
-- [Musescore](Musescore)：MuseScore是一套作曲写乐谱工具
-  
-  [https://musescore.org/](https://musescore.org/)
-
-- [MusE](MusE)：MusE是一个MIDI/音频的音序器
-  
-  [http://muse-sequencer.org/](http://muse-sequencer.org/)
+- [深度音乐*深度科技重新打造的一款专注于本地音乐播放的应用程序*](https://www.deepin.org/original/deepin-music/)
+- [网易云音乐*是一款专注于发现与分享的音乐产品*](http://music.163.com/)
+- [Soundnode App*是一款音乐播放器应用*](http://www.soundnodeapp.com/)
+- [Kreogist Mu*是一个音乐管理中心*](http://kreogist.github.io/)
+- [Clementine*是一个音乐播放器和媒体库管理器*](https://www.clementine-player.org/)
+- [Spotify*是一种专有的P2P音乐流媒体服务*](https://www.spotify.com/)
+- [Audacious*是一款音乐播放器*](http://audacious-media-player.org/)
+- [Rhythmbox*是一个音乐播放和管理应用*](https://wiki.gnome.org/Apps/Rhythmbox)
+- [Amarok*是一款音乐播放器*](https://amarok.kde.org/)
+- [Tomahawk*是一款网络音乐播放器*](https://www.tomahawk-player.org/)
+- [Musescore*是一套作曲写乐谱工具*](https://musescore.org/)
+- [MusE*是一个MIDI/音频的音序器*](http://muse-sequencer.org/)
+{.links-list}
 
 ## 视频播放
 
@@ -215,6 +141,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [Natron](Natron)：Natron是一个跨平台的视频合成软件
   
   [https://natron.inria.fr/](https://natron.inria.fr/)
+{.links-list}
 
 ## 图形图像
 
@@ -313,6 +240,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [yEd Graph Editor](yEd_Graph_Editor)：yEd Graph Editor是一款流程图绘制工具
   
   [http://www.yworks.com/](http://www.yworks.com/)
+{.links-list}
 
 ## 娱乐游戏
 
@@ -355,6 +283,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [Stunt Rally](Stunt_Rally)：Stunt Rally是一款赛车游戏
   
   [http://stuntrally.tuxfamily.org/](http://stuntrally.tuxfamily.org/)
+{.links-list}
 
 ## 办公学习
 
@@ -553,6 +482,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [Room Arranger](Room_Arranger)：Room Arranger是一款实时的模拟房屋设计布局的软件
 
   [http://www.roomarranger.com/](http://www.roomarranger.com/)
+{.links-list}
 
 ## 翻译阅读
 
@@ -603,6 +533,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [PDF-Shuffler](PDF-Shuffler)：PDF-Shuffler是一个PDF合并及分割工具
 
   [http://pdfshuffler.sourceforge.net/](http://pdfshuffler.sourceforge.net/)
+{.links-list}
 
 ## 编程开发
 
@@ -813,6 +744,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [GNU Octave](GNU_Octave)：GNU Octave是一种高级编程语言
 
   [https://www.gnu.org/software/octave/](https://www.gnu.org/software/octave/)
+{.links-list}
 
 ## 系统管理
 
@@ -1050,7 +982,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
 - [Referencer](Referencer)：Referencer是一款文献管理工具
 
- [https://launchpad.net/referencer](https://launchpad.net/referencer)
+-  [https://launchpad.net/referencer](https://launchpad.net/referencer)
 
 - [Crossover](Crossover)：Crossover是一款可以在Linux中运行Windows软件和游戏的工具
 
@@ -1067,6 +999,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [BirdFont](BirdFont)：BirdFont是一个免费的字体编辑器
 
   [https://birdfont.org/](https://birdfont.org/)
+{.links-list}
 
 ## 其他应用
 
@@ -1085,3 +1018,4 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [wxMaxima](wxMaxima)：wxMaxima是一个基于wxWidgets的计算机代数系统应用
 
   [http://andrejv.github.io/wxmaxima/](http://andrejv.github.io/wxmaxima/)
+{.links-list}
