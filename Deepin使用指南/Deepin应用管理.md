@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T10:42:32.301Z
+date: 2022-06-23T10:47:03.238Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -11,16 +11,15 @@ dateCreated: 2022-04-21T03:32:34.710Z
 # 应用快捷
 ## Tabset {.tabset}
 ### 网络应用
-
 - [Firefox *火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
 - [Chrome *谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
-- [Chromium *Chromium是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
+- [Chromium *是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
 - [傲游云浏览器 *傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
-- [Opera *Opera是一款网络浏览器*](http://www.opera.com/)
-- [Midori *Midori是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
+- [Opera *是一款网络浏览器*](http://www.opera.com/)
+- [Midori *是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
 - [Vivaldi *是一款极速浏览器*](https://vivaldi.com/)
 - [Yandex *是一款免费的浏览器*](https://www.yandex.com/)
-- [TeamViewer *TeamViewer是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。
+- [TeamViewer *是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。
   *](https://www.teamviewer.com)
 - [Remmina *是一个远程桌面客户端*](http://www.remmina.org/)
 - [UGet *是一个下载管理器*](http://ugetdm.com/)
