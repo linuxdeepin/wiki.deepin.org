@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T09:17:36.328Z
+date: 2022-06-23T09:18:18.281Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -1134,7 +1134,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
   [https://birdfont.org/](https://birdfont.org/)
 
-## 其他应用
+### 其他应用
 
 * [BOINC](BOINC)：BOINC是一款用来贡献计算资源的应用
 
