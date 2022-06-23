@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-23T10:57:07.093Z
+date: 2022-06-23T10:57:31.671Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -44,7 +44,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [Geary *是一款桌面电子邮件客户端程序*](https://wiki.gnome.org/Apps/Geary)
 {.links-list}
 
-### 社交沟通
+## 社交沟通
 - [QQ](QQ)：QQ是腾讯开发的一款基于Internet的即时通信软件
   [https://im.qq.com/](https://im.qq.com/)
 
