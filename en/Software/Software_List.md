@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T05:27:44.767Z
+date: 2022-06-24T05:48:40.593Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -11,7 +11,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 # Software List {.tabset}
 ## Internet
 
-- [ Firefox: *Firefox is a safe and efficient browser*](http://www.firefox.org/)
+- [Firefox: *Firefox is a safe and efficient browser*](http://www.firefox.org/)
 - [Chrome: *Google Chrome is a web browser developed by Google*](https://www.google.com/chrome)
 - [Chromium: *Chromium is Google's Chrome browser engine, which is designed to create a secure, stable and fast browser*](http://www.chromium.org/)
 - [Opera: *Opera is a web browser*](http://www.opera.com/)
@@ -92,90 +92,28 @@ dateCreated: 2022-04-21T03:54:27.028Z
 ## Image
 
 * [Deepin Image Viewer: *Deepin Image Viewer is a image viewing and management application developed by Deepin Technology*](https://www.deepin.org/original/deepin-image-viewer/)
-
 * [Deepin Screenshot: *Deepin Screenshot is a screenshot tool developed by Deepin Technology*](https://www.deepin.org/original/deepin-screenshot/)
-
 * [GIMP: *GIMP is a cross-platform image processing software*](https://www.gimp.org/)
-
-* [Krita](Krita): Krita is a bitmap graphics editing software
-  
-  [https://krita.org/](https://krita.org/)
-
-* [Inkscape](Inkscape): Inkscape is a vector drawing software
-  
-  [https://inkscape.org/](https://inkscape.org/)
-
-* [LightZone](LightZone): LightZone is a digital image editing tool
-  
-  [http://lightzoneproject.org/](http://lightzoneproject.org/)
-
-* [Blender](Blender): Blender is a 3D animation production software
-  
-  [https://www.blender.org/](https://www.blender.org/)
-
-* [BricsCAD](BricsCAD): BricsCAD is a powerful CAD platform
-  
-  [https://www.bricsys.com](https://www.bricsys.com)
-
-* [XnConvert](XnConvert): XnConvert is a versatile image batch tool
-  
-  [http://www.xnview.com/en/xnconvert/](http://www.xnview.com/en/xnconvert/)
-
-* [XnView MP](XnView_MP): XnView MP is a great image viewing tool
-  
-  [http://www.xnview.com/en/xnviewmp/](http://www.xnview.com/en/xnviewmp/)
-
-* [XnSketch](XnSketch): XnSketch is a picture processing application
-  
-  [http://www.xnview.com/en/xnsketch/](http://www.xnview.com/en/xnsketch/)
-
-* [Shutter](Shutter): Shutter is a popular screen capture software
-  
-  [http://shutter-project.org/](http://shutter-project.org/)
-
-* [MyPaint](MyPaint): MyPaint is an image drawing tool
-  
-  [http://mypaint.org/](http://mypaint.org/)
-
-* [Polarr](Polarr): Polarr is a smart image processing tool
-  
-  [https://www.polarr.co/](https://www.polarr.co/)
-
-* [Peek](Peek): Peek is a screen recording tool
-  
-  [https://github.com/phw/peek](https://github.com/phw/peek)
-
-* [Synfig studio](Synfig_studio): Synfig Studio is a powerful set of 2D vector animation software
-  
-  [http://www.synfig.org/](http://www.synfig.org/)
-
-* [RawTherapee](RawTherapee): RawTherapee is a RAW format conversion software
-  
-  [http://www.rawtherapee.com/](http://www.rawtherapee.com/)
-
-* [Image Viewer](Image_Viewer): Image Viewer(aka. Eye Of Gnome) is an image viewer software
-  
-  [https://wiki.gnome.org/Apps/EyeOfGnome](https://wiki.gnome.org/Apps/EyeOfGnome)
-
-* [HotShots](HotShots): HotShots is an easy-to-use screen capture tool
-  
-  [https://sourceforge.net/projects/hotshots/](https://sourceforge.net/projects/hotshots/)
-
-* [Gwenview](Gwenview): Gwenview is a picture browsing and management software
-  
-  [https://www.kde.org/applications/graphics/gwenview/](https://www.kde.org/applications/graphics/gwenview/)
-
-* [digiKam](digiKam): digiKam is a cross-platform digital photo management software
-  
-  [https://www.digikam.org/](https://www.digikam.org/)
-
-* [Shotwell](Shotwell): Shotwell is a lightweight image management software
-  
-  [https://wiki.gnome.org/Apps/Shotwell](https://wiki.gnome.org/Apps/Shotwell)
-
-* [yEd Graph Editor](yEd_Graph_Editor): yEd Graph Editor is a flow chart drawing tool
-  
-  [http://www.yworks.com/](http://www.yworks.com/)
+* [Krita: *Krita is a bitmap graphics editing software*](https://krita.org/)
+* [Inkscape: *Inkscape is a vector drawing software*](https://inkscape.org/)
+* [LightZone: *LightZone is a digital image editing tool*](http://lightzoneproject.org/)
+* [Blender: *Blender is a 3D animation production software*](https://www.blender.org/)
+* [BricsCAD: *BricsCAD is a powerful CAD platform*](https://www.bricsys.com)
+* [XnConvert: *XnConvert is a versatile image batch tool*](http://www.xnview.com/en/xnconvert/)
+* [XnView MP: *XnView MP is a great image viewing tool*](http://www.xnview.com/en/xnviewmp/)
+* [XnSketch: *XnSketch is a picture processing application*](http://www.xnview.com/en/xnsketch/)
+* [Shutter: *Shutter is a popular screen capture software*](http://shutter-project.org/)
+* [MyPaint: *MyPaint is an image drawing tool*](http://mypaint.org/)
+* [Polarr: *Polarr is a smart image processing tool*](https://www.polarr.co/)
+* [Peek: *Peek is a screen recording tool*](https://github.com/phw/peek)
+* [Synfig studio: *Synfig Studio is a powerful set of 2D vector animation software*](http://www.synfig.org/)
+* [RawTherapee: *RawTherapee is a RAW format conversion software*](http://www.rawtherapee.com/)
+* [Image Viewer: *Image Viewer(aka. Eye Of Gnome) is an image viewer software*](https://wiki.gnome.org/Apps/EyeOfGnome)
+* [HotShots: *HotShots is an easy-to-use screen capture tool*](https://sourceforge.net/projects/hotshots/)
+* [Gwenview: *Gwenview is a picture browsing and management software*](https://www.kde.org/applications/graphics/gwenview/)
+* [digiKam: *digiKam is a cross-platform digital photo management software*](https://www.digikam.org/)
+* [Shotwell: *Shotwell is a lightweight image management software*](https://wiki.gnome.org/Apps/Shotwell)
+* [yEd Graph Editor: *yEd Graph Editor is a flow chart drawing tool*](http://www.yworks.com/)
   
 {.links-list}
 
