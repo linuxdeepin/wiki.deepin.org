@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T04:47:45.821Z
+date: 2022-06-24T04:48:11.520Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -57,8 +57,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 - [ownCloud: *ownCloud is a tool for creating private cloud services*](https://owncloud.org/)
 
 - [Geary: *Geary is a desktop e-mail client program*](https://wiki.gnome.org/Apps/Geary)
-  
-{.links-list}
+  {.links-list}
 
 ## internet
 
