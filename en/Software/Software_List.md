@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T03:49:32.891Z
+date: 2022-06-24T03:53:17.024Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -104,7 +104,6 @@ dateCreated: 2022-04-21T03:54:27.028Z
   
 {.links-list}
 
-
 ## Communication
 
 - [QQ](QQ): QQ is an Internet-based instant messaging software developed by Tencent
@@ -194,6 +193,8 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [MusE](MusE): MusE is a MIDI/audio sequencer
   
   [http://muse-sequencer.org/](http://muse-sequencer.org/)
+  
+{.links-list}
 
 ## Video
 
@@ -260,6 +261,8 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Natron](Natron): Natron is a cross-platform video synthesis software
   
   [https://natron.inria.fr/](https://natron.inria.fr/)
+  
+{.links-list}
 
 ## Image
 
@@ -354,6 +357,8 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [yEd Graph Editor](yEd_Graph_Editor): yEd Graph Editor is a flow chart drawing tool
   
   [http://www.yworks.com/](http://www.yworks.com/)
+  
+{.links-list}
 
 ## Games
 
@@ -806,6 +811,8 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Racket](Racket): Racket is a computer programming language
 
   [http://racket-lang.org/](http://racket-lang.org/)
+  
+{.links-list}
 
 ## System Management
 
@@ -1048,6 +1055,8 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Referencer](Referencer): Referencer is a document management tool
 
  [https://launchpad.net/referencer](https://launchpad.net/referencer)
+ 
+ {.links-list}
 
 ## Others
 
@@ -1126,3 +1135,5 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [wxMaxima](wxMaxima): wxMaximais a computer-based algebra system application based on wxWidgets
 
   [http://andrejv.github.io/wxmaxima/](http://andrejv.github.io/wxmaxima/)
+  
+ {.links-list}
