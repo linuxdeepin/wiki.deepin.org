@@ -2,14 +2,14 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T05:07:22.482Z
+date: 2022-06-24T05:14:14.702Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
 ---
 
 # Software List {.tabset}
-## internet
+## Internet
 
 - [ Firefox: *Firefox is a safe and efficient browser*](http://www.firefox.org/)
 - [Chrome: *Google Chrome is a web browser developed by Google*](https://www.google.com/chrome)
@@ -53,53 +53,29 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
 ## Music
 
-* [Deepin Music](Deepin_Music): Deepin Music is a local music player with beautiful design and simple functions developed by Deepin Technology
-  
-  [https://www.deepin.org/original/deepin-music/](https://www.deepin.org/original/deepin-music/)
+* [Deepin Music: *Deepin Music is a local music player with beautiful design and simple functions developed by Deepin Technology*](https://www.deepin.org/original/deepin-music/)
 
-* [Netease Cloud Music](Netease_Cloud_Music): Netease cloud music is a music player focused on discovering and sharing music
-  
-  [http://music.163.com/](http://music.163.com/)
+* [Netease Cloud Music: *Netease cloud music is a music player focused on discovering and sharing music*](http://music.163.com/)
 
-* [Soundnode App](Soundnode_App): Soundnode App is a music player application
-  
-  [http://www.soundnodeapp.com/](http://www.soundnodeapp.com/)
+* [Soundnode App: *Soundnode App is a music player application*](http://www.soundnodeapp.com/)
 
-* [Kreogist Mu](Kreogist_Mu): Kreogist Mu is a music management center
-  
-  [http://kreogist.github.io/](http://kreogist.github.io/)
+* [Kreogist Mu: *Kreogist Mu is a music management center*](http://kreogist.github.io/)
 
-* [Clementine](Clementine): Clementine is a music player and media library manager
-  
-  [https://www.clementine-player.org/](https://www.clementine-player.org/)
+* [Clementine: *Clementine is a music player and media library manager*](https://www.clementine-player.org/)
 
-* [Spotify](Spotify): Spotify is a proprietary P2P music streaming service
-  
-  [https://www.spotify.com/](https://www.spotify.com/)
+* [Spotify: *Spotify is a proprietary P2P music streaming service*](https://www.spotify.com/)
 
-* [Audacious](Audacious): Audacious is a music player
-  
-  [http://audacious-media-player.org/](http://audacious-media-player.org/)
+* [Audacious: *Audacious is a music player*](http://audacious-media-player.org/)
 
-* [Rhythmbox](Rhythmbox): Rhythmbox is a music player and management application
-  
-  [https://wiki.gnome.org/Apps/Rhythmbox](https://wiki.gnome.org/Apps/Rhythmbox)
+* [Rhythmbox: *Rhythmbox is a music player and management application*](https://wiki.gnome.org/Apps/Rhythmbox)
 
-* [Amarok](Amarok): Amarok is a music player
-  
-  [https://amarok.kde.org/](https://amarok.kde.org/)
+* [Amarok: *Amarok is a music player*](https://amarok.kde.org/)
 
-* [Tomahawk](Tomahawk): Tomahawk is an online music player
-  
-  [https://www.tomahawk-player.org/](https://www.tomahawk-player.org/)
+* [Tomahawk: *Tomahawk is an online music player*](https://www.tomahawk-player.org/)
 
-* [Musescore](Musescore): MuseScore is a set of score compose tools
-  
-  [https://musescore.org/](https://musescore.org/)
+* [Musescore: *MuseScore is a set of score compose tools*](https://musescore.org/)
 
-* [MusE](MusE): MusE is a MIDI/audio sequencer
-  
-  [http://muse-sequencer.org/](http://muse-sequencer.org/)
+* [MusE: *MusE is a MIDI/audio sequencer*](http://muse-sequencer.org/)
   
 {.links-list}
 
