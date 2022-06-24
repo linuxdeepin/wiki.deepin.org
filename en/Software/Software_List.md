@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T05:14:14.702Z
+date: 2022-06-24T05:22:22.754Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -54,96 +54,38 @@ dateCreated: 2022-04-21T03:54:27.028Z
 ## Music
 
 * [Deepin Music: *Deepin Music is a local music player with beautiful design and simple functions developed by Deepin Technology*](https://www.deepin.org/original/deepin-music/)
-
 * [Netease Cloud Music: *Netease cloud music is a music player focused on discovering and sharing music*](http://music.163.com/)
-
 * [Soundnode App: *Soundnode App is a music player application*](http://www.soundnodeapp.com/)
-
 * [Kreogist Mu: *Kreogist Mu is a music management center*](http://kreogist.github.io/)
-
 * [Clementine: *Clementine is a music player and media library manager*](https://www.clementine-player.org/)
-
 * [Spotify: *Spotify is a proprietary P2P music streaming service*](https://www.spotify.com/)
-
 * [Audacious: *Audacious is a music player*](http://audacious-media-player.org/)
-
 * [Rhythmbox: *Rhythmbox is a music player and management application*](https://wiki.gnome.org/Apps/Rhythmbox)
-
 * [Amarok: *Amarok is a music player*](https://amarok.kde.org/)
-
 * [Tomahawk: *Tomahawk is an online music player*](https://www.tomahawk-player.org/)
-
 * [Musescore: *MuseScore is a set of score compose tools*](https://musescore.org/)
-
 * [MusE: *MusE is a MIDI/audio sequencer*](http://muse-sequencer.org/)
   
 {.links-list}
 
 ## Video
 
-* [Deepin Movie](Deepin_Movie): Deepin Movie is a local video player developed by Deepin Technology
-  
-  [https://www.deepin.org/original/deepin-movie/](https://www.deepin.org/original/deepin-movie/)
-
-* [SMplayer](SMplayer): SMplayer is a cross-platform video playback tool
-  
-  [http://smplayer.org/](http://smplayer.org/)
-
-* [VLC](VLC): VLC is a free, open source cross-platform multimedia player and framework
-  
-  [http://www.videolan.org/](http://www.videolan.org/)
-
-* [OpenShot](OpenShot): OpenShot is a video editing software
-  
-  [http://www.openshot.org/](http://www.openshot.org/)
-
-* [Baka MPlayer](Baka_MPlayer): Baka MPlayer is a multimedia player
-  
-  [http://bakamplayer.u8sand.net/](http://bakamplayer.u8sand.net/)
-
-* [Vokoscreen](Vokoscreen): Vokoscreen is an effective and powerful screen recording tool
-  
-  [http://www.kohaupt-online.de/hp/](http://www.kohaupt-online.de/hp/)
-
-* [SimpleScreenRecorder](SimpleScreenRecorder): SimpleScreenRecorder is a screen recording software
-  
-  [http://www.maartenbaert.be/simplescreenrecorder/](http://www.maartenbaert.be/simplescreenrecorder/)
-
-* [Kazam](Kazam): Kazam is a simple desktop screen recording tool
-  
-  [https://launchpad.net/kazam/](https://launchpad.net/kazam/)
-
-* [Shotcut](Shotcut): Shotcut is a cross-platform video editor software
-  
-  [https://www.shotcut.org/](https://www.shotcut.org/)
-
-* [Open Broadcaster Software](Open_Broadcaster_Software): Open Broadcaster Software is a video recording and live application
-  
-  [https://obsproject.com/](https://obsproject.com/)
-
-* [Lightworks](Lightworks): Lightworks is a non-linear video editor
-  
-  [https://www.lwks.com/](https://www.lwks.com/)
-
-* [HandBrake](HandBrake): HandBrake is a video transcoding tool
-  
-  [https://handbrake.fr/](https://handbrake.fr/)
-
-* [Gaupol](Gaupol): Gaupol is a subtitle editing software
-  
-  [http://otsaloma.io/gaupol/](http://otsaloma.io/gaupol/)
-
-* [recordMyDesktop](recordMyDesktop): recordMyDesktop is a desktop video recording software
-  
-  [http://recordmydesktop.sourceforge.net/](http://recordmydesktop.sourceforge.net/)
-
-* [ArcTime](ArcTime): ArcTime is a visual subtitle editor
-  
-  [http://www.arctime.org/](http://www.arctime.org/)
-
-* [Natron](Natron): Natron is a cross-platform video synthesis software
-  
-  [https://natron.inria.fr/](https://natron.inria.fr/)
+* [Deepin Movie: *Deepin Movie is a local video player developed by Deepin Technology*](https://www.deepin.org/original/deepin-movie/)
+* [SMplayer: *SMplayer is a cross-platform video playback tool*](http://smplayer.org/)
+* [VLC: *VLC is a free, open source cross-platform multimedia player and framework*](http://www.videolan.org/)
+* [OpenShot: *OpenShot is a video editing software*](http://www.openshot.org/)
+* [Baka MPlayer: *Baka MPlayer is a multimedia player*](http://bakamplayer.u8sand.net/)
+* [Vokoscreen: *Vokoscreen is an effective and powerful screen recording tool*](http://www.kohaupt-online.de/hp/)
+* [SimpleScreenRecorder: *SimpleScreenRecorder is a screen recording software*](http://www.maartenbaert.be/simplescreenrecorder/)
+* [Kazam: *Kazam is a simple desktop screen recording tool*](https://launchpad.net/kazam/)
+* [Shotcut: *Shotcut is a cross-platform video editor software*](https://www.shotcut.org/)
+* [Open Broadcaster Software: *Open Broadcaster Software is a video recording and live application*](https://obsproject.com/)
+* [Lightworks: *Lightworks is a non-linear video editor*](https://www.lwks.com/)
+* [HandBrake: *HandBrake is a video transcoding tool*](https://handbrake.fr/)
+* [Gaupol: *Gaupol is a subtitle editing software*](http://otsaloma.io/gaupol/)
+* [recordMyDesktop: *recordMyDesktop is a desktop video recording software*](http://recordmydesktop.sourceforge.net/)
+* [ArcTime: *ArcTime is a visual subtitle editor*](http://www.arctime.org/)
+* [Natron: *Natron is a cross-platform video synthesis software*](https://natron.inria.fr/)
   
 {.links-list}
 
