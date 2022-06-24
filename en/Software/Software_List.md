@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T05:06:30.535Z
+date: 2022-06-24T05:07:22.482Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -40,21 +40,13 @@ dateCreated: 2022-04-21T03:54:27.028Z
 ## Communication
 
 - [QQ: *QQ is an Internet-based instant messaging software developed by Tencent*](https://im.qq.com/)
-
 - [QQ Light: *QQ Light is a Lite version for the most popular chat tool QQ in China*](http://im.qq.com/lightqq/)
-
 - [BearyChat: *BearyChat is a team communication tool designed for work scenes*](https://bearychat.com/)
-
 - [Telegram: *Telegram is a chat application*](https://telegram.org/)
-
 - [Skype: *Skype is an instant messaging software*](http://skype.gmw.cn/)
-
 - [Pidgin: *Pidgin is an instant messaging software*](http://www.pidgin.im/)
-
 - [Xchat: *Xchat is a cross-platform IRC software*](http://xchat.org/)
-
 - [HexChat: *HexChat is a chat tool based on XChat*](https://hexchat.github.io/)
-
 - [HipChat: *HipChat is a chat kit designed specifically for group chat*](http://www.hipchat.com/)
   
 {.links-list}
