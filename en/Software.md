@@ -2,7 +2,7 @@
 title: Software
 description: 
 published: true
-date: 2022-06-24T04:53:46.334Z
+date: 2022-06-24T04:55:01.579Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T00:46:33.148Z
@@ -58,7 +58,8 @@ dateCreated: 2022-05-13T00:46:33.148Z
 - [ownCloud: *ownCloud is a tool for creating private cloud services*](https://owncloud.org/)
 
 - [Geary: *Geary is a desktop e-mail client program*](https://wiki.gnome.org/Apps/Geary)
-  {.links-list}
+  
+{.links-list}
   
 ### 123
 - [deepin linux *Introduction to the deepin linux.*](/About_Deepin/Deepin_Profile)
