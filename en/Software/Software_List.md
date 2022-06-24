@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T03:53:20.676Z
+date: 2022-06-24T03:57:15.045Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -401,6 +401,9 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Stunt Rally](Stunt_Rally): Stunt Rally is a racing game
   
   [http://stuntrally.tuxfamily.org/](http://stuntrally.tuxfamily.org/)
+  
+
+{.links-list}
 
 ## Office and Study
 
@@ -555,6 +558,9 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Marp](Marp): Marp is a markdown editor
   
   [https://github.com/yhatt/marp](https://github.com/yhatt/marp)
+  
+
+{.links-list}
 
 ## Translation and Reading
 
@@ -605,6 +611,8 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [PDF-Shuffler](PDF-Shuffler): PDF-Shuffler is a PDF merge and split tool
 
   [http://pdfshuffler.sourceforge.net/](http://pdfshuffler.sourceforge.net/)
+  
+{.links-list}
 
 ## Programming and Development
 
@@ -1056,7 +1064,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
  [https://launchpad.net/referencer](https://launchpad.net/referencer)
  
- {.links-list}
+{.links-list}
 
 ## Others
 
