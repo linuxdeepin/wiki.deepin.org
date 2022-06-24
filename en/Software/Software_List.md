@@ -2,13 +2,18 @@
 title: Software_List
 description: 
 published: true
-date: 2022-05-20T09:44:06.257Z
+date: 2022-06-24T03:33:04.585Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
 ---
 
 ## Internet
+### internet {.tabset}
+
+
+- [Firefox *Firefox is a safe and efficient browser*](http://www.firefox.org/)
+{.links-list}
 
 * [Firefox](Firefox): Firefox is a safe and efficient browser
   
@@ -101,8 +106,12 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Geary](Geary): Geary is a desktop e-mail client program
   
   [https://wiki.gnome.org/Apps/Geary](https://wiki.gnome.org/Apps/Geary)
+  
+{.links-list}
+
 
 ## Communication
+### Communication {.tabset}
 
 * [QQ](QQ): QQ is an Internet-based instant messaging software developed by Tencent
   
