@@ -2,7 +2,7 @@
 title: 如何创建samba共享文件夹
 description: 在 Linux 上创建共享文件夹，并对不同的用户赋予不同的访问权限
 published: true
-date: 2022-06-23T12:08:27.516Z
+date: 2022-06-23T12:08:29.758Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T11:39:21.257Z

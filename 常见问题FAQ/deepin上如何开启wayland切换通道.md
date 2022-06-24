@@ -2,7 +2,7 @@
 title: 开启wayland切换通道
 description: 
 published: true
-date: 2022-06-24T06:55:30.869Z
+date: 2022-06-24T06:55:34.164Z
 tags: deepin, wayland, x11
 editor: markdown
 dateCreated: 2022-06-24T06:55:30.869Z

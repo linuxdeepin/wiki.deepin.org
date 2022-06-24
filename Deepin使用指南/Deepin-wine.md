@@ -2,7 +2,7 @@
 title: Deepin-wine
 description: 
 published: true
-date: 2022-06-23T09:33:58.454Z
+date: 2022-06-23T09:34:00.633Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:28.645Z
