@@ -2,14 +2,15 @@
 title: Software
 description: 
 published: true
-date: 2022-06-24T04:51:06.521Z
+date: 2022-06-24T04:52:33.587Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T00:46:33.148Z
 ---
 
-# Software List {.tabset}
-## internet
+# Software List 
+## title {.tabset}
+### internet
 - [deepin linux *Introduction to the deepin linux.*](/About_Deepin/Deepin_Profile)
 
 - [ Firefox: *Firefox is a safe and efficient browser*](http://www.firefox.org/)
@@ -58,3 +59,5 @@ dateCreated: 2022-05-13T00:46:33.148Z
 
 - [Geary: *Geary is a desktop e-mail client program*](https://wiki.gnome.org/Apps/Geary)
   {.links-list}
+  
+### 123
