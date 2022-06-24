@@ -2,12 +2,13 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T05:03:21.805Z
+date: 2022-06-24T05:04:31.642Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
 ---
 
+# Software List
 # Software List {.tabset}
 ## internet
 
