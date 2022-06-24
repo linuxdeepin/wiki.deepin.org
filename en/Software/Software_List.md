@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T04:33:52.547Z
+date: 2022-06-24T04:35:15.285Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -12,7 +12,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
 ## internet 
 
-- [Firefox*Firefox is a safe and efficient browser*](http://www.firefox.org/)
+- [ Firefox *Firefox is a safe and efficient browser*](http://www.firefox.org/)
 
 
 - [Chrome](Chrome): Google Chrome is a web browser developed by Google
