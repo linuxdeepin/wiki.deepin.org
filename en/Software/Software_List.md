@@ -2,15 +2,15 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T03:45:44.496Z
+date: 2022-06-24T03:49:32.891Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
 ---
 
 # Software List
-## Software List {.tabset}
-### internet 
+# Software List {.tabset}
+## internet 
 
 - [Firefox *Firefox is a safe and efficient browser*](http://www.firefox.org/)
 
@@ -105,7 +105,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 {.links-list}
 
 
-### Communication
+## Communication
 
 - [QQ](QQ): QQ is an Internet-based instant messaging software developed by Tencent
   
