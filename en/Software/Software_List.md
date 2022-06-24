@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T04:58:01.666Z
+date: 2022-06-24T04:58:40.000Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -10,7 +10,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
 # Software List {.tabset}
 ## internet
-- [deepin linux *Introduction to the deepin linux.*](/About_Deepin/Deepin_Profile)
+
 - [ Firefox: *Firefox is a safe and efficient browser*](http://www.firefox.org/)
 - [Chrome: *Google Chrome is a web browser developed by Google*](https://www.google.com/chrome)
 - [Chromium: *Chromium is Google's Chrome browser engine, which is designed to create a secure, stable and fast browser*](http://www.chromium.org/)
