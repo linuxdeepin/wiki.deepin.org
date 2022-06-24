@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T05:48:40.593Z
+date: 2022-06-24T06:11:23.674Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -353,7 +353,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
   [http://okular.kde.org/](http://okular.kde.org/)
 
-* [Comix](Comix): Comix is ​​an excellent comic book reader
+* [Comix](Comix): Comix is an excellent comic book reader
 
   [http://comix.sourceforge.net/](http://comix.sourceforge.net/)
 
@@ -581,245 +581,125 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
 ## System Management
 
-* [Deepin File Manager](Deepin_File_Manager): Deepin File Manager is a powerful and easy to use file management tool developde by Deepin Technology
+* [Deepin File Manager: *Deepin File Manager is a powerful and easy to use file management tool developde by Deepin Technology*](https://www.deepin.org/original/dde-file-manager/)
 
-  [https://www.deepin.org/original/dde-file-manager/](https://www.deepin.org/original/dde-file-manager/)
+* [Deepin Terminal: *Deepin Terminal is a terminal emulator developed by Deepin Technology*](https://www.deepin.org/original/deepin-terminal/)
 
-* [Deepin Terminal](Deepin_Terminal): Deepin Terminal is a terminal emulator developed by Deepin Technology
+* [Deepin Boot Maker: *Deepin Boot Maker is a system boot disk maker developed by Deepin Technology*](https://www.deepin.org/original/deepin-boot-maker/)
 
-  [https://www.deepin.org/original/deepin-terminal/](https://www.deepin.org/original/deepin-terminal/)
+* [Archive Manager: *Fileroller(Archive Manager) is an archive manager*](http://fileroller.sourceforge.net/)
 
-* [Deepin Boot Maker](Deepin_Boot_Maker): Deepin Boot Maker is a system boot disk maker developed by Deepin Technology
+* [Sogou Input Method: *Sogou Input Method is a popular Chinese input method*](http://pinyin.sogou.com/linux/)
 
-  [https://www.deepin.org/original/deepin-boot-maker/](https://www.deepin.org/original/deepin-boot-maker/)
+* [System Monitor: *System Monitor (gnome-system-monitor) ) is an open source system monitor application*](https://github.com/GNOME/gnome-system-monitor)
 
-* [Archive Manager](Archive_Manager): Fileroller(Archive Manager) is an archive manager
+* [Font Viewer: *Font Viewer is an application to view fonts*](https://github.com/GNOME/gnome-font-viewer)
 
-  [http://fileroller.sourceforge.net/](http://fileroller.sourceforge.net/)
+* [Deepin OpenSymbol: *Deepin OpenSymbol is a font that redrawn based on Wingdings font series by Deepin Technology*](https://www.deepin.org/original/deepin-opensymbol/)
 
-* [Sogou Input Method](Sogou_Input_Method): Sogou Input Method is a popular Chinese input method
+* [Nautilus: *Nautilus is a file manager*](https://wiki.gnome.org/Apps/Nautilus)
 
-  [http://pinyin.sogou.com/linux/](http://pinyin.sogou.com/linux/)
+* [Boxes: *Boxes is a desktop virtualization management tool*](https://wiki.gnome.org/Apps/Boxes)
 
-* [System Monitor](System_Monitor): System Monitor (gnome-system-monitor) ) is an open source system monitor application
+* [VirtualBox: *Oracle VM VirtualBox is an open source virtual machine software*](https://www.virtualbox.org/)
 
-  [https://github.com/GNOME/gnome-system-monitor](https://github.com/GNOME/gnome-system-monitor)
+* [VMware Workstation: *VMware Workstation is a desktop virtual machine software*](http://www.vmware.com/)
 
-* [Font Viewer](Font_Viewer): Font Viewer is an application to view fonts
+* [Disks: *Disks is a disk management tool*](https://launchpad.net/gnome-disk-utility)
 
-  [https://github.com/GNOME/gnome-font-viewer](https://github.com/GNOME/gnome-font-viewer)
+* [GParted: *GParted is a very powerful Linux partitioning tool*](http://gparted.org/)
 
-* [Deepin OpenSymbol](Deepin_OpenSymbol): Deepin OpenSymbol is a font that redrawn based on Wingdings font series by Deepin Technology
+* [BleachBit: *BleachBit is an open source system cleanup tool*](http://bleachbit.sourceforge.net/)
 
-  [https://www.deepin.org/original/deepin-opensymbol/](https://www.deepin.org/original/deepin-opensymbol/)
+* [Gnome Terminal: *Gnome Terminal is a terminal emulator*](https://wiki.gnome.org/Apps/Terminal)
 
-* [Nautilus](Nautilus): Nautilus is a file manager
+* [WinUSB: *WinUSB is a tool for creating Windows bootable USB disk*](https://sourceforge.net/projects/winusb/)
 
-  [https://wiki.gnome.org/Apps/Nautilus](https://wiki.gnome.org/Apps/Nautilus)
+* [UNetbootin: *UNetbootin is a cross-platform production boot disk tool*](http://unetbootin.github.io/)
 
-* [Boxes](Boxes): Boxes is a desktop virtualization management tool
+* [CPU-G: *CPU-G is a CPU detection software*](https://sourceforge.net/projects/cpug/)
 
-  [https://wiki.gnome.org/Apps/Boxes](https://wiki.gnome.org/Apps/Boxes)
+* [Hardinfo: *HardInfo is a system information view software*](https://github.com/lpereira/hardinfo)
 
-* [VirtualBox](VirtualBox): Oracle VM VirtualBox is an open source virtual machine software
+* [Brasero: *Brasero is a CD/DVD burning software*](https://wiki.gnome.org/Apps/Brasero)
 
-  [https://www.virtualbox.org/](https://www.virtualbox.org/)
+* [K3b: *K3b is a full-featured CD/DVD burning software*](http://www.k3b.org/)
 
-* [VMware Workstation](VMware_Workstation): VMware Workstation is a desktop virtual machine software
+* [I-Nex: *I-Nex is a system information query tool*](https://sourceforge.net/projects/i-nex/)
 
-  [http://www.vmware.com/](http://www.vmware.com/)
+* [Psensor: *PSensorr is a tool to monitor the hardware temperature*](http://wpitchoune.net/psensor/)
 
-* [Disks](Disks): Disks is a disk management tool
+* [ISO Master: *ISO Master is a ISO image editor*](http://littlesvr.ca/isomaster/)
 
-  [https://launchpad.net/gnome-disk-utility](https://launchpad.net/gnome-disk-utility)
+* [Gufw: *Gufw is a firewall UFW graphical management tool*](http://gufw.org/)
 
-* [GParted](GParted): GParted is a very powerful Linux partitioning tool
+* [Terminator: *Terminator is a cross-platform terminal tool*](https://launchpad.net/terminator/)
 
-  [http://gparted.org/](http://gparted.org/)
+* [Cairo-Dock: *Cairo-Dock is a Dock software*](http://www.glx-dock.org/)
 
-* [BleachBit](BleachBit): BleachBit is an open source system cleanup tool
+* [Gnome Pie: *Gnome Pie is a cool program launcher*](https://github.com/Simmesimme/Gnome-Pie)
 
-  [http://bleachbit.sourceforge.net/](http://bleachbit.sourceforge.net/)
+* [Guake: *Guake is a drop-down terminal program*](http://guake-project.org/)
 
-* [Gnome Terminal](Gnome_Terminal): Gnome Terminal is a terminal emulator
+* [VNC-Client: *VNC-Client is a remote connection application*](https://launchpad.net/evnc)
 
-  [https://wiki.gnome.org/Apps/Terminal](https://wiki.gnome.org/Apps/Terminal)
+* [f.lux: *f.lux is a screen color temperature brightness automatic adjustment application*](https://justgetflux.com/)
 
-* [WinUSB](WinUSB): WinUSB is a tool for creating Windows bootable USB disk
+* [Redshift: *Redshift is a monitor color temperature automatic adjustment application*](https://github.com/jonls/redshift)
 
-  [https://sourceforge.net/projects/winusb/](https://sourceforge.net/projects/winusb/)
+* [Conky Manager: *Conky Manager is a simple graphical tool*](https://launchpad.net/conky-manager)
 
-* [UNetbootin](UNetbootin): UNetbootin is a cross-platform production boot disk tool
+* [Gconf Editor: *Gconf Editor is a configuration editing software*](https://download.gnome.org/sources/gconf-editor/)
 
-  [http://unetbootin.github.io/](http://unetbootin.github.io/)
+* [Tickeys: *Tickeys is a typewriter sound simulation software*](https://github.com/BillBillBillBill/Tickeys-linux)
 
-* [CPU-G](CPU-G): CPU-G is a CPU detection software
+* [Meld: *Meld is a visual file and directory comparison/merge tool*](http://meldmerge.org/)
 
-  [https://sourceforge.net/projects/cpug/](https://sourceforge.net/projects/cpug/)
+* [Beyond Compare: *Beyond Compare is a file/folder comparison tool*](http://www.scootersoftware.com)
 
-* [Hardinfo](Hardinfo): HardInfo is a system information view software
+* [Baobab: *Baobab is a graphical tool for analyzing disk usage*](http://www.marzocca.net/linux/baobab/)
 
-  [https://github.com/lpereira/hardinfo](https://github.com/lpereira/hardinfo)
+* [Nero: *Nero is a multimedia burning and editing application*](http://www.nero.com/)
 
-* [Brasero](Brasero): Brasero is a CD/DVD burning software
+* [Catfish: *Catfish is a file search tool*](https://launchpad.net/catfish-search)
 
-  [https://wiki.gnome.org/Apps/Brasero](https://wiki.gnome.org/Apps/Brasero)
+* [Synapse: *Synapse is a launcher software written in the Vala language*](https://launchpad.net/synapse-project)
 
-* [K3b](K3b): K3b is a full-featured CD/DVD burning software
+* [Konsole: *Konsole is a terminal emulator*](https://konsole.kde.org/)
 
-  [http://www.k3b.org/](http://www.k3b.org/)
+* [PeaZip: *PeaZip is a decompression software*](http://www.peazip.org/)
 
-* [I-Nex](I-Nex): I-Nex is a system information query tool
+* [B1 Free Archiver: *B1 Free Archiver is a compression/decompression application*](http://b1.org/)
 
-  [https://sourceforge.net/projects/i-nex/](https://sourceforge.net/projects/i-nex/)
+* [Xarchiver: *Xarchiver is a decompression/compression application*](http://xarchiver.sourceforge.net/)
 
-* [Psensor](Psensor): PSensorr is a tool to monitor the hardware temperature
+* [KShutdown: *KShutDown is a timer shutdown tool*](http://kshutdown.sourceforge.net/)
 
-  [http://wpitchoune.net/psensor/](http://wpitchoune.net/psensor/)
+* [KeePass2: *KeePass2 is a password management tool*](http://keepass.info/)
 
-* [ISO Master](ISO_Master): ISO Master is a ISO image editor
+* [KeePassX: *KeePassX is a password management tool*](https://www.keepassx.org/)
 
-  [http://littlesvr.ca/isomaster/](http://littlesvr.ca/isomaster/)
+* [Synergy: *Synergy is a keyboard and mouse sharing software*](http://synergy-project.org/)
 
-* [Gufw](Gufw): Gufw is a firewall UFW graphical management tool
+* [GtkHash: *GtkHash is a tool used to calculate the message digest and checksum*](http://gtkhash.sourceforge.net/)
 
-  [http://gufw.org/](http://gufw.org/)
+* [dupeGuru: *dupeGuru is a duplicate file cleanup application*](https://www.hardcoded.net/dupeguru/)
 
-* [Terminator](Terminator): Terminator is a cross-platform terminal tool
+* [ANGRYsearch: *ANGRYsearch is a file quick search tool*](https://github.com/DoTheEvo/ANGRYsearch)
 
-  [https://launchpad.net/terminator/](https://launchpad.net/terminator/)
+* [CopyQ: *CopyQ is a clipboard software that is suitable for copying and pasting large amounts of data*](http://hluk.github.io/CopyQ/)
 
-* [Cairo-Dock](Cairo-Dock): Cairo-Dock is a Dock software
+* [Easystroke: *Easystroke is a gesture recognition application*](https://github.com/thjaeger/easystroke)
 
-  [http://www.glx-dock.org/](http://www.glx-dock.org/)
+* [CherryTree: *CherryTree is a notes software that supports unlimited class classification*](http://www.giuspen.com/cherrytree/)
 
-* [Gnome Pie](Gnome_Pie): Gnome Pie is a cool program launcher
+* [FF Multi Converter: *FF Multi Converter is a versatile format conversion tool*](https://sites.google.com/site/ffmulticonverter/)
 
-  [https://github.com/Simmesimme/Gnome-Pie](https://github.com/Simmesimme/Gnome-Pie)
+* [Simplenote: *Simplenote is a plain text note application*](https://github.com/Automattic/simplenote-electron)
 
-* [Guake](Guake): Guake is a drop-down terminal program
+* [LuckyBackup: *LuckyBackup is a file backup and sync tool*](http://luckybackup.sourceforge.net/)
 
-  [http://guake-project.org/](http://guake-project.org/)
-
-* [VNC-Client](VNC-Client): VNC-Client is a remote connection application
-
-  [https://launchpad.net/evnc](https://launchpad.net/evnc)
-
-* [f.lux](f.lux): f.lux is a screen color temperature brightness automatic adjustment application
-
-  [https://justgetflux.com/](https://justgetflux.com/)
-
-* [Redshift](Redshift): Redshift is a monitor color temperature automatic adjustment application
-
-  [https://github.com/jonls/redshift](https://github.com/jonls/redshift)
-
-* [Conky Manager](Conky_Manager): Conky Manager is a simple graphical tool
-
-  [https://launchpad.net/conky-manager](https://launchpad.net/conky-manager)
-
-* [Gconf Editor](Gconf_Editor): Gconf Editor is a configuration editing software
-
-  [https://download.gnome.org/sources/gconf-editor/](https://download.gnome.org/sources/gconf-editor/)
-
-* [Tickeys](Tickeys): Tickeys is a typewriter sound simulation software
-
-  [https://github.com/BillBillBillBill/Tickeys-linux](https://github.com/BillBillBillBill/Tickeys-linux)
-
-* [Meld](Meld): Meld is a visual file and directory comparison/merge tool
-
-  [http://meldmerge.org/](http://meldmerge.org/)
-
-* [Beyond Compare](Beyond_Compare): Beyond Compare is a file/folder comparison tool
-
-  [http://www.scootersoftware.com](http://www.scootersoftware.com)
-
-* [Baobab](Baobab): Baobab is a graphical tool for analyzing disk usage
-
-  [http://www.marzocca.net/linux/baobab/](http://www.marzocca.net/linux/baobab/)
-
-* [Nero](Nero): Nero is a multimedia burning and editing application
-
-  [http://www.nero.com/](http://www.nero.com/)
-
-* [Catfish](Catfish): Catfish is a file search tool
-
-  [https://launchpad.net/catfish-search](https://launchpad.net/catfish-search)
-
-* [Synapse](Synapse): Synapse is a launcher software written in the Vala language
-
-  [https://launchpad.net/synapse-project](https://launchpad.net/synapse-project)
-
-* [Konsole](Konsole): Konsole is a terminal emulator
-
-  [https://konsole.kde.org/](https://konsole.kde.org/)
-
-* [PeaZip](PeaZip): PeaZip is a decompression software
-
-  [http://www.peazip.org/](http://www.peazip.org/)
-
-* [B1 Free Archiver](B1_Free_Archiver): B1 Free Archiver is a compression/decompression application
-
-  [http://b1.org/](http://b1.org/)
-
-* [Xarchiver](Xarchiver): Xarchiver is a decompression/compression application
-
-  [http://xarchiver.sourceforge.net/](http://xarchiver.sourceforge.net/)
-
-* [KShutdown](KShutdown): KShutDown is a timer shutdown tool
-
-  [http://kshutdown.sourceforge.net/](http://kshutdown.sourceforge.net/)
-
-* [KeePass2](KeePass2): KeePass2 is a password management tool
-
-  [http://keepass.info/](http://keepass.info/)
-
-* [KeePassX](KeePassX): KeePassX is a password management tool
-
-  [https://www.keepassx.org/](https://www.keepassx.org/)
-
-* [Synergy](Synergy): Synergy is a keyboard and mouse sharing software
-
-  [http://synergy-project.org/](http://synergy-project.org/)
-
-* [GtkHash](GtkHash): GtkHash is a tool used to calculate the message digest and checksum
-
-  [http://gtkhash.sourceforge.net/](http://gtkhash.sourceforge.net/)
-
-* [dupeGuru](dupeGuru): dupeGuru is a duplicate file cleanup application
-
-  [https://www.hardcoded.net/dupeguru/](https://www.hardcoded.net/dupeguru/)
-
-* [ANGRYsearch](ANGRYsearch): ANGRYsearch is a file quick search tool
-
-  [https://github.com/DoTheEvo/ANGRYsearch](https://github.com/DoTheEvo/ANGRYsearch)
-
-* [CopyQ](CopyQ): CopyQis a clipboard software that is suitable for copying and pasting large amounts of data
-
-  [http://hluk.github.io/CopyQ/](http://hluk.github.io/CopyQ/)
-
-* [Easystroke](Easystroke): Easystroke is a gesture recognition application
-
-  [https://github.com/thjaeger/easystroke](https://github.com/thjaeger/easystroke)
-
-* [CherryTree](CherryTree): CherryTree is a notes software that supports unlimited class classification
-
-  [http://www.giuspen.com/cherrytree/](http://www.giuspen.com/cherrytree/)
-
-* [FF Multi Converter](FF_Multi_Converter): FF Multi Converter is a versatile format conversion tool
-
-  [https://sites.google.com/site/ffmulticonverter/](https://sites.google.com/site/ffmulticonverter/)
-
-* [Simplenote](Simplenote): Simplenote is a plain text note application
-
-  [https://github.com/Automattic/simplenote-electron](https://github.com/Automattic/simplenote-electron)
-
-* [LuckyBackup](LuckyBackup): LuckyBackup is a file backup and sync tool
-
-  [http://luckybackup.sourceforge.net/](http://luckybackup.sourceforge.net/)
-
-* [Referencer](Referencer): Referencer is a document management tool
-
- [https://launchpad.net/referencer](https://launchpad.net/referencer)
+* [Referencer: *Referencer is a document management tool*](https://launchpad.net/referencer)
  
 {.links-list}
 
