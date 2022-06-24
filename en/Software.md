@@ -2,7 +2,7 @@
 title: Software
 description: 
 published: true
-date: 2022-06-24T04:52:33.587Z
+date: 2022-06-24T04:53:46.334Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T00:46:33.148Z
@@ -61,3 +61,10 @@ dateCreated: 2022-05-13T00:46:33.148Z
   {.links-list}
   
 ### 123
+- [deepin linux *Introduction to the deepin linux.*](/About_Deepin/Deepin_Profile)
+- [Mailstone *history of Deepin linux distribution.*](/About_Deepin/Deepin_Profile)
+- [Key features *differences between deepin and other distributions.*](/About_Deepin/Deepin_Profile)
+- [Offical applications *Deepin-moive deepin-paint deepin-terminal.*](/About_Deepin/Deepin_Profile)
+- [Source Code *https://github.com/linuxdeepin.*](/About_Deepin/Deepin_Profile)
+- [Image source list *https://www.deepin.org/zh/mirrors/releases*](/About_Deepin/Deepin_Profile)
+{.links-list}
