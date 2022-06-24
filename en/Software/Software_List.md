@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T05:22:22.754Z
+date: 2022-06-24T05:27:41.692Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -76,7 +76,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [OpenShot: *OpenShot is a video editing software*](http://www.openshot.org/)
 * [Baka MPlayer: *Baka MPlayer is a multimedia player*](http://bakamplayer.u8sand.net/)
 * [Vokoscreen: *Vokoscreen is an effective and powerful screen recording tool*](http://www.kohaupt-online.de/hp/)
-* [SimpleScreenRecorder: *SimpleScreenRecorder is a screen recording software*](http://www.maartenbaert.be/simplescreenrecorder/)
+* [Simple Screen Recorder: *Simple Screen Recorder is a screen recording software*](http://www.maartenbaert.be/simplescreenrecorder/)
 * [Kazam: *Kazam is a simple desktop screen recording tool*](https://launchpad.net/kazam/)
 * [Shotcut: *Shotcut is a cross-platform video editor software*](https://www.shotcut.org/)
 * [Open Broadcaster Software: *Open Broadcaster Software is a video recording and live application*](https://obsproject.com/)
@@ -91,17 +91,11 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
 ## Image
 
-* [Deepin Image Viewer](Deepin_Image_Viewer): Deepin Image Viewer is a image viewing and management application developed by Deepin Technology
-  
-  [https://www.deepin.org/original/deepin-image-viewer/](https://www.deepin.org/original/deepin-image-viewer/)
+* [Deepin Image Viewer: *Deepin Image Viewer is a image viewing and management application developed by Deepin Technology*](https://www.deepin.org/original/deepin-image-viewer/)
 
-* [Deepin Screenshot](Deepin_Screenshot): Deepin Screenshot is a screenshot tool developed by Deepin Technology
-  
-  [https://www.deepin.org/original/deepin-screenshot/](https://www.deepin.org/original/deepin-screenshot/)
+* [Deepin Screenshot: *Deepin Screenshot is a screenshot tool developed by Deepin Technology*](https://www.deepin.org/original/deepin-screenshot/)
 
-* [GIMP](GIMP): GIMP is a cross-platform image processing software
-  
-  [https://www.gimp.org/](https://www.gimp.org/)
+* [GIMP: *GIMP is a cross-platform image processing software*](https://www.gimp.org/)
 
 * [Krita](Krita): Krita is a bitmap graphics editing software
   
