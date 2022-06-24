@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T04:58:40.000Z
+date: 2022-06-24T05:03:21.805Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -34,142 +34,28 @@ dateCreated: 2022-04-21T03:54:27.028Z
 - [Nylas N1: *Nylas N1 is an open source mail client*](https://www.nylas.com/)
 - [ownCloud: *ownCloud is a tool for creating private cloud services*](https://owncloud.org/)
 - [Geary: *Geary is a desktop e-mail client program*](https://wiki.gnome.org/Apps/Geary)
+
 {.links-list}
-
-## internet
-
-- [deepin linux *Introduction to the deepin linux.*](/About_Deepin/Deepin_Profile)
-
-- [ Firefox *Firefox is a safe and efficient browser*](http://www.firefox.org/)
-
-
-- [Chrome](Chrome): Google Chrome is a web browser developed by Google
-  
-  [https://www.google.com/chrome](https://www.google.com/chrome)
-
-- [Chromium](Chromium): Chromium is Google's Chrome browser engine, which is designed to create a secure, stable and fast browser
-  
-  [http://www.chromium.org/](http://www.chromium.org/)
-
-- [Opera](Opera): Opera is a web browser
-  
-  [http://www.opera.com/](http://www.opera.com/)
-
-- [Midori](Midori): Midori is a lightweight web browser
-  
-  [http://www.midori-browser.org/](http://www.midori-browser.org/)
-
-- [Vivaldi](Vivaldi): Vivaldi is a fast speed browser
-  
-  [https://vivaldi.com/](https://vivaldi.com/)
-
-- [Yandex](Yandex): Yandex is a free browser
-  
-  [https://www.yandex.com/](https://www.yandex.com/)
-
-- [TeamViewer](TeamViewer): TeamViewer is a simple and fast solution for remote control, desktop sharing and file transfer.
-  
-  [https://www.teamviewer.com](https://www.teamviewer.com)
-
-- [Remmina](Remmina): Remmina is a remote desktop client
-  
-  [http://www.remmina.org/](http://www.remmina.org/)
-
-- [UGet](UGet): Uget is a download manager
-  
-  [http://ugetdm.com/](http://ugetdm.com/)
-
-- [FileZilla](FileZilla): FileZilla is a fast, reliable, cross-platform FTP, FTPS and SFTP client
-  
-  [http://filezilla-project.org/](http://filezilla-project.org/)
-
-- [Transmission](Transmission): Transmission is a BitTorrent client software
-  
-  [https://transmissionbt.com/](https://transmissionbt.com/)
-
-- [qBittorrent](qBittorrent): qBittorrent is a lightweight BitTorrent client
-  
-  [https://www.qbittorrent.org/](https://www.qbittorrent.org/)
-
-- [FlareGet](FlareGet): FlareGet is a cross-platform download manager and accelerator
-  
-  [http://flareget.com/](http://flareget.com/)
-
-- [gFTP](gFTP): gFTP is an FTP client tool
-  
-  [https://www.gftp.org/](https://www.gftp.org/)
-
-- [CrossFTP](CrossFTP): CrossFTP is an FTP client tool
-  
-  [http://www.crossftp.com/](http://www.crossftp.com/)
-
-- [Xtreme Download Manager](Xtreme_Download_Manager): Xtreme Download Manager is a P2P file download software
-  
-  [https://sourceforge.net/projects/xdman/](https://sourceforge.net/projects/xdman/)
-
-- [AnyDesk](AnyDesk): AnyDesk is a remote desktop control application
-  
-  [https://anydesk.com/](https://anydesk.com/)
-
-- [Evolution](Evolution): Evolution is an email client and scheduling tool
-  
-  [http://wiki.gnome.org/Apps/Evolution](http://wiki.gnome.org/Apps/Evolution)
-
-- [Thunderbird](Thunderbird): Thunderbird Mail is a mail client
-  
-  [http://www.mozilla.org/zh-CN/thunderbird/](http://www.mozilla.org/zh-CN/thunderbird/)
-
-- [Nylas N1](Nylas_N1): Nylas N1 is an open source mail client
-  
-  [https://www.nylas.com/](https://www.nylas.com/)
-
-- [ownCloud](ownCloud): ownCloud is a tool for creating private cloud services
-  
-  [https://owncloud.org/](https://owncloud.org/)
-
-- [Geary](Geary): Geary is a desktop e-mail client program
-  
-  [https://wiki.gnome.org/Apps/Geary](https://wiki.gnome.org/Apps/Geary)
-  
- {.links-list}
 
 ## Communication
 
-- [QQ](QQ): QQ is an Internet-based instant messaging software developed by Tencent
-  
-  [https://im.qq.com/](https://im.qq.com/)
+- [QQ: *QQ is an Internet-based instant messaging software developed by Tencent*](https://im.qq.com/)
 
-- [QQ Light](QQ_Light): QQ Light is a Lite version for the most popular chat tool QQ in China
-  
-  [http://im.qq.com/lightqq/](http://im.qq.com/lightqq/)
+- [QQ Light: *QQ Light is a Lite version for the most popular chat tool QQ in China*](http://im.qq.com/lightqq/)
 
-- [BearyChat](BearyChat): BearyChat is a team communication tool designed for work scenes
-  
-  [https://bearychat.com/](https://bearychat.com/)
+- [BearyChat: *BearyChat is a team communication tool designed for work scenes*](https://bearychat.com/)
 
-- [Telegram](Telegram): Telegram is a chat application
-  
-  [https://telegram.org/](https://telegram.org/)
+- [Telegram: *Telegram is a chat application*](https://telegram.org/)
 
-- [Skype](Skype): Skype is an instant messaging software
-  
-  [http://skype.gmw.cn/](http://skype.gmw.cn/)
+- [Skype: *Skype is an instant messaging software*](http://skype.gmw.cn/)
 
-- [Pidgin](Pidgin): Pidgin is an instant messaging software
-  
-  [http://www.pidgin.im/](http://www.pidgin.im/)
+- [Pidgin: *Pidgin is an instant messaging software*](http://www.pidgin.im/)
 
-- [Xchat](Xchat): Xchat is a cross-platform IRC software
-  
-  [http://xchat.org/](http://xchat.org/)
+- [Xchat: *Xchat is a cross-platform IRC software*](http://xchat.org/)
 
-- [HexChat](HexChat): HexChat is a chat tool based on XChat
-  
-  [https://hexchat.github.io/](https://hexchat.github.io/)
+- [HexChat: *HexChat is a chat tool based on XChat*](https://hexchat.github.io/)
 
-- [HipChat](HipChat): HipChat is a chat kit designed specifically for group chat
-  
-  [http://www.hipchat.com/](http://www.hipchat.com/)
+- [HipChat: *HipChat is a chat kit designed specifically for group chat*](http://www.hipchat.com/)
   
 {.links-list}
 
