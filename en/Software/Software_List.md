@@ -2,18 +2,18 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T04:29:16.606Z
+date: 2022-06-24T04:33:52.547Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
 ---
 
-# Software List
-## Software List {.tabset}
-### internet 
+# Software List {.tabset}
 
-- [Firefox *Firefox is a safe and efficient browser*](http://www.firefox.org/)
-{.links-list}
+## internet 
+
+- [Firefox*Firefox is a safe and efficient browser*](http://www.firefox.org/)
+
 
 - [Chrome](Chrome): Google Chrome is a web browser developed by Google
   
@@ -103,9 +103,9 @@ dateCreated: 2022-04-21T03:54:27.028Z
   
   [https://wiki.gnome.org/Apps/Geary](https://wiki.gnome.org/Apps/Geary)
   
-{.links-list}
+ {.links-list}
 
-### Communication
+## Communication
 
 - [QQ](QQ): QQ is an Internet-based instant messaging software developed by Tencent
   
