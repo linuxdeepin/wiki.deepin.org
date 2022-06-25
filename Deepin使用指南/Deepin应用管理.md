@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-25T13:27:20.454Z
+date: 2022-06-25T13:29:38.577Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -13,7 +13,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 ### {.tabset}
 #### 🪟浏览器
 ##### {.tabset}
-###### <img height="16" width="16" src="http://www.firefox.org/favicon.ico">Firefox
+###### <img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox
 - [Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
 {.links-list}
 
