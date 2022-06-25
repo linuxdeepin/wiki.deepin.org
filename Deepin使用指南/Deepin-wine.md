@@ -2,7 +2,7 @@
 title: Deepin-wine
 description: 
 published: true
-date: 2022-06-23T09:34:00.633Z
+date: 2022-06-25T12:51:24.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:28.645Z
@@ -25,22 +25,21 @@ WINEPREFIX=~/.bottle deepin-wine winecfg 。
 ```
 但是这样可能会有一些字体乱码的问题。
 
-### 运行程序
+#### 运行程序
 只通过deepin-wine *.exe 可以运行程序，但是默认通~/.wine的容器运行，~/.wine是wine默认生成的干净的容器，没有适配应用运行可能会有一些问题，所以最好通过上一步创建好的容器，可以每一个应用对应一个容器，不同的应用可能会需要不同的配置。
 
 通过WINEPREFIX的环境变量可以指定容器运行程序。如
 ```
 WINEPREFIX=~/.bottle deepin-wine *.exe
 ```
-### 简单debug
+#### 简单debug
 简单的分析程序运行出现的问题，可以打开deepin-wine输出日志的通道，通过WINEDEBUG环境开关。
 如： 
 ```
 WINEDEBUG=+pid,+tid,+process WINEPREFIX=~/.bottle deepin-wine *.exe
 ```
-# Deepin-wine应用全局快捷键设置
-## Tabset {.tabset}
-### 启动快捷键脚本
+### Deepin-wine应用全局快捷键设置
+#### 启动快捷键脚本
 > 更新deepin-wine-helper
 {.is-success}
 
@@ -49,7 +48,6 @@ sudo apt-get update && sudo apt-get install deepin-wine-helper
 ```
 > 更新到最新，/opt/deepinwine/tools/sendkeys.sh中有　$3 control mode , default ctrl+alt　这行注释就可以
 {.is-success}
-
 
 > 确认需要设置快捷键的进程名和快捷键
 {.is-success}
@@ -66,8 +64,6 @@ sudo apt-get update && sudo apt-get install deepin-wine-helper
 ```
 程序运行的情况下，在终端运行脚本验证脚本是否有效。
 
-# 添加自定义快捷键
-## Tabset {.tabset}
 ### 添加自定义快捷键
 在deepin的控制中心中添加自定义的快捷键。
 
