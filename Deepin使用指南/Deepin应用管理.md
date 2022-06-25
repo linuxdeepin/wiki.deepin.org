@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-25T13:47:10.935Z
+date: 2022-06-25T13:52:30.348Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -108,10 +108,6 @@ Firefox所有扩展突然被禁用
 - [Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
 {.links-list}
 
-###### Chromium<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">
-- [Chromium*是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
-{.links-list}
-
 **<font color="#0000FF">简介</font>**
 谷歌浏览器是一个由Google公司开发的网页浏览器，具有稳定、快速、安全、简洁、插件扩展等特点，其中包括稳定版(Stable)、开发版(Dev)、测试版(Beta)以及其他版本。Stable主要是为追求稳定的普通用户使用，一般更新最慢。
 
@@ -165,6 +161,25 @@ seahorse
 ###### 傲游云浏览器<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">
 - [傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+傲游云浏览器是一款基于Chromium开发的云浏览器，它集成了傲游账户、收藏和智能填表同步、快速访问、鼠标手势、超级拖拽、自动更新等功能，同时具有数据同步、插件系统功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install maxthon-browser-stable
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove maxthon-browser-stable
+```
+**<font color="#0000FF">仓库地址：</font>**
+[http://packages.deepin.com/deepin/pool/non-free/m/maxthon-browser-stable/](http://packages.deepin.com/deepin/pool/non-free/m/maxthon-browser-stable/)
+
+**<font color="#0000FF">常见问题</font>**
+
+**<font color="#0000FF">相关链接</font>**
+
 
 ###### Opera<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">
 - [Opera*是一款网络浏览器*](http://www.opera.com/)
