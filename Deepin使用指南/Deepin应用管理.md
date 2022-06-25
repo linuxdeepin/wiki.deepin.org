@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-25T13:20:35.917Z
+date: 2022-06-25T13:22:48.797Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -41,13 +41,13 @@ sudo apt-get remove firefox
 ```
 sudo apt-get remove firefox-esr(延长支持版)
 ```
-**<font color="#0000FF">仓库地址</font>**
+**<font color="#0000FF">仓库地址：</font>**
 
-[http://packages.deepin.com/deepin/pool/main/f/firefox-dde/](https://packages.deepin.com/deepin/pool/main/f/firefox-dde/) (深度桌面版)
+[深度桌面版](https://packages.deepin.com/deepin/pool/main/f/firefox-dde/) (深度桌面版)
 
-[http://packages.deepin.com/deepin/pool/main/f/firefox-dde/](https://packages.deepin.com/deepin/pool/main/f/firefox/)
+[未知版本](https://packages.deepin.com/deepin/pool/main/f/firefox/)
 
-[http://packages.deepin.com/deepin/pool/main/f/firefox-dde/](https://packages.deepin.com/deepin/pool/main/f/firefox-esr)     (延长支持版)
+[延长支持版](https://packages.deepin.com/deepin/pool/main/f/firefox-esr)(延长支持版)
 
 **<font color="#0000FF">常见问题</font>**
 **<font color="#1E90FF">一、如何安装Flash插件</font>**
