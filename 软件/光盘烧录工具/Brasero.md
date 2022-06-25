@@ -2,7 +2,7 @@
 title: Brasero
 description: 
 published: true
-date: 2022-06-25T12:29:17.825Z
+date: 2022-06-25T12:32:39.455Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:30:08.564Z
@@ -17,13 +17,11 @@ Brasero是一款CD/DVD刻录软件，支持单次写入数据DVD和任何类型�
 ```
 sudo apt-get install brasero
 ```
-
 卸载
 ```
 sudo apt-get remove brasero
 ```
 仓库地址
-
 [http://packages.deepin.com/deepin/pool/main/b/brasero/](http://packages.deepin.com/deepin/pool/main/b/brasero/)
 
 常见问题
@@ -41,13 +39,48 @@ sudo apt-get install k3b
 sudo apt-get remove k3b
 ```
 仓库地址
-
 [http://packages.deepin.com/deepin/pool/main/k/k3b/](http://packages.deepin.com/deepin/pool/main/k/k3b/)
 
 常见问题
 
 相关链接
-
 [K3d官方wiki](https://userbase.kde.org/K3b/zh-cn)
-
 [k3d官网](https://www.K3b.org)
+
+
+### Nero简介
+Nero是一款多媒体刻录和编辑应用，用于刻录和复制音乐 CD、DVD 或蓝光光盘，Nero 带有专业工具，可以方便快捷地进行创建、剪切和编辑，也可以使用转录和转换功能，将多媒体文件转换成其他格式。
+安装
+```
+sudo apt-get install nerolinux
+```
+卸载
+```
+sudo apt-get remove nerolinux
+```
+仓库地址
+[http://packages.deepin.com/deepin/pool/non-free/n/nerolinux/](http://packages.deepin.com/deepin/pool/non-free/n/nerolinux/)
+
+常见问题
+
+相关链接
+
+### Xfburn简介
+Xfburn 是使用 GTK 开发基于 libburnia 的 CD/DVD/Blu-ray 光盘烧录工具。
+安装
+```
+sudo apt-get install xfburn
+```
+卸载
+```
+sudo apt-get remove xfburn
+```
+仓库地址
+[http://packages.deepin.com/deepin/pool/main/x/xfburn/](http://packages.deepin.com/deepin/pool/main/x/xfburn/)
+
+常见问题
+
+相关链接
+官方网站：https://docs.xfce.org/apps/xfburn/start
+
+维基百科：
