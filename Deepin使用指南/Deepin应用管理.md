@@ -2,17 +2,20 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-25T12:54:56.669Z
+date: 2022-06-25T12:57:00.397Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
 ---
 
 # 应用快捷{.tabset}
-## ⚙️网络应用{.tabset}
-### 🪟浏览器
-
+## ⚙️网络应用
+### {.tabset}
+#### 🪟浏览器
+##### {.tabset}
+###### Firefox
 - [<img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
+###### Chrome
 - [<img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
 - [<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">Chromium*是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
 - [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
