@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-25T13:22:48.797Z
+date: 2022-06-25T13:25:31.951Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -83,18 +83,17 @@ sudo cp -r usr/* /usr
 
 https://get2.adobe.com/cn/flashplayer/otherversions/  下载   flash_player_ppapi_linux.x86_64.tar.gz 
 
- tar.gz 插件包安装说明:
+**<font color="#1E90FF">tar.gz 插件包安装说明:</font>**
 
 解压 tar.gz 插件包到合适的本地文件夹，你会看到：
-
+```
 /libpepflashplayer.so
-
+```
 在终端中进入上述本地文件夹，使用下列命令
-
+```
 sudo mkdir /usr/lib/adobe-flashplugin
-
 sudo cp libpepflashplayer.so /usr/lib/adobe-flashplugin
-
+```
 
 推荐 freshplayerplugin -- 使 linux 下 firefox 能够使用 ppapi flash
 https://www.v2ex.com/t/153629
@@ -103,13 +102,13 @@ https://www.v2ex.com/t/153629
 
 项目地址 https://github.com/i-rinat/freshplayerplugin
 
-###Firefox所有扩展突然被禁用
+Firefox所有扩展突然被禁用
 老版的firefox由于 AMO（Firefox 扩展中心）中间签名证书过期，可能导致 Firefox 认为这些扩展是未签名的，所以会被禁用.更新到最新版本就能恢复.
 
-相关链接
-[【已修复】Firefox所有扩展突然被禁用](https://mozilla.com.cn/thread-413298-1-1.html)
-[火狐官网](https://www.firefox.com.cn/)
-[火狐官方论坛](http://mozilla.com.cn/forum.php)
+**<font color="#0000FF">相关链接</font>**
+1.[【已修复】Firefox所有扩展突然被禁用](https://mozilla.com.cn/thread-413298-1-1.html)
+2.[火狐官网](https://www.firefox.com.cn/)
+3.[火狐官方论坛](http://mozilla.com.cn/forum.php)
 
 
 ###### <img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome
