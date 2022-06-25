@@ -2,7 +2,7 @@
 title: Pip
 description: pip
 published: true
-date: 2022-06-09T02:17:21.505Z
+date: 2022-06-25T10:03:44.441Z
 tags: python
 editor: markdown
 dateCreated: 2022-05-05T10:08:37.502Z
@@ -69,10 +69,15 @@ pip3 install pandas -i https://mirrors.aliyun.com/pypip/simple
 1. 新建目录：`mkdir -p ~/.pip`
 2. 新建配置文件并编辑：`vim ~/.pip/pip.conf`
 
-```
+```ini
 [global]
 index-url = https://mirrors.aliyun.com/pypi/simple/
 
 [install]
 trusted-host=mirrors.aliyun.com
 ```
+
+## 常见问题
+1. 执行`pip install -U pip`时权限错误导致pip被卸载，此时无法再安装其他库。
+解决方法：使用`python -m ensurepip` 来恢复pip。
+
