@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-25T13:03:32.505Z
+date: 2022-06-25T13:20:35.917Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -17,11 +17,11 @@ dateCreated: 2022-04-21T03:32:34.710Z
 - [Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
 {.links-list}
 
-简介
+**<font color="#0000FF">简介</font>**
 
 火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。
 
-安装
+**<font color="#0000FF">安装</font>**
 ```
 sudo apt-get install firefox-dde(深度桌面版)
 ```
@@ -31,7 +31,7 @@ sudo apt-get install firefox
 ```
 sudo apt-get install firefox-esr(延长支持版)
 ```
-卸载
+**<font color="#0000FF">卸载</font>**
 ```
 sudo apt-get remove firefox-dde(深度桌面版)
 ```
@@ -41,7 +41,7 @@ sudo apt-get remove firefox
 ```
 sudo apt-get remove firefox-esr(延长支持版)
 ```
-仓库地址
+**<font color="#0000FF">仓库地址</font>**
 
 [http://packages.deepin.com/deepin/pool/main/f/firefox-dde/](https://packages.deepin.com/deepin/pool/main/f/firefox-dde/) (深度桌面版)
 
@@ -49,42 +49,37 @@ sudo apt-get remove firefox-esr(延长支持版)
 
 [http://packages.deepin.com/deepin/pool/main/f/firefox-dde/](https://packages.deepin.com/deepin/pool/main/f/firefox-esr)     (延长支持版)
 
-常见问题
+**<font color="#0000FF">常见问题</font>**
+**<font color="#1E90FF">一、如何安装Flash插件</font>**
+```
+sudo apt-get install libflashplugin
+```
+**<font color="#1E90FF">二、如何安装中文语言包</font>**
+```
+sudo apt-get install firefox-l10n-zh-cn
+```
+**<font color="#1E90FF">三、手动更新flashplayer插件</font>**
+参见：[点击查看](https://bbs.deepin.org/forum.php?mod=viewthread&tid=143255&extra=)
 
-如何安装Flash插件
-
-`sudo apt-get install libflashplugin`
-
-如何安装中文语言包
-
-`sudo apt-get install firefox-l10n-zh-cn`
-
-手动更新flashplayer插件
-
-参见：https://bbs.deepin.org/forum.php?mod=viewthread&tid=143255&extra=
-
-###更新flashplayer插件
-
-https://get2.adobe.com/cn/flashplayer/otherversions/
-
-下载 flash_player_npapi_linux.x86_64.tar.gz 
-
- tar.gz 插件包安装说明:
+**<font color="#1E90FF">四、更新flashplayer插件</font>**
+下载地址：[点击下载](https://get2.adobe.com/cn/flashplayer/otherversions/ )
+```
+flash_player_npapi_linux.x86_64.tar.gz 
+```
+**<font color="#1E90FF">tar.gz 插件包安装说明:</font>**
 
 解压 tar.gz 插件包到合适的本地文件夹，你会看到：
-
+```
 /libflashplayer.so 
-
 /usr/ 
-
+```
 在终端中进入上述本地文件夹，使用下列命令
+```
+sudo cp libflashplayer.so /usr/lib/mozilla/plugin
+sudo cp -r usr/* /usr
+```
 
-    sudo cp libflashplayer.so /usr/lib/mozilla/plugin
-
-    sudo cp -r usr/* /usr
-
-
-Firefox 使用PPAPI版 flashplayer
+**<font color="#0000FF">五、Firefox 使用PPAPI版 flashplayer</font>**
 
 https://get2.adobe.com/cn/flashplayer/otherversions/  下载   flash_player_ppapi_linux.x86_64.tar.gz 
 
