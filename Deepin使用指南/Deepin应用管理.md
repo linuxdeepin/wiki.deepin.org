@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-25T13:29:38.577Z
+date: 2022-06-25T13:47:08.071Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -18,7 +18,6 @@ dateCreated: 2022-04-21T03:32:34.710Z
 {.links-list}
 
 **<font color="#0000FF">简介</font>**
-
 火狐浏览器是一个安全高效的浏览器，它具有速度快、隐私保护、丰富的插件资源、不同设备之间同步数据、分页浏览、个性化定制等特性。
 
 **<font color="#0000FF">安装</font>**
@@ -42,11 +41,8 @@ sudo apt-get remove firefox
 sudo apt-get remove firefox-esr(延长支持版)
 ```
 **<font color="#0000FF">仓库地址：</font>**
-
 [深度桌面版](https://packages.deepin.com/deepin/pool/main/f/firefox-dde/) (深度桌面版)
-
 [未知版本](https://packages.deepin.com/deepin/pool/main/f/firefox/)
-
 [延长支持版](https://packages.deepin.com/deepin/pool/main/f/firefox-esr)(延长支持版)
 
 **<font color="#0000FF">常见问题</font>**
@@ -67,7 +63,6 @@ sudo apt-get install firefox-l10n-zh-cn
 flash_player_npapi_linux.x86_64.tar.gz 
 ```
 **<font color="#1E90FF">tar.gz 插件包安装说明:</font>**
-
 解压 tar.gz 插件包到合适的本地文件夹，你会看到：
 ```
 /libflashplayer.so 
@@ -80,11 +75,9 @@ sudo cp -r usr/* /usr
 ```
 
 **<font color="#0000FF">五、Firefox 使用PPAPI版 flashplayer</font>**
-
 https://get2.adobe.com/cn/flashplayer/otherversions/  下载   flash_player_ppapi_linux.x86_64.tar.gz 
 
 **<font color="#1E90FF">tar.gz 插件包安装说明:</font>**
-
 解压 tar.gz 插件包到合适的本地文件夹，你会看到：
 ```
 /libpepflashplayer.so
@@ -118,6 +111,56 @@ Firefox所有扩展突然被禁用
 ###### Chromium<img height="16" width="16" align="center"  src="https://www.chromium.org/favicon.ico">
 - [Chromium*是Google的Chrome浏览器驱动引擎，其目的是为了创建一个安全、稳定和快速的浏览器*](http://www.chromium.org/)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+谷歌浏览器是一个由Google公司开发的网页浏览器，具有稳定、快速、安全、简洁、插件扩展等特点，其中包括稳定版(Stable)、开发版(Dev)、测试版(Beta)以及其他版本。Stable主要是为追求稳定的普通用户使用，一般更新最慢。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install chrome-dde（stable）
+sudo apt-get install google-chrome-beta（beta）
+sudo apt-get install google-chrome-unstable（unstable）
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove chrome-dde
+sudo apt-get remove google-chrome-beta（beta）
+sudo apt-get remove google-chrome-unstable（unstable）
+```
+**<font color="#0000FF">仓库地址：</font>**
+[http://packages.deepin.com/deepin/pool/main/c/chrome-dde/](http://packages.deepin.com/deepin/pool/main/c/chrome-dde/)
+[http://packages.deepin.com/deepin/pool/non-free/g/google-chrome-beta](http://packages.deepin.com/deepin/pool/non-free/g/google-chrome-beta)
+[http://packages.deepin.com/deepin/pool/non-free/g/google-chrome-unstable](http://packages.deepin.com/deepin/pool/non-free/g/google-chrome-unstable)
+
+**<font color="#0000FF">常见问题</font>**
+```
+sudo apt-get install libflashplugin-pepper
+```
+
+参见：https://bbs.deepin.org/forum.php?mod=viewthread&tid=143255&extra=
+
+**<font color="#1E90FF">如何去掉密钥环提示</font>**
+
+密钥环是linux系统用于安全保存程序私密数据的模块，可以用于加密保存密码、证书、密钥等安全数据。chrome的密钥环用于保存本地访问站点密码或缓存从google服务器同步下来的访问站点的密码。
+Deepin系统的chrome会默认会把密码放在登录密钥环里，之所以会提示解锁登录密钥环是因为你的登陆密钥环被锁定了，只要把你的登陆密钥环解锁就可以了。
+
+**<font color="#1E90FF"> 安装seahorse</font>**
+```
+sudo apt-get install seahorse
+```
+**<font color="#1E90FF"> 运行seahorse</font>**
+```
+seahorse
+```
+解锁密码或修改密码环密码
+密码->登录(Login)->右键解锁
+
+另外一种情况
+如果是chrome的安全数据没有存放于登录密钥环，那么有可能是创建了一个新叫“默认密钥环”的密钥环来存储。如想不每次打开电脑都输入的话就应该把它的密码设为空或者在登录密钥环上创建一个项目指向“默认密钥环”。
+
+密码->默认密钥环->修改密码
+
+**<font color="#0000FF">相关链接</font>**
 
 ###### 傲游云浏览器<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">
 - [傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
