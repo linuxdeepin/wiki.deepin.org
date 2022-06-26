@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T00:36:30.146Z
+date: 2022-06-26T00:49:12.547Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -14,7 +14,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 #### 🪟浏览器
 ##### {.tabset}
 ###### <img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox
-- [Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
+- [<img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
 {.links-list}
 
 **<font color="#0000FF">简介</font>**
@@ -105,7 +105,7 @@ Firefox所有扩展突然被禁用
 
 
 ###### <img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome
-- [Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
+- [<img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
 {.links-list}
 
 **<font color="#0000FF">简介</font>**
@@ -159,7 +159,7 @@ seahorse
 **<font color="#0000FF">相关链接</font>**
 
 ###### <img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器
-- [傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
+- [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
 {.links-list}
 
 **<font color="#0000FF">简介</font>**
@@ -182,7 +182,7 @@ sudo apt-get remove maxthon-browser-stable
 
 
 ###### <img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera
-- [Opera*是一款网络浏览器*](http://www.opera.com/)
+- [<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera*是一款网络浏览器*](http://www.opera.com/)
 {.links-list}
 
 **<font color="#0000FF">简介</font>**
@@ -207,7 +207,7 @@ http://packages.deepin.com/deepin/pool/non-free/o/opera-developer/
 **<font color="#1E90FF">维基百科：</font>**
 
 ###### <img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori
-- [Midori*是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
+- [<img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori*是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
 {.links-list}
 
 **<font color="#0000FF">简介</font>**
@@ -227,7 +227,7 @@ http://packages.deepin.com/deepin/pool/main/m/midori/
 **<font color="#1E90FF">维基百科：midori</font>**
 
 ###### <img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi
-- [Vivaldi*是一款极速浏览器*](https://vivaldi.com/)
+- [<img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi*是一款极速浏览器*](https://vivaldi.com/)
 {.links-list}
 
 **<font color="#0000FF">简介</font>**
@@ -252,49 +252,75 @@ http://packages.deepin.com/deepin/pool/main/v/vivaldi-beta/
 **<font color="#1E90FF">维基百科：</font>**
 
 ###### Yandex<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">
-- [Yandex*是一款免费的浏览器*](https://www.yandex.com/)
+- [<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">Yandex*是一款免费的浏览器*](https://www.yandex.com/)
 {.links-list}
 
 #### 🖥️远程桌面客户端
 ##### {.tabset}
-###### TeamViewer<img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">-[TeamViewer*是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
-
-###### -[<img height="16" width="16" align="center"  src="/favicon.ico">Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
+###### <img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer
+- [<img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer*是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
 {.links-list}
 
+###### <img height="16" width="16" align="center"  src="/favicon.ico">Remmina
+- [<img height="16" width="16" align="center"  src="/favicon.ico">Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
+{.links-list}
+
+###### <img height="16" width="16" align="center"  src="/favicon.ico">UGet
 - [<img height="16" width="16" align="center"  src="/favicon.ico">UGet*是一个下载管理器*](http://ugetdm.com/)
 {.links-list}
 
+###### <img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla
 - [<img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla*是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
 {.links-list}
 
+###### <img height="16" width="16" align="center"  src="/favicon.ico">Transmission
 - [<img height="16" width="16" align="center"  src="/favicon.ico">Transmission*是一个BitTorrent客户端软件*](https://transmissionbt.com/)
 {.links-list}
 
+###### <img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent
 - [<img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent*是一个轻量级BitTorrent客户端*](https://www.qbittorrent.org/)
 {.links-list}
 
+###### <img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet
 - [<img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet*是一个跨平台的下载管理器和加速器*](http://flareget.com/)
 {.links-list}
 
+###### <img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP
 - [<img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP*是一个FTP客户端工具*](https://www.gftp.org/)
 {.links-list}
 
+###### <img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP
 - [<img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP*是一款FTP客戶端工具*](http://www.crossftp.com/)
 {.links-list}
 
-- [<img height="16" width="16" align="center"  src="https://sourceforge.net/favicon.ico">Xtreme Download Manager*是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
+###### <img height="16" width="16" align="center"  src="https://sourceforge.net/favicon.ico">Xtreme Download Manager
+- [Xtreme Download Manager*是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
 {.links-list}
 
-- [<img height="16" width="16" align="center"  src="https://anydesk.com/favicon.ico">AnyDesk*是一款远程桌面控制应用*](https://anydesk.com/)
+###### <img height="16" width="16" align="center"  src="https://anydesk.com/favicon.ico">AnyDesk
+- [AnyDesk*是一款远程桌面控制应用*](https://anydesk.com/)
 {.links-list}
 
 #### 📧邮件客户端
-- [Evolution*是一款电子邮件和日程安排工具*](http://wiki.gnome.org/Apps/Evolution)
-- [雷鸟邮件*是一个邮件客户端*](http://www.mozilla.org/zh-CN/thunderbird/)
-- [Nylas N1*是一个开源的邮件客户端*](https://www.nylas.com/)
-- [ownCloud*是一款用来创建私有云服务的工具*](https://owncloud.org/)
-- [Geary*是一款桌面电子邮件客户端程序*](https://wiki.gnome.org/Apps/Geary)
+##### {.tabset}
+###### <img height="16" width="16" align="center"  src="http://wiki.gnome.org/favicon.ico">Evolution
+- [<img height="16" width="16" align="center"  src="http://wiki.gnome.org/favicon.ico">Evolution*是一款电子邮件和日程安排工具*](http://wiki.gnome.org/Apps/Evolution)
+{.links-list}
+
+###### <img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">
+- [<img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件*是一个邮件客户端*](http://www.mozilla.org/zh-CN/thunderbird/)
+{.links-list}
+
+###### <img height="16" width="16" align="center"  src="https://www.nylas.com/favicon.ico">Nylas N1
+- [<img height="16" width="16" align="center"  src="https://www.nylas.com/favicon.ico">Nylas N1*是一个开源的邮件客户端*](https://www.nylas.com/)
+{.links-list}
+
+###### <img height="16" width="16" align="center"  src="https://owncloud.org/favicon.ico">ownCloud
+- [<img height="16" width="16" align="center"  src="https://owncloud.org/favicon.ico">ownCloud*是一款用来创建私有云服务的工具*](https://owncloud.org/)
+{.links-list}
+
+###### <img height="16" width="16" align="center"  src="https://wiki.gnome.org/favicon.ico">Geary
+- [<img height="16" width="16" align="center"  src="https://wiki.gnome.org/favicon.ico">Geary*是一款桌面电子邮件客户端程序*](https://wiki.gnome.org/Apps/Geary)
 {.links-list}
 
 ## 💬社交沟通
