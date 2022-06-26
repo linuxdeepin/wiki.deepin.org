@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T01:44:01.776Z
+date: 2022-06-26T01:58:22.776Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -446,15 +446,69 @@ http://packages.deepin.com/deepin/pool/non-free/f/flareget/
 - [<img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP*是一个FTP客户端工具*](https://www.gftp.org/)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+gFTP是一个FTP客户端工具，它支持多个线程同时下载、断点续传、支持FTP、HTTP和SSH协议、支持FTP和HTTP代理，还可以下载整个目录、支持文件队列、缓存、拖拽等操作。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install gftp
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove gftp
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/g/gftp/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
 ###### <img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP
 - [<img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP*是一款FTP客戶端工具*](http://www.crossftp.com/)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+CrossFTP是一款FTP客戶端工具，它支持多标签管理、Unicode/中文编码、站点管理/加密、文件远程备份、文件本地和Web搜索、自动重连、命令控制等功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install crossftp
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove crossftp
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/non-free/c/crossftp/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
 
 ###### <img height="16" width="16" align="center"  src="https://sourceforge.net/favicon.ico">Xtreme Download Manager
 - [Xtreme Download Manager*是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
 {.links-list}
 
-###### <img height="16" width="16" align="center"  src="https://anydesk.com/favicon.ico">AnyDesk
+**<font color="#0000FF">简介</font>**
+Xtreme Download Manager是一个P2P文件下载软件，它具有带宽控制系统、上传下载传输速度控制、下载管理智能化、积分系统、强力分享能力、支持DLP、支持多线程和队列管理、自动调节路由器设置等功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install xdm
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove xdm
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/x/xdm/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
+###### <img height="16" width="16" align="center"  src="https://anydesk.com/favicon.ico">AnyDesk-无详情
 - [AnyDesk*是一款远程桌面控制应用*](https://anydesk.com/)
 {.links-list}
 
@@ -464,21 +518,105 @@ http://packages.deepin.com/deepin/pool/non-free/f/flareget/
 - [<img height="16" width="16" align="center"  src="http://wiki.gnome.org/favicon.ico">Evolution*是一款电子邮件和日程安排工具*](http://wiki.gnome.org/Apps/Evolution)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+Evolution是一款电子邮件和日程安排工具，为用户提供了一整套高效的个人和工作组信息管理方案，多年来一直深受Linux用户的好评。通过它您可以阅读和发送E-Mail，管理个人联系簿，在线创建和确认群组会议等。
+
+**<font color="#0000FF">安装</font>**
+sudo apt-get install evolution
+
+**<font color="#0000FF">卸载</font>**
+sudo apt-get remove evolution
+
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/e/evolution/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
 ###### <img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件
 - [<img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件*是一个邮件客户端*](http://www.mozilla.org/zh-CN/thunderbird/)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+雷鸟邮件是一个邮件客户端，支持IMAP 、POP邮件协议以及HTML邮件格式，可以整合多个网络邮箱于一体，让您在本地随时都能接收或者发送邮件。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install thunderbird
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove thunderbird
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/t/thunderbird/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
 
 ###### <img height="16" width="16" align="center"  src="https://www.nylas.com/favicon.ico">Nylas N1
 - [<img height="16" width="16" align="center"  src="https://www.nylas.com/favicon.ico">Nylas N1*是一个开源的邮件客户端*](https://www.nylas.com/)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+Nylas N1是一个开源的邮件客户端，它支持插件框架，可以扩展创建强大的新功能，它兼容上百个邮件服务提供商，提供良好的程序外观并具有离线功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install nylas
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove nylas
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/n/nylas/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
 ###### <img height="16" width="16" align="center"  src="https://owncloud.org/favicon.ico">ownCloud
 - [<img height="16" width="16" align="center"  src="https://owncloud.org/favicon.ico">ownCloud*是一款用来创建私有云服务的工具*](https://owncloud.org/)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install owncloud
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove owncloud
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/o/owncloud/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
 ###### <img height="16" width="16" align="center"  src="https://wiki.gnome.org/favicon.ico">Geary
 - [<img height="16" width="16" align="center"  src="https://wiki.gnome.org/favicon.ico">Geary*是一款桌面电子邮件客户端程序*](https://wiki.gnome.org/Apps/Geary)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+Geary是一款桌面电子邮件客户端程序，它支持基本的查看和撰写、预览、回复等电子邮件基本功能，同时还支持IMAP协议，可以使用Google, Yahoo和Microsoft等其他在线邮箱服务。
+
+**<font color="#0000FF">安装</font>**
+sudo apt-get install geary
+
+**<font color="#0000FF">卸载</font>**
+sudo apt-get remove geary
+
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/g/geary/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
 
 ## 💬社交沟通
 - [<img height="16" width="16" align="center"  src="https://im.qq.com/favicon.ico">QQ*是腾讯开发的一款基于Internet的即时通信软件*](https://im.qq.com/)
