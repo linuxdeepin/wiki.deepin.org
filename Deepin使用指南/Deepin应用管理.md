@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T00:59:15.740Z
+date: 2022-06-26T01:05:59.761Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -309,9 +309,48 @@ https://zh.wikipedia.org/wiki/TeamViewer
 - [<img height="16" width="16" align="center"  src="/favicon.ico">Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+Remmina是一个远程桌面客户端，它提供了RDP、VNC、XDMCP、SSH等远程连接协议的支持。其优点在于界面清爽，方便易用。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install remmina
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove remmina
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/r/remmina/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
 ###### <img height="16" width="16" align="center"  src="/favicon.ico">UGet
 - [<img height="16" width="16" align="center"  src="/favicon.ico">UGet*是一个下载管理器*](http://ugetdm.com/)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+Uget是一个下载管理器，它支持断点续传、监视剪贴板、Firefox插件、分类/批量下载，还支持从HTML中导入下载地址、命令行下载等功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install uget
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove uget
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/u/uget/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接：</font>**
+[UGet官网](https://ugetdm.com/)
+
+**<font color="#1E90FF">维基百科：</font>**
+
 
 ###### <img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla
 - [<img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla*是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
