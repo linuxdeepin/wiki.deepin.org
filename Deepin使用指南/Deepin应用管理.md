@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T00:54:54.133Z
+date: 2022-06-26T00:59:12.647Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -278,6 +278,32 @@ http://packages.deepin.com/deepin/pool/main/y/yandex-browser-beta/
 ###### <img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer
 - [<img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer*是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+TeamViewer是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。它具有即时远程控制、远程维护、远程访问、家庭办公、在线会议/演示等功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install teamviewer
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove teamviewer
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/non-free/t/teamviewer/
+
+**<font color="#0000FF">常见问题</font>**
+请尽量使用深度商店提供的TeamViewer。由于系统自带的软件包安装程序存在逻辑问题，双击从官网下载的TeamViewer的deb安装包安装将可能导致深度桌面环境被卸载。安装下载的deb包，请尽量使用命令：
+```
+sudo dpkg -i xxx.deb
+```
+并注意相应提示。
+
+**<font color="#0000FF">相关链接</font>**
+
+**<font color="#1E90FF">维基百科：</font>**
+https://zh.wikipedia.org/wiki/TeamViewer
 
 ###### <img height="16" width="16" align="center"  src="/favicon.ico">Remmina
 - [<img height="16" width="16" align="center"  src="/favicon.ico">Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
