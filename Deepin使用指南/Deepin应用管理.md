@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T01:58:25.896Z
+date: 2022-06-26T02:00:25.705Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -522,11 +522,13 @@ http://packages.deepin.com/deepin/pool/main/x/xdm/
 Evolution是一款电子邮件和日程安排工具，为用户提供了一整套高效的个人和工作组信息管理方案，多年来一直深受Linux用户的好评。通过它您可以阅读和发送E-Mail，管理个人联系簿，在线创建和确认群组会议等。
 
 **<font color="#0000FF">安装</font>**
+```
 sudo apt-get install evolution
-
+```
 **<font color="#0000FF">卸载</font>**
+```
 sudo apt-get remove evolution
-
+```
 **<font color="#0000FF">仓库地址：</font>**
 http://packages.deepin.com/deepin/pool/main/e/evolution/
 
@@ -606,11 +608,13 @@ http://packages.deepin.com/deepin/pool/main/o/owncloud/
 Geary是一款桌面电子邮件客户端程序，它支持基本的查看和撰写、预览、回复等电子邮件基本功能，同时还支持IMAP协议，可以使用Google, Yahoo和Microsoft等其他在线邮箱服务。
 
 **<font color="#0000FF">安装</font>**
+```
 sudo apt-get install geary
-
+```
 **<font color="#0000FF">卸载</font>**
+```
 sudo apt-get remove geary
-
+```
 **<font color="#0000FF">仓库地址：</font>**
 http://packages.deepin.com/deepin/pool/main/g/geary/
 
