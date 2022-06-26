@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T00:49:15.310Z
+date: 2022-06-26T00:54:54.133Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -255,6 +255,24 @@ http://packages.deepin.com/deepin/pool/main/v/vivaldi-beta/
 - [<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">Yandex*是一款免费的浏览器*](https://www.yandex.com/)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+Yandex是一款免费的浏览器，来自自俄罗斯最大的搜索引擎Yandex，在国外拥有众多的用户，具有界面简洁、浏览速度快、集成快速搜索、涡轮加速等功能，在网速缓慢的情况下，加快网页的加载速度。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install yandex-browser-beta
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove yandex-browser-beta
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/y/yandex-browser-beta/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
 #### 🖥️远程桌面客户端
 ##### {.tabset}
 ###### <img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer
@@ -307,7 +325,7 @@ http://packages.deepin.com/deepin/pool/main/v/vivaldi-beta/
 - [<img height="16" width="16" align="center"  src="http://wiki.gnome.org/favicon.ico">Evolution*是一款电子邮件和日程安排工具*](http://wiki.gnome.org/Apps/Evolution)
 {.links-list}
 
-###### <img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">
+###### <img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件
 - [<img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件*是一个邮件客户端*](http://www.mozilla.org/zh-CN/thunderbird/)
 {.links-list}
 
