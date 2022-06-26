@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T01:05:59.761Z
+date: 2022-06-26T01:44:01.776Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -356,17 +356,91 @@ http://packages.deepin.com/deepin/pool/main/u/uget/
 - [<img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla*是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+FileZilla是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端。它具有断点续传、超时侦测、SSL加密、多国语言、多标签界面、多协议支持、远程查找文件、站点管理和传输队列管理等功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install filezilla
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove filezilla
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/f/filezilla/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+https://zh.wikipedia.org/wiki/FileZilla
+
 ###### <img height="16" width="16" align="center"  src="/favicon.ico">Transmission
 - [<img height="16" width="16" align="center"  src="/favicon.ico">Transmission*是一个BitTorrent客户端软件*](https://transmissionbt.com/)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+Transmission是一个BitTorrent客户端软件，它支持速度限制、制作种子、远程控制、磁力链接、数据加密、损坏修复、数据来源交换等功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install transmission
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove transmission
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/t/transmission/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接:</font>**
+官方网站：https://transmissionbt.com/
+**<font color="#1E90FF">维基百科：</font>**
 
 ###### <img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent
 - [<img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent*是一个轻量级BitTorrent客户端*](https://www.qbittorrent.org/)
 {.links-list}
 
+**<font color="#0000FF">简介</font>**
+qBittorrent是一个轻量级BitTorrent客户端，它支持文件上传/下载、支持DHT网络、数据交换、文件选择性下载、预览媒体文件、支持Unicode、支持代理连接、远程控制等功能。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install qbittorrent
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove qbittorrent
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/main/q/qbittorrent/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
+
 ###### <img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet
 - [<img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet*是一个跨平台的下载管理器和加速器*](http://flareget.com/)
 {.links-list}
+
+**<font color="#0000FF">简介</font>**
+FlareGet是一个跨平台的下载管理器和加速器，它支持多个线程同时下载、多种浏览器集成、抓取网页上视频等功能，同时还支持云存储服务。
+
+**<font color="#0000FF">安装</font>**
+```
+sudo apt-get install flareget
+```
+**<font color="#0000FF">卸载</font>**
+```
+sudo apt-get remove flareget
+```
+**<font color="#0000FF">仓库地址：</font>**
+http://packages.deepin.com/deepin/pool/non-free/f/flareget/
+
+**<font color="#0000FF">常见问题</font>**
+**<font color="#0000FF">相关链接</font>**
+**<font color="#1E90FF">维基百科：</font>**
 
 ###### <img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP
 - [<img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP*是一个FTP客户端工具*](https://www.gftp.org/)
