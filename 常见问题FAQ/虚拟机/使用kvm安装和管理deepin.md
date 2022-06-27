@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:39:06.901Z
+date: 2022-06-27T06:39:21.226Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -95,5 +95,8 @@ sudo apt install qemu-kvm virt-manager
 如果选择默认，即勾选【为虚拟机创建磁盘镜像】，然后设置个大小。这样也可以，但是这根自定义有什么区别呢？区别在于：上面这个选择，会立刻给虚拟机分配你设置文件的大小，而下面自定义，只是预分配设置的大小，磁盘文件是个稀疏文件（自行查询了解）。当然磁盘非常大的小伙伴直接忽略吧
 
 ![6](https://storage.deepin.org/thread/202203061508415356_image.png)
+
+![7](https://storage.deepin.org/thread/20220306151141631_image.png)
+
 
 
