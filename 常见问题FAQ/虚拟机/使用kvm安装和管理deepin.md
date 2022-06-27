@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:49:28.121Z
+date: 2022-06-27T06:50:16.790Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -191,4 +191,27 @@ sudo apt install qemu-kvm virt-manager
 
 ![21](https://storage.deepin.org/thread/202203061536191957_image.png)
 
+再关闭虚拟机。之后选择，从快照启动
 
+![22](https://storage.deepin.org/thread/202203061537113721_image.png)
+
+上面会提示，是否从快照启动。选择是。然后再启动虚拟机，查看到虚拟机已经是快照的状态，无新建文件夹存在
+
+![23](https://storage.deepin.org/thread/202203061538277189_image.png)
+
+### 5.2 试验virsh 快照管理功能
+
+这里不再试验，仅提供一些命令，需要注意的是，使用快照最好是在虚拟机关机情况下进行，否则会报错：
+
+- sudo virsh snapshot-create-as deepin20 deepin20_001 创建deepin20的快照deepin20_001
+- sudo virsh snapshot-revert deepin20 deepin20_001 将deepin20的状态恢复到快照deepin20_001的状态
+- sudo virslit snapshot-list 查看当前全部的快照
+- sudo snapshot-delete deepin20 deepin20_001 删除deepin20的某个快照
+
+虚拟机不关机情况下的快照管理，等我摸索好了，再更新补充吧
+
+> 经过测试，在centos上部署的kvm，比如centos7，通过virsh snapshot-create-as/snapshot-revent来进行虚拟机的快照创建和恢复，不需要关闭虚拟机即可操作。
+
+建议阶段性的折腾虚拟机，在开机之前，都是用virt-manager做个快照，添加一个说明吧、
+
+当然虚拟机克隆的功能也是可以使用的，把阶段性的虚拟机状态保存为克隆模板，不断迭代或者回滚，都是极好的选择。主要看个人爱好和习惯吧。
