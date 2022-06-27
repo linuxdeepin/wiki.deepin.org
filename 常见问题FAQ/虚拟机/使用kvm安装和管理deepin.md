@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:48:01.602Z
+date: 2022-06-27T06:48:13.326Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -172,5 +172,7 @@ sudo apt install qemu-kvm virt-manager
 ### 5.1 试验virt-manager快照管理功能
 
 首先我们创建一个如下的虚拟机状态，比如我们什么都没有配置
+
+![17](https://storage.deepin.org/thread/202203061532304078_image.png)
 
 
