@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-24T06:12:58.891Z
+date: 2022-06-27T02:30:08.106Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -119,186 +119,88 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
 ## Games
 
-* [Steam](Steam): Steam is a convenient and comprehensive game platform
+* [Steam: *Steam is a convenient and comprehensive game platform*](http://store.steampowered.com/)
+* [Warsow: *Warsow is a FPS game*](https://www.warsow.net/)
+* [Desura: *Desura is a genuine game website*](http://www.desura.com/)
+* [Snes9x: *Snes9x is a Super Nintendo SFC emulator*](http://www.snes9x.com/)
+* [Flail Rider: *Flail Rider is a fast-paced desktop game*](http://jushiip.itch.io/flail-rider)
+* [MAME: *MAME is an emulator, and is also the most familiar and most commonly used arcade emulator*](http://mamedev.org/)
+* [SuperTux: *SuperTux is a game that is similar to Super Mario Brothers*](http://supertuxproject.org/)
+* [AssaultCube: *AssaultCube is a FPS game*](http://assault.cubers.net/)
+* [PPSSPP: *PPSSPP is a very outstanding PSP emulator*](http://www.ppsspp.org/)
+* [Stunt Rally: *Stunt Rally is a racing game*](http://stuntrally.tuxfamily.org/)
   
-  [http://store.steampowered.com/](http://store.steampowered.com/)
-
-* [Warsow](Warsow):  Warsow is a FPS game
-  
-  [https://www.warsow.net/](https://www.warsow.net/)
-
-* [Desura](Desura): Desura is a genuine game website
-  
-  [http://www.desura.com/](http://www.desura.com/)
-
-* [Snes9x](Snes9x): Snes9x is a Super Nintendo SFC emulator
-  
-  [http://www.snes9x.com/](http://www.snes9x.com/)
-
-* [Flail Rider](Flail_Rider): Flail Rider is a fast-paced desktop game
-  
-  [http://jushiip.itch.io/flail-rider](http://jushiip.itch.io/flail-rider)
-
-* [MAME](MAME): MAME is an emulator, and is also the most familiar and most commonly used arcade emulator
-  
-  [http://mamedev.org/](http://mamedev.org/)
-
-* [SuperTux](SuperTux): SuperTux is a game that is similar to Super Mario Brothers
-  
-  [http://supertuxproject.org/](http://supertuxproject.org/)
-
-* [AssaultCube](AssaultCube): AssaultCube is a FPS game
-  
-  [http://assault.cubers.net/](http://assault.cubers.net/)
-
-* [PPSSPP](PPSSPP): PPSSPP is a very outstanding PSP emulator
-  
-  [http://www.ppsspp.org/](http://www.ppsspp.org/)
-
-* [Stunt Rally](Stunt_Rally): Stunt Rally is a racing game
-  
-  [http://stuntrally.tuxfamily.org/](http://stuntrally.tuxfamily.org/)
-  
-
 {.links-list}
 
 ## Office and Study
 
-* [WPS Office](WPS_Office): WPS Office is an office suite developed by Kingsoft Sofware, Inc
-  
-  [http://linux.wps.cn/](http://linux.wps.cn/)
+* [WPS Office: *WPS Office is an office suite developed by Kingsoft Sofware, Inc*](http://linux.wps.cn/)
 
-* [LibreOffice](LibreOffice): LibreOffice is a powerful office suite
-  
-  [https://www.libreoffice.org/](https://www.libreoffice.org/)
+* [LibreOffice: *LibreOffice is a powerful office suite*](https://www.libreoffice.org/)
 
-* [Yozo Office](Yozo_Office): Yozo Office is a powerful office software
-  
-  [http://www.yozosoft.com/](http://www.yozosoft.com/)
+* [Yozo Office: *Yozo Office is a powerful office software*](http://www.yozosoft.com/)
 
-* [Deepin Cloud Print](Deepin_Cloud_Print): Deepin Cloud Print is a new solution for printing in Linux developed by Deepin Technology
-  
-  [https://www.deepin.org/original/deepin-cloud-print/](https://www.deepin.org/original/deepin-cloud-print/)
+* [Deepin Cloud Print: *Deepin Cloud Print is a new solution for printing in Linux developed by Deepin Technology*](https://www.deepin.org/original/deepin-cloud-print/)
 
-* [Deepin Cloud Scan](Deepin_Cloud_Scan): Deepin Cloud Scan is a new solution for scanning in Linux developed by Deepin Technology
-  
-  [https://www.deepin.org/original/deepin-cloud-scan/](https://www.deepin.org/original/deepin-cloud-scan/)
+* [Deepin Cloud Scan: *Deepin Cloud Scan is a new solution for scanning in Linux developed by Deepin Technology*](https://www.deepin.org/original/deepin-cloud-scan/)
 
-* [XMind](XMind): XMind is a global leader mind mapping software
-  
-  [http://www.xmind.net/](http://www.xmind.net/)
+* [XMind: *XMind is a global leader mind mapping software*](http://www.xmind.net/)
 
-* [Wiznote](Wiznote): Wiznote is a cloud note software
-  
-  [http://www.wiz.cn/](http://www.wiz.cn/)
+* [Wiznote: *Wiznote is a cloud note software*](http://www.wiz.cn/)
 
-* [Notepadqq](Notepadqq): Notepadqq is a set of plain text editor, and it is very similar to Notepad++
-  
-  [http://notepadqq.altervista.org/](http://notepadqq.altervista.org/)
+* [Notepadqq: *Notepadqq is a set of plain text editor, and it is very similar to Notepad++*](http://notepadqq.altervista.org/)
 
-* [GeoGebra](GeoGebra): GeoGebra is a dynamic math application
-  
-  [https://www.geogebra.org/](https://www.geogebra.org/)
+* [GeoGebra: *GeoGebra is a dynamic math application*](https://www.geogebra.org/)
 
-* [Leanote](Leanote): Leanote is an online cloud note application
-  
-  [https://leanote.com/](https://leanote.com/)
+* [Leanote: *Leanote is an online cloud note application*](https://leanote.com/)
 
-* [Remarkable](Remarkable): Remarkable is a Markdown editor
-  
-  [https://remarkableapp.github.io/](https://remarkableapp.github.io/)
+* [Remarkable: *Remarkable is a Markdown editor*](https://remarkableapp.github.io/)
 
-* [LyX](LyX): LyX is a LaTeX layout editing software
-  
-  [http://www.lyx.org/](http://www.lyx.org/)
+* [LyX: *LyX is a LaTeX layout editing software*](http://www.lyx.org/)
 
-* [VYM](VYM): VYM is a mind mapping software
-  
-  [http://www.insilmaril.de/vym/](http://www.insilmaril.de/vym/)
+* [VYM: *VYM is a mind mapping software*](http://www.insilmaril.de/vym/)
 
-* [FocusWriter](FocusWriter): FocusWriter is a writing software
-  
-  [http://gottcode.org/focuswriter/](http://gottcode.org/focuswriter/)
+* [FocusWriter: *FocusWriter is a writing software*](http://gottcode.org/focuswriter/)
 
-* [Printer](Printer): Printer is a tool for configuring the system printer server
-  
-  [http://cyberelk.net/tim/software/system-config-printer/](http://cyberelk.net/tim/software/system-config-printer/)
+* [Printer: *Printer is a tool for configuring the system printer server*](http://cyberelk.net/tim/software/system-config-printer/)
 
-* [ChmSee](ChmSee): ChmSee is a software that can read CHM format help file under Linux
-  
-  [http://code.google.com/p/chmsee](http://code.google.com/p/chmsee)
+* [ChmSee: *ChmSee is a software that can read CHM format help file under Linux*](http://code.google.com/p/chmsee)
 
-* [Gwyddion](Gwyddion): Gwyddionis a modular scanning probe microscope data visualization and analysis tool
-  
-  [http://gwyddion.net/](http://gwyddion.net/)
+* [Gwyddion: *Gwyddionis a modular scanning probe microscope data visualization and analysis tool*](http://gwyddion.net/)
 
-* [pyRenamer](pyRenamer): pyRenamer is a file batch rename tool
-  
-  [https://launchpad.net/pyrenamer](https://launchpad.net/pyrenamer)
+* [pyRenamer: *pyRenamer is a file batch rename tool*](https://launchpad.net/pyrenamer)
 
-* [Scilab](Scilab): Scilab is a numerical calculation software tailored for engineering and scientific applications
-  
-  [http://www.scilab.org/](http://www.scilab.org/)
+* [Scilab: *Scilab is a numerical calculation software tailored for engineering and scientific applications*](http://www.scilab.org/)
 
-* [TeXstudio](TeXstudio): TeXstudio is an IDE for writing LaTeX documents
-  
-  [http://www.texstudio.org/](http://www.texstudio.org/)
+* [TeXstudio: *TeXstudio is an IDE for writing LaTeX documents*](http://www.texstudio.org/)
 
-* [Texmaker](Texmaker): Texmaker is a editing environment for LaTeX
-  
-  [http://www.xm1math.net/texmaker/](http://www.xm1math.net/texmaker/)
+* [Texmaker: *Texmaker is a editing environment for LaTeX*](http://www.xm1math.net/texmaker/)
 
-* [GNU TeXmacs](GNU_TeXmacs): GNU TeXmacs is an excellent scientific document publishing software
-  
-  [http://www.texmacs.org/](http://www.texmacs.org/)
+* [GNU TeXmacs: *GNU TeXmacs is an excellent scientific document publishing software*](http://www.texmacs.org/)
 
-* [KWrite](KWrite): KWrite is a text editor
-  
-  [https://www.kde.org/applications/utilities/kwrite/](https://www.kde.org/applications/utilities/kwrite/)
+* [KWrite: *KWrite is a text editor*](https://www.kde.org/applications/utilities/kwrite/)
 
-* [Smallpdf](Smallpdf): Smallpdf is an online PDF processing tool
-  
-  [https://smallpdf.com/](https://smallpdf.com/)
+* [Smallpdf: *Smallpdf is an online PDF processing tool*](https://smallpdf.com/)
 
-* [Open365](Open365): Open365 is an Office document processing software
-  
-  [https://open365.io/](https://open365.io/)
+* [Open365: *Open365 is an Office document processing software*](https://open365.io/)
 
-* [AbiWord](AbiWord): AbiWord is a fully functional and efficient word processing software
-  
-  [https://www.abisource.com/](https://www.abisource.com/)
+* [AbiWord: *AbiWord is a fully functional and efficient word processing software*](https://www.abisource.com/)
 
-* [GanttProject](GanttProject): GanttProject is a project planning and management drawing application
-  
-  [http://www.ganttproject.biz/](http://www.ganttproject.biz/)
+* [GanttProject: *GanttProject is a project planning and management drawing application*](http://www.ganttproject.biz/)
 
-* [Scan Tailor](Scan_Tailor): Scan Tailor is a post-processing software for scanning
-  
-  [http://scantailor.org/](http://scantailor.org/)
+* [Scan Tailor: *Scan Tailor is a post-processing software for scanning*](http://scantailor.org/)
 
-* [Gnumeric](Gnumeric): Gnumeric is a spreadsheet processing software
-  
-  [http://www.gnumeric.org/](http://www.gnumeric.org/)
+* [Gnumeric: *Gnumeric is a spreadsheet processing software*](http://www.gnumeric.org/)
 
-* [TagSpaces](TagSpaces): TagSpaces is a document management tool
-  
-  [http://tagspaces.org/](http://tagspaces.org/)
+* [TagSpaces: *TagSpaces is a document management tool*](http://tagspaces.org/)
 
-* [QOwnNotes](QOwnNotes): QOwnNotes is a text editor that supports Markdown and ownCloud synchronization
-  
-  [http://www.qownnotes.org/](http://www.qownnotes.org/)
+* [QOwnNotes: *QOwnNotes is a text editor that supports Markdown and ownCloud synchronization*](http://www.qownnotes.org/)
 
-* [CuteMarkEd](CuteMarkEd): CuteMarkEd is a Markdown editor
-  
-  [http://cloose.github.io/CuteMarkEd/](http://cloose.github.io/CuteMarkEd/)
+* [CuteMarkEd: *CuteMarkEd is a Markdown editor*](http://cloose.github.io/CuteMarkEd/)
 
-* [Moeditor](Moeditor): Moeditor is a markdown editor
-  
-  [https://moeditor.github.io/](https://moeditor.github.io/)
+* [Moeditor: *Moeditor is a markdown editor*](https://moeditor.github.io/)
 
-* [WordMark](WordMark): WordMark is a MarkDown editor
-  
-  [http://wordmarkapp.com/](http://wordmarkapp.com/)
+* [WordMark: *WordMark is a MarkDown editor*](http://wordmarkapp.com/)
 
 * [Haroopad](Haroopad): Haroopad is a Linux platform markdown editor
   
