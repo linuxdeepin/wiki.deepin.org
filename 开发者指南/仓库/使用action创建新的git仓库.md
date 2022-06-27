@@ -2,14 +2,16 @@
 title: 使用action创建新的git仓库
 description: 
 published: true
-date: 2022-06-23T01:53:02.018Z
+date: 2022-06-27T02:53:57.976Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-22T08:51:47.006Z
 ---
 
 # 使用 action 创建新的 git 仓库
-ps: 当前自动化构建是基于commit进行触发，每当有一个commit合入则触发action的自动构建并导入仓库中，请注意不要随意在正式环境中使用下面的仓库，仓库的软件包大多没有经过测试验证，我们无法保证仓库的软件包的稳定性。
+> ps: 当前自动化构建是基于commit进行触发，每当有一个commit合入则触发action的自动构建并导入仓库中，请注意不要随意在正式环境中使用下面的仓库，仓库的软件包大多没有经过测试验证，我们无法保证仓库的软件包的稳定性。
+{.is-warning}
+
 ## archlinux
 
 ### 添加仓库
