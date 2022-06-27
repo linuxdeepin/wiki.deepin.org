@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-26T02:17:47.620Z
+date: 2022-06-26T12:04:16.265Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -617,26 +617,66 @@ sudo apt-get remove geary
 ```
 **<font color="#0000FF">仓库地址：</font>**
 http://packages.deepin.com/deepin/pool/main/g/geary/
-
 **<font color="#0000FF">常见问题</font>**
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
 ## 💬社交沟通
+### {.tabset}
+#### 测试
 - [<img height="16" width="16" align="center"  src="https://im.qq.com/favicon.ico">QQ*是腾讯开发的一款基于Internet的即时通信软件*](https://im.qq.com/)
+{.links-list}
+
+#### QQ轻聊
 - [<img height="16" width="16" align="center"  src="https://im.qq.com/favicon.ico">QQ轻聊版*是中国主流聊天工具QQ的精简版本*](http://im.qq.com/lightqq/)
+{.links-list}
+
+#### 
 - [<img height="16" width="16" align="center"  src="https://bearychat.com/favicon.ico">BearyChat*是一款为工作场景设计的团队沟通工具*](https://bearychat.com/)
-- [安司密信*是一款社交应用*](http://www.akey.me/)
-- [Telegram*是一个聊天应用软件*](https://telegram.org/)
-- [Skype*是一款即时通讯软件*](http://skype.gmw.cn/)
-- [企业QQ*是一个面向中小企业用户的即使通信产品*](http://b.qq.com/)
-- [腾讯通 *是一个企业级的实时通信平台*](http://rtx.tencent.com/)
-- [阿里旺旺*是一款专为淘宝会员量身定做的个人交易沟通软件*](http://wangwang.taobao.com/)
-- [千牛工作台 *是阿里巴巴官方出品的卖家一站式店铺管理工具*](https://alimarket.taobao.com/markets/qnww/pc)
-- [Pidgin*是一款即时通讯软件*](http://www.pidgin.im/)
-- [Xchat*是一款跨平台的IRC通讯协议软件*](http://xchat.org/)
-- [HexChat*是基于XChat的一款聊天工具*](https://hexchat.github.io/)
-- [HipChat*是一款专为团队内部群聊设计的聊天工具*](http://www.hipchat.com/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="http://www.akey.me/favicon.ico">安司密信*是一款社交应用*](http://www.akey.me/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="https://telegram.org/favicon.ico">Telegram*是一个聊天应用软件*](https://telegram.org/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="http://skype.gmw.cn/favicon.ico">Skype*是一款即时通讯软件*](http://skype.gmw.cn/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="https://b.qq.com/favicon.ico">企业QQ*是一个面向中小企业用户的即使通信产品*](http://b.qq.com/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="http://rtx.tencent.com/favicon.ico">腾讯通 *是一个企业级的实时通信平台*](http://rtx.tencent.com/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="http://wangwang.taobao.com/favicon.ico">阿里旺旺*是一款专为淘宝会员量身定做的个人交易沟通软件*](http://wangwang.taobao.com/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="https://alimarket.taobao.com/favicon.ico">千牛工作台 *是阿里巴巴官方出品的卖家一站式店铺管理工具*](https://alimarket.taobao.com/markets/qnww/pc)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="http://www.pidgin.im/favicon.ico">Pidgin*是一款即时通讯软件*](http://www.pidgin.im/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="http://xchat.org/favicon.ico">Xchat*是一款跨平台的IRC通讯协议软件*](http://xchat.org/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="https://hexchat.github.io/favicon.ico">HexChat*是基于XChat的一款聊天工具*](https://hexchat.github.io/)
+{.links-list}
+
+#### 
+- [<img height="16" width="16" align="center"  src="http://www.hipchat.com/favicon.ico">HipChat*是一款专为团队内部群聊设计的聊天工具*](http://www.hipchat.com/)
 {.links-list}
 
 ## 🎵音乐欣赏
@@ -655,7 +695,6 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 {.links-list}
 
 ## 🎥视频播放
-
 - [深度影院*是深度科技打造的一款专注于本地视频播放的应用程序*](https://www.deepin.org/original/deepin-movie/)
 - [SMplayer*是一款跨平台的视频播放工具*](http://smplayer.org/)
 - [VLC*是一款自由、开源的跨平台多媒体播放器及框架*](http://www.videolan.org/)
