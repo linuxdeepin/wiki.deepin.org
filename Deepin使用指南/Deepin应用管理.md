@@ -2,18 +2,17 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-27T03:31:34.033Z
+date: 2022-06-27T03:36:00.565Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
 ---
 
+# ⚙️网络应用
 # 应用快捷{.tabset}
-## ⚙️网络应用
+## 🪟浏览器
 ### {.tabset}
-#### 🪟浏览器
-##### {.tabset}
-###### <img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox
+#### <img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox
 - [<img height="16" width="16" align="center"  src="http://www.firefox.org/favicon.ico">Firefox*火狐浏览器是一个安全高效的浏览器*](http://www.firefox.org/)
 {.links-list}
 
@@ -104,7 +103,7 @@ Firefox所有扩展突然被禁用
 3.[火狐官方论坛](http://mozilla.com.cn/forum.php)
 
 
-###### <img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome
+#### <img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome
 - [<img height="16" width="16" align="center"  src="https://www.google.com/favicon.ico">Chrome*谷歌浏览器是一个由Google公司开发的网页浏览器*](https://www.google.com/chrome)
 {.links-list}
 
@@ -158,7 +157,7 @@ seahorse
 
 **<font color="#0000FF">相关链接</font>**
 
-###### <img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器
+#### <img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器
 - [<img height="16" width="16" align="center"  src="https://www.maxthon.cn/favicon.ico">傲游云浏览器*傲游云浏览器是一款基于Chromium开发的云浏览器*](http://www.maxthon.cn/)
 {.links-list}
 
@@ -181,7 +180,7 @@ sudo apt-get remove maxthon-browser-stable
 **<font color="#0000FF">相关链接</font>**
 
 
-###### <img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera
+#### <img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera
 - [<img height="16" width="16" align="center"  src="https://www.opera.com/favicon.ico">Opera*是一款网络浏览器*](http://www.opera.com/)
 {.links-list}
 
@@ -206,7 +205,7 @@ http://packages.deepin.com/deepin/pool/non-free/o/opera-developer/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori
+#### <img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori
 - [<img height="16" width="16" align="center"  src="https:/https://astian.org/favicon.ico">Midori*是一个轻量级的网页浏览器*](http://www.midori-browser.org/)
 {.links-list}
 
@@ -226,7 +225,7 @@ http://packages.deepin.com/deepin/pool/main/m/midori/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：midori</font>**
 
-###### <img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi
+#### <img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi
 - [<img height="16" width="16" align="center"  src="https://vivaldi.com/favicon.ico">Vivaldi*是一款极速浏览器*](https://vivaldi.com/)
 {.links-list}
 
@@ -251,7 +250,7 @@ http://packages.deepin.com/deepin/pool/main/v/vivaldi-beta/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### Yandex<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">
+#### Yandex<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">
 - [<img height="16" width="16" align="center"  src="https://www.yandex.com/favicon.ico">Yandex*是一款免费的浏览器*](https://www.yandex.com/)
 {.links-list}
 
@@ -273,9 +272,9 @@ http://packages.deepin.com/deepin/pool/main/y/yandex-browser-beta/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-#### 🖥️远程桌面客户端
-##### {.tabset}
-###### <img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer
+## 🖥️远程桌面客户端
+### {.tabset}
+#### <img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer
 - [<img height="16" width="16" align="center"  src="https://www.teamviewer.com/favicon.ico">TeamViewer*是一个用于远程控制、桌面共享和文件传输的简单且快速的解决方案。*](https://www.teamviewer.com)
 {.links-list}
 
@@ -305,7 +304,7 @@ sudo dpkg -i xxx.deb
 **<font color="#1E90FF">维基百科：</font>**
 https://zh.wikipedia.org/wiki/TeamViewer
 
-###### <img height="16" width="16" align="center"  src="/favicon.ico">Remmina
+#### <img height="16" width="16" align="center"  src="/favicon.ico">Remmina
 - [<img height="16" width="16" align="center"  src="/favicon.ico">Remmina*是一个远程桌面客户端*](http://www.remmina.org/)
 {.links-list}
 
@@ -327,7 +326,7 @@ http://packages.deepin.com/deepin/pool/main/r/remmina/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="/favicon.ico">UGet
+#### <img height="16" width="16" align="center"  src="/favicon.ico">UGet
 - [<img height="16" width="16" align="center"  src="/favicon.ico">UGet*是一个下载管理器*](http://ugetdm.com/)
 {.links-list}
 
@@ -352,7 +351,7 @@ http://packages.deepin.com/deepin/pool/main/u/uget/
 **<font color="#1E90FF">维基百科：</font>**
 
 
-###### <img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla
+#### <img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla
 - [<img height="16" width="16" align="center"  src="http://filezilla-project.org/favicon.ico">FileZilla*是一个快速可靠的、跨平台的FTP、FTPS和SFTP客户端*](http://filezilla-project.org/)
 {.links-list}
 
@@ -375,7 +374,7 @@ http://packages.deepin.com/deepin/pool/main/f/filezilla/
 **<font color="#1E90FF">维基百科：</font>**
 https://zh.wikipedia.org/wiki/FileZilla
 
-###### <img height="16" width="16" align="center"  src="/favicon.ico">Transmission
+#### <img height="16" width="16" align="center"  src="/favicon.ico">Transmission
 - [<img height="16" width="16" align="center"  src="/favicon.ico">Transmission*是一个BitTorrent客户端软件*](https://transmissionbt.com/)
 {.links-list}
 
@@ -398,7 +397,7 @@ http://packages.deepin.com/deepin/pool/main/t/transmission/
 官方网站：https://transmissionbt.com/
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent
+#### <img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent
 - [<img height="16" width="16" align="center"  src="https://www.qbittorrent.org/favicon.ico">qBittorrent*是一个轻量级BitTorrent客户端*](https://www.qbittorrent.org/)
 {.links-list}
 
@@ -420,7 +419,7 @@ http://packages.deepin.com/deepin/pool/main/q/qbittorrent/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet
+#### <img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet
 - [<img height="16" width="16" align="center"  src="http://flareget.com/favicon.ico">FlareGet*是一个跨平台的下载管理器和加速器*](http://flareget.com/)
 {.links-list}
 
@@ -442,7 +441,7 @@ http://packages.deepin.com/deepin/pool/non-free/f/flareget/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP
+#### <img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP
 - [<img height="16" width="16" align="center"  src="https://www.gftp.org/favicon.ico">gFTP*是一个FTP客户端工具*](https://www.gftp.org/)
 {.links-list}
 
@@ -464,7 +463,7 @@ http://packages.deepin.com/deepin/pool/main/g/gftp/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP
+#### <img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP
 - [<img height="16" width="16" align="center"  src="http://www.crossftp.com/favicon.ico">CrossFTP*是一款FTP客戶端工具*](http://www.crossftp.com/)
 {.links-list}
 
@@ -486,7 +485,7 @@ http://packages.deepin.com/deepin/pool/non-free/c/crossftp/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https://sourceforge.net/favicon.ico">Xtreme Download Manager
+#### <img height="16" width="16" align="center"  src="https://sourceforge.net/favicon.ico">Xtreme Download Manager
 - [Xtreme Download Manager*是一个P2P文件下载软件*](https://sourceforge.net/projects/xdman/)
 {.links-list}
 
@@ -508,13 +507,13 @@ http://packages.deepin.com/deepin/pool/main/x/xdm/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https://anydesk.com/favicon.ico">AnyDesk-无详情
+#### <img height="16" width="16" align="center"  src="https://anydesk.com/favicon.ico">AnyDesk-无详情
 - [AnyDesk*是一款远程桌面控制应用*](https://anydesk.com/)
 {.links-list}
 
-#### 📧邮件客户端
-##### {.tabset}
-###### <img height="16" width="16" align="center"  src="http://wiki.gnome.org/favicon.ico">Evolution
+## 📧邮件客户端
+### {.tabset}
+#### <img height="16" width="16" align="center"  src="http://wiki.gnome.org/favicon.ico">Evolution
 - [<img height="16" width="16" align="center"  src="http://wiki.gnome.org/favicon.ico">Evolution*是一款电子邮件和日程安排工具*](http://wiki.gnome.org/Apps/Evolution)
 {.links-list}
 
@@ -536,7 +535,7 @@ http://packages.deepin.com/deepin/pool/main/e/evolution/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件
+#### <img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件
 - [<img height="16" width="16" align="center"  src="http://www.mozilla.org/favicon.ico">雷鸟邮件*是一个邮件客户端*](http://www.mozilla.org/zh-CN/thunderbird/)
 {.links-list}
 
@@ -558,7 +557,7 @@ http://packages.deepin.com/deepin/pool/main/t/thunderbird/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https://www.nylas.com/favicon.ico">Nylas N1
+#### <img height="16" width="16" align="center"  src="https://www.nylas.com/favicon.ico">Nylas N1
 - [<img height="16" width="16" align="center"  src="https://www.nylas.com/favicon.ico">Nylas N1*是一个开源的邮件客户端*](https://www.nylas.com/)
 {.links-list}
 
@@ -580,7 +579,7 @@ http://packages.deepin.com/deepin/pool/main/n/nylas/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https://owncloud.org/favicon.ico">ownCloud
+#### <img height="16" width="16" align="center"  src="https://owncloud.org/favicon.ico">ownCloud
 - [<img height="16" width="16" align="center"  src="https://owncloud.org/favicon.ico">ownCloud*是一款用来创建私有云服务的工具*](https://owncloud.org/)
 {.links-list}
 
@@ -600,7 +599,7 @@ http://packages.deepin.com/deepin/pool/main/o/owncloud/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
-###### <img height="16" width="16" align="center"  src="https://wiki.gnome.org/favicon.ico">Geary
+#### <img height="16" width="16" align="center"  src="https://wiki.gnome.org/favicon.ico">Geary
 - [<img height="16" width="16" align="center"  src="https://wiki.gnome.org/favicon.ico">Geary*是一款桌面电子邮件客户端程序*](https://wiki.gnome.org/Apps/Geary)
 {.links-list}
 
@@ -621,66 +620,66 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
+# 💬社交沟通
 # 应用快捷{.tabset}
-## 💬社交沟通
-### {.tabset}
-#### 测试
+## {.tabset}
+### 测试
 - [<img height="16" width="16" align="center"  src="https://im.qq.com/favicon.ico">QQ*是腾讯开发的一款基于Internet的即时通信软件*](https://im.qq.com/)
 {.links-list}
 
-#### QQ轻聊
+### QQ轻聊
 - [<img height="16" width="16" align="center"  src="https://im.qq.com/favicon.ico">QQ轻聊版*是中国主流聊天工具QQ的精简版本*](http://im.qq.com/lightqq/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="https://bearychat.com/favicon.ico">BearyChat*是一款为工作场景设计的团队沟通工具*](https://bearychat.com/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="http://www.akey.me/favicon.ico">安司密信*是一款社交应用*](http://www.akey.me/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="https://telegram.org/favicon.ico">Telegram*是一个聊天应用软件*](https://telegram.org/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="http://skype.gmw.cn/favicon.ico">Skype*是一款即时通讯软件*](http://skype.gmw.cn/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="https://b.qq.com/favicon.ico">企业QQ*是一个面向中小企业用户的即使通信产品*](http://b.qq.com/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="http://rtx.tencent.com/favicon.ico">腾讯通 *是一个企业级的实时通信平台*](http://rtx.tencent.com/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="http://wangwang.taobao.com/favicon.ico">阿里旺旺*是一款专为淘宝会员量身定做的个人交易沟通软件*](http://wangwang.taobao.com/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="https://alimarket.taobao.com/favicon.ico">千牛工作台 *是阿里巴巴官方出品的卖家一站式店铺管理工具*](https://alimarket.taobao.com/markets/qnww/pc)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="http://www.pidgin.im/favicon.ico">Pidgin*是一款即时通讯软件*](http://www.pidgin.im/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="http://xchat.org/favicon.ico">Xchat*是一款跨平台的IRC通讯协议软件*](http://xchat.org/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="https://hexchat.github.io/favicon.ico">HexChat*是基于XChat的一款聊天工具*](https://hexchat.github.io/)
 {.links-list}
 
-#### 
+### 
 - [<img height="16" width="16" align="center"  src="http://www.hipchat.com/favicon.ico">HipChat*是一款专为团队内部群聊设计的聊天工具*](http://www.hipchat.com/)
 {.links-list}
 
-## 🎵音乐欣赏
+# 🎵音乐欣赏
 - [深度音乐*深度科技重新打造的一款专注于本地音乐播放的应用程序*](https://www.deepin.org/original/deepin-music/)
 - [网易云音乐*是一款专注于发现与分享的音乐产品*](http://music.163.com/)
 - [Soundnode App*是一款音乐播放器应用*](http://www.soundnodeapp.com/)
@@ -695,7 +694,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [MusE*是一个MIDI/音频的音序器*](http://muse-sequencer.org/)
 {.links-list}
 
-## 🎥视频播放
+# 🎥视频播放
 - [深度影院*是深度科技打造的一款专注于本地视频播放的应用程序*](https://www.deepin.org/original/deepin-movie/)
 - [SMplayer*是一款跨平台的视频播放工具*](http://smplayer.org/)
 - [VLC*是一款自由、开源的跨平台多媒体播放器及框架*](http://www.videolan.org/)
@@ -714,7 +713,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [Natron*是一个跨平台的视频合成软件*](https://natron.inria.fr/)
 {.links-list}
 
-## 🧩图形图像
+# 🧩图形图像
 - [深度看图*是深度科技精心打造的一款图片查看和管理应用*](https://www.deepin.org/original/deepin-image-viewer/)
 - [深度截图*是深度科技开发的深度操作系统下自带的截图工具*](https://www.deepin.org/original/deepin-screenshot/)
 - [亿图图示*是一款综合图形图表制作应用*](http://www.edrawsoft.cn/)
@@ -741,7 +740,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [yEd Graph Editor*是一款流程图绘制工具*](http://www.yworks.com/)
 {.links-list}
 
-## 🎮娱乐游戏
+# 🎮娱乐游戏
 - [Steam*是一款方便迅速的综合性游戏平台*](http://store.steampowered.com/)
 - [Warsow*是一款第一人称射击游戏*](https://www.warsow.net/)
 - [Desura*是一个正版游戏网站*](http://www.desura.com/)
@@ -754,7 +753,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [Stunt Rally*是一款赛车游戏*](http://stuntrally.tuxfamily.org/)
 {.links-list}
 
-## 💼办公学习
+# 💼办公学习
 - [WPS Office*是由金山软件股份有限公司自主研发的一款办公软件套件*](http://linux.wps.cn/)
 - [LibreOffice*是一款功能强大的办公套件*](https://www.libreoffice.org/)
 - [永中Office*是一款功能强大的办公软件*](http://www.yozosoft.com/)
@@ -806,7 +805,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [Room Arranger*是一款实时的模拟房屋设计布局的软件*](http://www.roomarranger.com/)
 {.links-list}
 
-## 📜翻译阅读
+# 📜翻译阅读
 - [福昕阅读器 *（Foxit Reader）是一款PDF文档阅读器*](https://www.foxitsoftware.cn/)
 - [有道词典*是中国第一个基于Linux下的互联网商业翻译软*](http://cidian.youdao.com/)
 - [文档查看器*Evince（文档查看器）是一个支持多种格式的文件浏览器*](https://wiki.gnome.org/Apps/Evince)
@@ -821,7 +820,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [PDF-Shuffler*是一个PDF合并及分割工具*](http://pdfshuffler.sourceforge.net/)
 {.links-list}
 
-## 🔅编程开发
+# 🔅编程开发
 - [Android Studio*是一个基于IntelliJ IDEA的Android集成开发环境*](https://developer.android.com/)
 - [Visual Studio Code*是一款轻量级代码编辑器*](https://code.visualstudio.com/)
 - [Sublime*是一个代码编辑器*](http://www.sublimetext.com/)
@@ -876,7 +875,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [GNU Octave*是一种高级编程语言*](https://www.gnu.org/software/octave/)
 {.links-list}
 
-## ⚜️系统管理
+# ⚜️系统管理
 - [深度文件管理器*是深度科技开发的一款功能强大、简单易用的文件管理工具*](https://www.deepin.org/original/dde-file-manager/)
 - [深度终端*是深度科技精心打造的一款终端模拟器*](https://www.deepin.org/original/deepin-terminal/)
 - [深度启动盘制作工具*是深度科技团队开发的一款系统启动盘制作工具*](https://www.deepin.org/original/deepin-boot-maker/)
@@ -942,7 +941,7 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 - [BirdFont*是一个免费的字体编辑器*](https://birdfont.org/)
 {.links-list}
 
-## 🔨其他应用
+# 🔨其他应用
 - [BOINC*是一款用来贡献计算资源的应用*](http://boinc.berkeley.edu/)
 - [KRuler*是一款制定屏幕分辨率规则和颜色测量的工具*](https://www.kde.org/applications/graphics/kruler/)
 - [Dr.Geo*是一款交互式的几何形状分布的应用*](http://www.drgeo.eu/)
