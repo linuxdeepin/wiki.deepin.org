@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:28:26.836Z
+date: 2022-06-27T06:28:38.008Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -10,7 +10,8 @@ dateCreated: 2022-06-27T06:20:43.293Z
 
 # 使用kvm安装和管理deepin 
 
-## 1.概述
+## 1.概述  
+
 我们知道：一台运行的主机，是由硬件跟软件同时存在的。硬件是基础，软件是灵魂。
 
 所谓的硬件，就是：处理器，内存，磁盘，网卡，声卡，显卡 等
