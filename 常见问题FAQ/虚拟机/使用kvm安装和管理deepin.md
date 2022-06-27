@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:28:38.008Z
+date: 2022-06-27T06:36:57.001Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -12,35 +12,51 @@ dateCreated: 2022-06-27T06:20:43.293Z
 
 ## 1.概述  
 
-我们知道：一台运行的主机，是由硬件跟软件同时存在的。硬件是基础，软件是灵魂。
+在Linux操作系统平台，我们可以使用的虚拟化软件有很多选择。主流包括：VMware workstations，Virturl Box，KVM等。
 
-所谓的硬件，就是：处理器，内存，磁盘，网卡，声卡，显卡 等
+在上一篇分享中《【deepin安装系列(1)】使用VMware workstation 安装和管理deepin》，我是在window平台下使用VMware workstations虚拟化软件，来创建虚拟机，安装deepin操作系统。本篇分享主要介绍在Linux平台下，使用KVM虚拟化套件，来创建和安装deepin操作系统。
 
-而作为灵魂的软件，其作为最基础系统软件的操作系统，英文简称OS，则是应用软件的运行平台。
+## 2. 配置虚拟化环境
 
-操作系统，就是为使用者管理软硬件平台的。
+无论在哪个操作系统上使用虚拟化环境，首先最基本的要求就是BIOS里面开启了虚拟化技术。这个部分略。
 
-本篇主要介绍如何使用VMware workstation来安装和管理deepin操作系统。
+本篇在deepin操作系统安装虚拟化环境，只要命令行执行以下命令即可：
 
-VMware workstation 提供主机运行的硬件基础，deepin提供主机运行的软件基础。
+```
+sudo apt install qemu-kvm virt-manager
+```
 
-在虚拟机里面使用deepin的目的：
+等待命令执行完成之后，可以在启动器看到一个虚拟机管理应用图标，咯：
 
-- 入门deepin。感受deepin的安装，配置，使用。
-- 参与内测。体验最新的deepin的特性功能。
-- 折腾deepin。进阶deepin的深层次配置和玩法。
-- 开发测试。使用VMware workstation提供的快照功能，方便迭代与回滚。
+![1](https://storage.deepin.org/thread/202203061458102790_image.png)
 
-这里不介绍如何下载和安装VMware workstation。
+点击【虚拟系统管理器】，会出现一个授权认证对话框，输入deepin个人账号密码，即可如下界面
 
-deepin最新版本下载[【点我】](https://www.deepin.org/zh/download/)，deepin历史版本下载[【点我】](https://cdimage.deepin.com/releases/)
+<policyconfig>
+    <action id="org.libvirt.unix.monitor">
+      <description>Monitor local virtualized systems</description>
+      <message>System policy prevents monitoring of local virtualized systems</message>
+      <defaults>
+        <!-- Any program can use libvirt in read-only mode for monitoring,
+             even if not part of a session -->
+        <allow_any>yes</allow_any>
+        <allow_inactive>yes</allow_inactive>
+        <allow_active>yes</allow_active>
+      </defaults>
+    </action>
 
-本文假设你已经成功安装了VMware workstation 和下载了deepin最新版本。
+    <action id="org.libvirt.unix.manage">
+      <description>Manage local virtualized systems</description>
+      <message>System policy prevents management of local virtualized systems</message>
+      <defaults>
+        <!-- Any program can use libvirt in read/write mode if they
+             provide the root password -->
+        <allow_any>yes</allow_any>
+        <allow_inactive>yes</allow_inactive>
+        <allow_active>yes</allow_active>
+      </defaults>
+    </action>
+</policyconfig>
 
-> 本篇内容使用VMware workstation 16 pro。deepin20.4
+![2](https://storage.deepin.org/thread/202203061501145541_image.png)
 
-## 2. 创建虚拟机
-
-本节主要内容：使用VMware workstation创建一台配置自定义的虚拟机。简单来说，就是定制一台PC的硬件。
-
-首先打开VMware workstation，点击【创建新的虚拟机】，如下图：
