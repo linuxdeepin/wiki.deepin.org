@@ -2,7 +2,7 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-27T03:38:42.472Z
+date: 2022-06-27T03:39:34.938Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
@@ -10,7 +10,7 @@ dateCreated: 2022-04-21T03:32:34.710Z
 
 # ⚙️网络应用
 <details>
-<summary>展开查看<font color="#0000FF">(表格左右上下滑动查看)</font></summary>  
+<summary><font color="#0000FF">展开查看</font></summary>  
 
 # 应用快捷{.tabset}
 ## 🪟浏览器
