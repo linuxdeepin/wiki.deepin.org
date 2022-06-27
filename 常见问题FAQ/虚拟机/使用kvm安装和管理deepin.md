@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:39:48.647Z
+date: 2022-06-27T06:48:01.602Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -60,7 +60,7 @@ sudo apt install qemu-kvm virt-manager
 
 ![2](https://storage.deepin.org/thread/202203061501145541_image.png)
 
-# 3. 创建虚拟机
+## 3. 创建虚拟机
 
 依然按照上一篇的思路，我们这里开始创建虚拟机
 
@@ -102,7 +102,75 @@ sudo apt install qemu-kvm virt-manager
 
 ![8](https://storage.deepin.org/thread/202203061512141485_image.png)
 
+按照上面的配置，点击完成即可，出现以下对话框
+
+![9](https://storage.deepin.org/thread/202203061512465026_image.png)
+
+点击选择卷即可
+
+![10](https://storage.deepin.org/thread/202203061513056413_image.png)
+
+![11](https://storage.deepin.org/thread/202203061513056413_image.png)
+
+![12](https://storage.deepin.org/thread/202203061513463090_image.png)
+
+至此，虚拟机已经创建完成，可以开始安装操作系统了
+
+本节以下内容为个人操作系统，与上面操作无任何影响：
+
+![13](https://storage.deepin.org/thread/202203061514535194_image.png)
+
+如上图，我勾选了在安全前自定义配置，主要想进行两方面的配置
+
+配置网卡的MAC地址
+配置VNC连接操作
+
+![14](https://storage.deepin.org/thread/20220306151638563_image.png)
+
+然后点击显示协议，配置如下图
+
+![15](https://storage.deepin.org/thread/202203061517002433_image.png)
+
+这两项配置完成以后，点击【应用】，就可以点击左上角的【开始安装】，进行操作系统安装啦！
+
+## 4. 安装操作系统
+
+点击【开始安装】，就开始进入到deepin的安装界面
 
 
+![13](https://storage.deepin.org/thread/202203061514535194_image.png)
+
+如上图，我勾选了在安全前自定义配置，主要想进行两方面的配置
+
+- 配置网卡的MAC地址
+- 配置VNC连接操作
+
+![14](https://storage.deepin.org/thread/20220306151638563_image.png)
+
+然后点击显示协议，配置如下图
+
+![15](https://storage.deepin.org/thread/202203061517002433_image.png)
+
+这两项配置完成以后，点击【应用】，就可以点击左上角的【开始安装】，进行操作系统安装啦！
+
+## 4. 安装操作系统
+
+点击【开始安装】，就开始进入到deepin的安装界面
+
+![16](https://storage.deepin.org/thread/202203061518064147_image.png)
+
+这个过程跟[《deepin安装系列(1)】使用VMware workstation 安装和管理deepin》](https://bbs.deepin.org/)一样，可完全参考，为节省篇幅，此处省略安装过程
+
+## 5. 用virsh的快照管理命令来管理deepin
+
+在第4小节中，我们完成了deepin的安装和基本配置。现在进入到了deepin登录界面。我们同样在进行任何操作之前可以对deepin使用快照管理的方式，保证我们能够对deepin虚拟机进行版本控制。这样做的好处就是能够回滚到我们保存的某个快照，重新拉一个时间线，继续倒腾。不至于重新安装虚拟机。
+
+本节主要讨论的是虚拟机关闭情况下，创建快照。在虚拟机启动情况下使用快照，有些问题。
+
+> VMware workstations对这一块做的就比较直接易操作
+
+### 5.1 试验virt-manager快照管理功能
+
+首先我们创建一个如下的虚拟机状态，比如我们什么都没有配置
 
 
