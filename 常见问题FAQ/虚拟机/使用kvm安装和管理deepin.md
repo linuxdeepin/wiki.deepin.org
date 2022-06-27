@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:27:52.165Z
+date: 2022-06-27T06:28:26.836Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -38,7 +38,7 @@ deepin最新版本下载[【点我】](https://www.deepin.org/zh/download/)，de
 
 > 本篇内容使用VMware workstation 16 pro。deepin20.4
 
-# 2. 创建虚拟机
+## 2. 创建虚拟机
 
 本节主要内容：使用VMware workstation创建一台配置自定义的虚拟机。简单来说，就是定制一台PC的硬件。
 
