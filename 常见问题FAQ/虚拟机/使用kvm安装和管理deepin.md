@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:48:13.326Z
+date: 2022-06-27T06:49:28.121Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -174,5 +174,21 @@ sudo apt install qemu-kvm virt-manager
 首先我们创建一个如下的虚拟机状态，比如我们什么都没有配置
 
 ![17](https://storage.deepin.org/thread/202203061532304078_image.png)
+
+然后关闭虚拟机，通过virt-manager菜单栏的【查看】-【快照】，能够看到左下角有操作选项
+
+![18](https://storage.deepin.org/thread/202203061533314324_image.png)
+
+创建一个快照，然后命名，添加一些描述、如图
+
+![19](https://storage.deepin.org/thread/202203061534416159_image.png)
+
+点击完成，就可以看到有些内容显示了
+
+![20](https://storage.deepin.org/thread/202203061535201353_image.png)
+
+然后启动虚拟机，在桌面创建一个文件夹
+
+![21](https://storage.deepin.org/thread/202203061536191957_image.png)
 
 
