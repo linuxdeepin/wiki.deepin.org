@@ -2,13 +2,16 @@
 title: Deepin应用管理
 description: 
 published: true
-date: 2022-06-27T03:36:04.755Z
+date: 2022-06-27T03:38:17.516Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:34.710Z
 ---
 
 # ⚙️网络应用
+<details>
+<summary>展开查看<font color="#0000FF">(表格左右上下滑动查看)</font></summary>  
+
 # 应用快捷{.tabset}
 ## 🪟浏览器
 ### {.tabset}
@@ -620,6 +623,8 @@ http://packages.deepin.com/deepin/pool/main/g/geary/
 **<font color="#0000FF">相关链接</font>**
 **<font color="#1E90FF">维基百科：</font>**
 
+</details>
+  
 # 💬社交沟通
 # 应用快捷{.tabset}
 ## {.tabset}
