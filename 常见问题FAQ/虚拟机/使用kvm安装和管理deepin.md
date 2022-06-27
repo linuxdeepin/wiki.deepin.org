@@ -2,7 +2,7 @@
 title: 使用kvm安装和管理deepin
 description: 
 published: true
-date: 2022-06-27T06:39:21.226Z
+date: 2022-06-27T06:39:45.884Z
 tags: kvm
 editor: markdown
 dateCreated: 2022-06-27T06:20:43.293Z
@@ -97,6 +97,12 @@ sudo apt install qemu-kvm virt-manager
 ![6](https://storage.deepin.org/thread/202203061508415356_image.png)
 
 ![7](https://storage.deepin.org/thread/20220306151141631_image.png)
+
+点击+号，开始创建虚拟磁盘，出现以下对话框：
+
+![8](https://storage.deepin.org/thread/202203061512141485_image.png)
+
+
 
 
 
