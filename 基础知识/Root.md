@@ -2,7 +2,7 @@
 title: Root
 description: 
 published: true
-date: 2022-06-08T08:42:09.448Z
+date: 2022-07-29T14:57:47.389Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:14.348Z
@@ -16,7 +16,10 @@ root用户属于root组。root用户是整个deepin中最高权限用户，如�
 root权限即使用root用户时，便拥有了root权限，即电脑的最高权限。
 在deepin中，为了保证计算机的安全，是不让用户使用root的。
 ## 获得root权限
-倘若需要root权限，可以运行如下命令临时获得root权限：
-<br/>1.sudo 命令
-<br/>2.sudo su
-<br/>输入密码后，前者是使用root权限运行命令，后者相当用root登陆了。
+倘若需要root权限，可以执行下面三条命令中的一条临时获得root权限：
+```
+sudo
+su - root
+sudo -i
+```
+输入密码后，```sudo ```是以root权限执行命令，而后面两条则是切换到root用户了。
