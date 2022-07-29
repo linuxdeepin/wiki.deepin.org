@@ -2,7 +2,7 @@
 title: CPU
 description: CPU基础知识
 published: true
-date: 2022-07-28T13:03:10.465Z
+date: 2022-07-29T15:37:16.208Z
 tags: 处理器, 硬件
 editor: markdown
 dateCreated: 2022-05-05T04:18:12.514Z
@@ -23,3 +23,4 @@ ARM处理器主要用于移动端，网络设施以及低功耗设备。几乎�
 LoongArch处理器是我国自主研发的CPU架构，目前已经得到很多主流开源社区的支持，Linux kernel 5.19已经初步支持龙芯架构
 
 ## CPU中断
+中断其实就是由硬件或软件所发送的一种称为IRQ（中断请求）的信号。 中断允许让设备，如键盘，串口卡，并口等设备表明它们需要CPU。 一旦CPU接收了中断请求，CPU就会暂时停止执行正在运行的程序，并且调用一个称为中断处理器或中断服务程序（interrupt service routine）的特定程序。
