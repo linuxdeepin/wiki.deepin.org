@@ -2,7 +2,7 @@
 title: 使用action创建新的git仓库
 description: 
 published: true
-date: 2022-06-27T02:53:57.976Z
+date: 2022-08-01T01:23:57.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-22T08:51:47.006Z
@@ -57,8 +57,8 @@ deepin-x86_64-build
 在 `/etc/apt/sources.list.d/deepin-git.list` 中添加以下内容:
 
 ```
-deb [trusted=yes arch=amd64] https://deepin-community.github.io/debian-sid-dde-deps-repo sid main
-deb [trusted=yes arch=amd64] https://deepin-community.github.io/debian-sid-dde-repo sid main
+deb [trusted=yes arch=amd64] https://deepin-community.github.io/debian-sid-dde-deps-repo apricot main
+deb [trusted=yes arch=amd64] https://deepin-community.github.io/debian-sid-dde-repo apricot main
 ```
 
 debian sid 提供了两个仓库，理论上所有发行版仓库都会提供两个仓库，一个是保存 deepin 构建的软件包，另一个是提供官方仓库的补充。
@@ -196,4 +196,17 @@ sudo DEB_BUILD_OPTIONS=nocheck pbuilder --build \
                             --logfile `uname -m`-build.log \
                             --aptcache "" \
                             --buildresult . ./*.dsc
+```
+
+### 国内镜像站点
+```
+deb [trusted=yes arch=amd64] https://code.gitlink.org.cn/justforlxz/deepin-dde-repo/raw/branch/main apricot main
+deb [trusted=yes arch=amd64] https://code.gitlink.org.cn/justforlxz/deepin-dde-deps-repo/raw/branch/main apricot main
+
+deb [trusted=yes arch=amd64] https://code.gitlink.org.cn/justforlxz/debian-sid-dde-repo/raw/branch/main sid main
+deb [trusted=yes arch=amd64] https://code.gitlink.org.cn/justforlxz/debian-sid-dde-deps-repo/raw/branch/main sid main
+
+[deepin]
+SigLevel = Never
+Server = https://code.gitlink.org.cn/justforlxz/arch-dde-repo/raw/branch/main
 ```
