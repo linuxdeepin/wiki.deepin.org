@@ -2,7 +2,7 @@
 title: Virtualbox中如何调用摄像头
 description: 
 published: true
-date: 2022-08-02T06:42:08.118Z
+date: 2022-08-02T06:42:16.568Z
 tags: virtualbox 摄像头
 editor: markdown
 dateCreated: 2022-08-02T06:00:49.003Z
@@ -68,4 +68,4 @@ cheese -d /dev/video1
 ```
 
 
-视频教程:[《统信UOS玩机技巧:Virtualbox虚拟机安装windows并设置全屏、共享文件夹和读取U盘》](https://b23.tv/J5wQJKB)
+还可以参考视频教程:[《统信UOS玩机技巧:Virtualbox虚拟机安装windows并设置全屏、共享文件夹和读取U盘》](https://b23.tv/J5wQJKB)
