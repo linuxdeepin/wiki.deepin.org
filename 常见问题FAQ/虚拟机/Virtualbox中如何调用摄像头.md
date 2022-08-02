@@ -2,7 +2,7 @@
 title: Virtualbox中如何调用摄像头
 description: 
 published: true
-date: 2022-08-02T06:32:03.189Z
+date: 2022-08-02T06:32:19.032Z
 tags: virtualbox 摄像头
 editor: markdown
 dateCreated: 2022-08-02T06:00:49.003Z
@@ -33,3 +33,5 @@ VirtualBox 需要安装 Oracle VM VirtualBox Extension Pack 才能使用摄像�
 
 
 ![2022-8-2_91382.png](/2022-8-2_91382.png)
+
+## 3.启用摄像头
