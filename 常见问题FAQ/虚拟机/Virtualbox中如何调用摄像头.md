@@ -2,11 +2,11 @@
 title: Virtualbox中如何调用摄像头
 description: 
 published: true
-date: 2022-08-02T06:08:37.133Z
+date: 2022-08-02T06:12:51.164Z
 tags: virtualbox 摄像头
 editor: markdown
 dateCreated: 2022-08-02T06:00:49.003Z
 ---
 
 # Virtualbox中如何调用摄像头
-## 1. 
+## 1.先加入把本用户加入组 vboxusers 和 disk （需要注销后再次登录才生效）
