@@ -2,7 +2,7 @@
 title: Virtualbox中如何调用摄像头
 description: 
 published: true
-date: 2022-08-02T06:40:30.928Z
+date: 2022-08-02T06:41:36.541Z
 tags: virtualbox 摄像头
 editor: markdown
 dateCreated: 2022-08-02T06:00:49.003Z
@@ -50,6 +50,23 @@ VirtualBox 需要安装 Oracle VM VirtualBox Extension Pack 才能使用摄像�
 ```
 $ls /dev/video*
 ```
+查看是否存在 camera 设备。
+
+## 测试 camera
+
+一般测试摄像头用到的命令是 cheese
+
+```
+# 安装 cheese
+sudo apt-get install -y cheese
+
+# 调用 cheese
+cheese
+
+# 调用指定的摄像头
+cheese -d /dev/video1
+```
+
 
 
 
