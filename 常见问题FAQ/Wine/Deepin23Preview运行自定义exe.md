@@ -2,13 +2,17 @@
 title: Deepin 23 Preview 运行自定义 exe
 description: 在Deepin 23 Preview 运行自定义 exe
 published: true
-date: 2022-08-03T09:06:54.020Z
+date: 2022-08-03T09:09:57.278Z
 tags: wine, wine exe, wine exe bat
 editor: markdown
 dateCreated: 2022-08-03T09:06:54.020Z
 ---
 
 # 方法一
+安装 Wine 运行器，如果安装了 linglong 格式包的 wine 程序，将可以直接在 WINE 版本处选择选项并使用
+也可以在`程序`=>`安装Wine(只限Deepin 23)`，添加 Deepin 20 源并安装 Wine
+
+# 方法二
 
 随便安装一个 linglong 格式包的 wine 程序（要记住包名），然后在终端输入
 
@@ -18,7 +22,7 @@ ll-cli run 包名 --exec '/bin/deepin-wine6-stable'
 
 即可，缺陷可看运行器上方小提示第 6 点
 
-# 方法二（容易翻车）
+# 方法三（容易翻车）
 
 添加 Deepin 20 的**官方源和商店源**，然后输入如下的命令：**切记不能sudo apt upgrade**，会出现的问题可以看运行器的小提示第 7 点，以及无法保证所有 Wine 均可运行
 
