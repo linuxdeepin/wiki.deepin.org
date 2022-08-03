@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-08-03T09:13:04.665Z
+date: 2022-08-03T09:37:04.710Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -65,7 +65,7 @@ WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 # 截图
 
 ![image.png](https://storage.deepin.org/thread/202208031351466402_image.png)
-（Deepin 23 的图一会补）
+![image.png](https://storage.deepin.org/thread/2022080317313975_image.png)
 
 ## 使用说明
 
