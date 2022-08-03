@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-08-03T09:37:04.710Z
+date: 2022-08-03T09:38:09.077Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -65,6 +65,7 @@ WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 # 截图
 
 ![image.png](https://storage.deepin.org/thread/202208031351466402_image.png)
+
 ![image.png](https://storage.deepin.org/thread/2022080317313975_image.png)
 
 ## 使用说明
@@ -162,5 +163,4 @@ Github：https://github.com/gfdgd-xi/deep-wine-runner
 Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 蓝奏云：https://gfdgdxi.lanzouj.com/b01nz7y3e，密码:7oii
 星火应用商店：spk://store/tools/spark-deepin-wine-runner
-
 
