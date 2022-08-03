@@ -2,7 +2,7 @@
 title: wine工具盘点-linux上运行windows软件必备神器
 description: wine工具盘点-linux上运行windows软件必备神器
 published: true
-date: 2022-06-20T09:21:08.106Z
+date: 2022-08-03T09:18:41.671Z
 tags: wine windows
 editor: markdown
 dateCreated: 2022-06-20T09:21:05.671Z
@@ -80,3 +80,13 @@ Gitee项目地址:https://gitee.com/JackLee02/vekGame
 下载链接：[星火应用商店版](https://d.store.deepinos.org.cn/store/games/org.sea-group.raa/org.sea-group.raa_1.0.2.5_amd64.deb)
 
 教程：https://jacklee02.gitee.io/vek/
+
+## 八、Wine 运行器（免费）
+
+官网：https://gitee.com/gfdgd-xi/deep-wine-runner
+
+Gitee项目地址:https://gitee.com/gfdgd-xi/deep-wine-runner
+
+下载链接：https://gitee.com/gfdgd-xi/deep-wine-runner/releases
+
+教程：https://gitee.com/gfdgd-xi/deep-wine-runner#%E5%AF%B9%E4%BA%8E-deepinuosamd64-%E5%B9%B3%E5%8F%B0%E5%B0%8F%E7%99%BD%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%AF%A5%E7%A8%8B%E5%BA%8F
