@@ -2,7 +2,7 @@
 title: NASM
 description: 一款基于英特尔 x86 架构的汇编与反汇编工具
 published: true
-date: 2022-07-31T09:00:29.701Z
+date: 2022-08-04T08:23:45.548Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-31T09:00:29.701Z
@@ -27,6 +27,8 @@ nasm [-@ response_file] [options...] [--] filename
 nasm -v (or --v)
 ```
 
+## 仓库地址
+http://packages.deepin.com/deepin/pool/main/n/nasm/
 ## 相关链接
 维基百科：https://zh.wikipedia.org/zh-cn/Netwide_Assembler
 NASM 官方网站：https://www.nasm.org/
