@@ -2,7 +2,7 @@
 title: 小组成员
 description: deepin Wiki 小组成员列表
 published: true
-date: 2022-08-04T08:36:52.868Z
+date: 2022-08-04T09:00:58.086Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T01:34:48.549Z
@@ -28,4 +28,4 @@ dateCreated: 2022-06-13T01:34:48.549Z
 # Designer组
 | 小组成员  | 共4名    |          |         |
 | ----------- | ---------- | ---------- | ---------- |
-| shalling  | 明思智享    | 开心果爸爸    |   cvb97  |
+| shalling  | 明思智享    | 也許明天╯    |   cvb97  |
