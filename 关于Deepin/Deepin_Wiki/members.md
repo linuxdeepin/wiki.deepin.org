@@ -2,20 +2,20 @@
 title: 小组成员
 description: deepin Wiki 小组成员列表
 published: true
-date: 2022-08-04T08:29:45.913Z
+date: 2022-08-04T08:36:46.602Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T01:34:48.549Z
 ---
 
 # Editor组
-| 小组成员  | 共51名    |          |         |
+| 小组成员  | 共50名    |          |         |
 | ----------- | ---------- | ---------- | ---------- |
 | zimo1  | Stillalive-myj    | Maicss    | insidentally    |
 | rainyl    | MouseZhang    | 孤岛悬城    | 	爱嘤斯坦    |
 | R.Frain    | 	wyz144343    | fengshuo    | 	dongka    |
 | 	emo    | 明思智享    | 	冒得先生    | shalling    |
-| 	HualetWang    | 陌生人    | Jason.高升    |  	花酒锄作田   |
+| 	HualetWang    | cvb97    | Jason.高升    |  	花酒锄作田   |
 | root    | ericneon    | 	mrcangye    | Fredoong    |
 | 俺最萌    | 风暴猪猪侠    | 	GBwater    | 骑着摩托写Bug    |
 | 	吉吉如律令    | 葑心    | anye7up    | 大圣开发DSOE    |
