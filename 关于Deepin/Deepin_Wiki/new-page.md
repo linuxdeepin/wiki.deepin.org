@@ -1,19 +1,31 @@
 ---
-title: test
+title: 小组成员
 description: 
 published: true
-date: 2022-06-13T01:41:54.802Z
+date: 2022-08-04T08:25:56.147Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T01:34:48.549Z
 ---
 
-# 标题
+# Editor组
+| 小组成员  | 共51名    |          |         |
+| ----------- | ---------- | ---------- | ---------- |
+| zimo1  | Stillalive-myj    | Maicss    | insidentally    |
+| rainyl    | MouseZhang    | 孤岛悬城    | 	爱嘤斯坦    |
+| R.Frain    | 	wyz144343    | fengshuo    | 	dongka    |
+| 	emo    | 明思智享    | 	冒得先生    | shalling    |
+| 	HualetWang    | 陌生人    | Jason.高升    |  	花酒锄作田   |
+| root    | ericneon    | 	mrcangye    | Fredoong    |
+| 俺最萌    | 风暴猪猪侠    | 	GBwater    | 骑着摩托写Bug    |
+| 	吉吉如律令    | 葑心    | anye7up    | 大圣开发DSOE    |
+| 也許明天╯    | 	A Linux Fan    | 	linxuan    | 	gfdgd xi    |
+| vivian_me    | 	jayther2020    | 	空木蓮華    | 156******05    |
+| babyfengfjx    | dengtongxue    | 	white777    | 	myml    |
+|  	ThinKinG   | xuqi    | 	zeno    | deepin_xiaoqian    |
+| 	也許明天╯    | tsic    | 	cvb97    |     |
 
-## 标题 {.tabset}
-
-### 如何安装深度操作系统
-编辑内容
-
-
-### 内容
+# Designer组
+| 小组成员  | 共4名    |          |         |
+| ----------- | ---------- | ---------- | ---------- |
+| shalling  | 明思智享    | 开心果爸爸    |   cvb97  |
