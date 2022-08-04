@@ -2,7 +2,7 @@
 title: 小组成员
 description: deepin Wiki 小组成员列表
 published: true
-date: 2022-08-04T08:36:46.602Z
+date: 2022-08-04T08:36:52.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T01:34:48.549Z
@@ -23,7 +23,7 @@ dateCreated: 2022-06-13T01:34:48.549Z
 | vivian_me    | 	jayther2020    | 	空木蓮華    | 156******05    |
 | babyfengfjx    | dengtongxue    | 	white777    | 	myml    |
 |  	ThinKinG   | xuqi    | 	zeno    | deepin_xiaoqian    |
-| 	也許明天╯    | tsic    | 	cvb97    |     |
+| 	也許明天╯    | tsic    | 	    |     |
 
 # Designer组
 | 小组成员  | 共4名    |          |         |
