@@ -2,7 +2,7 @@
 title: dpkg
 description: 
 published: true
-date: 2022-08-08T10:58:07.733Z
+date: 2022-08-08T10:58:33.954Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:47:49.420Z
@@ -26,5 +26,5 @@ dpkg -l 			| List all the installed Packages
 dpkg -l packagename	| List the version of Packages
 dpkg --version | Display dpkg Version
 dpkg --help	| Get all the Help about dpkg
-dpkg -L packagename | list files owned by pa
+dpkg -L packagename | list files owned by package
 
