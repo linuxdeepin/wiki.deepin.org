@@ -2,7 +2,7 @@
 title: rpm
 description: 
 published: true
-date: 2022-08-09T01:25:35.947Z
+date: 2022-08-09T01:28:56.974Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-09T01:25:35.947Z
@@ -14,13 +14,15 @@ This is the Linux Standard Base packing format and a base package management sys
 
 | Command | Function |			
 | - | - |
-|rpm -ivh filename.rpm	| 安装软件 |
-| rpm -Uvh filename.rpm |	升级软件 |
-| rpm -e filename.rpm 	| 卸载软件 |
-| rpm -qpi filename.rpm	| 查询软件描述信息 | 
-| rpm -qf filename	|	查询文件属于哪个RPM| 
+|rpm -ivh packagename.rpm	| Installing a package |
+| rpm -Uvh packagename.rpm | Upgrading a package |
+| rpm -e packagename.rpm 	| remove a package |
+| rpm -qpi packagename.rpm	| query package information | 
+| rpm -qf packagename	|	query file owned by package | 
 
+# YUM (Yellowdog Updater, Modified)
 
+It is an open source and popular command line package manager that works as a interface for users to RPM. You can compare it to APT under Debian Linux systems, it incorporates the common functionalities that APT has. You can get a clear understanding of YUM with examples from this how to guide:
 
 | Command | Function |			
 | - | - |
