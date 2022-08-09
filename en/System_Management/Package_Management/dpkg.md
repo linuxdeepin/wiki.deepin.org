@@ -2,7 +2,7 @@
 title: dpkg
 description: 
 published: true
-date: 2022-08-09T00:50:02.770Z
+date: 2022-08-09T00:55:13.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:47:49.420Z
@@ -33,4 +33,16 @@ dpkg -L packagename | list files owned by package
 It is a very popular, free, powerful and more so, useful command line package management system that is a front end for dpkg package management system.
 
 Users of Debian or its derivatives such as Ubuntu and Linux Mint should be familiar with this package management tool.
+
+| Command | Funciton |
+| - | - |
+| sudo apt install packagename | Installing Packages |
+| sudo apt update	packagename | Updating Package Information sources |
+| sudo apt upgrade packagename |	Upgrading Packages |
+| sudo apt remove packagename| Uninstalling Packages |
+| sudo apt purge packagename | Uninstalling Packages |
+
+
+
+
 
