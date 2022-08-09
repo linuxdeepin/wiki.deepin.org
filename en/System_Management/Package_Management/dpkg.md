@@ -2,7 +2,7 @@
 title: dpkg
 description: 
 published: true
-date: 2022-08-09T01:00:36.309Z
+date: 2022-08-09T01:10:32.772Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:47:49.420Z
@@ -38,11 +38,12 @@ Users of Debian or its derivatives such as Ubuntu and deepin should be familiar 
 | - | - |
 | sudo apt search packagename | Searching a Package |
 | sudo apt install packagename | Installing a Package |
-| sudo apt update	packagename | Updating Package Information sources |
 | sudo apt upgrade packagename |	Upgrading a Package |
 | sudo apt remove packagename| Uninstalling a Package |
 | sudo apt purge packagename | Uninstalling Packages with configuration file |
-
+| sudo apt show firefox | View Information About Package |
+| sudo apt update	| Updating System Package Information sources |
+| sudo apt upgrade	| Upgrading System Package  |
 
 
 
