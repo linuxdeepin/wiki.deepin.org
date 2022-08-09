@@ -2,7 +2,7 @@
 title: dpkg
 description: 
 published: true
-date: 2022-08-09T01:13:27.960Z
+date: 2022-08-09T01:14:26.061Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:47:49.420Z
@@ -43,7 +43,7 @@ Users of Debian or its derivatives such as Ubuntu and deepin should be familiar 
 | sudo apt purge packagename | Uninstalling Packages with configuration file |
 | sudo apt show firefox | View Information About Package |
 | sudo apt update	| Updating System Package Information sources |
-| sudo apt dist-upgrade	| Upgrading System Packages |
+| sudo apt full-upgrade	| Upgrading System Packages |
 | sudo apt autoremove | Remove Unused Packages |
 | sudo apt autoclean |  Clean Old Repository of Downloaded Packages |
 
