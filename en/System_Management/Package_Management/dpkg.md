@@ -2,7 +2,7 @@
 title: dpkg
 description: 
 published: true
-date: 2022-08-08T10:58:33.954Z
+date: 2022-08-09T00:50:02.770Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:47:49.420Z
@@ -27,4 +27,10 @@ dpkg -l packagename	| List the version of Packages
 dpkg --version | Display dpkg Version
 dpkg --help	| Get all the Help about dpkg
 dpkg -L packagename | list files owned by package
+
+# APT (Advanced Packaging Tool)
+
+It is a very popular, free, powerful and more so, useful command line package management system that is a front end for dpkg package management system.
+
+Users of Debian or its derivatives such as Ubuntu and Linux Mint should be familiar with this package management tool.
 
