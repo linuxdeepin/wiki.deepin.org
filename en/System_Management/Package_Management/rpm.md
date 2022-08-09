@@ -2,7 +2,7 @@
 title: rpm
 description: 
 published: true
-date: 2022-08-09T01:56:36.747Z
+date: 2022-08-09T01:57:04.876Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-09T01:25:35.947Z
@@ -28,9 +28,9 @@ It is an open source and popular command line package manager that works as a in
 | - | - |
 | yum repolist all	|	list all repository | 
 | yum list all		| list all packages of repository | 
-| yum info  packagename	|  view package information |
+| yum info  packagename	| view package information |
 | yum install packagename | installing a package |
-| yum reinstall packagename | 	resinstall a package |
+| yum reinstall packagename | resinstall a package |
 | yum update packagename	| upgrade a package |
 | yum remove packagename	| remove a package |
 | yum clean all		| clean cache of all repository |
