@@ -2,7 +2,7 @@
 title: rpm
 description: 
 published: true
-date: 2022-08-09T01:28:56.974Z
+date: 2022-08-09T01:38:31.779Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-09T01:25:35.947Z
@@ -26,16 +26,20 @@ It is an open source and popular command line package manager that works as a in
 
 | Command | Function |			
 | - | - |
-yum repolist all	|	列出所有仓库
-yum list all		| 列出仓库中所有软件包
-yum info  软件包名称		| 查看软件包信息
-yum install 软件包名称| 	安装软件包
-yum reinstall 软件包名称| 	重新安装软件包
-yum update 软件包名称	|升级软件包
-yum remove 软件包名称	|移除软件包
-yum clean all		|清除所有仓库缓存
-yum check-update	|	检查可更新的软件包
-yum grouplist		|查看系统中已经安装的软件包组
-yum groupinstall 软件包组	|安装指定的软件包组
-yum groupremove 软件包组	|移除指定的软件包组
-yum groupinfo 软件包组	| 查询指定的软件包组信息
+| yum repolist all	|	list all repository | 
+| yum list all		| list all packages of repository | 
+| yum info  packagename	|  view package information |
+| yum install packagename | installing a package |
+| yum reinstall packagename | 	resinstall a package |
+| yum update packagename	| upgrade a package |
+| yum remove packagename	| remove a package |
+| yum clean all		| clean cache of all repository |
+| yum check-update	|	check for updatable software package |
+| yum grouplist		| View the package groups that have been installed |
+| yum groupinstall package_group_name	|安装指定的软件包组
+| yum groupremove package_group_name	|移除指定的软件包组
+| yum groupinfo package_group_name	| 查询指定的软件包组信息
+
+
+
+
