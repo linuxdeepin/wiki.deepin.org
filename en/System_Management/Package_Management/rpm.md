@@ -2,7 +2,7 @@
 title: rpm
 description: 
 published: true
-date: 2022-08-09T01:38:31.779Z
+date: 2022-08-09T01:56:36.747Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-09T01:25:35.947Z
@@ -36,9 +36,9 @@ It is an open source and popular command line package manager that works as a in
 | yum clean all		| clean cache of all repository |
 | yum check-update	|	check for updatable software package |
 | yum grouplist		| View the package groups that have been installed |
-| yum groupinstall package_group_name	|安装指定的软件包组
-| yum groupremove package_group_name	|移除指定的软件包组
-| yum groupinfo package_group_name	| 查询指定的软件包组信息
+| yum groupinstall package_group_name	| Install the specified package group |
+| yum groupremove package_group_name | remove the specified package group |
+| yum groupinfo package_group_name | Query information of specified package group |
 
 
 
