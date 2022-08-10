@@ -2,7 +2,7 @@
 title: Deepin的备份恢复
 description: 
 published: true
-date: 2022-08-10T08:33:18.199Z
+date: 2022-08-10T08:34:20.548Z
 tags: 备份 恢复
 editor: markdown
 dateCreated: 2022-08-10T08:31:16.677Z
@@ -18,4 +18,4 @@ dateCreated: 2022-08-10T08:31:16.677Z
 4. 满足厂商对一键还原硬件指标
 
 # 三、相关功能
-
+/tmp/wps-uos/ksohtml/wpssU5qJ0.png![2022-8-10_63707.png](/2022-8-10_63707.png)
