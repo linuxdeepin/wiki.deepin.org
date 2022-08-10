@@ -2,7 +2,7 @@
 title: Deepin的备份恢复
 description: 
 published: true
-date: 2022-08-10T08:51:05.548Z
+date: 2022-08-10T08:51:39.284Z
 tags: 备份 恢复
 editor: markdown
 dateCreated: 2022-08-10T08:31:16.677Z
@@ -36,3 +36,5 @@ dateCreated: 2022-08-10T08:31:16.677Z
 
 ### 初始化备份
 当系统全盘安装完成时，立即创建恢复分区，备份启动分区和根分区，保存恢复分区信息、保存磁盘分区配置。
+
+### 控制中心备份
