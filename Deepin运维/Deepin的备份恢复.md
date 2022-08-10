@@ -2,7 +2,7 @@
 title: Deepin的备份恢复
 description: 
 published: true
-date: 2022-08-10T09:22:26.216Z
+date: 2022-08-10T09:22:31.321Z
 tags: 备份 恢复
 editor: markdown
 dateCreated: 2022-08-10T08:31:16.677Z
@@ -64,5 +64,5 @@ dateCreated: 2022-08-10T08:31:16.677Z
 
 11. 点击备份后，需修改系统一系列配置，显示“正在配置中...”提示
 
-12、备份的存储介质文件系统不支持需提示“该存储介质的文件系统不支持备
+12. 备份的存储介质文件系统不支持需提示“该存储介质的文件系统不支持备
 份”。目前支持的格式有 "ext4", "ntfs","xfs", "btrfs", "reiserfs", "exfat"。
