@@ -2,7 +2,7 @@
 title: Deepin的备份恢复
 description: 
 published: true
-date: 2022-08-10T08:51:39.284Z
+date: 2022-08-10T08:53:01.060Z
 tags: 备份 恢复
 editor: markdown
 dateCreated: 2022-08-10T08:31:16.677Z
@@ -38,3 +38,5 @@ dateCreated: 2022-08-10T08:31:16.677Z
 当系统全盘安装完成时，立即创建恢复分区，备份启动分区和根分区，保存恢复分区信息、保存磁盘分区配置。
 
 ### 控制中心备份
+1.进入”控制中心-系统信息-备份/还原-备份“，点击“...”打开备份需要保存的路径
+SourceURL:file:///home/uos/Desktop/备份还原v5.3需求文档.pdf.docx![2022-8-10_52487.png](/2022-8-10_52487.png)
