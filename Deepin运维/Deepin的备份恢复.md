@@ -2,7 +2,7 @@
 title: Deepin的备份恢复
 description: 
 published: true
-date: 2022-08-10T08:42:29.958Z
+date: 2022-08-10T08:45:05.470Z
 tags: 备份 恢复
 editor: markdown
 dateCreated: 2022-08-10T08:31:16.677Z
@@ -22,3 +22,8 @@ dateCreated: 2022-08-10T08:31:16.677Z
 
 # 四、恢复和备份流程
 
+/home/uos/Downloads/初始化备份.png![2022-8-10_44418.png](/2022-8-10_44418.png)
+
+/home/uos/Downloads/备份.png![2022-8-10_17139.png](/2022-8-10_17139.png)
+
+/home/uos/Downloads/还原.png![2022-8-10_74832.png](/2022-8-10_74832.png)
