@@ -1,8 +1,8 @@
 ---
 title: 用apt-fast加速软件包下载
-description: 
+description: 本文由论坛用户pzm9012分享，原帖地址：https://www.yuque.com/pzm9012/ct5ume/bb7322
 published: true
-date: 2022-06-15T02:51:38.810Z
+date: 2022-08-14T00:26:37.077Z
 tags: apt 软件包下载
 editor: markdown
 dateCreated: 2022-06-15T01:54:05.622Z
