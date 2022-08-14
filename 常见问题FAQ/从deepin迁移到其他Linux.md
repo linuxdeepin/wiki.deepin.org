@@ -2,11 +2,13 @@
 title: 从deepin迁移到其他Linux
 description: 本文的前提条件是你觉得deepin的某些方面不满足你的需求，想换用其他的Linux发行版。本文主要帮助你选择一个Linux发行版和安装部分为deepin开发的应用。 以下操作可能需要一定的动手能力和耐心。
 published: true
-date: 2022-06-15T05:52:06.305Z
-tags: linux发行版, deepin应用
+date: 2022-08-14T00:25:46.109Z
+tags: deepin应用, linux发行版
 editor: markdown
 dateCreated: 2022-06-15T03:48:57.823Z
 ---
+
+本文由论坛用户pzm9012分享，原帖地址：https://www.yuque.com/pzm9012/ct5ume/ohlxhr
 
 # 从deepin迁移到其他Linux
 
