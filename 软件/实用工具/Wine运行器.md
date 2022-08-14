@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-08-14T02:25:49.437Z
+date: 2022-08-14T02:25:58.347Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -12,7 +12,7 @@ dateCreated: 2022-07-23T01:44:40.008Z
 
 ![image.png](https://storage.deepin.org/thread/202208141017455813_image.png)
 
-:tail:
+
 
 # 介绍
 
@@ -134,6 +134,6 @@ Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 程序官网：https://gfdgd-xi.github.io/
 支持程序自带的更新程序进行更新
 [![star](https://gitee.com/gfdgd-xi/deep-wine-runner/badge/star.svg?theme=dark)](https://gitee.com/gfdgd-xi/deep-wine-runner/stargazers)
-:tail:
+
 **最后说一下，如果想要在商业环境使用此APP，因为程序内附商业软件，请保证获得相关厂家授权或移除相关组件（移除用程序自带的删除组件功能即可）**
 **以及本程序在ARM架构上测试较少，可能容易翻车，建议不要在办公环境使用**
