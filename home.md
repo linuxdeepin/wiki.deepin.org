@@ -1,8 +1,8 @@
 ---
-title: Deepin - 深度百科Wiki
-description: 深度百科wiki 旨在成为最终用户和开发人员的扩展文档。
+title: Deepin Wiki - 深度百科
+description: 深度百科旨在成为最终用户和开发人员的扩展文档。
 published: true
-date: 2022-06-27T03:20:55.401Z
+date: 2022-08-14T07:43:48.180Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -29,17 +29,19 @@ Deepin基于Qt技术开发了深度桌面环境和深度控制中心，并且开
 协作：倡导团队协作，发挥领导作用，使社区工作进展得更为有序。
 
 # 特别鸣谢
-**衷心感谢以下社区用户为deepin wiki做出的贡献！（排名不分先后）**
+### **衷心感谢以下社区用户为deepin wiki做出的贡献！（排名不分先后）**
 
-### Editor组
+### Editor组：
+MouseZhang、Stillalive-myj、爱嘤斯坦、shenlan、fengshuo、cvb97、maicss、insidentally、rainyl、babyfeng、xuqi、vivian_me、deepin_xiaoqian、	justforlxz、ThinKinG、冒得先生、iamboyuyang、dengtongxue、dongka、骑着摩托写Bug、花酒锄作田、俺最萌、root、mrcangye、Fredoong、ericneon、大圣开发DSOE、风暴猪猪侠、孤岛悬城、GBwater、吉吉如律令、emo、gfdgd-xi
 
 
-### Desinger组
+### Desinger组：
+Shalling、golf、也許明天╯
 
 
 ### Collector组：
+wyz144344
 
-### 荣誉贡献者：
 
 # 公司简介
 武汉深之度科技有限公司（以下简称深度科技）成立于 2011 年，是专注基于 Linux 的操作系统研发与服务的商业公司。
