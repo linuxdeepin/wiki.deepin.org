@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-08-03T09:38:09.077Z
+date: 2022-08-14T02:25:49.437Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -10,8 +10,9 @@ dateCreated: 2022-07-23T01:44:40.008Z
 
 这个程序用到的帖子均在程序谢明中标注，如果有遗漏请尽快与我联系添加，我对此表示深深的歉意
 
-![image.png](https://storage.deepin.org/thread/202207301819019681_image.png)
+![image.png](https://storage.deepin.org/thread/202208141017455813_image.png)
 
+:tail:
 
 # 介绍
 
@@ -52,21 +53,28 @@ WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 
 ## 更新日志
 
-**※1、修复了打包器（非基于活动脚本） control、postrm 写入文件颠倒的问题**
-**※2、内置一个微型的 Windows 应用商店（应用来源：腾讯软件管家）**
-
-**※3、初步支持 deepin 23（添加基于 linglong Wine 的运行方式，需要安装一个 linglong 包的 使用 Wine 应用；添加从 Deepin 20 源获取 Wine 的安装方式）**
-4、更新了打包器（非基于活动脚本）调用星火 spark-wine-helper 的 run.sh 脚本格式
-
-5、修复了打包器（基于活动脚本）在 dde-top-panel 和 dde-globalmenu-service 下无法打开帮助提示的问题
-
-6、支持屏蔽 Wine 默认的 Mono、Gecko 安装器（屏蔽方法来自星火应用商店审核组和提供的新 run.sh 标准）
+**※1、修复了重复路径一直自动重复增加的问题**
+**※2、修复了两个打包器打包错误的问题（非基于生态活动脚本的为 wine 导入错误，基于生态活动脚本的为架构有误导致打包出的 deb 无法打包）**
+**※3、适配了部分非 i386、amd64 架构计算机的 UOS 系统使用的 wine 并支持打包非 i386、amd64 架构计算机的 UOS 系统使用的 wine 程序 deb 包**
+**※4、支持安装 dxvk（遵守 Zlib 开源协议）**
+**※5、运行器、打包器（包括非基于生态适配活动脚本制作的）支持使用 Wine 生态适配活动的容器清理脚本**
+**※6、支持更加简易的安装最新版的 WineHQ**
+**※7、增加字体商店**
+**※8、新增查看可执行文件运行情况的功能**
+9、支持不显示没有安装的 Wine，方便用户识别
+10、修改了 Wine 的顺序使其更加合理
+11、支持删除安装 exe 后在启动器的快捷方式
+12、优化了 Wine 打包器（非基于生态活动脚本）对容器的处理
+13、修复了 Wine 打包器（非基于生态活动脚本）打包出的 deb 安装时显示为解压缩后会消耗 0 B 的额外空间以及 postrm 的一些问题
+14、支持删除无需使用的程序组件
+15、支持组件/运行库下载后缓存方便下次使用（可以清理）
+16、点击获取图标按钮后会自动读取 exe 框的程序图标（不支持相对路径和包内路径，只支持绝对路径）
 
 # 截图
 
-![image.png](https://storage.deepin.org/thread/202208031351466402_image.png)
+![image.png](https://storage.deepin.org/thread/202208140946222834_image.png)
 
-![image.png](https://storage.deepin.org/thread/2022080317313975_image.png)
+![image.png](https://storage.deepin.org/thread/202208131811324016_image.png)
 
 ## 使用说明
 
@@ -85,17 +93,11 @@ exe路径\' 参数 \'
 
 即可（单引号需要输入）
 5、wine 容器如果没有指定，则会默认为 ~/.wine
-6、在使用 linglong 包的 Wine 应用时，必须安装至少一个 linglong 的使用 Wine 软件包才会出现该选项，
-
-而程序识别到的 Wine 是按 linglong 的使用 Wine 软件包名的字母排序第一个的 Wine，且生成的容器不在用户目录下，而是在容器的用户目录下（~/.deepinwine、/tmp、桌面、下载、文档等被映射的目录除外），
-
-同理需要运行的 EXE 也必须在被映射的目录内
-
-7、如果是使用 Deepin 23 的 Wine 安装脚本，请切记——安装过程会临时添加 Deepin 20 的 apt 源，不要中断安装以及
-
-千万不要中断后不删除源的情况下 apt upgrade ！！！中断后只需重新打开脚本输入 repair 或者随意安装一个 Wine（会自动执行恢复操作）即可
-
-以及此脚本安装的 Wine 无法保证 100% 能使用，以及副作用是会提示
+6、如果可执行文件比较大的话，会出现点击“获取该程序运行情况”出现假死的情况，因为正在后台读取 SHA1，只需要等一下即可（读取速度依照您电脑处理速度、读写速度、可执行文件大小等有关）
+7、对于非 X86 的用户来说，请不要使用本程序自带的 Wine 安装程序和 Windows 虚拟机安装功能（检测到为非 X86 架构会自动禁用）
+8、如果非 X86 的用户的 UOS 专业版用户想要使用的话，只需要在应用商店安装一个 Wine 版本微信即可在本程序选择正确的 Wine 运行程序
+9、在使用 linglong 包的 Wine 应用时，必须安装至少一个 linglong 的使用 Wine 软件包才会出现该选项，而程序识别到的 Wine 是按 linglong 的使用 Wine 软件包名的字母排序第一个的 Wine，且生成的容器不在用户目录下，而是在容器的用户目录下（用户目录/.deepinwine、/tmp、桌面、下载、文档等被映射的目录除外），同理需要运行的 EXE 也必须在被映射的目录内
+10、如果是使用 Deepin 23 的 Wine 安装脚本，请切记——安装过程会临时添加 Deepin 20 的 apt 源，不要中断安装以及千万不要中断后不删除源的情况下 apt upgrade ！！！中断后只需重新打开脚本输入 repair 或者随意安装一个 Wine（会自动执行恢复操作）即可。以及此脚本安装的 Wine 无法保证 100% 能使用，以及副作用是会提示
 
 ```bash
 N: 鉴于仓库 'https://community-packages.deepin.com/beige beige InRelease' 不支持 'i386' 体系结构，跳过配置文件 'main/binary-i386/Packages' 的获取。
@@ -122,40 +124,6 @@ desktop文件中StartupWMClass字段。用于让桌面组件将窗口类名与de
 第六个输入框是最终生成的包的包名,包名的命名规则以deepin开头，加官网域名（需要前后对调位置），如还不能区分再加上应用名
 最后一个是最终生成的包的版本号，版本号命名规则：应用版本号+deepin+数字
 
-# 稍微讲一下目前 deepin 23 Preview 运行自定义 exe 的方法（Wine 运行器均已支持）
-
-## 方法一
-
-随便安装一个 linglong 格式包的 wine 程序（要记住包名），然后在终端输入
-
-```bash
-ll-cli run 包名 --exec '/bin/deepin-wine6-stable'
-```
-
-即可，缺陷可看运行器上方小提示第 6 点
-
-## 方法二（容易翻车）
-
-添加 Deepin 20 的**官方源和商店源**，然后输入如下的命令：**切记不能sudo apt upgrade**，会出现的问题可以看运行器的小提示第 7 点，以及无法保证所有 Wine 均可运行
-
-```bash
-sudo dpkg --add-architecture i386
-sudo apt update
-# 安装普通的 Wine
-sudo apt install wine
-# 安装 deepin-wine5-stable（本机测试 X64 的 Wine 跑不了）
-sudo apt install deepin-wine5-stable
-# 安装 deepin-wine6-stable
-sudo apt install deepin-wine6-stable
-```
-
-**使用完后最好删除掉 Deepin 20 的官方源和商店源，防止出问题**
-可以看 [@ThinkYoung](user/18570) 写的 https://bbs.deepin.org/post/241148，可以参考借鉴
-
-## 方法三
-
-我不知道了，希望能有大佬提供更好的解决方案
-
 # 下载链接
 
 Gitee：https://gitee.com/gfdgd-xi/deep-wine-runner
@@ -163,4 +131,9 @@ Github：https://github.com/gfdgd-xi/deep-wine-runner
 Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 蓝奏云：https://gfdgdxi.lanzouj.com/b01nz7y3e，密码:7oii
 星火应用商店：spk://store/tools/spark-deepin-wine-runner
-
+程序官网：https://gfdgd-xi.github.io/
+支持程序自带的更新程序进行更新
+[![star](https://gitee.com/gfdgd-xi/deep-wine-runner/badge/star.svg?theme=dark)](https://gitee.com/gfdgd-xi/deep-wine-runner/stargazers)
+:tail:
+**最后说一下，如果想要在商业环境使用此APP，因为程序内附商业软件，请保证获得相关厂家授权或移除相关组件（移除用程序自带的删除组件功能即可）**
+**以及本程序在ARM架构上测试较少，可能容易翻车，建议不要在办公环境使用**
