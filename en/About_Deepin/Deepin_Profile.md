@@ -2,7 +2,7 @@
 title: Deepin_Profile
 description: 
 published: true
-date: 2022-08-15T07:37:09.128Z
+date: 2022-08-15T07:54:03.933Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -78,7 +78,7 @@ https://www.deepin.org/en/mirrors/packages
 https://www.deepin.org/en/mirrors/releases
 
 # Deepin Open Source Community
-- **Declaration:** Open、Transparency、Innovation、Co-Creation
+- **Declaration:** Open、Transparency、Freedom、Sharing、Cooperation
 - **Code of conduct:** Respect、Friendly、Unity、Innovate
 - **Organization Structure:** Administration teams 、 SIG
 - **Iternational Communities:** Spain Community、Slovakia Community、Turkey Community、Brazil Community、France Community、Italy Community
@@ -103,7 +103,9 @@ wiki.deepin.org is built using wikijs, with an easy-to-use interface and simple 
 We recommend submitting contributions via git when multiple contents need to be imported or moved due to the inperfect function of batch operation in wikijs.
 ## How to contribute ?
 The Deepin Wiki collects various information like experience of developing, system using as well as helpful tips, then shares them to users. You can also have your own contribution here!
+
 **For example : join the SIG of deepin wiki**
+
 - Editor Group：  
 - Designer Group：
 - Collector Group：
