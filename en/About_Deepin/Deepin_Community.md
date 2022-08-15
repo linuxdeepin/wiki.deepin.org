@@ -2,23 +2,54 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-06-22T05:32:29.291Z
+date: 2022-08-15T06:57:18.028Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
 ---
 
-# Declaration 
-- Open
-- Transparency
-- Innovation
-- Co-Creation
+# Community Manifesto 
+## Introduction
+
+&emsp; Deepin Open Source Community is an open source community composed of developers, designers, members and advocates. 
+&emsp; We are committed to providing a free and open communication platform and the best open source operating system for all through community development and collaboration! 
+&emsp; Whether you are an experienced developer, a creative designer, or an ordinary user, we welcome you to join us and contribute to the community. 
+
+## Convention
+
+&emsp; The deepin open source community takes the concept of "openness, transparency, innovation and co-creation" as the criteria for community work and communication:
+
+- Openness: people of all backgrounds and experiences can join us and participate in community work
+- Transparency: planning decisions and progress will be brought into the community, known to all, and contributed by all
+- Innovation: continuous adoption of new technology, product innovation, to solve the long-term problems in the use of desktop operating system
+- Co-creation: advocate open source cooperation mode, and jointly create excellent community achievements
+
+## Goal
+
+&emsp; With this manifesto, we hope to clearly present the following goals to members of the deepin open source community:  
+
+- To build an exchange platform with the concept of "openness, transparency, freedom, sharing and collaboration"
+- Let the concept of "openness, transparency, freedom, sharing and collaboration" be better spread to benefit more people
+- Follow the principle of "openness and transparency", let more people understand and urge our work
+- Build deepin operating system into top open source operating system through community collaboration
+- Promote the development of other open source software through community agreements
+
+## Contribution
+
+- Direct participation in deep open source community or other open source software development and testing
+- Participate in internationalization and translation of deep open source community or other open source software
+- Write a large number of available system development documents and operational guidelines for community users
+- To solve the questions of community users
+- Understand and endorse the concept of "openness, transparency, freedom, sharing and collaboration" and disseminate it
+
+## Invitation
+&emsp; We invite all those who support the Deepin Open Source Community Manifesto to join us and make the manifesto a reality!
 
 # Code of conduct
 
 ## Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression,level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+&emsp; In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression,level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ## Our Standards
 
@@ -56,24 +87,12 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 
 >  [Reference](https://www.contributor-covenant.org/version/1/4/code-of-conduct/) :Contributor Covenant Code of Conduct Version 1.4
 
+# Organization Structure
 
-# SIG & Teams
-## Administration teams
-- Community Administrator
-- Community Assistant
-- Technical Committee
-- Operating Committee
-## SIG 
-Special interest groups
-- deepinWSL
-- deepinRISCV
-- deepinWiki
-- deepinM1
+---
 
-## Community Organization Structure
-
-```mermaid
-graph TB
+  ```mermaid
+  graph TB
 
   1[Deepin Community]---2[Management Team]
   1[Deepin Community]---3[SIG]
@@ -86,7 +105,24 @@ graph TB
   3[SIG]---10[deepinWiki]
   3[SIG]---11[deepinM1]
   
-```
+  ```
+
+---
+## Teams
+
+Administration teams
+- Community Administrator
+- Community Assistant
+- Technical Committee
+- Operating Committee
+
+## SIG 
+
+Special interest groups
+- deepinWSL
+- deepinRISCV
+- deepinWiki
+- deepinM1
    
 # Iternational Communities
 - Spain Community
@@ -96,8 +132,9 @@ graph TB
 - France Community
 - Italy Community
 
-# Mailling list
+# Mailing list
 - wiki@deepin.org
+- [deepin-devel: Linux deepin developer mail list](https://www.freelists.org/list/deepin-devel)
    
    
    
