@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-08-15T07:19:58.039Z
+date: 2022-08-15T07:21:28.784Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -162,7 +162,7 @@ individual, or aggression toward or disparagement of classes of individuals.
 community.
 
 
->  [Reference](https://www.contributor-covenant.org/version/1/4/code-of-conduct/) :Contributor Covenant Code of Conduct Version 1.4
+>  [Reference](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) :Contributor Covenant Code of Conduct Version 2.1
 
 # Organization Structure
 
