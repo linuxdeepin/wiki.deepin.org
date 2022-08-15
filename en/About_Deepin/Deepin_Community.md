@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-08-15T07:21:28.784Z
+date: 2022-08-15T07:22:57.059Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -11,9 +11,9 @@ dateCreated: 2022-05-13T08:02:00.793Z
 # Community Manifesto 
 ## Introduction
 
-&emsp; Deepin Open Source Community is an open source community composed of developers, designers, members and advocates. 
-&emsp; We are committed to providing a free and open communication platform and the best open source operating system for all through community development and collaboration! 
-&emsp; Whether you are an experienced developer, a creative designer, or an ordinary user, we welcome you to join us and contribute to the community. 
+- Deepin Open Source Community is an open source community composed of developers, designers, members and advocates. 
+- We are committed to providing a free and open communication platform and the best open source operating system for all through community development and collaboration! 
+- Whether you are an experienced developer, a creative designer, or an ordinary user, we welcome you to join us and contribute to the community. 
 
 ## Convention
 
