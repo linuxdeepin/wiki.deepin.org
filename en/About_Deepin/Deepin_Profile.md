@@ -2,7 +2,7 @@
 title: Deepin_Profile
 description: 
 published: true
-date: 2022-06-14T05:22:59.776Z
+date: 2022-08-15T07:37:09.128Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -82,8 +82,8 @@ https://www.deepin.org/en/mirrors/releases
 - **Code of conduct:** Respect、Friendly、Unity、Innovate
 - **Organization Structure:** Administration teams 、 SIG
 - **Iternational Communities:** Spain Community、Slovakia Community、Turkey Community、Brazil Community、France Community、Italy Community
-- **Mailling list:** wiki@deepin.org
-- [**More >>**](./about_deepin/deepin_community) 
+- **Mailling list:** deepin-devel
+- [**More >>**](/en/about_deepin/deepin_community) 
 
 # Deepin Wiki
 ## Introduction
@@ -108,7 +108,6 @@ The Deepin Wiki collects various information like experience of developing, syst
 - Designer Group：
 - Collector Group：
 
-## [more >>](./about_deepin/README)
 # Deepin Company Profile
 &emsp; Established in 2011, Wuhan Deepin Technology Co., Ltd. (hereinafter referred to as Deepin Technology) is a commercial company focused on the R&D and service of Linux-based Chinese operating system.
 &emsp; As the leading research and development team of operating systems in China, Deepin Technology aims to provide safe, reliable, beautiful and easy to use Chinese operating system and open source solutions. There are many professionals in system research and development, industry custom, internationalization, porting and adaptation, interaction design, support service and training, which can meet a wide range of needs to operating system products from different users and application scenarios.
