@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-08-15T07:22:57.059Z
+date: 2022-08-15T07:30:25.521Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -16,6 +16,7 @@ dateCreated: 2022-05-13T08:02:00.793Z
 - Whether you are an experienced developer, a creative designer, or an ordinary user, we welcome you to join us and contribute to the community. 
 
 ## Convention
+> open, transparency, freedom, sharing and cooperation
 
 &emsp; The deepin open source community takes the concept of "open,transparency, freedom,sharing and cooperation" as the criteria for community work and communication:
 
