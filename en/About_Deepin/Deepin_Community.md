@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-08-15T06:57:18.028Z
+date: 2022-08-15T07:12:22.004Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -17,12 +17,13 @@ dateCreated: 2022-05-13T08:02:00.793Z
 
 ## Convention
 
-&emsp; The deepin open source community takes the concept of "openness, transparency, innovation and co-creation" as the criteria for community work and communication:
+&emsp; The deepin open source community takes the concept of "open,transparency, freedom,sharing and cooperation" as the criteria for community work and communication:
 
-- Openness: people of all backgrounds and experiences can join us and participate in community work
+- Open: people of all backgrounds and experiences can join us and participate in community work
 - Transparency: planning decisions and progress will be brought into the community, known to all, and contributed by all
-- Innovation: continuous adoption of new technology, product innovation, to solve the long-term problems in the use of desktop operating system
-- Co-creation: advocate open source cooperation mode, and jointly create excellent community achievements
+- Freedom: freedom of obtain、use and modify
+- Sharing: sharing of iedea
+- cooperation: advocate open source cooperation mode, and jointly create excellent community achievements
 
 ## Goal
 
