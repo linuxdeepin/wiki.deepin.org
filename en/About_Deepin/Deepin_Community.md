@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-08-15T07:12:22.004Z
+date: 2022-08-15T07:12:40.808Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -22,7 +22,7 @@ dateCreated: 2022-05-13T08:02:00.793Z
 - Open: people of all backgrounds and experiences can join us and participate in community work
 - Transparency: planning decisions and progress will be brought into the community, known to all, and contributed by all
 - Freedom: freedom of obtain、use and modify
-- Sharing: sharing of iedea
+- Sharing: sharing of idea
 - cooperation: advocate open source cooperation mode, and jointly create excellent community achievements
 
 ## Goal
