@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2022-08-15T07:12:40.808Z
+date: 2022-08-15T07:14:30.803Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -29,10 +29,10 @@ dateCreated: 2022-05-13T08:02:00.793Z
 
 &emsp; With this manifesto, we hope to clearly present the following goals to members of the deepin open source community:  
 
-- To build an exchange platform with the concept of "openness, transparency, freedom, sharing and collaboration"
-- Let the concept of "openness, transparency, freedom, sharing and collaboration" be better spread to benefit more people
-- Follow the principle of "openness and transparency", let more people understand and urge our work
-- Build deepin operating system into top open source operating system through community collaboration
+- To build an exchange platform with the concept of "open, transparency, freedom, sharing and cooperation"
+- Let the concept of "open, transparency, freedom, sharing and cooperation" be better spread to benefit more people
+- Follow the principle of "open and transparency", let more people understand and urge our work
+- Build deepin operating system into top open source operating system through community cooperation
 - Promote the development of other open source software through community agreements
 
 ## Contribution
