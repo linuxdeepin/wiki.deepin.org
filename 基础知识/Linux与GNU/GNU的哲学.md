@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
+title: GNU的哲学
 description: 
 published: true
-date: 2022-07-29T13:03:47.972Z
+date: 2022-08-27T16:29:43.455Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-29T12:44:58.689Z
