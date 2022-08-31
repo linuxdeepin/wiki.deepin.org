@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-08-14T02:25:58.347Z
+date: 2022-08-31T13:13:02.706Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -10,7 +10,9 @@ dateCreated: 2022-07-23T01:44:40.008Z
 
 这个程序用到的帖子均在程序谢明中标注，如果有遗漏请尽快与我联系添加，我对此表示深深的歉意
 
-![image.png](https://storage.deepin.org/thread/202208141017455813_image.png)
+![image.png](https://storage.deepin.org/thread/202208300700355920_image.png)
+
+例如说我就少标了 Wine 安装的 Idea 来自 Vek（已经过许可），对此表示深深的歉意，下一个版本会补上
 
 
 
@@ -53,28 +55,30 @@ WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 
 ## 更新日志
 
-**※1、修复了重复路径一直自动重复增加的问题**
-**※2、修复了两个打包器打包错误的问题（非基于生态活动脚本的为 wine 导入错误，基于生态活动脚本的为架构有误导致打包出的 deb 无法打包）**
-**※3、适配了部分非 i386、amd64 架构计算机的 UOS 系统使用的 wine 并支持打包非 i386、amd64 架构计算机的 UOS 系统使用的 wine 程序 deb 包**
-**※4、支持安装 dxvk（遵守 Zlib 开源协议）**
-**※5、运行器、打包器（包括非基于生态适配活动脚本制作的）支持使用 Wine 生态适配活动的容器清理脚本**
-**※6、支持更加简易的安装最新版的 WineHQ**
-**※7、增加字体商店**
-**※8、新增查看可执行文件运行情况的功能**
-9、支持不显示没有安装的 Wine，方便用户识别
-10、修改了 Wine 的顺序使其更加合理
-11、支持删除安装 exe 后在启动器的快捷方式
-12、优化了 Wine 打包器（非基于生态活动脚本）对容器的处理
-13、修复了 Wine 打包器（非基于生态活动脚本）打包出的 deb 安装时显示为解压缩后会消耗 0 B 的额外空间以及 postrm 的一些问题
-14、支持删除无需使用的程序组件
-15、支持组件/运行库下载后缓存方便下次使用（可以清理）
-16、点击获取图标按钮后会自动读取 exe 框的程序图标（不支持相对路径和包内路径，只支持绝对路径）
+**※1、新增新的 Wine 安装器，并支持将安装的 Wine 打包到 Wine 程序 deb 包中**
+**※2、Wine 打包器打包 Windows 应用支持将 Wine 打包入 deb 内，可以不依赖 Wine（一般不推荐把 Wine 打包入内，推荐用依赖的形式），并支持设置自定义依赖和生成模板**
+**※3、开始初步多语言支持**
+**※4、修复了在没有安装任何 Wine 的情况下使用高级功能导致程序闪退的问题**
+**※5、支持云端自动获取数据配置 Wine 容器**
+**※6、支持手动导入配置文件自动配置 Wine 容器**
+**※7、新增从云端下载 Dll 的功能（目前导入了 Windows XP<32 位>、7<32位和64位>、2003<部分>、2008<部分>安装镜像的DLL）**
+**※8、修复了 Dll 提取工具不会在 winecfg 中添加原装的问题**
+9、修改错别字（图形话=>图形化）
+10、修复评分功能名称为空也可以上传评分的问题
+11、去除 toilet 依赖，使在 Deepin 23 Preview 上运行更佳
+12、支持删除所有由 Wine 创建的启动器快捷方式
 
 # 截图
 
-![image.png](https://storage.deepin.org/thread/202208140946222834_image.png)
+![截图_选择区域_20220826143213.png](https://storage.deepin.org/thread/202208261437088825_截图_选择区域_20220826143213.png)
 
-![image.png](https://storage.deepin.org/thread/202208131811324016_image.png)
+![image.png](https://storage.deepin.org/thread/202208300703399289_image.png)
+
+![image.png](https://storage.deepin.org/thread/20220830070612503_image.png)
+
+![image.png](https://storage.deepin.org/thread/202208300706388804_image.png)
+
+![image.png](https://storage.deepin.org/thread/202208300707079300_image.png)
 
 ## 使用说明
 
@@ -137,3 +141,5 @@ Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 
 **最后说一下，如果想要在商业环境使用此APP，因为程序内附商业软件，请保证获得相关厂家授权或移除相关组件（移除用程序自带的删除组件功能即可）**
 **以及本程序在ARM架构上测试较少，可能容易翻车，建议不要在办公环境使用**
+**现在新增了通过SHA1值获取应用适配情况的功能，查看链接：https://gfdgd-xi.github.io/wine-runner-info/，如何贡献自己的适配情况？在 Wine 运行器进行评分即可**
+**自动配置文件的脚本如何编写/贡献？可见：https://gitlink.org.cn/gfdgd_xi/wine-runner-list/tree/master/auto 如果想要贡献请按照下面的要求进行Pr**
