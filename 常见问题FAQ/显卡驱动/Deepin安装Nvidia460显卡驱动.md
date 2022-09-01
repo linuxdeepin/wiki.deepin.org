@@ -2,21 +2,19 @@
 title: Deepin安装Nvidia460显卡驱动
 description: 
 published: true
-date: 2022-09-01T09:31:06.745Z
+date: 2022-09-01T12:34:56.332Z
 tags: nvidia, nvidia  显卡驱动
 editor: markdown
 dateCreated: 2022-06-28T02:47:46.436Z
 ---
-
-# Deepin安装Nvidia460显卡驱动
 
 > 警告：教程执行完成前请不要重启，否则重启后可能无法正常开机（无法进入桌面）！
 {.is-warning}
 
 如果教程执行过程中出错，可以去[我们的QQ群或者微信群](https://hu60.cn/q.php/link.url.html?url64=aHR0cHM6Ly9odTYwLmNuL3EucGhwL2Jicy50b3BpYy45NTk4OC5odG1s)求助。
 
-该教程仅适用于基于`Debian 10`的发行版，比如`Deepin v20`、`UOS 20`。
-该教程不适用于`Ubuntu 20.04`。
+该教程仅适用于基于*Debian 10*的发行版，比如*Deepin v20*、*UOS 20*。
+该教程不适用于*Ubuntu 20.04*。
 
 # 安装步骤
 
@@ -24,11 +22,12 @@ dateCreated: 2022-06-28T02:47:46.436Z
    **没装过的请跳过这一步。**
    卸载方法如下：
 
-   a. 找到你之前的`.run`安装包，如果删了就再下载一次。**没装过`.run`或者不知道它是什么的，不用下载，请直接进行第2步！！！**
+   1. 找到你之前的`.run`安装包，如果删了就再下载一次。**没装过`.run`或者不知道它是什么的，不用下载，请直接进行第2步！！！**
 
-   b. 打开终端，运行如下命令：
+   2. 打开终端，运行如下命令：
 
-   > 这里假设我的.run安装包位于主目录的`Downloads`文件夹，名为`NVIDIA-Linux-x86_64-460.27.04.run`。如果你的不是，请自行调整其中的文件夹和文件名。
+   > 这里假设我的 .run 安装包位于主目录的 *Downloads* 文件夹，名为 *NVIDIA-Linux-x86_64-460.27.04.run* 。如果你的不是，请自行调整其中的文件夹和文件名。
+   {.is-info}
 
    ```bash
    cd ~/Downloads
@@ -37,11 +36,11 @@ dateCreated: 2022-06-28T02:47:46.436Z
 
    ![图片.png](https://hu60.cn/q.php/link.img.html?url64=aHR0cDovL2ZpbGUuaHU2MC5jbi9maWxlL2hhc2gvcG5nLzlhZDNkZDY2YTdjOTlhYTZjMGY3ODg2NTRmODM1MTNkMjQwNTEucG5n)
 
-   c. 出现的所有选项都选“Yes”和“OK”，不用管其中的警告和错误，把全部选项选完即可。
+   3. 出现的所有选项都选“Yes”和“OK”，不用管其中的警告和错误，把全部选项选完即可。
 
 2. 为了避免出错，通过软件包管理器安装的旧版nvidia驱动也得卸载掉。在终端执行以下命令：
 
-   ```vbnet
+   ```bash
    sudo apt purge --autoremove '*nvidia*'
    ```
 
@@ -76,18 +75,18 @@ dateCreated: 2022-06-28T02:47:46.436Z
 
 5. 安装`aptitude`，它是一个类似于`apt`的软件包安装器，但是解决依赖关系冲突的能力比`apt`更强大。在终端执行以下命令：
 
-   ```undefined
+   ```bash
    sudo apt install aptitude
    ```
 
 6. 用`aptitude`安装460驱动。注意这里不是直接回复`y`就能安装好，请仔细看下面的说明。
 
-   还有，我截图里写的包名是`nvidia-driver=460.32.03-1~bpo10+1`，后来我觉得这样不好（以后发布新版本教程就得改），就换成了`nvidia-driver/buster-backports`。所以命令请以文字为准，不要参考截图中的命令。
+   还有，我截图里写的包名是 *nvidia-driver=460.32.03-1~bpo10+1* ，后来我觉得这样不好（以后发布新版本教程就得改），就换成了 *nvidia-driver/buster-backports* 。所以命令请以文字为准，不要参考截图中的命令。
 
    在终端执行以下命令：
 
-   ```vbnet
-   sudo  aptitude  install  'nvidia-driver/buster-backports'
+   ```bash
+   sudo aptitude install 'nvidia-driver/buster-backports'
    ```
 
    你会得到这样一个输出（可能和我的有细节上的差异）：
@@ -126,7 +125,7 @@ dateCreated: 2022-06-28T02:47:46.436Z
 
 7. 使用`aptitude`安装460驱动的64位附加组件，需要使用步骤6中提到的技巧，首先回复`n`拒绝“未安装的”方案，然后再回复`y`。
 
-   ```ruby
+   ```bash
    sudo aptitude install 'nvidia-vulkan-icd/buster-backports' 'nvidia-smi/buster-backports' 'nvidia-settings/buster-backports'
    ```
 
@@ -138,7 +137,7 @@ dateCreated: 2022-06-28T02:47:46.436Z
 
 8. 使用`aptitude`安装驱动的32位附加组件，继续使用步骤6中提到的技巧，首先回复`n`拒绝“未安装的”方案，然后再回复`y`。
 
-   ```ruby
+   ```bash
    sudo aptitude install 'libnvidia-glcore:i386/buster-backports' 'libnvidia-eglcore:i386/buster-backports' 'nvidia-driver-libs:i386/buster-backports' 'libnvidia-glvkspirv:i386/buster-backports' 'libnvidia-ml1:i386/buster-backports'
    ```
 
@@ -158,13 +157,13 @@ dateCreated: 2022-06-28T02:47:46.436Z
 
 9. 安装Vulkan支持库。在终端执行以下命令：
 
-   ```scss
-   sudo  aptitude  install  libvulkan1  libvulkan1:i386  vulkan-tools  'vulkan-utils|vulkan-tools'
+   ```bash
+   sudo aptitude install libvulkan1 libvulkan1:i386 vulkan-tools 'vulkan-utils|vulkan-tools'
    ```
 
 10. 将新装的显卡驱动用于所有内核版本。执行以下命令：
 
-    ```sql
+    ```bash
     sudo update-initramfs -k all -u
     ```
 
@@ -174,14 +173,13 @@ dateCreated: 2022-06-28T02:47:46.436Z
 
 11. 如果你是笔记本，还需要安装双显卡支持包。如果你是台式机，无需安装，但是安装了也没有副作用。
 
-    注意该双显卡支持包只能用于`lightdm`显示管理器，如果你用`gdm`或者其他显示管理器，则不起作用，独显可能无法驱动。Deepin和UOS默认使用`lightdm`，如果你安装了其他桌面换了显示管理器，请自行切换回`lightdm`。如果你是其他发行版，请自行安装`lightdm`
+    注意该双显卡支持包只能用于 *LightDM* 显示管理器，如果你用 *GDM* 或者其他显示管理器，则不起作用，独显可能无法驱动。Deepin和UOS默认使用 *LightDM*，如果你安装了其他桌面换了显示管理器，请自行切换回 *LightDM* 。如果你是其他发行版，请自行安装 *lightdm*
 
     安装方法如下：
 
     ```bash
     wget https://file.winegame.net/packages/deepin/mgpu/mgpu-prime_0.2.0_amd64.deb
-    
-    sudo  apt  install  -y  ./mgpu-prime_0.2.0_amd64.deb
+    sudo apt install -y ./mgpu-prime_0.2.0_amd64.deb
     ```
 
     然后还需要打开Wine游戏助手的“Nvidia Prime渲染卸载”选项，否则某些游戏游戏打不开，提示没有可用的显卡驱动。打开方法如下：
