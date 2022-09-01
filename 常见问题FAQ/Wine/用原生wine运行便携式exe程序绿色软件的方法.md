@@ -2,7 +2,7 @@
 title: 4-用原生wine运行便携式exe程序绿色软件的方法
 description: 
 published: true
-date: 2022-09-01T14:08:07.951Z
+date: 2022-09-01T14:17:13.304Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T09:06:18.041Z
@@ -28,13 +28,13 @@ dateCreated: 2022-06-20T09:06:18.041Z
 
 创建容器的终端命令：
 
-```
+```bash
 WINEARCH=win32或者wine64 WINEPREFIX=容器路径 wine winecfg
 ```
 
 案例：
 
-```
+```bash
 WINEARCH=win32 WINEPREFIX=~/.deepinwine/Wine-ScreenToGif wine winecfg
 ```
 
@@ -44,7 +44,7 @@ WINEARCH=win32 WINEPREFIX=~/.deepinwine/Wine-ScreenToGif wine winecfg
 
 （2）WINEPREFIX=是指定的容器路径（此处Wine-ScreenToGif就是准备新建的容器名称）。
 
-（3）wine即你指定的wine的执行程序，原生wine的执行程序就是wine。（如果要用deepin-wine，则这里可以换成deepin-wine5或者deepin-wine6-stable，或者~/.deepinwine/deepin-wine5-stable/bin/wine）
+（3）wine即你指定的wine的执行程序，原生wine的执行程序就是wine。（如果要用deepin-wine，则这里可以换成`deepin-wine5`或者`deepin-wine6-stable`，或者`~/.deepinwine/deepin-wine5-stable/bin/wine`）
 
 （注：创建容器时如果提示安装mono，可点取消。mono模拟的.NET Framework，不是所有exe软件都需要这个。需要的时候你再手动安装即可）
 
@@ -52,7 +52,7 @@ WINEARCH=win32 WINEPREFIX=~/.deepinwine/Wine-ScreenToGif wine winecfg
 
 案例软件ScreenToGif要求系统为windows8以上，所以在winecfg窗口里windows版本设定为windows10。
 
-特别说明：（1）经测试，案例软件ScreenToGif.exe不能用deepin-wine5和deepin-wine6-stable运行，可以用原生wine7.10运行（楼主已将原生wine版本升级为开发版wine-devel 7.10），因此本帖用原生wine7.10做例子。（2）Deepin系统预装的原生wine版本是4.0，过于老旧，喜欢尝鲜的小伙伴建议升级原生wine到最新版本。（3）**升级原生wine的方法见WineHQ官网：**https://wiki.winehq.org/Debian_zhcn
+特别说明：（1）经测试，案例软件ScreenToGif.exe不能用deepin-wine5和deepin-wine6-stable运行，可以用原生wine7.10运行（楼主已将原生wine版本升级为开发版wine-devel 7.10），因此本帖用原生wine7.10做例子。（2）Deepin系统预装的原生wine版本是4.0，过于老旧，喜欢尝鲜的小伙伴建议升级原生wine到最新版本。（3）**升级原生wine的方法见WineHQ官网：** https://wiki.winehq.org/Debian_zhcn
 
 ## 3、拷贝exe软件目录至容器c盘中
 
@@ -66,13 +66,13 @@ WINEARCH=win32 WINEPREFIX=~/.deepinwine/Wine-ScreenToGif wine winecfg
 
 运行exe程序的终端命令：
 
-```
+```bash
 WINEPREFIX=容器路径 wine "exe主程序在容器c盘中的路径"
 ```
 
 案例：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Wine-ScreenToGif wine "c:/Program Files/ScreenToGif/ScreenToGif.exe"
 ```
 
@@ -85,6 +85,8 @@ WINEPREFIX=~/.deepinwine/Wine-ScreenToGif wine "c:/Program Files/ScreenToGif/Scr
 ## 6、创建桌面图标
 
 在桌面新建一个txt文件（如screentogif.txt），复制以下内容到txt文件里：
+
+```ini
 [Desktop Entry]
 Categories=Application
 Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Wine-ScreenToGif wine "c:/Program Files/ScreenToGif/ScreenToGif.exe"'
@@ -94,6 +96,7 @@ Name=ScreenToGif
 StartupNotify=true
 Type=Application
 X-Deepin-Vendor=user-custom
+```
 
 注：
 
