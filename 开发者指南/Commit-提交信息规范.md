@@ -2,7 +2,7 @@
 title: Commit 提交信息规范
 description: 关于 deepin 源码仓库提交时的提交信息规范
 published: true
-date: 2022-08-30T03:18:16.527Z
+date: 2022-09-01T02:14:58.144Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T03:18:16.527Z
@@ -11,6 +11,10 @@ dateCreated: 2022-08-30T03:18:16.527Z
 为保证 git 提交记录能够清晰的反应提交的内容，我们制定了如下 commit 提交信息规范。此规范涵盖了社区贡献者与 Deepin 内部均需遵守的规范格式。
 
 由于社区贡献者与 Deepin 内部员工的贡献方式有别，关于以下规范中的部分信息是否需要填写的要求也会有所差异，将会在随后的段落中另行描述。
+
+> 请注意，Commit 提交规范适用于 git commit 时所填写的提交信息，
+> **而不是在 GitHub 发起 Pull Request 时所填写的标题与描述**。
+{.is-warning}
 
 ## Commit 格式小抄
 
