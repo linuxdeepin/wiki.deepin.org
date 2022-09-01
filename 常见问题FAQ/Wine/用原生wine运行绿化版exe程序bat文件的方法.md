@@ -1,16 +1,12 @@
 ---
-title: 用原生wine运行绿化版exe程序bat文件的方法
+title: 5-用原生wine运行绿化版exe程序bat文件的方法
 description: 
 published: true
-date: 2022-06-20T09:18:00.031Z
+date: 2022-09-01T14:39:33.382Z
 tags: wine exe bat
 editor: markdown
 dateCreated: 2022-06-20T09:08:38.886Z
 ---
-
-# 用原生wine运行绿化版exe程序（bat文件）的方法
-
-## 第5辑 用原生wine运行绿化版exe程序（bat文件）的方法
 
 之前开帖介绍过用原生wine运行便携式exe程序（绿色程序）的方法，有朋友想知道bat程序如何运行，现在再开一帖介绍一下方法。学习本帖内容前建议先看前四帖内容。
 
@@ -28,13 +24,13 @@ dateCreated: 2022-06-20T09:08:38.886Z
 
 创建容器的终端命令：
 
-```
+```bash
 WINEARCH=win32或者wine64 WINEPREFIX=容器路径 wine winecfg
 ```
 
 案例：
 
-```
+```bash
 WINEARCH=win32 WINEPREFIX=~/.deepinwine/Deepin-AppDemo wine winecfg
 ```
 
@@ -42,11 +38,11 @@ WINEARCH=win32 WINEPREFIX=~/.deepinwine/Deepin-AppDemo wine winecfg
 
 上述命令结构解析：
 
-（1）WINEARCH=后面写win32，即表示新建一个32位的容器，如果写win64，即表示新建一个64位的容器。
+1. `WINEARCH=`后面写win32，即表示新建一个32位的容器，如果写win64，即表示新建一个64位的容器。
 
-（2）WINEPREFIX=是指定的容器路径（此处Deepin-AppDemo就是准备新建的容器名称）。
+2. `WINEPREFIX=`是指定的容器路径（此处Deepin-AppDemo就是准备新建的容器名称）。
 
-（3）wine即你指定的wine的执行程序，原生wine的执行程序就是wine。
+3. `wine`即你指定的wine的执行程序，原生wine的执行程序就是wine。
 
 （注：创建容器时如果提示安装mono，可点取消。mono模拟的.NET Framework，不是所有exe软件都需要这个。需要的时候你再手动安装即可）
 
@@ -54,7 +50,11 @@ WINEARCH=win32 WINEPREFIX=~/.deepinwine/Deepin-AppDemo wine winecfg
 
 Windows版本要跟根据你所运行的exe软件要求选择。
 
-特别说明：（1）楼主已经把自己电脑里的原生wine升级到了最新版，即wine开发版7.11。（2）Deepin系统预装的原生wine版本是4.0，过于老旧，很多exe程序wine4.0都不能运行。因此建议小伙伴升级原生wine到最新版本。（3） **升级原生wine的方法见WineHQ官网：** https://wiki.winehq.org/Debian_zhcn
+特别说明：
+
+1. 楼主已经把自己电脑里的原生wine升级到了最新版，即wine开发版7.11。
+2. Deepin系统预装的原生wine版本是4.0，过于老旧，很多exe程序wine4.0都不能运行。因此建议小伙伴升级原生wine到最新版本。
+3. **升级原生wine的方法见WineHQ官网：** https://wiki.winehq.org/Debian_zhcn
 
 ## 3、拷贝exe软件目录至容器c盘中
 
@@ -64,13 +64,13 @@ Windows版本要跟根据你所运行的exe软件要求选择。
 
 运行bat文件的终端命令：
 
-```
+```bash
 WINEPREFIX=容器路径 wineconsole "bat文件在容器c盘中的路径"
 ```
 
 案例：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Deepin-AppDemo wineconsole "c:/Program Files/AppDemo/绿化处理.bat"
 ```
 
@@ -84,13 +84,13 @@ WINEPREFIX=~/.deepinwine/Deepin-AppDemo wineconsole "c:/Program Files/AppDemo/�
 
 终端命令：
 
-```
+```bash
 WINEPREFIX=容器路径 wine "exe程序在容器C盘中的路径"
 ```
 
 案例：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Deepin-AppDemo wine "c:/Program Files/Appdemo/AppDemo.exe"
 ```
 
@@ -101,6 +101,8 @@ WINEPREFIX=~/.deepinwine/Deepin-AppDemo wine "c:/Program Files/Appdemo/AppDemo.e
 ## 7、创建桌面图标
 
 在桌面新建一个txt文件（如screentogif.txt），复制以下内容到txt文件里：
+
+```ini
 [Desktop Entry]
 Categories=Application
 Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Deepin-AppDemo wine "c:/Program Files/AppDemo/AppDemo.exe"'
@@ -110,6 +112,7 @@ Name=AppDemo
 StartupNotify=true
 Type=Application
 X-Deepin-Vendor=user-custom
+```
 
 注：
 
@@ -126,7 +129,3 @@ Name= ————图标文件显示的名称
 ## 8、其他配置
 
 以上步骤为基础步骤。但除以上步骤外，有的exe软件还需要替换dll函数库，会用到winecfg、winetricks，有的软件需要安装mono或Gecko，有的软件还需要安装dxvk。这些都是比较高级的玩法，楼主能力有限，无法为大家讲解。
-
-
-
-
