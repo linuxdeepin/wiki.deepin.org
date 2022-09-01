@@ -1,22 +1,18 @@
 ---
-title: 用deepin-wine6-stable安装Office2013
+title: 6-用deepin-wine6-stable安装Office2013
 description: 
 published: true
-date: 2022-06-27T02:09:42.515Z
+date: 2022-09-01T14:34:21.015Z
 tags: office wine
 editor: markdown
 dateCreated: 2022-06-27T02:03:19.442Z
 ---
 
-# wine使用教程
-
-## 第6辑：在Deepin/UOS家庭版用deepin-wine6-stable安装Microsoft Office2013的方法
-
 注：建立deepin-wine6-stable环境：新装的系统需要安装一款应用商店里使用deepin-wine6-stable运行的wine应用（如wine版微信、wine版QQ），并运行一下。（系统会自动建立deepin-wine6-stable环境）
 
-## 一、下载Microsoft Office2013安装镜像并解压
+## 一、下载Microsoft Office 2013安装镜像并解压
 
-以下教学所用Microsoft Office2013安装镜像（cn_office_professional_plus_2013_x86_x64_dvd_1149708.iso）从[MSDN网站下载](https://msdn.itellyou.cn/)。
+以下教学所用Microsoft Office 2013安装镜像（cn_office_professional_plus_2013_x86_x64_dvd_1149708.iso）从[MSDN网站下载](https://msdn.itellyou.cn/)。
 
 ![1](https://storage.deepin.org/thread/202206262305275758_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220626230515.png)
 
@@ -32,19 +28,19 @@ Microsoft Office2013安装镜像iso文件放在下载文件夹（~/Downloads）
 
 终端命令：
 
-```
+```bash
 WINEARCH=win32 WINEPREFIX=~/.deepinwine/Deepin-Office deepin-wine6-stable winecfg
 ```
 
 上述命令结构解析：
 
-（1）字段1：WINEARCH=后面写win32，即表示新建一个32位的容器，如果写win64，即表示新建一个64位的容器。（目前wine对32位程序支持较好，若无特殊情况，建议新建32位容器）
+1. `WINEARCH=`后面写win32，即表示新建一个32位的容器，如果写win64，即表示新建一个64位的容器。（目前wine对32位程序支持较好，若无特殊情况，建议新建32位容器）
 
-（2）字段2：WINEPREFIX=是指定的容器路径
+2. `WINEPREFIX=`是指定的容器路径
 
-（3）字段3：deepin-wine6-stable是你使用的wine
+3. `deepin-wine6-stable`是你使用的wine
 
-（4）字段4：winecfg是调出wine设置
+4. `winecfg`是调出wine设置
 
 **注意：不同字段之间有一个空格（英文输入法），下同。**
 
@@ -58,45 +54,47 @@ WINEARCH=win32 WINEPREFIX=~/.deepinwine/Deepin-Office deepin-wine6-stable winecf
 
 终端命令：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Deepin-Office deepin-wine6-stable ~/Downloads/cn_office_professional_plus_2013_x86_x64_dvd_1149708/setup.exe
 ```
 
 上述命令结构解析：
 
-（1）字段1：WINEPREFIX=是指定的容器路径
+1. `WINEPREFIX=`是指定的容器路径
 
-（2）字段2：deepin-wine6-stable是你使用的wine
+2. `deepin-wine6-stable`是你使用的wine
 
-（3）字段3：最后接你要运行的exe程序的路径
+3. 最后接你要运行的exe程序的路径
 
 ![5](https://storage.deepin.org/thread/202206262317377490_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220626223623.png)
 
 弹出Office的安装引导界面后，按提示操作安装即可。
 
-#### 四、测试运行
+## 四、测试运行
 
 终端命令：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Deepin-Office deepin-wine6-stable "c:/Program Files/Microsoft Office/Office15/WINWORD.EXE"
 ```
 
 上述命令结构解析：
 
-（1）字段1：WINEPREFIX=是指定的容器路径
+1. `WINEPREFIX=`是指定的容器路径
 
-（2）字段2：deepin-wine6-stable是你使用的wine
+2. `deepin-wine6-stable`是你使用的wine
 
-（3）字段3：最后接英文双引号，双引号内是你要运行的exe程序在容器drive_c（即模拟的c盘）中的路径，这里测试的Word
+3. 最后接英文双引号，双引号内是你要运行的exe程序在容器drive_c（即模拟的c盘）中的路径，这里测试的Word
 
 ![6](https://storage.deepin.org/thread/202206262320599265_%E6%88%AA%E5%9B%BE_winword.exe_20220626224510.png)
 
-五、制作桌面图标
+## 五、制作桌面图标
+
 以Access的图标为例，Word、Excel、PowerPoint的图标制作方法一样，就不一一介绍了。
 
 在桌面新建一个txt文件，命名为MSACCESS.txt，复制以下内容到txt文件里：
 
+```ini
 [Desktop Entry]
 Categories=Application
 Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Deepin-Office deepin-wine6-stable "c:/Program Files/Microsoft Office/Office15/MSACCESS.EXE"'
@@ -106,6 +104,8 @@ Name=Access
 StartupNotify=true
 Type=Application
 X-Deepin-Vendor=user-custom
+```
+
 保存退出txt，右键重命名，把这个txt文件的后缀改为desktop
 
 ![7](https://storage.deepin.org/thread/202206262324484109_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220626232435.png)
@@ -120,9 +120,9 @@ Icon= ————指图标路径，如果图标在~/.local/share/icons/hicolor�
 
 Name= ————图标文件显示的名称，这里填Access
 
-**特别说明，Exec=后面不能用~来代替/home/$USER**
+**特别说明，Exec=后面不能用`~`来代替`/home/$USER`**
 
-### 六、双击运行桌面图标测试一下
+## 六、双击运行桌面图标测试一下
 
 成功运行
 
