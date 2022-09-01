@@ -2,7 +2,7 @@
 title: 开发者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-01T05:20:34.564Z
+date: 2022-09-01T06:12:30.575Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
@@ -16,7 +16,10 @@ dateCreated: 2022-08-29T07:13:11.941Z
 
 # 贡献通道
 
-> TODO: 应当有两个单独的介绍页面针对两个不同组织下的仓库的贡献方式
+1. linuxdeepin 组织：[linuxdeepin 贡献指南](/zh/开发者指南/贡献指南/linuxdeepin-contributing-handbook)
+2. deepin-community 组织：TODO
+
+> TODO: 提供并链接到 deepin-community 组织下仓库的贡献方式文档
 {.is-warning}
 
 # 贡献流程概览
@@ -95,10 +98,16 @@ stop
 
 - CLA 贡献者协议检查（`clacheck`）
 - Commit 信息检查（`commitlint`）
-- deepin 环境构建检查（`build-deb`）
-- 其它发行版构建检查（`build-distribution`）
+- UOS 环境构建检查（`build-deb`）
+- deepin 和其它发行版构建检查（`build-distribution`）
 
 其中，关于 Commit 信息的检查请参阅 [Commit-提交信息规范](/zh/开发者指南/规范文档/Commit-提交信息规范)。
+
+### GitHub 持续集成辅助工具
+
+为了使开发过程变得更轻松，使研发人员和贡献者可以更灵活的处理持续集成检查遇到的问题，我们为 GitHub 的持续集成提供了一些便捷指令，来执行类如指派代码评审人员、重新触发指定检查、主动进行代码合并等动作。对于这些命令，我们也提供了相关的插件脚本，来使开发者可以自动化输入对应命令。
+
+对于相关的持续集成辅助工具和用法，请参阅 [pull-request-bot-commands-list](/zh/开发者指南/pull-request-bot-commands-list)。
 
 ## 软件包开发仓库
 
