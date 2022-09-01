@@ -2,7 +2,7 @@
 title: 开发者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-01T09:21:29.206Z
+date: 2022-09-01T09:25:18.758Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
@@ -115,7 +115,7 @@ stop
 
 为了使开发过程变得更轻松，使研发人员和贡献者可以更灵活的处理持续集成检查遇到的问题，我们为 GitHub 的持续集成提供了一些便捷指令，来执行类如指派代码评审人员、重新触发指定检查、主动进行代码合并等动作。对于这些命令，我们也提供了相关的插件脚本，来使开发者可以自动化输入对应命令。
 
-对于相关的持续集成辅助工具和用法，请参阅 [pull-request-bot-commands-list](/zh/开发者指南/pull-request-bot-commands-list)。
+对于相关的持续集成辅助工具和用法，请参阅 [Pull Request 机器人命令列表](/zh/开发者指南/pull-request-bot-commands-list)。
 
 ## 软件包开发仓库
 
