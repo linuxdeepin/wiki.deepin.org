@@ -2,7 +2,7 @@
 title: 5-用原生wine运行绿化版exe程序bat文件的方法
 description: 
 published: true
-date: 2022-09-01T14:39:33.382Z
+date: 2022-09-02T08:06:43.014Z
 tags: wine exe bat
 editor: markdown
 dateCreated: 2022-06-20T09:08:38.886Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-20T09:08:38.886Z
 
 之前开帖介绍过用原生wine运行便携式exe程序（绿色程序）的方法，有朋友想知道bat程序如何运行，现在再开一帖介绍一下方法。学习本帖内容前建议先看前四帖内容。
 
-用原生wine运行绿化版exe程序（bat程序）的方法其实跟[wine使用教程4-用原生wine运行便携式exe程序（绿色软件）的方法](https://bbs.deepin.org/post/239212)是差不多的，只不过把wine命令换成wineconsole而已。
+用原生wine运行绿化版exe程序（bat程序）的方法其实跟[wine使用教程4-用原生wine运行便携式exe程序（绿色软件）的方法](/zh/常见问题FAQ/Wine/用原生wine运行便携式exe程序绿色软件的方法)是差不多的，只不过把wine命令换成wineconsole而已。
 
 本帖案例软件名称假定为AppDemo.exe，bat文件名称假定为绿化处理.bat，容器名称假定为Deepin-AppDemo
 
