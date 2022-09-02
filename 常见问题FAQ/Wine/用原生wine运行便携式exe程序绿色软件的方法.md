@@ -2,7 +2,7 @@
 title: 4-用原生wine运行便携式exe程序绿色软件的方法
 description: 
 published: true
-date: 2022-09-01T14:17:13.304Z
+date: 2022-09-02T08:22:05.778Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T09:06:18.041Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-20T09:06:18.041Z
 
 之前开帖介绍过用wine安装exe程序的方法，有朋友想知道用wine运行便携式exe程序（也称绿色软件）的方法，今天再开一帖介绍一下方法。学习本帖内容前建议先看前三帖内容。
 
-用wine运行绿色软件的方法其实跟[wine使用教程1-用原生wine安装/运行exe程序的方法](https://bbs.deepin.org/post/238762)是差不多的，只不过少了安装程序的步骤而已。
+用wine运行绿色软件的方法其实跟[wine使用教程1-用原生wine安装/运行exe程序的方法](/zh/常见问题FAQ/Wine/wine如何安装运行exe程序)是差不多的，只不过少了安装程序的步骤而已。
 
 方法如下：
 
