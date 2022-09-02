@@ -1,62 +1,60 @@
 ---
-title: 原生wine安装/运行exe程序的方法
+title: 1-原生wine安装/运行exe程序的方法
 description: 
 published: true
-date: 2022-06-20T08:31:47.833Z
+date: 2022-09-02T08:18:58.745Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T08:14:10.550Z
 ---
 
-# wine使用教程
-
-## 第1辑：在Deepin用原生wine安装/运行exe程序的方法
-
 注：
 
-1、以下教学以[32位7-Zip的安装程序7z2107.exe](https://pc.qq.com/detail/0/detail_900.html)（版本21.7.0.0）为案例软件，该exe程序我放在系统下载（Downloads）文件夹，即/home/$USER/Downloads/7z2107.exe，或者写作~/Downloads/7z2107.exe
+1. 以下教学以[32位7-Zip的安装程序7z2107.exe](https://pc.qq.com/detail/0/detail_900.html)（版本21.7.0.0）为案例软件，该exe程序我放在系统下载（Downloads）文件夹，即/home/$USER/Downloads/7z2107.exe，或者写作~/Downloads/7z2107.exe
 
-多数情况下，/home/$USER与~可以相互替代。
+	多数情况下，/home/$USER与~可以相互替代。
 
-2、wine对32位的exe程序支持较好，所以尽量选择32的软件。
+2. wine对32位的exe程序支持较好，所以尽量选择32的软件。
 
-### 一、安装exe程序
+# 一、安装exe程序
 
 查看系统上原生wine的版本，终端输入：
 
+```bash
 wine --version
+```
 
 原生wine的默认容器路径：/home/$USER/.wine 或~/.wine
 
 用原生wine安装/运行windows软件的方法：
 
-##### 方法1：安装程序到默认容器（方法1不推荐，推荐方法2）
+### 方法1：安装程序到默认容器（方法1不推荐，推荐方法2）
 
 终端输入：
 
-```
+```bash
 wine /exe文件路径
 ```
 
 案例：
 
-```
+```bash
 wine ~/Downloads/7z2107.exe
 ```
 
 安装好后，就可以在/home/$USER/.wine/drive_c/Program Files里看到7-Zip的程序文件了。
 
-##### **方法2：安装程序到一个新建的容器**
+### 方法2：安装程序到一个新建的容器
 
 终端命令：
 
-```
+```bash
 WINEARCH=win32或者wine64 WINEPREFIX=容器路径 wine 需安装/运行的exe软件的路径
 ```
 
 案例：
 
-```
+```bash
 WINEARCH=win32 WINEPREFIX=~/.deepinwine/Wine-7zip wine ~/Downloads/7z2107.exe
 ```
 
@@ -64,93 +62,81 @@ WINEARCH=win32 WINEPREFIX=~/.deepinwine/Wine-7zip wine ~/Downloads/7z2107.exe
 
 上述命令结构解析：
 
-（1）WINEARCH=后面写win32，即表示新建一个32位的容器，如果写win64，即表示新建一个64位的容器。
+1. `WINEARCH=`后面写win32，即表示新建一个32位的容器，如果写win64，即表示新建一个64位的容器。
 
-（2）WINEPREFIX=是指定的容器路径（此处Wine-7zip就是容器名称），如果容器不存在，会默认新建这个容器。
+2. `WINEPREFIX=`是指定的容器路径（此处Wine-7zip就是容器名称），如果容器不存在，会默认新建这个容器。
 
-（3）wine即你指定的wine的执行程序，原生wine的执行程序就是wine。（如果要用deepin-wine，则这里可以换成deepin-wine5或者deepin-wine6-stable，或者~/.deepinwine/deepin-wine5-stable/bin/wine）
+3. wine即你指定的wine的执行程序，原生wine的执行程序就是wine。（如果要用deepin-wine，则这里可以换成`deepin-wine5`或者`deepin-wine6-stable`，或者`~/.deepinwine/deepin-wine5-stable/bin/wine`）
 
-### 二、运行已安装到容器内的exe主程序
+# 二、运行已安装到容器内的exe主程序
 
 终端命令：
 
-```
+```bash
 WINEPREFIX=容器路径 wine “c:/exe主程序虚拟C盘（即drive_c）里的路径”
 ```
 
 案例：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Wine-7zip wine "c:/Program Files/7-Zip/7zFM.exe"
 ```
 
-### 三、winecfg设置
+# 三、winecfg设置
 
 可设置虚拟的windows版本、替换dll函数、窗口修饰、显示分辨率等。
 
-1、修改windows版本
+1. 修改Windows版本
+  默认的Windows版本是Windows 7，有的exe安装时提示系统版本太低的话，就需要利用winecfg修改为Windows 10。有的exe软件在Windows XP表现更好，就需要用winecfg修改为Windows XP。
+  打开winecfg的终端命令：
+    ```bash
+    WINEPREFIX=容器路径 winecfg
+    ```
+    案例：
+    ```bash
+    WINEPREFIX=~/.deepinwine/Wine-7zip winecfg
+    ```
+    上述命令结构解析：
+    `WINEPREFIX=`是指定的容器路径，后面打一个空格，然后输入winecfg
+    案例软件7-Zip无需修改windows版本即可正常运行。
 
-默认的windows版本是windows7，有的exe安装时提示系统版本太低的话，就需要利用winecfg修改为windows10。有的exe软件在windows xp表现更好，就需要用winecfg修改为windows xp。
+2. 函数库函数顶替
+  有的exe软件，无需新增函数顶替。
+  有的exe软件，新增以下几个函数顶替基本上就能正常运行了：atl100、mlang、msls31、riched20、usp10
+  有的exe软件还需要添加msvcp60、riched32等函数
+  案例软件7-Zip无需新增顶替函数即可正常运行。
 
-打开winecfg的终端命令：
-
-```
-WINEPREFIX=容器路径 winecfg
-```
-
-案例：
-
-```
-WINEPREFIX=~/.deepinwine/Wine-7zip winecfg
-```
-
-上述命令结构解析：
-
-WINEPREFIX=是指定的容器路径，后面打一个空格，然后输入winecfg
-
-案例软件7-Zip无需修改windows版本即可正常运行。
-
-2、函数库函数顶替
-
-有的exe软件，无需新增函数顶替。
-
-有的exe软件，新增以下几个函数顶替基本上就能正常运行了：atl100、mlang、msls31、riched20、usp10
-
-有的exe软件还需要添加msvcp60、riched32等函数
-
-案例软件7-Zip无需新增顶替函数即可正常运行。
-
-### 四、字体设置
+# 四、字体设置
 
 由于linux系统默认是没有windows常用字体（如Arial、微软雅黑、宋体），所以用wine安装的exe软件大概率会出现字体乱码、字体呈现方块、字体显示不出来等问题。此时，需要设置字体，方法有三种：
 
-##### 第一种：直接安装“Win字体”应用
+### 第一种：直接安装“Win字体”应用
 
 到星火应用商店里下载安装“Win字体”。安装好后，再调出winecfg（方法如前述），字体选项下勾选“允许加载系统字体”，建议顺便把“允许加载Windows Fonts目录下的字体”也勾上。（最新原生wine版本，如wine-devel-7.10的winecfg里面已经没有字体选项了，可能是改成默认了吧）
 
-##### 第二种：复制字体到虚拟C盘的字体文件夹
+### 第二种：复制字体到虚拟C盘的字体文件夹
 
 将exe软件需要用的字体文件（如宋体的文件为simsun.ttf）复制粘贴到容器的字体文件夹，路径通常为：
 
-~/.deepinwine/容器名称/drive_c/windows/Fonts
+`~/.deepinwine/容器名称/drive_c/windows/Fonts`
 
-案例软件Fonts文件夹路径：~/.deepinwine/Wine-7zip/drive_c/windows/Fonts
+案例软件Fonts文件夹路径：`~/.deepinwine/Wine-7zip/drive_c/windows/Fonts`
 
 调出winecfg（方法如前述），字体选项下勾选“允许加载Windows Fonts目录下的字体”，建议顺便把“允许加载系统字体”也勾上。（最新原生wine版本，如wine-devel-7.10的winecfg里面已经没有字体选项了，可能是改成默认了吧）
 
-##### 第三种：修改字体注册表
+### 第三种：修改字体注册表
 
 不安装字体，而是在虚拟的windows注册表里把需要的字体替换为你系统已有字体。
 
 打开注册表的命令：
 
-```
+```bash
 WINEPREFIX=容器路径 regedit
 ```
 
 案例：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Wine-7zip regedit
 ```
 
@@ -164,28 +150,29 @@ WINEPREFIX=~/.deepinwine/Wine-7zip regedit
 
 ![图片2](https://storage.deepin.org/thread/202206101543466844_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20220610154327.png)
 
-### 五、winetricks设置
+# 五、winetricks设置
 
 可以添加一些运行时、组件、dll。不是每一个exe软件都需要用到winetricks。案例软件7-zip无需设置winetricks。
 
 安装winetricks的终端命令：
 
-```
+```bash
 sudo apt install winetricks
 ```
 
 运行winetricks的终端命令：
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Wine-7zip winetricks
 ```
 
 选择默认的wine容器——安装windows DLL和组件，然后根据需要安装运行时、组件、dll。
 
-### 六、给exe软件制作一个桌面图标
+# 六、给exe软件制作一个桌面图标
 
 在桌面新建一个txt文件（如7zip.txt），复制以下内容：
 
+```ini
 [Desktop Entry]
 Categories=Application
 Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Wine-7zip wine "c:/Program Files/7-Zip/7zFM.exe"'
@@ -195,6 +182,7 @@ Name=7-zip
 StartupNotify=true
 Type=Application
 X-Deepin-Vendor=user-custom
+```
 
 保存txt，右键重命名，把这个txt文件的后缀改为desktop（如7zip.desktop）
 
@@ -213,21 +201,21 @@ Name= ————图标文件显示的名称
 **特别说明，Exec=后面不能用~来代替/home/$USER**
 
 
-### 七、卸载exe软件
+# 七、卸载exe软件
 
 终端命令：
 
-```
+```bash
 WINEPREFIX=容器路径 wine "c:/exe软件的卸载程序uninstall.exe的路径"
 ```
 
 案例:
 
-```
+```bash
 WINEPREFIX=~/.deepinwine/Wine-7zip wine "c:/Program Files/7-Zip/Uninstall.exe"
 ```
 
-### 八、升级原生wine版本
+# 八、升级原生wine版本
 
 具体方法参考[WineHQ官网方法](https://wiki.winehq.org/Debian_zhcn)
 
