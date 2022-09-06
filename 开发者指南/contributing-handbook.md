@@ -2,7 +2,7 @@
 title: 开发者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-01T09:52:08.879Z
+date: 2022-09-06T03:37:41.938Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
@@ -30,7 +30,7 @@ dateCreated: 2022-08-29T07:13:11.941Z
 
 大致的代码贡献流程如图所示：
 
-![2022-9-1_80815.png](/2022-9-1_80815.png)
+![2022-9-1_80815.png](https://wiki.deepin.org/2022-9-1_80815.png)
 
 <!--
 
