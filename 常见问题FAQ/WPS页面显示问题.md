@@ -2,7 +2,7 @@
 title: WPS页面显示问题
 description: 相关论坛帖子链接：https://bbs.deepin.org/zh/post/238699；https://bbs.deepin.org/zh/post/240463
 published: true
-date: 2022-09-06T07:26:03.838Z
+date: 2022-09-06T07:27:57.127Z
 tags: wps, 页面显示
 editor: markdown
 dateCreated: 2022-09-06T07:26:03.838Z
@@ -11,7 +11,7 @@ dateCreated: 2022-09-06T07:26:03.838Z
 # WPS表格显示问题
 感谢论坛用户 hotime 提供的解决方法
 ### 1、问题描述
-如下图wps中显示不全的问题：
+如下图wps中，橫行ABCD...和数列1234...显示不全的问题：
 ![2022-9-6_84457.png](/2022-9-6_84457.png)
 ### 2、问题产生原因
 这是因为WPS表格的默认字体为宋体, 而deepin系统没有宋体, 所以导致的异常。
