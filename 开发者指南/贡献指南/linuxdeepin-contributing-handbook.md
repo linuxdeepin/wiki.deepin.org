@@ -2,7 +2,7 @@
 title: linuxdeepin 贡献指南
 description: 向 linuxdeepin 组织下进行代码贡献时的参考手册指南文档
 published: true
-date: 2022-09-07T05:12:49.042Z
+date: 2022-09-07T07:46:23.190Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T05:39:03.035Z
@@ -63,14 +63,32 @@ fork 自上游的项目，需遵守项目自身的规范。
 
 我们以如下三类名称描述不同参与程度的社区贡献者。
 
-## Contributor
+## Contributor 贡献者
 
 参与过 linuxdeepin 组织内任何程度的贡献，如报告 Issue，提交 PR 的，均为 linuxdeepin 组织的 Contributor。
 
-## Developer
+## Developer 开发者
 
 提交 Pull Request，且不仅仅是 fix typo 类的贡献，而是为所贡献的项目带来了更大的收益，如解决 Bug，添加功能，此类贡献者即为 linuxdeepin 组织的 Developer。
 
-## Maintainer
+以开发者身份参与贡献的成员，在满足相关要求的情况下，可以自我提名或联系其他维护者，将自己提名为 Maintainer 维护者。
+
+## Maintainer 维护者
 
 各个项目的主要 Developer（代码贡献量排名靠前的社区成员），可以被此项目现有的 Maintainer 或 linuxdeepin 组织的 Owner 提名为此项目的 Maintainer。
+
+### 相关要求
+
+相对于普通开发者，我们需要确保维护人员能承担维护项目的责任，故对维护人员具有一定要求：
+
+1. 熟悉代码库（对于大型项目，至少应了解项目大体结构，并熟悉自己所维护的特定模块）
+2. 能够熟练运用 GitHub 进行代码评审
+3. 作为开发者，向项目提交并合入过至少 10 次代码贡献
+4. 参与过至少 10 次对其他开发者的代码评审
+
+### 职责与权利
+
+1. 负责自己相应部分的开发或维护，也参与对应代码相关的变更的代码评审。
+2. 核心维护者也将主导项目的技术选型，代码架构和发布规划。
+3. Maintainer 可以提名其他开发者成为 Maintainer。
+4. 组织相关的研发、分享或讨论会议。
