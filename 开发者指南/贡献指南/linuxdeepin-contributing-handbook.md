@@ -2,7 +2,7 @@
 title: linuxdeepin 贡献指南
 description: 向 linuxdeepin 组织下进行代码贡献时的参考手册指南文档
 published: true
-date: 2022-09-02T06:36:50.066Z
+date: 2022-09-07T05:12:49.042Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-01T05:39:03.035Z
@@ -14,7 +14,7 @@ dateCreated: 2022-09-01T05:39:03.035Z
 
 # 贡献指南
 
-本文默认为您已经了解了代码贡献流程，如您对此方面存在疑惑，请参阅《[contributing-handbook](/zh/开发者指南/contributing-handbook)》。
+本文默认为您已经了解了代码贡献流程，如您对此方面存在疑惑，请参阅《[贡献者手册](/zh/开发者指南/contributing-handbook)》。
 
 ## 可以接受的代码
 
