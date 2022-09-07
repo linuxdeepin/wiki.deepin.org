@@ -1,8 +1,8 @@
 ---
-title: 开发者手册
+title: 贡献者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-06T03:37:41.938Z
+date: 2022-09-07T05:12:11.454Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
