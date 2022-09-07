@@ -2,7 +2,7 @@
 title: Commit 提交信息规范
 description: 关于 deepin 源码仓库提交时的提交信息规范
 published: true
-date: 2022-09-01T02:14:58.144Z
+date: 2022-09-07T02:31:31.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T03:18:16.527Z
@@ -91,6 +91,10 @@ Influence: 所有dtk应用的标题栏、窗口圆角
 当您向 GitHub 的 [linuxdeepin](https://github.com/linuxdeepin/) 组织下的仓库发起 Pull Request 时，通常会进行针对提交信息的自动化检查。
 
 当前，自动化检查使用 [action-conventionalcommits-checker](https://github.com/linuxdeepin/action-conventionalcommits-checker/) 进行，此检查将会检查 **Pull Request 内所包含的所有提交** 是否符合上述的 **约定式提交** 规范。此检查要求提交信息的标题一行必须遵循约定式提交规范，且 Commit 必须包含详细描述的段落。若 PR 所包含的任一提交不符合规范，则会导致检查失败。
+
+> 在 GitHub 在线应用的修改建议也需要遵循 Commit 信息规范。请注意其默认所填充的内容是 **不符合** Commit 信息规范的，需要进行修改。
+> ![2022-9-7_86352.png](/2022-9-7_86352.png)
+{.is-warning}
 
 > 在 GitHub 的 Pull Request 中，当 PR 分支所基于的提交落后于主干时，会展示更新分支的选项。此时若选择 “Update branch” (Update with merge commit) 形式更新 PR 分支，则可能导致来自主干的其它提交被引入到 PR 分支，并会同时自动创建一个新的 Commit，因而导致 Commit 检查失败。
 > 
