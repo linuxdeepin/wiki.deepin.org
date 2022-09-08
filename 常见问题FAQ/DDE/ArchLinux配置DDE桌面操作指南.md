@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T11:36:51.928Z
+date: 2022-09-08T11:38:51.695Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -45,7 +45,7 @@ Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。�
 
 ![2022-9-8_31037.png](/2022-9-8_31037.png)
 
-# 四、安装注意事项及安装步骤
+# 四、安装注意事项
 ## 注意事项
 - 安装 `ArchLinux` 需要联网;
 - `mount` 挂载是将 硬盘里分区 挂载到 **live 环境**
@@ -53,7 +53,7 @@ Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。�
 - 设置了分区表之后, 还需要格式化
 - 没有网络,需要安装 `NetworkManager` 和 执行 `dhcpcd`
 - 磁盘的分区表有两种方式 `uefi + gpt + efi` 或 `legacy + mbr`
-- 安装启动器有：`grub(bios 启动)` 或 `grub + efibootmgr ==> (EFI 启动)`
+- 安装启动器有：`grub(bios 启动)` 或 `grub + efibootmgr(EFI 启动)`
 
 ## 安装步骤
 1. 清空一个 **磁盘**
