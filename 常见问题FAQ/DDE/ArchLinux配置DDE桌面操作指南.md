@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T10:24:05.487Z
+date: 2022-09-08T10:24:35.017Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -21,7 +21,7 @@ Arch 努力使其软件包尽可能接近原始上游软件。补丁仅在必要
 
 总而言之：Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Linux® 用户的需求。它功能强大且易于管理，使其成为服务器和工作站的理想发行版。把它带到你喜欢的任何方向。
 
-# 二、系统优缺点总结
+# 二、Arch Linux优缺点总结
 Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。其中“简单”(Simplicity)被定义为“避免不必要或复杂的修改”，也就是说，是由开发者角度定义，而非用户角度思考。
 
 ## 优势
