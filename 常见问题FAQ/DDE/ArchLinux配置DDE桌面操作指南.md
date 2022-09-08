@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T11:39:38.434Z
+date: 2022-09-08T11:46:30.401Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -20,6 +20,15 @@ Arch Linux 使用“滚动发布”系统，允许一次性安装和永久软件
 Arch 努力使其软件包尽可能接近原始上游软件。补丁仅在必要时应用，以确保应用程序与安装在最新 Arch 系统上的其他软件包一起正确编译和运行。
 
 总而言之：Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Linux® 用户的需求。它功能强大且易于管理，使其成为服务器和工作站的理想发行版。把它带到你喜欢的任何方向。
+
+Linux发行版=Linux内核+包管理工具+桌面环境
+
+从表面来看，各个Linux发行版不同之处在于发行版集成的工具、包管理工具以及软件仓库的不同，而不是桌面环境（DE）的不同，当然还有稳定性、服务等方面的不同。
+
+常见的Linux发行版有Ubuntu、Fedora、openSUSE、Debian、Mint、CentOS、Arch、Gentoo、Deepin
+
+![2022-9-8_21062.jpg](/2022-9-8_21062.jpg)
+
 
 # 二、Arch Linux优缺点总结
 Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。其中“简单”(Simplicity)被定义为“避免不必要或复杂的修改”，也就是说，是由开发者角度定义，而非用户角度思考。
