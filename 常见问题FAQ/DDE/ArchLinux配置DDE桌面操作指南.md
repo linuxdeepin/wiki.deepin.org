@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T11:38:51.695Z
+date: 2022-09-08T11:39:11.276Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -45,7 +45,7 @@ Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。�
 
 ![2022-9-8_31037.png](/2022-9-8_31037.png)
 
-# 四、安装注意事项
+# 四、安装注意事项及步骤
 ## 注意事项
 - 安装 `ArchLinux` 需要联网;
 - `mount` 挂载是将 硬盘里分区 挂载到 **live 环境**
