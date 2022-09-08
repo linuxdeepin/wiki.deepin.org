@@ -2,7 +2,7 @@
 title: Fedora36安装深度桌面
 description: Fedora36安装深度桌面
 published: true
-date: 2022-09-08T03:38:37.841Z
+date: 2022-09-08T06:02:20.193Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-07T09:34:53.083Z
