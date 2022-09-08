@@ -2,7 +2,7 @@
 title: 贡献者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-07T05:12:11.454Z
+date: 2022-09-08T01:57:28.056Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
@@ -12,11 +12,11 @@ dateCreated: 2022-08-29T07:13:11.941Z
 
 欢迎！无论您是想要实现新的特性，还是想贡献简单的 Patch ，甚至只是想修改文档中的错别字，我们都非常欢迎并感谢您的帮助。
 
-如果您还不清楚应当从何处以及如何获取源码，请先参阅 [获取和使用源码](/zh/开发者指南/获取和使用源码)。
+如果您还不清楚应当从何处以及如何获取源码，请先参阅 [获取和使用源码](https://wiki.deepin.org/zh/开发者指南/获取和使用源码)。
 
 # 贡献通道
 
-1. linuxdeepin 组织：[linuxdeepin 贡献指南](/zh/开发者指南/贡献指南/linuxdeepin-contributing-handbook)
+1. linuxdeepin 组织：[linuxdeepin 贡献指南](https://wiki.deepin.org/zh/开发者指南/贡献指南/linuxdeepin-contributing-handbook)
 2. deepin-community 组织：TODO
 
 > TODO: 提供并链接到 deepin-community 组织下仓库的贡献方式文档
@@ -70,7 +70,7 @@ stop
 - [创建 GitHub 账号](https://docs.github.com/cn/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 - [关于 Pull Request](https://docs.github.com/cn/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 - [git 使用手册](https://git-scm.com/book/en/v2)（[中文版](https://git-scm.com/book/zh/v2)）
-- [贡献许可协议](/zh/开发者指南/贡献许可协议)
+- [贡献许可协议](https://wiki.deepin.org/zh/开发者指南/贡献许可协议)
 
 # 许可协议和行为准则
 
@@ -78,7 +78,7 @@ stop
 
 每个项目均有附带其对应的许可协议，在您开始着手代码贡献之前请确保您理解并同意对应的许可协议。若未另外声明，则您的代码将使用与对应项目相同的许可协议进行授权。
 
-为了便于 deepin 可以在必要时进行代码许可协议的调整来解决许可协议问题，在您打算进行代码贡献时，还需要签署相应的 CLA 协议（注：对于个人贡献者而言可以简单的在线完成签署）。与此相关的详情可参见 [贡献许可协议](/zh/开发者指南/贡献许可协议) 页面。
+为了便于 deepin 可以在必要时进行代码许可协议的调整来解决许可协议问题，在您打算进行代码贡献时，还需要签署相应的 CLA 协议（注：对于个人贡献者而言可以简单的在线完成签署）。与此相关的详情可参见 [贡献许可协议](https://wiki.deepin.org/zh/开发者指南/贡献许可协议) 页面。
 
 如果您对此相关有任何疑问，请邮件咨询 support@deepin.org。
 
@@ -109,28 +109,28 @@ stop
 - UOS 环境构建检查（`build-deb`）
 - deepin 和其它发行版构建检查（`build-distribution`）
 
-其中，关于 Commit 信息的检查请参阅 [Commit-提交信息规范](/zh/开发者指南/规范文档/Commit-提交信息规范)。
+其中，关于 Commit 信息的检查请参阅 [Commit-提交信息规范](https://wiki.deepin.org/zh/开发者指南/规范文档/Commit-提交信息规范)。
 
 ### GitHub 持续集成辅助工具
 
 为了使开发过程变得更轻松，使研发人员和贡献者可以更灵活的处理持续集成检查遇到的问题，我们为 GitHub 的持续集成提供了一些便捷指令，来执行类如指派代码评审人员、重新触发指定检查、主动进行代码合并等动作。对于这些命令，我们也提供了相关的插件脚本，来使开发者可以自动化输入对应命令。
 
-对于相关的持续集成辅助工具和用法，请参阅 [Pull Request 机器人命令列表](/zh/开发者指南/pull-request-bot-commands-list)。
+对于相关的持续集成辅助工具和用法，请参阅 [Pull Request 机器人命令列表](https://wiki.deepin.org/zh/开发者指南/pull-request-bot-commands-list)。
 
 ## 软件包开发仓库
 
-为了便于开发者，我们提供了 deepin、Arch Linux、Debian 三个版本的开发仓库，每个项目在合入新的代码后，都会自动化构建软件包进入到对应的仓库，目前仅支持 linuxdeepin 组织里的项目。详情请查看[此文档](/zh/开发者指南/仓库/使用action创建新的git仓库)。
+为了便于开发者，我们提供了 deepin、Arch Linux、Debian 三个版本的开发仓库，每个项目在合入新的代码后，都会自动化构建软件包进入到对应的仓库，目前仅支持 linuxdeepin 组织里的项目。详情请查看[此文档](https://wiki.deepin.org/zh/开发者指南/仓库/使用action创建新的git仓库)。
 
 ## 注意事项
 
 在确保您的修改可以被接受后，您就可以编写 Patch 并通过上述段落中提到的方式提交您的 Patch  / Pull Request 了。在您着手准备 Patch 时，请留意下方的注意事项：
 
 1. **Commit 信息规范**
-请参考 [Commit-提交信息规范](/zh/开发者指南/规范文档/Commit-提交信息规范)，
+请参考 [Commit-提交信息规范](https://wiki.deepin.org/zh/开发者指南/规范文档/Commit-提交信息规范)，
 2. **一个 Pull Request 只做一件事**
 您可能会希望对某个项目做一系列的改动，但为了保证代码的提交信息的有序，也为了保证代码审核方便有序，请保证您的一个 Pull Request 只做一件事，对于不同的修改内容，请提交多个不同的 Pull Request 来实现。
 3. **品牌专有名词**
-在代码的修改与提交过程中，可能涉及到一些与 deepin 相关的品牌专有名词，此时，请参阅 [品牌专有名词指导方针](/zh/开发者指南/规范文档/branding-guideline) 文档。
+在代码的修改与提交过程中，可能涉及到一些与 deepin 相关的品牌专有名词，此时，请参阅 [品牌专有名词指导方针](https://wiki.deepin.org/zh/开发者指南/规范文档/branding-guideline) 文档。
 
 # 工具配置
 
@@ -162,6 +162,6 @@ stop
 
 如果阅读上方的内容后依然有疑问，或是在任何步骤中遇到了问题，都可以直接与开发者们取得联系，一同进行讨论交流。
 
-我们提供常规的 Issue 与讨论板、邮件列表、即时聊天等途径以供联系。具体的联系方式请参阅 [交流方式](/zh/关于Deepin/Deepin社区/交流方式) 页面。
+我们提供常规的 Issue 与讨论板、邮件列表、即时聊天等途径以供联系。具体的联系方式请参阅 [交流方式](https://wiki.deepin.org/zh/关于Deepin/Deepin社区/交流方式) 页面。
 
 Happy Hacking！
