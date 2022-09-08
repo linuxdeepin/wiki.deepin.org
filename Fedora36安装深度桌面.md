@@ -2,7 +2,7 @@
 title: Fedora36安装深度桌面
 description: Fedora36安装深度桌面
 published: true
-date: 2022-09-07T09:34:53.083Z
+date: 2022-09-08T03:38:37.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-07T09:34:53.083Z
@@ -21,7 +21,7 @@ dateCreated: 2022-09-07T09:34:53.083Z
 
 深度桌面环境包含在 Fedora 36 的存储库中，使得安装相对简单。要开始安装，打开终端输入：```sudo dnf group install "Deepin Desktop" -y```
 安装可能需要几分钟时间，具体取决于硬件的使用年限，尤其是您的互联网连接。总体而言，下载量大约在 450MB 左右，之后所需的磁盘空间大小约为 1.5GB。
-安装完成后，您需要重新启动 PC。这可以在您的终端中使用以下命令快速完成。
+安装完成后，您需要重新启动 PC。这可以在您的终端中使用 ```reboot```命令快速完成。
 
 ## 登录深度桌面环境
 
@@ -41,3 +41,11 @@ dateCreated: 2022-09-07T09:34:53.083Z
 删除Deepin桌面环境的用户，请使用以下终端命令:
 ``` sudo dnf group remove "Deepin Desktop" ```
 完成后，重新启动系统。
+
+## 查看所有包环境信息
+在终端中输入：```yum list installed```查看所有包环境信息
+
+## 查看日志信息
+可在路径 ~/.cache/deepin下查看日志信息
+
+
