@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T11:15:40.292Z
+date: 2022-09-08T11:16:00.157Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -40,11 +40,6 @@ Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。�
 
 # 三、Arch Linux下载
 ## 官网镜像下载地址：https://archlinux.org/releng/releases/  
-
-
-  		  
-        
-
 
 ![2022-9-8_13335.png](/2022-9-8_13335.png)
 
