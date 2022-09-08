@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T11:35:57.750Z
+date: 2022-09-08T11:36:51.928Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -54,3 +54,25 @@ Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。�
 - 没有网络,需要安装 `NetworkManager` 和 执行 `dhcpcd`
 - 磁盘的分区表有两种方式 `uefi + gpt + efi` 或 `legacy + mbr`
 - 安装启动器有：`grub(bios 启动)` 或 `grub + efibootmgr ==> (EFI 启动)`
+
+## 安装步骤
+1. 清空一个 **磁盘**
+2. 对 **磁盘** 设置 **分区表**
+3. 对 **子分区** 选择适合的 **TYPE**；
+4. 选用各自的 **文件类型** 格式化 **子分区** ；
+5. 下载 `archLinu_xxxxx.iso` 镜像
+6. 设置第一启动项
+7. 开机自动进入 **live 环境**
+8. 将 **磁盘** 挂载
+9. 换源
+10. 安装 **基本包**（含内核等）
+11. 配置 `fstab` 后，`chroot` 切换操作权
+12. 安装 **必须软件包** ，设置 `Locale`
+13. 设置 `root` 密码，和新建一个用户
+14. 安装 `Intel-ucode`（非 `Intel` CPU 跳过）
+15. 安装引导 `grub`
+16. 退出和重启系统
+17. 开启 `NetworkManager` 服务自动联网
+18. 安装桌面环境 `DDE`
+19. 详细的个性化配置
+20. 享受 `ArchLinux` 的快乐
