@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T11:28:43.395Z
+date: 2022-09-08T11:29:05.071Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -52,3 +52,4 @@ Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。�
 - 设置了分区表之后, 还需要格式化
 - 没有网络,需要安装 `NetworkManager` 和 执行 `dhcpcd`
 - 磁盘的分区表有两种方式 `uefi + gpt + efi` 或 `legacy + mbr`
+- 安装启动器有三种情况：`grub(bios 启动)` 或 `grub + efibootmgr ==> (EFI 启动)`
