@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T10:20:25.244Z
+date: 2022-09-08T10:21:13.193Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -20,3 +20,5 @@ Arch Linux 使用“滚动发布”系统，允许一次性安装和永久软件
 Arch 努力使其软件包尽可能接近原始上游软件。补丁仅在必要时应用，以确保应用程序与安装在最新 Arch 系统上的其他软件包一起正确编译和运行。
 
 总而言之：Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Linux® 用户的需求。它功能强大且易于管理，使其成为服务器和工作站的理想发行版。把它带到你喜欢的任何方向。
+
+# 二、Arch Linux系统优缺点总结
