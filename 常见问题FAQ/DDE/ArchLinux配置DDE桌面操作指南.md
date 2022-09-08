@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T11:39:20.021Z
+date: 2022-09-08T11:39:38.434Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -55,7 +55,7 @@ Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。�
 - 磁盘的分区表有两种方式 `uefi + gpt + efi` 或 `legacy + mbr`
 - 安装启动器有：`grub(bios 启动)` 或 `grub + efibootmgr(EFI 启动)`
 
-## 安装大致步骤
+## 安装思路梳理
 1. 清空一个 **磁盘**
 2. 对 **磁盘** 设置 **分区表**
 3. 对 **子分区** 选择适合的 **TYPE**；
