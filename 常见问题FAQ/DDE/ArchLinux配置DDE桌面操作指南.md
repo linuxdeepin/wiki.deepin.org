@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T10:21:40.913Z
+date: 2022-09-08T10:23:30.294Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -24,16 +24,16 @@ Arch 努力使其软件包尽可能接近原始上游软件。补丁仅在必要
 # 二、Arch Linux系统优缺点总结
 Arch linux是朝向轻量(lightweight)以及简单(simple)的Linux发行版。其中“简单”(Simplicity)被定义为“避免不必要或复杂的修改”，也就是说，是由开发者角度定义，而非用户角度思考。
 
-二、优势
+## 优势
 
-1.特有的包管理系统Archlinux是针对特定处理器而优化过的，能够更好地利用CPU周期以提高性能。相比Debian/Ubuntu、SUSE、RedHat/Fedora等其他发行版，Archlinux属于轻量级选手，其简单的设计让它容易被轻松扩展和配置成为任何想要的系统类型。
+1. 特有的包管理系统Archlinux是针对特定处理器而优化过的，能够更好地利用CPU周期以提高性能。相比Debian/Ubuntu、SUSE、RedHat/Fedora等其他发行版，Archlinux属于轻量级选手，其简单的设计让它容易被轻松扩展和配置成为任何想要的系统类型。
 
-2.通过二进制包管理系统pacman，仅需一个命令就能完成安装、升级等多个操作。同时也附带一个类似ports的包构建系统ABS(Arch Build System)。
+2. 通过二进制包管理系统pacman，仅需一个命令就能完成安装、升级等多个操作。同时也附带一个类似ports的包构建系统ABS(Arch Build System)。
 
-三、缺点
+## 缺点
 
-1.安装过程简陋，缺乏智能直观的错误处理，需要用户有一定的Linux环境常识才能正确安装使用。仅对i686、x86_64 架构优化，对于其它CPU架构支持匮乏。
+1. 安装过程简陋，缺乏智能直观的错误处理，需要用户有一定的Linux环境常识才能正确安装使用。仅对i686、x86_64 架构优化，对于其它CPU架构支持匮乏。
 
-\2. 包管理系统pacman在升级过程缺乏对系统核心组件的回溯保护，如升级的Kernel有问题，即导致系统无法启动。
+2. 包管理系统pacman在升级过程缺乏对系统核心组件的回溯保护，如升级的Kernel有问题，即导致系统无法启动。
 
-\3. 系统软件缺乏严谨的测试管理机制，稳定性、可靠性不如Redhat、CentOS、Debian等发行版，难以在企业用户中推广。
+3. 系统软件缺乏严谨的测试管理机制，稳定性、可靠性不如Redhat、CentOS、Debian等发行版，难以在企业用户中推广。
