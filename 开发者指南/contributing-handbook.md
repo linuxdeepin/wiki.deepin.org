@@ -2,7 +2,7 @@
 title: 贡献者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-08T01:57:29.901Z
+date: 2022-09-08T05:58:05.208Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
@@ -17,10 +17,7 @@ dateCreated: 2022-08-29T07:13:11.941Z
 # 贡献通道
 
 1. linuxdeepin 组织：[linuxdeepin 贡献指南](https://wiki.deepin.org/zh/开发者指南/贡献指南/linuxdeepin-contributing-handbook)
-2. deepin-community 组织：TODO
-
-> TODO: 提供并链接到 deepin-community 组织下仓库的贡献方式文档
-{.is-warning}
+2. deepin-community 组织：[deepin-community 贡献指南](/zh/开发者指南/贡献指南/deepin-community-contributing-handbook)
 
 # 贡献流程概览
 
