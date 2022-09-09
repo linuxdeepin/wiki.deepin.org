@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T01:55:40.519Z
+date: 2022-09-09T01:56:02.386Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -99,6 +99,6 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/image-20200730135447732.png)
 
 进入到 **live 环境** （此是内存条里面，加载的刚才的 ios 镜像系统），*注意此时 root 用户是 红色*
-![](/home/uos/.config/Typora/typora-user-images/image-20220906173140693.png)
+/home/uos/.config/Typora/typora-user-images/image-20220906173140693.png![2022-9-9_69077.png](/2022-9-9_69077.png)
 
 
