@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T06:24:11.160Z
+date: 2022-09-09T07:25:32.767Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -82,7 +82,7 @@ https://archlinux.org/releng/releases/
 
 ![2022-9-9_38075.png](/2022-9-9_38075.png)
 
-- 挂载 `ios` 镜像
+- 挂载 `iso` 镜像
 
 ![2022-9-9_80775.png](/2022-9-9_80775.png)
 
@@ -100,7 +100,7 @@ https://archlinux.org/releng/releases/
 
 ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/image-20200730135447732.png)
 
-进入到 **live 环境** （此是内存条里面，加载的刚才的 ios 镜像系统），*注意此时 root 用户是 红色*
+进入到 **live 环境** （此是内存条里面，加载的刚才的 iso 镜像系统），*注意此时 root 用户是 红色*
 
 ![2022-9-9_69077.png](/2022-9-9_69077.png)
 
