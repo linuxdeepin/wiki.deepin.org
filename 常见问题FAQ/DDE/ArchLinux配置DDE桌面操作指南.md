@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:56:34.304Z
+date: 2022-09-09T02:59:07.675Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -220,7 +220,9 @@ echo LANG=en_US.UTF-8 >> /etc/locale.conf
 useradd -m -G wheel -s /bin/bash free
 -m：创建用户主目录（/home/[用户名]）
 -G：用户要加入的附加组列表；此处将用户加到wheel组中，之后可以给这个组执行sudo命令的权限
--s：指定了用户默认登录shell的路径，此处设置为bash的路径``
+-s：指定了用户默认登录shell的路径，此处设置为bash的路径
+
+```
 设置密码：
 
 passwd free
@@ -228,4 +230,4 @@ passwd free
 
 Uncomment to allow members of group wheel to execute any command
 %wheel ALL=(ALL) ALL
-
+```
