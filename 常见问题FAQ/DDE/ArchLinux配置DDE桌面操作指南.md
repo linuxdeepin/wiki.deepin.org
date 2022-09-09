@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:28:12.762Z
+date: 2022-09-09T02:28:22.645Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -188,5 +188,4 @@ LTS内核
 `pacstrap /mnt base linux linux-headers linux-firmware base-devel`
 
 ## 5.写入分区表：
-
 `genfstab -U /mnt >> /mnt/etc/fstab
