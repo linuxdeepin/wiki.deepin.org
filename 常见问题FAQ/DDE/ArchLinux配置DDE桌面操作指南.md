@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T05:28:07.887Z
+date: 2022-09-09T05:43:32.393Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -80,15 +80,15 @@ https://archlinux.org/releng/releases/
 
 - 选择自定义(高级)，因为 `VM` 对 `ArchLinux` 没有直接支持； 选择 `Linux(L)` 时候选择选用 `Linux 5.x` 的内核版本
 
-  ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/20200730173637.png)
+![2022-9-9_38075.png](/2022-9-9_38075.png)
 
 - 挂载 `ios` 镜像
 
-  ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/20200730173716.png)
+![2022-9-9_80775.png](/2022-9-9_80775.png)
 
 - 设置为 `EFI` 方式启动
 
-  ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/image-20200730133901341.png)
+![2022-9-9_18971.png](/2022-9-9_18971.png)
 
 
 
