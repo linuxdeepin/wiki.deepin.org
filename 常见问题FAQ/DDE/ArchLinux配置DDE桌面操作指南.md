@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:19:36.428Z
+date: 2022-09-09T02:20:44.987Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -123,9 +123,24 @@ cfdisk
 ![2022-9-9_92116.png](/2022-9-9_92116.png)
 
 EFI分区格式化
-
+```
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda3
+```
+创建swap分区：
+
+```
+mkswap /dev/sda2
+swapon /dev/sda2
+```
+
+挂载分区：
+```
+mount /dev/sda3 /mnt
+mkdir -p /mnt/boot/efi
+mount /dev/sda1 /mnt/boot/efi
+
+```
 
 
 
