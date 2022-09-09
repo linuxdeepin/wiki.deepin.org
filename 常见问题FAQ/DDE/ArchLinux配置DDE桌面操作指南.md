@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T03:00:48.212Z
+date: 2022-09-09T03:02:49.438Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -196,7 +196,7 @@ LTS内核
 
 ## 7.配置系统
 
-pacman -S vim grub efibootmgr sudo vim ttf-dejavu lightdm xorg-server deepin-kwin deepin deepin-extra networkmanager
+pacman -S vim sudo vim ttf-dejavu lightdm xorg-server deepin-kwin deepin deepin-extra networkmanager
 
 ## 8.设置语言
 输入“vim /etc/locale.gen”，删除前面的“#”，保存。
@@ -234,3 +234,16 @@ passwd free
 Uncomment to allow members of group wheel to execute any command
 %wheel ALL=(ALL) ALL
 ```
+
+## 11.安装grub
+
+EFI 启动方式, 需安装 grub 和 efibootmgr
+`pacman -S grub efibootmgr`
+
+
+然后，还需要将其安装到EFI分区当中：
+`grub-install --recheck /dev/`   # 注意：此处的 /dev/sda 后没有数字
+
+生成一个grub的配置文件
+`grub-mkconfig -o /boot/grub/grub.cfg
+grub efi`bootmgr
