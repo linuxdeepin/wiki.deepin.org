@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:06:50.377Z
+date: 2022-09-09T02:09:55.484Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -111,12 +111,13 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 cfdisk
 
 # 选择底部 gpt ，回车
-# 选择 NEW ，回车，输入 512M，类型选择 EFI SYstem 格式
-# 选择 NEW ，回车，剩下的 49.5G，类型选择 默认 Linux filesystem 格式
+# 选择 NEW ，回车，输入 1G，类型选择 EFI SYstem 格式
+# 选择 NEW ，回车，输入 4G，类型选择 Linux swap 格式
+# 选择 NEW ，回车，剩下的 35G，类型选择 默认 Linux filesystem 格式
 # 选择 Write ， 输入 yes，回车 表示写入保存
-# 选择 Quit ，推出
+# 选择 Quit ，退出
 ```
 
 ![2022-9-9_11887.png](/2022-9-9_11887.png)
 
-
+/home/uos/.config/Typora/typora-user-images/image-20220907095750702.png
