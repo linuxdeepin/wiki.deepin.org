@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:30:41.571Z
+date: 2022-09-09T02:52:00.857Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -195,3 +195,9 @@ LTS内核
 `arch-chroot /mnt`
 
 ## 7.配置系统
+
+pacman -S vim grub efibootmgr sudo vim ttf-dejavu lightdm xorg-server deepin-kwin deepin deepin-extra networkmanager
+
+## 8.设置语言
+输入“vim /etc/locale.gen”，删除前面的“#”，保存。
+![2022-9-9_18468.png](/2022-9-9_18468.png)
