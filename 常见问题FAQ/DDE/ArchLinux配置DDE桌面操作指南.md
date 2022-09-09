@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-08T12:03:36.018Z
+date: 2022-09-09T01:24:54.898Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -46,7 +46,7 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 - `mount` 挂载是将 硬盘里分区 挂载到 **live 环境**
 - `chroot` 是在 **live 环境** 和 **安装到磁盘的系统** 之间切换
 - 设置了分区表之后, 还需要格式化
-- 没有网络,需要安装 `NetworkManager` 和 执行 `dhcpcd`
+- 没有网络,需要安装 `NetworkManager` 和 执行 `dhcpcd`(实体机需要）
 - 磁盘的分区表有两种方式 `uefi + gpt + efi` 或 `legacy + mbr`
 - 安装启动器有：`grub(bios 启动)` 或 `grub + efibootmgr(EFI 启动)`
 
