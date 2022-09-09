@@ -2,7 +2,7 @@
 title: Deepin上搭建Hexo博客
 description: 
 published: true
-date: 2022-09-09T07:11:15.852Z
+date: 2022-09-09T07:13:59.463Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-09T06:59:24.271Z
@@ -286,5 +286,5 @@ $ hexo server                # 启动网站服务
 
 4. 查看域名 https://用户名.github.io 如果可以看到 Hexo 网站，说明 GitHub 上的网页部署成功了。
 
-- [演示站点: https://shallingzhang](https://shallingzhang.github.io)
-.linkjs
+- [演示站点 *https://shallingzhang.github.io*](https://shallingzhang.github.io)
+{.links-list}
