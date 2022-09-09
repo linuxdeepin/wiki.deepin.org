@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T03:30:10.804Z
+date: 2022-09-09T03:31:17.962Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -105,7 +105,7 @@ https://archlinux.org/releng/releases/
 ![2022-9-9_69077.png](/2022-9-9_69077.png)
 
 
-## 2. 更新系统时钟
+## 2. 更新系统时区
 
 `timedatectl set-ntp true`
 
