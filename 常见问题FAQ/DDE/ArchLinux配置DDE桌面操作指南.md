@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:53:43.552Z
+date: 2022-09-09T02:56:34.304Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -213,4 +213,19 @@ echo LANG=en_US.UTF-8 >> /etc/locale.conf
 
 输入“passwd”，再输入密码，密码不会显示
 
+## 10.创建新用户
+
+执行如下命令，很坑的的一点，如果安装深度环境 DDE 的话，必须要新建用户
+
+useradd -m -G wheel -s /bin/bash free
+-m：创建用户主目录（/home/[用户名]）
+-G：用户要加入的附加组列表；此处将用户加到wheel组中，之后可以给这个组执行sudo命令的权限
+-s：指定了用户默认登录shell的路径，此处设置为bash的路径``
+设置密码：
+
+passwd free
+然后输入两次密码即可。提权， 修改 /etc/sudoers文件，删除wheel组前面的注释（#）即可：
+
+Uncomment to allow members of group wheel to execute any command
+%wheel ALL=(ALL) ALL
 
