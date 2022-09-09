@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T03:15:24.856Z
+date: 2022-09-09T03:18:29.098Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -99,6 +99,10 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 
 进入到 **live 环境** （此是内存条里面，加载的刚才的 ios 镜像系统），*注意此时 root 用户是 红色*
 ![2022-9-9_69077.png](/2022-9-9_69077.png)
+
+## 2. 更新系统时钟
+`timedatectl set-ntp true`
+
 
 ## 2. 磁盘分区
 对已有分区表的一整块、未格式化的 磁盘，进行分区后得到2个 子分区，且对每一个 子分区 选择适合的 TYPE；
@@ -255,7 +259,7 @@ reboot
 ```
 
 ## 13.启动网络服务
-
+systemctl enable NetworkManager
 
 
 
