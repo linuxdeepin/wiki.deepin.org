@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T05:43:32.393Z
+date: 2022-09-09T06:03:23.522Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -205,8 +205,14 @@ LTS内核
 
 pacman -S vim sudo vim ttf-dejavu lightdm xorg-server deepin-kwin deepin deepin-extra networkmanager
 
-## 9.设置语言
-输入“vim /etc/locale.gen”，删除前面的“#”，保存。
+## 9.设置时区时间和语言
+```
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+ 
+hwclock --systohc
+```
+输入`vim /etc/locale.gen`，删除前面的“#”，保存
+
 ![2022-9-9_18468.png](/2022-9-9_18468.png)
 
 ```
