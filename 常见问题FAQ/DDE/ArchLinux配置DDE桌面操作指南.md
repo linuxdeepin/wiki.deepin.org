@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:52:00.857Z
+date: 2022-09-09T02:53:43.552Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -201,3 +201,16 @@ pacman -S vim grub efibootmgr sudo vim ttf-dejavu lightdm xorg-server deepin-kwi
 ## 8.设置语言
 输入“vim /etc/locale.gen”，删除前面的“#”，保存。
 ![2022-9-9_18468.png](/2022-9-9_18468.png)
+
+```
+locale-gen
+echo LANG=en_US.UTF-8 >> /etc/locale.conf
+```
+
+## 9.设置root用户密码
+
+设置root用户的密码
+
+输入“passwd”，再输入密码，密码不会显示
+
+
