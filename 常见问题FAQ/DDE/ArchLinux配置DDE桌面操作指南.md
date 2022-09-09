@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T04:01:37.963Z
+date: 2022-09-09T04:03:46.733Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -186,7 +186,7 @@ Server = https://mirrors.xjtu.edu.cn/archlinux/$repo/os/$arch
 普通内核(linux linux-headers)
 lts稳定版内核(linux-lts linux-lts-headers)
 zen内核(linux-zen,linux-zen-headers)
-按自己的需求安装就可以
+安装普通内核就可以
 
 LTS内核
 `pacstrap /mnt base linux-lts linux-lts-headers linux-firmware base-devel `
