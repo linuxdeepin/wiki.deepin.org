@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T06:09:30.468Z
+date: 2022-09-09T06:24:11.160Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -201,9 +201,13 @@ LTS内核
 
 `arch-chroot /mnt`
 
-## 8.配置系统
+## 8.安装DDE深度桌面环境
 
-pacman -S vim sudo vim ttf-dejavu lightdm xorg-server deepin-kwin deepin deepin-extra networkmanager
+1. 安装编辑器、字体、网络管理
+   `pacman -S vim sudo vim ttf-dejavu networkmanager`
+   
+2. 安装DDE基础和额外组件
+   `pacman -S lightdm xorg-server deepin-kwin deepin deepin-extra`
 
 ## 9.设置时区时间和语言
 ```
