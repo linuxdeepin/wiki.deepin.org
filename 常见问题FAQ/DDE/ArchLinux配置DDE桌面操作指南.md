@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:02:23.611Z
+date: 2022-09-09T02:06:50.377Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -117,6 +117,6 @@ cfdisk
 # 选择 Quit ，推出
 ```
 
-
+![2022-9-9_11887.png](/2022-9-9_11887.png)
 
 
