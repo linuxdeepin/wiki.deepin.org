@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:22:23.808Z
+date: 2022-09-09T02:24:54.858Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -149,7 +149,7 @@ lsblk -f
 ![2022-9-9_14915.png](/2022-9-9_14915.png)
 
 
-### 更新为国内镜像源
+## 3.更新为国内镜像源
 
 ```
 reflector --country China --age 72 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
