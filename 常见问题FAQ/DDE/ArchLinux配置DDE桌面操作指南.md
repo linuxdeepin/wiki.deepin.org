@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T01:24:54.898Z
+date: 2022-09-09T01:27:15.531Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -64,10 +64,9 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 11. 配置 `fstab` 后，`chroot` 切换操作权
 12. 安装 **必须软件包** ，设置 `Locale`
 13. 设置 `root` 密码，和新建一个用户
-14. 安装 `Intel-ucode`（非 `Intel` CPU 跳过）
-15. 安装引导 `grub`
-16. 退出和重启系统
-17. 开启 `NetworkManager` 服务自动联网
-18. 安装桌面环境 `DDE`
+14. 安装引导 `grub`
+15. 退出和重启系统
+16. 开启 `NetworkManager` 服务自动联网
+17. 安装桌面环境 `DDE`
 19. 详细的个性化配置
 20. 享受 `ArchLinux` 的快乐
