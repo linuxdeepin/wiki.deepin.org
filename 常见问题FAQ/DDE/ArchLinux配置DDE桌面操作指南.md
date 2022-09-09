@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T03:31:17.962Z
+date: 2022-09-09T03:31:35.576Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -113,8 +113,6 @@ https://archlinux.org/releng/releases/
 
 ## 3. 磁盘分区
 对已有分区表的一整块、未格式化的 磁盘，进行分区后得到2个 子分区，且对每一个 子分区 选择适合的 TYPE；
-
-输入以下命令：
 
 输入以下命令：
 
