@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:29:31.511Z
+date: 2022-09-09T02:30:41.571Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -193,3 +193,5 @@ LTS内核
 ## 6.进入新系统
 
 `arch-chroot /mnt`
+
+## 7.配置系统
