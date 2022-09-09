@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:02:17.869Z
+date: 2022-09-09T02:02:23.611Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -109,6 +109,7 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 
 ```bash
 cfdisk
+
 # 选择底部 gpt ，回车
 # 选择 NEW ，回车，输入 512M，类型选择 EFI SYstem 格式
 # 选择 NEW ，回车，剩下的 49.5G，类型选择 默认 Linux filesystem 格式
