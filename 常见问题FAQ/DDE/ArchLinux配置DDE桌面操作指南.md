@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T03:11:33.972Z
+date: 2022-09-09T03:15:24.856Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -247,7 +247,15 @@ EFI 启动方式, 需安装 grub 和 efibootmgr
 生成一个grub的配置文件
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
-## 12.
+## 12.重启系统
+```
+exit
+umount -R /mnt
+reboot
+```
+
+## 13.启动网络服务
+
 
 
 
