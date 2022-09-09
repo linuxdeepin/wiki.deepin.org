@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T05:23:42.496Z
+date: 2022-09-09T05:25:06.948Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -265,6 +265,9 @@ reboot
 systemdctl enable --now NetworkMangaer
 
 systemdctl enable --now lightdm
+
+
+
 
 
 https://wiki.deepin.org/e/zh/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/DDE/ArchLinux%E9%85%8D%E7%BD%AEDDE%E6%A1%8C%E9%9D%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97
