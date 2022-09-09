@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:26:31.700Z
+date: 2022-09-09T02:27:35.096Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -181,6 +181,8 @@ zen内核(linux-zen,linux-zen-headers)
 
 这里需要提前说一下，linux-zen 内核不支持 nvidia 显卡，有这个需求的就别装了，如果是原版 linux 内核的话，就要做好随时滚挂的准备，最近的 5.18 内核更新就会导致 nvidia-5.15 版本驱动失效无法开机，如果你希望稳定使用，就选择 linux-lts 内核和linux-lts-headers，并安装相应的 nvidia-lts 驱动（后面会有详细说明），不过不用太担心，即便是系统安装完成，你也可以随时切换自己想要的内核版本。
 
-pacstrap /mnt base linux-lts linux-lts-headers linux-firmware base-devel （LTS内核）
-或者
-pacstrap /mnt base linux linux-headers linux-firmware base-devel （普通内核）
+LTS内核
+`pacstrap /mnt base linux-lts linux-lts-headers linux-firmware base-devel `
+
+普通内核
+`pacstrap /mnt base linux linux-headers linux-firmware base-devel`
