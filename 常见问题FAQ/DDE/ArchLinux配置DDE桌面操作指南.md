@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T03:18:29.098Z
+date: 2022-09-09T03:19:05.889Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -267,3 +267,6 @@ systemctl enable NetworkManager
 
 1. https://wiki.archlinux.org/        Arch维基
 2. https://wiki.archlinux.org/title/Installation_guide             Arch安装指南
+3. 给 GNU/Linux 萌新的 Arch Linux 安装指南 rev.B
+4. 在VMWare上安装Arch Linux
+5. ArchLinux安装（Deepin v20桌面环境）
