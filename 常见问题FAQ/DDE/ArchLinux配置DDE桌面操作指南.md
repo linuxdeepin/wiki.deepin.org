@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:09:55.484Z
+date: 2022-09-09T02:12:36.323Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -120,4 +120,9 @@ cfdisk
 
 ![2022-9-9_11887.png](/2022-9-9_11887.png)
 
-/home/uos/.config/Typora/typora-user-images/image-20220907095750702.png
+![2022-9-9_92116.png](/2022-9-9_92116.png)
+
+
+![2022-9-9_14915.png](/2022-9-9_14915.png)
+
+
