@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T01:56:52.651Z
+date: 2022-09-09T01:56:57.263Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -72,7 +72,7 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 20. 享受 `ArchLinux` 的快乐
 
 # 五、详细安装步骤
-## 在 `VMware` 里面新建系统:
+## 1.在 `VMware` 里面新建系统:
 
 
 - 选择自定义(高级)，因为 `VM` 对 `ArchLinux` 没有直接支持； 选择 `Linux(L)` 时候选择选用 `Linux 5.x` 的内核版本
