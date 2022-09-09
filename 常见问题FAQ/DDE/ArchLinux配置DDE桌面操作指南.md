@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T01:28:18.627Z
+date: 2022-09-09T01:28:24.482Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -72,4 +72,4 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 20. 享受 `ArchLinux` 的快乐
 
 # 五、详细安装步骤
-待整理不愁
+待整理补充
