@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:24:54.858Z
+date: 2022-09-09T02:25:42.173Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -155,6 +155,21 @@ lsblk -f
 reflector --country China --age 72 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
 ```
 
+将最新的镜像源更新为国内的，保存在/etc/pacman.d/mirrorlist目录下
+
+也可以手动替换到“/etc/pacman.d/mirrorlistg”中
+```
+Server = https://mirrors.bfsu.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirrors.cqu.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirrors.dgut.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirrors.neusoft.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirrors.nju.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirror.redrock.team/archlinux/$repo/os/$arch
+Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
+Server = https://mirrors.xjtu.edu.cn/archlinux/$repo/os/$arch
+```
 
 
 pacstrap /mnt base linux-lts linux-lts-headers linux-firmware base-devel （LTS内核）
