@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:20:44.987Z
+date: 2022-09-09T02:20:58.214Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -141,7 +141,6 @@ mkdir -p /mnt/boot/efi
 mount /dev/sda1 /mnt/boot/efi
 
 ```
-
 
 
 ![2022-9-9_14915.png](/2022-9-9_14915.png)
