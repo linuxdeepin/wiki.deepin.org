@@ -2,7 +2,7 @@
 title: Deepin上搭建Hexo博客
 description: 
 published: true
-date: 2022-09-09T07:04:14.941Z
+date: 2022-09-09T07:05:02.273Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-09T06:59:24.271Z
@@ -159,7 +159,6 @@ $ hexo server                # 启动网站服务
 
 ### 浏览本地站点
 使用浏览器访问 http://localhost:4000 ,出现 Hexo 默认页面，代表本地博客安装成功了
-![hexo默认主页](/uploads/hexo_default_mainpage.png "hexo默认主页")
 
 
 > 注意：如果出现页面加载不出来，可能是默认端口被占用了，
@@ -191,7 +190,6 @@ $ hexo server                # 启动网站服务
 3. 勾选 “Initialize this repository with" 下方的 “Add a README file” 选项。
 4. 填写以上内容后，点击 “Create repository ” 按钮创建仓库。
 
-![创建仓库](/uploads/create_blog_repository.png "github pages 仓库")
 
 ### 配置 Git 连接 Github Pages 远程仓库 
 
@@ -229,7 +227,7 @@ $ hexo server                # 启动网站服务
 - Title 随便填写个英文名字，粘贴复制的 id_rsa.pub 内容到 Key 中。
 - 最后点击 Add SSH key 按钮完成添加。
 
-![添加ssh公钥](/uploads/add_ssh_key.png "添加ssh公钥")
+
 
 6. 验证连接：打开终端，输入 ssh -T git@github.com 命令
 
