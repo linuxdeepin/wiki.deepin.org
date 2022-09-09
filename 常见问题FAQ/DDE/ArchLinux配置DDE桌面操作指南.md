@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T01:28:24.482Z
+date: 2022-09-09T01:51:13.264Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -72,4 +72,31 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 20. 享受 `ArchLinux` 的快乐
 
 # 五、详细安装步骤
-待整理补充
+#### 在 `VMware` 里面新建系统:
+
+**注意如下三点：**
+
+- 选择自定义(高级)，因为 `VM` 对 `ArchLinux` 没有直接支持； 选择 `Linux(L)` 时候选择选用 `Linux 5.x` 的内核版本
+
+  ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/20200730173637.png)
+
+- 挂载 `ios` 镜像
+
+  ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/20200730173716.png)
+
+- 设置为 `EFI` 方式启动
+
+  ![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/image-20200730133901341.png)
+
+
+
+启动虚拟机，默认选择第一个：
+
+![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/image-20200730135432879.png)
+
+等待一阵如下跳动
+
+![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/image-20200730135447732.png)
+
+进入到 **live 环境** （此是内存条里面，加载的刚才的 ios 镜像系统），*注意此时 root 用户是 红色*
+![img](https://cdn.jsdelivr.net/gh/xmuli/xmuliPic@pic/2020/image-20200730135836279.png)
