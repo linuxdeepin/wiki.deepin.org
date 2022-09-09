@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:59:54.938Z
+date: 2022-09-09T03:00:48.212Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -211,7 +211,9 @@ echo LANG=en_US.UTF-8 >> /etc/locale.conf
 
 设置root用户的密码
 
+```
 输入“passwd”，再输入密码，密码不会显示
+```
 
 ## 10.创建新用户
 
