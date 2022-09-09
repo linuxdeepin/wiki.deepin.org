@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:21:49.194Z
+date: 2022-09-09T02:22:23.808Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -142,7 +142,10 @@ mount /dev/sda1 /mnt/boot/efi
 
 ```
 
-
+查看磁盘分区情况
+```
+lsblk -f
+```
 ![2022-9-9_14915.png](/2022-9-9_14915.png)
 
 
