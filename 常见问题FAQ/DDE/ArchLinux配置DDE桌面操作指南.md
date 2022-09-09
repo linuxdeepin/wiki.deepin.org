@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T02:20:58.214Z
+date: 2022-09-09T02:21:49.194Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -146,3 +146,14 @@ mount /dev/sda1 /mnt/boot/efi
 ![2022-9-9_14915.png](/2022-9-9_14915.png)
 
 
+### 更新为国内镜像源
+
+```
+reflector --country China --age 72 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
+```
+
+
+
+pacstrap /mnt base linux-lts linux-lts-headers linux-firmware base-devel （LTS内核）
+或者
+pacstrap /mnt base linux linux-headers linux-firmware base-devel （普通内核）
