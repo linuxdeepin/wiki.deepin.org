@@ -2,7 +2,7 @@
 title: ArchLinux配置DDE桌面操作指南
 description: 
 published: true
-date: 2022-09-09T03:19:46.441Z
+date: 2022-09-09T03:23:39.206Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -104,7 +104,7 @@ Arch Linux 是一个多功能且简单的发行版，旨在满足有能力的 Li
 `timedatectl set-ntp true`
 
 
-## 2. 磁盘分区
+## 3. 磁盘分区
 对已有分区表的一整块、未格式化的 磁盘，进行分区后得到2个 子分区，且对每一个 子分区 选择适合的 TYPE；
 
 输入以下命令：
@@ -153,7 +153,7 @@ lsblk -f
 ![2022-9-9_14915.png](/2022-9-9_14915.png)
 
 
-## 3.更新为国内镜像源
+## 4.更新为国内镜像源
 
 ```
 reflector --country China --age 72 --sort rate --protocol https --save /etc/pacman.d/mirrorlist
@@ -175,7 +175,7 @@ Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
 Server = https://mirrors.xjtu.edu.cn/archlinux/$repo/os/$arch
 ```
 
-## 4.安装 Arch Linux
+## 5.安装 Arch Linux
 安装基本系统（包括linux内核以及基础软件包），这里相比参考文章多给了几个软件包，因为这些对用户来说还是比较重要的 ，有几种内核可以安装：
 
 普通内核(linux linux-headers)
@@ -191,18 +191,18 @@ LTS内核
 普通内核
 `pacstrap /mnt base linux linux-headers linux-firmware base-devel`
 
-## 5.写入分区表：
+## 6.写入分区表：
 `genfstab -U /mnt >> /mnt/etc/fstab`
 
-## 6.进入新系统
+## 7.进入新系统
 
 `arch-chroot /mnt`
 
-## 7.配置系统
+## 8.配置系统
 
 pacman -S vim sudo vim ttf-dejavu lightdm xorg-server deepin-kwin deepin deepin-extra networkmanager
 
-## 8.设置语言
+## 9.设置语言
 输入“vim /etc/locale.gen”，删除前面的“#”，保存。
 ![2022-9-9_18468.png](/2022-9-9_18468.png)
 
@@ -211,7 +211,7 @@ locale-gen
 echo LANG=en_US.UTF-8 >> /etc/locale.conf
 ```
 
-## 9.设置root用户密码
+## 10.设置root用户密码
 
 设置root用户的密码
 
@@ -219,7 +219,7 @@ echo LANG=en_US.UTF-8 >> /etc/locale.conf
 输入“passwd”，再输入密码，密码不会显示
 ```
 
-## 10.创建新用户
+## 11.创建新用户
 
 执行如下命令，很坑的的一点，如果安装深度环境 DDE 的话，必须要新建用户
 ```
@@ -239,7 +239,7 @@ Uncomment to allow members of group wheel to execute any command
 %wheel ALL=(ALL) ALL
 ```
 
-## 11.安装grub
+## 12.安装grub
 
 EFI 启动方式, 需安装 grub 和 efibootmgr
 `pacman -S grub efibootmgr`
@@ -251,14 +251,14 @@ EFI 启动方式, 需安装 grub 和 efibootmgr
 生成一个grub的配置文件
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
-## 12.重启系统
+## 13.重启系统
 ```
 exit
 umount -R /mnt
 reboot
 ```
 
-## 13.启动网络服务
+## 14.启动网络服务
 systemctl enable NetworkManager
 
 
