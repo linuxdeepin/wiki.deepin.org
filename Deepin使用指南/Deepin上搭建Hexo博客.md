@@ -2,7 +2,7 @@
 title: Deepin上搭建Hexo博客
 description: 
 published: true
-date: 2022-09-09T07:01:29.325Z
+date: 2022-09-09T07:02:52.116Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-09T06:59:24.271Z
@@ -59,7 +59,7 @@ Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和
 
 #### 安装 Git
 
-1. Linux (Deepin,Ubuntu, Debian)：在系统终端命令安装 git 软件
+1. Deepin V20 （Linux）：在系统终端命令安装 git 软件
 
 ```
    $ sudo apt-get install git
