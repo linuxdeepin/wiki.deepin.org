@@ -2,7 +2,7 @@
 title: Deepin上搭建Hexo博客
 description: 
 published: true
-date: 2022-09-09T07:05:45.095Z
+date: 2022-09-09T07:08:06.905Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-09T06:59:24.271Z
@@ -245,10 +245,6 @@ $ hexo server                # 启动网站服务
 - 输入 Note：hexo blog，Expiration：30 days，Select Scopes：选择 repo 。
 - 点击页面底部的 ”Generate Token“ 按钮，生成个人令牌。
 - 复制个人令牌内容，保存成文档文件留存，供以后验证身份时使用。
-  
-
-![个人令牌](/uploads/personal_access_token.png "个人令牌")
-
 - 如果您有令牌，则可以在通过 Https 执行 Git 操作时输入令牌，而不是密码。例如，在命令行中输入以下内容：拷贝一个 Git 仓库到本地。
 
 ```
