@@ -2,7 +2,7 @@
 title: 搭建selenium环境
 description: 介绍在deepin下搭建selenium环境
 published: true
-date: 2022-09-13T06:24:24.505Z
+date: 2022-09-13T06:29:31.595Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T06:24:24.505Z
@@ -36,7 +36,7 @@ Python 3.7.3 (default, Mar  9 2022, 03:38:16)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> from selenium import webdriver
 >>> d = webdriver.Chrome()
->>> d.get("https://wiki.python.org/moin/DbusExamples")
+>>> d.get("https://bbs.deepin.org/")
 >>> 
 ```
 
