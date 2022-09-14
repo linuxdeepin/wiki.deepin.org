@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T02:27:28.705Z
+date: 2022-09-14T02:44:10.564Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -17,6 +17,9 @@ dateCreated: 2022-09-14T02:18:42.542Z
 ## 运行安装程序
 首先，按照安装指南#安装前的准备中的启动到 Live 环境操作。archinstall 包是 live 镜像的一部分，可以直接运行：
 
+
+![2022-9-14_86859.png](/2022-9-14_86859.png)
+
 指导程序将执行（或查询）以下步骤：
 ```
 配置区域
@@ -28,5 +31,7 @@ dateCreated: 2022-09-14T02:18:42.542Z
 设置 root 密码
 安装引导加载程序
 ```
+
+
 
 
