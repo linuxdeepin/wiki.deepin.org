@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:48:34.530Z
+date: 2022-09-14T03:48:39.541Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -77,5 +77,5 @@ dateCreated: 2022-09-14T02:18:42.542Z
 
 ![2022-9-14_1790.png](/2022-9-14_1790.png)
 
-## 配置完成后开始安装
+## 配置完成后开始安装即可
 ![2022-9-14_20326.png](/2022-9-14_20326.png)
