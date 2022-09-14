@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:18:55.766Z
+date: 2022-09-14T03:20:40.580Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -36,7 +36,7 @@ dateCreated: 2022-09-14T02:18:42.542Z
 
 ## 相关参数选项配置
 
-**此处安装的是DDE桌面环境**
+**此处演示安装的是DDE桌面环境，添加的安装包也是deepin相关**
 
 1. Mirror region配置为China
 2. Root password设置root账户的密码
