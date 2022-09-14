@@ -2,13 +2,13 @@
 title: 如何在Fedora发行版上安装DDE桌面环境
 description: Fedora36安装深度桌面
 published: true
-date: 2022-09-14T07:46:44.028Z
+date: 2022-09-14T07:47:24.124Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-07T09:34:53.083Z
 ---
 
-# 如何在 Fedora 36 Linux 上安装深度桌面（DDE）
+# 如何在 Fedora发行版上安装深度桌面（DDE）
 
 深度桌面环境 （DDE）被认为  是深度 Linux 开发者创造的最优秀的美观桌面环境之一。它也经常被认为是 Linux 上最漂亮的桌面。对于 Fedora 的用户来说，这可以很容易地安装并且对于那些喜欢在桌面之间跳跃的人来说是一个可选的选择。
 
