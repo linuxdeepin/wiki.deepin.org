@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:25:01.623Z
+date: 2022-09-14T03:31:14.610Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -46,7 +46,7 @@ dateCreated: 2022-09-14T02:18:42.542Z
 3. Audio配置为`pulseaudio`
 4. Additional packages配置增加额外的安装包有：`grub efibootmgr sudo vim ttf-dejavu deepin deepin-extra lightdm xorg-server deepin-kwin networkmanager`
 5. Network configuration配置为`Use NetworkManager`
-6. Timezone配置为Asia/Shanghai
+6. Timezone配置为`Asia/Shanghai`
 
 
 ![2022-9-14_31335.png](/2022-9-14_31335.png)
