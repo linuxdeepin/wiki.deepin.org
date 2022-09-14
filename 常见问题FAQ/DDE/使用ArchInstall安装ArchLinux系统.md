@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:46:02.518Z
+date: 2022-09-14T03:48:34.530Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -59,8 +59,6 @@ dateCreated: 2022-09-14T02:18:42.542Z
 ![2022-9-14_72584.png](/2022-9-14_72584.png)
 
 
-
-
 ## 其他相关参数选项配置
 
 **此处演示安装的是DDE桌面环境，添加的安装包也是deepin相关**
@@ -75,6 +73,9 @@ dateCreated: 2022-09-14T02:18:42.542Z
 
 ![2022-9-14_31335.png](/2022-9-14_31335.png)
 
-### Additional packages配置额外的安装包
+## Additional packages配置额外的安装包
 
 ![2022-9-14_1790.png](/2022-9-14_1790.png)
+
+## 配置完成后开始安装
+![2022-9-14_20326.png](/2022-9-14_20326.png)
