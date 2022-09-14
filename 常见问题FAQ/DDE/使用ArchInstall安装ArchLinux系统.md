@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:52:27.633Z
+date: 2022-09-14T03:56:05.857Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -36,9 +36,8 @@ dateCreated: 2022-09-14T02:18:42.542Z
 安装引导加载程序
 ```
 ## 磁盘分区及格式化配置
-**选择Drive(s)选项后进入
+**选择Drive(s)选项后进入,选择/dev/sda磁盘选项**
 
-选择/dev/sda磁盘选项
 ![2022-9-14_50101.png](/2022-9-14_50101.png)
 
 **选择Disk layout选项后进入**
@@ -46,6 +45,7 @@ dateCreated: 2022-09-14T02:18:42.542Z
 ![2022-9-14_79657.png](/2022-9-14_79657.png)
 
 **可以直接选择系统建议分区方式**
+
 ![2022-9-14_27829.png](/2022-9-14_27829.png)
 
 **选择磁盘格式**
