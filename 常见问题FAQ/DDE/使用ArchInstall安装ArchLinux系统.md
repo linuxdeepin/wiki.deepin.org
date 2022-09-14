@@ -2,13 +2,13 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:50:57.935Z
+date: 2022-09-14T03:52:27.633Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
 ---
 
-# 使用ArchInstall安装ArchLinux系统
+# 使用archinstall安装ArchLinux系统
 `archinstall`是一个用于安装 Arch Linux 的帮助库。它和其它的预配置安装程序一起打包
 
 `archinstall`以纯文本形式存储所有用户和（辅助）磁盘加密的密码
