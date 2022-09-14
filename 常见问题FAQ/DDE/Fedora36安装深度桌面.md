@@ -1,8 +1,8 @@
 ---
-title: Fedora36安装深度桌面
+title: 如何在Fedora上安装DDE桌面环境
 description: Fedora36安装深度桌面
 published: true
-date: 2022-09-08T06:02:20.193Z
+date: 2022-09-14T07:39:18.081Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-07T09:34:53.083Z
