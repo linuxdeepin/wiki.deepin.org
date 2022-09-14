@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T02:25:26.084Z
+date: 2022-09-14T02:27:28.705Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -28,3 +28,5 @@ dateCreated: 2022-09-14T02:18:42.542Z
 设置 root 密码
 安装引导加载程序
 ```
+
+
