@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:06:58.887Z
+date: 2022-09-14T03:18:55.766Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -24,16 +24,29 @@ dateCreated: 2022-09-14T02:18:42.542Z
 
 ![2022-9-14_96134.png](/2022-9-14_96134.png)
 
-## 指导程序将执行（或查询）以下步骤：
+## 指导程序将执行（或查询）以下步骤
 ```
 配置区域
 选择镜像
 分区磁盘
 格式化分区
-启用磁盘加密（可选）
-设置计算机名
 设置 root 密码
 安装引导加载程序
 ```
 
+## 相关参数选项配置
+
+**此处安装的是DDE桌面环境**
+
+1. Mirror region配置为China
+2. Root password设置root账户的密码
+3. Audio配置为pulseaudio
+4. Additional packages配置增加额外的安装包有：grub efibootmgr sudo vim ttf-dejavu deepin deepin-extra lightdm xorg-server deepin-kwin networkmanager
+5. Network configuration配置为User NetworkManager
+
+
+
+![2022-9-14_31335.png](/2022-9-14_31335.png)
+
+## 
 ![2022-9-14_1790.png](/2022-9-14_1790.png)
