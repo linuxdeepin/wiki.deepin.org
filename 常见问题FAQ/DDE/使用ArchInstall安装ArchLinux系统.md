@@ -2,13 +2,20 @@
 title: 用archinstall自动化脚本安装Arch Linux
 description: 
 published: true
-date: 2022-09-14T04:04:50.545Z
+date: 2022-09-14T04:05:37.353Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
 ---
 
 # 用archinstall自动化脚本安装Arch Linux
+
+上次学习了如何在 ArchLinux中安装深度桌面（DDE）后，有很多论坛的老铁交流说可以使用archinstall来玩一把更方便快捷，后续尝试了一波，把尝试过程记录并分享如下
+
+**历史帖子：如何在 ArchLinux中安装深度桌面（DDE）**
+
+**https://bbs.deepin.org/post/242841**
+
 `archinstall`是一个用于安装 Arch Linux 的帮助库。它和其它的预配置安装程序一起打包
 
 `archinstall`以纯文本形式存储所有用户和（辅助）磁盘加密的密码
