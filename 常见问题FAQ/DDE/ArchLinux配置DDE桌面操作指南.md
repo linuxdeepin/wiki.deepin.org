@@ -1,8 +1,8 @@
 ---
-title: ArchLinux配置DDE桌面操作指南
+title: 如何在ArchLinux上安装DDE桌面环境
 description: 
 published: true
-date: 2022-09-09T07:25:34.666Z
+date: 2022-09-14T07:38:43.472Z
 tags: arch dde
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
@@ -272,9 +272,9 @@ reboot
 ```
 
 ## 14.启动服务
-systemdctl enable --now NetworkMangaer
+systemctl enable --now NetworkMangaer
 
-systemdctl enable --now lightdm
+systemctl enable --now lightdm
 
 
 ![2022-9-9_40828.png](/2022-9-9_40828.png)
