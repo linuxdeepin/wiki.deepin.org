@@ -2,7 +2,7 @@
 title: 使用ArchInstall安装ArchLinux系统
 description: 
 published: true
-date: 2022-09-14T03:31:14.610Z
+date: 2022-09-14T03:33:52.414Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z
@@ -34,8 +34,9 @@ dateCreated: 2022-09-14T02:18:42.542Z
 安装引导加载程序
 ```
 ## 磁盘分区及格式化配置
+**选择Drive(s)选项后进入
 
-
+![2022-9-14_50101.png](/2022-9-14_50101.png)
 
 ## 其他相关参数选项配置
 
@@ -52,4 +53,5 @@ dateCreated: 2022-09-14T02:18:42.542Z
 ![2022-9-14_31335.png](/2022-9-14_31335.png)
 
 ### Additional packages配置额外的安装包
+
 ![2022-9-14_1790.png](/2022-9-14_1790.png)
