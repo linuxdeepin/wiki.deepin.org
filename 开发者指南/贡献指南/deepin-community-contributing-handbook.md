@@ -2,7 +2,7 @@
 title: deepin-community 贡献指南
 description: 
 published: true
-date: 2022-09-15T08:09:10.637Z
+date: 2022-09-15T08:14:04.655Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T05:55:30.564Z
@@ -14,3 +14,17 @@ dateCreated: 2022-09-08T05:55:30.564Z
 
 # 贡献指南
 本文默认为您已经了解了代码贡献流程，如您对此方面存在疑惑，请参阅[贡献者手册](/zh/开发者指南/贡献指南/deepin-community-contributing-handbook)
+
+# 预备知识
+## deepin 发行版的工作模式
+关于软件包到仓库的流程请参阅[仓库流转规范](/zh/开发者指南/贡献指南/仓库流转规范)
+## ISO 构建&发布流程
+关于ISO构建与发布相关流程请参阅[ISO构建&发布流程](/zh/开发者指南/贡献指南/ISO构建&发布流程)
+
+
+
+
+
+
+
+
