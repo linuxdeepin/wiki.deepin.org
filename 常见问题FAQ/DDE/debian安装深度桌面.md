@@ -2,7 +2,7 @@
 title: debian安装深度桌面
 description: 
 published: true
-date: 2022-09-19T10:07:46.726Z
+date: 2022-09-19T11:08:19.639Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-19T10:07:46.726Z
@@ -45,6 +45,7 @@ deb [trusted=yes arch=amd64] https://deepin-community.github.io/debian-sid-dde-r
 sudo apt update
 sudo apt install startdde
 sudo apt install deepin-desktop-environment-core
+sudo systemctl enable lightdm
 ```
 安装完成后重启,登录进入DDE桌面环境
 ![截图_选择区域_20220919180706.png](/截图_选择区域_20220919180706.png)
