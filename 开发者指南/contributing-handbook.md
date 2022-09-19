@@ -2,7 +2,7 @@
 title: 贡献者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-08T05:58:05.208Z
+date: 2022-09-19T07:17:24.484Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
@@ -18,6 +18,10 @@ dateCreated: 2022-08-29T07:13:11.941Z
 
 1. linuxdeepin 组织：[linuxdeepin 贡献指南](https://wiki.deepin.org/zh/开发者指南/贡献指南/linuxdeepin-contributing-handbook)
 2. deepin-community 组织：[deepin-community 贡献指南](/zh/开发者指南/贡献指南/deepin-community-contributing-handbook)
+
+此外，关于一些特殊的贡献，此处也单独列出了一些相关文档：
+
+* [硬件适配参与指南](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E7%A1%AC%E4%BB%B6%E9%80%82%E9%85%8D%E5%8F%82%E4%B8%8E%E6%8C%87%E5%8D%97)
 
 # 贡献流程概览
 
@@ -145,7 +149,7 @@ stop
 
 ## 添加一个新的代码仓库
 
-如需申请创建一个新的代码仓库，请在开发者邮件列表中发送请求，需在邮件中指出要创建的项目名称，以及存放到哪个 GitHub 组织，另外请详细阐述创建理由，社区管理员会回复邮件通知创建的结果。一个邮件内容的例子：
+如需申请创建一个新的代码仓库，请在开发者邮件列表（[加入方式](#邮件列表)）中发送请求，需在邮件中指出要创建的项目名称，以及存放到哪个 GitHub 组织，另外请详细阐述创建理由，社区管理员会回复邮件通知创建的结果。一个邮件内容的例子：
 
 ```
 名称：qtbase
