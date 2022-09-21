@@ -2,7 +2,7 @@
 title: deepin-community 贡献指南
 description: 
 published: true
-date: 2022-09-21T02:23:22.500Z
+date: 2022-09-21T02:40:30.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T05:55:30.564Z
@@ -32,6 +32,8 @@ dateCreated: 2022-09-08T05:55:30.564Z
 
 ## 分支与tag管理
 关于deepin-community组织下的分支与tag管理请参阅[deepin-community分支与Tag管理](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/deepin-community%E5%88%86%E6%94%AF%E4%B8%8ETag%E7%AE%A1%E7%90%86)
+
+## 软件包的更新/新增/删除
 
 
 
