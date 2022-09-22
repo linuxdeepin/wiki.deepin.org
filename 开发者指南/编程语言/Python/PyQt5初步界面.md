@@ -2,7 +2,7 @@
 title: PyQt5初步界面
 description: 
 published: true
-date: 2022-08-07T04:32:23.291Z
+date: 2022-08-07T04:32:26.051Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-07T04:32:23.291Z

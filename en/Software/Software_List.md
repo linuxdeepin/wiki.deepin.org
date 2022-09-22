@@ -2,7 +2,7 @@
 title: Software_List
 description: 
 published: true
-date: 2022-06-27T02:30:11.525Z
+date: 2022-06-27T08:48:03.338Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:27.028Z
@@ -135,349 +135,116 @@ dateCreated: 2022-04-21T03:54:27.028Z
 ## Office and Study
 
 * [WPS Office: *WPS Office is an office suite developed by Kingsoft Sofware, Inc*](http://linux.wps.cn/)
-
 * [LibreOffice: *LibreOffice is a powerful office suite*](https://www.libreoffice.org/)
-
 * [Yozo Office: *Yozo Office is a powerful office software*](http://www.yozosoft.com/)
-
 * [Deepin Cloud Print: *Deepin Cloud Print is a new solution for printing in Linux developed by Deepin Technology*](https://www.deepin.org/original/deepin-cloud-print/)
-
 * [Deepin Cloud Scan: *Deepin Cloud Scan is a new solution for scanning in Linux developed by Deepin Technology*](https://www.deepin.org/original/deepin-cloud-scan/)
-
 * [XMind: *XMind is a global leader mind mapping software*](http://www.xmind.net/)
-
 * [Wiznote: *Wiznote is a cloud note software*](http://www.wiz.cn/)
-
 * [Notepadqq: *Notepadqq is a set of plain text editor, and it is very similar to Notepad++*](http://notepadqq.altervista.org/)
-
 * [GeoGebra: *GeoGebra is a dynamic math application*](https://www.geogebra.org/)
-
 * [Leanote: *Leanote is an online cloud note application*](https://leanote.com/)
-
 * [Remarkable: *Remarkable is a Markdown editor*](https://remarkableapp.github.io/)
-
 * [LyX: *LyX is a LaTeX layout editing software*](http://www.lyx.org/)
-
 * [VYM: *VYM is a mind mapping software*](http://www.insilmaril.de/vym/)
-
 * [FocusWriter: *FocusWriter is a writing software*](http://gottcode.org/focuswriter/)
-
 * [Printer: *Printer is a tool for configuring the system printer server*](http://cyberelk.net/tim/software/system-config-printer/)
-
 * [ChmSee: *ChmSee is a software that can read CHM format help file under Linux*](http://code.google.com/p/chmsee)
-
 * [Gwyddion: *Gwyddionis a modular scanning probe microscope data visualization and analysis tool*](http://gwyddion.net/)
-
 * [pyRenamer: *pyRenamer is a file batch rename tool*](https://launchpad.net/pyrenamer)
-
 * [Scilab: *Scilab is a numerical calculation software tailored for engineering and scientific applications*](http://www.scilab.org/)
-
 * [TeXstudio: *TeXstudio is an IDE for writing LaTeX documents*](http://www.texstudio.org/)
-
 * [Texmaker: *Texmaker is a editing environment for LaTeX*](http://www.xm1math.net/texmaker/)
-
 * [GNU TeXmacs: *GNU TeXmacs is an excellent scientific document publishing software*](http://www.texmacs.org/)
-
 * [KWrite: *KWrite is a text editor*](https://www.kde.org/applications/utilities/kwrite/)
-
 * [Smallpdf: *Smallpdf is an online PDF processing tool*](https://smallpdf.com/)
-
 * [Open365: *Open365 is an Office document processing software*](https://open365.io/)
-
 * [AbiWord: *AbiWord is a fully functional and efficient word processing software*](https://www.abisource.com/)
-
 * [GanttProject: *GanttProject is a project planning and management drawing application*](http://www.ganttproject.biz/)
-
 * [Scan Tailor: *Scan Tailor is a post-processing software for scanning*](http://scantailor.org/)
-
 * [Gnumeric: *Gnumeric is a spreadsheet processing software*](http://www.gnumeric.org/)
-
 * [TagSpaces: *TagSpaces is a document management tool*](http://tagspaces.org/)
-
 * [QOwnNotes: *QOwnNotes is a text editor that supports Markdown and ownCloud synchronization*](http://www.qownnotes.org/)
-
 * [CuteMarkEd: *CuteMarkEd is a Markdown editor*](http://cloose.github.io/CuteMarkEd/)
-
 * [Moeditor: *Moeditor is a markdown editor*](https://moeditor.github.io/)
-
 * [WordMark: *WordMark is a MarkDown editor*](http://wordmarkapp.com/)
-
-* [Haroopad](Haroopad): Haroopad is a Linux platform markdown editor
-  
-  [https://pad.haroopress.com](https://pad.haroopress.com)
-
-* [Cmd Markdown](Cmd_Markdown): Cmd Markdown is a MarkDown editor
-  
-  [https://www.zybuluo.com/cmd/](https://www.zybuluo.com/cmd/)
-
-* [MarkMyWords](MarkMyWords): MarkMyWords is a markdown editor
-  
-  [https://github.com/voldyman/MarkMyWords](https://github.com/voldyman/MarkMyWords)
-
-* [Marp](Marp): Marp is a markdown editor
-  
-  [https://github.com/yhatt/marp](https://github.com/yhatt/marp)
-  
+* [Haroopad: *Haroopad is a Linux platform markdown editor*](https://pad.haroopress.com)
+* [Cmd Markdown: *Cmd Markdown is a MarkDown editor*](https://www.zybuluo.com/cmd/)
+* [MarkMyWords: *MarkMyWords is a markdown editor*](https://github.com/voldyman/MarkMyWords)
+* [Marp: *Marp is a markdown editor*](https://github.com/yhatt/marp) 
 
 {.links-list}
 
 ## Translation and Reading
 
-* [Foxit Reader](Foxit_Reader): Foxit Reader is a PDF document reader
-  
-  [https://www.foxitsoftware.cn/](https://www.foxitsoftware.cn/)
-
-* [Youdao Dict](Youdao_Dict): is China's first Linux-based Internet business translation software
-  
-  [http://cidian.youdao.com/](http://cidian.youdao.com/)
-
-* [Document Viewer](Document_Viewer): Evince (Document Viewer) is a file viewer that supports multiple formats
-  
-  [https://wiki.gnome.org/Apps/Evince](https://wiki.gnome.org/Apps/Evince)
-
-* [Master PDF Editor](Master_PDF_Editor): Master PDF Editor is a powerful PDF and XPS document editing tool
-  
-  [http://code-industry.net/masterpdfeditor/](http://code-industry.net/masterpdfeditor/)
-
-* [Calibre](Calibre): Calibre is a "one-stop" e-book management software
-  
-  [http://calibre-ebook.com/](http://calibre-ebook.com/)
-
-* [GoldenDict](GoldenDict): GoldenDict is a dictionary software that supports multiple dictionary file formats
-  
-  [http://goldendict.org/](http://goldendict.org/)
-
-* [qpdfview](qpdfview): qpdfview is a small PDF reader
-  
-  [https://launchpad.net/qpdfview](https://launchpad.net/qpdfview)
-
-* [Okular](Okular): Okular is a PDF document reading software
-
-  [http://okular.kde.org/](http://okular.kde.org/)
-
-* [Comix](Comix): Comix is an excellent comic book reader
-
-  [http://comix.sourceforge.net/](http://comix.sourceforge.net/)
-
-* [Mendeley](Mendeley): Mendeley is a document management software
-  
-  [https://www.mendeley.com/](https://www.mendeley.com/)
-
-* [PdfMod](PdfMod): PdfMod is a PDF document editing application
-
-  [http://wiki.gnome.org/Apps/PdfMod](http://wiki.gnome.org/Apps/PdfMod)
-
-* [PDF-Shuffler](PDF-Shuffler): PDF-Shuffler is a PDF merge and split tool
-
-  [http://pdfshuffler.sourceforge.net/](http://pdfshuffler.sourceforge.net/)
+* [Foxit Reader: *Foxit Reader is a PDF document reader*](https://www.foxitsoftware.cn/)
+* [Youdao Dict: *It is China's first Linux-based Internet business translation software*](http://cidian.youdao.com/)
+* [Document Viewer: *Evince (Document Viewer) is a file viewer that supports multiple formats*](https://wiki.gnome.org/Apps/Evince)
+* [Master PDF Editor: *Master PDF Editor is a powerful PDF and XPS document editing tool*](http://code-industry.net/masterpdfeditor/)
+* [Calibre: *Calibre is a "one-stop" e-book management software*](http://calibre-ebook.com/)
+* [GoldenDict: *GoldenDict is a dictionary software that supports multiple dictionary file formats*](http://goldendict.org/)
+* [qpdfview: *qpdfview is a small PDF reader*](https://launchpad.net/qpdfview)
+* [Okular: *Okular is a PDF document reading software*](http://okular.kde.org/)
+* [Comix: *Comix is an excellent comic book reader*](http://comix.sourceforge.net/)
+* [Mendeley: *Mendeley is a document management software*](https://www.mendeley.com/)
+* [PdfMod: *PdfMod is a PDF document editing application*](http://wiki.gnome.org/Apps/PdfMod)
+* [PDF-Shuffler: *PDF-Shuffler is a PDF merge and split tool*](http://pdfshuffler.sourceforge.net/)
   
 {.links-list}
 
 ## Programming and Development
 
-* [Android Studio](Android_Studio): Android Studio is an IntelliJ IDEA based Android integrated development environment
-
-  [https://developer.android.com/](https://developer.android.com/)
-
-* [Visual Studio Code](Visual_Studio_Code): Visual Studio Code is a lightweight code editor
-
-  [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-* [Sublime](Sublime): Sublime Text is a code editor
-
-  [http://www.sublimetext.com/](http://www.sublimetext.com/)
-
-* [Atom](Atom): Atom is an online text editor
-
-  [http://www.atom.io/](http://www.atom.io/)
-
-* [Genymotion](Genymotion): Genymotion is a professional virtual simulator
-
-  [https://www.genymotion.com/](https://www.genymotion.com/)
-
-* [GVim](GVim): Vim is a text editor developed from vi
-
-  [http://www.vim.org/](http://www.vim.org/)
-
-* [UltraEdit](UltraEdit): UltraEdit is a text editor
-
-  [http://www.ultraedit.com/](http://www.ultraedit.com/)
-
-* [Eclipse IDE](Eclipse_IDE): Eclipse is an open source, Java-based extensible development platform
-
-  [http://www.eclipse.org](http://www.eclipse.org)
-
-* [JetBrains IDE](JetBrains_IDE): JetBrains is the creator of the best Java IDE
-
-  [https://www.jetbrains.com/](https://www.jetbrains.com/)
-
-* [Komodo IDE](Komodo_IDE): Komodo IDE is an integrated development environment that supports multiple dynamic programming languages
-
-  [http://www.activestate.com/komodo-ide](http://www.activestate.com/komodo-ide)
-
-* [Navicat](Navicat): Navicat is a database management tool
-
-  [https://www.navicat.com/products/navicat-for-mysql](https://www.navicat.com/products/navicat-for-mysql)
-
-* [Qt Creator](Qt_Creator): Qt Creator is a cross-platform lightweight integrated development environment
-
-  [https://www.qt.io](https://www.qt.io)
-
-* [MySQL Workbench](MySQL_Workbench): MySQL Workbench is an ER/database modeling tool designed for MySQL
-
-  [https://www.mysql.com/products/workbench/](https://www.mysql.com/products/workbench/)
-
-* [SQLiteStudio](SQLiteStudio): SQLiteStudio is a tool that helps users manage the sqlite database
-
-  [https://sqlitestudio.pl/](https://sqlitestudio.pl/)
-
-* [DBeaver](DBeaver): DBeaver is a generic database management tool and SQL client
-
-  [http://dbeaver.jkiss.org/](http://dbeaver.jkiss.org/)
-
-* [Wireshark](Wireshark): Wireshark is a network packet analysis software
-
-  [https://www.wireshark.org/](https://www.wireshark.org/)
-
-* [Code::Blocks](Code::Blocks): Code::Blocks is an open source, free, cross-platform C++ IDE
-
-  [http://www.codeblocks.org/](http://www.codeblocks.org/)
-
-* [MyEclipse](MyEclipse): MyEclipse is a software development tool, and it is the expansion of EclipseIDE
-
-  [https://www.genuitec.com/products/myeclipse/](https://www.genuitec.com/products/myeclipse/)
-
-* [SmartGit](SmartGit): SmartGit is a graphical client program for Git version control system
-
-  [http://www.syntevo.com/smartgit/](http://www.syntevo.com/smartgit/)
-
-* [SmartSVN](SmartSVN): SmartSVN is a graphical SVN client
-
-  [http://www.smartsvn.com/](http://www.smartsvn.com/)
-
-* [SmartCVS](SmartCVS): SmartCVS is a version control application for CVS
-
-  [http://www.syntevo.com/smartcvs/](http://www.syntevo.com/smartcvs/)
-
-* [SmartSynchronize](SmartSynchronize): SmartSynchronize is a tool that can check the file and do comparison between directories
-
-  [http://www.syntevo.com/smartsynchronize/](http://www.syntevo.com/smartsynchronize/)
-
-* [GNU Emacs](GNU_Emacs): GNU Emacs is an extensible, customizable text editor
-
-  [http://gnuemacs.org/](http://gnuemacs.org/)
-
-* [Deepin Emacs](Deepin_Emacs): Emacs is a self-programming and extended text editor
-
-  [https://www.deepin.org/original/deepin-emacs/](https://www.deepin.org/original/deepin-emacs/)
-
-* [Spyder](Spyder): Spyder is a powerful interactive Python integrated development environment
-
-  [http://pythonhosted.org/spyder/](http://pythonhosted.org/spyder/)
-
-* [Brackets](Brackets): Brackets is an HTML/CSS/JavaScript front-end WEB integrated development environment
-
-  [http://brackets.io/](http://brackets.io/)
-
-* [CodeLite](CodeLite): CodeLite is a cross-platform IDE for C/C++ programming languages
-
-  [http://codelite.org/](http://codelite.org/)
-
-* [Bluefish](Bluefish): Bluefish is an editor for skilled Web designers and programmers
-
-  [http://bluefish.openoffice.nl/](http://bluefish.openoffice.nl/)
-
-* [Eric](Eric): Eric is a full-featured Python and Ruby editor and IDE
-
-  [http://eric-ide.python-projects.org/](http://eric-ide.python-projects.org/)
-
-* [LiteIDE](LiteIDE): LiteIDE is an open source, cross-platform lightweight Go language integrated development environment
-
-  [https://sourceforge.net/projects/liteide/](https://sourceforge.net/projects/liteide/)
-
-* [MonoDevelop](MonoDevelop): MonoDevelop is a cross-platform integrated development environment
-
-  [http://www.monodevelop.com/](http://www.monodevelop.com/)
-
-* [Geany](Geany): Geany is a cross-platform open source integrated development environment
-
-  [http://www.geany.org/](http://www.geany.org/)
-
-* [NetBeans](NetBeans): NetBeans is an integrated development environment
-
-  [https://netbeans.org/](https://netbeans.org/)
-
-* [Arduino](Arduino): Arduino is a hardware and software platform
-
-  [https://www.arduino.cc/](https://www.arduino.cc/)
-
-* [Glade](Glade): Glade is a pretty good graphical interface design tool
-
-  [https://glade.gnome.org/](https://glade.gnome.org/)
-
-* [Gambas](Gambas): Gambas is an integrated development environment for developing Visual Basic
-
-  [http://gambas.sourceforge.net/](http://gambas.sourceforge.net/)
-
-* [GitKraken](GitKraken): GitKraken is a Git client
-
-  [https://www.gitkraken.com/](https://www.gitkraken.com/)
-
-* [Anjuta](Anjuta): Anjuta is a C, C++ integrated development environment
-
-  [http://anjuta.org/](http://anjuta.org/)
-
-* [SciTE](SciTE): SciTE is a free open source editor
-
-  [http://www.scintilla.org/](http://www.scintilla.org/)
-
-* [Yakuake](Yakuake): Yakuake is a drop-down terminal emulator
-
-  [https://www.kde.org/applications/system/yakuake/](https://www.kde.org/applications/system/yakuake/)
-
-* [Kate](Kate): Kate is an open source and advanced text editor
-
-  [http://kate-editor.org/](http://kate-editor.org/)
-
-* [Lazarus](Lazarus): Lazarus is a Pascal integrated development environment
-
-  [http://www.lazarus-ide.org/](http://www.lazarus-ide.org/)
-
-* [Intel XDK](Intel_XDK): Intel XDK is an HTML5 cross platform integrated development tool
-
-  [https://software.intel.com/en-us/intel-xdk](https://software.intel.com/en-us/intel-xdk)
-
-* [GkDebconf](GkDebconf): GkDebconf is basically a graphical frontend for Debconf
-
-  [https://sourceforge.net/projects/gkdebconf/](https://sourceforge.net/projects/gkdebconf/)
-
-* [Okteta](Okteta): Okteta is a hexadecimal editor
-
-  [https://www.kde.org/applications/utilities/okteta/](https://www.kde.org/applications/utilities/okteta/)
-
-* [wxMEdit](wxMEdit): wxMEdit is a cross-platform text/hexadecimal editor
-
-  [http://wxmedit.github.io/](http://wxmedit.github.io/)
-
-* [Poedit](Poedit): Poedit is a .po file editor
-
-  [http://poedit.net/](http://poedit.net/)
-
-* [D-Feet](D-Feet): D-Feet is an easy to use D-bus debugger
-
-  [http://wiki.gnome.org/action/show/Apps/DFeet](http://wiki.gnome.org/action/show/Apps/DFeet)
-
-* [PuTTY](PuTTY): PuTTY is a set of remote login tools
-
-  [www.putty.org/](www.putty.org/)
-
-* [PyRoom](PyRoom): PyRoom is a text editor
-
-  [http://pyroom.org/](http://pyroom.org/)
-
-* [Racket](Racket): Racket is a computer programming language
-
-  [http://racket-lang.org/](http://racket-lang.org/)
+* [Android Studio: *Android Studio is an IntelliJ IDEA based Android integrated development environment*](https://developer.android.com/)
+* [Visual Studio Code: *Visual Studio Code is a lightweight code editor*](https://code.visualstudio.com/)
+* [Sublime: *Sublime Text is a code editor*](http://www.sublimetext.com/)
+* [Atom: *Atom is an online text editor*](http://www.atom.io/)
+* [Genymotion: *Genymotion is a professional virtual simulator*](https://www.genymotion.com/)
+* [GVim: *GVim is a text editor developed from vi*](http://www.vim.org/)
+* [UltraEdit: *UltraEdit is a text editor*](http://www.ultraedit.com/)
+* [Eclipse IDE: *Eclipse is an open source, Java-based extensible development platform*](http://www.eclipse.org)
+* [JetBrains IDE: *JetBrains is the creator of the best Java IDE*](https://www.jetbrains.com/)
+* [Komodo IDE: *Komodo IDE is an integrated development environment that supports multiple dynamic programming languages*](http://www.activestate.com/komodo-ide)
+* [Navicat: *Navicat is a database management tool*](https://www.navicat.com/products/navicat-for-mysql)
+* [Qt Creator: *Qt Creator is a cross-platform lightweight integrated development environment*](https://www.qt.io)
+* [MySQL Workbench: *MySQL Workbench is an ER/database modeling tool designed for MySQL*](https://www.mysql.com/products/workbench/)
+* [SQLiteStudio: *SQLiteStudio is a tool that helps users manage the sqlite database*](https://sqlitestudio.pl/)
+* [DBeaver: *DBeaver is a generic database management tool and SQL client*](http://dbeaver.jkiss.org/)
+* [Wireshark: *Wireshark is a network packet analysis software*](https://www.wireshark.org/)
+* [Code::Blocks: *Code::Blocks is an open source, free, cross-platform C++ IDE*](http://www.codeblocks.org/)
+* [MyEclipse: *MyEclipse is a software development tool, and it is the expansion of EclipseIDE*](https://www.genuitec.com/products/myeclipse/)
+* [SmartGit: *SmartGit is a graphical client program for Git version control system*](http://www.syntevo.com/smartgit/)
+* [SmartSVN: *SmartSVN is a graphical SVN client*](http://www.smartsvn.com/)
+* [SmartCVS: *SmartCVS is a version control application for CVS*](http://www.syntevo.com/smartcvs/)
+* [SmartSynchronize: *SmartSynchronize is a tool that can check the file and do comparison between directories*](http://www.syntevo.com/smartsynchronize/)
+* [GNU Emacs: *GNU Emacs is an extensible, customizable text editor*](http://gnuemacs.org/)
+* [Deepin Emacs: *Emacs is a self-programming and extended text editor*](https://www.deepin.org/original/deepin-emacs/)
+* [Spyder: *Spyder is a powerful interactive Python integrated development environment*](http://pythonhosted.org/spyder/)
+* [Brackets: *Brackets is an HTML/CSS/JavaScript front-end WEB integrated development environment*](http://brackets.io/)
+* [CodeLite: *CodeLite is a cross-platform IDE for C/C++ programming languages*](http://codelite.org/)
+* [Bluefish: *Bluefish is an editor for skilled Web designers and programmers*](http://bluefish.openoffice.nl/)
+* [Eric: *Eric is a full-featured Python and Ruby editor and IDE*](http://eric-ide.python-projects.org/)
+* [LiteIDE: *LiteIDE is an open source, cross-platform lightweight Go language integrated development environment*](https://sourceforge.net/projects/liteide/)
+* [MonoDevelop: *MonoDevelop is a cross-platform integrated development environment*](http://www.monodevelop.com/)
+* [Geany: *Geany is a cross-platform open source integrated development environment*](http://www.geany.org/)
+* [NetBeans: *NetBeans is an integrated development environment*](https://netbeans.org/)
+* [Arduino: *Arduino is a hardware and software platform*](https://www.arduino.cc/)
+* [Glade: *Glade is a pretty good graphical interface design tool*](https://glade.gnome.org/)
+* [Gambas: *Gambas is an integrated development environment for developing Visual Basic*](http://gambas.sourceforge.net/)
+* [GitKraken: *GitKraken is a Git client*](https://www.gitkraken.com/)
+* [Anjuta: *Anjuta is a C, C++ integrated development environment*](http://anjuta.org/)
+* [SciTE: *SciTE is a free open source editor*](http://www.scintilla.org/)
+* [Yakuake: *Yakuake is a drop-down terminal emulator*](https://www.kde.org/applications/system/yakuake/)
+* [Kate: *Kate is an open source and advanced text editor*](http://kate-editor.org/)
+* [Lazarus: *Lazarus is a Pascal integrated development environment*](http://www.lazarus-ide.org/)
+* [Intel XDK: *Intel XDK is an HTML5 cross platform integrated development tool*](https://software.intel.com/en-us/intel-xdk)
+* [GkDebconf: *GkDebconf is basically a graphical frontend for Debconf*](https://sourceforge.net/projects/gkdebconf/)
+* [Okteta: *Okteta is a hexadecimal editor*](https://www.kde.org/applications/utilities/okteta/)
+* [wxMEdit: *wxMEdit is a cross-platform text/hexadecimal editor*](http://wxmedit.github.io/)
+* [Poedit: *Poedit is a .po file editor*](http://poedit.net/)
+* [D-Feet: *D-Feet is an easy to use D-bus debugger*](http://wiki.gnome.org/action/show/Apps/DFeet)
+* [PuTTY: *PuTTY is a set of remote login tools*](http://www.putty.org/)
+* [PyRoom: *PyRoom is a text editor*](http://pyroom.org/)
+* [Racket: *Racket is a computer programming language*](http://racket-lang.org/)
   
 {.links-list}
 
@@ -488,7 +255,7 @@ dateCreated: 2022-04-21T03:54:27.028Z
 * [Deepin Boot Maker: *Deepin Boot Maker is a system boot disk maker developed by Deepin Technology*](https://www.deepin.org/original/deepin-boot-maker/)
 * [Archive Manager: *Fileroller(Archive Manager) is an archive manager*](http://fileroller.sourceforge.net/)
 * [Sogou Input Method: *Sogou Input Method is a popular Chinese input method*](http://pinyin.sogou.com/linux/)
-* [System Monitor: *System Monitor (gnome-system-monitor) ) is an open source system monitor application*](https://github.com/GNOME/gnome-system-monitor)
+* [System Monitor: *System Monitor (gnome-system-monitor) is an open source system monitor application*](https://github.com/GNOME/gnome-system-monitor)
 * [Font Viewer: *Font Viewer is an application to view fonts*](https://github.com/GNOME/gnome-font-viewer)
 * [Deepin OpenSymbol: *Deepin OpenSymbol is a font that redrawn based on Wingdings font series by Deepin Technology*](https://www.deepin.org/original/deepin-opensymbol/)
 * [Nautilus: *Nautilus is a file manager*](https://wiki.gnome.org/Apps/Nautilus)
@@ -548,80 +315,24 @@ dateCreated: 2022-04-21T03:54:27.028Z
 
 ## Others
 
-* [Crossover](Crossover): Crossover is a tool that can run Windows software and games in Linux
-
-  [www.codeweavers.com](www.codeweavers.com)
-
-* [PlayOnLinux](PlayOnLinux): PlayOnLinux is a front-end program for Wine
-
-  [https://www.playonlinux.com/](https://www.playonlinux.com/)
-
-* [Wine](Wine): Wine is a compatible layer that can run Windows applications on multiple systems (Linux, macOS, BSD, etc.)
-
-  [https://www.winehq.org/](https://www.winehq.org/)
-
-* [LibreCAD](LibreCAD): LibreCAD is a 2D CAD drawing tool
-
-  [http://librecad.org/](http://librecad.org/)
-
-* [FreeCAD](FreeCAD): FreeCAD is a versatile 3D CAD modeling software
-
-  [http://www.freecadweb.org/](http://www.freecadweb.org/)
-
-* [DraftSight](DraftSight): DraftSight is a professional 2D CAD drawing software
-
-  [http://www.3ds.com/products-services/draftsight/](http://www.3ds.com/products-services/draftsight/)
-
-* [Sweet Home 3D](Sweet_Home_3D): Sweet Home 3D is a home decoration design software
-
-  [http://www.sweethome3d.com/](http://www.sweethome3d.com/)
-
-* [Stellarium](Stellarium): Stellarium is a virtual astrological computer software
-
-  [http://www.stellarium.org/](http://www.stellarium.org/)
-
-* [QElectroTech](QElectroTech): QElectroTech is a circuit drawing software
-
-  [http://qelectrotech.org/](http://qelectrotech.org/)
-
-* [GNU Octave](GNU_Octave): GNU Octave is a high-level programming language
-
-  [https://www.gnu.org/software/octave/](https://www.gnu.org/software/octave/)
-
-* [BirdFont](BirdFont): BirdFont is a free font editor
-
-  [https://birdfont.org/](https://birdfont.org/)
-
-* [QCad](QCad): QCad is a 2D computer aided drawing software
-
-  [http://www.qcad.org/](http://www.qcad.org/)
-
-* [GnuCash](GnuCash): GnuCash is a financial software for individuals or small businesses
-
-  [http://www.gnucash.org/](http://www.gnucash.org/)
-
-* [BOINC](BOINC): BOINC is an application that contributes to computing resources
-
-  [http://boinc.berkeley.edu/](http://boinc.berkeley.edu/)
-
-* [Room Arranger](Room_Arranger): Room Arranger is a real-time simulation of housing design layout software
-
-  [http://www.roomarranger.com/](http://www.roomarranger.com/)
-
-* [Scribus](Scribus): Scribus is an electronic magazine production software
-
-  [https://www.scribus.net/](https://www.scribus.net/)
-
-* [KRuler](KRuler): KRuler is a tool for developing screen resolution rules and color measurements
-
-  [https://www.kde.org/applications/graphics/kruler/](https://www.kde.org/applications/graphics/kruler/)
-
-* [Dr.Geo](Dr.Geo): Dr.Geo is an interactive geometric distribution application
-
-  [http://www.drgeo.eu/](http://www.drgeo.eu/)
-
-* [wxMaxima](wxMaxima): wxMaximais a computer-based algebra system application based on wxWidgets
-
-  [http://andrejv.github.io/wxmaxima/](http://andrejv.github.io/wxmaxima/)
+* [Crossover: *Crossover is a tool that can run Windows software and games in Linux*](www.codeweavers.com)
+* [PlayOnLinux: *PlayOnLinux is a front-end program for Wine*](https://www.playonlinux.com/)
+* [Wine: *Wine is a compatible layer that can run Windows applications on multiple systems (Linux, macOS, BSD, etc.)*](https://www.winehq.org/)
+* [LibreCAD: *LibreCAD is a 2D CAD drawing tool*](http://librecad.org/)
+* [FreeCAD: *FreeCAD is a versatile 3D CAD modeling software*](http://www.freecadweb.org/)
+* [DraftSight: *DraftSight is a professional 2D CAD drawing software*](http://www.3ds.com/products-services/draftsight/)
+* [Sweet Home 3D: *Sweet Home 3D is a home decoration design software*](http://www.sweethome3d.com/)
+* [Stellarium: *Stellarium is a virtual astrological computer software*](http://www.stellarium.org/)
+* [QElectroTech: *QElectroTech is a circuit drawing software*](http://qelectrotech.org/)
+* [GNU Octave: *GNU Octave is a high-level programming language*](https://www.gnu.org/software/octave/)
+* [BirdFont: *BirdFont is a free font editor*](https://birdfont.org/)
+* [QCad: *QCad is a 2D computer aided drawing software*](http://www.qcad.org/)
+* [GnuCash: *GnuCash is a financial software for individuals or small businesses*](http://www.gnucash.org/)
+* [BOINC: *BOINC is an application that contributes to computing resources*](http://boinc.berkeley.edu/)
+* [Room Arranger: *Room Arranger is a real-time simulation of housing design layout software*](http://www.roomarranger.com/)
+* [Scribus: *Scribus is an electronic magazine production software*](https://www.scribus.net/)
+* [KRuler: *KRuler is a tool for developing screen resolution rules and color measurements*](https://www.kde.org/applications/graphics/kruler/)
+* [Dr.Geo: *Dr.Geo is an interactive geometric distribution application*](http://www.drgeo.eu/)
+* [wxMaxima: *wxMaximais a computer-based algebra system application based on wxWidgets*](http://andrejv.github.io/wxmaxima/)
   
  {.links-list}

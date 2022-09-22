@@ -2,7 +2,7 @@
 title: 安装openresty
 description: deepin下编译安装openresty
 published: true
-date: 2022-09-18T03:32:24.159Z
+date: 2022-09-18T03:32:25.910Z
 tags: nginx, openresty
 editor: markdown
 dateCreated: 2022-09-18T03:32:24.159Z

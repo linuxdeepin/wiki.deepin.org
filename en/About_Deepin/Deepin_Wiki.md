@@ -2,7 +2,7 @@
 title: Deepin_Wiki
 description: 
 published: true
-date: 2022-06-14T05:17:50.530Z
+date: 2022-07-21T10:24:46.144Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-24T04:47:14.524Z
@@ -17,8 +17,10 @@ dateCreated: 2022-05-24T04:47:14.524Z
 &emsp; Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
 
 # Catalogue Structure
+
 - /en/ wiki contents in English 
 - /zh/ wiki contents in Chinese
+
 # Discussion
 
 &emsp; Each article has its own "conversation page" where you can ask questions, make suggestions, or discuss corrections.
@@ -41,6 +43,7 @@ You can submit contributions in two ways.
 &emsp; Editors can provide information about the entire new paragraph or page, or as simple as repairing misspellings or spelling errors. In general, try to add or edit text to make it clear and concise. The most important thing is to make sure you are improving the encyclopedia to make it more accurate.
 
 &emsp; When you need to use a certain type of format, for example for new or bold text, you can use the **markdown syntax** or edit the buttons in the edit toolbar above the area.
+
 ## Edit methods
 
 1. Click the "Page Actions-->Edit" tab at the top of the page.
@@ -83,12 +86,28 @@ This article is used to help users understand Deepin Wiki's editing methods and 
 2. It is necessary to show **user ID** and **original essay address** at the beginning of the corresponding content if the imported content is from community user sharing experience.
   
 ## Pictures
+
 1. It is recommend that the picture format is jpg or png, with less than 150kB file size.
 
 2. To avoid disputes, please use personal original pictures or copyrightless pictures following CC0 License.
 
 3. Please name the imported picture with the related content, not with numbers or symbols.
 
+# Thanks
+
+Thanks to the following community member for contributing to deepin Wiki! (In no particular order)
+
+* **Editor Group：**
+
+MouseZhang、Stillalive-myj、爱嘤斯坦、shenlan、fengshuo、cvb97、maicss、insidentally、rainyl、babyfeng、xuqi、vivian_me、deepin_xiaoqian、 justforlxz、ThinKinG、冒得先生、iamboyuyang、dengtongxue、dongka、骑着摩托写Bug、花酒锄作田、俺最萌、root、mrcangye、Fredoong、ericneon、大圣开发DSOE、风暴猪猪侠、孤岛悬城、GBwater、吉吉如律令、emo
+
+* **Desinger Group：**
+
+Shalling、golf、也許明天╯
+
+* **Collector Group：**
+
+wyz144344
 
 
 

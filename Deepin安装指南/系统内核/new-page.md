@@ -1,12 +1,18 @@
 ---
-title: Untitled Page
+title: Deepin系统内核
 description: 
 published: true
-date: 2022-05-26T03:06:22.997Z
+date: 2022-07-03T15:31:30.329Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-26T03:06:20.903Z
 ---
 
-# Header
-Your content here
+# Deepin系统内核
+## 前言
+内核是每个操作系统中最重要的部分，内核直接影响着操作系统的稳定性以及操作易用性，整个操作系统的内存分配，磁盘读写都是操作系统内核控制的
+deepin基于自由开源的Linux内核，稳定版一般会使用Linux kernel中稳定性较好的版本，测试版会使用Linux kernel最新的版本，但是最新版本的内核漏洞很多，缺乏稳定性
+
+随着内核版本的更新，系统的使用体验也会不断提升。同时，你也可以自行编译deepin的内核，不过可能因内核版本问题出现问题，需要一定技术基础
+
+deepin的内核每个版本会有所不同，大多数情况会在安装时会直接使用镜像机的内核，部分版本会让用户根据需要自行选择内核版本

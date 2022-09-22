@@ -2,7 +2,7 @@
 title: Deepin_Derivatives
 description: 
 published: true
-date: 2022-05-20T08:39:03.176Z
+date: 2022-06-29T04:22:55.878Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:31.076Z
@@ -16,7 +16,9 @@ As deepin becomes more and more popular, part of the popular Linux distributions
 
 ## Deepin Derivatives
 
-[Manjaro](https://manjaro.org/category/community-editions/deepin)
+- [Ubuntu DDE](https://ubuntudde.com/)
+INTRODUCTION TO UBUNTUDDE 
+UbuntuDDE is a Remix flavor of Ubuntu system with Deepin Desktop Environment (DDE) . UbuntuDDE is a linux distribution based on Ubuntu with the most beautiful desktop environment. Its initial release is UbuntuDDE Remix 20.04 focal based on Ubuntu 20.04 LTS and will be supported by the UbuntuDDE community.
 
 ## News
 

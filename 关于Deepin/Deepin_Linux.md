@@ -1,8 +1,8 @@
 ---
-title: deepin 简介
+title: Deepin 简介
 description: 
 published: true
-date: 2022-05-15T01:48:08.383Z
+date: 2022-07-26T08:44:20.225Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:06:20.611Z
@@ -25,7 +25,7 @@ dateCreated: 2022-05-08T13:06:20.611Z
 
 目前国内外已诸多个大学和机构同步了 deepin linux 的镜像源。
 
-详细可见[这里]([Deepin_Linux/镜像源](https://wiki.deepin.org/zh/%E5%85%B3%E4%BA%8EDeepin/Deepin_Linux/%E8%BD%AF%E4%BB%B6%E6%BA%90))
+详细可见：https://www.deepin.org/zh/mirrors/releases/
 
 ## 源代码
 

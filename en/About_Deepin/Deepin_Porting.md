@@ -2,7 +2,7 @@
 title: Deepin_Porting
 description: 
 published: true
-date: 2022-06-23T07:41:08.238Z
+date: 2022-06-29T03:31:00.400Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:54:59.524Z
@@ -44,6 +44,14 @@ dateCreated: 2022-04-21T03:54:59.524Z
 * Archlinux：https://aur.archlinux.org/packages/netease-cloud-music
   
 
-### Official Introductions
+### Official Application Introductions
 
 [Deepin Original Applications](https://www.deepin.org/en/original/deepin-installer/)
+
+## Hardware Platform Porting
+### deepin-riscv
+Porting deepin to the RISC-V platform
+https://github.com/linuxdeepin/deepin-riscv
+### deepin-m1
+Porting deepin to the M1 device of Apple.
+https://github.com/linuxdeepin/deepin-m1

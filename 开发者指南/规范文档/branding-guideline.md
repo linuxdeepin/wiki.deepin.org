@@ -2,7 +2,7 @@
 title: 品牌专有名词指导方针
 description: 面向开发者的，与 deepin 品牌相关的专有名词使用指导文档
 published: true
-date: 2022-08-31T06:04:43.850Z
+date: 2022-09-01T05:22:31.141Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T06:04:43.850Z

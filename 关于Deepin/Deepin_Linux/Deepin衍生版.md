@@ -2,7 +2,7 @@
 title: Deepin衍生版
 description: 
 published: true
-date: 2022-06-08T05:44:13.395Z
+date: 2022-07-03T12:06:31.444Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:52.572Z
@@ -19,6 +19,8 @@ dateCreated: 2022-04-21T03:32:52.572Z
 [Manjaro Deepin](https://manjaro.org/category/community-editions/deepin)
 
 [BigLinux](www.biglinux.com.br)
+
+[UbuntuDDE](https://ubuntudde.com)
 
 ## 相关链接
 

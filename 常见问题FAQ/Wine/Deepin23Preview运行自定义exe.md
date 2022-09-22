@@ -2,7 +2,7 @@
 title: Deepin 23 Preview 运行自定义 exe
 description: 在Deepin 23 Preview 运行自定义 exe
 published: true
-date: 2022-08-03T09:11:19.725Z
+date: 2022-08-03T09:11:21.890Z
 tags: wine, wine exe, wine exe bat
 editor: markdown
 dateCreated: 2022-08-03T09:06:54.020Z

@@ -2,7 +2,7 @@
 title: deepin常用资源整理（V3.2）
 description: 本文由论坛用户pzm9012分享，原帖地址：https://www.yuque.com/pzm9012/ct5ume/nte586
 published: true
-date: 2022-08-14T00:27:55.350Z
+date: 2022-08-14T00:27:58.098Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T02:54:30.594Z

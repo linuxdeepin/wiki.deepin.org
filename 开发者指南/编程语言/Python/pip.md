@@ -2,7 +2,7 @@
 title: Pip
 description: pip
 published: true
-date: 2022-06-25T10:03:44.441Z
+date: 2022-06-25T10:03:46.691Z
 tags: python
 editor: markdown
 dateCreated: 2022-05-05T10:08:37.502Z

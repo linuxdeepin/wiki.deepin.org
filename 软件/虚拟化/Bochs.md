@@ -2,7 +2,7 @@
 title: Bochs
 description: 一款开源的x86模拟器和调试软件
 published: true
-date: 2022-08-04T08:31:45.627Z
+date: 2022-08-04T08:31:47.626Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T08:31:45.627Z

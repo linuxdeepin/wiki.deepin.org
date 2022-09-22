@@ -2,7 +2,7 @@
 title: 4-用原生wine运行便携式exe程序绿色软件的方法
 description: 
 published: true
-date: 2022-09-02T08:22:05.778Z
+date: 2022-09-02T08:22:07.581Z
 tags: wine exe
 editor: markdown
 dateCreated: 2022-06-20T09:06:18.041Z

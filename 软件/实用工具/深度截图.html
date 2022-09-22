@@ -2,10 +2,83 @@
 title: 深度截图
 description: 
 published: true
-date: 2022-05-07T02:34:46.452Z
+date: 2022-07-22T11:48:24.655Z
 tags: 
 editor: ckeditor
 dateCreated: 2022-05-05T04:44:03.668Z
 -->
 
-<p>深度截图<br>&nbsp;</p>
+<h1><strong>引言</strong></h1>
+<p>如果你应用或系统出现问题或疑惑时，经常有人会让你截图，如果你使用的是deepin/UOS，你总会使用到这个自带的截图工具</p>
+<p>而就在最近的 deepin 20.3 中，对截图录屏进行了更新，下面就有更新的内容：</p>
+<blockquote>
+  <p>截图录屏增加滚动长截图功能，主要用于单页界面内容不能满足需求，需要手动翻页截取多张图片的场景，截图过程只需滚动就可以截出完整内容。在20.2.4版本已经上线的OCR功能，也支持在长截图场景下使用，更快捷的提取想要的文字内容。</p>
+</blockquote>
+<p><i>数据来自 www.deepin.org</i></p>
+<p>也有更加详细的内容：</p>
+<blockquote>
+  <p>新增长截图功能，支持手动滚动、自动滚动</p>
+</blockquote>
+<blockquote>
+  <p>新增滚动截图预览功能</p>
+</blockquote>
+<blockquote>
+  <p>新增OCR长图识别功能</p>
+</blockquote>
+<blockquote>
+  <p>优化截图、录屏内容保存路径设置</p>
+</blockquote>
+<p><i>数据来自 www.deepin.org</i></p>
+<p>那么这个截图升级的如此之大，那么更要来介绍一下了</p>
+<h1><strong>功能</strong></h1>
+<h2><strong>一、长截图功能</strong></h2>
+<p>正常的截图都是只能截一段，不能滚动的，就如用来截“深度截图录屏”的工具——flameshot（表叔可能有问题，flameshot不是深度的！），如图：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/20211218201947593_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20211218201920.png" alt=""></figure>
+<p>但深度截图就<strong>支持滚动截图</strong>，使用方法如下：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/20211218201803860_2021-12-18_20-15.png" alt=""></figure>
+<ol>
+  <li>点击此按钮<strong>打开截图</strong></li>
+</ol>
+<figure class="image"><img src="https://storage.deepin.org/thread/202112182021542551_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20211218202120.png" alt=""></figure>
+<ol>
+  <li>选中需要截长图的区域，按这个按钮<strong>开启长截图模式</strong></li>
+</ol>
+<figure class="image"><img src="https://storage.deepin.org/thread/202112182025516312_2021-12-18_20-24.png" alt=""></figure>
+<ol>
+  <li>滚动鼠标滚轮进行长截图 ，如图：</li>
+</ol>
+<figure class="image"><img src="https://storage.deepin.org/thread/202112182027071778_2021-12-18_20-15.png" alt=""></figure>
+<p><strong>说明：有以下几种情况会导致拼接异常。</strong></p>
+<ul>
+  <li>截图区域超出滚动范围，如框选整个窗口、全屏等；</li>
+  <li>截图区域过小，如高度小于50px；</li>
+  <li>截图区域中有多个滚动区域；</li>
+  <li>滚动区域中包含大量重复内容，如空白区域、相同颜色、大段相同文字等；</li>
+  <li>滚动区域中包含动图、视频、水印等，或者有非纯色背景的内容；</li>
+  <li>滚动时有水平方向的偏移，如滑动滚动条；</li>
+  <li>滚动速度过快；</li>
+  <li>滚动时切换窗口。</li>
+</ul>
+<p><i>来源于系统帮助</i></p>
+<p>当然截图出现问题时也会告诉你的，自己试试就知道了（提示：刚刚上面选的范围其实是无法截图的，你发现了吗？）</p>
+<p>下面也有GIF教程：</p>
+<figure class="image"><img src="https://img-blog.csdnimg.cn/517f892c2ef845f79a86befaa7aa0077.gif" alt=""></figure>
+<h2><strong>OCR</strong></h2>
+<p>OCR 在一些程序是付费功能（当然也更加强大），而深度（<strong>并不是只有截图才有这个功能</strong>）有这个功能，使用方法如下：</p>
+<ol>
+  <li>点击此按钮<strong>打开截图</strong></li>
+</ol>
+<figure class="image"><img src="https://storage.deepin.org/thread/202112182021542551_%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20211218202120.png" alt=""></figure>
+<ol>
+  <li>选中需要截识别的区域，按这个按钮<strong>开启OCR识别模式</strong></li>
+</ol>
+<figure class="image"><img src="https://storage.deepin.org/thread/202112182107583179_2021-12-18_21-05.png" alt=""></figure>
+<ol>
+  <li>然后需要等待一会，然后会自动识别获取结果</li>
+</ol>
+<figure class="image"><img src="https://storage.deepin.org/thread/202112182108244615_%E6%88%AA%E5%9B%BE_deepin-ocr_20211218210544.png" alt=""></figure>
+<p>提示：<strong>单击右下角的两个按钮可以将文字内容复制到剪贴板以及将文字内容保存为TXT文件。</strong>，而且<strong>图片越简洁，识别速度越快、准确性越高</strong></p>
+<p>GIF 教程：</p>
+<figure class="image"><img src="https://img-blog.csdnimg.cn/62bbf2b6562149a6a38139e38ebb0579.gif" alt=""></figure>
+<h2><strong>小结</strong></h2>
+<p>当然，剩下的很多功能就已经在很久前添加了，这里就不讲了，相比其他Linux上的截图工具，也是很强的了（这里指的是Peek、Flameshot、Kazam，不懂的可以自己体验一下，这里比较主观）</p>

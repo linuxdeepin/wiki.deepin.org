@@ -2,7 +2,7 @@
 title: linux 权限管理
 description: 
 published: true
-date: 2022-08-11T09:25:18.018Z
+date: 2022-08-11T09:25:20.221Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-11T09:23:58.775Z

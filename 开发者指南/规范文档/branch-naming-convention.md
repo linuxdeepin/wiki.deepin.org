@@ -2,7 +2,7 @@
 title: Git 分支命名规范
 description: 适用于 deepin 相关项目的分支命名规范文档
 published: true
-date: 2022-09-01T05:05:21.032Z
+date: 2022-09-01T05:05:23.860Z
 tags: 规范文档
 editor: markdown
 dateCreated: 2022-09-01T05:05:21.032Z

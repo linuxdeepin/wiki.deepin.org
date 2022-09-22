@@ -2,7 +2,7 @@
 title: 用archinstall自动化脚本安装Arch Linux
 description: 
 published: true
-date: 2022-09-14T04:05:37.353Z
+date: 2022-09-14T04:05:39.132Z
 tags: arch
 editor: markdown
 dateCreated: 2022-09-14T02:18:42.542Z

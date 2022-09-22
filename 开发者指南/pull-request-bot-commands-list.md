@@ -2,7 +2,7 @@
 title: Pull Request 机器人命令列表
 description: 介绍关于 GitHub 相关组织下所配置的辅助工具机器人的命令用法
 published: true
-date: 2022-08-31T08:36:42.548Z
+date: 2022-08-31T08:36:45.474Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T08:27:50.019Z

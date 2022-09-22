@@ -2,7 +2,7 @@
 title: Deepin - Deepin Linux Distribution  Wiki
 description: Deepin Wiki is designed to be an extended documentation for end users and developers.
 published: true
-date: 2022-06-15T00:38:01.800Z
+date: 2022-07-08T08:57:16.199Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-11T10:54:00.186Z
@@ -25,11 +25,11 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 # Our Community
 
-- [Declaration of community *Value of the deepin community.*](/about_deepin/deepin_community)
+- [Community Manifesto *Value of the deepin community.*](/about_deepin/deepin_community)
 - [Code of conduct *Guidelines for the deepin community.*](/about_deepin/deepin_community)
-- [International communities *Collection of links to the deepin Linux communities around the world..*](/about_deepin/deepin_community)
-- [SIG & Teams:*special interest groups and other organization  etc.*](/about_deepin/deepin_community)
-- [Mailling list:*mailling list of community.*](/about_deepin/deepin_community)
+- [SIG & Teams: *special interest groups and other organization  etc.*](/about_deepin/deepin_community)
+- [International communities *Collection of links to the deepin Linux communities around the world.*](/about_deepin/deepin_community)
+- [Mailing list: *mailing list of community.*](/about_deepin/deepin_community)
 {.links-list}
 
 # Wiki Interaction
@@ -48,16 +48,16 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 # User Guide
 
 - [Beautify *wallpaper ,theme,icon fonts.*](/system_management/personalization)
-- [Software *office ,terminal,content creation,game,tool.*](/Software/Deepin_Application_Management)
+- [Software *office ,terminal,content creation,game,tool.*](/Software/software_list)
 - [Hardware *CPU ,GPU,RAM ,Disk ,Mother board,Storage,printers*](/hardware/Introduction_to_hardware)
-- [Frequently asked questions *How to deal with the problem of using Deepin linux.*](/guide/user)
-- [User Feedback *User Feedback.*](/guide/user)
+- [Frequently asked questions *How to deal with the problem of using Deepin linux.*](/About_Deepin/Deepin_FAQ)
+- [User Feedback *User Feedback.*](https://bbs.deepin.org/en)
 {.links-list}
 
 # Administrator Guide
 
-- [File & Directory*File & Directory*](/system_management/file_and_directory)
-- [User & Groups *User & Groups*](/system_management/user_and_group)
+- [File & Directory*File & Directory*](/system_management/configuration/file_and_directory)
+- [User & Groups *User & Groups*](/system_management/configuration/user_and_group)
 - [Storage Management *partition table and file system.*](/system_management/storage_management)
 - [Process Management *kill a process*](/system_management/process_management)
 - [Services Management *install a server*](/system_management/service_management)
@@ -68,9 +68,9 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 Wiki.js is fully extensible for maximum customization.
 
-- [Programming Language *C/C++, GOLANG, Python, C#.*](/development)
-- [Frameworks *.NET,  DTK.*](/development)
-- [IDE *VSCode  Eclipse .*](/development)
+- [Programming Language *C/C++, GOLANG, Python, C#.*](/development/programming_language/markdown)
+- [Framework *.NET,  DTK.*](/development/framework/dotnet)
+- [IDE *VSCode  Eclipse .*](/development/ide/vscode)
 {.links-list}
 
 # Contribute

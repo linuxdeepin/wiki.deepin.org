@@ -2,7 +2,7 @@
 title: 如何在Fedora发行版上安装DDE桌面环境
 description: Fedora36安装深度桌面
 published: true
-date: 2022-09-14T07:47:24.124Z
+date: 2022-09-14T07:47:25.887Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-07T09:34:53.083Z

@@ -2,7 +2,7 @@
 title: rpm
 description: 
 published: true
-date: 2022-08-09T01:57:04.876Z
+date: 2022-08-09T01:57:07.060Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-09T01:25:35.947Z

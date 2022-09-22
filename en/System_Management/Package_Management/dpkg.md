@@ -2,7 +2,7 @@
 title: dpkg
 description: 
 published: true
-date: 2022-08-09T01:14:26.061Z
+date: 2022-08-09T01:14:28.094Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-08T10:47:49.420Z

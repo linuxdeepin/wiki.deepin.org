@@ -2,8 +2,8 @@
 title: 如何在openSUSE发行版上安装DDE桌面环境
 description: DDE桌面环境在opensuse leap 15.3及以上版本是有较好适配，为openSUSE用户多提供一个桌面环境的选择。
 published: true
-date: 2022-09-14T07:47:05.246Z
-tags: dde桌面环境, linux, opensuse
+date: 2022-09-14T07:47:06.993Z
+tags: linux, opensuse, dde桌面环境
 editor: markdown
 dateCreated: 2022-09-08T08:46:23.082Z
 ---

@@ -2,7 +2,7 @@
 title: amd显卡使用情况查看
 description: 
 published: true
-date: 2022-09-22T06:03:20.081Z
+date: 2022-09-22T06:03:21.779Z
 tags: linux, amd
 editor: markdown
 dateCreated: 2022-09-22T06:03:20.081Z

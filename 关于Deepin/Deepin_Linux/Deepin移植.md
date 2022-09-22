@@ -1,8 +1,8 @@
 ---
-title: deepin移植
+title: Deepin移植
 description: 
 published: true
-date: 2022-05-08T14:25:50.334Z
+date: 2022-07-13T05:37:52.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:46.429Z

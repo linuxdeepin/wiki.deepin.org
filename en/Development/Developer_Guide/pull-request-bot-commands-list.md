@@ -2,7 +2,7 @@
 title: Pull Request Bot Commands List
 description: 
 published: true
-date: 2022-08-31T08:33:52.553Z
+date: 2022-09-16T03:07:10.057Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-31T08:33:52.553Z

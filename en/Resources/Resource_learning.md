@@ -2,15 +2,15 @@
 title: Resource_learning
 description: 
 published: true
-date: 2022-06-10T10:33:08.446Z
+date: 2022-07-19T09:00:21.889Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:59.921Z
 ---
 
-### Open Source Knowledges
+# Open Source Knowledges
 
-#### Open Source License
+## Open Source License
 
 * [GNU General Public License Version 3(GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html)
 * [GNU General Public License Version 2(GPLv2)](http://www.gnu.org/licenses/gpl-2.0.html)
@@ -21,9 +21,9 @@ dateCreated: 2022-04-21T03:56:59.921Z
 * [Eclipse Public License(EPL)](http://www.eclipse.org/legal/epl-v10.html)
 * [Apache License](http://www.apache.org/licenses/)
 
-### Network Resources
+## Network Resources
 
-#### OSC News
+### OSC News
 
 * OMG Ubuntu：<http://www.omgubuntu.co.uk>
 * Phoronix：<http://www.phoronix.com>
@@ -31,7 +31,7 @@ dateCreated: 2022-04-21T03:56:59.921Z
 * Jupiter Broadcasting：<http://www.jupiterbroadcasting.com>
 * DistroWatch.com：<http://distrowatch.com>
 
-#### Common Website
+### Common Website
 
 * Linux.org：<http://www.linux.org>
 * The Linux Foundation：<http://www.linuxfoundation.org>
@@ -45,7 +45,7 @@ dateCreated: 2022-04-21T03:56:59.921Z
 * Mozilla：<http://www.mozilla.com>
 * pkgs：<http://pkgs.org>
 
-#### Linux Game
+### Linux Game
 
 * Steam：<http://store.steampowered.com/browse/linux>
 * Humble Store：<http://www.humblebundle.com/>
@@ -61,14 +61,14 @@ dateCreated: 2022-04-21T03:56:59.921Z
 * Indie DB：<http://www.indiedb.com>
 * Linux Games：<http://gamux.org>
 
-#### Code Hosting Platform
+### Code Hosting Platform
 
 * GitHub：<https://github.com>
 * Sourceforge：<http://sourceforge.net>
 * Freecode：<http://freshmeat.net>
 * Bitbucket：<https://bitbucket.org>
 
-#### Linux distro
+### Linux distro
 
 * deepin：<http://www.deepin.org>
 * Linux Mint：<http://linuxmint.com>
@@ -83,7 +83,7 @@ dateCreated: 2022-04-21T03:56:59.921Z
 * Red Hat Enterprise Linux：<http://www.redhat.com>
 * elementary OS：<https://elementary.io>
 
-#### Wiki
+### Wiki
 
 * Debain Wiki：<http://wiki.debian.org>
 * Arch Wiki：<https://wiki.archlinux.org>
@@ -93,6 +93,6 @@ dateCreated: 2022-04-21T03:56:59.921Z
 * IBM developerWorks：<http://www.ibm.com/developerworks/cn/linux>
 * Linux Wireless：<http://wireless.kernel.org>
 
-### Online Study
+## Online Study
 
 ### Books
