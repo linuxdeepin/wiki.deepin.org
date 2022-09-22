@@ -2,7 +2,7 @@
 title: debuginfod 介绍
 description: 
 published: true
-date: 2022-09-22T02:10:01.889Z
+date: 2022-09-22T02:34:23.839Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-09T07:57:01.248Z
@@ -102,38 +102,32 @@ dateCreated: 2022-09-09T07:57:01.248Z
    Downloading separate debug info for /lib/x86_64-linux-gnu/libsystemd.so.0...
    ```
 ## 注意：
-   1.  debuginfod对deb打包方式获取源码的支持有限，请见[can't download source code](https://wiki.debian.org/Debuginfod#The_service_isn.27t_working.21__I_can.27t_download_the_source_code_while_debugging_a_package.21)
+1.  debuginfod对deb打包方式获取源码的支持有限，请见[can't download source code](https://wiki.debian.org/Debuginfod#The_service_isn.27t_working.21__I_can.27t_download_the_source_code_while_debugging_a_package.21)
 
-		2.  各个client对debuginfod的支持情况（2022.08）以下数据来自[debuginfod](https://sourceware.org/elfutils/Debuginfod.html)
+2.  各个client对debuginfod的支持情况（2022.08）以下数据来自[debuginfod](https://sourceware.org/elfutils/Debuginfod.html)
 
-        | tool                                                         | status                                                       |
-        | :----------------------------------------------------------- | :----------------------------------------------------------- |
-        | [elfutils](https://sourceware.org/elfutils/index.html)       | [released](https://sourceware.org/ml/elfutils-devel/2019-q4/msg00219.html) in version 0.178, 2019-11 |
-        | [systemtap](https://sourceware.org/systemtap/)               | automatic via elfutils                                       |
-        | [dwarves](https://github.com/acmel/dwarves)                  | automatic via elfutils                                       |
-        | [dwgrep](https://pmachata.github.io/dwgrep/)                 | automatic via elfutils                                       |
-        | [ltrace](https://gitlab.com/cespedes/ltrace)                 | automatic via elfutils                                       |
-        | [libabigail](https://sourceware.org/libabigail/)             | automatic via elfutils                                       |
-        | [binutils](https://sourceware.org/binutils/)                 | [released](https://sourceware.org/ml/binutils/2020-02/msg00006.html) in version 2.34, 2020-02 |
-        | [gdb](https://sourceware.org/gdb/)                           | [released](https://lists.gnu.org/archive/html/info-gnu/2020-10/msg00009.html) in version 10.1, 2020-10 |
-        | [dyninst](https://www.dyninst.org/dyninst)                   | [released](https://github.com/dyninst/dyninst/pull/736) in version 11.0 2021-04 |
-        | [valgrind](https://www.valgrind.org/)                        | [released](https://sourceware.org/git/?p=valgrind.git;a=commit;h=fd4e3fb0ffa3f751f0e7f2e7f4639d4c3773305d) in version 3.17.0, 2021-03 |
-        | [annocheck](https://fedoraproject.org/wiki/Toolchain/Watermark) | [released](https://sourceware.org/git/?p=annobin.git;a=commitdiff;h=3d27b86eb088bd23c5908a9d78c733417ade79be) in version 9.03, 2020-01 |
-        | [delve](https://github.com/go-delve/delve)                   | [released](https://github.com/go-delve/delve/pull/2670) in version 1.7.2, 2021-09 |
-        | [llvm](https://llvm.org/)                                    | symbolizer [merged](https://reviews.llvm.org/D113717), server [merged](https://reviews.llvm.org/D114846), lldb [help wanted](https://reviews.llvm.org/D75750), [see also](https://github.com/schultetwin1/gdbundle-debuginfod) |
-        | [bpftrace](https://github.com/iovisor/bpftrace)              | [released](https://github.com/iovisor/bpftrace/issues/1774) in version 0.21.0, 2021-07 |
-        | [perf](https://perf.wiki.kernel.org/index.php/Main_Page)     | released in linux 5.10, 2021-01                              |
-        | [systemd-coredumpd](https://www.freedesktop.org/software/systemd/man/systemd-coredump.html) | [help wanted](https://github.com/systemd/systemd/issues/14711) |
-        | [retrace/abrt/faf](https://github.com/abrt/faf/wiki/Retracing) | [in](https://github.com/abrt/faf/issues/952) [progress](https://github.com/abrt/faf/issues/951) `amerey@redhat.com` |
-        | [vtune](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/vtune-profiler.html) | [help wanted](https://community.intel.com/t5/Intel-oneAPI-Base-Toolkit/RFE-debuginfo-access-linux-via-debuginfod-protocol/m-p/1252914#M1032) |
-        | [pixie](https://pixielabs.ai/)                               | [help wanted](https://github.com/pixie-labs/pixie/issues/262) |
-        | [sentry symbolicator](https://sentry.io/)                    | partly [released](https://github.com/getsentry/symbolicator/pull/142) partly [help wanted](https://github.com/getsentry/symbolicator/issues/445) |
-        | [VS Code](https://code.visualstudio.com/)                    | [partly automatic via gdb](https://github.com/microsoft/MIEngine/issues/1142) |
-        | [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) | [released](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/source-code-extended-access) in version 1.2104.13002.0, 2021-04 |
-        | [UDB](https://undo.io/)                                      | [released](https://docs.undo.io/) in version 6.5             |
-
-   
-
-   
-
-   
+| tool                                                         | status                                                       |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| [elfutils](https://sourceware.org/elfutils/index.html)       | [released](https://sourceware.org/ml/elfutils-devel/2019-q4/msg00219.html) in version 0.178, 2019-11 |
+| [systemtap](https://sourceware.org/systemtap/)               | automatic via elfutils                                       |
+| [dwarves](https://github.com/acmel/dwarves)                  | automatic via elfutils                                       |
+| [dwgrep](https://pmachata.github.io/dwgrep/)                 | automatic via elfutils                                       |
+| [ltrace](https://gitlab.com/cespedes/ltrace)                 | automatic via elfutils                                       |
+| [libabigail](https://sourceware.org/libabigail/)             | automatic via elfutils                                       |
+| [binutils](https://sourceware.org/binutils/)                 | [released](https://sourceware.org/ml/binutils/2020-02/msg00006.html) in version 2.34, 2020-02 |
+| [gdb](https://sourceware.org/gdb/)                           | [released](https://lists.gnu.org/archive/html/info-gnu/2020-10/msg00009.html) in version 10.1, 2020-10 |
+| [dyninst](https://www.dyninst.org/dyninst)                   | [released](https://github.com/dyninst/dyninst/pull/736) in version 11.0 2021-04 |
+| [valgrind](https://www.valgrind.org/)                        | [released](https://sourceware.org/git/?p=valgrind.git;a=commit;h=fd4e3fb0ffa3f751f0e7f2e7f4639d4c3773305d) in version 3.17.0, 2021-03 |
+| [annocheck](https://fedoraproject.org/wiki/Toolchain/Watermark) | [released](https://sourceware.org/git/?p=annobin.git;a=commitdiff;h=3d27b86eb088bd23c5908a9d78c733417ade79be) in version 9.03, 2020-01 |
+| [delve](https://github.com/go-delve/delve)                   | [released](https://github.com/go-delve/delve/pull/2670) in version 1.7.2, 2021-09 |
+| [llvm](https://llvm.org/)                                    | symbolizer [merged](https://reviews.llvm.org/D113717), server [merged](https://reviews.llvm.org/D114846), lldb [help wanted](https://reviews.llvm.org/D75750), [see also](https://github.com/schultetwin1/gdbundle-debuginfod) |
+| [bpftrace](https://github.com/iovisor/bpftrace)              | [released](https://github.com/iovisor/bpftrace/issues/1774) in version 0.21.0, 2021-07 |
+| [perf](https://perf.wiki.kernel.org/index.php/Main_Page)     | released in linux 5.10, 2021-01                              |
+| [systemd-coredumpd](https://www.freedesktop.org/software/systemd/man/systemd-coredump.html) | [help wanted](https://github.com/systemd/systemd/issues/14711) |
+| [retrace/abrt/faf](https://github.com/abrt/faf/wiki/Retracing) | [in](https://github.com/abrt/faf/issues/952) [progress](https://github.com/abrt/faf/issues/951) `amerey@redhat.com` |
+| [vtune](https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/vtune-profiler.html) | [help wanted](https://community.intel.com/t5/Intel-oneAPI-Base-Toolkit/RFE-debuginfo-access-linux-via-debuginfod-protocol/m-p/1252914#M1032) |
+| [pixie](https://pixielabs.ai/)                               | [help wanted](https://github.com/pixie-labs/pixie/issues/262) |
+| [sentry symbolicator](https://sentry.io/)                    | partly [released](https://github.com/getsentry/symbolicator/pull/142) partly [help wanted](https://github.com/getsentry/symbolicator/issues/445) |
+| [VS Code](https://code.visualstudio.com/)                    | [partly automatic via gdb](https://github.com/microsoft/MIEngine/issues/1142) |
+| [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) | [released](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/source-code-extended-access) in version 1.2104.13002.0, 2021-04 |
+| [UDB](https://undo.io/)                                      | [released](https://docs.undo.io/) in version 6.5             |
