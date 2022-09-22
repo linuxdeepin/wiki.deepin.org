@@ -2,7 +2,7 @@
 title: deepin-community 贡献指南
 description: 
 published: true
-date: 2022-09-21T06:42:24.604Z
+date: 2022-09-22T06:05:07.810Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T05:55:30.564Z
@@ -33,8 +33,72 @@ dateCreated: 2022-09-08T05:55:30.564Z
 ## 分支与tag管理
 关于deepin-community组织下的分支与tag管理请参阅[deepin-community分支与Tag管理](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/deepin-community%E5%88%86%E6%94%AF%E4%B8%8ETag%E7%AE%A1%E7%90%86)
 
-## 软件包的更新/新增/删除
+## 可接受的代码形式
+> ps: 所有代码形式应该以 GitHub 的 Fork + Pull Request 模式提交
+{.is-info}
+
+### 打补丁
+针对deepin环境下特有的改动应以patch文件的方式提交，若该patch已被上游项目接受应当删除patch合入到源码中。debian目录补丁应用方式参见软件包构建中的相关说明
+
+### 修复安全漏洞
+参考打补丁的形式，若上游项目已合并该patch则合入patch到源码中，通过软件包更新的流程方式发布到仓库中。
+
+### 升级包版本
+修改源码形式同步上游新版本的代码，commit注明上游版本来源，若该项目有针对deepin环境下的特有patch则应保证patch的正常应用。
+
+### 软件包的更新/删除/新增
+[软件包的更新/删除/新增](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%9A%84%E6%B7%BB%E5%8A%A0/%E6%9B%B4%E6%96%B0/%E5%88%A0%E9%99%A4)
+
+# 社区角色
+## 贡献者 Contributor
 
 
+定义：贡献者是社区中持续活跃的贡献者，可以参与 SIG 组活动，主动发现问题提交issues和PR。
+
+要求：
+
+* 拥有Github上的注册账户
+* 订阅邮件列表
+* 在Github上提交或审核PR
+* 在Github上对问题进行归档或评论
+* 积极参与1个或多个SIG组
+* 阅读贡献指南、开发者手册
+  责任与权利：
+
+* 响应分配的问题和PR
+* 贡献的代码应该
+  * 经过良好的测试
+  * 能够让测试用例始终通过
+  * 解决后继发生的错误或问题
+* 可以分配问题或 PR, 可以@其他成员进行评论
+  
+## 维护者 Maintainer
+
+定义：维护者是 SIG 组的组长或者管理委员会成员，也是软件包的维护者，能够像 Committer 一样审查和批准代码贡献。代码审查的重点是代码质量和正确性，而批准的重点是对贡献的整体接受度。所有 Committer 的责任与权力，Maintainer 均具有。除此之外，Maintainer 还承担了团队的技术路线、内外协调等工作。
+
+要求：
+
+* 作为贡献者至少 3 个月
+* 作为至少参与了 12 次 PR 的审阅
+* 审阅或合并至少 30 个基本 PR 到代码库
+* 熟悉代码库
+* 可以自我提名，也可以由子项目Maintainer提名，并且没有其他子项目Maintainer的反对
+  责任与权利：
+
+确定 SIG 所负责项目的技术路线：包括规划和决策 SIG 技术方向、路标
+
+社区角色权限与SIG组的权限存在一定的重复，社区角色应该在SIG角色的更上一层，当SIG组不在活跃相关项目缺乏维护，由Committer team临时处理PR等流程，SIG组owner应当具有当前SIG组下边的所有项目的write权限，tag的创建需走release的工作流提交PR的形式。
+
+权限说明：
+
+Contributor**：**具有PR提交权限
+
+Committer：具有deepin-community下所有项目的review权限
+
+Maintainer：具有Committer所有权限，具有仓库创建审批等权限
 
 
+* 规划、架构演进。
+* 制定 SIG 所负责项目的发布计划：确定 SIG 的关键需求和发布计划；参与社区的 PM 活动，并协调 SIG 计划和社区版本的里程碑时间表匹配。
+* 参与社区协调活动：作为 SIG 的代表参与社区技术委员会或理事会组织的活动和特定会议等。
+* 召集 SIG 组会议：定期召集 SIG 会议，决策 SIG 内上升的争议。
