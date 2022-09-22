@@ -2,7 +2,7 @@
 title: debuginfod 介绍
 description: 
 published: true
-date: 2022-09-09T07:57:01.248Z
+date: 2022-09-22T02:10:01.889Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-09T07:57:01.248Z
@@ -12,13 +12,13 @@ dateCreated: 2022-09-09T07:57:01.248Z
 
 软件的bug通常是不可避免的，开发者通常使用gdb，systemtap这些使用工具加载debuginfo来定位问题。
 
-### debuginfo是什么?
+## debuginfo是什么?
 
 一般源代码是人类可读的，机器不可读，而二进制文件是机器可读，人类不可读的。当程序遇到问题时，机器只知道运行的指令是什么，人类一般无法通过二进制指令来快速定位问题。此时就需要将此处的指令和源代码关联起来，当运行的指令出现bug时，可以快速的关联到源代码的位置上。debuginfo就是起到这个作用，是二进制指令到源代码的一个桥梁。调试信息一般就是变量名，变量类型，函数名，函数参数，函数的地址范围，行号和地址的对应关系等等，这些内容按照一定的格式写入到编译的文件中。现在最常用的格式是 DWARF(Debugging With Attributed Record Formats) 。有关`DWAERF`（https://dwarfstd.org）的介绍请见(https://dwarfstd.org/doc/Debugging%20using%20DWARF-2012.pdf)。
 
 
 
-### debuginfod 介绍
+## debuginfod 介绍
 
    debuginfod 是一个用于传输调试信息资源的http文件服务器。
 
@@ -35,7 +35,7 @@ dateCreated: 2022-09-09T07:57:01.248Z
 
    
 
-### debuginfod如何搭建
+## debuginfod如何搭建
 
    debuginfod支持扫描deb，rpm和ELF/DWARF文件格式。下面是一些简单搭建使用的参数，更多参数请参考debuinfod的man手册。
 
@@ -72,7 +72,7 @@ dateCreated: 2022-09-09T07:57:01.248Z
 
    
 
-### debuginfod服务如何使用
+## debuginfod服务如何使用
 
    配置`DEBUGINFOD_URLS`环境变量指向上游的debuginfod服务器，比如在deepin上使用deepin提供的debuginfod服务器。如果长期使用，可配置到`.bashrc`文件中。
 
@@ -101,8 +101,7 @@ dateCreated: 2022-09-09T07:57:01.248Z
    .......
    Downloading separate debug info for /lib/x86_64-linux-gnu/libsystemd.so.0...
    ```
-
-   注：
+## 注意：
    1.  debuginfod对deb打包方式获取源码的支持有限，请见[can't download source code](https://wiki.debian.org/Debuginfod#The_service_isn.27t_working.21__I_can.27t_download_the_source_code_while_debugging_a_package.21)
 
 		2.  各个client对debuginfod的支持情况（2022.08）以下数据来自[debuginfod](https://sourceware.org/elfutils/Debuginfod.html)
