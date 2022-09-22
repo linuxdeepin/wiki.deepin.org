@@ -2,7 +2,7 @@
 title: 贡献者手册
 description: 关于开发者如何进行代码贡献的指南文档
 published: true
-date: 2022-09-22T02:13:20.191Z
+date: 2022-09-22T02:15:23.836Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T07:13:11.941Z
@@ -147,7 +147,7 @@ stop
 
 ## 调试服务
 
-为了方便用户对官方仓库的文件进行调试，我们提供了debuginfod服务。相关的具体操作请见 ["debuginfod服务"](https://wiki.deepin.org/zh/开发者指南/debuginfod) 一节。
+为了方便用户对官方仓库的elf文件进行调试，我们提供了debuginfod服务。相关的具体操作请见 ["debuginfod服务"](https://wiki.deepin.org/zh/开发者指南/debuginfod) 一节。
 
 # 其它
 
