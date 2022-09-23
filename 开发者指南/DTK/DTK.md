@@ -2,7 +2,7 @@
 title: DTK
 description: DTK
 published: true
-date: 2022-09-23T15:57:49.706Z
+date: 2022-09-23T15:59:27.011Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -10,7 +10,7 @@ dateCreated: 2022-05-05T10:23:47.536Z
 
 # DTK
 ## 简介
-DTK (deepin tool kit) 是基于Qt5开发的一整套UI图形库，方便统一的编写深度桌面和深度系列应用，主要的功能有：
+DTK (deepin tool kit) 是基于Qt5开发的一整套UI图形库，方便编写风格统一的深度桌面和深度系列应用，主要的功能有：
 
 - 提供单实例的接口，方便直接使用，不用重复造轮子。
 - 提供XCB窗口移动、缩放等一系列函数，无边框的窗口。
