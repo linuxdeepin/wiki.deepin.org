@@ -2,7 +2,7 @@
 title: DTK
 description: DTK
 published: true
-date: 2022-09-23T13:09:12.156Z
+date: 2022-09-23T15:57:49.706Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -18,13 +18,28 @@ DTK (deepin tool kit) 是基于Qt5开发的一整套UI图形库，方便统一�
 
 DTK链接：https://github.com/orgs/linuxdeepin/repositories?q=dtk
 
+**DTK核心仓库：**
+- **dtkcore:** https://github.com/linuxdeepin/dtkcore
+- **dtkgui:** https://github.com/linuxdeepin/dtkgui
+- **dtkwidget:** https://github.com/linuxdeepin/dtkgui
+- **qt5integration:** https://github.com/linuxdeepin/qt5integration
+
+> 若要从源码编译、安装dtk组件，请按照dtkcore、dtkgui、dtkwidget的顺序编译，且保证dktcore、dtkgui、dtkwidget的版本一致。
+{.is-warning}
+
+> 请勿使用master版本编译，源码编译风险请自行承担!!
+{.is-danger}
+
+
+
+
 ## dtkcore
 dtkcore是DTK的核心组件，等同于Qt5中的core组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
-> sudo apt install libdtkcore* --reinstall
+> sudo apt install libdtkcore5 --reinstall
 {.is-info}
 
 若从源码编译则需要遵循以下步骤：
-> `1.git clone https://github.com/linuxdeepin/dtkcore.git`
+> `1.git clone -b [tags] https://github.com/linuxdeepin/dtkcore.git`
 > `2.cd dtkcore`
 > `3.mkdir build && cd build`
 > `4.sudo apt build-dep ../`
@@ -40,11 +55,11 @@ dtkcore是DTK的核心组件，等同于Qt5中的core组件。Deepin系统默认
 
 ## dtkgui
 dtkgui是DTK的图形核心组件，等同于Qt5中的gui组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
-> sudo apt install libdtkgui* --reinstall
+> sudo apt install libdtkgui5 --reinstall
 {.is-info}
 
 若从源码编译则需要遵循以下步骤：
-> `1.git clone https://github.com/linuxdeepin/dtkgui.git`
+> `1.git clone -b [tags] https://github.com/linuxdeepin/dtkgui.git`
 > `2.cd dtkgui`
 > `3.mkdir build && cd build`
 > `4.sudo apt build-dep ../`
@@ -59,11 +74,11 @@ dtkgui是DTK的图形核心组件，等同于Qt5中的gui组件。Deepin系统�
 
 ## dtkwidget
 dtkwidget是DTK的核心组件，等同于Qt5中的widget组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
-> sudo apt install libdtkwidget* --reinstall
+> sudo apt install libdtkwidget5 --reinstall
 {.is-info}
 
 若从源码编译则需要遵循以下步骤：
-> `1.git clone https://github.com/linuxdeepin/dtkwidget.git`
+> `1.git clone -b [tags] https://github.com/linuxdeepin/dtkwidget.git`
 > `2.cd dtkwidget`
 > `3.mkdir build && cd build`
 > `4.sudo apt build-dep ../`
@@ -77,12 +92,12 @@ dtkwidget是DTK的核心组件，等同于Qt5中的widget组件。Deepin系统�
 {.is-info}
 
 ## qt5integration
-dtkwidget是DTK的核心组件，等同于Qt5中的widget组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
+dtkwidget是DTK的插件组件，等同于Qt5中的plugin组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
 > sudo apt install qt5integration --reinstall
 {.is-info}
 
 若从源码编译则需要遵循以下步骤：
-> `1.git clone https://github.com/linuxdeepin/qt5integration.git`
+> `1.git clone -b [tags] https://github.com/linuxdeepin/qt5integration.git`
 > `2.cd qt5integration`
 > `3.mkdir build && cd build`
 > `4.sudo apt build-dep ../`
