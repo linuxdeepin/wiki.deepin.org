@@ -2,7 +2,7 @@
 title: DTK
 description: DTK
 published: true
-date: 2022-09-23T15:59:27.011Z
+date: 2022-09-23T16:01:28.160Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -21,7 +21,7 @@ DTK链接：https://github.com/orgs/linuxdeepin/repositories?q=dtk
 **DTK核心仓库：**
 - **dtkcore:** https://github.com/linuxdeepin/dtkcore
 - **dtkgui:** https://github.com/linuxdeepin/dtkgui
-- **dtkwidget:** https://github.com/linuxdeepin/dtkgui
+- **dtkwidget:** https://github.com/linuxdeepin/dtkwidget
 - **qt5integration:** https://github.com/linuxdeepin/qt5integration
 
 > 若要从源码编译、安装dtk组件，请按照dtkcore、dtkgui、dtkwidget的顺序编译，且保证dktcore、dtkgui、dtkwidget的版本一致。
