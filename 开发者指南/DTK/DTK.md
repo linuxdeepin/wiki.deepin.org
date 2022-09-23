@@ -2,7 +2,7 @@
 title: DTK
 description: DTK
 published: true
-date: 2022-09-23T12:27:45.106Z
+date: 2022-09-23T13:09:12.156Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -16,11 +16,7 @@ DTK (deepin tool kit) 是基于Qt5开发的一整套UI图形库，方便统一�
 - 提供XCB窗口移动、缩放等一系列函数，无边框的窗口。
 - 提供美观的自绘控件，直接拖拽使用。
 
-DTK的GitHub：https://github.com/linuxdeepin/deepin-tool-kit
-
-作者：ManateeLazyCat
-链接：http://www.jianshu.com/p/e871723f9460
-來源：简书
+DTK链接：https://github.com/orgs/linuxdeepin/repositories?q=dtk
 
 ## dtkcore
 dtkcore是DTK的核心组件，等同于Qt5中的core组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
@@ -80,5 +76,23 @@ dtkwidget是DTK的核心组件，等同于Qt5中的widget组件。Deepin系统�
 > `2.debuild -us -uc -b #打包成deb包可分享给他人`
 {.is-info}
 
+## qt5integration
+dtkwidget是DTK的核心组件，等同于Qt5中的widget组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
+> sudo apt install qt5integration --reinstall
+{.is-info}
+
+若从源码编译则需要遵循以下步骤：
+> `1.git clone https://github.com/linuxdeepin/qt5integration.git`
+> `2.cd qt5integration`
+> `3.mkdir build && cd build`
+> `4.sudo apt build-dep ../`
+> `6.qmake ..`
+> `7.make`
+{.is-info}
+
+若编译完成后需要安装有两种可选方案：
+> `1.sudo make install #源码安装`
+> `2.debuild -us -uc -b #打包成deb包可分享给他人`
+{.is-info}
 
 
