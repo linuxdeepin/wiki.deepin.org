@@ -2,7 +2,7 @@
 title: DTK安装与编译
 description: 
 published: true
-date: 2022-09-24T05:02:58.153Z
+date: 2022-09-24T11:36:26.905Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -22,11 +22,13 @@ DTK链接：https://github.com/orgs/linuxdeepin/repositories?q=dtk
 - **dtkgui:** https://github.com/linuxdeepin/dtkgui
 - **dtkwidget:** https://github.com/linuxdeepin/dtkwidget
 - **qt5integration:** https://github.com/linuxdeepin/qt5integration
-> 若要从源码编译、安装dtk组件，请按照dtkcore、dtkgui、dtkwidget的顺序编译，且保证dktcore、dtkgui、dtkwidget的版本一致。
+> 若要从源码编译、安装dtk组件，请按照dtkcore>dtkgui>dtkwidget的顺序编译，且保证dktcore、dtkgui、dtkwidget的版本一致。编译风险自理！！
 {.is-warning}
 
-> 请勿使用master版本编译，源码编译风险请自行承担!!
-{.is-danger}
+> 如果您不希望参与开发，则推荐您切换到相应的 tag 版进行构建
+{.is-warning}
+
+
 ## 基础环境
 若需要从源码编译DTK组件，则需要首先安装基础环境，打开终端输入以下命令：
 ```
