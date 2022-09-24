@@ -2,7 +2,7 @@
 title: DTK编译与安装
 description: 
 published: true
-date: 2022-09-23T16:21:13.649Z
+date: 2022-09-24T00:42:21.295Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -33,79 +33,87 @@ DTK链接：https://github.com/orgs/linuxdeepin/repositories?q=dtk
 
 ## dtkcore的安装与编译
 dtkcore是DTK的核心组件，等同于Qt5中的core组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
-> sudo apt install libdtkcore5 --reinstall
-{.is-info}
-
+```
+sudo apt install libdtkcore5 --reinstall
+sudo apt install libdtkcore-dev			#开发软件需要安装的库
+```
 若从源码编译则需要遵循以下步骤：
-> `1.git clone -b [tags] https://github.com/linuxdeepin/dtkcore.git`
-> `2.cd dtkcore`
-> `3.mkdir build && cd build`
-> `4.sudo apt build-dep ../`
-> `6.cmake ..`
-> `7.make`
-{.is-info}
+```
+git clone -b [tags] https://github.com/linuxdeepin/dtkcore.git
+cd dtkcore
+mkdir build && cd build
+sudo apt build-dep ../
+cmake ..
+make
+```
 
 若编译完成后需要安装有两种可选方案：
-> `1.sudo make install #源码安装`
-> `2.debuild -us -uc -b #打包成deb包可分享给他人`
-{.is-info}
+```
+sudo make install 		#源码安装
+debuild -us -uc -b 	 #打包成deb包可分享给他人
+```
 
 
 ## dtkgui的安装与编译
 dtkgui是DTK的图形核心组件，等同于Qt5中的gui组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
-> sudo apt install libdtkgui5 --reinstall
-{.is-info}
-
+```
+sudo apt install libdtkgui5 --reinstall
+sudo apt install libdtkgui-dev			#开发软件需要安装的库
+```
 若从源码编译则需要遵循以下步骤：
-> `1.git clone -b [tags] https://github.com/linuxdeepin/dtkgui.git`
-> `2.cd dtkgui`
-> `3.mkdir build && cd build`
-> `4.sudo apt build-dep ../`
-> `6.cmake ..`
-> `7.make`
-{.is-info}
-
+```
+git clone -b [tags] https://github.com/linuxdeepin/dtkgui.git`
+cd dtkgui
+mkdir build && cd build
+sudo apt build-dep ../
+cmake ..
+make
+```
 若编译完成后需要安装有两种可选方案：
-> `1.sudo make install #源码安装`
-> `2.debuild -us -uc -b #打包成deb包可分享给他人`
-{.is-info}
+```
+sudo make install 		#源码安装
+debuild -us -uc -b 	 #打包成deb包可分享给他人
+```
 
 ## dtkwidget的安装与编译
 dtkwidget是DTK的核心组件，等同于Qt5中的widget组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
-> sudo apt install libdtkwidget5 --reinstall
-{.is-info}
-
+```
+sudo apt install libdtkwidget5 --reinstall
+sudo apt install libdtkwidget-dev			#开发软件需要安装的库
+```
 若从源码编译则需要遵循以下步骤：
-> `1.git clone -b [tags] https://github.com/linuxdeepin/dtkwidget.git`
-> `2.cd dtkwidget`
-> `3.mkdir build && cd build`
-> `4.sudo apt build-dep ../`
-> `6.cmake ..`
-> `7.make`
-{.is-info}
-
+```
+git clone -b [tags] https://github.com/linuxdeepin/dtkwidget.git
+cd dtkwidget
+mkdir build && cd build
+sudo apt build-dep ../
+cmake ..
+make
+```
 若编译完成后需要安装有两种可选方案：
-> `1.sudo make install #源码安装`
-> `2.debuild -us -uc -b #打包成deb包可分享给他人`
-{.is-info}
+```
+sudo make install 		#源码安装
+debuild -us -uc -b 	 #打包成deb包可分享给他人
+```
 
 ## qt5integration的安装与编译
 dtkwidget是DTK的插件组件，等同于Qt5中的plugin组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
-> sudo apt install qt5integration --reinstall
-{.is-info}
-
+```
+sudo apt install qt5integration --reinstall
+```
 若从源码编译则需要遵循以下步骤：
-> `1.git clone -b [tags] https://github.com/linuxdeepin/qt5integration.git`
-> `2.cd qt5integration`
-> `3.mkdir build && cd build`
-> `4.sudo apt build-dep ../`
-> `6.qmake ..`
-> `7.make`
-{.is-info}
-
+```
+git clone -b [tags] https://github.com/linuxdeepin/qt5integration.git`
+cd qt5integration
+mkdir build && cd build
+sudo apt build-dep ../
+qmake ..
+make
+```
 若编译完成后需要安装有两种可选方案：
-> `1.sudo make install #源码安装`
-> `2.debuild -us -uc -b #打包成deb包可分享给他人`
-{.is-info}
+```
+sudo make install 		#源码安装
+debuild -us -uc -b 	 #打包成deb包可分享给他人
+```
 
 
