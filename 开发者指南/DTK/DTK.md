@@ -1,8 +1,8 @@
 ---
-title: DTK编译与安装
+title: DTK安装与编译
 description: 
 published: true
-date: 2022-09-24T00:43:29.461Z
+date: 2022-09-24T05:01:45.923Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -27,10 +27,11 @@ DTK链接：https://github.com/orgs/linuxdeepin/repositories?q=dtk
 
 > 请勿使用master版本编译，源码编译风险请自行承担!!
 {.is-danger}
-
-
-
-
+## 基础环境
+若需要从源码编译DTK组件，则需要首先安装基础环境，打开终端输入以下命令：
+```
+sudo apt install git build-essential cmake devscripts doxygen graphviz
+```
 ## dtkcore的安装与编译
 dtkcore是DTK的核心组件，等同于Qt5中的core组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
 ```
@@ -41,17 +42,21 @@ sudo apt install libdtkcore-dev			#开发软件需要安装的库
 ```
 git clone -b [tags] https://github.com/linuxdeepin/dtkcore.git
 cd dtkcore
-mkdir build && cd build
-sudo apt build-dep ../
-cmake ..
-make
+sudo apt build-dep ./
+cmake -B build
+cmake --build build -j$(nproc)
 ```
+> tag的选择至关重要，选择错误将会导致各种不可控的错误。
+{.is-warning}
 
 若编译完成后需要安装有两种可选方案：
 ```
-sudo make install 		#源码安装
 debuild -us -uc -b 	 #打包成deb包可分享给他人
+sudo make install 		#源码安装
 ```
+> 推荐使用debuild命令。
+> make install命令适用于打包调用，直接这种方式安装可能会破坏环境，风险自理。
+{.is-danger}
 
 
 ## dtkgui的安装与编译
@@ -64,16 +69,22 @@ sudo apt install libdtkgui-dev			#开发软件需要安装的库
 ```
 git clone -b [tags] https://github.com/linuxdeepin/dtkgui.git`
 cd dtkgui
-mkdir build && cd build
-sudo apt build-dep ../
-cmake ..
-make
+sudo apt build-dep ./
+cmake -B build
+cmake --build build -j$(nproc)
 ```
+> tag的选择至关重要，选择错误将会导致各种不可控的错误。
+{.is-warning}
+
 若编译完成后需要安装有两种可选方案：
 ```
-sudo make install 		#源码安装
 debuild -us -uc -b 	 #打包成deb包可分享给他人
+sudo make install 		#源码安装
 ```
+> 推荐使用debuild命令。
+> make install命令适用于打包调用，直接这种方式安装可能会破坏环境，风险自理。
+{.is-danger}
+
 
 ## dtkwidget的安装与编译
 dtkwidget是DTK的核心组件，等同于Qt5中的widget组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
@@ -85,16 +96,22 @@ sudo apt install libdtkwidget-dev			#开发软件需要安装的库
 ```
 git clone -b [tags] https://github.com/linuxdeepin/dtkwidget.git
 cd dtkwidget
-mkdir build && cd build
-sudo apt build-dep ../
-cmake ..
-make
+sudo apt build-dep ./
+cmake -B build
+cmake --build build -j$(nproc)
 ```
+> tag的选择至关重要，选择错误将会导致各种不可控的错误。
+{.is-warning}
+
 若编译完成后需要安装有两种可选方案：
 ```
-sudo make install 		#源码安装
 debuild -us -uc -b 	 #打包成deb包可分享给他人
+sudo make install 		#源码安装
 ```
+> 推荐使用debuild命令。
+> make install命令适用于打包调用，直接这种方式安装可能会破坏环境，风险自理。
+{.is-danger}
+
 
 ## qt5integration的安装与编译
 dtkwidget是DTK的插件组件，等同于Qt5中的plugin组件。Deepin系统默认安装该组件，如需要重新安装请打开终端输入以下命令：
