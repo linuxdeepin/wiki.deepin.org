@@ -2,7 +2,7 @@
 title: DTK安装与编译
 description: 
 published: true
-date: 2022-09-24T05:01:45.923Z
+date: 2022-09-24T05:02:58.153Z
 tags: dtk
 editor: markdown
 dateCreated: 2022-05-05T10:23:47.536Z
@@ -46,8 +46,6 @@ sudo apt build-dep ./
 cmake -B build
 cmake --build build -j$(nproc)
 ```
-> tag的选择至关重要，选择错误将会导致各种不可控的错误。
-{.is-warning}
 
 若编译完成后需要安装有两种可选方案：
 ```
@@ -73,9 +71,6 @@ sudo apt build-dep ./
 cmake -B build
 cmake --build build -j$(nproc)
 ```
-> tag的选择至关重要，选择错误将会导致各种不可控的错误。
-{.is-warning}
-
 若编译完成后需要安装有两种可选方案：
 ```
 debuild -us -uc -b 	 #打包成deb包可分享给他人
@@ -100,8 +95,6 @@ sudo apt build-dep ./
 cmake -B build
 cmake --build build -j$(nproc)
 ```
-> tag的选择至关重要，选择错误将会导致各种不可控的错误。
-{.is-warning}
 
 若编译完成后需要安装有两种可选方案：
 ```
