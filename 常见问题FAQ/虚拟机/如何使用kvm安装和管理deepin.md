@@ -2,7 +2,7 @@
 title: 如何使用kvm安装和管理deepin
 description: 本篇主要介绍在Linux平台下，使用KVM虚拟化套件，来创建和安装deepin操作系统。
 published: true
-date: 2022-06-27T06:51:48.248Z
+date: 2022-09-27T01:45:53.776Z
 tags: deepin, kvm
 editor: markdown
 dateCreated: 2022-06-23T03:09:48.173Z
@@ -15,7 +15,7 @@ dateCreated: 2022-06-23T03:09:48.173Z
 
 本篇在deepin操作系统安装虚拟化环境，只要命令行执行以下命令即可：
 
-`sudo apt install qemu-kvm virt-manager`
+`sudo apt install qemu-system-x86 virt-manager`
 
 等待命令执行完成之后，可以在启动器看到一个虚拟机管理应用图标，如下：
 
