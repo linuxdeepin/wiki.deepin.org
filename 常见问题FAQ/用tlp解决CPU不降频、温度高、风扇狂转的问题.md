@@ -2,7 +2,7 @@
 title: 用tlp解决CPU不降频、温度高、风扇狂转的问题
 description: 
 published: true
-date: 2022-09-28T09:09:08.170Z
+date: 2022-09-28T09:10:24.476Z
 tags: cpu降频, tlp
 editor: markdown
 dateCreated: 2022-09-28T09:08:04.659Z
@@ -51,9 +51,9 @@ Hidden=false
 
  (也可以用其他的方法开机自动以sudo运行echo active|sudo tee /sys/devices/system/cpu/intel_pstate/status，我试了几种方法都没凑效，只能这样粗暴；~/.config/autostart就是当前用户的home下的.config内的autostart) 。
 
-### 步骤2：安装tlp：终端内sudo apt install tlp
+### 步骤2：安装tlp：终端中输入`sudo apt install tlp`
 
-### 步骤3：修改tlp参数：终端内输入`sudo deepin-editor /etc/default/tlp`
+### 步骤3：修改tlp参数：终端中输入`sudo deepin-editor /etc/default/tlp`
 
    在打开的文件内设置如下参数值--
 ```
