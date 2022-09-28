@@ -2,8 +2,8 @@
 title: 用tlp解决CPU不降频、温度高、风扇狂转的问题
 description: 
 published: true
-date: 2022-09-28T09:08:04.660Z
-tags: tlp, cpu降频
+date: 2022-09-28T09:08:54.082Z
+tags: cpu降频, tlp
 editor: markdown
 dateCreated: 2022-09-28T09:08:04.659Z
 ---
@@ -71,7 +71,7 @@ CPU_HWP_ON_BAT=power
 ```
 点文本编辑器针对当前文件的x，选择"保存"。
 
-### 步骤4：运行`sudo tlp start` 
+### 步骤4：运行ltp，终端中输入`sudo tlp start` 
 1. 不建议禁用Intel P-state，那相当于阉割CPU的睿频功能，并且也只能将CPU频率限制在固有频率，不保证低负载时能继续往下降；
 
 2. 系统自带laptop-mode-tools，和tlp是一样性质的，应该也能达到相同作用；不过我一开始就只用tlp，没研究过laptop-mode-tools；安装tlp后建议将laptop-mode-tools卸载：终端内 sudo apt purge laptop-mode-tools，电源管理会由tlp接管，不会乱的；
