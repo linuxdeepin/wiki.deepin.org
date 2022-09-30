@@ -1,8 +1,8 @@
 ---
-title: 机型清单
+title: deepin适配机型清单
 description: 
 published: true
-date: 2022-09-30T01:56:25.995Z
+date: 2022-09-30T01:57:01.390Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-30T01:49:09.366Z
