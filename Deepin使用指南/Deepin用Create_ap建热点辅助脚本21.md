@@ -2,7 +2,7 @@
 title: Deepin用Create_ap建热点辅助脚本21
 description: 
 published: true
-date: 2022-06-08T06:52:41.646Z
+date: 2022-10-02T17:03:53.125Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:41.541Z
@@ -10,7 +10,7 @@ dateCreated: 2022-04-21T03:32:41.541Z
 
 ## 简介
 
-本经验由深度论坛用户(comzhong)分享，[原地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=132223&extra=)
+本经验由深度论坛用户(comzhong)分享，[原地址](https://bbs.deepin.org/post/132223)
 
 使用您的网卡建立虚拟wifi热点，让您不用路由器也能用WiFi，好东西必须收藏喔。
 
@@ -174,7 +174,9 @@ read -n 1
 
 刚开始 用的是 
 
-```sudo create_ap wlp8s0b1 wlp8s0b1 Deepin_AP 123456789```
+```bash
+sudo create_ap wlp8s0b1 wlp8s0b1 Deepin_AP 123456789
+```
 
 Wan-->AP 是连接无线网开AP
 
