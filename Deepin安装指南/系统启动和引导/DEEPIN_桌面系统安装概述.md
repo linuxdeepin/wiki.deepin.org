@@ -2,7 +2,7 @@
 title: Deepin安装概述
 description: 
 published: true
-date: 2022-06-16T09:27:36.663Z
+date: 2022-10-02T20:31:17.839Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-12T05:47:26.110Z
@@ -30,7 +30,7 @@ UEFI 不仅能读取分区表，还能自动支持文件系统。所以它不像
 
 UEFI 主流都支持 MBR 和 GPT 分区表。Apple-Intel Macs 上的 EFI 还支持 Apple 专用分区表。绝大部分 UEFI 固件支持软盘上的 FAT12，硬盘上的 FAT16、FAT32 文件系统，以及 CD/DVDs 的 IS09660 和 UDF。Intel Macs 的 EFI 还额外支持 HFS/HFS+ 文件系统。
 
-不管第一块上有没有 MBR，UEFI 都不会执行它。相反，它依赖分区表上的一个特殊分区，叫 EFI 系统分区，里面有 UEFI 所要用到的一些文件。计算机供应商可以在 <EFI 系统分区>/EFI/<VENDOR NAME>/文件夹里放官方指定的文件，还能用固件或它的 shell，即 UEFI shell，来启动引导程序。EFI 系统分区一般被格式化成 FAT32，或比较非主流的 FAT16。
+不管第一块上有没有 MBR，UEFI 都不会执行它。相反，它依赖分区表上的一个特殊分区，叫 EFI 系统分区，里面有 UEFI 所要用到的一些文件。计算机供应商可以在 <EFI 系统分区>/EFI/&lt;VENDOR NAME&gt;/文件夹里放官方指定的文件，还能用固件或它的 shell，即 UEFI shell，来启动引导程序。EFI 系统分区一般被格式化成 FAT32，或比较非主流的 FAT16。
 
 ## UEFI 的多重引导
 
@@ -143,7 +143,7 @@ Windows系统：
 
 下载Hash软件，校验您下载的镜像的MD5值与下载页面提供的MD5值是否一致。或者在CMD中使用命令行校验：
   
-```shell
+```cmd
 certutil.exe -hashfile deepin-xx-xx.iso md5
 ```
 
@@ -238,20 +238,24 @@ deepin-xx-xx.iso即为您下载的系统镜像文件名，可使用Tab键自动�
 
 挂载文件系统
 
-    mkdir /tmp/mnt #建立临时挂载目录
-    cd /tmp/mnt #进入目录
-    sudo mount /dev/sda2 ./ #挂载根分区
-    sudo mount /dev/sda1 ./boot/efi #仅在UEFI模式下挂载EFI分区
-    sudo mount /dev/sda3 ./home #如果仅修复引导此分区可不挂载
-    sudo mount /dev/sda4 ./var #如果/var单独分区，必须挂载
-    sudo mount --bind /sys ./sys
-    sudo mount --bind /proc ./proc
-    sudo mount --bind /dev ./dev
-    sudo mount --bind /dev/pts ./dev/pts
+```bash
+mkdir /tmp/mnt #建立临时挂载目录
+cd /tmp/mnt #进入目录
+sudo mount /dev/sda2 ./ #挂载根分区
+sudo mount /dev/sda1 ./boot/efi #仅在UEFI模式下挂载EFI分区
+sudo mount /dev/sda3 ./home #如果仅修复引导此分区可不挂载
+sudo mount /dev/sda4 ./var #如果/var单独分区，必须挂载
+sudo mount --bind /sys ./sys
+sudo mount --bind /proc ./proc
+sudo mount --bind /dev ./dev
+sudo mount --bind /dev/pts ./dev/pts
+```
 
 进入 chroot 环境
 
-    sudo chroot /tmp/mnt
+```bash
+sudo chroot /tmp/mnt
+```
 
 修复 GRUB 引导
 
@@ -259,14 +263,17 @@ deepin-xx-xx.iso即为您下载的系统镜像文件名，可使用Tab键自动�
 
 传统 BIOS 下：
 
-    grub-install --boot-directory=/boot /dev/sda
-    update-grub
+```bash
+grub-install --boot-directory=/boot /dev/sda
+update-grub
+```
 
 UEFI 模式下：
 
-    grub-install --boot-directory=/boot --efi-directory=/boot/efi
-    update-grub
-
+```bash
+grub-install --boot-directory=/boot --efi-directory=/boot/efi
+update-grub
+```
 # 参考资料
 
 [ArchWiki:Arch boot process](https://wiki.archlinux.org/index.php/Arch_boot_process_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
