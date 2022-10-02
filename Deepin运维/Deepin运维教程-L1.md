@@ -2,7 +2,7 @@
 title: Deepin运维教程-L1
 description: 
 published: true
-date: 2022-08-03T05:55:03.895Z
+date: 2022-10-02T20:54:51.770Z
 tags: 运维
 editor: markdown
 dateCreated: 2022-06-28T05:45:04.943Z
@@ -11,13 +11,13 @@ dateCreated: 2022-06-28T05:45:04.943Z
 # Deepin运维教程-L1
 #### 命令终端字段含义介绍
 
-- [root[@](https://hu60.cn/q.php/bbs.topic.100995.html#)[localhost](https://hu60.cn/q.php/user.info.0.html) ~]#
+- `[root@localhost ~]#`
 
-- 解释：当前用户名为root[@](https://hu60.cn/q.php/bbs.topic.100995.html#)[主机名为localhost](https://hu60.cn/q.php/user.info.0.html) 当前所在目录为 ~ 家目录 # 当前用户身份是超级管理员，root超级管理员家目录：/root
+- 解释：当前用户名为root@主机名为localhost 当前所在目录为 ~ 家目录 # 当前用户身份是超级管理员，root超级管理员家目录：/root
 
 - 普通用户提示符为 $，普通用户的家目录：/home/用户名同名，lisi用户的家目录：/home/lisi
 
-  [lisi[@](https://hu60.cn/q.php/bbs.topic.100995.html#)[localhost](https://hu60.cn/q.php/user.info.0.html) ~]$
+  `[lisi@localhost ~]$`
 
 #### Linux系统基本概念
 
@@ -34,31 +34,31 @@ dateCreated: 2022-06-28T05:45:04.943Z
 
 键盘上下键调出历史命令
 
-Ctrl + c：取消当前执行的命令
+<kbd>Ctrl</kbd> + <kbd>C</kbd>：取消当前执行的命令
 
-Ctrl + l：清屏
+<kbd>Ctrl</kbd> + <kbd>L</kbd>：清屏
 
-tab建自动补齐：可补齐命令、选项、参数、文件路径、软件名、服务名
+<kbd>Tab</kbd>键自动补齐：可补齐命令、选项、参数、文件路径、软件名、服务名
 
-Ctrl + a：将当前光标移动至行首
+<kbd>Ctrl</kbd> + <kbd>A</kbd>：将当前光标移动至行首
 
-Ctrl + e：将当前光标移动至行尾
+<kbd>Ctrl</kbd> + <kbd>E</kbd>：将当前光标移动至行尾
 
-Ctrl + u 清空至行首
+<kbd>Ctrl</kbd> + <kbd>U</kbd> 清空至行首
 
-Ctrl + w 删除一个单词
+<kbd>Ctrl</kbd> + <kbd>W</kbd> 删除一个单词
 
-exit：退出系统
+`exit`：退出系统
 
 #### 命令行一般命令格式
 
-- 命令字 [-选项...] [参数...]
+- `命令字 [-选项...] [参数...]`
   - 命令字：命令本身（功能）
   - 选项：调整命令功能的
-    - 短选项：-l -a -d -h（单个字符），短选项可以合并使用：-lad -lh
-    - 长选项：--help（单词），长选项通常是不能合并使用的
+    - 短选项：`-l` `-a` `-d` `-h`（单个字符），短选项可以合并使用：`-lad` `-lh`
+    - 长选项：`--help`（单词），长选项通常是不能合并使用的
   - 参数：命令的执行对象，文件/目录/程序等
-  - []：可选的
+  - \[ \]：可选的
   - ...：可以同时有多个选项或参数
 
 #### 学习方法
@@ -87,14 +87,14 @@ exit：退出系统
 #### ls 查看目录/文件命令
 
 - ls命令（英文全拼：list）：用于查看目录下内容及目录和文件详细属性信息
-- 命令格式：ls [-选项...] [参数...]
+- 命令格式：`ls [-选项...] [参数...]`
 - 常用选项：
-  - -a 显示目录下所有内容，包含隐藏的内容
-  - -l 以长格式显示目录下的内容及详细属性
-  - -h 人性化显示目录下内容大小（kB、MB、GB）
-  - -d 仅显示目录本身而不显示目录下的内容
-  - -i 查看inode号（系统任何的文件或目录都有一个唯一的编号）
-  - -R：递归查看目录下所有内容（从头到尾）
+  - `-a` 显示目录下所有内容，包含隐藏的内容
+  - `-l` 以长格式显示目录下的内容及详细属性
+  - `-h` 人性化显示目录下内容大小（kB、MB、GB）
+  - `-d` 仅显示目录本身而不显示目录下的内容
+  - `-i` 查看inode号（系统任何的文件或目录都有一个唯一的编号）
+  - `-R` 递归查看目录下所有内容（从头到尾）
 
 #### Linux 系统文件类型
 
@@ -120,7 +120,7 @@ s 套接字
   - o 其他人：既不是文件或目录的所有者，也不属于文件或目录组内的成员，其他人的权限通常最小的权限
 - ls命令示例：
 
-```shell
+```
 #显示当前所在目录下的所有内容
 [root@localhost ~]# ls		
 
@@ -188,7 +188,7 @@ lrwxrwxrwx.   1 root root    7 3月  13 17:15 bin -> usr/bin
 - r 读取 w 写入 x 执行 - 没有权限
 - 权限顺序：rwxrwxrwx
 
-```shell
+```
 [root@localhost ~]# ls -l
 -rw-r--r--. 1 root root 1831 3月  13 17:45 initial-setup-ks.cfg
 #解释
@@ -221,76 +221,18 @@ dr-xr-x---. 14 root root 4096 3月  14 16:38 /root
 16777281 /etc
 ```
 
-#### 课后练习
-
-1.命令行以$作为结尾代表什么含义？
-
-普通用户
-
-2.请写出Linux系统一般的命令格式？
-
-命令字 [-选项...] [参数...]
-
-3.在Linux系统下，如何辨别目录与文件及其他的文件？
-
-白色：文件
-
-蓝色：目录
-
-浅蓝色：链接文件
-
-绿色：可执行文件
-
-红色：压缩文件
-
-红色带闪动的文件：链接文件不可用
-
-黄色：设备文件（硬盘，网卡，CPU，鼠标，键盘）
-
-4.如何查看一个文件的详细属性？
-
-ls -l 文件名
-
-5.如何查看一个目录本身的详细属性？
-
-ls -dl 目录名字
-
-6.查看文件详细属性，并以KB、MB、GB的方式显示文件的大小？
-
-ls -lh 文件名
-
-7.如何查看一个文件的inode号？
-
-ls -i 文件名
-
-8.请写出Linux下文件和目录的三个归属关系？
-
-u 所有者
-
-g 所属组
-
-o 其他人
-
-9.请写出Linux下基本权限的表示方式？
-
-r：读取，w写入，x执行
-
-10.命令行以#作为结尾代表什么含义？
-
-超级管理员
-
 #### mkdir 创建目录命令
 
 - mkdir（英文全拼：make directory）用于创建新目录
-- 命令格式：mkdir [-选项] 目录名
+- 命令格式：`mkdir [-选项] 目录名`
 - 常用选项：
-  - -p 递归创建多个目录
+  - `-p` 递归创建多个目录
 - 注意事项：
   - 目录还是文件的名字，除了以“/”以外的任意名称，“/”根目录，路径分隔符
   - 文件或目录的名字长度不能超过255个字符
 - mkdir命令示例
 
-```shell
+```
 #在当前所在目录创建test目录
 [root@localhost ~]# mkdir test
 [root@localhost ~]# ls
@@ -345,7 +287,7 @@ d
 
 - cd（英文全拼：change directory）切换目录
 
-命令格式：cd [-选项] [目录名]
+命令格式：`cd [-选项] [目录名]`
 
 - 提示：目录名称可以是绝对路径或相对路径，如果不指定目录名称，则切换到当前用户的家目录~
 - 常用快捷操作：
@@ -357,9 +299,9 @@ d
 #### pwd 打印当前所在目录命令
 
 - pwd（英文全拼：print work directory）打印当前所在的工作目录，执行pwd命令后，可显示当前所在的工作目录的绝对路径名称
-- 命令格式：pwd [-选项]
+- 命令格式：`pwd [-选项]`
 
-```shell
+```
 [root@localhost ~]# cd /opt/a/b/c/d
 
 #打印当前所在目录绝对路径
@@ -452,7 +394,7 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  s
 - 绝对路径：以/（根）为起点，到达你想去的目标目录称为绝对路径
 - 相对路径：以当前路径为起点，到达你想去的目标目录
 
-```shell
+```
 #绝对路径以“/”作为起点，到达目标路径
 [root@localhost ~]# cd /opt/a/b/c/d
 [root@localhost d]# pwd
@@ -479,9 +421,9 @@ c
 #### rmdir 删除空目录命令
 
 - rmdir（英文全拼：remove directory）删除空目录
-- 命令格式：rmdir [-选项] 目录名
+- 命令格式：`rmdir [-选项] 目录名`
 
-```shell
+```
 #rmdir只能删除空目录，如果目录下存在数据无法删除
 [root@localhost ~]# rmdir /opt/a
 rmdir: 删除 "/opt/a" 失败: 目录非空
@@ -526,9 +468,9 @@ rmdir: 删除 "/opt/" 失败: 目录非空
 #### touch 创建文件命令
 
 - touch 命令用于创建新的空白文件
-- 命令格式：touch [-选项] 文件名
+- 命令格式：`touch [-选项] 文件名`
 
-```shell
+```
 #在当前路径创建空文件
 [root@localhost ~]# touch hello
 [root@localhost ~]# ls
@@ -569,12 +511,12 @@ ls: 无法访问/opt/test1/: 不是目录
 #### cp 复制命令
 
 - cp（英文全拼：copy file）用于复制文件或目录，cp命令在复制时也可修改目录或文件名字
-- 命令格式：cp [-选项] 源文件或目录 目标目录
+- 命令格式：`cp [-选项] 源文件或目录 目标目录`
 - 常用选项：
-  - -p 保留源文件属性不变（如：修改时间、归属关系、权限）
-  - -r 复制目录（包含该目录下所有的子目录和文件）
+  - `-p` 保留源文件属性不变（如：修改时间、归属关系、权限）
+  - `-r` 复制目录（包含该目录下所有的子目录和文件）
 
-```shell
+```
 #复制当前目录文件到/opt目录（相对路径方式复制）
 [root@localhost ~]# cp t1 /opt/
 [root@localhost ~]# ls /opt
@@ -636,9 +578,9 @@ cp：是否覆盖"/opt/anaconda-ks.cfg"？ y
 #### mv 移动命令
 
 - mv（英文全拼：move file）用于移动文件或目录到其他位置，也可用于修改目录或文件名
-- 命令格式：mv [-选项] 源文件... 目标路径
+- 命令格式：`mv [-选项] 源文件... 目标路径`
 
-```shell
+```
 #移动当前路径hello文件到/mnt目录
 [root@localhost ~]# mv hello /mnt
 [root@localhost ~]# ls /mnt
@@ -673,11 +615,11 @@ hello  testxx
 #### cat 查看文件内容命令
 
 - cat （英文全拼：concatenate）命令用于查看文本文件内容
-- 命令格式：cat [选项] 文件名
+- 命令格式：`cat [选项] 文件名`
 - 常用选项
-  - -n #查看文件时以行号的形式显示文件内容
+  - `-n` 查看文件时以行号的形式显示文件内容
 
-```shell
+```
 #查看文件内容
 [root@localhost ~]# cat anaconda-ks.cfg 
 [root@localhost ~]# cat initial-setup-ks.cfg 
@@ -728,31 +670,31 @@ CentOS Linux release 7.6.1810 (Core)
 #### less命令
 
 - less工具是对文件的输出进行分页显示的工具，常用于查看内容量较大的文件
-- 命令格式：less [-选项] 文件
+- 命令格式：`less [-选项] 文件`
 - 常用选项：
-  - -N #以行号形式显示文件内容
+  - `-N` #以行号形式显示文件内容
 - 使用技巧：
   - 键盘上下键逐行查看
-  - pgdn ：向上翻一页（Fn + 上键）
-  - pgup ：向下翻一页（Fn + 下键）
+  - <kbd>PgDn</kbd> ：向上翻一页（<kbd>Fn</kbd> + 上键）
+  - <kbd>PgUp</kbd> ：向下翻一页（<kbd>Fn</kbd> + 下键）
   - /字符串 ：搜索指定字符串（n从上向下搜索，N从下向上搜索）
   - G：直接跳转到文件最后一行
   - gg：直接跳转到文件行首
   - q ：退出
 
-```shell
+```
 [root@localhost ~]# less -N /etc/services
 ```
 
 #### head与tail命令
 
 - head命令：用来显示文件开头部分内容，默认显示文件开头10行内容
-- 命令格式：head [选项] 参数
+- 命令格式：`head [选项] 参数`
 - 常用选项：
-  - -n<行数> 指定显示的行数
-  - -f 动态显示
+  - `-n<行数>` 指定显示的行数
+  - `-f` 动态显示
 
-```shell
+```
 [root@localhost ~]# head /etc/passwd
 [root@localhost ~]# head /etc/fstab
 [root@localhost ~]# head /etc/group
@@ -771,10 +713,10 @@ CentOS Linux release 7.6.1810 (Core)
 ```
 
 - tail命令：用来显示文件末尾部分内容，默认显示文件末尾10行内容
-- 命令格式：tail [选项] 参数
-- 常用选项：-n<行数> 指定显示的行数 -f 动态显示
+- 命令格式：`tail [选项] 参数`
+- 常用选项：`-n<行数>` 指定显示的行数 `-f` 动态显示
 
-```shell
+```
 [root@localhost ~]# tail /etc/passwd
 
 #使用“-n”指定显示文件末尾多少行内容
@@ -797,13 +739,13 @@ root@localhost ~]# tail -f t1
 #### rm删除命令
 
 - rm（英文全拼：remove）命令用于删除文件或者目录。
-- 命令格式：rm [-选项…] 目录或文件…
+- 命令格式：`rm [-选项…] 目录或文件…`
 - 常用选项
-  - -f 强制删除
-  - -r 删除目录
+  - `-f` 强制删除
+  - `-r` 删除目录
   - “*”特殊字符：系统常用符号，用来代表任意字符
 
-```shell
+```
 [root@localhost ~]# ls /opt
 abc  abc1  abc2  abc3  anaconda-ks.cfg  hello.txt  home  rh  student  t1  t2  t3  t4  xx  xxoo
 
@@ -884,10 +826,10 @@ home  oooo  student1  test  test1  test2  test3
 
 - Linux中的链接文件类似于windows中的快捷方式
 - 软连接特点：软连接可以跨分区，可以对目录进行链接，源文件删除后，链接文件不可用
-- 软连接命令格式：ln -s 源文件路径 目标路径
+- 软连接命令格式：`ln -s 源文件路径 目标路径`
 - 注意：创建链接时一定要写目录或文件的绝对路径，哪怕是在当前路径下，也要写绝对路径·
 
-```shell
+```
 [root@localhost ~]# touch hello.soft
 [root@localhost ~]# ls
 
@@ -944,9 +886,9 @@ lrwxrwxrwx. 1 root root 10 3月  21 14:47 /opt/hello.soft -> hello.soft
 ```
 
 - 硬链接特点：硬连接不可以跨分区，不可以对目录进行链接，源文件删除后，链接文件仍然可用
-- 硬连接命令格式：ln 源文件路径 目标路径
+- 硬连接命令格式：`ln 源文件路径 目标路径`
 
-```shell
+```
 #创建文件，并创建硬连接
 [root@localhost ~]# touch hello.hard
 [root@localhost ~]# ln /root/hello.hard /opt/
