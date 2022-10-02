@@ -2,13 +2,11 @@
 title: 我的世界minecraft在linux中配置 hmcl
 description: 
 published: true
-date: 2022-07-05T13:00:42.846Z
-tags: minecraft hmcl
+date: 2022-10-02T22:22:54.879Z
+tags: minecraft, java
 editor: markdown
 dateCreated: 2022-07-05T13:00:40.546Z
 ---
-
-# 我的世界 minecraft 在 linux 中配置 hmcl
 
 ## 前言
 
@@ -17,6 +15,30 @@ dateCreated: 2022-07-05T13:00:40.546Z
 不过在linux中，有一些需要注意的事项。 首先是官方 java 的授权问题，据说 java 8 还是有 bsd 授权的，但是为了避免著作权的纠纷，我们还是想办法是用 openjdk 比较好。 openjdk 是开源的java 运行时。对于我的世界本身而言，openjdk 不会存在太大的兼容性问题，但是如果你是使用一个叫 hmcl 的我的世界登陆器来玩游戏，它使用了一个叫 javafx 的图形界面框架，需要你配置第三方类库。
 
 本文就会探讨这个问题。
+
+## 简单的方案
+
+Bellsoft 公司维护着 Liberica 系列产品，其完整版 JDK/JRE 附带 JavaFX。
+下载链接：https://bell-sw.com/pages/downloads/
+
+1. 选择 JDK 8 LTS（也可以选 JDK 11 LTS）
+2. 向下滚动到 Linux 一栏
+3. 确认选择的是 x86
+4. 下拉菜单选择 JRE Full
+5. 右侧点击下载 DEB 包并安装
+
+以上安装方法不经过包管理器，所以 Java 未来不会被 apt upgrade 这类指令自动更新。如果你想要自动更新，建议通过 Bellsoft 的 APT 仓库安装。在命令行中依次执行：
+
+```bash
+wget -q -O - https://download.bell-sw.com/pki/GPG-KEY-bellsoft | sudo apt-key add -
+echo "deb https://apt.bell-sw.com/ stable main" | sudo tee /etc/apt/sources.list.d/bellsoft.list
+sudo apt update
+```
+
+安装 JRE 8 + JFX 请运行 `sudo apt install bellsoft-java8-runtime-full`
+安装 JRE 11 + JFX 请运行 `sudo apt install bellsoft-java11-runtime-full`
+
+除了 Bellsoft 的 Liberica 以外，Azul 公司的 [Zulu](https://www.azul.com/downloads/) 也提供捆绑 JavaFX 的版本，但他们的安装包只有tar.gz格式的。
 
 ## 配置 openjdk + javafx
 
@@ -84,15 +106,6 @@ openjfx11 下载地址：<https://gluonhq.com/products/javafx/>
 # 使用jdk 的一个叫 jdeps 的工具可以检查
 ./jdk-13/bin/jdeps --list-deps --multi-release=11 *.jar
 ```
-
-## 另一个简单的方案：
-
-bellsoft 这个网站提供 java8 +javafx 的整合包下载：<https://bell-sw.com/pages/java-8u252/>
-
-注意下载 full version，才是整合javafx的包。
-
-zulu 网站也提供了：<https://www.azul.com/downloads/zulu-community/?version=java-11-lts&os=linux&architecture=x86-64-bit&package=jre-fx>
-
 
 ## 参考
 
