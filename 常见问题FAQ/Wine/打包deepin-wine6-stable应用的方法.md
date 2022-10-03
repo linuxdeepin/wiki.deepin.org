@@ -2,8 +2,8 @@
 title: 3-打包deepin-wine6-stable应用的方法
 description: 
 published: true
-date: 2022-09-02T08:04:44.065Z
-tags: wine6 stable
+date: 2022-10-03T14:59:29.408Z
+tags: wine
 editor: markdown
 dateCreated: 2022-06-20T08:57:09.981Z
 ---
