@@ -2,7 +2,7 @@
 title: Deepin系统运维
 description: 
 published: true
-date: 2022-06-28T08:19:16.345Z
+date: 2022-10-03T15:55:01.831Z
 tags: 运维
 editor: markdown
 dateCreated: 2022-06-28T08:12:39.925Z
@@ -14,20 +14,20 @@ dateCreated: 2022-06-28T08:12:39.925Z
 
 ### 1.1.1 Super + S 切换工作区
 
-Super就是WIN键
+<kbd>Super</kbd> 就是 <kbd>⊞</kbd> 键
 这个工作区快捷切换键最初由Ubuntu发行版引入。
 目前Deepin只能简单的将多个工作区放在一行横向排列。
 缺少智能的多行自适应布局。
 
 ### 1.1.2 善用强大的 Super 键
 
-- Super ：启动器
-- Super+S ：显示工作区
-- Super+W ：显示当前工作区的窗口
-- Super+A ：显示所有工作区的窗口
-- Super+D ：显示桌面
-- Super+E ：文件管理器
-- Super+L ：锁屏
+- <kbd>Super</kbd> ：启动器
+- <kbd>Super</kbd> + <kbd>S</kbd> ：显示工作区
+- <kbd>Super</kbd> + <kbd>W</kbd> ：显示当前工作区的窗口
+- <kbd>Super</kbd> + <kbd>A</kbd> ：显示所有工作区的窗口
+- <kbd>Super</kbd> + <kbd>D</kbd> ：显示桌面
+- <kbd>Super</kbd> + <kbd>E</kbd> ：文件管理器
+- <kbd>Super</kbd> + <kbd>L</kbd> ：锁屏
 
 ### 1.1.3 启动器搜索支持拼音
 
@@ -50,10 +50,10 @@ VSCode可以在“文件-首选项-设置-窗口-Title Bar Style”中选择`cus
 
 ### 1.1.7 卸载搜狗输入法，改用 Google 拼音
 
-由于搜狗输入法存在严重的内存泄露（开机大约8小时，内存占用将达到3G)，在方修复内存泄露之前，建议替换成fcitx输入法。卸载搜狗输入法：`sudo aptpurge sogoupinyin`完成卸载后，一定要注销或者重启。杀掉所有fcitx进程`killall fcitx`确认这条命令没有任何输出了：`pgrep fcitx`
+由于搜狗输入法存在严重的内存泄露（开机大约8小时，内存占用将达到3G)，在方修复内存泄露之前，建议替换成fcitx输入法。卸载搜狗输入法：`sudo apt purge sogoupinyin`完成卸载后，一定要注销或者重启。杀掉所有fcitx进程`killall fcitx`确认这条命令没有任何输出了：`pgrep fcitx`
 删除旧配置：
 
-```shell
+```bash
 rm -r ~/.sogouinput
 rm -r ~/.config/SogouPY*
 rm -r ~/.config/sogou*
@@ -69,12 +69,12 @@ fcitx-autostart
 
 ### 1.1.8 应用商店卸载软件
 
-Ctrl+Alt+T打开终端，输入命令：`sudo apt install -f`回车执行后重新应用商店卸载即
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> 打开终端，输入命令：`sudo apt install -f`回车执行后重新应用商店卸载即
 
 ### 1.1.9 修改文件扩
 
 方法一：文件管理器，在要修改的文件上弹出右键菜单，”属性“窗口可完成文名、扩展名修改。
-方法二：进入文件所在目录，右键”在终端中打开“，执行：`sudo mvfilename.txfilename`
+方法二：进入文件所在目录，右键”在终端中打开“，执行：`sudo mv filename.txt filename`
 
 ### 1.1.10 系统快照，折腾无忧
 
@@ -84,6 +84,7 @@ Ctrl+Alt+T打开终端，输入命令：`sudo apt install -f`回车执行后重�
 用户：建议对当前用户选择“包含隐藏文件”
 筛选：可随意添加，-号代表排除，+号代表添加。同一目录“排除在前，添加后！”例如我的筛选列表如下：
 
+```
 - /home/loaden/.steam
 - /home/loaden/.deepinwine
 - /home/loaden/.wine
@@ -92,16 +93,18 @@ Ctrl+Alt+T打开终端，输入命令：`sudo apt install -f`回车执行后重�
 + /home/loaden/.**
 
 - /root/**
-  配置完成后即可创建快照。
-  第一次快照需要完全备份，时间比较长，请耐心等待。之后凡是没修改的文件都建立软链接，速度就非常快了。
-  如果进不去桌面，可以在命令行下恢复。
-  查看：sudo timeshift --list
-  还原：sudo timeshift --restore
-  更多用法：timeshift --h
+```
+
+配置完成后即可创建快照。
+第一次快照需要完全备份，时间比较长，请耐心等待。之后凡是没修改的文件都建立软链接，速度就非常快了。
+如果进不去桌面，可以在命令行下恢复。
+查看：`sudo timeshift --list`
+还原：`sudo timeshift --restore`
+更多用法：`timeshift --h`
 
 ### 1.1.11 删除不需要的文件打开
 
-文件管理器进入主目录，Ctrl+H显示隐藏文件，进入.confg目录，编mimeapps.list
+文件管理器进入主目录，<kbd>Ctrl</kbd> + <kbd>H</kbd> 显示隐藏文件，进入.confg目录，编mimeapps.list
 
 ### 1.1.12 ShadowSocks 代理上网
 
@@ -109,16 +112,14 @@ ShadowSocks软件自身配置完成后，还需要打开网络代理，才能科
 方法一：手动代理控制中心-网络-系统代理-手动：SOCKS代理“127.0.0.1”,口“1080”。
 方法二：自动代理控制中心-网络-系统代理-自动,配置URL“file:///homeloaden/.ss.pac”
 
-```shell
+```bash
 sudo apt install python3-pip
 sudo pip3 install genpacgenpac --pac-proxy "SOCKS5 127.0.01:1080" --gfwlist-proxy="SOCKS5127.0.0.1:1080" --output=~/.ss.pac
 ```
 
 ### 1.1.13 启动器隐藏不想看到的启动项
 
-文件管理器打开系统盘，进入/usr/share目录，在applications目录上右键“管理员身份打开”。在不想看到的启动项图标上右键，“打开方式”选择“编辑器”添加：
-`NoDisplay=true`
-保存。
+文件管理器打开系统盘，进入/usr/share目录，在applications目录上右键“管理员身份打开”。在不想看到的启动项图标上右键，“打开方式”选择“编辑器”添加：`NoDisplay=true` 保存。
 
 ### 1.1.14 启动器创建“我的世界”启
 
@@ -132,7 +133,7 @@ sudo pip3 install genpacgenpac --pac-proxy "SOCKS5 127.0.01:1080" --gfwlist-prox
 下面以创建Minecraft(我的世界)为例讲解。
 首先用编辑器创建文件 ~/.local/share/applications/Minecraft.desktop,添加以下内容：
 
-```shell
+```ini
 [Desktop Entry]
 Categories=Game;
 Comment=MinecraftExec=/home/loaden/Zz/Minecraft/Minecraft.sh
@@ -157,7 +158,7 @@ java -jar HMCL.jar
 ```
 
 HMCL启动器下载地址：[https://github.com/huanghongxun/HMCL](https://github.com/huanghongxun/HMCL)
-需要安装Java运行时：sudo apt install default-jre openjfx
+需要安装Java运行时：`sudo apt install default-jre openjfx`
 
 ### 1.1.15 VirtualBox 支持 USB2.0/3.0 
 
@@ -170,16 +171,16 @@ HMCL启动器下载地址：[https://github.com/huanghongxun/HMCL](https://githu
 ### 1.1.16 VirtualBox 虚拟机减肥
 
 1. 关闭虚拟机休眠功能：`powercfg /h off`
-1. 关闭系统还原3.磁盘碎片整理
-1. 下载sdelete，执行：`sdelete -c -z C: D:`
-1. 关闭虚拟机
-1. `VBoxManage modifyhd --compact WINXP.vdi`
+2. 关闭系统还原3.磁盘碎片整理
+3. 下载sdelete，执行：`sdelete -c -z C: D:`
+4. 关闭虚拟机
+5. `VBoxManage modifyhd --compact WINXP.vdi`
 
 ## 1.2 常见终端命令行
 
 ### 1.2.1 更换主机名
 
-```shell
+```bash
 sudo deepin-editor /etc/hostname
 ```
 
@@ -188,16 +189,16 @@ sudo deepin-editor /etc/hostname
 ### 1.2.2 找到命令所在路径和所属软件包
 
 1. 查找编辑器所在路径：`which deepin-editor`
-1. 输出“/usr/bin/deepin-editor”
-1. 查询文件属于哪个包：`dpkg -S /usr/bin/deepin-editor`
-1. 输出“deepin-editor: /usr/bin/deepin-editor”
-1. 冒号之前的“deepin-editor”就是软件
+	输出“/usr/bin/deepin-editor”
+2. 查询文件属于哪个包：`dpkg -S /usr/bin/deepin-editor`
+	输出“deepin-editor: /usr/bin/deepin-editor”
+	冒号之前的“deepin-editor”就是软件
 
 ### 1.2.3 APT 软件包管理扩展用法
 
 大多数的软件安装、卸载都应该在深度系统“应用商店”里可视化操作。下面以软件包“package-name”为例，总结软件包相关的常用命令：
 
-```shell
+```bash
 #查找软件
 apt search package-name
 #重新安装软件
@@ -221,16 +222,15 @@ dpkg -L package-name
 ### 1.2.4 批量编码转换
 
 1. 安装影音转换软件：`sudo apt install libav-tools`
-1. 创建运行脚本：`touch conv.sh`
-1. 右键设置可执行权限，或者：`chmod +x conv.sh`
-1. 用编辑器打开`conv.sh`，添加以下内容（参数可酌情修改）:
+2. 创建运行脚本：`touch conv.sh`
+3. 右键设置可执行权限，或者：`chmod +x conv.sh`
+4. 用编辑器打开`conv.sh`，添加以下内容（参数可酌情修改）:
 
-```shell
+```bash
 #!/bin/bash
-for file in `find . -type f -a -name '*.mov'`
-do
-avconv -i "$file" -c:v h264 -b:v 3000k -r:v 25 -c:a ac3 -b:a 192k -r:a 44100 -ac 2 "$ (expr "$file" : '\(.*\)\.mov').mp4";
-[ "x$?x" == "x0x" ] && rm "$file"
+for file in $(find . -type f -a -name '*.mov'); do
+    avconv -i "$file" -c:v h264 -b:v 3000k -r:v 25 -c:a ac3 -b:a 192k -r:a 44100 -ac 2 "$ (expr "$file" : '\(.*\)\.mov').mp4"
+    [ "x$?x" == "x0x" ] && rm "$file"
 done
 ```
 
@@ -238,12 +238,12 @@ done
 
 ### 1.3.1 硬盘或分区克隆及恢复
 
-1. 推荐使用Clonezilla（再生龙）：[http://www.clonezilla.org/](http://www.1. clonezilla.org/)
-1. dd命令底层低效，仅供备用：
-1. 备份：sudo dd if=/dev/sda1 of=~/elf.bak status=progress
-1. 还原：sudo dd if=~/elf.bak of=/dev/sda1 status=progress
-1. 压缩备份：sudo dd if=/dev/sda1 status=progress | gzip -c  ~/elf.bak
-1. 压缩还原：gunzip -c ~/elf.bak | sudo dd of=/dev/sda1 status=progress
+1. 推荐使用Clonezilla（再生龙）：http://www.clonezilla.org/
+2. dd命令底层低效，仅供备用：
+	备份：`sudo dd if=/dev/sda1 of=~/elf.bak status=progress`
+	还原：`sudo dd if=~/elf.bak of=/dev/sda1 status=progress`
+	压缩备份：`sudo dd if=/dev/sda1 status=progress | gzip -c  ~/elf.bak`
+	压缩还原：`gunzip -c ~/elf.bak | sudo dd of=/dev/sda1 status=progress`
 
 ### 1.3.2 备份还原 MBR 和分区表
 
@@ -264,59 +264,69 @@ sudo sfdisk /dev/sdX < /path/to/fqb
 
 ### 1.3.3 解决与 Windows 时间不同步
 
-```shell
+```bash
 sudo dpkg-reconfigure tzdata #时区设置
 sudo hwclock --localtime --systohc #使用本地时间并写入主板
 ```
 
 正常情况下，Deepin已经具备了网络时间同步功能，如一旦失效，则可以：
 
-```shell
+```bash
 sudo apt install ntpdate #安装同步时间软件
 sudo ntpdate-debian #网络时间同步
 ```
 
 方法二：
-`timedatectl set-local-rtc 1 --adjust-system-clock`
+
+```bash
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
 使用systemd启动之后，时间由`timedatectl`来管理，重启完成将硬件时间UTC改为CST。
-`timedatectl set-local-rtc 0` //恢复UTC
-查看：
-`cat /etc/adjtime`
+
+`timedatectl set-local-rtc 0` 恢复UTC
+
+查看：`cat /etc/adjtime`
 
 ### 1.3.4 删除不需要的旧内核
 
-1. 查询所有内核：`dpkg --get-selections |grep linux`
-1. 正在使用的内核不能删除：`uname -r`
-1. 删除不需要的内核：`sudo apt purge XXX`
+1. 查询所有内核：`dpkg --get-selections | grep linux`
+2. 正在使用的内核不能删除：`uname -r`
+3. 删除不需要的内核：`sudo apt purge XXX`
 
 ### 1.3.5 清除已卸载软件遗留配置
 
 ```shell
-dpkg --get-selections |grep deinstall | sed 's/deinstall/\lpurge/' | sudo dpkg --set-selections; sudo dpkg -Pa
+dpkg --get-selections | grep deinstall | sed 's/deinstall/\lpurge/' | sudo dpkg --set-selections; sudo dpkg -Pa
 ```
 
 ### 1.3.6 开机进入命令行
 
 1. 开机进入命令行：`sudo systemctl disable lightdm`
-1. 恢复开机进桌面：`sudo systemctl enable lightdm`
+2. 恢复开机进桌面：`sudo systemctl enable lightdm`
 
 ### 1.3.7 系统启动分析
 
 1. 显示启动系统过程中用户态和内核态所花的时间：`systemd-analyze`
-1. 显示每个启动项所花费的时间明细：`systemd-analyze blame`
+2. 显示每个启动项所花费的时间明细：`systemd-analyze blame`
 
 ### 1.3.8 假死后安全重启系统
 
-1. 同时按住`Ctrl+Alt+SysRq+B`，可实现安全重启，其中`SysRq`就是`Print 1. Screen`键。
-1. 适合假死或黑屏时重启系统。注意有Fn功能键的，视配置可能需要同时按住Fn功能键。
-1. 经测试，`Alt+SysRq+B`可以达到相同的效
+同时按住 <kbd>Alt</kbd> + <kbd>SysRq</kbd> + <kbd>B</kbd>，可实现安全重启，其中 <kbd>SysRq</kbd> 就是Print Screen键。
+
+适合假死或黑屏时重启系统。注意有 <kbd>Fn</kbd> 功能键的，视配置可能需要同时按住 <kbd>Fn</kbd> 功能键。
 
 ### 1.3.9 进程相关命令
 
-```shell
+```bash
 pgrep XXX #查询进程IDps -ef |grep XXX #显示所有进程信息，连同命令行
-ps -aux |grep XXX #列出目前所有的正在内存当中的程序
-可以用 | 管道和 more 连接起来分页查看：ps -aux |moresudo netstat -tulpn |grep :21 #查询端口
+ps -aux | grep XXX #列出目前所有的正在内存当中的程序
+```
+
+可以用 | 管道和 more 连接起来分页查看：
+
+```bash
+ps -aux | moresudo netstat -tulpn | grep :21 #查询端口
 pkill XXX #杀掉
 killall XXX #全杀
 ```
@@ -325,7 +335,7 @@ killall XXX #全杀
 
 打开Terminal，或者进入Shell，执行`sudo -i && fdisk -l`找到系统安装分区sdaX，然后按顺序执行：
 
-```shell
+```bash
 mount /dev/sdaX /mnt
 mount /dev/sdaY /mnt/boot/efi
 mount --bind /dev /mnt/dev
@@ -341,12 +351,12 @@ exit
 ### 1.3.11 离线安装软件
 
 当没有网络连接的电脑上需要安装某个软件时，可以使用下面的脚本下载该软件以及依赖包，在脱机电脑上执行：
-sudo dpkg -i *.deb
+`sudo dpkg -i *.deb`
 如果上述安装命令最后报错，则需要执行：
-sudo apt install -f
+`sudo apt install -f`
 
 如果提示缺少软件包（依赖），则拷贝依赖包名（例如XXX），在有网络的电脑上执行：
-apt download XXX
+`apt download XXX`
 
 再拷贝到脱机电脑上双击安装即可。
 批量下载脚本如下：
@@ -355,41 +365,32 @@ apt download XXX
 #! /bin/bash
 pkg="$*"
 
-function getDepends()
-{
-ret=\`apt-cache depends $1 |grep -i 依赖 |sed 's/(.*)//' |cut -d: -
-f2\`
-if [[ -z $ret ]]; then
-echo "$1 No depends"
-echo -n
-else
-# echo $ret
-# apt-cache depends $1 |grep -i 依赖
-# echo ''
-for i in $ret
-do
-if [[ `echo $pkg |grep -e "$i "` ]]; then
-# echo "$i already in set"
-echo -n
-elif [[ $i =~ '<' ]]; then
-echo "Drop $i"
-elif [[ "$i" != "libc6" &&
-"$i" != "libcairo2" &&
-!("$i" =~ "glib") &&
-!("$i" =~ "gtk") &&
-!("$i" =~ "font")
-]]; then
-# echo "Download $i ing"
-pkg="$pkg $i"
-getDepends $i
-fi
-done
-fi
+function getDepends() {
+    ret=\`apt-cache depends $1 | grep -i 依赖 | sed 's/(.*)//' | cut -d: -f2\`
+    if [[ -z $ret ]]; then
+        echo "$1 No depends"
+        echo -n
+    else
+        # echo $ret
+        # apt-cache depends $1 |grep -i 依赖
+        # echo ''
+        for i in $ret; do
+            if [[ $(echo $pkg | grep -e "$i ") ]]; then
+                # echo "$i already in set"
+                echo -n
+            elif [[ $i =~ '<' ]]; then
+                echo "Drop $i"
+            elif [[ "$i" != "libc6" && "$i" != "libcairo2" && !("$i" =~ "glib") && !("$i" =~ "gtk") && !("$i" =~ "font") ]]; then
+                # echo "Download $i ing"
+                pkg="$pkg $i"
+                getDepends $i
+            fi
+        done
+    fi
 }
 
-for j in $@
-do
-getDepends $j
+for j in $@; do
+    getDepends $j
 done
 
 # echo $pkg
@@ -398,7 +399,7 @@ apt download $pkg -d -y
 
 ### 1.3.12 制作 USB 启动盘
 
-```shell
+```bash
 sudo dd if=/path/to/the/downloaded/iso of=/path/to/the/USB/device
 #显示进度
 sudo dd if=/path/to/the/downloaded/iso of=/path/to/the/USB/devicestatus=progress
@@ -407,8 +408,8 @@ sudo dd if=/path/to/the/downloaded/iso of=/path/to/the/USB/devicestatus=progress
 ### 1.3.13 查看与同步 GPT 分区 UUID
 
 1. 查看UUID方法一：`blkid`
-1. 查看UUID方法二：`ls -l /dev/disk/by-uuid`
-1. 同步：`sudo vi /etc/fst`
+2. 查看UUID方法二：`ls -l /dev/disk/by-uuid`
+3. 同步：`sudo vi /etc/fst`
 
 ### 1.3.14 配置命令行默认 Python 版本
 
@@ -416,7 +417,7 @@ sudo dd if=/path/to/the/downloaded/iso of=/path/to/the/USB/devicestatus=progress
 
 首先需要在系统中添加Python2.7、Python3.5的选项，默认为Python3.5（优先级20）
 
-```shell
+```bash
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 10
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 20
 #显示
@@ -430,13 +431,13 @@ sudo update-alternatives --config python
 ### 1.4.1 安装运行 Windows 绿色软件
 
 进入绿色软件所在目录，右键“在终端中打开”，执行：
-deepin-wine `Windows绿色软件.exe`
+`deepin-wine Windows绿色软件.exe`
 
 ### 1.4.2 为大型 Windows 软件创建独立运行环境
 
 建议每个大型软件使用一个独立的容器（运行环境），下面以安装Rosetta Stone为例。
 
-```shell
+```bash
 #第一步：拷贝或者创建容器
 cp -r ~/.deepinwine/Deepin-QQ ~/.rosetta
 #或者
@@ -454,7 +455,7 @@ WINEDEBUG=+pid,+tid,+process WINEPREFIX=~/.rosetta deepin-wine $HOME'/.rosetta/d
 
 如果觉得QQ聊天窗口字体太小了，可以打开终端，执行：
 
-```shell
+```bash
 WINEPREFIX=~/.deepinwine/Deepin-QQ deepin-wine winecfg
 ```
 
@@ -465,7 +466,7 @@ WINEPREFIX=~/.deepinwine/Deepin-QQ deepin-wine winecfg
 进入主目录，文件管理器Ctrl+H显示隐藏文件，进入`.local/share/applications`目录。
 创建文件：deepinwine.desktop，添加如下内容并保存：
 
-```shell
+```ini
 [Desktop Entry]
 Categories=System;Utility;
 Exec=/usr/bin/deepin-wine %F
@@ -493,68 +494,70 @@ Type=Application
 
 grub引导菜单界面，按e进入编辑模式，修改`splash quiet`所在行，在其后尝试添加：
 
-```shell
+```
 acpi_osi=! acpi="windows 2009"
 ```
 
-F10启动。原理：据说是因为有些老旧的BIOS无法识别高版本的Linux内核，所以grub加上这个参数就可以欺骗BIOS让它以为系统是windows7，然后就可以正常启动了。如果还无法成功，可以尝试以下参数：
-`nomodeset` 或 `nouveau.modeset=0`
+<kbd>F10</kbd> 启动。原理：据说是因为有些老旧的BIOS无法识别高版本的Linux内核，所以grub加上这个参数就可以欺骗BIOS让它以为系统是windows7，然后就可以正常启动了。如果还无法成功，可以尝试以下参数：`nomodeset` 或 `nouveau.modeset=0`
 
 ### 1.5.2 关闭错误报警蜂鸣声
 
 检查模块是否启动：`lsmod |grep pcspkr`
-临时关闭：`sudo rmmod pcspkr`
-永久关闭：
-方法一：
 
-```shell
-deepin-editor ~/.profile 添加下面三行内容
-sudo -S rmmod pcspkr <<EOF
-password(你的密码)
-EOF
-```
-
-在Shell脚本中，通常将EOF与 << 结合使用，表示后续的输入作为子命令或子Shell的输
-入，直到遇到EOF为止，再返回到主Shell,即将‘你的密码’当做命令的输入。
-
-方法二：
-`sudo deepin-editor /etc/modprobe.d/blacklist.conf` 添加 `blacklist pcspkr`
+- 临时关闭：`sudo rmmod pcspkr`
+- 永久关闭：
+	- 方法一：
+		```bash
+		deepin-editor ~/.profile 添加下面三行内容
+		sudo -S rmmod pcspkr <<EOF
+		password(你的密码)
+		EOF
+		```
+		在Shell脚本中，通常将EOF与 << 结合使用，表示后续的输入作为子命令或子Shell的输入，直到遇到EOF为止，再返回到主Shell,即将‘你的密码’当做命令的输入。
+	- 方法二：
+		`sudo deepin-editor /etc/modprobe.d/blacklist.conf` 添加 `blacklist pcspkr`
 
 经测试，虽然pcspkr不再自启动，但电脑启动时会发出奇怪噪音，错误报警声仍然存在。
 
 备注：
-如果开机画面屏幕输出`Driver 'pcspkr' is already registered`则可用方法二
-解决。
+如果开机画面屏幕输出`Driver 'pcspkr' is already registered`则可用方法二解决。
 
 ### 1.5.3 显卡驱动与性能测试
 
-可以通过在终端执行FPS测试命令，判断自己显卡驱动是否正常工作：
-vblank_mode=0 glxgears
+可以通过在终端执行FPS测试命令，判断自己显卡驱动是否正常工作：`vblank_mode=0 glxgears`
 
 一般FPS能达到3000以上，就说明显卡驱动能正常工作了。
 
-建议使用应用商店的“显卡驱动管理器”切换或者安装驱动。
-不到迫不得已，请不要升级内核。
+建议使用应用商店的“显卡驱动管理器”切换或者安装驱动。不到迫不得已，请不要升级内核。
 
-官方维基：[https://wiki.deepin.org/](https://wiki.deepin.org/index.php?title=%E6%98%BE%E5%8D%A1&language=en#.E7.AE.80.E4.BB.8B)
 NVIDIA显卡安装闭源驱动后，vblank_mode=0选项无效，需要从自带的配置程序中取消取消“垂直同步刷新”功能。
-`sudo apt install nvidia-settings`
-`nvidia-settings`
+
+```bash
+sudo apt install nvidia-settings
+nvidia-settings
+```
 
 ### 1.5.4 开机出现 Firmware Bug 日志
 
-错误日志内容：[Firmware Bug]: TSC_DEADLINE disabled due to Errataplease update microcode to version: 0x22 (or later)
-解决办法：`sudo apt install intel-microcode` 或 `sudo apt installamd64-microcode`
-检查安装：`dmesg |grep microcode`
-问题来源：[https://stackoverflow.com/](https://stackoverflow.comquestions/48036877debian-firmware-bug-tsc-deadline-disabled-due-to-errata)
-应用这个补丁后，会降低CPU性能。家用不推荐。
-#第二章 终端操作技巧集锦
+错误日志内容：
 
-### 2.1 以管理员身份自启动
+> \[Firmware Bug\]: TSC_DEADLINE disabled due to Errataplease update microcode to version: 0x22 (or later)
+
+解决办法：`sudo apt install intel-microcode` 或 `sudo apt install amd64-microcode`
+
+检查安装：`dmesg | grep microcode`
+
+问题来源：[stackoverflow.com](https://stackoverflow.comquestions/48036877debian-firmware-bug-tsc-deadline-disabled-due-to-errata)
+
+应用这个补丁后，会降低CPU性能。家用不推荐。
+
+# 第二章 终端操作技巧集锦
+
+## 2.1 以管理员身份自启动
 
 编辑 ~/.profile 添加下面三行内容：
 
-```shell
+```bash
 sudo -S rmmod pcspkr <<EOF
 password(你的密码)
 EOF
@@ -562,72 +565,72 @@ EOF
 
 在Shell脚本中，通常将EOF与 << 结合使用，表示后续的输入作为子命令或Shell的输入，直到遇到EOF为止，再返回到主Shell,即将‘你的密码’当做命令输入。
 
-### 2.2 递归更改文件所有者
+## 2.2 递归更改文件所有者
 
-```shell
+```bash
 chown -R loaden:loaden *
 ```
 
-### 2.3 从指定类型文件中查找
+## 2.3 从指定类型文件中查找
 
-```shell
+```bash
 find . -name '*.c' | awk '{print "grep -i -nH keyword "$1}' | bin/bash
 find . -name '*.c' -exec grep -i -nH "keyword" {} \;
 ```
 
-### 2.4 更好的搜索方法
+## 2.4 更好的搜索方法
 
-```shell
+```bash
 grep -i "search_string" . -r --include=*.txt
 grep "search_string" . -r --include=*.txt --include=*.cpp--include=*.h
 ```
 
-### 2.5 将行末多个空行转换成一个空行
+## 2.5 将行末多个空行转换成一个空行
 
-```shell
+```bash
 find . -name '*.tex' -exec sed -i '/^$/{N;/^\n*$/D}' {} \;
 ```
 
-### 2.6 ls 只显示目录名
+## 2.6 ls 只显示目录名
 
-```shell
+```bash
 ls -l |grep ^d 或 ls -d */
 ```
 
-### 2.7 ls 只显示文件
+## 2.7 ls 只显示文件
 
-```shell
+```bash
 ls -l |grep ^-
 ```
 
-### 2.8 ls 显示软链接
+## 2.8 ls 显示软链接
 
-```shell
+```bash
 ls -n
 ```
 
-### 2.9 为子目录和文件设置不同权限
+## 2.9 为子目录和文件设置不同权限
 
-```shell
+```bash
 find . -type d -exec chmod 755 {} \;
 find . -type f -exec chmod 644 {} \;
 ```
 
-### 2.10 为指定类型文件设置可执行权限
+## 2.10 为指定类型文件设置可执行权限
 
-```shell
+```bash
 find . -name 'commit-msg' -type f -exec chmod +x {} \;
 find . -name '*.sh' -type f -exec chmod +x {} \;
 ```
 
-### 2.11 获取脚本文件所在路径
+## 2.11 获取脚本文件所在路径
 
 包含文件：`$0`
 只要路径：`dirname "$0"`
 
-### 2.12 批量文本替换
+## 2.12 批量文本替换
 
-```shell
+```bash
 grep "old" -rl ./ |xargs sed -i "s/old/new/g"
 grep "Objbase.h" -rl . --include=*.cpp --include=*.h |xargs sed-i "s/Objbase.h/objbase.h/g"
 #或
@@ -636,25 +639,25 @@ sed -i "s/原字符串/新字符串/g" `grep 原字符串 -rl 所在目录
 grep "图像" -rl . --include=*.tex |xargs sed -i "s/图像/图象/g"
 ```
 
-### 2.13 获取 CPU 个数并四则运算后导出环境变量
+## 2.13 获取 CPU 个数并四则运算后导出环境变量
 
-```shell
+```bash
 export MAKE_JOBS=$(echo $(nproc)*2-1|bc)
 #应用：
 make -j $MAKE_JOBS
 ```
 
-### 2.14 命令行解压缩到指定目录
+## 2.14 命令行解压缩到指定目录
 
-```shell
+```bash
 tar xvf XXX.tar.xz -C /opt
 ```
 
 不需要添加J选项，tar会根据压缩包名称识别压缩包格式。
 所以xvf应该可以作为万能参数了。
 
-### 2.15 通过 git 实现跨平台的 grep 用法
+## 2.15 通过 git 实现跨平台的 grep 用法
 
-```shell
+```bash
 git grep -li pkgconfig -- \*.pr?
 ```
