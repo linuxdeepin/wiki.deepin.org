@@ -2,8 +2,8 @@
 title: 如何在使用N卡闭源驱动时强制让GNOME-GDM使用Wayland
 description: 
 published: true
-date: 2022-06-28T06:22:47.602Z
-tags: n卡 闭源驱动 gdm wayland
+date: 2022-10-03T14:55:26.406Z
+tags: nvidia, wayland, 显卡
 editor: markdown
 dateCreated: 2022-06-28T06:22:45.409Z
 ---
