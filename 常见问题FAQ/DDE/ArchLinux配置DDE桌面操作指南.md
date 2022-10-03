@@ -2,8 +2,8 @@
 title: 如何在ArchLinux发行版上安装DDE桌面环境
 description: 
 published: true
-date: 2022-09-14T07:46:20.664Z
-tags: arch dde
+date: 2022-10-03T18:45:08.902Z
+tags: dde桌面环境
 editor: markdown
 dateCreated: 2022-09-08T09:54:52.738Z
 ---
