@@ -2,8 +2,8 @@
 title: Apt-mark
 description: 
 published: true
-date: 2022-05-08T07:58:09.996Z
-tags: 
+date: 2022-10-07T15:21:52.266Z
+tags: apt
 editor: markdown
 dateCreated: 2022-04-21T03:29:04.106Z
 ---
