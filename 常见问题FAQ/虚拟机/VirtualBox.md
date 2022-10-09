@@ -2,8 +2,8 @@
 title: Virtual Box
 description: 
 published: true
-date: 2022-10-09T17:36:02.579Z
-tags: virtual box
+date: 2022-10-09T17:46:28.867Z
+tags: virtualbox
 editor: markdown
 dateCreated: 2022-06-16T02:15:33.016Z
 ---
