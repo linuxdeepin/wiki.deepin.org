@@ -1,0 +1,45 @@
+---
+title: 代码评审流程
+description: GitHub Pull Request 的 Code Review 流程介绍
+published: true
+date: 2022-10-10T07:20:31.011Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-10T07:20:31.011Z
+---
+
+# 概述
+
+> 如果你完全不熟悉 GitHub 的代码评审流程，建议优先参阅[GitHub 提供的官方文档](https://docs.github.com/cn/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews)。下面附带了一些简要说明可供参考。
+{.is-info}
+
+当拉取请求（Pull Request）创建后，就到了进行代码评审（Code Review）的过程了。此时，仓库维护人员和自动化流水线均可以对拉取请求中所包含的代码变动进行评审，并视情况给出评论或评审意见。若存在修改意见，则需要贡献者进行相应的修改，并更新拉取请求中的代码。当所有问题均已解决时，维护人员就可以合并代码了。
+
+# 提交代码评审（Review）意见
+
+代码的 review 在一个拉取请求（PR）的 Files Changed 页面内进行。可以直接在此页面中所展示的代码中进行评注。评注方式为，在要评注的行左侧悬浮鼠标，并点击出现的蓝色加号，然后在下方出现的评论框中填写评注内容和/或修改建议。
+
+![2022-10-10_62002.png](/2022-10-10_62002.png)
+
+> 注意：若点击“Start a review”，则所评注的内容在提交前会被视作 pending 状态，必须在“Review Changes”中通过点击“Submit review”提交后，贡献者才可以看到。
+> 如果只需要进行简单的备注说明，也可以点击“Add single comment”来立即添加一条评注。
+{.is-warning}
+
+评注完毕后，点击右上角的 Review Changes 按钮，选择评审结果，并提交评审结果即可。
+
+![2022-10-10_86740.png](/2022-10-10_86740.png)
+
+代码评审结果有三种可供选择，分别是：
+
+- Approve 表示通过。相当于 gerrit 的 `+2`
+- Request change 表示请求修改。相当于 gerrit 的 `-1`
+- Comment 则为仅做评论
+
+项目仓库的具有推送（Push/Write）权限的人员的 Approve 将为一个有效的 Approve。当拉取请求得到足够的 Approval 后，就可以由项目维护者进行合并了。
+
+> 对于 deepin 相关项目，我们要求至少有一个有效的 Approval。
+{.is-info}
+
+# 答复评审意见
+
+TODO
