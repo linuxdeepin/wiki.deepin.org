@@ -2,7 +2,7 @@
 title: KVM虚拟机使用问题
 description: 介绍KVM虚拟机使用方法
 published: true
-date: 2022-06-27T07:25:59.484Z
+date: 2022-10-11T01:26:20.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T06:45:39.928Z
@@ -10,7 +10,7 @@ dateCreated: 2022-06-23T06:45:39.928Z
 
 # KVM虚拟机使用问题
 ## 安装KVM虚拟机
-在终端中输入：`sudo apt-get install qemu-kvm libvirt-clients libvirt-daemon-system`;
+在终端中输入：`sudo apt-get install qemu-system-x86 libvirt-clients libvirt-daemon-system`;
 
 安装完这些包以后，就需要将当前的用户添加到libvirt用户组。这样做的目的是为了，使当前用户可以直接管理虚拟机而不需要提权，在终端中输入：`sudo adduser deepin libvirt `  `#把deepin替换成自己的用户名`;
 
