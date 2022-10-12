@@ -2,7 +2,7 @@
 title: 使用Find和Locate命令在Linux中搜索文件
 description: 
 published: true
-date: 2022-10-12T06:09:31.600Z
+date: 2022-10-12T06:13:56.296Z
 tags: find locate
 editor: markdown
 dateCreated: 2022-10-12T05:52:41.081Z
@@ -106,3 +106,29 @@ b: 512-byte blocks
 `find /etc -name "*.conf" -exec ls -l {} \;`
 
 /home/uos/Desktop/640.png![2022-10-12_31300.png](/2022-10-12_31300.png)
+
+## 使用 locate 查找文件
+使用 find 的替代方法是 locate 命令。此命令通常更快，并且可以轻松搜索整个文件系统。在centos8中，可以使用yum包管理器来安装mlocate包：
+
+`yum -y install mlocate`
+locate 比 find 快的原因是它依赖于列出文件系统上所有文件的数据库。该数据库通常每天使用 cron 脚本更新一次，但也可以使用 updatedb 命令手动更新它。下面运行此命令：
+`updatedb`
+例如搜索关键字"anaconda"，会快速的显示出匹配的文件：
+`locate anaconda`
+
+![2022-10-12_41716.png](/2022-10-12_41716.png)
+
+可以使用 -S 选项检索有关 locate 已存储信息的统计：
+`locate -S`
+Database /var/lib/mlocate/mlocate.db:
+8,393 directories
+73,262 files
+4,632,907 bytes in file names
+1,948,600 bytes used to store database
+
+![2022-10-12_8728.png](/2022-10-12_8728.png)
+
+## 总结
+find 和 locate 命令都是在系统上查找文件的有用工具。两者都是强大的命令，可以通过管道将它们与其他实用程序结合来加强。
+
+
