@@ -2,7 +2,7 @@
 title: 使用Find和Locate命令在Linux中搜索文件
 description: 
 published: true
-date: 2022-10-12T05:59:22.349Z
+date: 2022-10-12T06:09:31.600Z
 tags: find locate
 editor: markdown
 dateCreated: 2022-10-12T05:52:41.081Z
@@ -90,18 +90,19 @@ b: 512-byte blocks
 ## 按所有者和权限查找
 
 还可以分别使用 -user 和 -group 参数按拥有文件的用户或组搜索文件。若要查找 chrony 用户在/var 目录中拥有的文件，请运行以下命令：
+`find /var -user chrony`
 
-[root@LinuxProbe ~]# find /var -user chrony
 同样，可以通过键入以下命令指定kmem组在/etc目录中拥有的文件 ：
-[root@LinuxProbe ~]# find / -group kmem
+`find / -group kmem`
+
 也可以使用-perm选项搜索指定权限的文件：
-[root@LinuxProber ~]# find /var/log -perm 644
+`find /var/log -perm 644`
 
 ## 对查找结果执行命令
 
 你可以使用以下语法使用 -exec 参数对找到匹配项的所有内容执行任意操作。{} 用作查找匹配文件的占位符。这 \;让 find 知道命令在哪里结束。
 
 例如，查找/etc目录中的*.conf文件，并使用ls -l列出文件信息：
-[root@LinuxProbe ~]# find /etc -name "*.conf" -exec ls -l {} \;
+`find /etc -name "*.conf" -exec ls -l {} \;`
 
-/home/uos/Desktop/640.png
+/home/uos/Desktop/640.png![2022-10-12_31300.png](/2022-10-12_31300.png)
