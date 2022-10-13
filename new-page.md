@@ -1,8 +1,8 @@
 ---
-title: 标签使用
+title: Deepin Wiki - 标签使用
 description: 标签参考列表
 published: true
-date: 2022-10-12T08:40:00.839Z
+date: 2022-10-13T01:16:24.158Z
 tags: 快速开始
 editor: markdown
 dateCreated: 2022-05-11T09:45:05.659Z
