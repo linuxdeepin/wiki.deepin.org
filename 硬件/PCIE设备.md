@@ -2,11 +2,11 @@
 title: PCIE设备
 description: 
 published: true
-date: 2022-08-27T16:48:06.729Z
+date: 2022-10-14T07:01:31.529Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-05T04:25:04.821Z
 ---
 
-# PCIE设备
-## PCIE设备简介
+## PCIE 设备简介
+PCIE 是一种高速串行计算机扩展总线标准
