@@ -2,7 +2,7 @@
 title: DBeaver
 description: 
 published: true
-date: 2022-05-12T05:58:51.041Z
+date: 2022-10-14T06:42:26.064Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:18.027Z
@@ -22,12 +22,4 @@ DBeaver是一个通用的数据库管理工具和SQL客户端，支持 MySQL、P
 
 # 仓库地址
 
-[http://packages.deepin.com/deepin/pool/non-free/d/dbeaver-ce/](http://packages.deepin.com/deepin/pool/non-free/d/dbeaver-ce/)
-
-
-# 常见问题
-
-
-# 相关链接
-
-维基百科：
+[http://packages.deepin.com/deepin/pool/non-free/d/dbeaver-ce](http://packages.deepin.com/deepin/pool/non-free/d/dbeaver-ce/)
