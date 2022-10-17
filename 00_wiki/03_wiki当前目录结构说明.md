@@ -2,7 +2,7 @@
 title: 03_wiki当前目录结构说明
 description: 
 published: true
-date: 2022-10-17T03:03:57.078Z
+date: 2022-10-17T03:05:44.270Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-17T01:26:14.117Z
@@ -40,7 +40,7 @@ dateCreated: 2022-10-17T01:26:14.117Z
 	* 01_普通人员(从软件查找到安装使用必须简单方便)
 		* 输入法
 		* 办公
-		* 通信/网络
+		* 通信或网络
 		* 安全
 		* 游戏
 		* 浏览器
