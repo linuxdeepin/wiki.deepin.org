@@ -2,13 +2,11 @@
 title: Deepin系统管理
 description: 
 published: true
-date: 2022-06-08T05:43:47.983Z
+date: 2022-10-17T09:33:25.665Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:49.306Z
 ---
-
-[[en:Deepin_system_management]]
 
 ## 启动管理
 
