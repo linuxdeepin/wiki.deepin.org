@@ -2,7 +2,7 @@
 title: Deepin 简介
 description: 
 published: true
-date: 2022-10-17T07:30:45.565Z
+date: 2022-10-17T07:36:53.478Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:06:20.611Z
@@ -77,10 +77,3 @@ https://github.com/linuxdeepin/developer-center/discussions
 * [SparkyLinux](https://sparkylinux.org/deepin-desktop-environment)	
 * [Puppy Linux](http://murga-linux.com/puppy/viewtopic.php?t=109317)
 
-## 发展历程
-
-[发展历程](https://wiki.deepin.org/zh/%E5%85%B3%E4%BA%8EDeepin/Deepin_Linux/%E9%87%8C%E7%A8%8B%E7%A2%91)
-
-## 版权信息
-
-[版权信息](https://wiki.deepin.org/zh/%E5%85%B3%E4%BA%8EDeepin/Deepin_Linux/%E7%89%88%E6%9D%83)
