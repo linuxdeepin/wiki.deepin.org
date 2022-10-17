@@ -1,14 +1,14 @@
 ---
-title: man指令含义
+title: man指令
 description: 
 published: true
-date: 2022-07-08T09:06:06.182Z
+date: 2022-10-17T09:10:22.172Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T09:06:04.055Z
 ---
 
-# man指令含义
+# man指令
 数字代号
 | man  | xxx(指令)                                                    |
 | ---- | ------------------------------------------------------------ |
@@ -21,3 +21,10 @@ dateCreated: 2022-07-08T09:06:04.055Z
 | 7    | 惯例与协议等，例如Linux文件系统，网络协议，ascii code等等的说明 |
 | 8    | 系统管理员可用的管理指令                                     |
 | 9    | 跟kernel有关的文件                                           |
+
+
+查看 ls 命令的相关信息:
+
+```
+man ls
+```
