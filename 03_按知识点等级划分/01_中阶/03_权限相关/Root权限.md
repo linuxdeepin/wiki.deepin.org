@@ -1,8 +1,8 @@
 ---
-title: Root
+title: Root权限
 description: 
 published: true
-date: 2022-07-29T14:58:02.200Z
+date: 2022-10-17T08:44:08.253Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:14.348Z
