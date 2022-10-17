@@ -1,8 +1,8 @@
 ---
-title: Linux实用技巧
+title: Linux实用技巧总结
 description: 
 published: true
-date: 2022-07-19T03:30:24.700Z
+date: 2022-10-17T09:11:29.817Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T09:04:42.651Z
