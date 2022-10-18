@@ -2,16 +2,13 @@
 title: Systemd
 description: 
 published: true
-date: 2022-06-16T03:03:54.490Z
+date: 2022-10-18T03:00:06.017Z
 tags: systemd
 editor: markdown
 dateCreated: 2022-06-16T03:02:15.607Z
 ---
 
 # Systemd
-
-[跳到导航](http://old.deepin.wiki/index.php?title=Systemd#mw-head)[跳到搜索](http://old.deepin.wiki/index.php?title=Systemd#searchInput)
-
 Systemd不仅能完成系统的初始化工作，也能对系统和服务进行管理。
 
 ## 目录
