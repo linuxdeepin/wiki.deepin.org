@@ -2,7 +2,7 @@
 title: Linux综合性命令及解析
 description: 
 published: true
-date: 2022-10-18T03:32:08.626Z
+date: 2022-10-18T04:39:15.750Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:27.086Z
@@ -436,7 +436,7 @@ glances [参数]
 [root@root ~]# glances -t 6
 ```
 
-## 六、sar – 系统运行状态统计
+# 六、sar – 系统运行状态统计
 
 >  sar命令是Linux下系统运行状态统计工具，它将指定的操作系统状态计、数器显示到标准输出设备。
 >   sar（System Activity Reporter系统活动情况报告）是目前Linux上最为全面的系统性能分析工具之一，可以从多方面对系统的活动进行报告，包括：文件的读写情况、系统调用的使用情况、磁盘I/O、CPU效率、内存使用状况、进程活动及IPC有关的活动等
