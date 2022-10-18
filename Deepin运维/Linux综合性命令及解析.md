@@ -2,7 +2,7 @@
 title: Linux综合性命令及解析
 description: 
 published: true
-date: 2022-07-28T01:00:29.849Z
+date: 2022-10-18T03:32:08.626Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-28T01:00:27.086Z
@@ -218,7 +218,7 @@ htop [参数]
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/4b5afc2582764ff19e78380360a2e69a.png)
 
-## 三、vmstat – 显示虚拟内存状态
+# 三、vmstat – 显示虚拟内存状态
 
 >  vmstat命令的含义为显示虚拟内存状态（“Virtual Memory Statistics”），但是它可以报告关于进程、内存、I/O等系统整体运行状态。
 
@@ -332,7 +332,7 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 > wa 等待IO CPU时间；
 > st 等待IO CPU时间。
 
-## 四、dstat – 全能系统信息统计工具
+# 四、dstat – 全能系统信息统计工具
 
 > dstat命令是一个用来替换vmstat、iostat、netstat、nfsstat和ifstat这些命令的工具，是一个全能系统信息统计工具。与sysstat相比，dstat拥有一个彩色的界面，在手动观察性能状况时，数据比较显眼容易观察；而且dstat支持即时刷新，譬如输入dstat 3即每三秒收集一次，但最新的数据都会每秒刷新显示。和sysstat相同的是，dstat也可以收集指定的性能资源，譬如dstat -c即显示CPU的使用情况。
 
@@ -389,7 +389,7 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 [root@root ~]# dstat -n
 ```
 
-## 五、glances – 高层次的多子系统概览
+# 五、glances – 高层次的多子系统概览
 
 > Glances是一个相对比较新的系统监控工具，用 Python 编写的，使用 psutil 库从系统获取信息。可以用它来监控 CPU、平均负载、内存、网络接口、磁盘 I/O，文件系统空间利用率、挂载的设备、所有活动进程以及消耗资源最多的进程。Glances 有很多有趣的选项。它的主要特性之一是可以在配置文件中设置阀值（careful小心、warning警告、critical致命），然后它会用不同颜色显示信息以表明系统的瓶颈。
 
