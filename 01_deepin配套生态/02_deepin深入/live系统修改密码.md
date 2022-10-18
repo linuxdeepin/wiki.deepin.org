@@ -1,8 +1,8 @@
 ---
-title: live系统修改用户密码
+title: live系统修改密码
 description: 很多时候用户在使用系统过程中，真的会忘记自己的密码，这个时候想要能够修改密码的方式，这篇文章可能提供一种思路。
 published: true
-date: 2022-06-01T05:23:47.730Z
+date: 2022-10-18T04:44:59.967Z
 tags: 忘记密码  修改密码  live系统修改密码
 editor: markdown
 dateCreated: 2022-06-01T03:36:17.508Z
