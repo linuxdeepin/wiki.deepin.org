@@ -1,14 +1,14 @@
 ---
-title: 切换显卡的方法
+title: thinkbook_14双显卡切换
 description: 
 published: true
-date: 2022-10-11T07:27:52.183Z
+date: 2022-10-18T02:39:47.135Z
 tags: 双显卡, 独显
 editor: markdown
 dateCreated: 2022-09-22T05:57:05.542Z
 ---
 
-# 切换显卡
+# thinkbook_14双显卡切换
 > 本文只针对thinkbook 14双显卡机型，其它机器使用该方法进行显卡切换存在风险
 {.is-warning}
 
