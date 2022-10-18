@@ -1,8 +1,8 @@
 ---
-title: Deepin用Create_ap建热点辅助脚本21
+title: Deepin用Create_ap建热点
 description: 
 published: true
-date: 2022-10-02T17:03:53.125Z
+date: 2022-10-18T05:27:14.224Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:41.541Z
