@@ -1,11 +1,23 @@
 ---
-title: 目录挂载点
+title: 编写退出后自动执行的脚本
 description: 
 published: true
-date: 2022-10-17T02:16:07.647Z
+date: 2022-10-18T02:55:09.839Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-17T02:16:07.647Z
 ---
 
-# 初始化页面
+### 退出登录时自动运行程序
+
+退出登录时，bash自动执行个人的退出登录脚本
+
+    /.bash_logout
+
+例如，在/.bash_logout中加入命令“tar －cvzf c.source.tgz ＊.c”，则在每次退出登录时自动执行 “tar” 命令备份 ＊.c 文件。
+
+
+
+## 相关链接
+
+[ubuntu 开机启动时自动运行程序](http://m.oschina.net/blog/38766)
