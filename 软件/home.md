@@ -2,7 +2,7 @@
 title: 软件
 description: 本文按照不同分类列出常用的应用，是寻找软件包的索引。
 published: true
-date: 2022-05-14T14:45:22.113Z
+date: 2022-10-18T03:09:58.117Z
 tags: 软件
 editor: markdown
 dateCreated: 2022-05-14T13:59:42.139Z
@@ -137,40 +137,3 @@ https://tikzit.github.io/ || TikZiT
 Vim-LaTeX-suite — Vim 的可定制 LaTeX 环境。
 http://vim-latex.sourceforge.net/ || vim-latexsuite
 
-#### XML editors
-
-### 文字处理
-
-### 表格处理
-
-### 学术文档
-
-### 翻译与本土化
-
-### 文本编辑器
-
-### 阅读与浏览
-
-### 扫描
-
-#### OCR
-
-### 笔记
-
-### 脑图
-
-## 聊天社交
-
-## 影音视听
-
-## 网络冲浪
-
-## 游戏娱乐
-
-## 系统工具
-
-## 图像处理
-
-## 视频剪辑
-
-## 音频处理
