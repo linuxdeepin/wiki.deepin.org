@@ -1,8 +1,8 @@
 ---
-title: 窗口主题
+title: GTK窗口主题
 description: 
 published: true
-date: 2022-06-04T04:22:13.338Z
+date: 2022-10-18T04:50:00.026Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:51:40.214Z
