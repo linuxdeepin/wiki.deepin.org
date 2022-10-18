@@ -2,8 +2,8 @@
 title: deepin系统下双显卡的切换
 description: 本文只针对双显卡机器（I+N卡或A+N卡），deepin内核优选5.18.17-amd64-desktop-hwe版本
 published: true
-date: 2022-10-18T10:12:04.991Z
-tags: 双显卡, 切换, 硬件加速
+date: 2022-10-18T10:12:58.393Z
+tags: 切换, 双显卡, 硬件加速
 editor: markdown
 dateCreated: 2022-10-18T10:12:04.991Z
 ---
@@ -15,8 +15,7 @@ dateCreated: 2022-10-18T10:12:04.991Z
 ## 一、安装N卡驱动
 
 1. 安装N卡驱动的方法
-
-   a. 安装系统时，硬盘分区时勾选“集成NVIDIA闭源驱动”项!
+   a. 安装系统时，硬盘分区时勾选“集成NVIDIA闭源驱动”项
    ![安装界面勾选项.jpg](/for_trans/切换显卡/安装界面勾选项.jpg)
 
     b. 若以上方法无法安装，则终端中输入命令`sudo apt install nvidia-driver`，下载NVIDIA闭源驱动。
