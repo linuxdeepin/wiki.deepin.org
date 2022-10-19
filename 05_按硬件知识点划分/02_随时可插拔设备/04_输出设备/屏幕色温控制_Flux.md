@@ -2,7 +2,7 @@
 title: 屏幕色温控制_Flux
 description: 
 published: true
-date: 2022-10-19T06:05:36.792Z
+date: 2022-10-19T06:05:42.362Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:06.722Z
@@ -24,6 +24,3 @@ f.lux是一款自动调整屏幕色温亮度的应用，可以预设一个适合
 
 [http://packages.deepin.com/deepin/pool/contrib/f/fluxgui/](http://packages.deepin.com/deepin/pool/contrib/f/fluxgui/)
 
-## 常见问题
-
-## 相关链接
