@@ -2,7 +2,7 @@
 title: deepin系统下双显卡的切换
 description: 本文只针对双显卡机器（I+N卡或A+N卡），deepin内核优选5.18.17-amd64-desktop-hwe版本
 published: true
-date: 2022-10-18T10:24:53.847Z
+date: 2022-10-19T01:42:55.854Z
 tags: 切换, 双显卡, 硬件加速
 editor: markdown
 dateCreated: 2022-10-18T10:12:04.991Z
@@ -92,7 +92,7 @@ dateCreated: 2022-10-18T10:12:04.991Z
 
    若视频播放不流畅或出现卡顿，CPU占用率很高，说明硬件解码功能未被调用。
 
-## 五、还原设置（切回I卡或N卡）
+## 五、还原设置（切回I卡或A卡）
 
 终端中使用命令`sudo prime-select unset`
 
