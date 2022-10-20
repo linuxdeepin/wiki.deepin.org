@@ -2,7 +2,7 @@
 title: Linux之磁盘相关的命令及解析
 description: 
 published: true
-date: 2022-07-13T08:50:09.774Z
+date: 2022-10-20T10:23:34.158Z
 tags: 磁盘
 editor: markdown
 dateCreated: 2022-07-13T07:48:32.117Z
@@ -15,7 +15,7 @@ df命令可以查看磁盘使用情况和挂载信息
 
 **语法格式**
 
- df [参数] [对象磁盘/分区]
+`df [参数] [对象磁盘/分区]`
 
 
 **常用参数**
@@ -36,6 +36,7 @@ df命令可以查看磁盘使用情况和挂载信息
 
 带有容量单位的显示系统全部磁盘使用量情况：
 
+```
 [root@linuxcool ~]# df -h
 文件系统        容量  已用  可用 已用% 挂载点
 devtmpfs         32G     0   32G    0% /dev
@@ -45,22 +46,28 @@ tmpfs            32G     0   32G    0% /sys/fs/cgroup
 /dev/nvme0n1p2  200G  128G   72G   65% /
 /dev/nvme0n1p1  2.0G  217M  1.8G   11% /boot
 /dev/sda        1.8T  1.2T  526G   70% /data
+```
 
 带有容量单位的显示指定磁盘分区使用量情况：
 
+```
 [root@linuxcool ~]# df -h /boot
 文件系统        容量  已用  可用 已用% 挂载点
 /dev/nvme0n1p1  2.0G  217M  1.8G   11% /boot
+```
 
 显示系统中所有文件系统格式为xfs的磁盘分区使用量情况：
 
+```
 [root@linuxcool ~]# df -t xfs
 文件系统           1K-块      已用     可用 已用% 挂载点
 /dev/nvme0n1p2 209612800 134200384 75412416   65% /
 /dev/nvme0n1p1   2086912    221760  1865152   11% /boot
+```
 
 常用的查看磁盘空间的命令及参数：
 
+```
 [root@hpt3 ~]# df -Th
 文件系统       类型      容量  已用  可用 已用% 挂载点
 devtmpfs       devtmpfs   32G     0   32G    0% /dev
@@ -70,6 +77,7 @@ tmpfs          tmpfs      32G     0   32G    0% /sys/fs/cgroup
 /dev/nvme0n1p2 xfs       200G  128G   72G   65% /
 /dev/nvme0n1p1 xfs       2.0G  217M  1.8G   11% /boot
 /dev/sda       ext4      1.8T  1.2T  526G   70% /data
+```
 
 # 二、du – 查看文件或目录的大小
 
@@ -77,7 +85,7 @@ du命令来自于英文词组“Disk Usage”的缩写，其功能是用于查�
 
 **语法格式**
 
-du [参数] 文件
+`du [参数] 文件`
 
 **常用参数**
 
@@ -94,22 +102,25 @@ du [参数] 文件
 
 以易读的容量格式显示指定目录内各个文件的大小信息：
 
+```
 [root@root ~]# cd /home/restart/
 [root@restart ~]# du -sh *
 4.0K	if.sh
 6.1M	main
 4.0K	restart.sh
+```
 
 以易读的容量格式显示指定目录内总文件的大小信息：
 
+```
 [root@root ~]# du -sh restart/
 6.1M	restart/
+```
 
 # 三、iostat – 监视系统输入输出设备和CPU的使用情况
 
 > iostat 用于监视系统输入输出设备和 CPU 的使用情况。它的特点是汇报磁盘活动统计情况，同时也会汇报出 CPU 使用情况。iostat 不能对某个进程进行深入分析，仅对系统的整体情况进行分析。
-
-
+{.is-info}
 
 **语法格式**
 
@@ -175,13 +186,15 @@ sda               1.01        20.67         2.66    1413473     181680
 
 - kB_wrtn：写入的总数量数据量
 
+```
 [root@root ~]# iostat -d -x -k 1 1
 Linux 3.10.0-1062.9.1.el7.x86_64 (root)  2022年06月07日  _x86_64_ (48 CPU)
 
 Device:         rrqm/s   wrqm/s     r/s     w/s    rkB/s    wkB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
 nvme0n1           0.00     0.00    0.31    0.26    23.39     2.62    92.63     0.00    2.95    0.21    6.23   1.14   0.06
 sda               0.02     0.18    0.68    0.32    20.58     2.65    46.20     0.01    6.65    5.35    9.42   3.03   0.31
-  
+```
+
 - rrqm/s 每秒对该设备的读请求被合并次数，文件系统会对读取同块 (block) 的请求进行合并
 - wrqm/s 每秒对该设备的写请求被合并次数
 - r/s 每秒完成的读次数
@@ -198,10 +211,11 @@ sda               0.02     0.18    0.68    0.32    20.58     2.65    46.20     0
 # 四、iotop – 监视磁盘 I/O 状态
 
 > iotop 命令用来动态地查看磁盘 IO 情况, 使用方法和 top 命令十分类似。iotop 具有与 top 相似的 UI，其中包括 PID、用户、I/O、进程等相关信息。
+{.is-info}
+
 
 > Linux 下的 IO 统计工具如 iostat，nmon 等大多数是只能统计到 per 设备的读写情况，如果你想知道每个进程是如何使用 IO 的就比较麻烦，使用 iotop 命令可以很方便的查看。
-
-> 下载 iotop 命令要用 yum 在线源
+{.is-info}
 
 **语法格式**
 
