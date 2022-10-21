@@ -2,7 +2,7 @@
 title: ArchLinux中用于包管理的图形化应用
 description: 
 published: true
-date: 2022-10-21T02:49:09.411Z
+date: 2022-10-21T04:14:36.474Z
 tags: arch
 editor: markdown
 dateCreated: 2022-10-21T02:26:26.295Z
@@ -40,3 +40,41 @@ Apper 是一个精简的 Qt5 应用，它使用 PackageKit 进行包管理，它
 要安装它，请使用以下命令：
 
 `sudo pacman -Syu deepin-store`
+
+## 3、KDE 发现应用
+
+![2022-10-21_39723.png](/2022-10-21_39723.png)
+
+
+发现应用不需要为 KDE Plasma 用户介绍。它是一个使用 PackageKit 的基于 Qt 的应用管理器，支持 AppStream、Flatpak 和固件更新。
+
+要在发现应用中安装 Flatpak 和固件更新，需要分别安装 flatpak 和 fwupd 包。它没有 AUR 支持
+
+`sudo pacman -Syu discover packagekit-qt5`
+
+## 44、GNOME PackageKit
+
+![2022-10-21_93168.png](/2022-10-21_93168.png)
+
+GNOME PackageKit 是一个使用 PackageKit 技术的 GTK3 包管理器，支持 AppStream。不幸的是，没有 AUR 支持。
+
+要从官方仓库安装它，请使用以下命令：
+
+`sudo pacman -Syu gnome-packagekit`
+
+
+## 5、GNOME 软件应用
+
+![2022-10-21_65909.png](/2022-10-21_65909.png)
+
+GNOME 软件(Software) 应用不需要向 GNOME 桌面用户介绍。它是使用 PackageKit 技术的 GTK4 应用管理器，支持 AppStream、Flatpak 和固件更新。
+
+它没有 AUR 支持。要安装来自 GNOME 软件应用的 Flatpak 和固件更新，需要分别安装 flatpak 和 fwupd 包。
+
+安装它使用：
+
+`sudo pacman -Syu gnome-software-packagekit-plugin gnome-software`
+
+## 6、tkPacman
+
+
