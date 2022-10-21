@@ -2,7 +2,7 @@
 title: deepin中的office
 description: 
 published: true
-date: 2022-10-21T15:36:42.745Z
+date: 2022-10-21T15:55:25.057Z
 tags: office
 editor: markdown
 dateCreated: 2022-06-16T02:06:09.717Z
@@ -19,7 +19,10 @@ WPS 是金山公司使用 [QT](http://old.deepin.wiki/index.php?title=QT&action=
 
 ## LibreOffice
 
-[自由软件](http://old.deepin.wiki/index.php?title=自由软件&action=edit&redlink=1)，是 OpenOffice 的分支，功能丰富，兼容性一般。
+[自由软件](http://old.deepin.wiki/index.php?title=自由软件&action=edit&redlink=1)，是 OpenOffice 的分支，功能丰富，兼容性一般。详见：
+
+- [LibreOffice *一款功能强大的办公套件*](/02_按软件功能划分/01_普通用户常用软件介绍/01_Office_编辑器_笔记_各种格式文献阅读管理/Office相关/LibreOffice)
+{.links-list}
 
 官网：https://www.libreoffice.org/
 
@@ -43,7 +46,10 @@ GitLab：https://gitlab.com/abstractsoftware/o20
 
 ## Apache OpenOffice
 
-[自由软件](http://old.deepin.wiki/index.php?title=自由软件&action=edit&redlink=1)，历史悠久，持续开发但已不活跃。
+[自由软件](http://old.deepin.wiki/index.php?title=自由软件&action=edit&redlink=1)，历史悠久，持续开发但已不活跃。详见：
+
+- [OpenOffice *Apache(阿帕奇)负责维护的开源办公套件*](/02_按软件功能划分/01_普通用户常用软件介绍/01_Office_编辑器_笔记_各种格式文献阅读管理/Office相关/OpenOffice)
+{.links-list}
 
 官网：http://www.openoffice.org/
 
