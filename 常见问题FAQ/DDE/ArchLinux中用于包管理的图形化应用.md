@@ -2,7 +2,7 @@
 title: ArchLinux中用于包管理的图形化应用
 description: 
 published: true
-date: 2022-10-21T04:47:56.159Z
+date: 2022-10-21T04:52:48.866Z
 tags: arch
 editor: markdown
 dateCreated: 2022-10-21T02:26:26.295Z
@@ -79,11 +79,11 @@ GNOME 软件(Software) 应用不需要向 GNOME 桌面用户介绍。它是使�
 
 ![2022-10-21_1219.png](/2022-10-21_1219.png)
 
-它是用 Tcl 编写的 Tk pacman 封装。界面类似于 Synaptic 包管理器🔗 itsfoss.com。
+它是用 Tcl 编写的 Tk pacman 封装。界面类似于 Synaptic 包管理器
 
 由于没有 GTK/Qt 依赖，它非常轻量级，因为它使用 Tcl/Tk GUI 工具包。
 
-它不支持 AUR，这很讽刺，因为你需要从 AUR🔗 itsfoss.com 安装它。你需要事先安装一个 AUR 助手🔗 itsfoss.com，如 yay。
+它不支持 AUR，这很讽刺，因为你需要从 AUR安装它。你需要事先安装一个 AUR 助手🔗 itsfoss.com，如 yay。
 
 `yay -Syu tkpacman`
 
@@ -110,21 +110,21 @@ Pamac 还支持自动下载更新和降级软件包。
 
 它是 Arch Linux 衍生版中使用最广泛的应用。但因为 DDoS AUR 网页🔗 gitlab.manjaro.org 而臭名昭著。
 
-在 Arch Linux 上安装 Pamac🔗 itsfoss.com 有几种方法。最简单的方法是使用 AUR 助手。
+在 Arch Linux 上安装 Pamac有几种方法。最简单的方法是使用 AUR 助手。
 
 `yay -Syu pamac-aur`
 
 ## 总结
 
-要删除任何上面图形化包管理器以及依赖项和配置文件，请使用以下命令将 packagename 替换为要删除的包的名称。
+要删除任何上面图形化包管理器以及依赖项和配置文件，请使用以下命令将packagename替换为要删除的包的名称。
 
 `sudo pacman -Rns packagename`
 
 这样看来，Arch Linux 也可以在不接触终端的情况下使用合适的工具。
 
-还有一些其他应用程序也使用终端用户界面（TUI）。一些例子是 pcurses🔗 github.com、cylon🔗 github.com、pacseek🔗 github.com 和 yup🔗 github.com。但是，这篇文章只讨论那些有适当的 GUI 的软件。
+还有一些其他应用程序也使用终端用户界面（TUI）。一些例子pcurses、cylon、pacseek和yup但是，这篇文章只讨论那些有适当的GUI的软件。
 
-注意： PackageKit 默认打开系统权限，因而 不推荐🔗 bugs.archlinux.org 用于一般用途。因为如果用户属于 wheel 组，更新或安装任何软件都不需要密码。
+注意： PackageKit默认打开系统权限，因而不推荐用于一般用途。因为如果用户属于 wheel组，更新或安装任何软件都不需要密码。
 
 你看到了在 Arch Linux 上使用图形化软件中心的几种选择。现在是时候决定使用其中一个了。你会选择哪一个？Pamac 或 OctoPi 还是其他？现在就在下面留言吧。
 
