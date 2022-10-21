@@ -2,7 +2,7 @@
 title: Wine
 description: 
 published: true
-date: 2022-06-08T08:52:56.497Z
+date: 2022-10-21T08:04:48.287Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:49.163Z
@@ -26,8 +26,9 @@ Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多
 
 ## 常见问题
 
-1.百度盘下载文件的位置
-
+1. 百度盘下载文件的位置在哪里?
 /home/用户名/.deepinwine/Deepin-BaiduNetDisk/drive_c/BaiduNetdiskDownload
 
-## 相关链接
+2. 如何判断软件是否需要wine来启动?
+一般软件在介绍的时候都会说明的, 有时候一款软件有linux原生和wine两个版本, 要注意区分
+大多数windows平台的软件需要安装到linux平台时都需要借助wine
