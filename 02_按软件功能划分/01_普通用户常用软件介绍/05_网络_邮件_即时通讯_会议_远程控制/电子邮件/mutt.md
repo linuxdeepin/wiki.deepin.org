@@ -2,8 +2,8 @@
 title: mutt
 description: 一款TUI的邮件客户端
 published: true
-date: 2022-07-21T09:54:28.160Z
-tags: 邮件, mua, mutt
+date: 2022-10-21T16:20:52.246Z
+tags: mua, mutt, 邮件
 editor: markdown
 dateCreated: 2022-07-21T09:42:27.597Z
 ---
@@ -92,58 +92,15 @@ smtp是发送邮件用的
 
 格式化字符
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+| 代码  | 意义 |
+|-----|----|
+| %y  | 年  |
+| %m  | 月  |
+| %d  | 日  |
+| %H  | 时  |
+| %M  | 分  |
+| %S  | 秒  |
 
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">代码</th>
-<th scope="col" class="org-left">意义</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-left">%y</td>
-<td class="org-left">年</td>
-</tr>
-
-
-<tr>
-<td class="org-left">%m</td>
-<td class="org-left">月</td>
-</tr>
-
-
-<tr>
-<td class="org-left">%d</td>
-<td class="org-left">日</td>
-</tr>
-
-
-<tr>
-<td class="org-left">%H</td>
-<td class="org-left">时</td>
-</tr>
-
-
-<tr>
-<td class="org-left">%M</td>
-<td class="org-left">分</td>
-</tr>
-
-
-<tr>
-<td class="org-left">%S</td>
-<td class="org-left">秒</td>
-</tr>
-</tbody>
-</table>
 
 
 ### index_format
@@ -498,99 +455,16 @@ smtp是发送邮件用的
 
 ### flag_chars
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-right" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-right">字符</td>
-<td class="org-left">默认选项</td>
-<td class="org-left">描述</td>
-</tr>
-
-
-<tr>
-<td class="org-right">1</td>
-<td class="org-left">*</td>
-<td class="org-left">邮件被标记了。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">2</td>
-<td class="org-left">!</td>
-<td class="org-left">邮件被标记为重要。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">3</td>
-<td class="org-left">D</td>
-<td class="org-left">邮件被标记为删除。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">4</td>
-<td class="org-left">d</td>
-<td class="org-left">邮件中标有要删除的附件。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">5</td>
-<td class="org-left">r</td>
-<td class="org-left">邮件已回复。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">6</td>
-<td class="org-left">O</td>
-<td class="org-left">邮件是旧的（未读但已看到）。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">7</td>
-<td class="org-left">N</td>
-<td class="org-left">邮件为新邮件（未读但未看到）。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">8</td>
-<td class="org-left">o</td>
-<td class="org-left">邮件线程是旧的（未读但已看到）。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">9</td>
-<td class="org-left">n</td>
-<td class="org-left">邮件主题为“新建”（未读但未显示）。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">10</td>
-<td class="org-left">—</td>
-<td class="org-left">邮件已读数 - %S expando。</td>
-</tr>
-
-
-<tr>
-<td class="org-right">11</td>
-<td class="org-left">&lt;空间&gt;</td>
-<td class="org-left">邮件已读取 - %Z expando。</td>
-</tr>
-</tbody>
-</table>
-
+| 字符  | 默认选项  | 描述                  |
+|-----|-------|---------------------|
+| 1   | *     | 邮件被标记了。             |
+| 2   | !     | 邮件被标记为重要。           |
+| 3   | D     | 邮件被标记为删除。           |
+| 4   | d     | 邮件中标有要删除的附件。        |
+| 5   | r     | 邮件已回复。              |
+| 6   | O     | 邮件是旧的（未读但已看到）。      |
+| 7   | N     | 邮件为新邮件（未读但未看到）。     |
+| 8   | o     | 邮件线程是旧的（未读但已看到）。    |
+| 9   | n     | 邮件主题为“新建”（未读但未显示）。  |
+| 10  | —     | 邮件已读数 - %S expando。 |
+| 11  | <空格>  | 邮件已读取 - %Z expando。 |
