@@ -2,7 +2,7 @@
 title: ArchLinux中用于包管理的图形化应用
 description: 
 published: true
-date: 2022-10-21T04:52:48.866Z
+date: 2022-10-21T06:30:07.563Z
 tags: arch
 editor: markdown
 dateCreated: 2022-10-21T02:26:26.295Z
@@ -108,7 +108,7 @@ Pamac 是 Manjaro Linux 的图形包管理器。它基于 GTK3 和 Alpm，支持
 
 Pamac 还支持自动下载更新和降级软件包。
 
-它是 Arch Linux 衍生版中使用最广泛的应用。但因为 DDoS AUR 网页🔗 gitlab.manjaro.org 而臭名昭著。
+它是 Arch Linux 衍生版中使用最广泛的应用。但因为 DDoS AUR gitlab.manjaro.org而臭名昭著。
 
 在 Arch Linux 上安装 Pamac有几种方法。最简单的方法是使用 AUR 助手。
 
