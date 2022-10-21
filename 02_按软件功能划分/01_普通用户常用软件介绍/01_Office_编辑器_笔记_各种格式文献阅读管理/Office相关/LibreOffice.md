@@ -2,8 +2,8 @@
 title: LibreOffice
 description: 
 published: true
-date: 2022-05-07T02:36:29.167Z
-tags: 
+date: 2022-10-21T15:47:45.362Z
+tags: office
 editor: markdown
 dateCreated: 2022-04-21T03:37:26.108Z
 ---
