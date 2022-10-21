@@ -2,7 +2,7 @@
 title: Xrandr查询屏幕相关信息
 description: 
 published: true
-date: 2022-10-21T03:31:24.082Z
+date: 2022-10-21T04:15:33.944Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-21T03:31:24.082Z
