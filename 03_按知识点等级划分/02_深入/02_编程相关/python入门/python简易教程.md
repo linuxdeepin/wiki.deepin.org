@@ -2,7 +2,7 @@
 title: python入门
 description: 
 published: true
-date: 2022-10-21T05:08:08.804Z
+date: 2022-10-21T05:10:24.499Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-21T05:07:22.359Z
@@ -17,7 +17,7 @@ dateCreated: 2022-10-21T05:07:22.359Z
 Python（英国发音：/ˈpaɪθən/ 美国发音：/ˈpaɪθɑːn/）, 是一种面向对象的解释型计算机程序设计语言，由荷兰人Guido van Rossum于1989年发明，第一个公开发行版发行于1991年。
 本章节将向大家介绍 Python 最新版开发环境的安装步骤及如何进行环境配置，刚入门的新手学员可以跟着本章内容进行学习。
 本章节需要用到的Python 最新源码，二进制文档，新闻资讯等可以在[Python官网](https://www.python.org/)查看：
-Unix & Linux 平台安装 Python:
+Unix & Linux 平台安装 Python(一般情况下常用linux平台自带python开发环境):
 以下为在 Unix & Linux 平台上安装 Python 的简单步骤：
 打开 WEB 浏览器访问[Python下载地址](https://www.python.org/downloads/source/)
 选择适用于 Unix/Linux 的源码压缩包。
