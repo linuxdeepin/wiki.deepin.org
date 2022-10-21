@@ -1,8 +1,8 @@
 ---
-title: pythonPage2
+title: python入门
 description: 
 published: true
-date: 2022-10-21T05:07:22.359Z
+date: 2022-10-21T05:08:08.804Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-21T05:07:22.359Z
