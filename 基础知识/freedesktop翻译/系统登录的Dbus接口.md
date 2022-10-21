@@ -3,7 +3,7 @@ title: org.freedesktop.login1 — systemd-logind 的 D-Bus 接口
 description: 
 published: true
 date: 2022-07-26T05:32:45.736Z
-tags: freedesktop
+tags: dbus, freedesktop
 editor: markdown
 dateCreated: 2022-07-26T05:32:42.699Z
 ---
