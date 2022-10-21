@@ -2,36 +2,20 @@
 title: deepin中的office
 description: 
 published: true
-date: 2022-06-16T02:06:11.828Z
-tags: deepin中的office
+date: 2022-10-21T15:36:42.745Z
+tags: office
 editor: markdown
 dateCreated: 2022-06-16T02:06:09.717Z
 ---
 
-Office
-
-[跳到导航](http://old.deepin.wiki/index.php?title=Office#mw-head)[跳到搜索](http://old.deepin.wiki/index.php?title=Office#searchInput)
-
-本文介绍 [deepin](http://old.deepin.wiki/index.php?title=Deepin) 中使用 Office 软件的一些方法。
-
-## 目录
-
-
-
-- [1WPS Office](http://old.deepin.wiki/index.php?title=Office#WPS_Office)
-- [2LibreOffice](http://old.deepin.wiki/index.php?title=Office#LibreOffice)
-- [3OnlyOffice](http://old.deepin.wiki/index.php?title=Office#OnlyOffice)
-- [4O20](http://old.deepin.wiki/index.php?title=Office#O20)
-- [5Apache OpenOffice](http://old.deepin.wiki/index.php?title=Office#Apache_OpenOffice)
-- [6Microsoft Office](http://old.deepin.wiki/index.php?title=Office#Microsoft_Office)
-- [7Microsoft Office Web](http://old.deepin.wiki/index.php?title=Office#Microsoft_Office_Web)
-- [8石墨 Office 协同办公软件](http://old.deepin.wiki/index.php?title=Office#.E7.9F.B3.E5.A2.A8_Office_.E5.8D.8F.E5.90.8C.E5.8A.9E.E5.85.AC.E8.BD.AF.E4.BB.B6)
+本文介绍 deepin 中使用 Office 软件的一些方法。
 
 ## WPS Office
 
-WPS 是金山公司使用 [QT](http://old.deepin.wiki/index.php?title=QT&action=edit&redlink=1) 开发的 Office 软件，是免费的[专有软件](http://old.deepin.wiki/index.php?title=专有软件&action=edit&redlink=1)，现阶段 Linux 版本没有广告。格式兼容良好，基本可以成为 MS Office 的替代品。
+WPS 是金山公司使用 [QT](http://old.deepin.wiki/index.php?title=QT&action=edit&redlink=1) 开发的 Office 软件，是免费的[专有软件](http://old.deepin.wiki/index.php?title=专有软件&action=edit&redlink=1)，现阶段 Linux 版本没有广告。格式兼容良好，基本可以成为 MS Office 的替代品。详见：
 
-详见 [WPS Office](http://old.deepin.wiki/index.php?title=WPS_Office)。
+- [WPS Office *由金山软件股份有限公司自主研发的一款办公软件套件*](/02_按软件功能划分/01_普通用户常用软件介绍/01_Office_编辑器_笔记_各种格式文献阅读管理/Office相关/WPS_Office)
+{.links-list}
 
 ## LibreOffice
 
