@@ -1,8 +1,8 @@
 ---
-title: Eclipse
+title: Eclipse_IDE
 description: 
 published: true
-date: 2022-05-14T02:53:28.524Z
+date: 2022-10-25T03:00:08.908Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:48.820Z
