@@ -2,21 +2,14 @@
 title: minicom的安装及使用教程
 description: 
 published: true
-date: 2022-10-02T18:30:32.744Z
+date: 2022-10-25T01:56:36.192Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:50:36.421Z
 ---
 
 # 简介
-
-本经验由深度论坛用户(z0218)分享
-
-[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=134861)
-
-Minicom先进系统（Minicom Advanced Systems）是一家Intel创投公司（Intel CapitalPortfolio），是针对带外服务器管理领域的数字和模拟KVM解决方案领商。另外，Minicom同时也是针对数字告示领域的音视频和串口信号分配系统主导厂商。
-
-Minicom公司成立于1987年，总部位于以色列耶路撒冷，拥有一座3600平米的办公大楼，包括研发、市场、销售和物流等部门。此外Minicom在欧洲和美国具有区域总部，英国、意大利、法国和德国和中国具有销售支持队伍。在2005年，Minicom收购了Replicom公司，作为专注于IP技术的研发中心。历经20年的发展以及遍及全球50多个国家的业务，Minicom的产品已经销售到上千个数据中心，无论小公司还是大型跨国企业。 Linux下的Minicom的功能与下的超级终端功能相似，适于在通过超级终端对设备的管理以及对嵌入操作系统的升级。
+minicom 是一个串口通信工具，就像 Windows 下的超级终端。可用来与串口设备通信，如调试交换机和 Modem 等
 
 # Minicom的安装
 
@@ -124,3 +117,16 @@ Change which setting? （改变这些设置）然后选中‖Save setup as dfl�
 “Z”键：帮助屏幕
 
 “B”键：滚动返回
+
+
+## 来源
+本经验由深度论坛用户(z0218)分享
+
+[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=134861)
+
+## 相关信息
+Minicom Advanced Systems 是一家 Intel 创投公司（Intel CapitalPortfolio），是针对带外服务器管理领域的数字和模拟KVM解决方案领商。另外，Minicom 同时也是针对数字告示领域的音视频和串口信号分配系统主导厂商。
+
+Minicom 公司成立于1987年，总部位于以色列耶路撒冷，拥有一座3600平米的办公大楼，包括研发、市场、销售和物流等部门。此外Minicom 在欧洲和美国具有区域总部，英国、意大利、法国和德国和中国具有销售支持队伍。
+
+在2005年，Minicom 收购了 Replicom公司，作为专注于IP技术的研发中心。历经20年的发展以及遍及全球50多个国家的业务，Minicom 的产品已经销售到上千个数据中心，无论小公司还是大型跨国企业。 Linux下的Minicom的功能与下的超级终端功能相似，适于在通过超级终端对设备的管理以及对嵌入操作系统的升级。
