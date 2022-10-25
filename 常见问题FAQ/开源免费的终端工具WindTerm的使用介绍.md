@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
+title: 开源免费的终端工具WindTerm的使用介绍
 description: 
 published: true
-date: 2022-10-25T15:02:03.789Z
+date: 2022-10-25T15:02:15.947Z
 tags: windterm
 editor: markdown
 dateCreated: 2022-10-25T14:59:01.931Z
