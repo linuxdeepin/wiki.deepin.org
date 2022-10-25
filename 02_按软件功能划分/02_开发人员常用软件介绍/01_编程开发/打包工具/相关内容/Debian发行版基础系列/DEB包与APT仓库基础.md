@@ -1,8 +1,8 @@
 ---
-title: DEB包与APT仓库基础
+title: 系列一 DEB包与APT仓库基础
 description: 
 published: true
-date: 2022-10-25T03:31:35.296Z
+date: 2022-10-25T04:39:24.543Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-27T08:32:52.237Z
