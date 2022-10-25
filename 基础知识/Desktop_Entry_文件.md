@@ -2,13 +2,11 @@
 title: Desktop Entry 文件
 description: 
 published: true
-date: 2022-06-23T09:14:39.336Z
+date: 2022-10-25T01:31:25.813Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:02.433Z
 ---
-
-[[en:Desktop_entry]]
 
 ## 简介
 
@@ -16,29 +14,29 @@ Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信�
 
 目前，Linux KDE 和 Linux GNOME 桌面系统都使用 Desktop Entry 文件标准来描述程序启动配置信息。Desktop Entry 文件标准是由 FreeDesktop.org制定的，目前最新的版本是"Desktop Entry Specification 1.0"
 
-系统范围的Desktop Entry文件地址统一在 `/usr/share/applications`，文件以".desktop"为后缀名。用户个人的Desktop Entry 地址为 `~/.local/share/applications`。
+系统范围的Desktop Entry文件地址统一在 `/usr/share/applications`，文件以".desktop"为后缀名。用户个人的Desktop Entry 地址为 `~/.local/share/applications`
 
 ## 简单解说
 
 ### 配置
-
-    [Desktop Entry] #每个desktop文件都以这个标签开始，说明这是一个Desktop Entry文件
-    Version = 1.0 #标明Desktop Entry的版本（可选）
-    Name = Firefox #程序名称（必须），这里以创建一个Firefox的快捷方式为例
-    GenericName = Web Browser #程序通用名称（可选）
-    Comment = A Web Browser #程序描述（可选）
-    Exec = firefox %u #程序的启动命令（必选），可以带参数运行,当下面的Type为Application，此项有效
-    Icon = firefox #设置快捷方式的图标（可选）
-    Terminal = false #是否在终端中运行（可选），当Type为Application，此项有效
-    Type = Application #desktop的类型（必选），常见值有“Application”和“Link”
-    Categories = GNOME;Application;Network; #注明在菜单栏中显示的类别（可选）
-
+```
+    [Desktop Entry] # 每个desktop文件都以这个标签开始，说明这是一个Desktop Entry文件
+    Version = 1.0 # 标明Desktop Entry的版本（可选）
+    Name = Firefox # 程序名称（必须），这里以创建一个Firefox的快捷方式为例
+    GenericName = Web Browser # 程序通用名称（可选）
+    Comment = A Web Browser # 程序描述（可选）
+    Exec = firefox %u # 程序的启动命令（必选），可以带参数运行,当下面的Type为Application，此项有效
+    Icon = firefox # 设置快捷方式的图标（可选）
+    Terminal = false # 是否在终端中运行（可选），当Type为Application，此项有效
+    Type = Application # desktop的类型（必选），常见值有“Application”和“Link”
+    Categories = GNOME;Application;Network; # 注明在菜单栏中显示的类别（可选）
+```
 备注:desktop文件需要可执行权限才可运行，否则将以文本文件打开。
 
 ### 实例
 
 例如：firefox
-
+```
     [Desktop Entry]
     Version=1.0
     Name=Firefox Web Browser
@@ -62,7 +60,7 @@ Desktop Entry 文件是 Linux 桌面系统中用于描述程序启动配置信�
     Name[zh_CN]=新建窗口
     Exec=firefox -new-window about:blank
     TargetEnvironment=Unity
-
+```
 ## 深入解说
 
 [点此查看--Linux Desktop Entry 文件深入解析](http://www.ibm.com/developerworks/cn/linux/l-cn-dtef/#iratings)
