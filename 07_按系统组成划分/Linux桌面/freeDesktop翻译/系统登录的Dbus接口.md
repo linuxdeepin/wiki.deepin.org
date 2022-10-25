@@ -2,7 +2,7 @@
 title: org.freedesktop.login1 — systemd-logind 的 D-Bus 接口
 description: 
 published: true
-date: 2022-07-26T05:32:45.736Z
+date: 2022-10-25T02:34:54.675Z
 tags: dbus, freedesktop
 editor: markdown
 dateCreated: 2022-07-26T05:32:42.699Z
@@ -571,44 +571,40 @@ node /org/freedesktop/login1/session/1 {
 ## 例子
 
 **Example 1. Introspect the logind manager on the bus**
-
+```
 $ gdbus introspect --system --dest org.freedesktop.login1 \
-
   --object-path /org/freedesktop/login1
-
+```
 or
-
+```
 $ busctl introspect org.freedesktop.login1 /org/freedesktop/login1
-
+```
 **Example 2. Introspect the default seat on the bus**
-
+```
 $ gdbus introspect --system --dest org.freedesktop.login1 \
-
   --object-path /org/freedesktop/login1/seat/seat0
-
+```
 or
-
+```
 $ busctl introspect org.freedesktop.login1 /org/freedesktop/login1/seat/seat0
-
+```
 Seat "`seat0`" is the default seat, so it'll be present unless local configuration is made to reassign all devices to a different seat. The list of seats and users can be acquired with **loginctl list-sessions**.
 
 **Example 3. Introspect a single user on the bus**
-
+```
 $ gdbus introspect --system --dest org.freedesktop.login1 \
-
   --object-path /org/freedesktop/login1/user/_1000
-
+```
 or
-
+```
 $ busctl introspect org.freedesktop.login1 /org/freedesktop/login1/user/_1000
-
-**Example 4. Introspect ****`org.freedesktop.login1.Session`**** on the bus**
-
+```
+**Example 4. Introspect `org.freedesktop.login1.Session` on the bus**
+```
 $ gdbus introspect --system --dest org.freedesktop.login1 \
-
   --object-path /org/freedesktop/login1/session/45
-
+```
 or
-
+```
 $ busctl introspect org.freedesktop.login1 /org/freedesktop/login1/session/45
-
+```
