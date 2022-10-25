@@ -2,7 +2,7 @@
 title: docker简介及常用命令
 description: 
 published: true
-date: 2022-09-01T05:46:50.657Z
+date: 2022-10-25T02:04:02.469Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-23T08:53:16.224Z
@@ -39,21 +39,14 @@ Web 应用的自动化打包和发布。 自动化测试和持续集成、发布
 1. Docker容器受到的资源限制 CPU计算资源 内存资源 磁盘I/O资源等
 
 ## 五．Docker基本命令 docker load -i xxx 加载docker镜像
-
-- `docker rmi "IMAGE ID"` 卸载docker镜像
-
-- `docker images` 查看当前有那些以被加载的镜像（images）
-
-- `docker ps -a` 查看当前运行的所有容器
-
-- `docker stop “CONTAINER ID”` 停止容器
-
-- `docker rm “CONTAINER ID”` 删除容器
-
-- `docker run -it "IMAGE ID" /bin/bash` 运行docker容器
-
-- `docker exec -it “CONTAINER ID” /bin/bash` 容器运行多个终端
-
-- `docker cp 要拷贝的文件路径 "NAMES"`：要拷贝到容器里面对应的路径
-
-- `docker cp "NAMES"`：要拷贝到容器里面对应的路径 要拷贝的文件路径
+```
+docker rmi IMAGE_ID # 卸载docker镜像
+docker images # 查看当前有那些以被加载的镜像（images）
+docker ps -a # 查看当前运行的所有容器
+docker stop CONTAINER_ID # 停止容器
+docker rm CONTAINER_ID # 删除容器
+docker run -it IMAGE_ID /bin/bash # 运行docker容器
+docker exec -it CONTAINER_ID /bin/bash # 容器运行多个终端
+docker cp 文件路径 NAMES   # 要拷贝到容器里面对应的路径
+docker cp NAMES  文件路径  # 要拷贝的文件路径
+```
