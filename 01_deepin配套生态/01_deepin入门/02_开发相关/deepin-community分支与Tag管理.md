@@ -2,7 +2,7 @@
 title: deepin-community分支与Tag管理
 description: 分支与Tag管理
 published: true
-date: 2022-10-25T02:09:05.119Z
+date: 2022-10-25T02:50:34.194Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T02:21:35.049Z
@@ -26,6 +26,10 @@ deepin 社区版为滚动发布制，一般没有维护分支，`master` 分支
 主版本号.功能版本.修复版本
 
 > 基于上游开源项目，那么项目版本号为 upstreamversion.UOSversion。如 systemd 上游版本为 250,那么 systemd UOS 版本为 250.1、250.2·······；^
+
+> 假设上游项目打包版本号为 x.y.z，则创建上游项目 tag 为 x.y.z.1，依次累加版本号， 打包版本为 x.y.z.1-deepin1
+{.is-info}
+
 
 **分支与tag的创建申请**
 
