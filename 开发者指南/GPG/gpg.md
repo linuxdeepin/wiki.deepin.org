@@ -2,7 +2,7 @@
 title: GPG
 description: 
 published: true
-date: 2022-07-18T06:36:16.967Z
+date: 2022-10-25T02:44:41.038Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T06:36:14.323Z
@@ -297,3 +297,6 @@ gpg: Good signature from "test1 (test) <test@test.com>" [ultimate]
 
 
 本文来源于 https://devbins.github.io/ ,部分内容有进行删改
+
+### 相关链接
+[gpg命令 – 加密工具](https://www.xtuos.com/1434.html)
