@@ -1,8 +1,8 @@
 ---
-title: aria2下载工具配置方法
+title: aria2下载工具
 description: 
 published: true
-date: 2022-06-28T07:55:55.829Z
+date: 2022-10-25T02:07:00.779Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T07:55:53.598Z
