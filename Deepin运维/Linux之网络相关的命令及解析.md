@@ -2,7 +2,7 @@
 title: Linux之网络相关的命令及解析
 description: 
 published: true
-date: 2022-10-20T10:35:34.803Z
+date: 2022-10-25T02:21:39.501Z
 tags: 网络
 editor: markdown
 dateCreated: 2022-07-25T09:16:29.451Z
@@ -20,7 +20,6 @@ dateCreated: 2022-07-25T09:16:29.451Z
 
 ```bash
 ethtool [参数]
-1
 ```
 
 **常用参数**
