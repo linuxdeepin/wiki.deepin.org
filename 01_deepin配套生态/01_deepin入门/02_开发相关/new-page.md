@@ -2,7 +2,7 @@
 title: DTK（developer toolkit）开发者工具套件
 description: 
 published: true
-date: 2022-10-25T07:15:59.704Z
+date: 2022-10-25T07:16:49.349Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-25T07:15:59.704Z
@@ -13,13 +13,13 @@ dateCreated: 2022-10-25T07:15:59.704Z
 
 ## 3.1.dtkdeclarative的基础和创新
 dtkdeclarative 开发控件库用于构建原生的行云设计风格应用程序。dtkdeclarative 基于 Qt Quick 和 Qt Qml 基础框架全新开发原有 dtkwidget 模块，代码设计借鉴 qtdeclarative 并实现 Qt Quick Controls 2 全控件覆盖，特别为 DTK （developer toolkit，开发者工具套件）拓展颜色风格、视觉特效等方面的特性，比如调色板灵活定制、模糊算法性能调优等。dtkdeclarative 模块架构如下：
-## 
-3.2.dtkdeclarative 和 dtkwidget 的不同
+
+## 3.2.dtkdeclarative 和 dtkwidget 的不同
 如果要对比 dtkdeclarative 和 dtkwidget 的不同，不妨先了解下 Qt Quick 和 Qt Widgets 的区别，毕竟，dtkdeclarative 基于 Qt Quick ，dtkwidget 基于 Qt Widgets 。
 在开发语言方面，Qt Widgets 使用 C++ ，Qt Quick 使用 QML ；在用户界面渲染方面，Qt Widgets 更适合桌面应用程序开发，基本满足用户界面绘制和动画效果渲染，同时能够兼容性能更低的硬件平台；Qt Quick 不仅可以用于桌面应用程序开发，面向移动端开发更具触控交互、动效体验方面的优势，同理这些优势能够在桌面端适配实现，但是需要更多的本地硬件性能。
 dtkdeclarative 和 dtkwidget 同样如此，但这并不是证明二者孰优孰劣，毕竟应用程序开发应以需求为导向，选择合适的开发框架才是最好的。为此，不妨通过编码方面对比，初步学习下 dtkdeclarative 吧。
-### 
-3.2.1.dtkwidget 和 dtkdeclarative 在渲染方式上的区别
+
+### 3.2.1.dtkwidget 和 dtkdeclarative 在渲染方式上的区别
 示例：实现显示一个100x100的红色矩形
 class Rectangle : public QWidget
 {
@@ -228,6 +228,7 @@ org.deepin.dtk.settings	1.0	SettingsDialog控件相关接口	公开
 org.deepin.dtk	1.0	dtk相关的统一对外接口	公开
 基于上述模块，dtkdeclarative 特别为 DTK （developer toolkit，开发者工具套件）拓展颜色风格、视觉特效等方面的特性，比如调色板灵活定制、模糊算法性能调优等，更多特性和示例如下：
   
+  
 ### 3.3.1.DCI （DSG combined icons，DSG混合图标）
   
 DCI图标的实现来源于需求开发问题，用户界面需要展示更多状态图标，现有图标资源加载引擎技术效率不高，为解决对应技术问题，DCI图标技术应运而生。其原理结构如下：
@@ -235,6 +236,7 @@ DCI图标的实现来源于需求开发问题，用户界面需要展示更多�
 DCI图标一种归档打包格式（后缀名 .dci ），格式名称为 dci (DSG combined icons，DSG[ DSG：Desktop Specification Group, UOS和deepin制作规范的工作组。]混合图标)，mimetype类型为 image/dci ，继承于 application/octet-stream 。magic值为 DCI ，类型为 string ，offset 为 0 。此类型对应的图标名： image-dci 。相应DCI资源路径示例如下：
 
 基于DCI图标技术，用户界面开发能够满足多种交互状态的响应，能够满足多种图标类型的使用，能够满足多种DPI缩放规格的适应，在图标管理上更灵活，在需求实现上更优雅。
+  
   
 ###   3.3.2.ColorSelector，颜色选择器/颜色控制器
 Qt 原生调色板的主旨是让颜色外观管理更易于配置和保持一致，但 QWidgets 和 QML 对于 QPlette 的实现略有不同，比如后者仅实现一套颜色风格，而不再为控件不同状态绑定颜色，表现为需要手动指定颜色以实现多态控件需求。为了实现来自设计师的需求，dtkdeclarative 开发必须考虑颜色管理的可扩展性，解决方案就是专门打造一套取色系统（ColorSelector）用于替代 QPalette ，不过兼容性方面仍然保持 QPalette 可用。
