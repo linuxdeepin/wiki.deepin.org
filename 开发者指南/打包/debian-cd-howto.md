@@ -1,8 +1,8 @@
 ---
-title: debian-cd-howto
+title: debian-cd工作原理分析
 description: 
 published: true
-date: 2022-05-07T02:33:35.540Z
+date: 2022-10-25T04:36:52.867Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-27T08:33:00.271Z
