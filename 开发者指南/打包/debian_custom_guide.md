@@ -2,7 +2,7 @@
 title: 基于debian的发行版定制指南
 description: 
 published: true
-date: 2022-10-25T04:37:54.916Z
+date: 2022-10-25T04:38:06.313Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-27T08:33:06.295Z
