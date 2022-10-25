@@ -1,8 +1,8 @@
 ---
-title: 详解 debian/rules
+title: 系列二 详解 debian/rules
 description: 
 published: true
-date: 2022-10-25T04:35:39.785Z
+date: 2022-10-25T04:39:05.671Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-27T08:32:57.146Z
