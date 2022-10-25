@@ -1,8 +1,8 @@
 ---
-title: deb打包
+title: dpkg
 description: 软件包打包
 published: true
-date: 2022-07-15T12:46:01.629Z
+date: 2022-10-25T04:41:16.397Z
 tags: 打包
 editor: markdown
 dateCreated: 2022-05-05T10:18:40.049Z
