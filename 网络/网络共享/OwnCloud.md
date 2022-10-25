@@ -2,7 +2,7 @@
 title: OwnCloud-已合并
 description: 
 published: true
-date: 2022-10-25T01:11:16.947Z
+date: 2022-10-25T01:11:22.816Z
 tags: 已合并
 editor: markdown
 dateCreated: 2022-04-21T03:39:32.364Z
@@ -25,8 +25,3 @@ ownCloud 是一个来自 KDE 社区开发的免费软件，提供私人的 Web �
 
 [http://packages.deepin.com/deepin/pool/main/o/owncloud/](http://packages.deepin.com/deepin/pool/main/o/owncloud/)
 
-## 常见问题
-
-## 相关链接
-
-维基百科：
