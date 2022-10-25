@@ -2,7 +2,7 @@
 title: 开源免费的终端工具WindTerm的使用介绍
 description: 
 published: true
-date: 2022-10-25T15:02:15.947Z
+date: 2022-10-25T15:02:35.760Z
 tags: windterm
 editor: markdown
 dateCreated: 2022-10-25T14:59:01.931Z
@@ -27,6 +27,3 @@ WindTerm 不仅开源免费，还跨平台，支持 Windows、Linux 和 macOS。
 直接到 release 页面选择适合自己操作系统的安装包。
 
 https://github.com/kingToolbox/WindTerm/releases
-————————————————
-版权声明：本文为CSDN博主「沉默王二」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qing_gee/article/details/126173866
