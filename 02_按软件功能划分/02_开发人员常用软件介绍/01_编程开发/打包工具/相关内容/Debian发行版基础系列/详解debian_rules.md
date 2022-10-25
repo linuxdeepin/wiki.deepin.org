@@ -1,8 +1,8 @@
 ---
-title: deb-package-rules
+title: 详解 debian/rules
 description: 
 published: true
-date: 2022-05-07T13:43:24.626Z
+date: 2022-10-25T04:35:39.785Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-27T08:32:57.146Z
