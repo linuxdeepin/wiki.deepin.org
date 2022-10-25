@@ -2,7 +2,7 @@
 title: 开源免费的终端工具WindTerm的使用介绍
 description: 
 published: true
-date: 2022-10-25T15:02:52.733Z
+date: 2022-10-25T15:03:04.644Z
 tags: windterm
 editor: markdown
 dateCreated: 2022-10-25T14:59:01.931Z
@@ -29,3 +29,5 @@ WindTerm 不仅开源免费，还跨平台，支持 Windows、Linux 和 macOS。
 https://github.com/kingToolbox/WindTerm/releases
 
 ![2022-10-25_44560.png](/2022-10-25_44560.png)
+
+安装完成后，打开的界面和传统的终端不太一样，WindTerm 更像 IDE 的布局，左边是资源管理器+文件管理器，中间会默认打开一个 zsh 的终端窗口，右边是会话窗口+历史命令窗口，底部是发送窗口 + Shell 窗口。
