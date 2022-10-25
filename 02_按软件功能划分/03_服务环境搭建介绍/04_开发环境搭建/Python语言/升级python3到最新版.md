@@ -1,8 +1,8 @@
 ---
-title: 升级python3到最新版
+title: python3.10安装
 description: deepin v20下安装最新版python3
 published: true
-date: 2022-09-18T04:11:39.387Z
+date: 2022-10-25T06:03:33.480Z
 tags: python
 editor: markdown
 dateCreated: 2022-09-18T04:11:37.671Z
