@@ -2,7 +2,7 @@
 title: grep和find命令
 description: 
 published: true
-date: 2022-07-05T09:50:36.417Z
+date: 2022-10-26T06:56:29.060Z
 tags: grep find
 editor: markdown
 dateCreated: 2022-07-05T09:50:34.501Z
@@ -36,4 +36,34 @@ lspci -k | grep VGA -A2
 grep -c sse /proc/cpuinfo
 ```
 
-## 
+## find
+find 命令可以根据给定的路径和表达式查找文件或目录, find 参数选项很多, 并且支持正则. 如不加任何参数表示查找当前路径下的所有文件和目录
+
+语法格式：
+```bash
+find 参数 路径 查找和搜索范围
+# 常用参数：
+-name	按名称查找
+-size	按大小查找
+-user	按属性查找
+-type	按类型查找
+-iname	忽略大小写
+```
+示例: 在当前目录下搜索名称后缀为 .txt 的所有文件名
+```
+find -name ./ "*.txt
+```
+示例: 在当前 video 目录下搜索所有文件大小大于 1M 的文件
+```
+find -size ./video +1M
+```
+
+
+
+
+
+
+
+
+
+
