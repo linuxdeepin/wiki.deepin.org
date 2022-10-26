@@ -1,8 +1,8 @@
 ---
 title: 在Linux中使用flatpak
-description: Flatpak是一个程序包管理实用程序，可让您分发，安装和管理软件，而不必担心依赖项，运行时或Linux分发
+description: Flatpak是一个程序包管理实用程序
 published: true
-date: 2022-10-26T09:12:18.005Z
+date: 2022-10-26T09:12:58.015Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T06:30:47.687Z
