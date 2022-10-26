@@ -1,8 +1,8 @@
 ---
-title: Vim
+title: Vim文件编辑器
 description: 
 published: true
-date: 2022-05-12T06:01:38.419Z
+date: 2022-10-26T06:43:09.860Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:15.439Z
