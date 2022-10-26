@@ -2,7 +2,7 @@
 title: Deepin Wiki - 深度百科
 description: 深度百科旨在成为最终用户和开发人员的扩展文档。
 published: true
-date: 2022-08-16T02:49:52.716Z
+date: 2022-10-26T01:28:39.781Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -37,7 +37,7 @@ MouseZhang、Stillalive-myj、爱嘤斯坦、shenlan、fengshuo、cvb97、maicss
 
 
 ### Desinger组：
-Shalling、golf、也許明天╯
+blue_whale、Shalling、golf、也許明天╯
 
 
 ### Collector组：
