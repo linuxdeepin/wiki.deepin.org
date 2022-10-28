@@ -2,7 +2,7 @@
 title: Mousepad 
 description: 简单的文本编辑器
 published: true
-date: 2022-06-09T16:27:42.347Z
+date: 2022-10-21T08:27:39.834Z
 tags: 文本编辑器
 editor: markdown
 dateCreated: 2022-06-09T16:27:40.313Z

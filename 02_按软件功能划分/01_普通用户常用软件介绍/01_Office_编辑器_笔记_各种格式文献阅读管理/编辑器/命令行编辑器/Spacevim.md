@@ -2,7 +2,7 @@
 title: Spacevim
 description: 模块化的 Vim IDE
 published: true
-date: 2022-07-19T03:44:25.675Z
+date: 2022-10-21T08:36:14.364Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T03:43:44.491Z

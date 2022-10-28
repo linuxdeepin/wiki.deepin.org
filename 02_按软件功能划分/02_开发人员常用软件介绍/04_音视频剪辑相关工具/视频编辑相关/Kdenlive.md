@@ -2,7 +2,7 @@
 title: Kdenlive
 description: KDE 出品的开源视频编辑软件
 published: true
-date: 2022-07-16T03:59:51.493Z
+date: 2022-10-21T07:54:43.679Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-15T16:28:01.975Z

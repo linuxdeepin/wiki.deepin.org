@@ -2,7 +2,7 @@
 title: Lutris
 description: 
 published: true
-date: 2022-06-08T06:10:27.623Z
+date: 2022-10-25T00:47:49.327Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:48.021Z

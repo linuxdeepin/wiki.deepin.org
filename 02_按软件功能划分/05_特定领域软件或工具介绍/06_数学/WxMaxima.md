@@ -2,7 +2,7 @@
 title: WxMaxima
 description: 
 published: true
-date: 2022-06-08T08:37:47.887Z
+date: 2022-10-21T03:21:37.786Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:00.978Z

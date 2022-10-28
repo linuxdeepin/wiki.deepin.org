@@ -2,7 +2,7 @@
 title: Deepin安装Nvidia460显卡驱动
 description: 
 published: true
-date: 2022-10-03T14:50:03.953Z
+date: 2022-10-18T00:54:29.675Z
 tags: nvidia, 显卡
 editor: markdown
 dateCreated: 2022-06-28T02:47:46.436Z

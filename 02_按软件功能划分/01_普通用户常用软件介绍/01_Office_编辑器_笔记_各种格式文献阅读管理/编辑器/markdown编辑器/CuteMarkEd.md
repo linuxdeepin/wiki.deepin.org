@@ -2,7 +2,7 @@
 title: CuteMarkEd
 description: 
 published: true
-date: 2022-06-08T05:38:33.501Z
+date: 2022-10-21T08:21:44.050Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:12.391Z

@@ -2,7 +2,7 @@
 title: 升级到Nvidia最新闭源驱动450教程
 description: 
 published: true
-date: 2022-06-28T03:33:55.379Z
+date: 2022-10-18T00:56:34.448Z
 tags: 升级 闭源启动 nvidia
 editor: markdown
 dateCreated: 2022-06-28T03:33:13.262Z

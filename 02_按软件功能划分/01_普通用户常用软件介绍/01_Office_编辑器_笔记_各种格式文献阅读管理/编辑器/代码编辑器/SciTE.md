@@ -2,7 +2,7 @@
 title: SciTE
 description: 
 published: true
-date: 2022-06-08T08:42:48.998Z
+date: 2022-10-21T08:37:22.483Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:30.711Z

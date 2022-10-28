@@ -2,7 +2,7 @@
 title: Gconf_Editor
 description: 
 published: true
-date: 2022-06-08T05:54:07.887Z
+date: 2022-10-21T02:04:22.155Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:05.090Z

@@ -2,7 +2,7 @@
 title: D-Feet
 description: 
 published: true
-date: 2022-05-14T03:20:44.156Z
+date: 2022-10-25T03:22:09.505Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:15.235Z

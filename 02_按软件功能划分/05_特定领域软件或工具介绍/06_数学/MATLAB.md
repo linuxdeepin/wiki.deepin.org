@@ -2,7 +2,7 @@
 title: MATLAB
 description: 一款科学计算的常用软件
 published: true
-date: 2022-07-14T09:30:30.983Z
+date: 2022-10-21T07:55:56.048Z
 tags: 科学计算
 editor: markdown
 dateCreated: 2022-07-13T16:14:40.521Z

@@ -2,7 +2,7 @@
 title: KDiskMark
 description: 一款磁盘测速软件
 published: true
-date: 2022-07-15T03:41:24.369Z
+date: 2022-10-21T02:21:15.245Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-15T03:41:22.017Z

@@ -2,7 +2,7 @@
 title: Freedesktop简介
 description: freedesktop.org（fd.o）是一个致力于Linux和其他类Unix上的X窗口系统的桌面环境之间的互操作性和基础技术共享的项目。
 published: true
-date: 2022-07-21T02:03:20.685Z
+date: 2022-10-25T02:32:41.420Z
 tags: freedesktop
 editor: markdown
 dateCreated: 2022-07-21T02:03:18.664Z

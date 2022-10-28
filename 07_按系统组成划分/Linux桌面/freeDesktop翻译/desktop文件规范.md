@@ -2,7 +2,7 @@
 title: desktop文件规范
 description: 对于linux常见桌面软件的.desktop文件的规范
 published: true
-date: 2022-07-21T02:22:04.289Z
+date: 2022-10-25T02:32:15.870Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-21T02:22:01.484Z
@@ -76,8 +76,8 @@ desktop文件是以UTF-8编码的。一个文件被解释为一系列由换行�
 
 ### 例子：
 
-```text
-[Desktop Entry]  #
+```ini
+[Desktop Entry]
 X-Deepin-CreatedBy=com.deepin.dde.daemon.Launcher
 X-Deepin-AppID=code
 Name=Visual Studio Code
@@ -97,7 +97,6 @@ Keywords=vscode;
 Name=New Empty Window
 Exec=/opt/apps/com.visualstudio.code/files/code/code --new-window %F
 Icon=com.visualstudio.code
-
 ```
 
 这就提供了一个很好的例子：有分组 有entry类型
@@ -126,8 +125,8 @@ Icon=com.visualstudio.code
 
 如果LC_MESSAGES没有MODIFIER字段，那么将不会匹配带有修改器的键。同样的，如果LC_MESSAGES没有COUNTRY字段，那么将不会匹配有国家的键。如果LC_MESSAGES只有一个lang字段，那么它将直接与一个具有类似值的键进行匹配。下表列出了各种LC_MESSAGES值的可能匹配情况，以及它们被匹配的顺序。注意，ENCODING字段没有显示。
 
-|`LC_MESSAGES`价值|按匹配顺序排列的可能键|
-|-|-|
+| `LC_MESSAGES`值 | 按匹配顺序排列的可能键 |
+| --------------- | ------------------ |
 |`lang__COUNTRY@MODIFIER`|`lang_COUNTRY@MODIFIER` 默认值 `lang_COUNTRY lang@MODIFIER  lang`|
 |`lang__COUNTRY`|`lang_COUNTRY_`, *`lang`*, 默认值|
 |`lang@MODIFIER`|`lang@MODIFIER`, *`lang`*, 默认值|
@@ -144,7 +143,7 @@ Icon=com.visualstudio.code
 
 ### 例子：
 
-```
+```ini
 [Desktop Entry]
 Categories=Utility;TextEditor;
 Comment=Simple and easy to use text editor
@@ -256,8 +255,6 @@ Name[zh_HK]=Deepin 文本編輯器
 Name[zh_TW]=Deepin 文字編輯器
 ```
 
-
-
 ## 可识别的桌面输入键
 
 键是可选的或必需的。如果一个键是可选的，它可能存在也可能不存在于文件中。但是，如果不是，则标准的实施不应失败，它必须提供一些合理的默认值。
@@ -304,7 +301,7 @@ Name[zh_TW]=Deepin 文字編輯器
 
 参数可以全部引用。如果参数包含保留字符，则必须引用该参数。引用参数的规则也适用于所提供的可执行程序的可执行名称或路径。
 
-引用必须通过将参数括在双引号之间并在双引号字符、反引号字符 ```、美元符号 `$` 和反斜杠字符 `\` 前面加上一个额外的反斜杠字符来转义。实现必须在扩展域代码和将参数传递给可执行程序之前撤消引用。保留字符有空格 `  `、制表符、换行符、双引号、单引号 `'`、反斜杠字符 `\`、大于号 `>`、小于号 `<`、波浪号 `~`、竖线 `|`、和号 `&`、分号 `;`、美元符号 `$`、星号 `*`、问号 `?`
+引用必须通过将参数括在双引号之间并在双引号字符、反引号字符 `` ` ``、美元符号 `$` 和反斜杠字符 `\` 前面加上一个额外的反斜杠字符来转义。实现必须在扩展域代码和将参数传递给可执行程序之前撤消引用。保留字符有空格 `  `、制表符、换行符、双引号、单引号 `'`、反斜杠字符 `\`、大于号 `>`、小于号 `<`、波浪号 `~`、竖线 `|`、和号 `&`、分号 `;`、美元符号 `$`、星号 `*`、问号 `?`
 
 请注意，字符串类型值的一般转义规则规定反斜杠字符也可以转义为 `\\`，并且此转义规则在引用规则之前应用。因此，要在桌面条目文件的引用参数中明确表示文字反斜杠字符，需要使用四个连续的反斜杠字符`\\\\`。同样，桌面条目文件中带引号的参数中的文字美元符号用 `\\$` 明确表示。
 
@@ -334,21 +331,20 @@ Name[zh_TW]=Deepin 文字編輯器
 支持由 D-Bus 启动的应用程序必须实现以下接口（以 D-Bus 自省 XML 格式给出）：
 
 ```XML
-  <接口名称='org.freedesktop.Application'>
-    <方法名称='激活'>
-      <arg type='a{sv}' name='platform_data' 方向='in'/>
-    </方法>
-    <方法名='打开'>
-      <arg type='as' name='uris' direction='in'/>
-      <arg type='a{sv}' name='platform_data' 方向='in'/>
-    </方法>
-    <方法名称='ActivateAction'>
-      <arg type='s' name='action_name' direction='in'/>
-      <arg type='av' name='parameter' direction='in'/>
-      <arg type='a{sv}' name='platform_data' 方向='in'/>
-    </方法>
-  </接口>
-    
+<接口名称='org.freedesktop.Application'>
+  <方法名称='激活'>
+    <arg type='a{sv}' name='platform_data' 方向='in'/>
+  </方法>
+  <方法名='打开'>
+    <arg type='as' name='uris' direction='in'/>
+    <arg type='a{sv}' name='platform_data' 方向='in'/>
+  </方法>
+  <方法名称='ActivateAction'>
+    <arg type='s' name='action_name' direction='in'/>
+    <arg type='av' name='parameter' direction='in'/>
+    <arg type='a{sv}' name='platform_data' 方向='in'/>
+  </方法>
+</接口>
 ```
 
 应用程序必须按照介绍部分中的命名建议命名其桌面文件（例如，文件名必须是 like `org.example.FooViewer.desktop`）。应用程序必须具有可激活的 D-Bus 服务，其众所周知的名称与`.desktop`删除部分的桌面文件名相同（对于我们的示例， `org.example.FooViewer`）。上述接口必须在如下确定的对象路径上实现：从应用程序的众所周知的 D-Bus 名称开始，将所有点更改为斜线并在斜线前缀。如果找到破折号 (' `-`')，请将其转换为下划线 (' `_`')。对于我们的示例，这是`/org/example/FooViewer`.
@@ -361,7 +357,7 @@ Name[zh_TW]=Deepin 文字編輯器
 
 所有方法都接受一个`platform-data`参数，该参数的使用方式与环境变量的使用方式类似。规范描述的当前字段是：
 
-- `desktop-startup-id``DESKTOP_STARTUP_ID`：这应该是一个与环境变量中存储的值相同的字符串，由[启动通知协议规范](http://www.freedesktop.org/Standards/startup-notification-spec)指定。
+- `desktop-startup-id` `DESKTOP_STARTUP_ID`：这应该是一个与环境变量中存储的值相同的字符串，由[启动通知协议规范](http://www.freedesktop.org/Standards/startup-notification-spec)指定。
 - `activation-token`：这应该是与存储在`XDG_ACTIVATION_TOKEN`环境变量中的值相同的字符串，由 Wayland 的 [XDG 激活](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/blob/main/staging/xdg-activation/xdg-activation-v1.xml)协议指定。
 
 ## 接口
@@ -374,7 +370,7 @@ Name[zh_TW]=Deepin 文字編輯器
 
 - 接口应要求应用程序是 DBusActivatable，包括要求应用程序的桌面文件使用 D-Bus“反向 DNS”约定命名
 - 接口名称应对应于应用程序在导出 org.freedesktop.Application 接口的同一对象路径上导出的 D-Bus 接口
-- 如果接口希望允许有关实现的详细信息，则应指定实现者在其桌面文件中添加一个与接口同名的组（例如：“[org.freedesktop.ImageAcquire]”）
+- 如果接口希望允许有关实现的详细信息，则应指定实现者在其桌面文件中添加一个与接口同名的组（例如：“\[org.freedesktop.ImageAcquire\]”）
 
 尽管有建议，接口可以指定几乎任何可以想象的要求，包括诸如“当通过 Exec 行启动时，应用程序应该呈现一个带有 _FOO_IDENTIFIER 属性集的窗口，此时 X 客户端消息将被发送到那个窗口”。另一个例子是“这个接口的所有实现都应该被标记为 NoDisplay，并且在启动时不会显示任何窗口，并且会在不确认的情况下删除所有用户的文件”。
 

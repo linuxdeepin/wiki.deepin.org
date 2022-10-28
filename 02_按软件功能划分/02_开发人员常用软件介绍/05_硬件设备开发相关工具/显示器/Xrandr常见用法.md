@@ -2,7 +2,7 @@
 title: Xrandr常见用法
 description: 
 published: true
-date: 2022-09-01T05:50:46.085Z
+date: 2022-10-21T03:28:36.185Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-16T06:47:15.280Z

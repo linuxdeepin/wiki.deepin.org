@@ -1,8 +1,8 @@
 ---
-title: Deepin系统管理
+title: Deepin系统管理整合
 description: 
 published: true
-date: 2022-10-18T05:29:22.005Z
+date: 2022-10-18T05:29:35.188Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:32:49.306Z

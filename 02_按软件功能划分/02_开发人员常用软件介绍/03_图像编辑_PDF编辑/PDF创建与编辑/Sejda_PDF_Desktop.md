@@ -2,7 +2,7 @@
 title: Sejda PDF Desktop
 description: PDF 编辑软件
 published: true
-date: 2022-07-13T08:39:25.244Z
+date: 2022-10-21T02:59:08.591Z
 tags: pdf
 editor: markdown
 dateCreated: 2022-07-13T08:39:23.181Z

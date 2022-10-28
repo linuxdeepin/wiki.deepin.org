@@ -2,7 +2,7 @@
 title: python入门
 description: 
 published: true
-date: 2022-10-21T05:10:24.499Z
+date: 2022-10-21T05:10:26.436Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-21T05:07:22.359Z

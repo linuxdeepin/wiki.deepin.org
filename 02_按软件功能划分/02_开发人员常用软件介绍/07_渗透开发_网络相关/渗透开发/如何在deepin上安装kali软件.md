@@ -2,7 +2,7 @@
 title: Deepin上安装kali软件
 description: 
 published: true
-date: 2022-06-08T08:02:14.852Z
+date: 2022-10-25T01:47:58.308Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:47:44.610Z

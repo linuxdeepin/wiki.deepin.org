@@ -2,7 +2,7 @@
 title: Qmmp
 description: 基于QT开发的多媒体播放器
 published: true
-date: 2022-06-09T14:56:53.585Z
+date: 2022-10-21T05:26:47.035Z
 tags: qmmp
 editor: markdown
 dateCreated: 2022-06-09T14:56:26.763Z

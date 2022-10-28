@@ -2,7 +2,7 @@
 title: Linux下如何创建systemd启动项实现开机自启动
 description: 
 published: true
-date: 2022-10-20T09:22:57.966Z
+date: 2022-10-25T07:03:50.787Z
 tags: systemd
 editor: markdown
 dateCreated: 2022-06-28T05:31:32.494Z

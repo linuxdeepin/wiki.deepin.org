@@ -2,7 +2,7 @@
 title: neovim
 description: 21世纪新的vim
 published: true
-date: 2022-07-14T08:49:46.596Z
+date: 2022-10-21T08:29:08.233Z
 tags: vim, neovim
 editor: markdown
 dateCreated: 2022-07-14T08:49:43.735Z

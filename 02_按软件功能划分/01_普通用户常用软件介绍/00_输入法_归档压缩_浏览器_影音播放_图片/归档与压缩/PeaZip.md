@@ -2,7 +2,7 @@
 title: PeaZip
 description: 
 published: true
-date: 2022-06-08T08:18:37.225Z
+date: 2022-10-21T02:42:48.068Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-12T05:52:42.354Z

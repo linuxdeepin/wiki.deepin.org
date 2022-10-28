@@ -2,7 +2,7 @@
 title: Comix
 description: 
 published: true
-date: 2022-06-08T05:33:47.447Z
+date: 2022-10-21T01:47:45.042Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:30:54.468Z

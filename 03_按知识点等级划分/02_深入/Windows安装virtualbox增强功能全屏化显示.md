@@ -2,7 +2,7 @@
 title: Windows安装virtualbox增强功能全屏化显示
 description: 
 published: true
-date: 2022-10-25T01:59:03.388Z
+date: 2022-10-25T01:59:27.323Z
 tags: vbox, virtualbox
 editor: markdown
 dateCreated: 2022-04-21T03:48:03.665Z

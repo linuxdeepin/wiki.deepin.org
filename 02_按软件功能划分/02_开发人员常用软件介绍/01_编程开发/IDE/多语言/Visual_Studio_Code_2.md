@@ -2,7 +2,7 @@
 title: Visual Studio Code
 description: 简称 VSCode，一款由微软开发的跨平台免费源代码编辑器
 published: true
-date: 2022-08-04T08:42:34.118Z
+date: 2022-10-25T03:07:24.323Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-04T08:42:31.939Z

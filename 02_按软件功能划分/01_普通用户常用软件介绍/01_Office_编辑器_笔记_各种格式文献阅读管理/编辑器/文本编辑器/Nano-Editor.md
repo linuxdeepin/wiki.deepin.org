@@ -2,7 +2,7 @@
 title: Nano-Editor
 description: GNU nano 是一款终端下使用的经典工具，旨在免费替代 Pico 文本编辑器。
 published: true
-date: 2022-06-28T01:12:11.673Z
+date: 2022-10-21T08:28:18.693Z
 tags: nano-editor
 editor: markdown
 dateCreated: 2022-06-28T01:12:09.393Z

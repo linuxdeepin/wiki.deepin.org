@@ -2,7 +2,7 @@
 title: Systemd
 description: 
 published: true
-date: 2022-10-18T03:00:06.017Z
+date: 2022-10-18T03:02:17.301Z
 tags: systemd
 editor: markdown
 dateCreated: 2022-06-16T03:02:15.607Z

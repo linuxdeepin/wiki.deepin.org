@@ -2,7 +2,7 @@
 title: man指令
 description: 
 published: true
-date: 2022-10-17T09:10:22.172Z
+date: 2022-10-17T09:10:23.954Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T09:06:04.055Z

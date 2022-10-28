@@ -2,7 +2,7 @@
 title: 5-用原生wine运行绿化版exe程序bat文件的方法
 description: 
 published: true
-date: 2022-10-03T15:00:52.958Z
+date: 2022-10-03T15:00:54.733Z
 tags: wine
 editor: markdown
 dateCreated: 2022-06-20T09:08:38.886Z

@@ -2,8 +2,8 @@
 title: mutt
 description: 一款TUI的邮件客户端
 published: true
-date: 2022-10-21T16:20:52.246Z
-tags: mua, mutt, 邮件
+date: 2022-10-21T16:20:54.266Z
+tags: 邮件, mua, mutt
 editor: markdown
 dateCreated: 2022-07-21T09:42:27.597Z
 ---

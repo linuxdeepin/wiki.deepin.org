@@ -2,7 +2,7 @@
 title: Scribus
 description: 
 published: true
-date: 2022-06-08T08:42:56.384Z
+date: 2022-10-21T02:58:36.284Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:36.478Z

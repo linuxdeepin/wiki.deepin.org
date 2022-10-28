@@ -2,7 +2,7 @@
 title: GParted
 description: 
 published: true
-date: 2022-05-07T02:35:47.471Z
+date: 2022-10-21T07:24:01.026Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:49.983Z

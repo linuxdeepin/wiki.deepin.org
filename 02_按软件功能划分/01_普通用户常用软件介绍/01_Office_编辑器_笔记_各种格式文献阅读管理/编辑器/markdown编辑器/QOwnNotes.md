@@ -2,7 +2,7 @@
 title: QOwnNotes
 description: 
 published: true
-date: 2022-06-08T08:37:05.367Z
+date: 2022-10-21T08:34:18.491Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:31.941Z

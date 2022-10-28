@@ -1,8 +1,8 @@
 ---
-title: 挂载
+title: mount挂载命令
 description: 
 published: true
-date: 2022-10-26T06:59:54.304Z
+date: 2022-10-26T07:00:13.475Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:48:39.601Z

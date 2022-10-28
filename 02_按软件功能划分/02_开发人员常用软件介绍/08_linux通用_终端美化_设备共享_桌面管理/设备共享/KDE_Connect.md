@@ -2,7 +2,7 @@
 title: KDE Connect
 description: KDE 出品的联动智能手机、平板和 PC 的软件
 published: true
-date: 2022-07-15T11:34:26.414Z
+date: 2022-10-21T02:20:37.295Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-15T11:33:43.259Z

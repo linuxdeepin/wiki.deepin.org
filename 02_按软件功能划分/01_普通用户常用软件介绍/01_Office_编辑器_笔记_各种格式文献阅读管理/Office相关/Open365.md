@@ -2,7 +2,7 @@
 title: Open365
 description: 
 published: true
-date: 2022-07-13T14:33:29.727Z
+date: 2022-10-21T00:52:37.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:20.645Z

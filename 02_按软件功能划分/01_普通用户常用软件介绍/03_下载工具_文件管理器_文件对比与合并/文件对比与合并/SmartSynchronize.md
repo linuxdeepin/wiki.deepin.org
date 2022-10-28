@@ -2,7 +2,7 @@
 title: SmartSynchronize
 description: 
 published: true
-date: 2022-06-08T08:46:34.176Z
+date: 2022-10-21T03:03:11.015Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:42:09.318Z

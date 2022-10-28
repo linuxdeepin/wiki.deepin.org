@@ -2,7 +2,7 @@
 title: GoldenDict
 description: 
 published: true
-date: 2022-06-08T05:58:57.539Z
+date: 2022-10-21T02:10:06.268Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:41.454Z

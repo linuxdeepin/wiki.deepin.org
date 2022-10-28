@@ -2,7 +2,7 @@
 title: 使用Find和Locate命令在Linux中搜索文件
 description: 
 published: true
-date: 2022-10-12T06:13:56.296Z
+date: 2022-10-25T02:25:43.683Z
 tags: find locate
 editor: markdown
 dateCreated: 2022-10-12T05:52:41.081Z

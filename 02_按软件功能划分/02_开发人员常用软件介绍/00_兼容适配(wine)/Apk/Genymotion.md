@@ -2,7 +2,7 @@
 title: Genymotion
 description: 
 published: true
-date: 2022-06-11T04:03:56.293Z
+date: 2022-10-21T07:30:23.720Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:14.765Z

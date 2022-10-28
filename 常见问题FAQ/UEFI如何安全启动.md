@@ -1,16 +1,14 @@
 ---
 title: UEFI如何安全启动
-description: 
+description: UEFI引导从入门到重装
 published: true
-date: 2022-06-28T07:52:56.947Z
+date: 2022-10-21T16:49:34.261Z
 tags: uefi
 editor: markdown
 dateCreated: 2022-06-28T07:50:35.714Z
 ---
 
-# UEFI引导从入门到重装
-
-## 前言
+# 前言
 
 我发现，大部分玩linux的人，出现问题的主要原因都是卡在安装系统这个门槛上。因此，决定彻底的研究和解决这个问题，让大家能够愉快的使用linux，投入开源的怀抱。
 
@@ -21,7 +19,7 @@ dateCreated: 2022-06-28T07:50:35.714Z
 3. 懂得用工具翻译简单的英语单词
 4. 具有基本的电脑常识
 
-## 一、历史
+# 一、历史
 
 硬件开机需要经过自检过程，自检程序bios固化到主板里面，从bios时代 到uefi 的转变，让启动系统变得更加强大（虽然也不是很智能）。
 
@@ -37,7 +35,7 @@ UEFI很多改进，但对我们关心的启动问题而言，它比BIOS进步的
 6. 基于unicode 的输入、输出、错误控制台
 7. 众多shell 工具和支持.nsh 脚本
 
-## 二、UEFI 原理
+# 二、UEFI 原理
 
 启动管理器功能：
 
@@ -55,11 +53,11 @@ UEFI很多改进，但对我们关心的启动问题而言，它比BIOS进步的
 3. 如果没，通过网络读取PXE 服务器引导
 4. 如果没，启动efi shell （如果有）
 
-## 三、UEFI 引导windows
+# 三、UEFI 引导windows
 
 windows 支持uefi的版本是从win7开始，记住只选64位。现在很多整合的启动u盘印象还是32位的，不建议使用。
 
-### 3.1 用到的工具：
+## 3.1 用到的工具：
 
 1. bcdboot.exe ：可以设定主板引导菜单，可以复制引导文件到esp引导区（不需要手动复制，以免不完整导致bug），推荐使用！
 2. bootmgfw.efi ：这是windows的核心引导程序,在\Windows\Boot\EFI目录可以找到,安装光盘其实也有,你可以搜索看看
@@ -69,27 +67,27 @@ windows 支持uefi的版本是从win7开始，记住只选64位。现在很多�
 6. bcdedit : 这是一个编辑bcd菜单的命令行工具
 
 
-### 3.2 基本策略：
+## 3.2 基本策略：
 
 1. 在主板中建立启动菜单，而不是争夺bootx64.efi的使用权。windows很野蛮，他会将自己的启动文件bootmgfw.efi覆盖这个文件。如果你的linux依赖这个文件来启动，再次安装windows的时候就会启动不了。但是如果你是在主板里面建立的直接引导linux启动文件的菜单，它就是独立不被干涉的。
 2. 建立uefi shell工具，这个工具可以帮助修复引导菜单，或者加载进入系统，再通过系统使用修复菜单。
 
-### 3.3 附加工具（图形化）：
+## 3.3 附加工具（图形化）：
 
 命令工具虽然能够使用，但是不太友好，要求用户背指令，因此可以选择一些图形化的工具来辅助解决问题。
 
 1. DiskGenius 磁盘管理
 2. BOOTICE 这是bcd菜单编辑工具，版本1.3.4 x64。
 
-### 3.4 演练
+## 3.4 演练
 
-#### 3.4.1 确认主板是否支持uefi
+### 3.4.1 确认主板是否支持uefi
 
 1. 如果是全新安装，进入bios选择uefi模式，关闭csm兼容模式，关闭安全启动，安装系统即可。
 2. 如果已经安装，确认是否以uefi模式安装的，还是mbr模式安装。如果是uefi模式安装，可以关闭csm兼容模式，关闭安全启动。
 3. 如果是mbr模式安装，需要转换成uefi模式（下一步）
 
-#### 3.4.2 调整磁盘，将mbr转换为gpt，建立esp分区，调整分区留出空间给下一个系统
+### 3.4.2 调整磁盘，将mbr转换为gpt，建立esp分区，调整分区留出空间给下一个系统
 
 这一步用diskgenius操作比较舒服.下面用diskpart 演示一下:
 
@@ -149,7 +147,7 @@ windows 支持uefi的版本是从win7开始，记住只选64位。现在很多�
 
 到此，磁盘转换完毕！
 
-#### 3.4.3 复制启动文件到esp分区
+### 3.4.3 复制启动文件到esp分区
 
 如果不复制启动文件到磁盘4的esp分区，是否就无法启动磁盘4上面的系统？
 
@@ -191,7 +189,7 @@ esp默认是被系统隐藏的，diskpart可以解除这个限制：
 
 但是，uefi怎么知道我们需要启动哪个硬盘的esp分区呢？经过我测试，如果是外置的u盘，uefi会自动增加启动项，如果是内置硬盘，uefi就比较傻，这里面的设计似乎不是很完善，也许不同厂家有不同的设计方案，所以下一步，我们来实现怎样增加启动选项在主板中，彻底解决些模糊的地方。
 
-#### 3.4.4 编辑引导菜单
+### 3.4.4 编辑引导菜单
 
 这里应该明确两个引导菜单，一个是主板里面的，我的主板需要按F11才会弹出这个菜单，或者直接进入bios内部设置启动顺序。这个我称为主板引导菜单。
 
@@ -232,7 +230,7 @@ esp默认是被系统隐藏的，diskpart可以解除这个限制：
 
 ![](https://gitee.com/deepinwiki/wiki/raw/master/pics/uefi启动菜单.png)
 
-### 3.5 演练结果
+## 3.5 演练结果
 
 1. 用bcdboot更新菜单项是最稳定的,如果bcd有问题,先删了再用bcdboot添加.注意,bcdboot 先加入低版本windows,后加入高版本windows,这样高版本可以兼容低版本。另外,经测试win7不是完美兼容uefi的。
 2. bootice虽然是一个很老的工具，连win10的选项也没有，但是大多数情况都能使用。
@@ -243,7 +241,7 @@ esp默认是被系统隐藏的，diskpart可以解除这个限制：
 
 好，uefi引导windows部分到此结束。
 
-## 四、UEFI 引导linux
+# 四、UEFI 引导linux
 
 因为，linux一般能够比较好的协调和windows的并存关系，当你正确安装windows（用第三节的知识），linux的安装就是水到渠成的事情。
 
@@ -253,9 +251,9 @@ esp默认是被系统隐藏的，diskpart可以解除这个限制：
 
 如果你想深入定制linux的引导，请参考第七节 grub的使用说明。
 
-## 五、UEFI 做引导盘
+# 五、UEFI 做引导盘
 
-### 5.1 引导设备的文件系统
+## 5.1 引导设备的文件系统
 
 有一点需要明确，u盘，光盘等即插即用设备，它的引导方式和硬盘有所区别。
 
@@ -276,7 +274,7 @@ esp默认是被系统隐藏的，diskpart可以解除这个限制：
 - hfs 苹果的改进  
 - rock ridge 操作系统unix的改进  
 
-### 5.2 用到的工具
+## 5.2 用到的工具
 
 以linux为例：
 
@@ -287,7 +285,7 @@ esp默认是被系统隐藏的，diskpart可以解除这个限制：
 5. losetup
 6. mkisofs
 
-### 5.3 总体思路
+## 5.3 总体思路
 
 光盘也好，u盘也好，总的来说，只需要借助工具生成可引导格式便可。对u盘来说，基本就是复制硬盘启动的思路，只有细微差别。对于光盘来说，需要满足iso格式的特殊规定，启动区空间和容量有所限制。
 
@@ -306,7 +304,7 @@ esp默认是被系统隐藏的，diskpart可以解除这个限制：
 
 整体来说，数据操作就是简单的复制文件，而启动镜像的制作在准备数据文件的基础上，使用特定的制作工具，加特定的引导文件即可。
 
-### 5.4 u盘启动镜像
+## 5.4 u盘启动镜像
 
 其实可以直接对u盘进行操作。如第三节演示的那样。但这里还是按照 先准备数据，启动文件，然后制作镜像，然后写入u盘这个思路进行演练。
 
@@ -371,7 +369,7 @@ sudo mount /dev/loop0 mini #将设备装载入本地文件系统中的mini目录
 
 
 
-## 六、UEFI shell
+# 六、UEFI shell
 
 EDK（EFI开发工具包）子项目。shell即命令行。uefi shell很重要，因为不需要启动进入系统，它就可以让你执行很多命令，从而可以修复引导程序。
 
@@ -403,7 +401,7 @@ shell 外部命令：
 `echo 回显` `exit 退出` `for` `goto` `if` `pause 暂停` 
 `startup.nsh 自动运行批处理`
 
-### 6.1 efi shell环境使用
+## 6.1 efi shell环境使用
 
 技巧：
 
@@ -446,11 +444,11 @@ shell 外部命令：
 20. `vol` 文件系统的卷信息
 
 
-## 七、GRUB 和其他引导系统
+# 七、GRUB 和其他引导系统
 
 grub 是开源世界一个流行的引导管理器，它有点过于强大，不但能引导各种各样的linux，还能引导windows。即支持bmr又支持uefi，甚至支持各种各样的文件系统，还能增加字体，美化菜单。这简直就是个微型操作系统，也正是如此，导致它也过于复杂。但不管怎么说，grub还是开源世界最流行的引导管理器。
 
-### 7.1 安装
+## 7.1 安装
 
 主文件夹：
 
@@ -584,9 +582,9 @@ sudo update-grub #自动更新grub引导信息，这实际是一个脚本，它�
 
 ```
 
-### 7.2 构建
+## 7.2 构建
 
-### 7.3 配置文件
+## 7.3 配置文件
 
 变量(/etc/default/grub):
 
@@ -695,7 +693,7 @@ menuentry "winxp"{
 8. windows菜单项：加载 part_gpt，加载fat文件系统，用uuid搜索设置root，用chainloader 链式加载 efi/microsoft/boot/bootmgfw.efi微软系统启动管理器。
 
 
-### 7.4 引导命令行
+## 7.4 引导命令行
 
 默认的启动过程是：
 
@@ -864,11 +862,11 @@ menuentry "winxp"{
 
 - /boot/grub/grubenv 1k,load_env,save_env
 
-### 7.5 busyBox
+## 7.5 busyBox
 
 busyBox 是一个微型linux系统，一般用在救援系统。
 
-### 7.6 演练
+## 7.6 演练
 
 grub的内容相当杂乱，庞大而复杂，所以整理起来也是非常艰难。如果实在看不懂，那么就照以下步骤进行即可（所有步骤皆实际操作）：
 
@@ -926,9 +924,9 @@ efibootmgr -b 0005 -B #删除编号0005的菜单项
 
 ```
 
-### 7.7 其他
+## 7.7 其他
 
-## 参考资料
+# 参考资料
 
 1. UEFI论坛： <http://www.uefi.org>
 2. EFI SHELL： <http://www.tianocore.org>
@@ -946,7 +944,7 @@ efibootmgr -b 0005 -B #删除编号0005的菜单项
 14. 文件系统： <https://wiki.archlinux.org/index.php/File_systems_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>
 15. 金步国linux文档： <http://www.jinbuguo.com/>
 16. 关于Windows Boot Manager、Bootmgfw.efi、Bootx64.efi、bcdboot.exe 的详解: <https://blog.csdn.net/lindexi_gd/article/details/50392343/>
-17. 系统启动流程: <https://wiki.deepin.org/wiki/%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B>
+17. 系统启动流程: https://wiki.deepin.org/zh/03_%E6%8C%89%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AD%89%E7%BA%A7%E5%88%92%E5%88%86/01_%E4%B8%AD%E9%98%B6/05_%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B
 18. 系统安装-000 基础三：Windows与Linux的UEFI引导修复教程: <https://blog.csdn.net/qq_15304853/article/details/79054734>
 19. 制作一个能从各种ISO镜象启动的U盘: <https://noodlefighter.com/post/note_udisk-for-repair/>
 20. hpe 精简微服务器UEFI Shell参考：<http://h17007.www1.hpe.com/docs/iss/proliant_uefi/UEFI_TM_030617/GUID-D7147C7F-2016-0901-0A69-000000001B9F.html>

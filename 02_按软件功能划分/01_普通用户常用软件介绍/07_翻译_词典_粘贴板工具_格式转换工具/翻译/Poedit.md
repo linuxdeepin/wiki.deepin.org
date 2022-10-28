@@ -2,7 +2,7 @@
 title: Poedit
 description: 
 published: true
-date: 2022-10-21T08:31:48.444Z
+date: 2022-10-21T08:33:22.262Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:03.035Z

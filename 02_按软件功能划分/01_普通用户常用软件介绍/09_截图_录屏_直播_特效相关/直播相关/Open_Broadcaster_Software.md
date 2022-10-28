@@ -2,7 +2,7 @@
 title: Open_Broadcaster_Software
 description: 
 published: true
-date: 2022-06-08T08:16:38.034Z
+date: 2022-10-21T02:41:58.420Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:26.534Z

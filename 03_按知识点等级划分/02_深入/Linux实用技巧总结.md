@@ -2,7 +2,7 @@
 title: Linux实用技巧总结
 description: 
 published: true
-date: 2022-10-17T09:11:29.817Z
+date: 2022-10-17T09:11:41.761Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-27T09:04:42.651Z

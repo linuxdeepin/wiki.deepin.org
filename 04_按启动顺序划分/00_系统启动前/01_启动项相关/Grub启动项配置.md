@@ -2,7 +2,7 @@
 title: Grub启动项配置
 description: 
 published: true
-date: 2022-06-24T02:15:49.282Z
+date: 2022-10-17T09:15:05.134Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T02:15:47.019Z

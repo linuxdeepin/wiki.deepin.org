@@ -2,7 +2,7 @@
 title: minicom的安装及使用教程
 description: 
 published: true
-date: 2022-10-25T01:56:36.192Z
+date: 2022-10-25T01:57:31.879Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:50:36.421Z

@@ -2,7 +2,7 @@
 title: BricsCAD
 description: 
 published: true
-date: 2022-06-10T06:12:02.021Z
+date: 2022-10-21T08:07:00.935Z
 tags: cad
 editor: markdown
 dateCreated: 2022-04-21T03:30:11.527Z

@@ -2,7 +2,7 @@
 title: deepin下如何执行exe文件
 description: 
 published: true
-date: 2022-06-28T07:25:33.734Z
+date: 2022-10-25T06:51:44.555Z
 tags: exe文件
 editor: markdown
 dateCreated: 2022-06-28T07:25:31.743Z

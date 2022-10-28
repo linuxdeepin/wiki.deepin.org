@@ -2,7 +2,7 @@
 title: Brackets
 description: 
 published: true
-date: 2022-05-14T03:07:15.847Z
+date: 2022-10-25T02:58:39.380Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:30:05.086Z

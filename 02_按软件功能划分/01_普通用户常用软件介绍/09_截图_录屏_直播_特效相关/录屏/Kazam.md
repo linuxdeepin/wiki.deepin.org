@@ -2,7 +2,7 @@
 title: Kazam
 description: 
 published: true
-date: 2022-06-08T06:04:28.237Z
+date: 2022-10-21T02:18:08.250Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:51.796Z

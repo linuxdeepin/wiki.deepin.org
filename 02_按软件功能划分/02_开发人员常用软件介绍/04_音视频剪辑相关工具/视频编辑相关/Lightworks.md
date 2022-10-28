@@ -2,7 +2,7 @@
 title: Lightworks
 description: 
 published: true
-date: 2022-06-08T06:06:42.023Z
+date: 2022-10-21T07:55:02.341Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:29.129Z

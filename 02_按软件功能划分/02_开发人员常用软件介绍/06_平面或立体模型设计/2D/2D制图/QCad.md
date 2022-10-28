@@ -2,7 +2,7 @@
 title: QCad
 description: 
 published: true
-date: 2022-06-10T06:13:32.535Z
+date: 2022-10-21T08:08:56.577Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:26.250Z

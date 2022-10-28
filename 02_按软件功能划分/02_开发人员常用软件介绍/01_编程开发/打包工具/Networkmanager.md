@@ -2,7 +2,7 @@
 title: Networkmanager
 description: 
 published: true
-date: 2022-06-28T08:19:13.285Z
+date: 2022-10-25T01:02:25.194Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T08:19:10.945Z

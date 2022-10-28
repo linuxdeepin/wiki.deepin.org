@@ -2,7 +2,7 @@
 title: apt命令
 description: 日常使用的一些操作命令
 published: true
-date: 2022-10-18T02:35:00.621Z
+date: 2022-10-18T02:35:02.306Z
 tags: 终端 命令
 editor: markdown
 dateCreated: 2022-06-13T05:43:53.041Z

@@ -2,7 +2,7 @@
 title: Linux系统安装配置JDK环境教程
 description: 
 published: true
-date: 2022-10-03T07:22:01.323Z
+date: 2022-10-25T02:25:07.805Z
 tags: java
 editor: markdown
 dateCreated: 2022-06-28T06:29:12.278Z

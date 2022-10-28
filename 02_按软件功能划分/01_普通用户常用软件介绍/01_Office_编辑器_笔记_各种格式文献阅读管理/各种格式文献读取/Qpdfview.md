@@ -2,7 +2,7 @@
 title: Qpdfview
 description: 
 published: true
-date: 2022-05-12T06:01:25.930Z
+date: 2022-10-21T02:47:07.572Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:40.488Z

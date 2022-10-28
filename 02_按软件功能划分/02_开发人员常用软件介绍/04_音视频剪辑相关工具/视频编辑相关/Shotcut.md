@@ -2,7 +2,7 @@
 title: Shotcut
 description: 
 published: true
-date: 2022-06-08T08:44:09.533Z
+date: 2022-10-21T07:58:37.926Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:43.335Z

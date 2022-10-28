@@ -2,7 +2,7 @@
 title: Easystroke
 description: 
 published: true
-date: 2022-06-08T05:49:05.958Z
+date: 2022-10-21T01:57:32.756Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:45.950Z

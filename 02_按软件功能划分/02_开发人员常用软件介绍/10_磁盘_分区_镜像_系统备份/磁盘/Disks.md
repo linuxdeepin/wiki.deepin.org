@@ -2,7 +2,7 @@
 title: Disks
 description: 
 published: true
-date: 2022-06-08T05:47:45.058Z
+date: 2022-10-21T02:00:59.321Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-12T05:48:30.318Z

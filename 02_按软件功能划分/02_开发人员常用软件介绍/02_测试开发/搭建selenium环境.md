@@ -2,7 +2,7 @@
 title: 搭建selenium环境
 description: 介绍在deepin下搭建selenium环境
 published: true
-date: 2022-09-13T06:29:37.453Z
+date: 2022-10-25T01:25:42.714Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-13T06:24:24.505Z

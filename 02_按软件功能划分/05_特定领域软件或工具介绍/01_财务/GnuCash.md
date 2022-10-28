@@ -2,7 +2,7 @@
 title: GnuCash
 description: 
 published: true
-date: 2022-06-08T05:58:43.391Z
+date: 2022-10-21T02:08:50.217Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:35.695Z

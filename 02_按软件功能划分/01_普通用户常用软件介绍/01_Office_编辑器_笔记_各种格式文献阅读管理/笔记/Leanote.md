@@ -2,7 +2,7 @@
 title: Leanote
 description: 
 published: true
-date: 2022-06-08T06:06:31.718Z
+date: 2022-10-21T02:27:52.259Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:19.936Z

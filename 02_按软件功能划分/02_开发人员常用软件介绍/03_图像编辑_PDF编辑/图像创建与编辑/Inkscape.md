@@ -2,7 +2,7 @@
 title: Inkscape
 description: 
 published: true
-date: 2022-05-12T06:01:36.371Z
+date: 2022-10-21T07:54:05.627Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:28.081Z

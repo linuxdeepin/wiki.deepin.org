@@ -2,7 +2,7 @@
 title: MariaDB
 description: MariaDB数据库管理系统
 published: true
-date: 2022-06-13T16:31:27.681Z
+date: 2022-10-25T04:47:38.506Z
 tags: mariadb, mysql
 editor: markdown
 dateCreated: 2022-05-12T06:01:47.459Z

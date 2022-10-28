@@ -2,7 +2,7 @@
 title: Thunar
 description: Thunar文件管理器
 published: true
-date: 2022-06-13T06:00:01.086Z
+date: 2022-10-21T05:55:47.336Z
 tags: thunar
 editor: markdown
 dateCreated: 2022-06-13T05:58:56.974Z

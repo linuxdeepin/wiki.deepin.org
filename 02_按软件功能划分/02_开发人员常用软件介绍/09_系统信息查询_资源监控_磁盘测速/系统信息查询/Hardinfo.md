@@ -2,7 +2,7 @@
 title: Hardinfo
 description: 
 published: true
-date: 2022-06-08T06:01:50.611Z
+date: 2022-10-21T02:13:48.447Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:04.864Z

@@ -2,7 +2,7 @@
 title: linux之cpu相关的命令及解析
 description: 
 published: true
-date: 2022-10-20T10:18:11.951Z
+date: 2022-10-25T02:19:50.806Z
 tags: cpu
 editor: markdown
 dateCreated: 2022-07-12T02:42:36.759Z

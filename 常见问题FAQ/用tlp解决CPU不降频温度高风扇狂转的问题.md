@@ -2,8 +2,8 @@
 title: 用tlp解决CPU不降频、温度高、风扇狂转的问题
 description: 
 published: true
-date: 2022-10-21T16:03:28.991Z
-tags: cpu, tlp
+date: 2022-10-21T16:03:30.806Z
+tags: tlp, cpu
 editor: markdown
 dateCreated: 2022-09-28T09:08:04.659Z
 ---

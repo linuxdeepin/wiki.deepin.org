@@ -2,7 +2,7 @@
 title: Glade
 description: 
 published: true
-date: 2022-06-08T05:57:16.605Z
+date: 2022-10-21T02:08:28.397Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:26.965Z

@@ -2,7 +2,7 @@
 title: Shutter
 description: 
 published: true
-date: 2022-06-08T08:44:27.689Z
+date: 2022-10-21T03:00:49.929Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:49.123Z

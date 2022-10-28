@@ -2,7 +2,7 @@
 title: Simplenote
 description: 
 published: true
-date: 2022-06-08T08:44:56.468Z
+date: 2022-10-21T01:01:14.735Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:54.846Z

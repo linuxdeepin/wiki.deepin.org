@@ -2,7 +2,7 @@
 title: GIMP
 description: 
 published: true
-date: 2022-06-10T06:27:25.444Z
+date: 2022-10-21T01:34:21.515Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:37.655Z

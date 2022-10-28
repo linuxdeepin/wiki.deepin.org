@@ -2,7 +2,7 @@
 title: Yakuake
 description: 
 published: true
-date: 2022-06-08T08:19:11.754Z
+date: 2022-10-21T03:25:04.013Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:30.746Z

@@ -2,7 +2,7 @@
 title: deepin下使用Ventoy安装Windows
 description: 本文由论坛用户pzm9012分享，原帖地址：https://www.yuque.com/pzm9012/ct5ume/uf10gv
 published: true
-date: 2022-08-14T00:24:39.881Z
+date: 2022-10-25T07:14:07.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T03:24:14.525Z

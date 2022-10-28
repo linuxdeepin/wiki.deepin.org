@@ -2,7 +2,7 @@
 title: Visual_Studio_Code
 description: 
 published: true
-date: 2022-10-21T08:38:34.416Z
+date: 2022-10-21T08:39:33.759Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:24.731Z
@@ -24,8 +24,5 @@ Visual Studio Code是一款轻量级代码编辑器，它具有语法高亮、�
 
 [http://packages.deepin.com/deepin/pool/main/v/vscode/](http://packages.deepin.com/deepin/pool/main/v/vscode/)
 
-## 常见问题
-
-## 相关链接
-
-维基百科：
+## VSCode
+一般是指Visual Studio Code的缩写

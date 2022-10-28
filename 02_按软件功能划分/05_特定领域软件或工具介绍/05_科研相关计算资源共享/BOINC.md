@@ -2,7 +2,7 @@
 title: BOINC
 description: 
 published: true
-date: 2022-05-14T03:06:12.037Z
+date: 2022-10-21T01:42:39.817Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:33.794Z

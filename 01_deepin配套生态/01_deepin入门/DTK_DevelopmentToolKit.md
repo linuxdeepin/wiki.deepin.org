@@ -2,7 +2,7 @@
 title: DTK(DevelopmentToolKit)
 description: DTK(Development ToolKit)）是统信基于Qt开发的一整套简单且实用的通用开发框架，处于统信UOS系统中的核心位置。
 published: true
-date: 2022-10-18T04:48:29.422Z
+date: 2022-10-18T04:48:31.216Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-13T05:35:13.498Z

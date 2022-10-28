@@ -2,7 +2,7 @@
 title: LyX
 description: 
 published: true
-date: 2022-06-08T06:10:51.514Z
+date: 2022-10-21T02:30:04.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:51.004Z

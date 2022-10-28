@@ -2,7 +2,7 @@
 title: Marp
 description: 
 published: true
-date: 2022-06-08T08:10:41.278Z
+date: 2022-10-21T08:26:03.890Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:38:09.592Z

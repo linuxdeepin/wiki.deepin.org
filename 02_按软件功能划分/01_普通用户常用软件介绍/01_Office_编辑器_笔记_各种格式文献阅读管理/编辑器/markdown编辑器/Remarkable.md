@@ -2,7 +2,7 @@
 title: Remarkable
 description: 
 published: true
-date: 2022-06-08T08:39:14.362Z
+date: 2022-10-21T08:34:38.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:08.228Z

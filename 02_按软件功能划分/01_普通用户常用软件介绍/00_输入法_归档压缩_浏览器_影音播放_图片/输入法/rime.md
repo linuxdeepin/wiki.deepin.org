@@ -2,7 +2,7 @@
 title: Rime
 description: 一款开源的输入法引擎
 published: true
-date: 2022-06-30T06:53:07.978Z
+date: 2022-10-21T07:35:51.101Z
 tags: rime, 输入法
 editor: markdown
 dateCreated: 2022-06-30T06:53:05.729Z

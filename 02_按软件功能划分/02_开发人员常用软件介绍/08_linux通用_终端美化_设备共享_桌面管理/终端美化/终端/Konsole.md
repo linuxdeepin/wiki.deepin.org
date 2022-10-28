@@ -2,7 +2,7 @@
 title: Konsole
 description: 
 published: true
-date: 2022-05-12T09:23:08.599Z
+date: 2022-10-21T07:20:27.134Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:37:04.029Z

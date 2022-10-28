@@ -2,7 +2,7 @@
 title: fish脚本编程
 description: 
 published: true
-date: 2022-06-28T08:21:47.840Z
+date: 2022-10-25T02:12:07.811Z
 tags: fish
 editor: markdown
 dateCreated: 2022-06-28T08:21:45.363Z

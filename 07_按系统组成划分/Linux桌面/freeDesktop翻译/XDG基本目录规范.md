@@ -2,7 +2,7 @@
 title: XDG基本目录规范
 description: 各种规范指定文件和文件格式。该规范通过定义一个或多个相对于哪些文件应位于的基本目录来定义应在何处查找这些文件。
 published: true
-date: 2022-07-21T02:14:26.577Z
+date: 2022-10-25T02:35:56.027Z
 tags: freedesktop
 editor: markdown
 dateCreated: 2022-07-21T02:14:24.501Z
