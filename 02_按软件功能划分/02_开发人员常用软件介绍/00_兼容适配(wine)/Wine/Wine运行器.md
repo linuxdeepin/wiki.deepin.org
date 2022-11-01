@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-10-21T03:15:21.223Z
+date: 2022-11-01T12:50:50.039Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -10,9 +10,7 @@ dateCreated: 2022-07-23T01:44:40.008Z
 
 这个程序用到的帖子均在程序谢明中标注，如果有遗漏请尽快与我联系添加，我对此表示深深的歉意
 
-![image.png](https://storage.deepin.org/thread/202208300700355920_image.png)
-
-例如说我就少标了 Wine 安装的 Idea 来自 Vek（已经过许可），对此表示深深的歉意，下一个版本会补上
+![image.png](https://storage.deepin.org/thread/202210031840144283_image.png)
 
 
 
@@ -51,34 +49,25 @@ WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 
 让你可以简易方便的使用 wine
 是使用 Python3 的 PyQt5 构建的
-（测试平台：deepin 20.6 1030；UOS 家庭版 21.3；Ubuntu 22.04；优麒麟 22.04；deepin 23）
+（测试平台：deepin 20.7.1 1030；UOS 家庭版 21.3.1；Ubuntu 22.04；优麒麟 22.04；deepin 23；openkylin）
 
 ## 更新日志
 
-**※1、新增新的 Wine 安装器，并支持将安装的 Wine 打包到 Wine 程序 deb 包中**
-**※2、Wine 打包器打包 Windows 应用支持将 Wine 打包入 deb 内，可以不依赖 Wine（一般不推荐把 Wine 打包入内，推荐用依赖的形式），并支持设置自定义依赖和生成模板**
-**※3、开始初步多语言支持**
-**※4、修复了在没有安装任何 Wine 的情况下使用高级功能导致程序闪退的问题**
-**※5、支持云端自动获取数据配置 Wine 容器**
-**※6、支持手动导入配置文件自动配置 Wine 容器**
-**※7、新增从云端下载 Dll 的功能（目前导入了 Windows XP<32 位>、7<32位和64位>、2003<部分>、2008<部分>安装镜像的DLL）**
-**※8、修复了 Dll 提取工具不会在 winecfg 中添加原装的问题**
-9、修改错别字（图形话=>图形化）
-10、修复评分功能名称为空也可以上传评分的问题
-11、去除 toilet 依赖，使在 Deepin 23 Preview 上运行更佳
-12、支持删除所有由 Wine 创建的启动器快捷方式
+**※1、新增 VB Runtime 组件安装工具**
+**※2、优化自动配置容器搜索功能，搜索不区分大小写**
+**※3、新增 Wine 容器快捷键映射功能**
+**※4、修复在 arm 架构运行 Wine 时提示无法解压资源的问题**
+**※5、修复右键无法找到 Wine 运行器打开方式的问题**
+**※6、修复了容器自动配置脚本 GUI 解析器无法指定 Wine、容器以及位数的功能**
+**※7、容器自动配置脚本支持评分功能以及脚本内容介绍功能**
+**※8、支持添加自定义安装的 Wine**
+**※9、打包器打包的 arm 包支持同时支持 UOS 的 box86 和 exagear**
+**※10、提供了 Python 的自动配置脚本 API**
 
 # 截图
 
-![截图_选择区域_20220826143213.png](https://storage.deepin.org/thread/202208261437088825_截图_选择区域_20220826143213.png)
-
-![image.png](https://storage.deepin.org/thread/202208300703399289_image.png)
-
-![image.png](https://storage.deepin.org/thread/20220830070612503_image.png)
-
-![image.png](https://storage.deepin.org/thread/202208300706388804_image.png)
-
-![image.png](https://storage.deepin.org/thread/202208300707079300_image.png)
+![截图_选择区域_20221026213608.png](https://storage.deepin.org/thread/202210262151486316_截图_选择区域_20221026213608.png)
+![截图_选择区域_20221026213546.png](https://storage.deepin.org/thread/202210262151481582_截图_选择区域_20221026213546.png)
 
 ## 使用说明
 
@@ -128,6 +117,30 @@ desktop文件中StartupWMClass字段。用于让桌面组件将窗口类名与de
 第六个输入框是最终生成的包的包名,包名的命名规则以deepin开头，加官网域名（需要前后对调位置），如还不能区分再加上应用名
 最后一个是最终生成的包的版本号，版本号命名规则：应用版本号+deepin+数字
 
+# 在 Openkylin 安装方法
+
+首先添加作者的源：
+
+Gitlink 源（国内推荐）：
+
+```
+wget https://code.gitlink.org.cn/gfdgd_xi/gfdgd-xi-apt-mirrors/raw/branch/master/sources/gitlink.sh && bash gitlink.sh && rm gitlink.sh
+```
+
+Github 源（国外推荐）：
+
+```
+wget https://gfdgd-xi.github.io/gfdgd-xi-apt-mirrors/sources/github.sh && bash github.sh && rm github.sh
+```
+
+上面二选一，添加完后执行
+
+```bash
+sudo apt install spark-deepin-wine-runner
+```
+
+即可自动补全依赖安装（说实话 openkylin 缺的依赖好多）
+
 # 下载链接
 
 Gitee：https://gitee.com/gfdgd-xi/deep-wine-runner
@@ -142,4 +155,4 @@ Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 **最后说一下，如果想要在商业环境使用此APP，因为程序内附商业软件，请保证获得相关厂家授权或移除相关组件（移除用程序自带的删除组件功能即可）**
 **以及本程序在ARM架构上测试较少，可能容易翻车，建议不要在办公环境使用**
 **现在新增了通过SHA1值获取应用适配情况的功能，查看链接：https://gfdgd-xi.github.io/wine-runner-info/，如何贡献自己的适配情况？在 Wine 运行器进行评分即可**
-**自动配置文件的脚本如何编写/贡献？可见：https://gitlink.org.cn/gfdgd_xi/wine-runner-list/tree/master/auto 如果想要贡献请按照下面的要求进行Pr**
+**自动配置文件的脚本如何编写/贡献？可见程序 Wiki：https://gfdgd-xi.github.io/wine-runner-wiki/ 如果想要贡献请按照 Wiki 的要求进行Pr**
