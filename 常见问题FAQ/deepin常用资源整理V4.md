@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.0
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-11-01T13:04:56.351Z
+date: 2022-11-01T13:05:11.894Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
