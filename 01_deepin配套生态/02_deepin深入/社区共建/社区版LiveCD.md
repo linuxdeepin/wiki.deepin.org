@@ -2,13 +2,13 @@
 title: Deepin Community Live CD
 description: 一个社区制作的第三方 Live CD
 published: true
-date: 2022-10-21T01:54:12.176Z
+date: 2022-11-01T12:48:37.778Z
 tags: live cd
 editor: markdown
 dateCreated: 2022-07-31T02:45:00.884Z
 ---
 
-突然想到怎么打包会更加合适以及这个 Live CD 自带的应用商店有 bug，就更新了
+20.7 发布了，就跟进一下
 
 # 前言
 
@@ -28,11 +28,11 @@ deepin 发布的 Live CD 有点古老，功能有少许不全，在部分新电�
 **full 用户密码（包括root密码）为：123456**
 **tiny、mini、install root 密码未知**
 
-![image.png](https://storage.deepin.org/thread/202207241545033687_image.png)
+![image.png](https://storage.deepin.org/thread/202209112148168591_image.png)
 
-![image.png](https://storage.deepin.org/thread/20220724153824552_image.png)
+![image.png](https://storage.deepin.org/thread/202209112150178582_image.png)
 
-![image.png](https://storage.deepin.org/thread/202207241539149843_image.png)
+![image.png](https://storage.deepin.org/thread/202209112151255384_image.png)
 
 ## 打包所带的程序
 
@@ -56,23 +56,14 @@ deepin 发布的 Live CD 有点古老，功能有少许不全，在部分新电�
 18. QQ For Linux
 19. ……
 
-# 1.3.0 更新内容（1.3.0 只更新了 Full 版）
+# 更新内容
 
-1、优化制作方式，由原来基于安装后的系统进行设置打包改为直接基于安装镜像的系统进行修改，保留更多驱动
-2、更新里面自带的应用商店（之前版本的应用商店有 bug 实际是基本无法安装任何应用的），也从原来把应用列表写入到代码到从云端获取
+1、升级为基于 20.7，支持最新的 5.18.4-amd-desktop-hwe 内核
+2、修复星火源签名问题（且换成镜像源以提高安装速度）
+3、新增 15.11 版本
+**截止发稿，full最新 1.4.0，install 最新 1.2.1，mini最新1.2.1-1，tiny最新1.2.0-1，install版暂未更新**
 
-![image.png](https://storage.deepin.org/thread/202207241542372205_image.png)
-
-![image.png](https://storage.deepin.org/thread/202207241542501598_image.png)
-
-![image.png](https://storage.deepin.org/thread/202207241543067425_image.png)
-
-![image.png](https://storage.deepin.org/thread/202207241543211351_image.png)
-3、缩小体积，成功做到小于 2GB
-
-![image.png](https://storage.deepin.org/thread/202207241544299757_image.png)
-
-# 4个版本区别
+# 5个版本区别
 
 如果不想知道，无脑选 full  或 install 版本
 
@@ -80,30 +71,34 @@ deepin 发布的 Live CD 有点古老，功能有少许不全，在部分新电�
 
 （当然大小并不 tiny）只是在原版 Live CD 升级了内核，没有多的更新，也没有重新打包（所以壁纸也没有换），适用于应急或者空间、网速以及对功能要求不高且电脑配置较低以及语言非简体中文的用户
 目前只更新到 1.2.0 版本
+
+![image.png](https://storage.deepin.org/thread/202209112201077726_image.png)
 ![VirtualBox_deepin live cd Test_08_05_2022_15_42_04.png](https://storage.deepin.org/thread/202205081542284615_VirtualBox_deepinlivecdTest_08_05_2022_15_42_04.png)
 
 ![VirtualBox_deepin live cd Test_08_05_2022_15_36_25.png](https://storage.deepin.org/thread/202205081536449227_VirtualBox_deepinlivecdTest_08_05_2022_15_36_25.png)
-![VirtualBox_deepin live cd Test_08_05_2022_15_38_08.png](https://storage.deepin.org/thread/202205081538195299_VirtualBox_deepinlivecdTest_08_05_2022_15_38_08.png)
+![image.png](https://storage.deepin.org/thread/202209112203025802_image.png)
 
 ## mini 版
 
 在 tiny 版本的基础上，更新并预装了部分原来没有的应用，目前 1.1.0-mini 新预装了 vim、timeshift，将 lights-firefox 升级为 firefox，适用于嫌弃 full 版本空间大以及 tiny 版本功能不全和电脑配置较低以及语言非简体中文的用户
-![VirtualBox_Live CD Test_01_07_2022_20_25_31.png](https://storage.deepin.org/thread/202207012025549947_VirtualBox_LiveCDTest_01_07_2022_20_25_31.png)
+![image.png](https://storage.deepin.org/thread/202209112158229271_image.png)
+
 ![VirtualBox_Live CD Test_01_07_2022_20_19_56.png](https://storage.deepin.org/thread/20220701202418495_VirtualBox_LiveCDTest_01_07_2022_20_19_56.png)
 
 ![VirtualBox_Live CD Test_01_07_2022_20_24_01.png](https://storage.deepin.org/thread/202207012024198047_VirtualBox_LiveCDTest_01_07_2022_20_24_01.png)
-![VirtualBox_Live CD Test_01_07_2022_20_23_44.png](https://storage.deepin.org/thread/202207012024196258_VirtualBox_LiveCDTest_01_07_2022_20_23_44.png)
+![image.png](https://storage.deepin.org/thread/202209112200295894_image.png)
+
 ![VirtualBox_Live CD Test_01_07_2022_20_22_23.png](https://storage.deepin.org/thread/202207012024191528_VirtualBox_LiveCDTest_01_07_2022_20_22_23.png)
 ![VirtualBox_Live CD Test_01_07_2022_20_20_24.png](https://storage.deepin.org/thread/202207012024185466_VirtualBox_LiveCDTest_01_07_2022_20_20_24.png)
 
 ## full 版
 
-（和上面两个版本无关）基于 deepin 20.6 打包，功能较为完整、预装程序也比较多，但无法选择语言（即不能和 tiny、mini 版本一样启动选择语言），如果没有特殊的问题，建议使用这个版本
-![image.png](https://storage.deepin.org/thread/202207241545033687_image.png)
+（和上面两个版本无关）基于 deepin 20.7 打包，功能较为完整、预装程序也比较多，但无法选择语言（即不能和 tiny、mini 版本一样启动选择语言），如果没有特殊的问题，建议使用这个版本
+![image.png](https://storage.deepin.org/thread/202209112148168591_image.png)
 
-![image.png](https://storage.deepin.org/thread/20220724153824552_image.png)
+![image.png](https://storage.deepin.org/thread/202209112150178582_image.png)
 
-![image.png](https://storage.deepin.org/thread/202207241539149843_image.png)
+![image.png](https://storage.deepin.org/thread/202209112151255384_image.png)
 
 ## install
 
@@ -113,6 +108,17 @@ deepin 发布的 Live CD 有点古老，功能有少许不全，在部分新电�
 ![VirtualBox_Live CD Test_01_07_2022_20_15_47.png](https://storage.deepin.org/thread/202207012015595089_VirtualBox_LiveCDTest_01_07_2022_20_15_47.png)
 ![VirtualBox_Live CD Test_01_07_2022_20_17_13.png](https://storage.deepin.org/thread/202207012017254728_VirtualBox_LiveCDTest_01_07_2022_20_17_13.png)
 ![VirtualBox_Live CD Test_01_07_2022_20_18_48.png](https://storage.deepin.org/thread/202207012018581211_VirtualBox_LiveCDTest_01_07_2022_20_18_48.png)
+
+# 15.11 版
+
+基于 deepin 15.11 制作，满满的回忆
+比 full 版本的功能少一点，因为 Deepin 15.11 的底层有些老
+
+![image.png](https://storage.deepin.org/thread/202209112153411297_image.png)
+
+![image.png](https://storage.deepin.org/thread/202209112155289267_image.png)
+
+![image.png](https://storage.deepin.org/thread/202209112157046137_image.png)
 
 # 下载链接
 
