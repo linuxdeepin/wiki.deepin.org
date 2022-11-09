@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2022-11-09T07:59:27.896Z
+date: 2022-11-09T08:00:10.799Z
 tags: 编译
 editor: markdown
 dateCreated: 2022-11-09T07:55:57.406Z
@@ -70,7 +70,7 @@ C语言标准仅仅定义了C标准库函数原型，并没有提供实现。因
 
 由于GCC工具链主要是在Linux环境中进行使用，因此本文也将以Linux系统作为工作环境。为了能够演示编译的整个过程，本节先准备一个C语言编写的简单Hello程序作为示例，其源代码如下所示：
 
-
+```
 #include <stdio.h> 
 
 //此程序很简单，仅仅打印一个Hello World的字符串。
@@ -79,4 +79,24 @@ int main(void)
   printf("Hello World! \n");
   return 0;
 }
+```
+
+## 编译过程
+
+1.预处理
+
+预处理的过程主要包括以下过程：
+
+- 将所有的#define删除，并且展开所有的宏定义，并且处理所有的条件预编译指令，比如#if #ifdef #elif #else #endif等。
+- 处理#include预编译指令，将被包含的文件插入到该预编译指令的位置。
+- 删除所有注释“//”和“/* */”。
+- 添加行号和文件标识，以便编译时产生调试用的行号及编译错误警告行号。
+- 保留所有的#pragma编译器指令，后续编译过程需要使用它们。
+  使用gcc进行预处理的命令如下：
+  
+ ```
+ $ gcc -E hello.c -o hello.i // 将源文件hello.c文件预处理生成hello.i
+                        // GCC的选项-E使GCC在进行完预处理后即停止
+ 
+ ```
 
