@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2022-11-09T08:23:43.540Z
+date: 2022-11-09T08:24:41.674Z
 tags: 编译
 editor: markdown
 dateCreated: 2022-11-09T07:55:57.406Z
@@ -200,3 +200,16 @@ $ ldd hello //可以看出该可执行文件链接了很多其他动态库，主
         libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fadcdd82000)
         /lib64/ld-linux-x86-64.so.2 (0x00007fadce14c000)
 ```
+
+如果使用命令“gcc -static hello.c -o hello”则会使用静态库进行链接，生成的ELF可执行文件的大小（使用Binutils的size命令查看）和链接的动态库（使用Binutils的ldd命令查看）如下所示：
+
+```
+$ gcc -static hello.c -o hello
+$ size hello //使用size查看大小
+     text    data     bss     dec     hex filename
+ 823726    7284    6360  837370   cc6fa     hello //可以看出text的代码尺寸变得极大
+$ ldd hello
+       not a dynamic executable //说明没有链接动态库
+```
+
+链接器链接后生成的最终文件为ELF格式可执行文件，一个ELF可执行文件通常被链接为不同的段，常见的段譬如.text、.data、.rodata、.bss等段。
