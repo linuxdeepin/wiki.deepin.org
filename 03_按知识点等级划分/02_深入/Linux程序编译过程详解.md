@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2022-11-09T08:21:45.523Z
+date: 2022-11-09T08:22:56.233Z
 tags: 编译
 editor: markdown
 dateCreated: 2022-11-09T07:55:57.406Z
@@ -127,3 +127,39 @@ main(void)
 编译过程就是对预处理完的文件进行一系列的词法分析，语法分析，语义分析及优化后生成相应的汇编代码。
 
 使用gcc进行编译的命令如下：
+
+```
+$ gcc -S hello.i -o hello.s // 将预处理生成的hello.i文件编译生成汇编程序hello.s
+                        // GCC的选项-S使GCC在执行完编译后停止，生成汇编程序
+```
+
+上述命令生成的汇编程序hello.s的代码片段如下所示，其全部为汇编代码。
+
+```
+
+// hello.s代码片段
+
+main:
+.LFB0:
+    .cfi_startproc
+    pushq   %rbp
+    .cfi_def_cfa_offset 16
+    .cfi_offset 6, -16
+    movq    %rsp, %rbp
+    .cfi_def_cfa_register 6
+    movl    $.LC0, %edi
+    call    puts
+    movl    $0, %eax
+    popq    %rbp
+    .cfi_def_cfa 7, 8
+    ret
+    .cfi_endproc
+```
+
+### 3.汇编
+
+汇编过程调用对汇编代码进行处理，生成处理器能识别的指令，保存在后缀为.o的目标文件中。由于每一个汇编语句几乎都对应一条处理器指令，因此，汇编相对于编译过程比较简单，通过调用Binutils中的汇编器as根据汇编指令和处理器指令的对照表一一翻译即可。
+
+当程序由多个源代码文件构成时，每个文件都要先完成汇编工作，生成.o目标文件后，才能进入下一步的链接工作。注意：目标文件已经是最终程序的某一部分了，但是在链接之前还不能执行。
+
+使用gcc进行汇编的命令如下：
