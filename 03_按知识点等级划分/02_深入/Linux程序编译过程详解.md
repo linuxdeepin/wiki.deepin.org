@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2022-11-09T07:58:02.827Z
+date: 2022-11-09T07:59:27.896Z
 tags: 编译
 editor: markdown
 dateCreated: 2022-11-09T07:55:57.406Z
@@ -64,3 +64,19 @@ C运行库
 C语言标准主要由两部分组成：一部分描述C的语法，另一部分描述C标准库。C标准库定义了一组标准头文件，每个头文件中包含一些相关的函数、变量、类型声明和宏定义，譬如常见的printf函数便是一个C标准库函数，其原型定义在stdio头文件中。
 
 C语言标准仅仅定义了C标准库函数原型，并没有提供实现。因此，C语言编译器通常需要一个C运行时库（C Run Time Libray，CRT）的支持。C运行时库又常简称为C运行库。与C语言类似，C++也定义了自己的标准，同时提供相关支持库，称为C++运行时库。
+
+
+## 准备工作
+
+由于GCC工具链主要是在Linux环境中进行使用，因此本文也将以Linux系统作为工作环境。为了能够演示编译的整个过程，本节先准备一个C语言编写的简单Hello程序作为示例，其源代码如下所示：
+
+
+#include <stdio.h> 
+
+//此程序很简单，仅仅打印一个Hello World的字符串。
+int main(void)
+{
+  printf("Hello World! \n");
+  return 0;
+}
+
