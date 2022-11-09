@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2022-11-09T08:00:10.799Z
+date: 2022-11-09T08:00:51.551Z
 tags: 编译
 editor: markdown
 dateCreated: 2022-11-09T07:55:57.406Z
@@ -99,4 +99,26 @@ int main(void)
                         // GCC的选项-E使GCC在进行完预处理后即停止
  
  ```
+
+hello.i文件可以作为普通文本文件打开进行查看，其代码片段如下所示：
+
+
+```
+// hello.i代码片段
+
+extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+# 942 "/usr/include/stdio.h" 3 4
+
+# 2 "hello.c" 2
+
+
+# 3 "hello.c"
+int
+main(void)
+{
+  printf("Hello World!" "\n");
+  return 0;
+}
+
+```
 
