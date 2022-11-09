@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2022-11-09T08:20:12.839Z
+date: 2022-11-09T08:21:45.523Z
 tags: 编译
 editor: markdown
 dateCreated: 2022-11-09T07:55:57.406Z
@@ -122,3 +122,8 @@ main(void)
 
 ```
 
+2.编译
+
+编译过程就是对预处理完的文件进行一系列的词法分析，语法分析，语义分析及优化后生成相应的汇编代码。
+
+使用gcc进行编译的命令如下：
