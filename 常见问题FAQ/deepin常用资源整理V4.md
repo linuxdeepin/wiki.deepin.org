@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.0
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-11-01T13:05:11.894Z
+date: 2022-11-01T13:52:36.781Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -12,6 +12,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 > [PossibleVing](https://bbs.deepin.org/user/225373) 接手继续维护本文，感谢 [pzm9012](https://bbs.deepin.org/user/217969) 发起本文及曾经的默默付出。
 > [访问此文档的 deepin Wiki 页面](https://wiki.deepin.org/zh/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86V4)
 
+![](https://storage.deepin.org/thread/20221101193754405_QQ%E6%88%AA%E5%9B%BE20221101145721.png)
 在这里我整理了一些有帮助的资源，帮助大家更快捷地找到需要的内容。<br />感谢所有提供了资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
 > 部分资料来源于互联网，仅供学习交流使用，版权归原作者所有，若涉及侵权请联系我删除；
 > 解决方案仅供参考，**有效性详询发布者或可自行验证，请以实际操作为准**。
