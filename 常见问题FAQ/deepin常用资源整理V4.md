@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.0
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-11-01T13:52:36.781Z
+date: 2022-11-11T00:55:28.705Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -28,7 +28,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 ---
 
 <a name="jvYlO"></a>
-## 一、综合
+## 一、综合 {.tabset}
 <a name="NWCMv"></a>
 ### 1.1 入门
 
@@ -62,7 +62,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 5. PossibleVing：[https://www.possibleving.top/](https://www.possibleving.top/)
 
 <a name="okANN"></a>
-## 二、系统
+## 二、系统 {.tabset}
 <a name="QNdfM"></a>
 ### 2.1 系统安装
 :::tips
@@ -352,7 +352,7 @@ deepin的bilibili个人空间：[https://space.bilibili.com/137324885](https://s
 14. 20.6 deepin文字识别突然变得好用了？OCR升级的秘密在这里：[https://bbs.deepin.org/zh/post/238149](https://bbs.deepin.org/zh/post/238149)
 
 <a name="SgyTD"></a>
-## 三、应用软件
+## 三、应用软件 {.tabset}
 <a name="beGY0"></a>
 ### 3.1 应用分享和使用技巧
 你可以从**星火应用商店**（一款由社区爱好者维护，致力于丰富Linux生态的第三方应用商店）获取一些最新版本的Linux应用和开箱即用的wine应用。官网：[https://www.spark-app.store](https://www.spark-app.store)（[向星火商店捐赠](https://donate.deepinos.org.cn/donate/)）
@@ -631,7 +631,7 @@ Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应
 3. Unilang 官方仓库：[https://github.com/linuxdeepin/unilang](https://github.com/linuxdeepin/unilang)
 
 <a name="sxCw9"></a>
-## 四、社区与论坛
+## 四、社区与论坛 {.tabset}
 <a name="m9UJy"></a>
 ### 4.1 论坛使用
 
@@ -686,7 +686,7 @@ Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应
 14. 深度开源社区周报公示第14期（09.24-09.30）：[https://bbs.deepin.org/post/243742](https://bbs.deepin.org/post/243742)
 
 <a name="Ltiqi"></a>
-## 五、更多
+## 五、更多 {.tabset}
 <a name="fEWUJ"></a>
 ### 5.1 测评感受
 
