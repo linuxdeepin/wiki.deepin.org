@@ -1,49 +1,33 @@
 ---
 title: Fcitx5
-description: 
+description: 以 GPL 方式发布的输入法平台，可以通过安装引擎支持多种输入法，支持简入繁出
 published: true
-date: 2022-10-21T07:35:16.613Z
-tags: fcitx5
+date: 2022-11-11T01:23:20.978Z
+tags: 输入法
 editor: markdown
 dateCreated: 2022-06-16T02:34:38.778Z
 ---
 
-# Fcitx5
-
 Fcitx (Flexible Input Method Framework) ──即小企鹅输入法，它是一个以 GPL 方式发布的[输入法](http://old.deepin.wiki/index.php?title=输入法)平台，可以通过安装引擎支持多种输入法，支持简入繁出，是在 [Linux](http://old.deepin.wiki/index.php?title=Linux) 操作系统中常用的中文输入法。它的优点是，短小精悍、跟程序的兼容性比较好。下一代版本为 [Fcitx5](http://old.deepin.wiki/index.php?title=Fcitx5)。
-[跳到导航](http://old.deepin.wiki/index.php?title=Fcitx5#mw-head)[跳到搜索](http://old.deepin.wiki/index.php?title=Fcitx5#searchInput)
 
 Fcitx5 是继 [Fcitx](http://old.deepin.wiki/index.php?title=Fcitx) 后的新一代输入法框架。自 20.2.3 后被集成到仓库中，系统预装版本仍为 fcitx4。
-
-## 目录
-
-
-
-- [1安装](http://old.deepin.wiki/index.php?title=Fcitx5#.E5.AE.89.E8.A3.85)
-- 2输入法
-  - [2.1中文输入法](http://old.deepin.wiki/index.php?title=Fcitx5#.E4.B8.AD.E6.96.87.E8.BE.93.E5.85.A5.E6.B3.95)
-- [3个性化](http://old.deepin.wiki/index.php?title=Fcitx5#.E4.B8.AA.E6.80.A7.E5.8C.96)
-- 4提示与技巧
-  - [4.1添加词库](http://old.deepin.wiki/index.php?title=Fcitx5#.E6.B7.BB.E5.8A.A0.E8.AF.8D.E5.BA.93)
-- [5修改拼音输入法的中括号为简体中文样式](http://old.deepin.wiki/index.php?title=Fcitx5#.E4.BF.AE.E6.94.B9.E6.8B.BC.E9.9F.B3.E8.BE.93.E5.85.A5.E6.B3.95.E7.9A.84.E4.B8.AD.E6.8B.AC.E5.8F.B7.E4.B8.BA.E7.AE.80.E4.BD.93.E4.B8.AD.E6.96.87.E6.A0.B7.E5.BC.8F)
-- [6开启没有拼音的单行模式](http://old.deepin.wiki/index.php?title=Fcitx5#.E5.BC.80.E5.90.AF.E6.B2.A1.E6.9C.89.E6.8B.BC.E9.9F.B3.E7.9A.84.E5.8D.95.E8.A1.8C.E6.A8.A1.E5.BC.8F)
 
 ## 安装
 
 讯飞输入法、搜狗输入法等是在fcitx4框架的基础上，因此此类输入法将无法在 fcitx5 下使用。
 要在 deepin 上安装 fcitx5，首先应当先卸载现有的 fcitx4 输入法。
 
-```
+```bash
 sudo apt purge *fcitx*
 ```
 
 然后安装 fcitx5 框架
 
-```
+```bash
 sudo apt install fcitx5
 ```
 
-安装成功后要启用 fcitx5 还需要配置环境变量，编辑 `/etc/environment`
+安装成功后要启用 fcitx5 还需要配置环境变量，编辑 /etc/environment
 
 ```
 GTK_IM_MODULE=fcitx
@@ -60,7 +44,7 @@ SDL_IM_MODULE=fcitx
 
 安装中文输入法最简单的命令是：
 
-```
+```bash
 sudo apt install fcitx5-chinese-addons
 ```
 
@@ -87,7 +71,7 @@ sudo apt install fcitx5-chinese-addons
 
 ## 修改拼音输入法的中括号为简体中文样式
 
-将 `/usr/share/fcitx5/punctuation/punc.mb.zh_CN` 的 `[ ·` 和 `] 「」` 改成 `[ [` 和 `] ]` ，重启 fcitx5 即可。
+将 /usr/share/fcitx5/punctuation/punc.mb.zh_CN 的 `[ ·` 和 `] 「」` 改成 `[ [` 和 `] ]` ，重启 fcitx5 即可。
 
 ## 开启没有拼音的单行模式
 
