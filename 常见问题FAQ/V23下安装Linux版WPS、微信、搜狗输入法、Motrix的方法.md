@@ -2,7 +2,7 @@
 title: V23下安装Linux版WPS、微信、搜狗输入法、Motrix的方法
 description: 
 published: true
-date: 2022-11-15T07:52:48.338Z
+date: 2022-11-15T07:54:55.594Z
 tags: v23
 editor: markdown
 dateCreated: 2022-11-15T07:48:41.507Z
@@ -16,8 +16,6 @@ https://bbs.deepin.org/zh/post/241881
 
 ![2022-11-15_27529.png](/2022-11-15_27529.png)
 
-![2022-11-15_28082.png](/2022-11-15_28082.png)
-
 在此把安装方法分享给大家:
 
 一、WPSLinux版
@@ -29,10 +27,8 @@ ll-cli install cn.wps.wps-office
 
 搜狗拼音官网下载Linux-x86_64版本的deb包，双击运行deb包即可。
 
-![2022-11-15_35373.png](/2022-11-15_35373.png)
-
-
 ![2022-11-15_82879.png](/2022-11-15_82879.png)
+
 三、向日葵远程
 
 向日葵官网下载Linux-UOS版-amd64版的deb包，双击运行即可完成安装。
