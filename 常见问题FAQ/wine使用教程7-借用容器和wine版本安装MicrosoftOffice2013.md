@@ -2,7 +2,7 @@
 title: wine使用教程7-借用容器和wine版本安装MicrosoftOffice2013
 description: 
 published: true
-date: 2022-11-15T08:11:32.591Z
+date: 2022-11-15T08:15:19.197Z
 tags: office20113 wine
 editor: markdown
 dateCreated: 2022-11-15T08:04:53.630Z
@@ -79,6 +79,44 @@ WINEPREFIX=~/.deepinwine/Spark-Office ~/.deepinwine/Lwine7.1-my/bin/wine msiexec
 终端命令：
 
 WINEPREFIX=~/.deepinwine/Spark-Office ~/.deepinwine/Lwine7.1-my/bin/wine msiexec /i ~/.deepinwine/Lwine7.1-my/mono/wine-mono-7.1.1-x86.msi
+
+![2022-11-15_26174.png](/2022-11-15_26174.png)
+
+### 七、安装Microsoft Office 2013
+终端命令：
+
+WINEPREFIX=~/.deepinwine/Spark-Office ~/.deepinwine/Lwine7.1-my/bin/wine ~/Downloads/cn_office_professional_plus_2013_x86_x64_dvd_1149708/setup.exe
+
+上述命令结构解析：
+
+（1）字段1：WINEPREFIX=是指定的容器路径
+
+（2）字段2：~/.deepinwine/Lwine7.1-my/bin/wine是你所调用的wine的路径
+
+（3）字段3：最后接你要运行的exe程序的路径
+
+注意：不同字段之间有一个空格（英文输入法）。
+
+弹出Office的安装引导界面后，按提示操作安装即可。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
