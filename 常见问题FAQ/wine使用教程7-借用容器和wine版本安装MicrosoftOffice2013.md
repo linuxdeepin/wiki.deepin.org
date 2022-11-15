@@ -2,7 +2,7 @@
 title: wine使用教程7-借用容器和wine版本安装MicrosoftOffice2013
 description: 
 published: true
-date: 2022-11-15T08:38:06.880Z
+date: 2022-11-15T08:38:58.149Z
 tags: office20113 wine
 editor: markdown
 dateCreated: 2022-11-15T08:04:53.630Z
@@ -240,7 +240,23 @@ X-Deepin-Vendor=user-custom
 ![2022-11-15_39315.png](/2022-11-15_39315.png)
 ![2022-11-15_1187.png](/2022-11-15_1187.png)
 ![2022-11-15_28445.png](/2022-11-15_28445.png)
+![2022-11-15_10394.png](/2022-11-15_10394.png)
 ![2022-11-15_87089.png](/2022-11-15_87089.png)
+
+### ————补充————
+使用过程中，doc文件可以采用拖入Word中打开，或者在Word界面打开文件的方式打开，不要在doc文件右键选择Microsoft Word打开。如果在doc文件右键选择Microsoft Word打开，所调用的wine版本将不再是Lwine7.1-my/bin/wine，可能是调用的原生wine（也有可能是deepin-wine，究竟是哪一个我不太清楚），这会破坏Spark-Office容器环境。
+
+Excel、Access等同理。
+
+
+2022-7-3更新
+PowerPoint、OneNote无法运行的问题已解决，详见以下两篇帖子：
+
+https://bbs.deepin.org/post/239888
+
+https://bbs.deepin.org/post/239886
+
+补充：经使用发现，用wine运行MS Office后，会有残留后台进程。所以建议大家在退出MS Office的程序后，去系统监视器强制关闭MS Office有关的进程。
 
 
 
