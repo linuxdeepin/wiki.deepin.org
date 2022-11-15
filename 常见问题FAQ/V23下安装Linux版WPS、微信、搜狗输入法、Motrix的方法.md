@@ -2,7 +2,7 @@
 title: V23下安装Linux版WPS、微信、搜狗输入法、Motrix的方法
 description: 
 published: true
-date: 2022-11-15T07:52:07.782Z
+date: 2022-11-15T07:52:48.338Z
 tags: v23
 editor: markdown
 dateCreated: 2022-11-15T07:48:41.507Z
@@ -14,8 +14,7 @@ https://bbs.deepin.org/zh/post/241881
 
 昨天晚上将Deepin V23 preview安装到了我的一台联想Miix520实体机上，手动分区（分区方案：efi-300MB，/boot-512MB，/-80GB，/home-剩余空间，/recovery-15GB，linux-swap-11GB），安装顺利。硬件驱动正常、系统使用正常。在玲珑网页商店安装QQLinux版、QQ音乐、VLC、迅雷、谷歌浏览器、wine版TIM。然后自己手动安装了几款在玲珑网页商店找不到的应用（WPSLinux版、搜狗拼音Linux版、向日葵远程、微信Linux版、Motrix下载器），效果：
 
-![2022-11-15_67553.png](/2022-11-15_67553.png)
-
+![2022-11-15_27529.png](/2022-11-15_27529.png)
 
 ![2022-11-15_28082.png](/2022-11-15_28082.png)
 
