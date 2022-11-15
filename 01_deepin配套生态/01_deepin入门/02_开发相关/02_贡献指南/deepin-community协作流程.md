@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2022-11-09T11:47:20.254Z
+date: 2022-11-15T07:18:59.599Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -51,7 +51,22 @@ info： 项目描述
 
 **四、软件包集成**
 
-通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。
+通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。示例[Repository-Integration/pull/1](https://github.com/deepin-community/Repository-Integration/pull/1)
+集成步骤：
+1. 在[Repository-Integration](https://github.com/deepin-community/Repository-Integration) 提交PR
+
+2. 修改intergration.yml文件提交填写集成的软件包，以及版本
+		集成软件包的名称必须为deepin-community下的正确的仓库名，tag也必须存在，一次可集成多个软件包，请按照格式填完写yml文件
+    字段说明
+    repo #软件包名称
+    tag #tag版本
+    order #构建级别，相同级别并发构建，不同级别按照大小依次构建，最高支持1-10个级别，1为最高优先级。设置该字段目的是为了解决同一批次集成多个软件包中有依赖顺序的情况。
+
+3. 提交PR
+	PR提交后相关工作流开始执行，检查结构会由机器人在当前PR下添加评论，有些项目需要进行管理员进行revie进阅读相关提示
+  
+4. 集成完毕
+	 集成完毕后PR会被关闭，所提交的软件包会自动构建后合入[testing仓库](https://ci.deepin.com/repo/release/beige/pool/main/) 中，后续按仓库流转规范合入主仓库中
 
 TODO:
 
