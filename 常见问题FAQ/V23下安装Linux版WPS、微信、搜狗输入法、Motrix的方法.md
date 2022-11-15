@@ -2,7 +2,7 @@
 title: V23下安装Linux版WPS、微信、搜狗输入法、Motrix的方法
 description: 
 published: true
-date: 2022-11-15T07:50:06.659Z
+date: 2022-11-15T07:51:02.910Z
 tags: v23
 editor: markdown
 dateCreated: 2022-11-15T07:48:41.507Z
@@ -27,13 +27,15 @@ ll-cli install cn.wps.wps-office
 
 搜狗拼音官网下载Linux-x86_64版本的deb包，双击运行deb包即可。
 
+![2022-11-15_35373.png](/2022-11-15_35373.png)
+
+
 ![2022-11-15_82879.png](/2022-11-15_82879.png)
 三、向日葵远程
 
 向日葵官网下载Linux-UOS版-amd64版的deb包，双击运行即可完成安装。
 
-截图_选择区域_20220820112711.png
-
+![2022-11-15_67718.png](/2022-11-15_67718.png)
 这里提醒一下，安装好之后在启动器和桌面看不到向日葵的图标，你只需要在/opt/apps/com.oray.sunlogin.client/entries/applications里找到向日葵的图标，复制到以下两个文件夹内即可：
 
 ~/Desktop
@@ -60,7 +62,7 @@ ll-cli install cn.wps.wps-office
 
 将/opt/apps/store.spark-app.wechat-linux-spark/entries/icons/hicolor里相应尺寸的png文件（或者它们同名的快捷方式）复制到/persistent/linglong/entries/share/icons/hicolor对应尺寸的文件夹下的apps文件夹下（我只截图展示48×48尺寸的，实际上16×16、32×32、128×128、256×256尺寸都需要做同样的操作）。
 
-截图_选择区域_20220820113831.png
+![2022-11-15_31756.png](/2022-11-15_31756.png)
 
 弄好之后重新登录或者重启一下系统，图标就显示正常了。
 
