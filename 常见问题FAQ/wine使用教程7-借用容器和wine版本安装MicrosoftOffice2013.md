@@ -2,7 +2,7 @@
 title: wine使用教程7-借用容器和wine版本安装MicrosoftOffice2013
 description: 
 published: true
-date: 2022-11-15T08:15:19.197Z
+date: 2022-11-15T08:35:57.848Z
 tags: office20113 wine
 editor: markdown
 dateCreated: 2022-11-15T08:04:53.630Z
@@ -99,12 +99,126 @@ WINEPREFIX=~/.deepinwine/Spark-Office ~/.deepinwine/Lwine7.1-my/bin/wine ~/Downl
 
 弹出Office的安装引导界面后，按提示操作安装即可。
 
+![2022-11-15_53477.png](/2022-11-15_53477.png)
 
 
+![2022-11-15_62606.png](/2022-11-15_62606.png)
+
+![2022-11-15_36891.png](/2022-11-15_36891.png)
+
+### 八、测试运行
+终端命令：
+
+WINEPREFIX=~/.deepinwine/Spark-Office ~/.deepinwine/Lwine7.1-my/bin/wine "c:/Program Files (x86)/Microsoft Office/Office15/WINWORD.EXE"
+
+上述命令结构解析：
+
+（1）字段1：WINEPREFIX=是指定的容器路径
+
+（2）字段2：~/.deepinwine/Lwine7.1-my/bin/wine是你所调用的wine的路径
+
+（3）字段3：最后接英文双引号，双引号内是你要运行的exe程序在容器drive_c（即模拟的c盘）中的路径，这里测试的Word的路径
 
 
+成功连接服务器，并提示激活Office。（某宝上5块一个激活码）
+
+### ![2022-11-15_29262.png](/2022-11-15_29262.png)
 
 
+### 九、制作桌面图标
+以Access的图标为例，在桌面新建一个txt文件，命名为MSACCESS.txt，复制以下内容到txt文件里：
+
+[Desktop Entry]
+Categories=Application
+Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Spark-Office /home/$USER/.deepinwine/Lwine7.1-my/bin/wine "c:/Program Files (x86)/Microsoft Office/Office15/MSACCESS.EXE"'
+Icon=MSACCESS
+MimeType=
+Name=Access
+StartupNotify=true
+Type=Application
+X-Deepin-Vendor=user-custom
+
+保存退出txt，右键重命名，把这个txt文件的后缀改为desktop，最终文件名为：MSACCESS.desktop
+
+![2022-11-15_99413.png](/2022-11-15_99413.png)
+
+注：
+
+Exec= ————sh -c '字段1：用WINEPREFIX指定容器路径 字段2：wine的路径 "字段3：exe程序在虚拟C盘里的路径"' 注意这里有一个单引号和一个双引号（英文输入法）。
+
+Icon= ————指图标路径，如果图标在/usr/share/icons/hicolor/scalable/apps文件夹，就不用写完整路径，只需要写图标文件的文件名（不写文件后缀）。楼主把svg图标已经制作好了，你可以直接下载使用office图标.zip。下载解压，然后里面的6个svg图标复制到/usr/share/icons/hicolor/scalable/apps下。（注意，需要在apps文件夹里右键——以管理员身份打开）
+
+Name= ————图标文件显示的名称，这里填Access
+
+特别说明，Exec=后面不能用~来代替/home/$USER
+
+Word、Excel、PowerPoint等的图标制作方法一样，就不一一介绍了，内容如下：
+
+
+#### Word：
+```
+[Desktop Entry]
+Categories=Application
+Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Spark-Office /home/$USER/.deepinwine/Lwine7.1-my/bin/wine "c:/Program Files (x86)/Microsoft Office/Office15/WINWORD.EXE"'
+Icon=MSWORD
+MimeType=
+Name=Word
+StartupNotify=true
+Type=Application
+X-Deepin-Vendor=user-custom
+```
+
+#### Excel：
+```
+[Desktop Entry]
+Categories=Application
+Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Spark-Office /home/$USER/.deepinwine/Lwine7.1-my/bin/wine "c:/Program Files (x86)/Microsoft Office/Office15/EXCEL.EXE"'
+Icon=MSEXCEL
+MimeType=
+Name=EXCEL
+StartupNotify=true
+Type=Application
+X-Deepin-Vendor=user-custom
+```
+
+#### Outlook：
+```
+[Desktop Entry]
+Categories=Application
+Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Spark-Office /home/$USER/.deepinwine/Lwine7.1-my/bin/wine "c:/Program Files (x86)/Microsoft Office/Office15/OUTLOOK.EXE"'
+Icon=MSOUTLOOK
+MimeType=
+Name=Outlook
+StartupNotify=true
+Type=Application
+X-Deepin-Vendor=user-custom
+```
+
+#### POWERPNT：
+```
+[Desktop Entry]
+Categories=Application
+Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Spark-Office /home/$USER/.deepinwine/Lwine7.1-my/bin/wine "c:/Program Files (x86)/Microsoft Office/Office15/POWERPNT.EXE"'
+Icon=MSPOWERPNT
+MimeType=
+Name=POWERPNT
+StartupNotify=true
+Type=Application
+X-Deepin-Vendor=user-custom
+```
+
+#### OnoNote：
+```
+[Desktop Entry]
+Categories=Application
+Exec=sh -c 'WINEPREFIX=/home/$USER/.deepinwine/Spark-Office /home/$USER/.deepinwine/Lwine7.1-my/bin/wine "c:/Program Files (x86)/Microsoft Office/Office15/ONENOTE.EXE"'
+Icon=MSONENOTE
+MimeType=
+Name=OneNote
+StartupNotify=true
+Type=Application
+X-Deepin-Vendor=user-custom
+```
 
 
 
