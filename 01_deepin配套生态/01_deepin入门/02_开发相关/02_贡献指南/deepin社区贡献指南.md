@@ -2,7 +2,7 @@
 title: deepin-community 贡献指南
 description: 
 published: true
-date: 2022-11-16T07:31:45.037Z
+date: 2022-11-16T07:34:34.719Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T05:55:30.564Z
@@ -13,7 +13,7 @@ dateCreated: 2022-09-08T05:55:30.564Z
 [deepin-community](https://github.com/deepin-community) 组织用于维护 deepin 发行版中的所有软件包，这些仓库的代码一般都是直接从上游仓库复制而来，且在它的基础上添加与打包相关的 debian 目录，日常只会修改此目录来维护上游项目。deepin 发行版相关的所有开发和维护工作均在此组织中进行。
 
 # 贡献指南
-本文默认为您已经了解了代码贡献流程，如您对此方面存在疑惑，请参阅[贡献者手册](/zh/开发者指南/贡献指南/deepin-community-contributing-handbook)
+本文默认为您已经了解了代码贡献流程，如您对此方面存在疑惑，请参阅[贡献者手册](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/02_%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/%E5%8F%82%E4%B8%8E%E5%85%B1%E4%BA%AB)
 
 # 预备知识
 ## deepin 发行版的工作模式
