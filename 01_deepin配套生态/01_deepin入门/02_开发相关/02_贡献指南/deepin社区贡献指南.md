@@ -2,7 +2,7 @@
 title: deepin-community 贡献指南
 description: 
 published: true
-date: 2022-10-19T08:44:24.794Z
+date: 2022-11-16T07:31:45.037Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T05:55:30.564Z
@@ -17,21 +17,21 @@ dateCreated: 2022-09-08T05:55:30.564Z
 
 # 预备知识
 ## deepin 发行版的工作模式
-关于软件包到仓库的流程请参阅[仓库流转规范](/zh/开发者指南/贡献指南/仓库流转规范)
+关于软件包到仓库的流程请参阅[仓库流转规范](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/04_%E4%BB%93%E5%BA%93/%E4%BB%93%E5%BA%93%E6%B5%81%E8%BD%AC%E8%A7%84%E8%8C%83)
 ## ISO 构建&发布流程
-关于ISO构建与发布相关流程请参阅[ISO构建&发布流程](/zh/开发者指南/贡献指南/ISO构建&发布流程)
+关于ISO构建与发布相关流程请参阅[ISO构建&发布流程](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/ISO%E6%9E%84%E5%BB%BA&%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
 
 ## topic仓库机制说明
-关于存放构建产物，方便多项目交互开发[topic仓库机制](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/topic%E4%BB%93%E5%BA%93%E6%9C%BA%E5%88%B6%E8%AF%B4%E6%98%8E)
+关于存放构建产物，方便多项目交互开发[topic仓库机制](https://wiki.deepin.org/zh/02_%E6%8C%89%E8%BD%AF%E4%BB%B6%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86/02_%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D/01_%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9/topic%E4%BB%93%E5%BA%93%E6%9C%BA%E5%88%B6%E8%AF%B4%E6%98%8E)
 
 ## 软件开发生命周期管理
-关于软件包的引入退出原则介绍[软件开发生命周期管理](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%AE%A1%E7%90%86)
+关于软件包的引入退出原则介绍[软件开发生命周期管理](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/01_%E8%BD%AF%E4%BB%B6%E5%8C%85/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%AE%A1%E7%90%86)
 
 ## 软件包构建指南
-关于deepin下的软件包构建说明[软件包构建](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/%E8%BD%AF%E4%BB%B6%E5%8C%85%E6%9E%84%E5%BB%BA)
+关于deepin下的软件包构建说明[软件包构建](https://wiki.deepin.org/zh/02_%E6%8C%89%E8%BD%AF%E4%BB%B6%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86/02_%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D/01_%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7/%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9/%E5%A6%82%E4%BD%95%E5%9C%A8deepin%E7%A4%BE%E5%8C%BA%E6%9E%84%E5%BB%BAdeb%E6%A0%BC%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%8C%85)
 
 ## 分支与tag管理
-关于deepin-community组织下的分支与tag管理请参阅[deepin-community分支与Tag管理](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/deepin-community%E5%88%86%E6%94%AF%E4%B8%8ETag%E7%AE%A1%E7%90%86)
+关于deepin-community组织下的分支与tag管理请参阅[deepin-community分支与Tag管理](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/deepin-community%E5%88%86%E6%94%AF%E4%B8%8ETag%E7%AE%A1%E7%90%86)
 
 ## 可接受的代码形式
 > ps: 所有代码形式应该以 GitHub 的 Fork + Pull Request 模式提交
@@ -47,7 +47,7 @@ dateCreated: 2022-09-08T05:55:30.564Z
 修改源码形式同步上游新版本的代码，commit注明上游版本来源，若该项目有针对deepin环境下的特有patch则应保证patch的正常应用。
 
 ### 软件包的更新/删除/新增
-[软件包的更新/删除/新增](https://wiki.deepin.org/zh/%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%9A%84%E6%B7%BB%E5%8A%A0/%E6%9B%B4%E6%96%B0/%E5%88%A0%E9%99%A4)
+[软件包的更新/删除/新增](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/01_%E8%BD%AF%E4%BB%B6%E5%8C%85/%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%9A%84%E6%B7%BB%E5%8A%A0_%E6%9B%B4%E6%96%B0_%E5%88%A0%E9%99%A4)
 
 # 社区角色
 ## 贡献者 Contributor
