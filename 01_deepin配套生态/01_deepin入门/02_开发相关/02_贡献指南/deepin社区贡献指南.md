@@ -2,7 +2,7 @@
 title: deepin-community 贡献指南
 description: 
 published: true
-date: 2022-11-16T07:34:34.719Z
+date: 2022-11-16T07:36:53.083Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-08T05:55:30.564Z
@@ -32,6 +32,9 @@ dateCreated: 2022-09-08T05:55:30.564Z
 
 ## 分支与tag管理
 关于deepin-community组织下的分支与tag管理请参阅[deepin-community分支与Tag管理](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/deepin-community%E5%88%86%E6%94%AF%E4%B8%8ETag%E7%AE%A1%E7%90%86)
+
+## deepin-community协作流程
+ 	  关于代码提交，commit检查，软件包的集成，仓库的创建等流程请参考该文档, [deepin-community协作流程](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/02_%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/deepin-community%E5%8D%8F%E4%BD%9C%E6%B5%81%E7%A8%8B)
 
 ## 可接受的代码形式
 > ps: 所有代码形式应该以 GitHub 的 Fork + Pull Request 模式提交
