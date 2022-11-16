@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2022-11-16T02:32:37.751Z
+date: 2022-11-16T05:16:52.781Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -31,6 +31,8 @@ info： 项目描述
 4. 提交PR
 5. 等待review (请联系sig对应的管理员review代码)
    为方便开发集成等相关工作我们开发了topic仓库机制、Pull Request 机器人等工具，这于这些工具的使用可以参照wiki，[Pull Request 机器人命令列表](https://wiki.deepin.org/zh/02_%E6%8C%89%E8%BD%AF%E4%BB%B6%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86/02_%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D/01_%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9/pull-request-bot-commands-list)   [topic仓库机制说明](https://wiki.deepin.org/zh/02_%E6%8C%89%E8%BD%AF%E4%BB%B6%E5%8A%9F%E8%83%BD%E5%88%92%E5%88%86/02_%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D/01_%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9/topic%E4%BB%93%E5%BA%93%E6%9C%BA%E5%88%B6%E8%AF%B4%E6%98%8E)
+6. commit构建的产物存放在develop仓库中
+	`develop仓库地址：deb [trusted=yes] https://ci.deepin.com/repo/develop/beige/ develop main dde`
 
 **三、 CI/CD**
 
