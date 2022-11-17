@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2022-11-17T03:03:46.628Z
+date: 2022-11-17T03:05:09.081Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -74,7 +74,8 @@ info： 项目描述
 	 集成的历史信息记录在[records.yml](https://github.com/deepin-community/Repository-Integration/blob/master/records.yml)文件中
  
 5. 集成完毕
-	 集成完毕后PR会被关闭，所提交的软件包会自动构建后合入[testing仓库](https://ci.deepin.com/repo/release/beige/pool/main/) 中，后续按仓库流转规范合入主仓库中
+	 集成完毕后PR会被关闭，所提交的软件包会自动构建后合入[testing仓库](https://ci.deepin.com/repo/release/beige/pool/main/) 中，后续按仓库流转规范合入主仓库中, 仓库介绍详情请参阅[仓库流转规范](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/04_%E4%BB%93%E5%BA%93/%E4%BB%93%E5%BA%93%E6%B5%81%E8%BD%AC%E8%A7%84%E8%8C%83)
+
 
 TODO:
 
