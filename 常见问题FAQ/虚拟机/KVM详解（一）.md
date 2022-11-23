@@ -1,8 +1,8 @@
 ---
-title: KVM详解（一）
+title: KVM详解（一）——KVM基础知识
 description: 
 published: true
-date: 2022-11-23T01:18:42.921Z
+date: 2022-11-23T01:33:46.690Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T01:13:13.219Z
