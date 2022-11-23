@@ -2,7 +2,7 @@
 title: KVM详解（二）——KVM安装部署
 description: 
 published: true
-date: 2022-11-23T01:24:52.356Z
+date: 2022-11-23T01:25:32.996Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T01:21:26.084Z
@@ -86,3 +86,19 @@ virt-manager
 `BRIDGE="br0"`
 
 完成后的配置文件如下所示：
+
+![2022-11-23_91094.png](/2022-11-23_91094.png)
+
+之后，我们在网卡目录下创建名为“ifcfg-br0”的网卡文件，其内容（IP地址和子网掩码相关配置请根据虚拟机网络实际填写）如下：
+```
+DEVICE="br0"
+NM_CONTROLLERD="yes"
+ONBOOT="yes"
+TYPE="Bridge"
+BOOTPROTO=none
+IPADDR=192.168.136.15
+NETMASK=255.255.255.0
+GATEWAY=192.168.136.254
+DNS1=114.114.114.114
+```
+配置完成后如下所示：
