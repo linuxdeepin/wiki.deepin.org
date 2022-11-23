@@ -2,7 +2,7 @@
 title: KVM详解（一）
 description: 
 published: true
-date: 2022-11-23T01:16:10.696Z
+date: 2022-11-23T01:18:42.921Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T01:13:13.219Z
@@ -30,3 +30,7 @@ KVM，Kernel Virtual Machine的简写，即基于内核的虚拟机。自Linux2.
 KVM的虚拟化实现是使用Linux自身的调度器进行管理，核心源码较少。在KVM中，每一个虚拟机都是由Linux调度程序管理的标准进程。但是KVM虚拟化的实现需要硬件支持（比如Intel的VT技术和AMD的V技术），是基于硬件的完全虚拟化。
 KVM官网网址为：https://www.linux-kvm.org/，其主页面如下所示：
 
+![2022-11-23_13453.png](/2022-11-23_13453.png)
+
+三、QEMU简介
+由于KVM使用了类似QEMU的仿模拟处理器，因此在最后我们再介绍一下QEMU。QEMU是由Fabrice Bellard所编写的一款模拟处理器软件，遵循GPL协议，在Linux平台上被广泛使用。QEMU具有跨平台、高速度的特性，其运行速度能够接近真实计算机的速度。
