@@ -2,7 +2,7 @@
 title: KVM详解（六）——KVM虚拟机快照
 description: 
 published: true
-date: 2022-11-24T12:55:21.538Z
+date: 2022-11-24T12:56:20.649Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:45:21.199Z
@@ -52,4 +52,23 @@ virsh snapshot-create-as 【虚拟机名】 【快照名】
 virsh snapshot-create-as centos7-1.qcow2 snapshot-2
 
 上述命令可以为centos7-1.qcow2创建名为snapshot-2的快照，该命令执行结果如下：
+
+![2022-11-24_13113.png](/2022-11-24_13113.png)
+
+
+![2022-11-24_24134.png](/2022-11-24_24134.png)
+
+
+> 注意：
+在使用qemu-img命令时，我们可以查看快照的大小。在上图中，我们可以发现快照大小为0，这是由快照的创建原理所决定的。当快照创建后，KVM虚拟机会将当前的系统磁盘所固定，对磁盘新的修改会避免使用该空间，因此如果我们创建快照后，并没有对系统进行更改，快照的大小就为0。
+
+当KVM虚拟机有多个快照时，我们可以执行命令：
+
+virsh snapshot-current 【虚拟机名称】
+
+来查看KVM虚拟机当前使用的快照，查看该虚拟机当前使用的快照命令如下：
+
+virsh snapshot-current centos7-1.qcow2
+
+该命令执行结果如下：
 
