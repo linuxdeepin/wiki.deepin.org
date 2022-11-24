@@ -2,7 +2,7 @@
 title: KVM详解（六）——KVM虚拟机快照
 description: 
 published: true
-date: 2022-11-24T12:56:20.649Z
+date: 2022-11-24T12:57:29.380Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:45:21.199Z
@@ -20,23 +20,23 @@ KVM的虚拟机在创建快照后，就相当于对该虚拟机定位了一个�
 
 KVM的快照创建命令格式如下：
 
-virsh snapshot-create 【虚拟机名称】
+`virsh snapshot-create 【虚拟机名称】`
 
 例如，我们要给虚拟机centos7-1.qcow2创建快照，则可以执行命令：
 
-virsh snapshot-create centos7-1.qcow2
+`virsh snapshot-create centos7-1.qcow2`
 
 KVM虚拟机快照查看命令格式如下：
 
-virsh snapshot-list 【虚拟机名称】
+`virsh snapshot-list 【虚拟机名称】`
 
 或者是：
 
-qemu-img info 【虚拟机名称】
+`qemu-img info 【虚拟机名称】`
 
 要查看我们创建的快照，可以执行命令：
 
-virsh snapshot-list centos7-1.qcow2
+`virsh snapshot-list centos7-1.qcow2`
 
 上述命令执行结果如下：
 
@@ -45,11 +45,11 @@ virsh snapshot-list centos7-1.qcow2
 
 可以看出，我们成功的为KVM虚拟机创建了快照。但是，在这种创建方式中，快照的名称由KVM随机指定分配。如果我们想自己指定虚拟机的快照名称，则可以执行命令：
 
-virsh snapshot-create-as 【虚拟机名】 【快照名】
+`virsh snapshot-create-as 【虚拟机名】 【快照名】`
 
 命令示例如下：
 
-virsh snapshot-create-as centos7-1.qcow2 snapshot-2
+`virsh snapshot-create-as centos7-1.qcow2 snapshot-2`
 
 上述命令可以为centos7-1.qcow2创建名为snapshot-2的快照，该命令执行结果如下：
 
