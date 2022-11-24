@@ -2,7 +2,7 @@
 title: KVM详解（六）——KVM虚拟机快照
 description: 
 published: true
-date: 2022-11-24T12:59:34.974Z
+date: 2022-11-24T13:00:07.627Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:45:21.199Z
@@ -106,4 +106,4 @@ KVM快照删除命令格式如下：
 
 该命令执行结果如下：
 
-
+![2022-11-24_57535.png](/2022-11-24_57535.png)
