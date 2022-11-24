@@ -2,7 +2,7 @@
 title: KVM详解（五）——KVM虚拟机镜像格式
 description: 
 published: true
-date: 2022-11-24T12:40:47.110Z
+date: 2022-11-24T12:42:33.369Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:38:08.010Z
@@ -33,3 +33,33 @@ qemu-img命令查看虚拟机镜像命令为：
 执行命令：
 
 `qemu-img info centos7-2.img`
+
+可以查看centos7-2.img的镜像格式，结果如下所示：
+
+![2022-11-24_53702.png](/2022-11-24_53702.png)
+
+可以看出，该镜像的格式为qcow2。
+qemu-img进行虚拟机镜像格式转换命令为：
+
+`qemu-img convert -f 【原镜像格式】 -O 【转换后】 【源虚拟机镜像】 【转换后虚拟机镜像】`
+
+该命令执行示例如下：
+
+`qemu-img convert -f qcow2 -O raw centos7-2.img /var/lib/libvirt/images/centos7-2.img /var/lib/libvirt/images/centos7-2.raw`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
