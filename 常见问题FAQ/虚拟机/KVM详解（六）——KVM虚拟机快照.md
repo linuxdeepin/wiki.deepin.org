@@ -2,7 +2,7 @@
 title: KVM详解（六）——KVM虚拟机快照
 description: 
 published: true
-date: 2022-11-24T13:00:07.627Z
+date: 2022-11-24T13:01:49.909Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:45:21.199Z
@@ -94,7 +94,7 @@ KVM快照恢复命令格式如下：
 
 ![2022-11-24_83091.png](/2022-11-24_83091.png)
 
-四、KVM快照删除
+## 四、KVM快照删除
 最后，我们来讲解一下KVM的快照删除。
 KVM快照删除命令格式如下：
 
