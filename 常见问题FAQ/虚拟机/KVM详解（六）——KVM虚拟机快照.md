@@ -2,7 +2,7 @@
 title: KVM详解（六）——KVM虚拟机快照
 description: 
 published: true
-date: 2022-11-24T12:57:29.380Z
+date: 2022-11-24T12:59:34.974Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:45:21.199Z
@@ -64,11 +64,46 @@ KVM虚拟机快照查看命令格式如下：
 
 当KVM虚拟机有多个快照时，我们可以执行命令：
 
-virsh snapshot-current 【虚拟机名称】
+`virsh snapshot-current 【虚拟机名称】`
 
 来查看KVM虚拟机当前使用的快照，查看该虚拟机当前使用的快照命令如下：
 
-virsh snapshot-current centos7-1.qcow2
+`virsh snapshot-current centos7-1.qcow2`
 
 该命令执行结果如下：
+
+![2022-11-24_3998.png](/2022-11-24_3998.png)
+
+可以看出，在当前该虚拟机的快照为snapshot-2。
+
+> 注意：
+KVM支持在开机状态下对虚拟机做快照，这样的快照会记录下当前系统内存的数据，当下次启动时会将该数据取出，并恢复为开机状态。
+但是，由于要将内存中的数据写入磁盘，因此在开机状态下创建快照时要花费较长的时间。
+
+## 三、KVM快照恢复
+接下来，我们来介绍一下KVM的快照恢复。
+KVM快照恢复命令格式如下：
+
+`virsh snapshot-revert 【虚拟机名】 【快照名】`
+
+例如，执行命令：
+
+`virsh snapshot-revert cetos7-1.qcow2 1649751390`
+
+可以将centos7-1.qcow2虚拟机恢复为1649751390的快照状态。该命令执行结果如下：
+
+![2022-11-24_83091.png](/2022-11-24_83091.png)
+
+四、KVM快照删除
+最后，我们来讲解一下KVM的快照删除。
+KVM快照删除命令格式如下：
+
+`virsh snapshot-delet 【虚拟机名】 【快照名】`
+
+例如，如果我们要删除虚拟机centos7-1的1649751390的快照，可以执行命令：
+
+`virsh snapshot-delete centos7-1.qcow2 1649751390`
+
+该命令执行结果如下：
+
 
