@@ -2,7 +2,7 @@
 title: KVM详解（五）——KVM虚拟机镜像格式
 description: 
 published: true
-date: 2022-11-24T12:40:01.113Z
+date: 2022-11-24T12:40:10.387Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:38:08.010Z
@@ -20,3 +20,10 @@ cow、qcow和qcow2是另外的镜像格式，cow格式、qcow格式目前已经�
 
 （三）vmdk格式
 vmdk是Vmware虚拟的镜像格式，其整体性能非常出色，稳定性和其他方面的能力很好，也支持快照。
+
+二、KVM虚拟机镜像格式转换
+下面，我来介绍一下KVM的虚拟机镜像格式转换方法。
+
+（一）qemu命令修改虚拟机镜像格式
+qemu-img命令可以被用来查看虚拟机镜像格式，并对虚拟机镜像格式进行转换。
+qemu-img命令查看虚拟机镜像命令为：
