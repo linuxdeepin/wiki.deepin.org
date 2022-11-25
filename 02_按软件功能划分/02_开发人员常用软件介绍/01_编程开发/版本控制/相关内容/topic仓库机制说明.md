@@ -2,7 +2,7 @@
 title: topic仓库机制说明
 description: 仓库
 published: true
-date: 2022-10-25T03:23:13.954Z
+date: 2022-11-25T07:09:58.066Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-15T08:19:12.095Z
@@ -28,7 +28,7 @@ dateCreated: 2022-09-15T08:19:12.095Z
 
 3. 修复代码，推送topic开头命令的分支到个人账户下的仓库中
 4. 提交PR，从topic分支合入到upstream的master分支
-5. PR被合并时候对应的topic仓库将被创建
+5. 构建通过后对于的deb包自动推送到topic仓库中
 
 ```plain
 仓库地址：https://ci.deepin.com/repo/topics/beige/ #合并之后自动在ci仓库下创建grep-test的仓库
