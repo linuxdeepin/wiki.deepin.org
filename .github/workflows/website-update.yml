@@ -12,6 +12,4 @@ jobs:
     steps:
       - name: Trigger deepin website update
         run: |
-          echo wait 30 seconds
-          sleep 30
           curl ${{ secrets.DEEPIN_WEBSITE_WEBHOOK }}
