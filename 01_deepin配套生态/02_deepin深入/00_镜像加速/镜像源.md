@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2022-11-23T07:18:27.545Z
+date: 2022-11-28T07:42:47.553Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -11,7 +11,6 @@ dateCreated: 2022-05-08T13:15:59.655Z
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/myml/mirrors@master/releases_zh_mark.css" />
 
 - [软件仓库](./软件源.md)
-
 - [ISO 仓库](./镜像源.md)
 
 ## 官方 ISO 仓库
@@ -126,13 +125,6 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td>上海交通大学</td>
       <td><a href="http://ftp.sjtu.edu.cn/deepin/">http</a></td>
       <td><a href="ftp://ftp.sjtu.edu.cn/deepin-cd/">ftp</a></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>电子科技大学</td>
-      <td><a href="http://mirrors.scie.in/deepin-cd/">http</a></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
