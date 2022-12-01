@@ -2,7 +2,7 @@
 title: GPU
 description: 
 published: true
-date: 2022-12-01T15:06:29.921Z
+date: 2022-12-01T15:09:27.189Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-05T04:19:16.888Z
@@ -25,6 +25,8 @@ AMD显卡驱动对Linux支持很好，驱动程序构建在Linux内核里，部�
 https://www.amd.com/zh-hans/support/linux-drivers
 英特尔独占也为Linux提供了良好的驱动支持
 https://www.intel.cn/content/www/cn/zh/support/articles/000005520/graphics.html
+英伟达也为大多数显卡提供了闭源驱动
+https://www.nvidia.cn/geforce/drivers/
 
 ## GPU计算
 随着程序对计算机算力要求的不断提升，普通CPU无法快速处理复杂的数据计算，显卡在这时就可以发挥很好的功能
