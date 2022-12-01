@@ -2,7 +2,7 @@
 title: GPU
 description: 
 published: true
-date: 2022-12-01T15:15:36.299Z
+date: 2022-12-01T15:16:09.559Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-05T04:19:16.888Z
@@ -35,5 +35,8 @@ GPU计算是使用GPU（图形处理单元）作为协处理器来加速CPU，�
 
 CPU由4到8个CPU内核组成，而GPU由数百个较小的内核组成。它们共同运作以应对应用程序中的数据，这种大规模并行架构为GPU提供了高计算性能。
 
-CUDA是现今GPU计算的主流架构，开发者可以从https://developer.nvidia.com/cuda-downloads
+CUDA是现今GPU计算的主流架构，开发者可以从
+
+https://developer.nvidia.com/cuda-downloads
+
 下载Linux版本的CUDA程序
