@@ -65,9 +65,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 ## 二、系统 {.tabset}
 <a name="QNdfM"></a>
 ### 2.1 系统安装
-:::tips
-安装 [deepin 20.4](https://bbs.deepin.org/post/230585) 之后的版本，安装器能自动识别已有 EFI 分区，无需再另外手动创建。
-:::
+> 安装 [deepin 20.4](https://bbs.deepin.org/post/230585) 之后的版本，安装器能自动识别已有 EFI 分区，无需再另外手动创建。 {.is-info}
 
 1. 安装教程（官方）：[https://www.deepin.org/zh/installation/](https://www.deepin.org/zh/installation/)
 2. win10下的Deepin双系统安装小白教程：[https://bbs.deepin.org/zh/post/197659](https://bbs.deepin.org/zh/post/197659)  [金山文档转存链接](https://kdocs.cn/l/svDZBaMvvQtQ)
@@ -94,9 +92,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 <a name="UTn7k"></a>
 #### 2.1.1 在 U 盘上安装 deepin
-:::tips
-建议在 USB 3.0 或以上的 U 盘中安装 deepin，启动时使用电脑的 USB 3.0 接口，否则会出现卡顿情况。U 盘存储空间至少为 20GB。
-:::
+> 建议在 USB 3.0 或以上的 U 盘中安装 deepin，启动时使用电脑的 USB 3.0 接口，否则会出现卡顿情况。U 盘存储空间至少为 20GB。 {.is-info}
 
 1. [grub实现]U盘引导多个linux镜像安装,同时支持BIOS和UEFI模式：[https://my.oschina.net/abcfy2/blog/491140](https://my.oschina.net/abcfy2/blog/491140)
 2. 关于 Linux/Deepin to go 的一些心得：[https://bbs.deepin.org/zh/post/224084](https://bbs.deepin.org/zh/post/224084)
@@ -284,9 +280,7 @@ deepin的bilibili个人空间：[https://space.bilibili.com/137324885](https://s
 ### 2.7 系统美化
 <a name="uxpIa"></a>
 #### 2.7.1 壁纸
-:::tips
-壁纸图片见后文“[5.3 壁纸图片](#ATayK)”。
-:::
+> 壁纸图片见后文“[5.3 壁纸图片](#ATayK)”。  {.is-info}
 
 1. 壁纸与屏保--让你的deepin更好用：[https://bbs.deepin.org/zh/post/225531](https://bbs.deepin.org/zh/post/225531)
 2. 修改锁屏壁纸：[https://bbs.deepin.org/zh/post/224150](https://bbs.deepin.org/zh/post/224150)
@@ -537,9 +531,7 @@ deepin的bilibili个人空间：[https://space.bilibili.com/137324885](https://s
 ### 3.2 运行其他平台应用、虚拟机
 <a name="ZeVfi"></a>
 #### 3.2.1 Uengine
-:::tips
-Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应用就使用了 Uengine。同类应用还有 [Anbox](https://anbox.io/)、[xDroid](https://www.linzhuotech.com/) 等。
-:::
+> Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应用就使用了 Uengine。同类应用还有 [Anbox](https://anbox.io/)、[xDroid](https://www.linzhuotech.com/) 等。 {.is-info}
 
 1. uengine 使用总结：[https://uos.osystem.club/102.html](https://uos.osystem.club/102.html)
 2. Deepin20.2.2运行安卓和自行安装软件：[https://bbs.deepin.org/zh/post/222222](https://bbs.deepin.org/zh/post/222222)
@@ -551,9 +543,7 @@ Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应
 
 <a name="qq8BH"></a>
 #### 3.2.2 Wine
-:::tips
-[Wine](https://www.winehq.org/) 用于在 macOS，Linux，BSD 等系统上运行 Windows 应用。应用商店中的 Wine 应用使用了 deepin-wine（deepin 基于 Wine 进行了优化的版本）。
-:::
+> [Wine](https://www.winehq.org/) 用于在 macOS，Linux，BSD 等系统上运行 Windows 应用。应用商店中的 Wine 应用使用了 deepin-wine（deepin 基于 Wine 进行了优化的版本）。 {.is-info}
 
 1. Deepin-Wine适配知识库：[https://docs.qq.com/mind/DWFBpbmpjd0RtV2Z0](https://docs.qq.com/mind/DWFBpbmpjd0RtV2Z0)
 2. deepin-wine5 折腾过程兼新手教程：[https://bbs.deepin.org/zh/post/200942](https://bbs.deepin.org/zh/post/200942)
@@ -724,9 +714,7 @@ Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应
 
 <a name="hLg5i"></a>
 #### 5.2.1 阅读其他系统的Wiki
-:::tips
-deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 deepin 有所不同，它们的 Wiki 仍有值得学习的知识。
-:::
+> deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 deepin 有所不同，它们的 Wiki 仍有值得学习的知识。 {.is-info}
 
 1. Debian Wiki：[https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5](https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5)
 2. openSUSE Wiki：[https://zh.opensuse.org/%E9%A6%96%E9%A1%B5](https://zh.opensuse.org/%E9%A6%96%E9%A1%B5)
@@ -752,9 +740,7 @@ deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 
 ### 
 <a name="jJjo7"></a>
 ### 5.4 PPT SHOW 系列
-:::tips
-此部分作品由社区用户 [@PossibleVing](https://bbs.deepin.org/user/225373) 设计。
-:::
+> 此部分作品由社区用户 [@PossibleVing](https://bbs.deepin.org/user/225373) 设计。
 
 1. 第一期：新论坛的 UI ？我觉得这样很 OK：[https://bbs.deepin.org/zh/post/191168](https://bbs.deepin.org/zh/post/191168)
 2. 第二期：deepin V20 社区概念版正式发布！（？）：[https://bbs.deepin.org/zh/post/191489](https://bbs.deepin.org/zh/post/191489)
