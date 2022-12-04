@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-11-01T12:50:50.039Z
+date: 2022-12-04T09:06:55.455Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -10,18 +10,23 @@ dateCreated: 2022-07-23T01:44:40.008Z
 
 这个程序用到的帖子均在程序谢明中标注，如果有遗漏请尽快与我联系添加，我对此表示深深的歉意
 
-![image.png](https://storage.deepin.org/thread/202210031840144283_image.png)
+![image.png](https://storage.deepin.org/thread/202211251227188511_image.png)
 
+![image.png](https://storage.deepin.org/thread/202211251227328162_image.png)
 
+:tail:
 
 # 介绍
 
-一个图形化了以下命令的程序
+Wine运行器是一个能让Linux用户更加方便地运行Windows应用的程序，内置了对Wine图形化的支持、各种Wine工具、自制的Wine程序打包器和运行库安装工具等。
+它同时还内置了基于VirtualBox制作的、专供小白使用的Windows虚拟机安装工具，可以做到只需下载系统镜像并点击安装即可，无需考虑虚拟机的安装、创建、分区等操作。
+此外，它还简化了如下命令，让你可以更简便地使用Wine：
 
 ```bash
-WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
+env WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 ```
 
+让你可以简易方便的使用 wine
 而打包器可以方便的把您的 wine 容器打包成 deb 包供他人使用，程序创建的 deb 构建临时文件夹目录树如下：
 
 ```bash
@@ -53,21 +58,23 @@ WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 
 ## 更新日志
 
-**※1、新增 VB Runtime 组件安装工具**
-**※2、优化自动配置容器搜索功能，搜索不区分大小写**
-**※3、新增 Wine 容器快捷键映射功能**
-**※4、修复在 arm 架构运行 Wine 时提示无法解压资源的问题**
-**※5、修复右键无法找到 Wine 运行器打开方式的问题**
-**※6、修复了容器自动配置脚本 GUI 解析器无法指定 Wine、容器以及位数的功能**
-**※7、容器自动配置脚本支持评分功能以及脚本内容介绍功能**
-**※8、支持添加自定义安装的 Wine**
-**※9、打包器打包的 arm 包支持同时支持 UOS 的 box86 和 exagear**
-**※10、提供了 Python 的自动配置脚本 API**
+**※1、容器自动配置脚本 GUI 查看介绍使用 QWebEngineWidget，支持图片（非强制依赖，只做推荐）；**
+**※2、不基于生态适配活动脚本打包器跟进 arm 架构 2022年11月11日的 Wine 微信打包方式；**
+**※3、支持多图标的程序打包；**
+**※4、修复了安装更多 Wine 换源换了个寂寞的问题；**
+**※5、修复安装更多 Wine 重新安装后列表丢失的问题；**
+**※6、新增了对 Deepin 23 Alpha 优化的 Wine 安装器；**
+**※7、新增 Dll 名称查询功能，可以查询对应 Dll 的作用；**
+**※8、支持静态获取可执行文件可以调用的 Dll 并提供解决方案；**
+**※9、支持移除指定的 .desktop 快捷方式；**
+**※10、新增日志分析功能以及导出、上传日志功能；**
+11、修复了不基于生态适配活动脚本打包器在选择 arm 打包架构下容器自动删除脚本取消勾选无用的问题；
+12、优化文案、新增友链；
+13、提供了部分组件的测试功能。
 
 # 截图
 
-![截图_选择区域_20221026213608.png](https://storage.deepin.org/thread/202210262151486316_截图_选择区域_20221026213608.png)
-![截图_选择区域_20221026213546.png](https://storage.deepin.org/thread/202210262151481582_截图_选择区域_20221026213546.png)
+![image.png](https://storage.deepin.org/thread/202211250932168081_image.png)
 
 ## 使用说明
 
@@ -147,12 +154,14 @@ Gitee：https://gitee.com/gfdgd-xi/deep-wine-runner
 Github：https://github.com/gfdgd-xi/deep-wine-runner
 Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 蓝奏云：https://gfdgdxi.lanzouj.com/b01nz7y3e，密码:7oii
+奇怪的链接（需要有 IPv6 才能访问）：http://gfdgdxi.msns.cn/gfdgd-xi-apt-mirrors/program/spark-deepin-wine-runner/
 星火应用商店：spk://store/tools/spark-deepin-wine-runner
 程序官网：https://gfdgd-xi.github.io/
 支持程序自带的更新程序进行更新
 [![star](https://gitee.com/gfdgd-xi/deep-wine-runner/badge/star.svg?theme=dark)](https://gitee.com/gfdgd-xi/deep-wine-runner/stargazers)
-
+:tail:
 **最后说一下，如果想要在商业环境使用此APP，因为程序内附商业软件，请保证获得相关厂家授权或移除相关组件（移除用程序自带的删除组件功能即可）**
 **以及本程序在ARM架构上测试较少，可能容易翻车，建议不要在办公环境使用**
 **现在新增了通过SHA1值获取应用适配情况的功能，查看链接：https://gfdgd-xi.github.io/wine-runner-info/，如何贡献自己的适配情况？在 Wine 运行器进行评分即可**
 **自动配置文件的脚本如何编写/贡献？可见程序 Wiki：https://gfdgd-xi.github.io/wine-runner-wiki/ 如果想要贡献请按照 Wiki 的要求进行Pr**
+**感谢由 [@Allen](user/290514) 制作的论坛： [https://gfdgdxi.flarum.cloud/](https://gfdgdxi.flarum.cloud/) ，目前处于论坛的测试阶段，欢迎使用**
