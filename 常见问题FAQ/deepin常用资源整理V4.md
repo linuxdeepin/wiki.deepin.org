@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.0
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-12-05T03:30:35.030Z
+date: 2022-12-05T04:37:25.794Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -740,8 +740,6 @@ deepin的bilibili个人空间：[https://space.bilibili.com/137324885](https://s
 11. 壁纸分享，定时更新：[https://bbs.deepin.org/zh/post/239742](https://bbs.deepin.org/zh/post/239742)
 12. Deepin味的Ubuntu壁纸：[https://bbs.deepin.org/post/244310](https://bbs.deepin.org/post/244310)
 13. 比较简约的壁纸：[https://bbs.deepin.org/post/244873](https://bbs.deepin.org/post/244873)
-<a name="NeFcF"></a>
-### 
 <a name="jJjo7"></a>
 ### 5.4 PPT SHOW 系列
 > 此部分作品由社区用户 [@PossibleVing](https://bbs.deepin.org/user/225373) 设计。
