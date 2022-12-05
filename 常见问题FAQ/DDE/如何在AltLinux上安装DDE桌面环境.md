@@ -2,7 +2,7 @@
 title: 如何在ALT Linux上安装DDE桌面环境
 description: 
 published: true
-date: 2022-11-24T09:29:14.549Z
+date: 2022-11-24T09:29:17.581Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T09:28:55.714Z

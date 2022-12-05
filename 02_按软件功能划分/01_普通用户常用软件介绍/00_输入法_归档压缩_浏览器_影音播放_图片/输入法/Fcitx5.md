@@ -2,7 +2,7 @@
 title: Fcitx5
 description: 以 GPL 方式发布的输入法平台，可以通过安装引擎支持多种输入法，支持简入繁出
 published: true
-date: 2022-11-11T01:23:20.978Z
+date: 2022-11-11T01:23:24.144Z
 tags: 输入法
 editor: markdown
 dateCreated: 2022-06-16T02:34:38.778Z

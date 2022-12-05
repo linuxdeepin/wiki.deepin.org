@@ -2,7 +2,7 @@
 title: KVM详解（六）——KVM虚拟机快照
 description: 
 published: true
-date: 2022-11-24T13:02:13.416Z
+date: 2022-11-24T13:02:16.484Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-24T12:45:21.199Z

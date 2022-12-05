@@ -2,7 +2,7 @@
 title: 软件源
 description: 
 published: true
-date: 2022-11-23T07:18:03.512Z
+date: 2022-11-28T07:42:11.746Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:32.518Z
@@ -11,7 +11,6 @@ dateCreated: 2022-05-08T13:15:32.518Z
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/myml/mirrors@master/packages_zh_mark.css" />
 
 - [软件仓库](./软件源.md)
-
 - [ISO 仓库](./镜像源.md)
 
 ## 官方软件仓库

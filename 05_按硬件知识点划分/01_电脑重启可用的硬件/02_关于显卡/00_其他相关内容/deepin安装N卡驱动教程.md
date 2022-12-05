@@ -2,7 +2,7 @@
 title: deepin安装N卡驱动教程
 description: 
 published: true
-date: 2022-11-10T22:30:41.237Z
+date: 2022-11-10T22:30:44.487Z
 tags: nvidia, 显卡
 editor: markdown
 dateCreated: 2022-06-20T09:22:28.761Z
