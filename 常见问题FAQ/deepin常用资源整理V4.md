@@ -10,7 +10,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 > 本文创建于2021-05-15，当前版本发布于2022-11-01。
 > [PossibleVing](https://bbs.deepin.org/user/225373) 接手继续维护本文，感谢 [pzm9012](https://bbs.deepin.org/user/217969) 发起本文及曾经的默默付出。
-> [访问此文档的 deepin Wiki 页面](https://wiki.deepin.org/zh/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86V4)
+> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586)
 
 ![](https://storage.deepin.org/thread/20221101193754405_QQ%E6%88%AA%E5%9B%BE20221101145721.png)
 在这里我整理了一些有帮助的资源，帮助大家更快捷地找到需要的内容。<br />感谢所有提供了资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
@@ -28,7 +28,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 ---
 
 <a name="jvYlO"></a>
-## 一、综合 {.tabset}
+## 一、综合
+## {.tabset}
 <a name="NWCMv"></a>
 ### 1.1 入门
 
@@ -48,9 +49,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 3. Deepin Community Wiki：[https://deepin.wiki/index.php?title=](https://deepin.wiki/index.php?title=) 
 4. 深度易经：[https://github.com/bubifengyun/deepin-bible](https://github.com/bubifengyun/deepin-bible) （[作者](https://bbs.deepin.org/zh/user/16639)）  [金山文档转存链接](https://kdocs.cn/l/su4SlUCbOPtj)
 5. deepin折腾笔记：[https://bbs.deepin.org/zh/post/191781](https://bbs.deepin.org/zh/post/191781)  [金山文档转存链接(v6.6) ](https://kdocs.cn/l/shPDOoGspsbi)
-6. 自己摸索的一些解决方案汇总 ：[https://bbs.deepin.org/zh/post/209636](https://bbs.deepin.org/zh/post/209636)
-7. 我个人的linux学习笔记分享：[https://bbs.deepin.org/zh/post/242838](https://bbs.deepin.org/zh/post/242838)
-8. UOS/Deepin使用笔记：[https://bbs.deepin.org/post/243085](https://bbs.deepin.org/post/243085)
+6. 我个人的linux学习笔记分享：[https://bbs.deepin.org/zh/post/242838](https://bbs.deepin.org/zh/post/242838)
+7. UOS/Deepin使用笔记：[https://bbs.deepin.org/post/243085](https://bbs.deepin.org/post/243085)
 
 <a name="PHyVe"></a>
 ### 1.3 博客等
@@ -62,7 +62,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 5. PossibleVing：[https://www.possibleving.top/](https://www.possibleving.top/)
 
 <a name="okANN"></a>
-## 二、系统 {.tabset}
+## 二、系统
+## {.tabset}
 <a name="QNdfM"></a>
 ### 2.1 系统安装
 > 安装 [deepin 20.4](https://bbs.deepin.org/post/230585) 之后的版本，安装器能自动识别已有 EFI 分区，无需再另外手动创建。 {.is-info}
@@ -346,7 +347,8 @@ deepin的bilibili个人空间：[https://space.bilibili.com/137324885](https://s
 14. 20.6 deepin文字识别突然变得好用了？OCR升级的秘密在这里：[https://bbs.deepin.org/zh/post/238149](https://bbs.deepin.org/zh/post/238149)
 
 <a name="SgyTD"></a>
-## 三、应用软件 {.tabset}
+## 三、应用软件
+## {.tabset}
 <a name="beGY0"></a>
 ### 3.1 应用分享和使用技巧
 你可以从**星火应用商店**（一款由社区爱好者维护，致力于丰富Linux生态的第三方应用商店）获取一些最新版本的Linux应用和开箱即用的wine应用。官网：[https://www.spark-app.store](https://www.spark-app.store)（[向星火商店捐赠](https://donate.deepinos.org.cn/donate/)）
@@ -621,7 +623,8 @@ deepin的bilibili个人空间：[https://space.bilibili.com/137324885](https://s
 3. Unilang 官方仓库：[https://github.com/linuxdeepin/unilang](https://github.com/linuxdeepin/unilang)
 
 <a name="sxCw9"></a>
-## 四、社区与论坛 {.tabset}
+## 四、社区与论坛
+## {.tabset}
 <a name="m9UJy"></a>
 ### 4.1 论坛使用
 
@@ -676,7 +679,8 @@ deepin的bilibili个人空间：[https://space.bilibili.com/137324885](https://s
 14. 深度开源社区周报公示第14期（09.24-09.30）：[https://bbs.deepin.org/post/243742](https://bbs.deepin.org/post/243742)
 
 <a name="Ltiqi"></a>
-## 五、更多 {.tabset}
+## 五、更多
+## {.tabset}
 <a name="fEWUJ"></a>
 ### 5.1 测评感受
 
