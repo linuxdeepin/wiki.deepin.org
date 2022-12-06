@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.0
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-12-05T04:37:25.794Z
+date: 2022-12-05T12:46:22.194Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -115,8 +115,6 @@ dateCreated: 2022-11-01T12:45:22.559Z
 6. Linux内核参数acpi=off的故事续集：[https://bbs.deepin.org/zh/post/239257](https://bbs.deepin.org/zh/post/239257)
 7. GPT分区下DEEPINV20.6添加win7（MBR）启动：[https://bbs.deepin.org/post/240727](https://bbs.deepin.org/post/240727)
 8. 屏蔽开机报错信息：[https://bbs.deepin.org/zh/post/240304](https://bbs.deepin.org/zh/post/240304)
-<a name="QlGjJ"></a>
-### 
 <a name="aqfHX"></a>
 ### 2.3 系统内核
 
@@ -151,12 +149,10 @@ dateCreated: 2022-11-01T12:45:22.559Z
 19. 关于AMD R7 6800H 键盘 WIFI 蓝牙问题解决方案的梳理：[https://bbs.deepin.org/zh/post/239542](https://bbs.deepin.org/zh/post/239542)
 20. 打印机驱动解决方案，有墨驱动：[https://bbs.deepin.org/post/240554](https://bbs.deepin.org/post/240554)
 21. 英伟达官方驱动安装记录：[https://bbs.deepin.org/post/244803](https://bbs.deepin.org/post/244803)
-<a name="iGBp9"></a>
-### 
 <a name="CCqOM"></a>
 ### 2.5 问题解决
 
-1. ~~deepin和windows双系统时间不同步的解决方法：~~[~~https://bbs.deepin.org/zh/post/220213~~](https://bbs.deepin.org/zh/post/220213)（最佳的方案是**把 Windows 的时间标准改成 UTC**，要改注册表；因为只有 Windows 默认的时间标准是本地时间，除 Windows 之外的绝大多数操作系统都默认为 UTC ——[@SamLukeYes]()）
+1. ~~deepin和windows双系统时间不同步的解决方法：~~[~~https://bbs.deepin.org/zh/post/220213~~](https://bbs.deepin.org/zh/post/220213)（最佳的方案是**把 Windows 的时间标准改成 UTC**，要改注册表；因为只有 Windows 默认的时间标准是本地时间，除 Windows 之外的绝大多数操作系统都默认为 UTC ——[@SamLukeYes](https://bbs.deepin.org/user/218416)）
 2. 用snapd安装软件后出现多个磁盘：[https://bbs.deepin.org/zh/post/203517](https://bbs.deepin.org/zh/post/203517) （解决方法在7楼）
 3. 终于干掉snapd分区了：[https://bbs.deepin.org/zh/post/213673](https://bbs.deepin.org/zh/post/213673)
 4. 出现I/O或者blk报错的简易解决方法：[https://bbs.deepin.org/zh/post/224416](https://bbs.deepin.org/zh/post/224416)
