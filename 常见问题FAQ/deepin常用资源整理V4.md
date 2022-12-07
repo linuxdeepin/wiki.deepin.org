@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.1
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-12-07T05:05:20.285Z
+date: 2022-12-07T09:12:49.630Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -50,6 +50,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 6. 我个人的linux学习笔记分享：[https://bbs.deepin.org/zh/post/242838](https://bbs.deepin.org/zh/post/242838)
 7. UOS/Deepin使用笔记：[https://bbs.deepin.org/post/243085](https://bbs.deepin.org/post/243085)
 8. V23 Alpha版本非官方Q&A （欢迎大家补充）：[https://bbs.deepin.org/post/245937](https://bbs.deepin.org/post/245937)
+9. linux使用的常见问题和经验总结：https://bbs.deepin.org/post/246703
 
 <a name="PHyVe"></a>
 ### 1.3 博客等
@@ -154,9 +155,11 @@ dateCreated: 2022-11-01T12:45:22.559Z
 16. Deepin20.6 TP-Link WN726n免驱 找不到Wifi选项：[https://bbs.deepin.org/zh/post/239338](https://bbs.deepin.org/zh/post/239338)
 17. 内测推送的指纹你能用上么：[https://bbs.deepin.org/zh/post/239377](https://bbs.deepin.org/zh/post/239377)
 18. 添加打印机：[https://bbs.deepin.org/zh/post/239471](https://bbs.deepin.org/zh/post/239471)
-19. 关于AMD R7 6800H 键盘 WIFI 蓝牙问题解决方案的梳理：[https://bbs.deepin.org/zh/post/239542](https://bbs.deepin.org/zh/post/239542)
-20. 打印机驱动解决方案，有墨驱动：[https://bbs.deepin.org/post/240554](https://bbs.deepin.org/post/240554)
-21. 英伟达官方驱动安装记录：[https://bbs.deepin.org/post/244803](https://bbs.deepin.org/post/244803)
+19. USB打印机Canon2900+打印服务器部署_实现Andriod_Iphone无线打印：https://bbs.deepin.org/post/246582
+20. 关于AMD R7 6800H 键盘 WIFI 蓝牙问题解决方案的梳理：[https://bbs.deepin.org/zh/post/239542](https://bbs.deepin.org/zh/post/239542)
+21. 打印机驱动解决方案，有墨驱动：[https://bbs.deepin.org/post/240554](https://bbs.deepin.org/post/240554)
+22. 英伟达官方驱动安装记录：[https://bbs.deepin.org/post/244803](https://bbs.deepin.org/post/244803)
+23. Linux 不能识别新硬件的解决思路分享：https://bbs.deepin.org/post/245493
 
 <a name="CCqOM"></a>
 ### 2.5 问题解决
@@ -203,6 +206,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 6. deepin如何搭建本地软件源：[https://bbs.deepin.org/zh/post/239722](https://bbs.deepin.org/zh/post/239722)
 7. 浏览器鼠标滑动太慢？ 一个插件解决所有问题——SmoothScroll：[https://bbs.deepin.org/post/242460](https://bbs.deepin.org/post/242460)
 8. 连续输错密码无法登录？解决办法：[https://bbs.deepin.org/post/243165](https://bbs.deepin.org/post/243165)
+9. 开源的玲珑 deepin20编译版本 先享版本：https://bbs.deepin.org/post/246491
 
 <a name="xamK8"></a>
 #### 2.6.3 输入法
@@ -263,6 +267,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 8. 使用docker拉取CloudDrive镜像实现把网盘挂载到系统：[https://bbs.deepin.org/zh/post/237552](https://bbs.deepin.org/zh/post/237552)
 9. 格式化硬盘后文件管理器显示62.3G占用：[https://bbs.deepin.org/post/238570](https://bbs.deepin.org/post/238570)
 10. 一篇分权共享 samba 文件夹的水贴：[https://bbs.deepin.org/zh/post/239448](https://bbs.deepin.org/zh/post/239448)
+11. 开源的玲珑 deepin20编译版本 先享版本：https://bbs.deepin.org/post/246491
 
 <a name="jlFer"></a>
 #### 2.6.7 其他
@@ -288,6 +293,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 19. 深度商店巨量垃圾图标缓存位置：[https://bbs.deepin.org/zh/post/244113](https://bbs.deepin.org/zh/post/244113)
 20. 如何删除文件管理器内多出来的百度网盘、抖音等图标：[https://bbs.deepin.org/post/245100](https://bbs.deepin.org/post/245100)
 21. btrfs文件系统的创建、挂载、调整：[https://bbs.deepin.org/post/246616](https://bbs.deepin.org/post/246616)
+22. 分享几例 Linux 环境变量故障的解决：https://bbs.deepin.org/post/246288
+23. 今天写写有关deepin的网络安全：https://bbs.deepin.org/post/246674
 
 <a name="YpSJg"></a>
 ### 2.7 系统美化
@@ -440,6 +447,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 12. 推荐两个网站，替代photoshop 和 visio：[https://bbs.deepin.org/post/242042](https://bbs.deepin.org/post/242042)
 13. Remote Desktop Manager - Remmina 替代：[https://bbs.deepin.org/post/245566](https://bbs.deepin.org/post/245566)
 14. 咯咚电台--Bash 电台播放软件（持续更新）：[https://bbs.deepin.org/post/246580](https://bbs.deepin.org/post/246580)
+15. ed2k 链接下载工具：https://wiki.archlinux.org/title/AMule_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
 
 <a name="CgKhw"></a>
 #### 3.1.3 办公学习
@@ -527,6 +535,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 22. 跨平台好用的全能模拟器RetroArch使用方法：[https://bbs.deepin.org/post/246675](https://bbs.deepin.org/post/246675)
 23. Order of Twilight 黎明的秩序：[https://bbs.deepin.org/post/246720](https://bbs.deepin.org/post/246720)
 24. 经典终端贪食蛇游戏 csnaketerm：[https://bbs.deepin.org/post/246804](https://bbs.deepin.org/post/246804)
+25. 跨平台好用的全能模拟器RetroArch使用方法，感觉比MAME模拟器强：https://bbs.deepin.org/post/246675
 
 <a name="BVOVX"></a>
 #### 3.1.7 多设备协同
@@ -601,6 +610,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 16. WineHQ使用时出现中文乱码：[https://bbs.deepin.org/zh/post/238339](https://bbs.deepin.org/zh/post/238339)
 17. wine使用教程4-用wine运行便携式exe程序（绿色软件）的方法：[https://bbs.deepin.org/zh/post/239212](https://bbs.deepin.org/zh/post/239212)
 18. wine版应用双开/多开的方法：[https://bbs.deepin.org/post/243222](https://bbs.deepin.org/post/243222)
+19. [应用介绍] Wine运行器和Wine打包器傻瓜式使用教程（小白专用）：https://bbs.deepin.org/post/246837
 
 <a name="zDpzO"></a>
 #### 3.2.3 虚拟机
@@ -793,6 +803,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 13. 比较简约的壁纸：[https://bbs.deepin.org/post/244873](https://bbs.deepin.org/post/244873)
 14. 华芯-壁纸分享一：[https://bbs.deepin.org/post/245440](https://bbs.deepin.org/post/245440)
 <a name="jJjo7"></a>
+
 ### 5.4 PPT SHOW 系列
 > 此部分作品由社区用户 [@PossibleVing](https://bbs.deepin.org/user/225373) 设计。{.is-info}
 
