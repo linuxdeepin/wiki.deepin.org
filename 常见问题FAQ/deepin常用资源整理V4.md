@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.1
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-12-07T00:38:15.458Z
+date: 2022-12-07T05:05:20.285Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -600,8 +600,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 15. 安装WineHQ：[https://bbs.deepin.org/zh/post/238337](https://bbs.deepin.org/zh/post/238337)
 16. WineHQ使用时出现中文乱码：[https://bbs.deepin.org/zh/post/238339](https://bbs.deepin.org/zh/post/238339)
 17. wine使用教程4-用wine运行便携式exe程序（绿色软件）的方法：[https://bbs.deepin.org/zh/post/239212](https://bbs.deepin.org/zh/post/239212)
-18. 超级Wine：[Gitee页面](https://gitee.com/x543054305/super-wine/tree/master)
-19. wine版应用双开/多开的方法：[https://bbs.deepin.org/post/243222](https://bbs.deepin.org/post/243222)
+18. wine版应用双开/多开的方法：[https://bbs.deepin.org/post/243222](https://bbs.deepin.org/post/243222)
 
 <a name="zDpzO"></a>
 #### 3.2.3 虚拟机
