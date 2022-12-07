@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.1
 description: deepin 常用资源整理 · V4.0
 published: true
-date: 2022-12-06T16:00:07.713Z
+date: 2022-12-07T00:38:15.458Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -15,8 +15,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 ![qq截图20221101145721.png](/qq截图20221101145721.png)
 在这里我整理了一些有帮助的资源，帮助大家更快捷地找到需要的内容。<br />感谢所有提供了资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
 > 部分资料来源于互联网，仅供学习交流使用，版权归原作者所有，若涉及侵权请联系我删除；
-> 解决方案仅供参考，**有效性详询发布者或可自行验证，请以实际操作为准**。
-
+> 解决方案仅供参考，**有效性详询发布者或可自行验证，请以实际操作为准**。{.is-info}
 
 <a name="p7K4Z"></a>
 ## 💡提示
@@ -67,7 +66,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 ## 二、系统
 <a name="QNdfM"></a>
 ### 2.1 系统安装
-> 安装 [deepin 20.4](https://bbs.deepin.org/post/230585) 之后的版本，安装器能自动识别已有 EFI 分区，无需再另外手动创建。
+> 安装 [deepin 20.4](https://bbs.deepin.org/post/230585) 之后的版本，安装器能自动识别已有 EFI 分区，无需再另外手动创建。{.is-info}
 
 1. **安装教程（官方）**：[https://www.deepin.org/zh/installation/](https://www.deepin.org/zh/installation/)
 2. win10下的Deepin双系统安装小白教程：[https://bbs.deepin.org/zh/post/197659](https://bbs.deepin.org/zh/post/197659)  [金山文档转存链接](https://kdocs.cn/l/svDZBaMvvQtQ)
@@ -95,7 +94,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 <a name="UTn7k"></a>
 #### 2.1.1 在 U 盘上安装 deepin
-> 建议在 USB 3.0 或以上的 U 盘中安装 deepin，启动时使用电脑的 USB 3.0 接口，否则会出现卡顿情况。U 盘存储空间至少为 20GB。
+> 建议在 USB 3.0 或以上的 U 盘中安装 deepin，启动时使用电脑的 USB 3.0 接口，否则会出现卡顿情况。U 盘存储空间至少为 20GB。{.is-info}
 
 1. [grub实现]U盘引导多个linux镜像安装,同时支持BIOS和UEFI模式：[https://my.oschina.net/abcfy2/blog/491140](https://my.oschina.net/abcfy2/blog/491140)
 2. 关于 Linux/Deepin to go 的一些心得：[https://bbs.deepin.org/zh/post/224084](https://bbs.deepin.org/zh/post/224084)
@@ -124,8 +123,6 @@ dateCreated: 2022-11-01T12:45:22.559Z
 6. Linux内核参数acpi=off的故事续集：[https://bbs.deepin.org/zh/post/239257](https://bbs.deepin.org/zh/post/239257)
 7. GPT分区下DEEPINV20.6添加win7（MBR）启动：[https://bbs.deepin.org/post/240727](https://bbs.deepin.org/post/240727)
 8. 屏蔽开机报错信息：[https://bbs.deepin.org/zh/post/240304](https://bbs.deepin.org/zh/post/240304)
-<a name="QlGjJ"></a>
-### 
 <a name="aqfHX"></a>
 ### 2.3 系统内核
 
@@ -160,8 +157,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 19. 关于AMD R7 6800H 键盘 WIFI 蓝牙问题解决方案的梳理：[https://bbs.deepin.org/zh/post/239542](https://bbs.deepin.org/zh/post/239542)
 20. 打印机驱动解决方案，有墨驱动：[https://bbs.deepin.org/post/240554](https://bbs.deepin.org/post/240554)
 21. 英伟达官方驱动安装记录：[https://bbs.deepin.org/post/244803](https://bbs.deepin.org/post/244803)
-<a name="iGBp9"></a>
-### 
+
 <a name="CCqOM"></a>
 ### 2.5 问题解决
 
@@ -292,8 +288,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 19. 深度商店巨量垃圾图标缓存位置：[https://bbs.deepin.org/zh/post/244113](https://bbs.deepin.org/zh/post/244113)
 20. 如何删除文件管理器内多出来的百度网盘、抖音等图标：[https://bbs.deepin.org/post/245100](https://bbs.deepin.org/post/245100)
 21. btrfs文件系统的创建、挂载、调整：[https://bbs.deepin.org/post/246616](https://bbs.deepin.org/post/246616)
-<a name="YtMvu"></a>
-### 
+
 <a name="YpSJg"></a>
 ### 2.7 系统美化
 <a name="uxpIa"></a>
@@ -571,7 +566,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 ### 3.2 运行其他平台应用、虚拟机
 <a name="ZeVfi"></a>
 #### 3.2.1 Uengine
-> Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应用就使用了 Uengine。同类应用还有 [Anbox](https://anbox.io/)、[xDroid](https://www.linzhuotech.com/) 等。
+> Uengine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应用就使用了 Uengine。同类应用还有 [Anbox](https://anbox.io/)、[xDroid](https://www.linzhuotech.com/) 等。{.is-info}
 
 1. uengine 使用总结：[https://uos.osystem.club/102.html](https://uos.osystem.club/102.html)
 2. Deepin20.2.2运行安卓和自行安装软件：[https://bbs.deepin.org/zh/post/222222](https://bbs.deepin.org/zh/post/222222)
@@ -584,7 +579,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 <a name="qq8BH"></a>
 #### 3.2.2 Wine
-> [Wine](https://www.winehq.org/) 用于在 macOS，Linux，BSD 等系统上运行 Windows 应用。应用商店中的 Wine 应用使用了 deepin-wine（deepin 基于 Wine 进行了优化的版本）。
+> [Wine](https://www.winehq.org/) 用于在 macOS，Linux，BSD 等系统上运行 Windows 应用。应用商店中的 Wine 应用使用了 deepin-wine（deepin 基于 Wine 进行了优化的版本）。{.is-info}
 
 1. Deepin-Wine适配知识库：[https://docs.qq.com/mind/DWFBpbmpjd0RtV2Z0](https://docs.qq.com/mind/DWFBpbmpjd0RtV2Z0)
 2. deepin-wine5 折腾过程兼新手教程：[https://bbs.deepin.org/zh/post/200942](https://bbs.deepin.org/zh/post/200942)
@@ -775,7 +770,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 <a name="hLg5i"></a>
 #### 5.2.1 阅读其他系统的Wiki
-> deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 deepin 有所不同，它们的 Wiki 仍有值得学习的知识。
+> deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 deepin 有所不同，它们的 Wiki 仍有值得学习的知识。{.is-info}
 
 1. Debian Wiki：[https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5](https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5)
 2. openSUSE Wiki：[https://zh.opensuse.org/%E9%A6%96%E9%A1%B5](https://zh.opensuse.org/%E9%A6%96%E9%A1%B5)
@@ -798,11 +793,9 @@ dateCreated: 2022-11-01T12:45:22.559Z
 12. Deepin味的Ubuntu壁纸：[https://bbs.deepin.org/post/244310](https://bbs.deepin.org/post/244310)
 13. 比较简约的壁纸：[https://bbs.deepin.org/post/244873](https://bbs.deepin.org/post/244873)
 14. 华芯-壁纸分享一：[https://bbs.deepin.org/post/245440](https://bbs.deepin.org/post/245440)
-<a name="NeFcF"></a>
-### 
 <a name="jJjo7"></a>
 ### 5.4 PPT SHOW 系列
-> 此部分作品由社区用户 [@PossibleVing](https://bbs.deepin.org/user/225373) 设计。
+> 此部分作品由社区用户 [@PossibleVing](https://bbs.deepin.org/user/225373) 设计。{.is-info}
 
 1. 第一期：新论坛的 UI ？我觉得这样很 OK：[https://bbs.deepin.org/zh/post/191168](https://bbs.deepin.org/zh/post/191168)
 2. 第二期：deepin V20 社区概念版正式发布！（？）：[https://bbs.deepin.org/zh/post/191489](https://bbs.deepin.org/zh/post/191489)
@@ -822,7 +815,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 16. 第十六期：你管这玩意儿叫宣传视频？：[https://bbs.deepin.org/post/241824](https://bbs.deepin.org/post/241824)
 17. 第十七期：深度定制，deepin 由你掌控：[https://bbs.deepin.org/post/243975](https://bbs.deepin.org/post/243975)
 18. 第十八期：你这浏览器太假了。你再说，假吗？：[https://bbs.deepin.org/post/245176](https://bbs.deepin.org/post/245176)
-> 观【PPT SHOW】有感，大致弄了一套偏向行云设计风格的浏览器：[https://bbs.deepin.org/post/245213](https://bbs.deepin.org/post/245213)
+	观【PPT SHOW】有感，大致弄了一套偏向行云设计风格的浏览器：[https://bbs.deepin.org/post/245213](https://bbs.deepin.org/post/245213)
 
 19. 第十九期：这，是你想象中的 DDE 吗？：[https://bbs.deepin.org/post/245770](https://bbs.deepin.org/post/245770)
 
