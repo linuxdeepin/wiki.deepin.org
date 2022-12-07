@@ -1,8 +1,8 @@
 ---
 title: deepin 常用资源整理 · V4.1
-description: deepin 常用资源整理 · V4.0
+description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2022-12-07T09:12:49.630Z
+date: 2022-12-07T09:53:26.385Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
