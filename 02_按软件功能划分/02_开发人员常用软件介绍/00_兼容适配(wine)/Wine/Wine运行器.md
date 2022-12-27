@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-12-04T09:06:58.896Z
+date: 2022-12-27T02:16:29.596Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -10,9 +10,9 @@ dateCreated: 2022-07-23T01:44:40.008Z
 
 这个程序用到的帖子均在程序谢明中标注，如果有遗漏请尽快与我联系添加，我对此表示深深的歉意
 
-![image.png](https://storage.deepin.org/thread/202211251227188511_image.png)
+![图片.png](https://storage.deepin.org/thread/202212112154463787_图片.png)
 
-![image.png](https://storage.deepin.org/thread/202211251227328162_image.png)
+![图片.png](https://storage.deepin.org/thread/202212112155056532_图片.png)
 
 :tail:
 
@@ -54,27 +54,34 @@ env WINEPREFIX=容器路径 wine（wine的路径） 可执行文件路径
 
 让你可以简易方便的使用 wine
 是使用 Python3 的 PyQt5 构建的
-（测试平台：deepin 20.7.1 1030；UOS 家庭版 21.3.1；Ubuntu 22.04；优麒麟 22.04；deepin 23；openkylin）
+（测试平台：deepin 20.8；UOS 家庭版 21.3.1；Ubuntu 22.04；优麒麟 22.04；deepin 23；openkylin）
 
 ## 更新日志
 
-**※1、容器自动配置脚本 GUI 查看介绍使用 QWebEngineWidget，支持图片（非强制依赖，只做推荐）；**
-**※2、不基于生态适配活动脚本打包器跟进 arm 架构 2022年11月11日的 Wine 微信打包方式；**
-**※3、支持多图标的程序打包；**
-**※4、修复了安装更多 Wine 换源换了个寂寞的问题；**
-**※5、修复安装更多 Wine 重新安装后列表丢失的问题；**
-**※6、新增了对 Deepin 23 Alpha 优化的 Wine 安装器；**
-**※7、新增 Dll 名称查询功能，可以查询对应 Dll 的作用；**
-**※8、支持静态获取可执行文件可以调用的 Dll 并提供解决方案；**
-**※9、支持移除指定的 .desktop 快捷方式；**
-**※10、新增日志分析功能以及导出、上传日志功能；**
-11、修复了不基于生态适配活动脚本打包器在选择 arm 打包架构下容器自动删除脚本取消勾选无用的问题；
-12、优化文案、新增友链；
-13、提供了部分组件的测试功能。
+**※1、支持使用 Qemu + Chroot 跨运行 Wine 以及指定程序的功能；**
+**※2、提供了简易打包器以用于打包简易 deb；**
+**※3、支持下载配置过的 Qemu + Chroot 容器；**
+**※4、支持在隔离的 Chroot 容器内运行 Wine；**
+**※5、支持解压指定 deb 的内打包好的容器；**
+**※6、优化 Wine 列表显示；**
+**※7、新增程序论坛和教程入口；**
+**※8、程序公告功能；**
+**※9、新增程序评分功能；**
+**※10、新增解包 deb 内 Wine 容器功能；**
+**※11、新增 Vkd3d Proton 安装功能，更新 dxvk 版本至 2.0.0；**
+**※12、新增程序菜单栏部分栏目图标；**
+**※13、打包器支持按下 Shift + F1 查看指定选项提示；**
+14、优化非基于生态适配脚本的打包器内容自动填充功能；
+15、优化程序文案；
+16、新增日志翻译功能；
+17、程序进一步完善英语翻译（机翻）；
+18、优化程序更新策略；
+19、优化日志分析功能；
+20、优化程序 UI。
 
 # 截图
 
-![image.png](https://storage.deepin.org/thread/202211250932168081_image.png)
+![image.png](https://storage.deepin.org/thread/202212102108356218_image.png)
 
 ## 使用说明
 
@@ -158,10 +165,14 @@ Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 星火应用商店：spk://store/tools/spark-deepin-wine-runner
 程序官网：https://gfdgd-xi.github.io/
 支持程序自带的更新程序进行更新
+
+<iframe src="https://deepin-community-store.gitee.io/spk-resolv/?spk=spk://store/tools/spark-deepin-wine-runner" height="400" width="100%" border="0"></iframe>
+
 [![star](https://gitee.com/gfdgd-xi/deep-wine-runner/badge/star.svg?theme=dark)](https://gitee.com/gfdgd-xi/deep-wine-runner/stargazers)
 :tail:
 **最后说一下，如果想要在商业环境使用此APP，因为程序内附商业软件，请保证获得相关厂家授权或移除相关组件（移除用程序自带的删除组件功能即可）**
-**以及本程序在ARM架构上测试较少，可能容易翻车，建议不要在办公环境使用**
+**以及本程序在非 X86 架构上测试较少，可能容易翻车，建议不要在办公环境使用**
 **现在新增了通过SHA1值获取应用适配情况的功能，查看链接：https://gfdgd-xi.github.io/wine-runner-info/，如何贡献自己的适配情况？在 Wine 运行器进行评分即可**
 **自动配置文件的脚本如何编写/贡献？可见程序 Wiki：https://gfdgd-xi.github.io/wine-runner-wiki/ 如果想要贡献请按照 Wiki 的要求进行Pr**
-**感谢由 [@Allen](user/290514) 制作的论坛： [https://gfdgdxi.flarum.cloud/](https://gfdgdxi.flarum.cloud/) ，目前处于论坛的测试阶段，欢迎使用**
+**感谢由 [@Allen](user/290514) 制作的论坛： [https://gfdgdxi.flarum.cloud/](https://gfdgdxi.flarum.cloud/) ，欢迎使用**
+
