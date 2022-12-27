@@ -2,7 +2,7 @@
 title: Deepin Community Live CD Install 新版本——一个定制的系统安装镜像
 description: Deepin Community Live CD Install 新版本——一个定制的系统安装镜像
 published: true
-date: 2022-11-01T12:49:59.477Z
+date: 2022-12-27T01:45:30.581Z
 tags: deepin, live cd
 editor: markdown
 dateCreated: 2022-11-01T12:49:57.773Z
@@ -10,7 +10,10 @@ dateCreated: 2022-11-01T12:49:57.773Z
 
 # 前言
 
-> 之前看到有个 HOS（鸿玩）系统，以及受到了这个帖子：https://bbs.deepin.org/post/244385 和深度内测群的用户启发，便就把这个安装镜像做出来了
+> 我发稿前才发现镜像的 grub 忘记换了，也没时间重传了，毕竟 DDUC 只有一天，能用就行。
+> :joy:
+> 祝今天 DDUC 12 顺利进行，深度热爱，一同进化。希望今天 DDUC 12 有爆料。
+> :blush:
 
 # 介绍
 
@@ -19,15 +22,18 @@ dateCreated: 2022-11-01T12:49:57.773Z
 ***注意：这个和鸿玩并不一样，不会修改任何有关 deepin 的系统信息，包括但不限于系统版本、系统 logo 等等***
 ***且并不是 deepin 的下游发行版，只是一个定制的镜像***
 ***Live CD 模式下用户默认密码：123456，root 密码：123456，安装到本地的不受此影响***
-![image.png](https://storage.deepin.org/thread/202210231137072181_image.png)
 
-![image.png](https://storage.deepin.org/thread/202210231147038996_image.png)
+![图片.png](https://storage.deepin.org/thread/202212240937174208_图片.png)
 
-![image.png](https://storage.deepin.org/thread/202210231157439386_image.png)
+## 更新内容
 
-![image.png](https://storage.deepin.org/thread/202210231157552632_image.png)
+1. 跟进系统版本为 20.8
+2. 更新预装的星火应用商店和 Wine 运行器版本，星火应用商店版本号：4.0.1，Wine 运行器版本号：3.0.0.1-uos
+3. 开始选择性安装 UEngine 安卓环境和 UEngine 运行器（若不想安装，可以通过断网或在体验模式下打开添加自定义脚本进行修改）
 
-![image.png](https://storage.deepin.org/thread/202210231158032520_image.png)
+![图片.png](https://storage.deepin.org/thread/202212240941481968_图片.png)
+
+![图片.png](https://storage.deepin.org/thread/202212240941227743_图片.png)
 
 ## 预装软件
 
@@ -36,44 +42,56 @@ dateCreated: 2022-11-01T12:49:57.773Z
 3. QQ（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）
 4. 微信（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）
 5. WPS Office（联网时自动安装）
-6. 合并 better dde（better dde 是什么？传送门：https://bbs.deepin.org/post/237746）
+6. 钉钉（联网时自动安装）
 7. Todesk
 8. TimeShift
 9. udom 工具箱
 10. deepin 全家桶
-11. 网易云音乐
-12. UOS远程协助
-13. rdp 远程桌面连接工具
-14. 搜狗输入法
-15. deepin wine6 stable
-16. 星火应用商店应用源（只存在于 Live CD 环境下，将不会安装到本地）
-17. pardus-boot-repair（只存在于 Live CD 环境下，将不会安装到本地）
-18. Deepin Installer（系统安装程序，只存在于 Live CD 环境下，将不会安装到本地）
-19. Deepin Community Live CD Mini 应用商店（只存在于 Live CD 环境下，将不会安装到本地）
-20. gparted（只存在于 Live CD 环境下，将不会安装到本地）
-21. Deepin 系统修复工具（只存在于 Live CD 环境下，将不会安装到本地）
-22. Live CD 工具（只存在于 Live CD 环境下，将不会安装到本地）
+11. UOS远程协助
+12. rdp 远程桌面连接工具
+13. 搜狗输入法
+14. deepin wine6 stable
+15. 星火应用商店应用源（只存在于 Live CD 环境下，将不会安装到本地）
+16. boot repair（只存在于 Live CD 环境下，将不会安装到本地）
+17. Ghost（只存在于 Live CD 环境下，将不会安装到本地）
+18. pardus-boot-repair（只存在于 Live CD 环境下，将不会安装到本地）
+19. Deepin Installer（系统安装程序，只存在于 Live CD 环境下，将不会安装到本地）
+20. Deepin Community Live CD Mini 应用商店（只存在于 Live CD 环境下，将不会安装到本地）
+21. gparted（只存在于 Live CD 环境下，将不会安装到本地）
+22. Deepin 系统修复工具（只存在于 Live CD 环境下，将不会安装到本地）
+23. Live CD 工具（只存在于 Live CD 环境下，将不会安装到本地）
 
-![image.png](https://storage.deepin.org/thread/202210231138041853_image.png)
+***下面是在虚拟机 Live 模式启动的截图***
 
-![image.png](https://storage.deepin.org/thread/202210231138268795_image.png)
+![图片.png](https://storage.deepin.org/thread/202212240935037342_图片.png)
 
-![image.png](https://storage.deepin.org/thread/202210231138481393_image.png)
+```
+
+```
+
+![图片.png](https://storage.deepin.org/thread/202212240934551223_图片.png)
+
+***这里是在虚拟机安装到本地后的截图***
+
+![图片.png](https://storage.deepin.org/thread/202212240949293710_图片.png)
+
+![图片.png](https://storage.deepin.org/thread/202212240949384535_图片.png)
 
 # 可以不看的提示
 
 1. 断网安装将不会安装 WPS、QQ、微信这三个体积很大的软件
-2. 可以在安装系统的时候听音乐（进入体验环境后打开网易云音乐播放音乐后安装系统即可）
-3. 体验模式可以当 Live CD 用
+2. 体验模式可以当 Live CD 用
 
 # 下载链接
 
 鹤川云盘：https://pan.hechuanyun.xyz/s/Weua
-123 云盘：https://www.123pan.com/s/pDSKVv-TspWv
+123 云盘：https://www.123pan.com/s/pDSKVv-yRpWv
 迅雷云盘：https://pan.xunlei.com/s/VNF2FXAW-Ygci78DPS3b6bVxA1?pwd=5mgs   提取码：5mgs
 
 ![image.png](https://storage.deepin.org/thread/202210231313582420_image.png)
 
 百度网盘：链接: [https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w](https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w) 提取码: ejr7
 ![image.png](https://storage.deepin.org/thread/202203201435562540_image.png)
-（主要是没会员，其它的也传不上去/分享不了）
+备用1：[http://gfdgdxi.free.idcfengye.com/DeepinCommunityLiveCD/1.7.0/](http://gfdgdxi.free.idcfengye.com/DeepinCommunityLiveCD/1.7.0/)
+程序论坛： [https://gfdgdxi.flarum.cloud/](https://gfdgdxi.flarum.cloud/)
+
