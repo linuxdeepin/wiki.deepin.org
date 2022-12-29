@@ -2,7 +2,7 @@
 title: Matrix
 description: 介绍 Matrix 即时通讯平台的使用方式
 published: true
-date: 2022-12-29T07:11:38.698Z
+date: 2022-12-29T07:14:17.587Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T06:37:05.800Z
@@ -41,6 +41,8 @@ Element 是 Matrix 官方性质的，基于 Web 技术的 Matrix 客户端实现
 > }
 > ```
 > ~~deepin 已为软件仓库中的 Element 提供了近似的配置，故不需要进行额外操作。~~（还没有）
+
+值得注意的是，在登录前，您可能需要编辑 Home Server 到您所注册时所使用的实例所对应的位置。例如假设您使用了 Mozilla 的实例，则需要编辑修改为 `https://mozilla.modular.im`。
 
 ### Nheko Reborn
 
