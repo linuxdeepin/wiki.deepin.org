@@ -2,7 +2,7 @@
 title: Matrix
 description: 介绍 Matrix 即时通讯平台的使用方式
 published: true
-date: 2022-12-29T07:03:43.144Z
+date: 2022-12-29T07:11:38.698Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T06:37:05.800Z
@@ -27,6 +27,8 @@ Matrix 是一个开源、开放、轻量级、去中心化的及时聊天通讯�
 
 ## 使用客户端登录
 
+您可以使用任何支持 Matrix 协议的客户端来登录并连接到 Matrix 网络。
+
 ### Element 客户端
 
 Element 是 Matrix 官方性质的，基于 Web 技术的 Matrix 客户端实现，除了网页环境外，也有桌面客户端可用。可以在你所使用的发行版的应用商店或包管理工具中搜索 `element-desktop` 或近似名称来检索和安装此客户端，然后即可运行并登录你的帐号。
@@ -39,6 +41,18 @@ Element 是 Matrix 官方性质的，基于 Web 技术的 Matrix 客户端实现
 > }
 > ```
 > ~~deepin 已为软件仓库中的 Element 提供了近似的配置，故不需要进行额外操作。~~（还没有）
+
+### Nheko Reborn
+
+Nheko Reborn 是一个基于 Qt/QML 技术的 Matrix 客户端，包含了包括 E2EE 在内的广泛的 Matrix 已有特性的支持，且支持主流平台。
+
+### NeoChat
+
+NeoChat 是 KDE 社区提供的，基于 Qt/QML 技术的 Matrix 客户端，包含了社区常用的大部分 Matrix 特性，以及实验性的 E2EE 支持。
+
+### 其它客户端
+
+你可以访问 [Clients](https://matrix.org/clients/) 页面了解已知的 Matrix 客户端列表。如果你推荐使用某个客户端，也可以编辑此 Wiki 页面，将客户端的名字加到这个列表中来，来进行详细的介绍。
 
 ## 探索聊天室
 
