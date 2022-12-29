@@ -2,7 +2,7 @@
 title: Matrix
 description: 介绍 Matrix 即时通讯平台的使用方式
 published: true
-date: 2022-12-29T07:14:17.587Z
+date: 2022-12-29T07:33:24.976Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T06:37:05.800Z
@@ -56,16 +56,33 @@ NeoChat 是 KDE 社区提供的，基于 Qt/QML 技术的 Matrix 客户端，包
 
 你可以访问 [Clients](https://matrix.org/clients/) 页面了解已知的 Matrix 客户端列表。如果你推荐使用某个客户端，也可以编辑此 Wiki 页面，将客户端的名字加到这个列表中来，来进行详细的介绍。
 
-## 探索聊天室
+# 探索聊天室
+
+## 不同社区的空间与聊天室
 
 社区通常通过“Space（空间）”索引自己社区所包含的聊天室列表，您可以加入对应的 Space 来检索感兴趣的聊天室，也可以直接检索并加入感兴趣的聊天室。
 
 下面是一些推荐的空间与聊天室，可供参考：
 
-- [deepin 空间](https://matrix.to/#/#deepin-space:matrix.org)：`#deepin-space:matrix.org`
+- [deepin 社区空间](https://matrix.to/#/#deepin-space:matrix.org)：`#deepin-space:matrix.org`
   - [deepin 开发者频道](https://matrix.to/#/#deepin-community:matrix.org)：`#deepin-community:matrix.org`
   - [DDE 移植小组](https://matrix.to/#/#dde-port:matrix.org)：`#dde-port:matrix.org`
   - [deepin 文档小组](https://matrix.to/#/#deepin_doc_doc_go:matrix.org)：`#deepin_doc_doc_go:matrix.org`
   - [deepin Qt 维护小组](https://matrix.to/#/#_oftc_#deepin-qt:matrix.org)：`#_oftc_#deepin-qt:matrix.org`
   - 以及其它 deepin 相关的聊天室...
+- [Fedora 社区空间](https://matrix.to/#/#fedora-space:fedoraproject.org)：`#fedora-space:fedoraproject.org`
 - [KDE 社区空间](https://matrix.to/#/#kde-community:kde.org)：`#kde-community:kde.org`
+
+## 桥接聊天室
+
+Matrix 原生支持将已有的 Matrix 聊天室桥接到 IRC/Telegram/Discord 等的群聊之中，以供 Matrix 用户可以直接和现有平台的用户进行沟通。您可以使用公开的桥接服务，也可以自己编写桥接服务来桥接已有的聊天室。
+
+### IRC 桥
+
+主流的 IRC 聊天平台，包括 libera.chat 与 OFTC 等，均提供了现有的桥接服务可用，可参见 [这个页面](https://matrix-org.github.io/matrix-appservice-irc/latest/bridged_networks.html) 了解详细的说明。
+
+### Telegram 与 Discord 桥
+
+[t2bot.io](https://t2bot.io/) 提供了将 Matrix 聊天室桥接到 Telegram 群聊与 Discord 群聊的公开服务，可前往其网站进行了解。
+
+手动的桥接操作通常需要聊天室的管理员进行操作。
