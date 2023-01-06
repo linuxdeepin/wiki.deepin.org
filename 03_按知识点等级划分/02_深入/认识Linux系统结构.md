@@ -2,7 +2,7 @@
 title: 认识Linux系统结构
 description: 
 published: true
-date: 2023-01-06T07:27:11.151Z
+date: 2023-01-06T07:27:42.825Z
 tags: 系统结构
 editor: markdown
 dateCreated: 2023-01-06T07:21:31.256Z
@@ -147,5 +147,125 @@ SCSI 接口的硬盘、SATA 接口的硬盘表示为 /dev/sda、/dev/sdb … …
 总结：一个硬盘分区首先要确认在哪个硬盘，然后再确认它所在硬盘内的哪个分区。
 
 对于 /dev/hda 类似的表示方法，也并不陌生吧；我们在 Linux 通过 fdisk -l 就可以查到硬盘是 /dev/hda 还是 /dev/hdb。
+
+
+```
+[root@localhost ~]# fdisk -l
+Disk /dev/hda: 80.0 GB, 80026361856 bytes
+255 heads, 63 sectors/track, 9729 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Device Boot Start End Blocks Id System
+/dev/hda1 * 1 970 7791493+ 7 HPFS/NTFS
+/dev/hda2 971 9729 70356667+ 5 Extended
+/dev/hda5 971 2915 15623181 b W95 FAT32
+/dev/hda6 2916 4131 9767488+ 83 linux
+/dev/hda7 4132 5590 11719386 83 linux
+/dev/hda8 5591 6806 9767488+ 83 linux
+/dev/hda9 6807 9657 22900626 83 linux
+/dev/hda10 9658 9729 578308+ 82 linux swap / Solaris
+```
+
+请注意第一行， Disk /dev/hda: 80.0 GB, 80026361856 bytes，这个就是表示机器中只有一个硬盘设备 /dev/hda ，体积大小为 80.0G；下面的就是硬盘的分区，每个分区都有详细的信息，在这里不详细说了。
+
+Linux 下磁盘分区和目录的关系如下：
+
+任何一个分区都必须挂载到某个目录上。
+
+目录是逻辑上的区分。分区是物理上的区分。
+
+磁盘 Linux 分区都必须挂载到目录树中的某个具体的目录上才能进行读写操作。
+
+根目录是所有 Linux 的文件和目录所在的地方，需要挂载上一个磁盘分区。
+
+Linux 主要目录的功用
+
+/bin 二进制可执行命令
+
+/dev 设备特殊文件
+
+/etc 系统管理和配置文件
+
+/etc/rc.d 启动的配置文件和脚本
+
+/home 用户主目录的基点，比如用户 user 的主目录就是 /home/user，可以用 ~user 表示
+
+/lib 标准程序设计库，又叫动态链接共享库，作用类似 Windows 里的 .dll 文件
+
+/sbin 系统管理命令，这里存放的是系统管理员使用的管理程序
+
+/tmp 公用的临时文件存储点
+
+/root 系统管理员的主目录（呵呵，特权阶级）
+
+/mnt 系统提供这个目录是让用户临时挂载其他的文件系统
+
+/lost+found 这个目录平时是空的，系统非正常关机而留下“无家可归”的文件（Windows 下叫什么 .chk）就在这里
+
+/proc 虚拟的目录，是系统内存的映射。可直接访问这个目录来获取系统信息
+
+/var 某些大文件的溢出区，比方说各种服务的日志文件
+
+/usr 最庞大的目录，要用到的应用程序和文件几乎都在这个目录。其中包含：
+
+/usr/X11R6 存放 X window 的目录
+
+/usr/bin 众多的应用程序
+
+/usr/sbin 超级用户的一些管理程序/usr/doc linux文档
+
+/usr/include Linux 下开发和编译应用程序所需要的头文件
+
+/usr/lib 常用的动态链接库和软件包的配置文件
+
+/usr/man 帮助文档
+
+/usr/src 源代码，Linux 内核的源代码就放在 /usr/src/linux 里
+
+/usr/local/bin 本地增加的命令
+
+/usr/local/lib 本地增加的库
+
+## Linux 文件系统
+
+文件系统指文件存在的物理空间，Linux 系统中每个分区都是一个文件系统，都有自己的目录层次结构。Linux 会将这些分属不同分区的、单独的文件系统按一定的方式形成一个系统的总的目录层次结构。一个操作系统的运行离不开对文件的操作，因此必然要拥有并维护自己的文件系统。
+
+文件系统类型：
+
+Ext2 ：早期 Linux 中常用的文件系统
+
+Ext3 ：Ext2 的升级版，带日志功能
+
+RAMFS ：内存文件系统，速度很快
+
+NFS ：网络文件系统，由SUN发明，主要用于远程文件共享
+
+MS-DOS ：MS-DOS 文件系统
+
+VFAT ：Windows 95/98 操作系统采用的文件系统
+
+FAT ：Windows XP 操作系统采用的文件系统
+
+NTFS：Windows NT/XP 操作系统采用的文件系统
+
+HPFS ：OS/2 操作系统采用的文件系统
+
+PROC : 虚拟的进程文件系统
+
+ISO9660 ：大部分光盘所采用的文件系统
+
+ufsSun : OS 所采用的文件系统
+
+NCPFS ：Novell 服务器所采用的文件系统
+
+SMBFS ：Samba 的共享文件系统
+
+XFS ：由SGI开发的先进的日志文件系统，支持超大容量文件
+
+JFS ：IBM的AIX使用的日志文件系统
+
+ReiserFS：基于平衡树结构的文件系统
+
+udf：可擦写的数据光盘文件系统
+
 
 
