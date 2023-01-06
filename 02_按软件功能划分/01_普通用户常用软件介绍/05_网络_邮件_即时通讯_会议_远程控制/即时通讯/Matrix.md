@@ -2,7 +2,7 @@
 title: Matrix
 description: 介绍 Matrix 即时通讯平台的使用方式
 published: true
-date: 2023-01-06T05:33:10.284Z
+date: 2023-01-06T05:55:21.906Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T06:37:05.800Z
@@ -23,6 +23,7 @@ Matrix 是一个开源、开放、轻量级、去中心化的及时聊天通讯�
 - Mozilla（推荐）：https://chat.mozilla.org/#/welcome
 - Fedora Project：https://chat.fedoraproject.org/
 - OpenSuSE：https://chat.opensuse.org/
+- Open Desktop：https://chat.opendesktop.org/
 - Element (即 matrix.org 实例)：https://app.element.io/
 
 注册后即可登录其对应的网页版在线聊天了。
