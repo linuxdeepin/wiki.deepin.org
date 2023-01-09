@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T13:14:05.010Z
+date: 2023-01-09T13:14:30.342Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -28,31 +28,9 @@ https://blog.csdn.net/huaijiu123/article/details/82083452
 
 ### Linux 命令操作
 
-* **查看当前目录命令：** **`pwd`**
-* **打开文件夹命令：** **`cd`**
-
-  * 打开指定文件夹：`<span>cd [目录名称]</span>`
-  * 打开当前用户的根目录：`<span>cd ~</span>`
-  * 返回上级目录：`<span>cd …</span>`
-  * 返回进入目录：`<span>cd -</span>`
-  * 打开根目录：`<span>cd /</span>`
-* **浏览目录下的文件列表命令：** **`ls`**
-
-  * 以列的方式查看当前目录下的文件列表：`<span>ls -l</span>`
-  * 查看当前目录下所有的文件（包括隐藏文件）：`<span>ls -a</span>`
-  * 以列表的方式查看当前目录下的所有文件：`<span>ls -la</span>`
-* **创建文件目录命令：** **`mkdir`**
-
-  * 新建文件目录：`<span>mkdir 文件夹名称</span>`
-  * 递归新建多级目录：`<span>mkdir -p 文件夹名称</span>`
-  * 例如在用户目录下新建 test 目录，命令这样写：`<span>mkdir -p test/test1/test2/test3</span>` 递归新建多级目录的写法
-* **删除文件目录命令：** **`rmkdir`**
-
-  * 删除指定目录：`<span>rmkdir 目录名称</span>`
-  * 递归删除指定目录及中间目录：`<span>rmdir -p 目录名称</span>` 这里没有写错，没有字母 k
-* **删除文件或者目录命令：** **`rm`**
-
-  * 常用命令：`<span>rm -rf [目录或文件]</span>` `<span>rm -ri [目录或文件]</span>`
-  * 强制删除文件或目录：`<span>rm -rf 目录或者文件</span>`
-  * 在删除前询问是否确认删除：`<span>rm -ri 目录或文件</span>`
-
+- **查看当前目录命令：****`pwd`**
+- **打开文件夹命令：****`cd`**
+- **浏览目录下的文件列表命令：****`ls`**
+- **创建文件目录命令：****`mkdir`**
+- **删除文件目录命令：****`rmkdir`**
+- **删除文件或者目录命令：****`rm`**
