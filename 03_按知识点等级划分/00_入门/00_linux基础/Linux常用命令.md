@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T14:28:17.504Z
+date: 2023-01-09T14:28:35.138Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -262,4 +262,19 @@ shang 24166 24100  0   20:17 pts/2  00:00:00      grep  sshd
 当系统中有进程进入死循环，或者需要被关闭时，我们可以使用 kill 命令对其关闭。
 
 `kill -9 [PID]` PID 为 Linux 操作系统中进程的标识
+
+
+### Linux 其他常用命令大全
+
+- 清屏命令：clear
+- 查询命令详细参数命令：man
+- 挂载命令：mnt
+- 远程连接服务 SSH 相关命令：
+- 启动 SSH 服务命令：`service sshd start`
+- 重启 SSH 服务命令：`service sshd restart`
+- 关闭 SSH 服务命令：`service sshd stop`
+
+Linux 大多数情况下都是远程服务器，开发者通过远程工具连接 Linux ，启动了某个项目的 JAR，一旦窗口关闭，JAR 也就停止运行了，因此一般通过如下命令启动 JAR：`nohup java -jar jar-0.0.1-SNAPSHOT.jar &`
+
+这里多了 nohup ，表示当前窗口关闭时服务不挂起，继续在后台运行
 
