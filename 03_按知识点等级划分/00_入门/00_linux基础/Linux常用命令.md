@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T13:14:30.342Z
+date: 2023-01-09T13:14:50.445Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -26,7 +26,7 @@ https://blog.csdn.net/huaijiu123/article/details/82083452
 - `/root`：为系统管理员（也叫超级用户或根用户）的 Home 目录。
 - `/dev`：为设备目录，Linux 下设备被当成文件，这样一来硬件被抽象化、便于读写、网络共享以及需要临时装载到文件系统中，正常情况下，设备会有一个独立的子目录，这些设备的内容会出现在独立的子目录下。
 
-### Linux 命令操作
+## Linux 命令操作
 
 - **查看当前目录命令：****`pwd`**
 - **打开文件夹命令：****`cd`**
