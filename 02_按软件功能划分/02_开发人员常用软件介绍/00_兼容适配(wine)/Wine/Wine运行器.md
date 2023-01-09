@@ -2,7 +2,7 @@
 title: Wine 运行器
 description: Wine 运行器
 published: true
-date: 2022-12-27T02:16:29.596Z
+date: 2023-01-09T02:53:04.799Z
 tags: wine, wine exe
 editor: markdown
 dateCreated: 2022-07-23T01:44:40.008Z
@@ -174,5 +174,5 @@ Gitlink：https://www.gitlink.org.cn/gfdgd_xi/deep-wine-runner
 **以及本程序在非 X86 架构上测试较少，可能容易翻车，建议不要在办公环境使用**
 **现在新增了通过SHA1值获取应用适配情况的功能，查看链接：https://gfdgd-xi.github.io/wine-runner-info/，如何贡献自己的适配情况？在 Wine 运行器进行评分即可**
 **自动配置文件的脚本如何编写/贡献？可见程序 Wiki：https://gfdgd-xi.github.io/wine-runner-wiki/ 如果想要贡献请按照 Wiki 的要求进行Pr**
-**感谢由 [@Allen](user/290514) 制作的论坛： [https://gfdgdxi.flarum.cloud/](https://gfdgdxi.flarum.cloud/) ，欢迎使用**
+**感谢由 [@Allen](https://bbs.deepin.org/user/290514) 制作的论坛： [https://gfdgdxi.flarum.cloud/](https://gfdgdxi.flarum.cloud/) ，欢迎使用**
 
