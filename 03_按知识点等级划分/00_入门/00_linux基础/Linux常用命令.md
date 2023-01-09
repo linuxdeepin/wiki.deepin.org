@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T14:21:49.078Z
+date: 2023-01-09T14:22:40.292Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -166,5 +166,10 @@ vi 的三种模式如下：
 
 ![2023-1-9_99329.png](/2023-1-9_99329.png)
 
-**删除用户命令：`userdel`**
+- **删除用户命令：** **`userdel`**
+
+    - 删除用户：`userdel 用户名`
+    - 删除用户并同时删除其登陆信息：`userdel -r 用户名`
+
+
 
