@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T14:01:26.348Z
+date: 2023-01-09T14:03:29.238Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -82,6 +82,8 @@ https://blog.csdn.net/huaijiu123/article/details/82083452
 - **查看、编辑文件命令：****`vi`**
 
   - vi 命令为 UNIX 操作系统或者类 UNIX 操作系统都有具有的功能强大的文件编辑命令，用户输入 vi ++ 文件名，便可以进入 vi 模式进行文件内容的查看和编辑，如果文件已经存在，则直接打开文件，如果文件不存在，则系统将打开一个全新的空文件。
+
+vi 的三种模式如下：
 
 vi 的三种模式如下：
 
