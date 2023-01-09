@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T14:31:16.598Z
+date: 2023-01-09T14:31:30.822Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -305,3 +305,5 @@ Linux 下常用的软件安装方式有3种。
 - 查询是否已经安装了某软件包：`rpm -qa|grep [软件包关键词]`
 - 卸载已经安装的软件包：`rpm -e 软件包全名`
 - 安装软件包并查看进度：`rpm -ivh 软件包路径`
+
+![2023-1-9_87065.png](/2023-1-9_87065.png)
