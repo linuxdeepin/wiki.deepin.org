@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T14:22:40.292Z
+date: 2023-01-09T14:24:08.594Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -171,5 +171,20 @@ vi 的三种模式如下：
     - 删除用户：`userdel 用户名`
     - 删除用户并同时删除其登陆信息：`userdel -r 用户名`
 
+![2023-1-9_85821.png](/2023-1-9_85821.png)
+
+- **修改用户信息命令：** **`usermod`**
+
+    - 语法：`usermod [选项] [参数] [用户名]`
+    - 修改用户登录名：`usermod -l 新用户名 旧用户名`
+    - 修改用户所属分组：`usermod -g 新组名称 用户名`
+
+![2023-1-9_51269.png](/2023-1-9_51269.png)
+
+- **添加用户组命令：** **`groupadd`**
+
+    - 语法：`groupadd [选项] [组名称]`
+    - 修改用户登陆名：`groupadd 组名`
+    - 修改用户所属分组：`groupadd -g 组 GID 组名`
 
 
