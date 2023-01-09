@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T14:24:08.594Z
+date: 2023-01-09T14:25:06.145Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z
@@ -186,5 +186,17 @@ vi 的三种模式如下：
     - 语法：`groupadd [选项] [组名称]`
     - 修改用户登陆名：`groupadd 组名`
     - 修改用户所属分组：`groupadd -g 组 GID 组名`
+    
+![2023-1-9_88335.png](/2023-1-9_88335.png)
+
+
+权限操作
+Linux 操作系统为文件定义了读、写、执行三种权限，不同的用户或者用户组可以具有不同的权限，系统采用 “r”、“w”、“x” 来分别表示文件的读、写、执行权限。使用 ls -l 命令可以查看到用户在当前目录或者文件的操作权限。
+
+举列：
+
+```
+drwxr -xr -x. 2 root root 4096 Sep 23 2011 bin
+```
 
 
