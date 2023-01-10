@@ -2,7 +2,7 @@
 title: Matrix
 description: 介绍 Matrix 即时通讯平台的使用方式
 published: true
-date: 2023-01-06T05:55:21.906Z
+date: 2023-01-10T06:01:43.180Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T06:37:05.800Z
@@ -20,6 +20,7 @@ Matrix 是一个开源、开放、轻量级、去中心化的及时聊天通讯�
 
 如果您还没有在任何实例注册过 Matrix 帐号，您可以考虑在下面列表中的任意一个实例中注册帐号：
 
+- Deepin (推荐)：[账号申请](https://cooperation.uniontech.com/public/form/41b23e5518074c1b958d11e5c8d2d54e) | [登录地址](https://chat.getdeepin.org)
 - Mozilla（推荐）：https://chat.mozilla.org/#/welcome
 - Fedora Project：https://chat.fedoraproject.org/
 - OpenSuSE：https://chat.opensuse.org/
@@ -40,12 +41,12 @@ Element 是 Matrix 官方性质的，基于 Web 技术的 Matrix 客户端实现
 > 若您所使用发行版未做任何额外配置，则 Element 客户端默认会尝试连接 `matrix.org` 实例。若您所处的环境无法直接连接 matrix.org，则可能在打开 Element 后看到 `Your Element is misconfigured` 的提示。此时，可通过在 ~/.config/Element/config.json 创建内容如下的文件，然后尝试重新启动 Element 客户端即可：
 > ```json
 > {
->     "default_server_name": "mozilla.modular.im"
+>     "default_server_name": "deepin.org"
 > }
 > ```
 > ~~deepin 已为软件仓库中的 Element 提供了近似的配置，故不需要进行额外操作。~~（还没有）
 
-值得注意的是，在登录前，您可能需要编辑 Home Server 到您所注册时所使用的实例所对应的位置。例如假设您使用了 Mozilla 的实例，则需要编辑修改为 `https://mozilla.modular.im`。
+值得注意的是，在登录前，您可能需要编辑 Home Server 到您所注册时所使用的实例所对应的位置。例如假设您使用了 Mozilla 的实例，则需要编辑修改为 `mozilla.modular.im`。
 
 ### Nheko Reborn
 
