@@ -2,7 +2,7 @@
 title: deepin下使用Ventoy安装Windows
 description: 本文由论坛用户pzm9012分享，原帖地址：https://www.yuque.com/pzm9012/ct5ume/uf10gv
 published: true
-date: 2022-10-25T07:14:07.526Z
+date: 2023-01-10T14:32:59.705Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T03:24:14.525Z
@@ -98,7 +98,7 @@ dateCreated: 2022-06-15T03:24:14.525Z
 
 官方说明：https://ventoy.net/cn/doc_linux_webui.html
 
-1.进入Ventoy官网（https://www.ventoy.net/cn/index.html），点击网页顶栏上的下载，在下载页面里下载末尾为linux.tar.gz的文件。（推荐通过“说明”中的蓝奏云下载地址下载）
+1.进入Ventoy官网（ https://www.ventoy.net/cn/index.html ），点击网页顶栏上的下载，在下载页面里下载末尾为linux.tar.gz的文件。（推荐通过“说明”中的蓝奏云下载地址下载）
 
 
 ![1](https://storage.deepin.org/thread/202108190919393816_%E6%88%AA%E5%9B%BE_Navigator_20210819090650.png)
@@ -107,7 +107,7 @@ dateCreated: 2022-06-15T03:24:14.525Z
 
 ![img](https://storage.deepin.org/thread/202108190921059317_%E6%88%AA%E5%9B%BE_dde-file-manager_20210819090958.png)
 
-3. 在终端中输入sudo sh ./VentoyWeb.sh并回车执行，输入密码。在浏览器中输入网址http://127.0.0.1:24680并进入，此时会看到Ventoy的图形界面。
+3.在终端中输入sudo sh ./VentoyWeb.sh并回车执行，输入密码。在浏览器中输入网址http://127.0.0.1:24680并进入，此时会看到Ventoy的图形界面。
 
 ![s1.png](/图片存储/s1.png)
 
@@ -121,7 +121,7 @@ dateCreated: 2022-06-15T03:24:14.525Z
 
 ### 4.1.2  使用命令行模式
 
-1.进入Ventoy官网（https://www.ventoy.net/cn/index.html），点击网页顶栏上的下载，在下载页面里下载末尾为linux.tar.gz的文件。（推荐通过“说明”中的蓝奏云下载地址下载）
+1.进入Ventoy官网（ https://www.ventoy.net/cn/index.html ），点击网页顶栏上的下载，在下载页面里下载末尾为linux.tar.gz的文件。（推荐通过“说明”中的蓝奏云下载地址下载）
 
 ![s7.png](/图片存储/s7.png)
 
@@ -134,7 +134,7 @@ dateCreated: 2022-06-15T03:24:14.525Z
 ![s1.png](/图片存储/s3.png)
 
 
-4.打开ventoy官网的使用说明（https://www.ventoy.net/cn/doc_start.html），滚动至Linux系统安装Ventoy部分。将显示为红色的那行命令(sh Ventoy2Disk.sh -i /dev/XXX)复制到先前打开的终端，在这行命令前面加上“sudo ”（注意空格，如果不方便加的话可以先输入“sudo ”再粘贴命令），将末尾的“XXX”换成第3步在文件管理器看到的U盘标识（略去数字，只输入前3个字母）。
+4.打开ventoy官网的使用说明（ https://www.ventoy.net/cn/doc_start.html ），滚动至Linux系统安装Ventoy部分。将显示为红色的那行命令(`sh Ventoy2Disk.sh -i /dev/XXX`)复制到先前打开的终端，在这行命令前面加上“sudo ”（注意空格，如果不方便加的话可以先输入“sudo ”再粘贴命令），将末尾的“XXX”换成第3步在文件管理器看到的U盘标识（略去数字，只输入前3个字母）。
 
 ![s1.png](/图片存储/s4.png)
 
