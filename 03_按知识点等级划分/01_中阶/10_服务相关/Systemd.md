@@ -1,28 +1,12 @@
 ---
 title: Systemd
-description: 
+description: Systemd不仅能完成系统的初始化工作，也能对系统和服务进行管理。
 published: true
-date: 2022-10-18T03:02:17.301Z
+date: 2023-01-17T13:35:22.046Z
 tags: systemd
 editor: markdown
 dateCreated: 2022-06-16T03:02:15.607Z
 ---
-
-# Systemd
-Systemd不仅能完成系统的初始化工作，也能对系统和服务进行管理。
-
-## 目录
-
-
-
-- [1简介](http://old.deepin.wiki/index.php?title=Systemd#.E7.AE.80.E4.BB.8B)
-- 2systemctl命令
-  - [2.1启动服务](http://old.deepin.wiki/index.php?title=Systemd#.E5.90.AF.E5.8A.A8.E6.9C.8D.E5.8A.A1)
-  - [2.2重启服务](http://old.deepin.wiki/index.php?title=Systemd#.E9.87.8D.E5.90.AF.E6.9C.8D.E5.8A.A1)
-  - [2.3停止服务](http://old.deepin.wiki/index.php?title=Systemd#.E5.81.9C.E6.AD.A2.E6.9C.8D.E5.8A.A1)
-  - [2.4启用和禁用服务](http://old.deepin.wiki/index.php?title=Systemd#.E5.90.AF.E7.94.A8.E5.92.8C.E7.A6.81.E7.94.A8.E6.9C.8D.E5.8A.A1)
-  - [2.5查看服务](http://old.deepin.wiki/index.php?title=Systemd#.E6.9F.A5.E7.9C.8B.E6.9C.8D.E5.8A.A1)
-  - [2.6电源管理](http://old.deepin.wiki/index.php?title=Systemd#.E7.94.B5.E6.BA.90.E7.AE.A1.E7.90.86)
 
 ## 简介
 
