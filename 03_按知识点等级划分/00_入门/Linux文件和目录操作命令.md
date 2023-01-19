@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:33:51.613Z
+date: 2023-01-19T01:34:25.617Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -500,3 +500,104 @@ xargs [option]
 **选项**
 
 ![2023-1-19_40466.png](/2023-1-19_40466.png)
+
+**（15）rename：重命名文件**
+
+**说明**
+
+rename命令通过字符串替换的方式批量修改文件名。
+
+**语法**
+
+rename from to file
+
+1.from：代表需要替换或处理的字符，一般是文件名的一部分，也包括拓展名
+
+2.to：把前面的from代表的内容替换为to代表的内容
+
+3.file：待处理的文件，可以用“*”通配所有文件
+
+使用范例
+
+将所有文件的finished替换为空
+
+rename “finished” “” *
+
+将所有文件的.jpg替换为.png
+
+rename .jpg .png *.jpg
+
+
+
+**（16）basename：显示文件名或目录名**
+
+**说明**
+
+basename命令用于显示去除路径和文件后缀部分的文件名或目录名。
+
+**语法**
+
+basename [name] [suffix]
+
+suffix是可选参数，指定要去除的文件后缀字符串。
+
+使用范例
+
+去除路径部分，即只显示文件名
+
+[root@iZ8 /home]$mkdir data/dir1 -p
+
+[root@iZ8 /home]$touch data/dir1/file.txt
+
+[root@iZ8 /home]$basename data/dir1/file.txt
+
+file.txt
+
+[root@iZ8 /home]$basename data/dir1/file.txt .txt
+
+file
+
+
+
+**（17）dirname：显示文件或目录路径**
+
+**说明**
+
+dirname命令用于显示文件或目录路径。
+
+**语法**
+
+dirname [name]
+
+**使用范例**
+
+只显示文件所在路径
+
+[root@iZ8 /home]$dirname data/dir1/file.txt
+
+data/dir1
+
+给dirname一个相对路径，他也会返回相对路径（当前目录.）
+
+[root@iZ8 /home]$cd data/dir1/
+
+[root@iZ8 /home/data/dir1]$dirname file.txt
+
+.
+
+
+
+**（18）chattr：改变文件的扩展属性**
+
+**说明**
+
+chattr命令用于改变文件的扩展属性。与chmod这个命令相比，chmod只是改变文件的读、写、执行权限，更底层的属性控制是由chattr来改变的。
+
+**语法**
+
+chattr [option] [mode] [files]
+
+**选项**
+
+![2023-1-19_1120.png](/2023-1-19_1120.png)
+
