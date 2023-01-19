@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:19:16.133Z
+date: 2023-01-19T01:19:46.415Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -29,13 +29,12 @@ pwd [option]
 
 ![2023-1-19_35432.png](/2023-1-19_35432.png)
 
-
 PWD系统环境变量，可以用“$”符号输出其值，代码如下：
 
 [root@iZ8vb11v8r15ng6q0eb8dzZ ~]# echo $PWD
 
 /root
 
-在Bash命令行显示当前用户的完整路径。
+**在Bash命令行显示当前用户的完整路径。**
 
 系统Bash命令行的提示符是由一个称为PS1的系统环境变量控制的。
