@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:33:41.759Z
+date: 2023-01-19T01:33:51.613Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -498,3 +498,5 @@ xargs命令是向其他命令传递命令行参数的一个过滤器，能够将
 xargs [option]
 
 **选项**
+
+![2023-1-19_40466.png](/2023-1-19_40466.png)
