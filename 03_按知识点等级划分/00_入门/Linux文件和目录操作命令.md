@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:19:46.415Z
+date: 2023-01-19T01:20:16.358Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -38,3 +38,51 @@ PWD系统环境变量，可以用“$”符号输出其值，代码如下：
 **在Bash命令行显示当前用户的完整路径。**
 
 系统Bash命令行的提示符是由一个称为PS1的系统环境变量控制的。
+
+![2023-1-19_78390.png](/2023-1-19_78390.png)
+
+查看当前PS1变量的值
+
+[root@iZ8vb11v8r15ng6q0eb8dzZ home]# echo $PS1
+
+[\u@\h \W]$
+
+修改PS1变量对应的值，来让命令行显示全路径(临时生效)
+
+[root@iZ8vb11v8r15ng6q0eb8dzZ home]# PS1="[\u@\h \w]$"
+
+[root@iZ8vb11v8r15ng6q0eb8dzZ /home]$cd /etc/sysconfig
+
+[root@iZ8vb11v8r15ng6q0eb8dzZ /etc/sysconfig]$
+
+修改PS1变量对应的值，来让命令行显示全路径(永久生效)
+
+1.编辑/etc/bashrc文件，找到以下内容
+
+[ “$PS1” = “\s-\v\$ " ] && PS1=”[\u@\h \W]\$ "
+
+2.修改退出
+
+[ “$PS1” = “\s-\v\$ " ] && PS1=”[\u@\h \w]\$ "
+
+3.最后，注销并重新登录系统或直接执行source/etc/bashrc使得修改的信息生效
+
+
+
+**（2）cd：切换目录**
+
+**说明**
+
+cd命令是“change directory”中每个单词的首字母缩写，其功能是从当前工作目录切换到指定的工作目录。
+
+**语法**
+
+cd [option] [dir]
+
+1.注意cd命令以及后面的选项和目录，每个元素之间都至少要有一个空格。
+
+2.cd命令后面的选项和目录等参数都可以省略。默认情况下，单独执行cd命令，可切换到当前登录用户的家目录（由系统环境变量HOME定义）。
+
+3.cd是bash shell的内置命令，查看该命令对应的系统帮助需要使用help cd。
+
+**参数**
