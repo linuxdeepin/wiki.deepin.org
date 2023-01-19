@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:20:16.358Z
+date: 2023-01-19T01:28:15.787Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -86,3 +86,5 @@ cd [option] [dir]
 3.cd是bash shell的内置命令，查看该命令对应的系统帮助需要使用help cd。
 
 **参数**
+
+![2023-1-19_38635.png](/2023-1-19_38635.png)
