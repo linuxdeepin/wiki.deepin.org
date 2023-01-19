@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:34:25.617Z
+date: 2023-01-19T01:35:10.919Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -600,4 +600,34 @@ chattr [option] [mode] [files]
 **选项**
 
 ![2023-1-19_1120.png](/2023-1-19_1120.png)
+
+**使用范例**
+
+设置只能往文件里追加内容，但不能删除文件。
+
+chattr +a test
+
+给文件加锁，使其只能是只读。
+
+chattr +i file
+
+避免恶意删除.bash_history历史记录文件或者重定向到/dev/null，又因为系统需要向这个文件中写入历史记录，因此采用追加模式，只增不减：
+
+chattr +a .bash_history
+
+tips: 关于chattr的功能，我们能够操作的，黑客如果知道了也能操作，因此，使用chattr的安全性是相对的。
+
+
+
+**（19）lsattr：查看文件扩展属性**
+
+**说明**
+
+lsattr命令用于查看文件的扩展属性。
+
+**语法**
+
+lsattr [options] [files]
+
+**选项**
 
