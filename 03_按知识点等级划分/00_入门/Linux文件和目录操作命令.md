@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:35:10.919Z
+date: 2023-01-19T01:59:58.797Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -631,3 +631,160 @@ lsattr [options] [files]
 
 **选项**
 
+![2023-1-19_3688.png](/2023-1-19_3688.png)
+
+**使用范例**
+
+查看文件扩展属性
+
+[root@iZ8 /home]$lsattr file.txt
+
+-------------------- file.txt
+
+[root@iZ8/home]$chattr +i file.txt
+
+[root@iZ8 /home]$lsattr file.txt
+
+----i--------------- file.txt
+
+查看目录扩展属性
+
+[root@iZ8 /home]$lsattr -d dir/
+
+-------------------- dir/
+
+[root@iZ8 /home]$chattr +i dir
+
+[root@iZ8 /home]$lsattr -d dir/
+
+----i--------------- dir/
+
+
+
+**（20）file：显示文件的类型**
+
+**说明**
+
+file命令用于显示文件的类型。
+
+**语法**
+
+file [option] [file]
+
+多个文件之间使用空格分开，可以使用通配符来匹配多个文件。
+
+**选项**
+
+![2023-1-19_16921.png](/2023-1-19_16921.png)
+
+**（21）md5sum：计算和校验文件的MD5值**
+
+**说明**
+
+md5sum命令用于计算和校验文件的MD5值。MD5的全名为Message-Digest Algorithm（信息-摘要算法）5，它是一种不可逆的加密算法。软件或文件一般都有自己固定的文件格式或信息，简单一点说就是“世界上没有完全相同的两片叶子”，那么对于某些网上公开下载的软件、视频，尤其是镜像文件，如果被修改了可能会导致用不了或者其他的问题。因此发布者首先要通过MD5算法得出一组数值，然后让下载的用户进行MD5的数值对比，即MD5校验。基于MD5加密不可逆算的特性，如果数值一样，那么就表示文件没有受到修改。反之，则表示修改了。
+
+**语法**
+
+md5sum [option] [file]
+
+**选项**
+
+![2023-1-19_40067.png](/2023-1-19_40067.png)
+
+**生产案例**
+
+利用md5sum命令来检验备份文件是否遭到损坏。
+
+md5sum命令用于备份任务的指纹检查。每次在备份完成之后生成指纹文件，将备份和指纹文件发送到备份服务器上，在备份服务器上又会通过md5sum命令和校验文件校验备份是否正确。这样做的目的是为了在第一时间发现可能因为网络传输而造成的文件损坏。
+
+
+
+**（22）chown：改变文件或目录的用户和用户组**
+
+**说明**
+
+chown命令用于改变文件或目录的用户和用户组。
+
+**语法**
+
+chown [option] [OWNER] [:[GROUP]] [file]
+
+**常用格式**
+
+chown 用户 文件或目录 # 仅仅授权用户
+
+chown :组 文件或目录 # 仅仅授权组
+
+chown 用户:组 文件或目录 # 表示授权用户和组
+
+1.其中的 : 可以用 . 来代替
+
+2.要授权的用户和组名，必须是Linux系统实际存在的。
+
+**选项**
+
+![2023-1-19_78970.png](/2023-1-19_78970.png)
+
+**范例**
+
+\# 更改文件所属用户属性
+
+[root@iZ8 /home]$ll
+
+total 0
+
+-rw-r–r-- 1 root root 0 Jan 4 14:09 file.txt
+
+drwx------ 2 testuser testuser 62 Jan 4 14:05 testuser
+
+[root@iZ8 /home]$chown testuser file.txt
+
+[root@iZ8 /home]$ll
+
+total 0
+
+-rw-r–r-- 1 testuser root 0 Jan 4 14:09 file.txt
+
+drwx------ 2 testuser testuser 62 Jan 4 14:05 testuser
+
+\# 更改文件所属组属性
+
+[root@iZ8 /home]$chown .testuser file.txt
+
+[root@iZ8 /home]$ll
+
+total 0
+
+-rw-r–r-- 1 testuser testuser 0 Jan 4 14:09 file.txt
+
+drwx------ 2 testuser testuser 62 Jan 4 14:05 testuser
+
+
+
+**（23）chmod：改变文件或目录权限**
+
+**说明**
+
+chmod命令是用来改变文件或目录权限的命令，但是只有文件的属主和超级用户root才能够执行这个命令。
+
+**语法**
+
+chmod [option] [mode] [file]
+
+模式有两种格式：一种是采用权限字母和操作符表达式；另一种是采用数字。
+
+**选项**
+
+![2023-1-19_81785.png](/2023-1-19_81785.png)
+
+![2023-1-19_41589.png](/2023-1-19_41589.png)
+
+字母和数字权限转换图
+
+![2023-1-19_64132.png](/2023-1-19_64132.png)
+
+目录权限说明
+
+![2023-1-19_97304.png](/2023-1-19_97304.png)
+
+![2023-1-19_95702.png](/2023-1-19_95702.png)
