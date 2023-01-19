@@ -2,7 +2,7 @@
 title: Linux文件和目录操作命令
 description: 
 published: true
-date: 2023-01-19T01:33:30.808Z
+date: 2023-01-19T01:33:41.759Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-19T01:16:28.504Z
@@ -486,3 +486,15 @@ find [-H] [-L] [-P] [-D debugopts] [-0level] [pathname] [expression]
 **选项**
 
 ![2023-1-19_23018.png](/2023-1-19_23018.png)
+
+**（14）xargs：将标准输入转换成命令行参数**
+
+**说明**
+
+xargs命令是向其他命令传递命令行参数的一个过滤器，能够将管道或者标准输入传递的数据转换成xargs命令后跟随的命令的命令行参数。
+
+**语法**
+
+xargs [option]
+
+**选项**
