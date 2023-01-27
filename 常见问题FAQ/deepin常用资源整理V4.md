@@ -1,8 +1,8 @@
 ---
-title: deepin 常用资源整理 · V4.1
+title: deepin 常用资源整理 · V4.1.3
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-01-27T07:29:08.330Z
+date: 2023-01-27T12:30:11.212Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -585,6 +585,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 8. 用命令快速分享到文叔叔等平台--transfer（GO语言）：[https://bbs.deepin.org/post/241623](https://bbs.deepin.org/post/241623)
 9. 跨平台的文件分享软件-速享【flutter开发】：[https://bbs.deepin.org/post/241839](https://bbs.deepin.org/post/241839)
 10. ToDesk最新版若启动不了，请下载旧版安装：[https://dl.todesk.com/linux/todesk_4.1.0_amd64.deb](https://dl.todesk.com/linux/todesk_4.1.0_amd64.deb)
+11. 局域网传输软件推荐：https://bbs.deepin.org/zh/post/249194
 
 #### 4.1.8 其他应用
 
