@@ -2,7 +2,7 @@
 title: 浅探 deepin Live 和修复 Linux 引导
 description: 教程仅供参考，请以实际情况为准。
 published: true
-date: 2022-12-05T03:39:15.808Z
+date: 2022-12-05T03:39:18.950Z
 tags: live cd, 引导
 editor: markdown
 dateCreated: 2022-12-05T03:39:15.808Z
