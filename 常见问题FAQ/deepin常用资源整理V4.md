@@ -2,13 +2,13 @@
 title: deepin 常用资源整理 · V4.1.3
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-01-27T12:30:11.212Z
+date: 2023-01-27T12:31:04.447Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
 ---
 
-> 本文创建于2021-05-15，当前版本发布于2023-01-26。
+> 本文创建于2021-05-15，当前版本发布于2023-01-27。
 > [PossibleVing](https://bbs.deepin.org/user/225373) 接手继续维护本文，感谢 [pzm9012](https://bbs.deepin.org/user/217969) 发起本文及曾经的默默付出。
 > [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/)
 
