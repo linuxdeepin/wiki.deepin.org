@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.1
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2022-12-07T09:53:32.343Z
+date: 2022-12-07T10:28:04.790Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -221,9 +221,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 8. 中州韵98五笔助手：[https://bbs.deepin.org/zh/post/231400](https://bbs.deepin.org/zh/post/231400)
 9. 输入法不跟随光标：[https://bbs.deepin.org/zh/post/231849](https://bbs.deepin.org/post/231849)
 10. 默认输入法配置：[https://bbs.deepin.org/zh/post/232652](https://bbs.deepin.org/zh/post/232652)
-11. 【deepin个性化配置(2)】安装和配置Fcitx5输入法：[https://bbs.deepin.org/zh/post/233230](https://bbs.deepin.org/zh/post/233230) 
-12. 在deepin上使用fcitx5输入法：[https://bbs.deepin.org/zh/post/243632](https://bbs.deepin.org/zh/post/243632)（个人推荐）
-13. 安装了fcitx5输入法就无法安装其它输入法 的解决方法：[https://bbs.deepin.org/post/246805](https://bbs.deepin.org/post/246805)
+11. 在deepin上使用fcitx5输入法：[https://bbs.deepin.org/zh/post/243632](https://bbs.deepin.org/zh/post/243632)（个人推荐）
+12. 安装了fcitx5输入法就无法安装其它输入法 的解决方法：[https://bbs.deepin.org/post/246805](https://bbs.deepin.org/post/246805)
 
 <a name="r1t5d"></a>
 #### 2.6.4 性能
@@ -242,17 +241,15 @@ dateCreated: 2022-11-01T12:45:22.559Z
 <a name="zNG9L"></a>
 #### 2.6.5 命令与终端
 
-1. deepin-terminal的新改造：[https://bbs.deepin.org/zh/post/225366](https://bbs.deepin.org/zh/post/225366)
-2. 终端deepin-terminal自定义命令和分屏杂谈：[https://bbs.deepin.org/zh/post/237641](https://bbs.deepin.org/zh/post/237641)
-3. 使用过的一些命令分享：[https://bbs.deepin.org/zh/post/223660](https://bbs.deepin.org/zh/post/223660)
-4. 以root权限运行命令配置无需输入密码（sudo和pkexec）：[https://bbs.deepin.org/zh/post/229374](https://bbs.deepin.org/zh/post/229374)
-5. apt和apt-get的区别：[https://bbs.deepin.org/zh/post/208702](https://bbs.deepin.org/zh/post/208702)
-6. 查看系统安装的日期与时间：[https://bbs.deepin.org/zh/post/229311](https://bbs.deepin.org/zh/post/229311)
-7. 手把手教你装zsh，所有github链接都换成了gitee，包你安装顺利：[https://bbs.deepin.org/zh/post/237774](https://bbs.deepin.org/zh/post/237774)
-8. 使用fish代替bash，真好用：[https://bbs.deepin.org/zh/post/238189](https://bbs.deepin.org/zh/post/238189)
-9. 使用alias简化命令：[https://bbs.deepin.org/zh/post/239361](https://bbs.deepin.org/zh/post/239361)
-10. 一个系统安装包配置脚本 autosetup for Deepin OS：[https://bbs.deepin.org/post/241041](https://bbs.deepin.org/post/241041)
-11. 写了个脚本，让apt-ftparchieve也能增量扫描更新deb仓库：[https://bbs.deepin.org/post/242570](https://bbs.deepin.org/post/242570)
+1. 使用过的一些命令分享：[https://bbs.deepin.org/zh/post/223660](https://bbs.deepin.org/zh/post/223660)
+2. 以root权限运行命令配置无需输入密码（sudo和pkexec）：[https://bbs.deepin.org/zh/post/229374](https://bbs.deepin.org/zh/post/229374)
+3. apt和apt-get的区别：[https://bbs.deepin.org/zh/post/208702](https://bbs.deepin.org/zh/post/208702)
+4. 查看系统安装的日期与时间：[https://bbs.deepin.org/zh/post/229311](https://bbs.deepin.org/zh/post/229311)
+5. 手把手教你装zsh，所有github链接都换成了gitee，包你安装顺利：[https://bbs.deepin.org/zh/post/237774](https://bbs.deepin.org/zh/post/237774)
+6. 使用fish代替bash，真好用：[https://bbs.deepin.org/zh/post/238189](https://bbs.deepin.org/zh/post/238189)
+7. 使用alias简化命令：[https://bbs.deepin.org/zh/post/239361](https://bbs.deepin.org/zh/post/239361)
+8. 一个系统安装包配置脚本 autosetup for Deepin OS：[https://bbs.deepin.org/post/241041](https://bbs.deepin.org/post/241041)
+9. 写了个脚本，让apt-ftparchieve也能增量扫描更新deb仓库：[https://bbs.deepin.org/post/242570](https://bbs.deepin.org/post/242570)
 
 <a name="VeESr"></a>
 #### 2.6.6 文件处理
