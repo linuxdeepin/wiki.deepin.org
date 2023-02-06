@@ -2,7 +2,7 @@
 title: deepin-community分支与Tag管理
 description: 分支与Tag管理
 published: true
-date: 2022-11-15T06:47:49.530Z
+date: 2023-02-06T02:33:37.893Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T02:21:35.049Z
@@ -19,17 +19,21 @@ deepin 社区版为滚动发布制，一般没有维护分支，`master` 分支
 
  
 
-**Tag命令规范**
+**changelog版本规范**
 
-我们推荐采用 [semver](https://semver.org/lang/zh-CN/)的规范，格式为：
 
-主版本号.功能版本.修复版本
 
-> 基于上游开源项目，那么项目版本号为 upstreamversion.DeepinVersion。如 systemd 上游版本为 250,那么 systemd Deepin 版本为 250.1、250.2·······；^
+`upstreamversion-${ver1}deepin${ver2}`
 
-> 假设上游项目打包版本号为 x.y.z，则创建上游项目 tag 为 x.y.z.1，依次累加版本号， 打包版本为 x.y.z.1-deepin1
-{.is-info}
+1. 假设上游项目打包版本号为 x.y.z ，deepin打包版本则为 `x.y.z-${ver1}deepin${ver2}` 
+ ver1：ver1为0时表示 deepin自行打包的上游软件，ver1不为0时表示来自上游的quilt软件包自带的-ver版本
+ ver2：表示来自deepin社区的patch数量，依次递增，可为空
 
+2. 来自deepin community自行打包的上游软件 以0deepin开头标识，若该项目添加了来自deepin的patch则以deepin1 标识，依次累加, 版本号形式x.y.z-0deepin1 , 若上游已经添加-2这类版本号，版本号则为 x.y.z-2deepin1
+
+3. 若需要集成native软件包到deepin，则应改为quilt格式 遵循条例2
+
+4.  CI自动构建版本号 `x.y.z-${ver1}deepin${ver2}+u001+rb1`，001为距离上一次修改changelog的commit次数，rb1为rebuild次数，依次累加
 
 **分支与tag的创建申请**
 
@@ -43,5 +47,5 @@ deepin 社区版为滚动发布制，一般没有维护分支，`master` 分支
 
 **Tag创建**： 
 
-修改debian/changelog文件时，会自动触发auo-tag的工作流将changelog中的version创建成tag
+修改debian/changelog文件时，会自动触发auo-tag的工作流将changelog中的version创建成tag, :会被替换成% ~会被替换成_ ，DISTRIBUTION为UNRELEASED时不会触发tag的创建
 
