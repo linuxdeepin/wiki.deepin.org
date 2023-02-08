@@ -2,7 +2,7 @@
 title: 03_wiki当前目录结构说明
 description: 
 published: true
-date: 2022-10-17T08:04:38.676Z
+date: 2023-02-08T07:09:30.884Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-17T01:26:14.117Z
@@ -130,4 +130,7 @@ dateCreated: 2022-10-17T01:26:14.117Z
 但是失误总是存在的, 这无法避免.
 所以, 有任何疑问, 请在对应页面下方评论区留言, 后期编辑人员看到后会根据情况修改页面内容并删除对应评论.
 
-
+**目录滑块插件**
+[油猴脚本地址](https://greasyfork.org/zh-CN/scripts/453397-deepin-wiki-pc%E9%A1%B5%E9%9D%A2%E7%9B%AE%E5%BD%95%E6%BB%91%E5%9D%97)
+安装后可以左右拖动目录显示范围, 示例图:
+![2023-2-8_37027.png](/2023-2-8_37027.png)
