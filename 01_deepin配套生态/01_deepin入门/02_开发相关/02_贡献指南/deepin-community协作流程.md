@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-02-14T07:04:17.308Z
+date: 2023-02-14T07:43:34.692Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -84,6 +84,14 @@ info： 项目描述
 > ps: deepin OBS 实例目前由于构建资源问题暂不开放注册。
 {.is-warning}
 
+obs构建产物获取:
+    以[deepin-community:fstrcmp:PR-1](https://build.deepin.com/project/show/deepin:CI:deepin-community:fstrcmp:PR-1)为例，在project主页面 -> Repositories -> deepin_develop  ->  Go to download repository ,通过以上路径找到仓库地址。
+ 
+仓库使用： `echo "deb [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/CI:/deepin-community:/fstrcmp:/PR-1/deepin_develop/ ./" > /etc/apt/sources.list`
+
+![2023-2-14_92866.png](/2023-2-14_92866.png)
+
+![2023-2-14_95424.png](/2023-2-14_95424.png)
   
 ---
 
