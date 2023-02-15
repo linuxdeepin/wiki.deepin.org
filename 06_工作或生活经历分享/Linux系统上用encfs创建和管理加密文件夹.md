@@ -2,13 +2,15 @@
 title: Linux系统上用encfs创建和管理加密文件夹
 description: linux系统上使用工具对文件进行加密
 published: true
-date: 2023-02-15T09:40:20.515Z
-tags: linux, encfs, 文件加密
+date: 2023-02-15T09:56:19.099Z
+tags: encfs, linux, 文件加密
 editor: markdown
 dateCreated: 2023-02-15T09:40:20.515Z
 ---
 
 # Linux系统上用encfs创建和管理加密文件夹
+> 本篇wiki来源于作者[runningwater](https://github.com/runningwater)在Linux中国平台的分享[原文](https://linux.cn/article-2234-1.html)
+
 如果你想使你计算机上的某些信息免于被窥视的话，可以看看这篇文字。保护信息的一种方法就是加密你的home目录，但是一旦你登录系统后，你的home目录下的信息将暴露于外。过去，我已经写过关于怎样在你的系统上使用Cryptkeeper来创建加密的文件夹。Cryptkeeper是一个图形前端，后端是 encfs。encfs允许你创建一个加密的文件夹，然后通过FUSE来挂载作为用户文件系统。在这篇教程里，我会教你怎么在Linux系统上的命令行下面使用encfs工具来创建和管理一个加密的文件夹。
 
 ### 安装encfs
