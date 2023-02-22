@@ -34,3 +34,4 @@ dateCreated: 2022-06-27T03:00:57.617Z
 
 按照错误信息中的Location，找到VirtualBox.xml，将其删除，再次打开VirtualBox，正常，vagrant up也正常。
 
+

@@ -23,3 +23,4 @@ Ctrl + Alt + T启用终端（Terminal）；若终端无法启用，使用Ctrl + 
 - `sudo systemctl restart lightdm    #重新加载图形界面`
 
 然后使用快捷键Ctrl + Alt + F1，回到图形界面即可。
+

@@ -57,3 +57,4 @@ Krita 使用 OpenGL 加速来实现高品质的缩放、旋转，并极大地提
 - 官方网站：<https://krita.org/>
 - 维基百科页面：<https://en.wikipedia.org/wiki/Krita>
 - Krita Lime PPA：<https://launchpad.net/~kritalime/+archive/ubuntu/ppa>
+
