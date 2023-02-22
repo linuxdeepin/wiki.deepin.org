@@ -2,7 +2,7 @@
 title: YesPlayMusic
 description: 高颜值的第三方网易云播放器
 published: true
-date: 2022-10-21T05:32:18.956Z
+date: 2023-02-22T09:10:36.078Z
 tags: 音乐, 网易云
 editor: markdown
 dateCreated: 2022-07-13T03:54:37.173Z

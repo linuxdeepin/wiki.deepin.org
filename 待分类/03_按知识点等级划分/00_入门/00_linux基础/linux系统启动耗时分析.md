@@ -2,7 +2,7 @@
 title: linux系统启动耗时分析
 description: linux系统启动耗时分析   systemd-analyze  
 published: true
-date: 2022-12-22T06:50:41.561Z
+date: 2023-02-22T09:15:37.960Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-22T06:50:38.553Z

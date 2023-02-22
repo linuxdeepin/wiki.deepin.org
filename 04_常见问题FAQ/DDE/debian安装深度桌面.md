@@ -2,7 +2,7 @@
 title: debian安装深度桌面
 description: 
 published: true
-date: 2022-09-20T02:45:44.286Z
+date: 2023-02-22T09:13:19.052Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-19T10:07:46.726Z

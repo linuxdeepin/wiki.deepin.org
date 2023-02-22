@@ -2,7 +2,7 @@
 title: Linux基础命令
 description: 介绍Linux基础命令
 published: true
-date: 2022-10-26T07:36:35.365Z
+date: 2023-02-22T09:08:53.282Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T07:08:11.527Z

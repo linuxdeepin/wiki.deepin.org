@@ -2,7 +2,7 @@
 title: XDG桌面菜单项
 description: 
 published: true
-date: 2022-11-07T07:49:08.334Z
+date: 2023-02-22T09:15:00.749Z
 tags: freedesktop
 editor: markdown
 dateCreated: 2022-11-07T07:49:06.536Z

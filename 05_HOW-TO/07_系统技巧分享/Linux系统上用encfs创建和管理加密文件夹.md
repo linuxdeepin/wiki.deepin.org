@@ -2,7 +2,7 @@
 title: Linux系统上用encfs创建和管理加密文件夹
 description: linux系统上使用工具对文件进行加密
 published: true
-date: 2023-02-15T09:56:22.194Z
+date: 2023-02-22T09:15:58.159Z
 tags: linux, encfs, 文件加密
 editor: markdown
 dateCreated: 2023-02-15T09:40:20.515Z

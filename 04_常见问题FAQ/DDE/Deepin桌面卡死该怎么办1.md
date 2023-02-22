@@ -2,7 +2,7 @@
 title: Deepin桌面卡死该怎么办
 description: 
 published: true
-date: 2022-10-17T09:18:21.051Z
+date: 2023-02-22T09:08:10.915Z
 tags: dde桌面环境
 editor: markdown
 dateCreated: 2022-06-28T02:25:34.050Z

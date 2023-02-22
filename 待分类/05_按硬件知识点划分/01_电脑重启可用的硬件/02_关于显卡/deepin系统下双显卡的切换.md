@@ -2,7 +2,7 @@
 title: deepin系统下双显卡的切换
 description: 本文只针对双显卡机器（I+N卡或A+N卡），deepin内核优选5.18.17-amd64-desktop-hwe版本
 published: true
-date: 2022-10-19T01:42:57.633Z
+date: 2023-02-22T09:14:11.201Z
 tags: 双显卡, 切换, 硬件加速
 editor: markdown
 dateCreated: 2022-10-18T10:12:04.991Z

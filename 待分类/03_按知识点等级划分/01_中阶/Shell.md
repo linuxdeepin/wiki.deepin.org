@@ -2,7 +2,7 @@
 title: Shell
 description: 
 published: true
-date: 2022-10-17T08:29:39.519Z
+date: 2023-02-22T08:58:07.051Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:39.333Z

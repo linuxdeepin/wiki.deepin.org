@@ -2,7 +2,7 @@
 title: OpenShot
 description: 
 published: true
-date: 2022-10-21T07:58:11.896Z
+date: 2023-02-22T08:57:03.761Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:23.616Z

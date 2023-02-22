@@ -2,7 +2,7 @@
 title: 开源免费的终端工具WindTerm的使用介绍
 description: 
 published: true
-date: 2022-10-25T15:14:03.083Z
+date: 2023-02-22T09:14:46.826Z
 tags: windterm
 editor: markdown
 dateCreated: 2022-10-25T14:59:01.931Z

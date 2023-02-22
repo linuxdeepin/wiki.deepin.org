@@ -2,7 +2,7 @@
 title: CopyQ
 description: 
 published: true
-date: 2022-10-21T01:50:14.905Z
+date: 2023-02-22T08:53:40.871Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:03.627Z

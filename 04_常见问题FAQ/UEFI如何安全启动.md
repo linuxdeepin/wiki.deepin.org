@@ -2,7 +2,7 @@
 title: UEFI如何安全启动
 description: UEFI引导从入门到重装
 published: true
-date: 2022-10-21T16:49:34.261Z
+date: 2023-02-22T09:08:59.763Z
 tags: uefi
 editor: markdown
 dateCreated: 2022-06-28T07:50:35.714Z

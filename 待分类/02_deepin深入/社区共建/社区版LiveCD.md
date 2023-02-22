@@ -2,7 +2,7 @@
 title: Deepin Community Live CD
 description: 一个社区制作的第三方 Live CD
 published: true
-date: 2022-12-27T01:44:54.033Z
+date: 2023-02-22T09:12:09.544Z
 tags: live cd
 editor: markdown
 dateCreated: 2022-07-31T02:45:00.884Z

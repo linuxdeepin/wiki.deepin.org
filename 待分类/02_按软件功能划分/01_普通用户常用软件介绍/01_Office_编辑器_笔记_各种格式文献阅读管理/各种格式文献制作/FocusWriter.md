@@ -2,7 +2,7 @@
 title: FocusWriter
 description: 
 published: true
-date: 2022-10-21T07:50:41.480Z
+date: 2023-02-22T08:54:46.695Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:34:28.573Z

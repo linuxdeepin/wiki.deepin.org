@@ -2,7 +2,7 @@
 title: Virtualbox中如何调用摄像头
 description: 
 published: true
-date: 2022-10-09T17:31:23.901Z
+date: 2023-02-22T09:12:14.224Z
 tags: virtualbox
 editor: markdown
 dateCreated: 2022-08-02T06:00:49.003Z

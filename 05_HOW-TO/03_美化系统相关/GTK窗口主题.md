@@ -2,7 +2,7 @@
 title: GTK窗口主题
 description: 
 published: true
-date: 2022-10-18T04:51:23.565Z
+date: 2023-02-22T09:01:56.104Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:51:40.214Z

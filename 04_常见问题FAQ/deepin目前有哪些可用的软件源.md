@@ -2,7 +2,7 @@
 title: deepin目前有哪些可用的软件源
 description: 
 published: true
-date: 2022-06-28T05:27:47.382Z
+date: 2023-02-22T09:08:26.321Z
 tags: 软件源 deepin
 editor: markdown
 dateCreated: 2022-06-28T05:27:44.997Z

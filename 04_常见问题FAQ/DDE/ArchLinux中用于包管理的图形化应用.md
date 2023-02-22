@@ -2,7 +2,7 @@
 title: ArchLinux中用于包管理的图形化应用
 description: 
 published: true
-date: 2022-10-21T06:33:18.568Z
+date: 2023-02-22T09:14:38.944Z
 tags: arch
 editor: markdown
 dateCreated: 2022-10-21T02:26:26.295Z

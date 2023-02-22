@@ -2,7 +2,7 @@
 title: WxMEdit
 description: 
 published: true
-date: 2022-10-21T08:41:02.102Z
+date: 2023-02-22T08:59:35.340Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:44:58.061Z

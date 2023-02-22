@@ -2,7 +2,7 @@
 title: w3m
 description: w3m网页浏览器
 published: true
-date: 2022-10-21T06:15:51.475Z
+date: 2023-02-22T09:04:43.843Z
 tags: 浏览器, w3m
 editor: markdown
 dateCreated: 2022-06-10T06:01:05.569Z

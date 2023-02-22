@@ -2,7 +2,7 @@
 title: Refind+uefi在中柏Ezpad 6 plus上安装深度系统
 description: 
 published: true
-date: 2022-10-18T01:17:33.030Z
+date: 2023-02-22T08:57:45.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:05.095Z

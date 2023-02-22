@@ -2,7 +2,7 @@
 title: Linux常用命令
 description: 
 published: true
-date: 2023-01-09T14:31:34.400Z
+date: 2023-02-22T09:15:50.385Z
 tags: 命令
 editor: markdown
 dateCreated: 2023-01-09T13:05:32.993Z

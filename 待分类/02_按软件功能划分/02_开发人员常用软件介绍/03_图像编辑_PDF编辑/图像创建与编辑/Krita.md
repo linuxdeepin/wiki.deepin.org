@@ -2,7 +2,7 @@
 title: Krita
 description: KDE 出品的绘图软件
 published: true
-date: 2022-10-21T01:34:39.200Z
+date: 2023-02-22T08:56:03.034Z
 tags: 手绘, 绘图
 editor: markdown
 dateCreated: 2022-04-21T03:37:10.039Z

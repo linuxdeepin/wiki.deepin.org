@@ -2,7 +2,7 @@
 title: Opera
 description: 
 published: true
-date: 2022-10-21T06:14:38.667Z
+date: 2023-02-22T08:57:06.811Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:29.447Z

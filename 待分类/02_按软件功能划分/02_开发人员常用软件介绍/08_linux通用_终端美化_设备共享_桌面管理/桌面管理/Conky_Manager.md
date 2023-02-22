@@ -2,7 +2,7 @@
 title: Conky_Manager
 description: 
 published: true
-date: 2022-10-21T01:49:30.149Z
+date: 2023-02-22T08:53:39.395Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:31:00.172Z

@@ -2,7 +2,7 @@
 title: shutdown关机命令
 description: 
 published: true
-date: 2022-10-26T07:23:15.603Z
+date: 2023-02-22T09:14:52.976Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-26T07:23:13.906Z

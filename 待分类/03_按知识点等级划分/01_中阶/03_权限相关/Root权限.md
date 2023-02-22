@@ -2,7 +2,7 @@
 title: Root权限
 description: 
 published: true
-date: 2022-10-17T08:44:09.920Z
+date: 2023-02-22T08:57:53.387Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:14.348Z

@@ -2,7 +2,7 @@
 title: Deepin Community Live CD Install 新版本——一个定制的系统安装镜像
 description: Deepin Community Live CD Install 新版本——一个定制的系统安装镜像
 published: true
-date: 2022-12-27T01:45:33.730Z
+date: 2023-02-22T09:14:59.242Z
 tags: deepin, live cd
 editor: markdown
 dateCreated: 2022-11-01T12:49:57.773Z

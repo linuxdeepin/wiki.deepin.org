@@ -2,7 +2,7 @@
 title: V23下安装Linux版WPS、微信、搜狗输入法、Motrix的方法
 description: 
 published: true
-date: 2022-11-15T07:54:58.745Z
+date: 2023-02-22T09:15:11.607Z
 tags: v23
 editor: markdown
 dateCreated: 2022-11-15T07:48:41.507Z

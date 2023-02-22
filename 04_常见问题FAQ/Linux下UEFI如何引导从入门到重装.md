@@ -2,7 +2,7 @@
 title: Linux下UEFI如何引导从入门到重装
 description: 
 published: true
-date: 2022-06-28T07:49:00.563Z
+date: 2023-02-22T09:08:58.059Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T07:48:57.952Z

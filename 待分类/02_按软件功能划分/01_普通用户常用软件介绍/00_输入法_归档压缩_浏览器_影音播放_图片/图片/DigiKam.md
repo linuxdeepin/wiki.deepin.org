@@ -2,7 +2,7 @@
 title: DigiKam
 description: 
 published: true
-date: 2022-10-21T01:24:02.552Z
+date: 2023-02-22T08:54:20.792Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:08.940Z

@@ -2,7 +2,7 @@
 title: Xarchiver
 description: 
 published: true
-date: 2022-10-21T05:43:26.457Z
+date: 2023-02-22T08:59:39.984Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:10.100Z

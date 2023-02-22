@@ -2,7 +2,7 @@
 title: 如何把Deepin软件包转换成通用deb软件包的脚本
 description: 
 published: true
-date: 2022-06-28T03:21:54.508Z
+date: 2023-02-22T09:08:23.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-28T03:20:16.957Z

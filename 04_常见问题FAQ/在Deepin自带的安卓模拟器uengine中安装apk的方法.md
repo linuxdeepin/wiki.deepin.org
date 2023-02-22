@@ -2,7 +2,7 @@
 title: 在Deepin自带的安卓模拟器uengine中安装apk的方法
 description: 
 published: true
-date: 2022-10-07T15:51:41.615Z
+date: 2023-02-22T09:08:21.774Z
 tags: uengine
 editor: markdown
 dateCreated: 2022-06-28T03:16:27.133Z

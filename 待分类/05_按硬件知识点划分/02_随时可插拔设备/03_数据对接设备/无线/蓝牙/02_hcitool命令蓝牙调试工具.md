@@ -2,7 +2,7 @@
 title: 02_hcitool命令:蓝牙调试工具
 description: 简单介绍hcitool命令:蓝牙调试工具
 published: true
-date: 2022-10-17T07:22:13.721Z
+date: 2023-02-22T09:09:36.850Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-05T09:25:10.991Z

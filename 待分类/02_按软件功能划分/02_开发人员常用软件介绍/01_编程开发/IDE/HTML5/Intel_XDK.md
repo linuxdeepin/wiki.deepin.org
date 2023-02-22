@@ -2,7 +2,7 @@
 title: Intel_XDK
 description: 
 published: true
-date: 2022-10-21T04:50:32.432Z
+date: 2023-02-22T08:55:46.209Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:31.037Z

@@ -2,7 +2,7 @@
 title: NetBeans
 description: 
 published: true
-date: 2022-10-21T05:03:11.040Z
+date: 2023-02-22T08:56:55.849Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:02.422Z

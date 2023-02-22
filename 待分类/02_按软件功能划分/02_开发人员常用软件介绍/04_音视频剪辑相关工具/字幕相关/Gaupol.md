@@ -2,7 +2,7 @@
 title: Gaupol
 description: 
 published: true
-date: 2022-10-21T07:51:07.924Z
+date: 2023-02-22T08:55:03.260Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:35:02.043Z

@@ -2,7 +2,7 @@
 title: Commit 提交信息规范
 description: 关于 deepin 源码仓库提交时的提交信息规范
 published: true
-date: 2022-10-19T08:49:21.961Z
+date: 2023-02-22T09:12:39.635Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-30T03:18:16.527Z

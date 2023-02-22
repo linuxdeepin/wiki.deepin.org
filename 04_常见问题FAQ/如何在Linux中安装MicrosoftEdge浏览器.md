@@ -2,7 +2,7 @@
 title: 如何在Linux中安装MicrosoftEdge浏览器
 description: 
 published: true
-date: 2022-06-27T08:24:05.342Z
+date: 2023-02-22T09:07:58.525Z
 tags: edge
 editor: markdown
 dateCreated: 2022-06-27T08:18:52.917Z

@@ -2,7 +2,7 @@
 title: KWrite
 description: 
 published: true
-date: 2022-10-21T08:22:43.776Z
+date: 2023-02-22T08:55:50.820Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:36:48.886Z

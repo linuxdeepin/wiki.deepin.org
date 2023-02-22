@@ -2,7 +2,7 @@
 title: Filelight
 description: KDE 出品的可视化磁盘用量分析软件
 published: true
-date: 2022-10-21T02:00:40.721Z
+date: 2023-02-22T09:11:11.935Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-15T14:58:03.230Z

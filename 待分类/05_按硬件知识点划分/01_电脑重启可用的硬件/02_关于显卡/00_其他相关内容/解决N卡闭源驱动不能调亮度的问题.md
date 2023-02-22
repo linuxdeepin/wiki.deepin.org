@@ -2,7 +2,7 @@
 title: 解决N卡闭源驱动不能调亮度的问题
 description: 
 published: true
-date: 2022-10-18T00:58:07.661Z
+date: 2023-02-22T09:08:20.269Z
 tags: nvidia, 显卡
 editor: markdown
 dateCreated: 2022-06-28T03:13:56.281Z

@@ -2,7 +2,7 @@
 title: Obsidian
 description: 
 published: true
-date: 2022-10-21T06:22:18.970Z
+date: 2023-02-22T09:09:24.553Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-29T02:34:57.726Z

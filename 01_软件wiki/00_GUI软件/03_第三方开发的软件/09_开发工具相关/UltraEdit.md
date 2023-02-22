@@ -2,7 +2,7 @@
 title: UltraEdit
 description: 
 published: true
-date: 2022-10-21T08:38:04.366Z
+date: 2023-02-22T08:59:03.069Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:44.718Z

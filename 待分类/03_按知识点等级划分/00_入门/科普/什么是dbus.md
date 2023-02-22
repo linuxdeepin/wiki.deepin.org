@@ -2,7 +2,7 @@
 title: 什么是dbus
 description: 
 published: true
-date: 2022-10-25T02:17:38.339Z
+date: 2023-02-22T09:07:38.508Z
 tags: dbus
 editor: markdown
 dateCreated: 2022-06-24T05:46:16.681Z

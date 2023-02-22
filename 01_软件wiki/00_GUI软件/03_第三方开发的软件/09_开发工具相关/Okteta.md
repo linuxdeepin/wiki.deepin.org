@@ -2,7 +2,7 @@
 title: Okteta
 description: 
 published: true
-date: 2022-10-21T08:41:22.868Z
+date: 2023-02-22T08:57:00.713Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:39:11.976Z

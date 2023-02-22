@@ -2,7 +2,7 @@
 title: 【Wine游戏助手教程】全屏游戏退出后桌面分辨率没有自动恢复该怎么办
 description: 
 published: true
-date: 2022-06-28T02:51:43.903Z
+date: 2023-02-22T09:08:17.215Z
 tags: wine 分辨率 全屏
 editor: markdown
 dateCreated: 2022-06-28T02:51:41.794Z

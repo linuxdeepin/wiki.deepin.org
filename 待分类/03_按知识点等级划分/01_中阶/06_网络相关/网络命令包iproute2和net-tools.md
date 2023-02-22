@@ -2,7 +2,7 @@
 title: iproute2 vs net-tools
 description: 
 published: true
-date: 2022-10-25T02:15:44.903Z
+date: 2023-02-22T09:11:33.810Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-22T04:35:55.227Z

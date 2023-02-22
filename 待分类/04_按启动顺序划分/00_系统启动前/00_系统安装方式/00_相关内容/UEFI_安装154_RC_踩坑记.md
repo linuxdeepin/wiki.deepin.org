@@ -2,7 +2,7 @@
 title: UEFI 安装15.4 RC 踩坑记
 description: 
 published: true
-date: 2022-10-18T01:17:59.902Z
+date: 2023-02-22T08:58:56.730Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:43:36.059Z

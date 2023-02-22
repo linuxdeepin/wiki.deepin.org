@@ -2,7 +2,7 @@
 title: Wxpython
 description: 
 published: true
-date: 2022-10-21T05:22:18.216Z
+date: 2023-02-22T08:59:38.434Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:45:03.996Z

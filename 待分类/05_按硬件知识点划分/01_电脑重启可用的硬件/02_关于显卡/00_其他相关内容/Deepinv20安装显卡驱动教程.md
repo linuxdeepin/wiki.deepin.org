@@ -2,7 +2,7 @@
 title: Deepinv20安装显卡驱动教程
 description: 
 published: true
-date: 2022-10-18T00:53:20.070Z
+date: 2023-02-22T09:08:12.430Z
 tags: 显卡驱动
 editor: markdown
 dateCreated: 2022-06-28T02:30:53.851Z

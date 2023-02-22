@@ -2,7 +2,7 @@
 title: linux内存相关的命令详解
 description: 
 published: true
-date: 2022-10-25T02:18:57.715Z
+date: 2023-02-22T09:10:22.104Z
 tags: linux 内存
 editor: markdown
 dateCreated: 2022-07-12T02:15:56.732Z

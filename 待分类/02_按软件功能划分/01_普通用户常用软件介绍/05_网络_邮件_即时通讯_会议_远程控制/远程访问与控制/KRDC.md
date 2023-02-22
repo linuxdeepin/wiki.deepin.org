@@ -2,7 +2,7 @@
 title: KRDC
 description: KDE 的远程控制软件客户端
 published: true
-date: 2022-10-21T02:26:59.229Z
+date: 2023-02-22T09:11:01.039Z
 tags: 远程控制
 editor: markdown
 dateCreated: 2022-07-14T09:46:58.215Z

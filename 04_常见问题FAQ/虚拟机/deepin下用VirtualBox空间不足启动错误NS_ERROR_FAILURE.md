@@ -2,7 +2,7 @@
 title: deepin下用VirtualBox空间不足启动错误NS_ERROR_FAILURE
 description: 
 published: true
-date: 2022-06-27T07:26:13.485Z
+date: 2023-02-22T09:07:50.748Z
 tags: virtualbox
 editor: markdown
 dateCreated: 2022-06-27T03:00:57.617Z

@@ -2,7 +2,7 @@
 title: Systemd
 description: Systemd不仅能完成系统的初始化工作，也能对系统和服务进行管理。
 published: true
-date: 2023-01-17T13:35:25.035Z
+date: 2023-02-22T09:05:52.267Z
 tags: systemd
 editor: markdown
 dateCreated: 2022-06-16T03:02:15.607Z

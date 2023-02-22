@@ -2,7 +2,7 @@
 title: thinkbook_14双显卡切换
 description: 
 published: true
-date: 2022-10-18T02:40:05.812Z
+date: 2023-02-22T09:13:29.884Z
 tags: 独显, 双显卡
 editor: markdown
 dateCreated: 2022-09-22T05:57:05.542Z

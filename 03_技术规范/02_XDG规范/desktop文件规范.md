@@ -2,7 +2,7 @@
 title: desktop文件规范
 description: 对于linux常见桌面软件的.desktop文件的规范
 published: true
-date: 2022-10-25T02:32:15.870Z
+date: 2023-02-22T09:11:30.714Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-21T02:22:01.484Z

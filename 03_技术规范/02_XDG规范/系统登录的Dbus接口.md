@@ -2,7 +2,7 @@
 title: 系统登录的Dbus接口
 description: 
 published: true
-date: 2022-10-25T02:35:11.465Z
+date: 2023-02-22T09:11:52.400Z
 tags: freedesktop, dbus
 editor: markdown
 dateCreated: 2022-07-26T05:32:42.699Z

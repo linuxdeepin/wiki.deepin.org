@@ -2,7 +2,7 @@
 title: GNU的哲学
 description: 
 published: true
-date: 2022-10-18T01:28:19.965Z
+date: 2023-02-22T09:12:01.773Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-29T12:44:58.689Z

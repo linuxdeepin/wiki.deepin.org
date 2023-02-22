@@ -2,7 +2,7 @@
 title: Pulseaudio的可视化管理工具 pavucontrol
 description: 可以单独调节各软件音量的管理工具
 published: true
-date: 2022-12-28T01:38:59.882Z
+date: 2023-02-22T09:15:42.562Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T01:38:56.901Z

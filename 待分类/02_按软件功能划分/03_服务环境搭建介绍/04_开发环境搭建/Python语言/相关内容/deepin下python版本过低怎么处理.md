@@ -2,7 +2,7 @@
 title: deepin下python版本过低如何处理
 description: 
 published: true
-date: 2022-10-25T07:02:05.044Z
+date: 2023-02-22T09:10:08.127Z
 tags: deepin, python
 editor: markdown
 dateCreated: 2022-07-06T09:51:20.989Z

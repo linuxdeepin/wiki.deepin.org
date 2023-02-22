@@ -2,7 +2,7 @@
 title: Linux如何使用nftables作为防火墙
 description: 
 published: true
-date: 2022-10-25T07:15:58.510Z
+date: 2023-02-22T09:08:31.036Z
 tags: 防火墙 nftables
 editor: markdown
 dateCreated: 2022-06-28T05:36:09.915Z

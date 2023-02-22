@@ -2,7 +2,7 @@
 title: deepin安装指南
 description: 
 published: true
-date: 2022-10-18T01:25:33.666Z
+date: 2023-02-22T09:09:09.003Z
 tags: 安装指南
 editor: markdown
 dateCreated: 2022-06-28T08:00:25.206Z

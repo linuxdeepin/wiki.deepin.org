@@ -2,7 +2,7 @@
 title: Qt Creator
 description: 
 published: true
-date: 2022-10-25T03:05:14.465Z
+date: 2023-02-22T08:57:37.499Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:40:43.398Z

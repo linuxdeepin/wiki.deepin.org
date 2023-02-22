@@ -2,7 +2,7 @@
 title: ArcTime
 description: 
 published: true
-date: 2023-02-22T03:45:40.484Z
+date: 2023-02-22T08:52:54.730Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:07.050Z

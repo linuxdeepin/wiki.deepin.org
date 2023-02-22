@@ -2,7 +2,7 @@
 title: 在Linux中使用flatpak
 description: Flatpak是一个程序包管理实用程序
 published: true
-date: 2022-10-26T09:12:59.732Z
+date: 2023-02-22T09:05:22.399Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T06:30:47.687Z
