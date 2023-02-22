@@ -2,7 +2,7 @@
 title: Matrix
 description: 介绍 Matrix 即时通讯平台的使用方式
 published: true
-date: 2023-01-10T09:28:51.489Z
+date: 2023-02-01T01:36:43.365Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T06:37:05.800Z
@@ -10,7 +10,7 @@ dateCreated: 2022-12-29T06:37:05.800Z
 
 # "Matrix 是什么?"
 
-Matrix 是一个开源、开放、轻量级、去中心化的即时聊天通讯协议，它是包括 deepin、Mozilla、Fedora、KDE、Archlinux、debian 等开源社区均在广泛使用的即时聊天协议。
+Matrix 是一个开源、开放、轻量级、去中心化的即时聊天通讯协议，它是包括 deepin、Mozilla、Fedora、KDE、Archlinux、Debian 等开源社区均在广泛使用的即时聊天协议。
 
 # 开始使用 Matrix
 

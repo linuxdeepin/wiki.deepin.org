@@ -2,7 +2,7 @@
 title: 浅探 deepin Live 和修复 Linux 引导
 description: 教程仅供参考，请以实际情况为准。
 published: true
-date: 2022-12-05T03:39:18.950Z
+date: 2023-01-27T07:17:27.955Z
 tags: live cd, 引导
 editor: markdown
 dateCreated: 2022-12-05T03:39:15.808Z
@@ -12,7 +12,7 @@ dateCreated: 2022-12-05T03:39:15.808Z
 
 # 准备
 
-你需要有一个存储空间足够大的、能被制作成启动盘的 U 盘或其他移动存储设备（推荐8 GB或更大，USB 3.0 或以上）。建议使用能多系统启动的 Ventoy ：在官网[下载 Ventoy](https://ventoy.net/cn/download.html)，解压后运行，安装 Ventoy 到 U 盘中（ U 盘**会被清空**，请提前迁移好其中的文件），再复制镜像进去（或者直接引导启动本地硬盘上的镜像文件）（详细介绍请阅读[文档](https://ventoy.net/cn/doc_news.html)）。制作后 U 盘存储文件的功能基本不受影响。如果是制作常规的（单系统）启动盘，可以使用[Rufus](http://rufus.ie/zh/)（仅 Windows 版）、[Etcher](https://www.balena.io/etcher/)等软件（下载不了？我转存了一份：[https://pan.hechuanyun.xyz/s/KzghL](https://pan.hechuanyun.xyz/s/KzghL) ）。
+你需要有一个存储空间足够大的、能被制作成启动盘的 U 盘或其他移动存储设备（推荐8 GB或更大，USB 3.0 或以上）。建议使用能多系统启动的 Ventoy ：在官网[下载 Ventoy](https://ventoy.net/cn/download.html)，解压后运行，安装 Ventoy 到 U 盘中（ U 盘**会被清空**，请提前迁移好其中的文件），再复制镜像进去（或者直接引导启动本地硬盘上的镜像文件）（详细介绍请阅读[文档](https://ventoy.net/cn/doc_news.html)）。制作后 U 盘存储文件的功能基本不受影响。如果是制作常规的（单系统）启动盘，可以使用[Rufus](http://rufus.ie/zh/)（仅 Windows 版）、[Etcher](https://www.balena.io/etcher/)等软件（下载不了？我转存了一份：[https://pan.hechuanyun.xyz/s/KzghL](https://pan.hechuanyun.xyz/s/KzghL) 或者 [https://cloud.189.cn/web/share?code=EbU3auiem2ue](https://cloud.189.cn/web/share?code=EbU3auiem2ue)（访问码：h4sf） ）。
 拓展阅读：[deepin下用Ventoy装Windows](https://www.yuque.com/pzm9012/ct5ume/uf10gv)
 Live 系统一般是用来体验或者修复本地 Linux 的，部分功能可能不正常，对闭源显卡驱动可能缺少支持，关机之后**数据不保留**（部分 Linux 支持使用 Persistence 保存数据以供下次使用，deepin 镜像无此功能）。使用 U 盘上的 Live 系统时，**关机之前切勿拔下 U 盘**。
 本文只讲述 ISO 镜像形式的 Live 系统，安装到本地的 Live 的有关信息请阅读其他教程。

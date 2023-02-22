@@ -2,7 +2,7 @@
 title: Native_install
 description: 
 published: true
-date: 2022-05-17T05:03:00.605Z
+date: 2023-02-22T02:19:01.252Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:20.131Z

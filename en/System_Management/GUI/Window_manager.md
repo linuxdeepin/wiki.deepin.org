@@ -2,7 +2,7 @@
 title: Window_manager
 description: 
 published: true
-date: 2022-06-15T07:27:40.128Z
+date: 2023-02-22T02:25:44.734Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:57:46.800Z

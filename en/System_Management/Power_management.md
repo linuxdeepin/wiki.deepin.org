@@ -2,7 +2,7 @@
 title: Power_management
 description: 
 published: true
-date: 2022-05-17T02:29:49.669Z
+date: 2023-02-22T02:20:16.372Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:56:39.948Z

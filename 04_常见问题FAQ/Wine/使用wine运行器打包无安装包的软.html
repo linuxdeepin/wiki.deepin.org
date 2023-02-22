@@ -1,0 +1,29 @@
+<!--
+title: 使用wine运行器打包无安装包的软件
+description: 作者：Amber
+published: true
+date: 2023-02-22T02:15:09.328Z
+tags: deepin, wine, wine exe, wine运行器
+editor: ckeditor
+dateCreated: 2023-02-21T09:28:53.174Z
+-->
+
+<p>提示：这篇帖子是站在巨人的肩膀上写的哦！如题，我们的大佬鹤舞白沙在<a href="https://bbs.deepin.org/post/246837">https://bbs.deepin.org/post/246837</a>这个帖已经帮我们总结出带安装包的软件的打包方法，并写得十分详细，我们应该为ta点个赞。但是有人就要问了：“要是没有安装包呢？”诶，这就是我写本帖的目的，教大家如何打包没有安装包的软件（亲测可行哦～）</p>
+<p>首先，你需要一个wine运行器（废话）和你要打包的软件（请确定它可以使用wine正常运行，这里我以CineBench为例，我已经打包好了）</p>
+<p>然后，在/home/Amber（换成你自己电脑的用户名，下面都是这样）/.deepinwine下创建一个文件夹，如，然后点复制<br>&nbsp;</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212261757382390_%E6%88%AA%E5%9B%BE_dde-file-manager_20221226175734.png" alt="截图_dde-file-manager_20221226175734.png"></figure>
+<p>接着，打开wine运行器，将/home/Amber/.wine删掉，替换成刚才复制的那些东西</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212261759542869_%E6%88%AA%E5%9B%BE_deepin-wine-runner_20221226175943.png" alt="截图_deepin-wine-runner_20221226175943.png"></figure>
+<p>然后在“请选择要执行的程序或命令”那里，点浏览，选择你要打包的软件本体本来在的位置</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212261801548070_%E6%88%AA%E5%9B%BE_deepin-wine-runner_20221226180150.png" alt="截图_deepin-wine-runner_20221226180150.png"></figure>
+<p>点击运行，等它运行起来没毛病后就会发现，原来的Deepin-CineBench文件夹已经成了一个wine容器，如图，大概是长这样就好<br>&nbsp;</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212261803236336_%E6%88%AA%E5%9B%BE_dde-file-manager_20221226180317.png" alt="截图_dde-file-manager_20221226180317.png"></figure>
+<p>到了这里，恭喜您离成功不远啦！</p>
+<figure class="image"><img src="https://bbs.deepin.org/assets/image/raccoon/[yeah].gif" alt="yeah"></figure>
+<p>&nbsp;接着就是把你要打包的文件复制到drive_c中的Program Files和Program Files (x86)两个文件夹中的其中一个（64位的就放在那个不带X86的，32位就放另外一个，其实不管应该也没事）</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212261807433338_%E6%88%AA%E5%9B%BE_dde-file-manager_20221226180317.png" alt="截图_dde-file-manager_20221226180317.png"></figure>
+<p>然后将要执行的文件改成你放在容器里的那个，如图</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212261811003472_%E6%88%AA%E5%9B%BE_deepin-wine-runner_20221226181055.png" alt="截图_deepin-wine-runner_20221226181055.png"></figure>
+<p>最后就请从<a href="https://bbs.deepin.org/post/246837">https://bbs.deepin.org/post/246837</a>的4开始继续操作就好，这里我就不展开啦！</p>
+<p>最后，祝您打包顺利哦～</p>
+<figure class="image"><img src="https://bbs.deepin.org/assets/image/raccoon/[kissing_heart].gif" alt="kissing_heart"></figure>

@@ -2,14 +2,16 @@
 title: 我的deepin变形记
 description: 要阅读最新版本请访问原帖。
 published: true
-date: 2023-01-10T14:19:37.222Z
+date: 2023-01-10T14:23:48.493Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-10T13:57:40.533Z
 ---
 
+> 本文原作者：[木一明](https://bbs.deepin.org/user/160805)，原文链接：https://bbs.deepin.org/post/228568
+{.is-info}
+
 > 当前使用的正式版本：deepin 20.7
-> 
 > 文章最新更新时间：2022/11/25
 
 《我的deepin一键变形》脚本，代码托管：
@@ -20,7 +22,7 @@ python版本：https://gitee.com/liwl1991/my-deepin-py
 
 效果视频：
 
-https://www.bilibili.com/video/BV1SU4y127ih/?spm\_id\_from=333.999.0.0&vd\_source=0af0e8cc56a9c515213ea0c8c4aa7948
+https://www.bilibili.com/video/BV1SU4y127ih/
 
 # 1\. 前言
 
@@ -386,7 +388,7 @@ SDL_IM_MODULE=fcitx
 以下是我个人的设置：
 
 1.  配置“键盘-英语”为第一输入法
-2.  胚子“拼音”为第二输入法
+2.  配置“拼音”为第二输入法
 3.  配置输入法切换快捷键为：左shift
 4.  设置输入法为单行模式
 5.  换皮肤
@@ -485,7 +487,7 @@ Fcitx5安装完成在之后，启动器会显示出一些感觉没有什么用�
 -   无法通过配置导入词库
 -   任务栏托盘->右键重启，执行后fcitx5图标消失
 
-# 4\. 系统高级折腾
+# 4. 系统高级折腾
 
 ## 4.1 系统瘦身
 

@@ -1,0 +1,63 @@
+<!--
+title: Wine运行器和Wine打包器傻瓜式使用教程（小白专用）
+description: 原帖：https://bbs.deepin.org/post/246837
+published: true
+date: 2023-02-22T02:14:50.138Z
+tags: wine, wine exe, wine运行器
+editor: ckeditor
+dateCreated: 2023-02-21T09:28:14.825Z
+-->
+
+<p>以深度Deepin和统信UOS为代表的基于Linux的国产自主操作系统的软件生态发展速度可谓是突飞猛进，但相较于已发展多年的微软Windows操作系统，国产自主操作系统的软件生态目前还存在很大的不足，那么，有没有一种方法可以实现在Linux系统下运行Windows系统下的软件呢？答案是肯定的，本文就介绍一款神器——Wine运行器（<strong>为保证成功率，建议在Deepin或UOS下安装使用</strong>）。</p>
+<p>Wine运行器是一个能让Linux用户更加方便地运行Windows应用的程序，内置了对Wine图形化的支持、各种Wine工具、自制的Wine程序打包器和运行库安装工具等。此外，它还简化了如下命令，让你可以更简便地使用Wine：envWINEPREFIX=容器路径wine(wine的路径)可执行文件路径。</p>
+<p>下面我们就来看一下如何使用Wine运行器（用它可直接在Linux系统下运行Windows系统下的软件）和其中内嵌的Wine打包器（用它可将已成功运行的Windows系统下的软件转化为脱离Wine运行器也可直接双击安装并运行的扩展名为.deb的Linux系统下的软件）。</p>
+<p><strong>1、准备windows软件安装包</strong></p>
+<p>为方便查找，最好把软件安装包放到UOS或Deepin系统（以下操作均在该系统下进行）的桌面或某个数据盘（分区）的一级目录下。windows软件安装包名称末尾的扩展名一般是.exe，是一个单独的可执行文件，但有的大型软件（如：Adobe系列软件）的安装包可能是一个压缩包，解压后一步步进入子文件夹，找到其中的安装文件Setup.exe。如果无法确认哪个是安装文件，可以在windows系统下测试一下，双击哪个文件可以启动该软件的安装进程，该文件就是安装文件。</p>
+<p><strong>2、启动Wine运行器</strong></p>
+<p>用鼠标右键点击上述安装文件Setup.exe——点击“打开方式”——点击“Wine运行器”——弹出“Wine运行器”主界面。<strong>注意：操作这一步的前提是你已经通过UOS或Deepin应用商店安装了“Wine运行器”这个软件的2.5.0版本噢。</strong></p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032141181888_1.png" alt="1.png"></figure>
+<p><strong>3、运行windows程序</strong></p>
+<p>3.1 “Wine运行器”主界面的“快速启动”设置区中，“<strong>请选择容器路径：</strong>”下方的输入框中默认路径是/home/XXX/.wine（前面的XXX指开机时电脑显示的你的操作系统用户名，名称是英文的），如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032141496611_2.png" alt="2.png"></figure>
+<p><br>&nbsp;</p>
+<p>3.2 点击默认路径右侧的“浏览”按钮——弹出框顶部中间会显示字样“.deepinwine”——点击右上角的四个小方块图标，在文件夹空白处右键点击“新建文件夹”，将文件夹命名为以“Deepin-”开头的名称（如：Deepin-dingtalk），双击该新建文件夹——点击右下角的“打开”，如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032142349103_3.png" alt="3.png"></figure>
+<p>3.3 此时，输入框中的默认路径变更为/home/uos/.deepinwine/Deepin-dingtalk（此处的Deepin-dingtalk只是示例，实际显示为上一步你实际命名的文件夹名称）——<strong>“请选择要执行的程序（EXE、MSI或者命令）：”下方的输入框中已自动填充好要执行的程序的完整路径，无需修改</strong>——点击“请选择WINE版本：”下方的选择框右侧的下位箭头，选择deepin-wine6 stable——<strong>“高级功能”设置区无需理会</strong>——点击右下角的“运行程序”按钮，如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032142579888_4.png" alt="4.png"></figure>
+<p>此时软件安装包开始解压（注意：若程序无法正常运行，就将上述选择的deepin-wine6 stable变更为deepin-wine5 stable或Wine运行器提示的其他WINE版本），如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032145313756_5.png" alt="5.png"></figure>
+<p>3.4 软件安装包解压完毕后会出现“选择安装位置”的界面，若“目标文件夹”路径开始处显示“D:”，则手动将D修改为C，其他内容不动（不要删除后面的冒号），然后点击“下一步”，如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032146152019_6.png" alt="6.png"></figure>
+<p><br>&nbsp;</p>
+<p>安装完毕后，勾选“运行该软件”并点击“完成”（若没有前述勾选选项，则点击UOS或Deepin系统桌面左下角的启动器——点击刚刚安装完毕的软件图标），如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032146497807_7.png" alt="7.png"></figure>
+<p><br>&nbsp;</p>
+<p>3.5 ——点击“Wine运行器”主界面右上角的减号“-”,将其最小化（不要关闭，一会儿还有用）——测试一下刚安装的软件是否可正常运行，软件功能无问题。若软件无法正常运行，可将该软件在windows下的解压安装一级文件夹整体复制，粘贴覆盖替换上述wine容器路径下的该软件安装文件，软件的详细安装路径请查看以下第4.9环节，整体覆盖替换软件的英文名称（如：DingDing）文件夹即可。</p>
+<p><strong>4</strong> <strong>、打包windows程序</strong> ：点击电脑底部任务栏上的“Wine运行器”图标，将其最大化——点击左上角菜单栏的“Wine(W)”——点击“打包wine应用”，如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032147156157_8.png" alt="8.png"></figure>
+<p><br>&nbsp;</p>
+<p>——“选填项”不必填写，“必填项”必须填写，具体填写内容和注意事项如下：</p>
+<p>4.1 &nbsp;<strong>要打包的deb包的包名</strong>(※必填)：com.XXX.deepin</p>
+<p>XXX指windows软件的英文名称，可以自定义名称，但最好是用软件解压安装后自动生成的英文名称，如：dingtalk。包名只能含有小写字母（a-z）、数字（0-9）、加号（+）和减号（-）、以及点号(.)，软件包名最短长度为两个字符，且包名必须以字母开头。</p>
+<p>4.2 &nbsp;<strong>要打包的deb包的版本号</strong>(※必填)： 6.5.50（随便填写或填写该软件的windows版本的版本号，6.5.50只是示例）。</p>
+<p>4.3 &nbsp;<strong>要打包的deb包的说明</strong>(※必填)：随便填写或使用该软件的windows版本的软件简介。</p>
+<p>4.4 <strong>要打包的deb包的维护者</strong>（※必填)：填写自己的网名，若是自用软件，不上架至应用商店，不进行后续维护，可随便填写。</p>
+<p>4.5 &nbsp;<strong>要解压的wine容器的容器名</strong>(※必填)：自动带出，不必填写。</p>
+<p>4.6 &nbsp;<strong>要解压的wine容器</strong>(※必填)：自动带出，不必填写。</p>
+<p>4.7 <strong>选择打包的wine版本</strong>(※必选)：已自动带出，无需修改。</p>
+<p>4.8 &nbsp;<strong>打包deb的保存路径</strong>(※必填)：**已自动生成，无需修改。</p>
+<p>4.9 <strong>wine容器里需要运行的可执行文件路径</strong>(※必填)：可执行文件的运行路径格式是“C:/XXX/XXX.exe”（不包含引号），要用“/”进行命令的分隔，而不能用“\”，本环节操作步骤如下：</p>
+<p>双击桌面上的“计算机”快捷方式——点击左侧目录树顶部的“主目录”——点击文件夹右上角的三道横线——点击“设置”——点击左侧的“隐藏文件”——勾选右侧的“显示隐藏文件”，并取消勾选“重命名时隐藏扩展文件名”（事后可随时再恢复勾选），点击右上角的叉号——向下滚动页面，双击.deepinwine文件夹——双击上述第3步“运行windows程序”中自己新建的文件夹（如：Deepin-dingtalk）——双击drive_c文件夹——双击Program Files (x86)文件夹——双击软件的英文名称（如：DingDing）文件夹——此时看到了软件的启动文件（如：DingtalkLauncher.exe），如下图所示：</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032149318675_9.png" alt="9.png"></figure>
+<p>——右键点击顶部中间的文件路径最后的文件夹名称，并点击“复制路径”——粘贴路径到一个文档中——删除drive_c之前的部分（如：file:///home/uos/.deepinwine/Deepin-dingtalk/），只保留后面的部分,并将“drive_c”修改为“C:”（注意：是英文大写字母C和英文半角状态下的冒号）,并在路径末尾添加/（即：左斜杠）——慢慢点击启动文件的名称（如：DingtalkLauncher.exe），进入重命名状态——复制粘贴启动文件的名称至上述文档中，形成该软件的可执行文件路径（如：C:/Program Files (x86)/DingDing/DingtalkLauncher.exe），复制粘贴该路径至“wine容器里需要运行的可执行文件路径：”右侧的输入框中。如下图所示：<br>&nbsp;</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032150112181_10.png" alt="10.png"></figure>
+<p>4.10 &nbsp;<strong>要显示的.desktop文件的分类</strong>(※必填)：点击右侧的下拉箭头，选择该软件所属的软件分类即可（<strong>常见软件分类名称释义</strong>：Network=网络应用；Chat=即时通讯或社交沟通；Video=视频播放；Graphics=图形图像；Office=办公学习；Translation=阅读翻译；Development=软件开发；Utility=工具软件或其他应用），不明白英文的可以百度查询一下软件分类名称的意思。注意：此时选择的软件分类名称决定了该软件打包后再安装时会安装在启动器中的哪个软件分类目录中。</p>
+<p>4.11 <strong>wine容器里需要运行的可执行文件的参数</strong>（选填）：空着即可</p>
+<p>4.12 <strong>要显示的.desktop文件的名称</strong>(※必填)：填写该软件的中文或英文名称。</p>
+<p>4.13 <strong>要显示的.desktop文件的图标</strong>（选填）：图标只支持PNG格式和SVG格式，其他格式无法显示。</p>
+<p>4.14 <strong>取消勾选右侧的“使用星火wine helper”（如果保持默认勾选状态，打包后的软件运行无问题，可不取消勾选）。</strong></p>
+<p>4.15 <strong>点击底部中间的“打包”按钮，等几分钟打包即完成</strong>，Windows软件安装包已被打包成扩展名为.deb、可直接双击在UOS或Deepin系统上安装运行的软件安装包，并生成在电脑桌面上，双击安装它，软件运行无误后，请将deb安装包移至其他盘备份好。</p>
+<p>4.16 点击左上角菜单栏的“<strong>Wine(W)</strong>”——向下看，点击“<strong>删除所有Winet程序在启动器的快捷方式</strong>”——运行windows程序过程中在启动器中产生的多余软件快捷方式就删除了（如下图所示）。至此，大功告成，你可以愉快地使用wine软件了。</p>
+<figure class="image"><img src="https://storage.deepin.org/thread/202212032152051853_11.png" alt="11.png"></figure>
+<p><br>&nbsp;</p>
+<p>4.17 如果windows软件运行或打包失败，在确认“<strong>Wine运行器”主界面中的“请选择容器路径：</strong>”填充正确的情况下，点击主界面底部中间的“卸载程序”按钮——右键点击弹出的界面顶部显示的软件——点击卸载或强制卸载——完成——未成功运行或打包的软件残余文件已从容器中删除完毕，系统盘空间得到释放，恢复原状。</p>

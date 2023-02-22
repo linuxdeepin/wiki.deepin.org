@@ -1,0 +1,31 @@
+---
+title: Anjuta
+description: 
+published: true
+date: 2023-02-22T02:53:48.309Z
+tags: 
+editor: markdown
+dateCreated: 2023-02-21T10:40:22.204Z
+---
+
+# 简介
+
+Anjuta是一个C、C++的集成开发环境。它具有很好的编程属性，其中包括项目管理、应用开发、交互调试以及强大的代码编辑和语法高亮显示等功能。
+
+# 安装
+
+`sudo apt-get install anjuta`
+
+# 卸载
+
+`sudo apt-get remove anjuta`
+
+# 仓库地址
+
+[http://packages.deepin.com/deepin/pool/main/a/anjuta/](http://packages.deepin.com/deepin/pool/main/a/anjuta/)
+
+
+# 常见问题
+
+
+# 相关链接

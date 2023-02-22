@@ -2,12 +2,11 @@
 title: Tips to Know Before Translation
 description: 
 published: true
-date: 2022-07-14T02:22:08.792Z
+date: 2023-02-22T02:19:42.990Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-14T02:13:34.058Z
 ---
-
 
 Thanks very much for your contributions to our internationalization project. To translate  better, please read the tips below before your translation. If you have any questions about source strings, please add a comment or issue on the translation page, we will reply soon. 
 

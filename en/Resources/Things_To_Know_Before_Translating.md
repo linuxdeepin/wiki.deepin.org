@@ -2,10 +2,10 @@
 title: Things_To_Know_Before_Translating
 description: 
 published: true
-date: 2022-05-19T03:42:19.150Z
+date: 2023-02-22T02:19:40.624Z
 tags: 
 editor: markdown
-dateCreated: 2022-04-21T03:43:21.865Z
+dateCreated: 2023-02-21T09:36:45.270Z
 ---
 
 Hello everyone, thanks very much for the contributions on our internationalization project. Here we prepared these NOTES for better translation:

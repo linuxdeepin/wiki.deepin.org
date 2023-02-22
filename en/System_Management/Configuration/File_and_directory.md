@@ -2,7 +2,7 @@
 title: File_and_directory
 description: 
 published: true
-date: 2022-06-15T07:25:23.918Z
+date: 2023-02-22T02:25:06.101Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:27.322Z

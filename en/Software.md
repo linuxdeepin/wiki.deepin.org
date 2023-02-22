@@ -2,10 +2,10 @@
 title: Software
 description: 
 published: true
-date: 2022-06-24T04:56:49.566Z
+date: 2023-02-22T02:12:01.907Z
 tags: 
 editor: markdown
-dateCreated: 2022-05-13T00:46:33.148Z
+dateCreated: 2023-02-21T09:22:52.328Z
 ---
 
 # Software List 

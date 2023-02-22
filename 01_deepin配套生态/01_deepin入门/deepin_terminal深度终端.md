@@ -2,10 +2,10 @@
 title: Deepin_terminal深度终端
 description: deepin系统终端
 published: true
-date: 2022-10-21T07:18:31.737Z
+date: 2023-02-22T03:57:03.380Z
 tags: deepin, 终端
 editor: markdown
-dateCreated: 2022-07-23T17:05:39.333Z
+dateCreated: 2023-02-22T03:57:00.982Z
 ---
 
 # Deepin terminal

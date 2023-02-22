@@ -2,7 +2,7 @@
 title: Blender
 description: 
 published: true
-date: 2022-10-21T07:48:08.464Z
+date: 2023-02-22T03:46:11.083Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:29:53.482Z

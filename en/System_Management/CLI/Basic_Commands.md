@@ -2,12 +2,11 @@
 title: Basic_Commands
 description: 
 published: true
-date: 2022-07-19T05:41:06.983Z
+date: 2023-02-22T02:24:50.413Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T07:05:54.080Z
 ---
-
 
 ## Common Command Formats
 

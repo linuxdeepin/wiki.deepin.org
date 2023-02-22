@@ -2,7 +2,7 @@
 title: Desktop_entry
 description: 
 published: true
-date: 2022-06-15T07:07:40.228Z
+date: 2023-02-22T02:25:29.572Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:55:02.566Z
