@@ -1,8 +1,8 @@
 ---
 title: 如何在deepin上部署nodejs开发环境
-description: Linux上Node.js开发环境部署以及一些工具介绍
+description: deepin上nodejs开发环境部署以及一些工具介绍
 published: true
-date: 2023-02-28T08:45:50.708Z
+date: 2023-02-28T08:51:50.739Z
 tags: 开发环境搭建, 教程
 editor: markdown
 dateCreated: 2023-02-28T07:39:41.665Z
