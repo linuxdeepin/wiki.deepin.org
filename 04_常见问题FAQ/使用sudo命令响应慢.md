@@ -2,7 +2,7 @@
 title: 使用sudo命令响应慢
 description: 终端使用sudo命令时输入密码的提示出现的速度变慢
 published: true
-date: 2023-03-01T06:37:21.546Z
+date: 2023-03-01T06:39:37.151Z
 tags: sudo, 慢, 终端
 editor: markdown
 dateCreated: 2023-03-01T06:36:37.471Z
