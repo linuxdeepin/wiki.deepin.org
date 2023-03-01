@@ -2,7 +2,7 @@
 title: 使用sudo命令响应慢
 description: 终端使用sudo命令时输入密码的提示出现的速度变慢
 published: true
-date: 2023-03-01T06:39:37.151Z
+date: 2023-03-01T07:38:31.411Z
 tags: sudo, 慢, 终端
 editor: markdown
 dateCreated: 2023-03-01T06:36:37.471Z
@@ -11,7 +11,7 @@ dateCreated: 2023-03-01T06:36:37.471Z
 # sudo命令响应变慢
 
 ### 问题描述
-用户在论坛中提出输入sudo命令后，输入密码的提示出现的速度变慢，相关的帖子链接：[sudo的反应变慢了，不知道为什么](/zh/https://bbs.deepin.org/post/253158)
+用户在论坛中提出输入sudo命令后，输入密码的提示出现的速度变慢，相关的帖子链接：[sudo的反应变慢了，不知道为什么](https://bbs.deepin.org/post/253158)
 
 ### 解决办法
 论坛用户[donaldsebleung](/zh/https://bbs.deepin.org/user/287133)提供的以下解决方案：
