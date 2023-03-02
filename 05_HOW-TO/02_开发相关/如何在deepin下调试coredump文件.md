@@ -2,7 +2,7 @@
 title: 如何在deepin下调试coredump文件
 description: 在deepin下当程序异常终止或崩溃时，如何对调试coredump文件
 published: true
-date: 2023-03-02T13:58:02.656Z
+date: 2023-03-02T14:01:36.933Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-02T12:50:29.596Z
@@ -247,3 +247,10 @@ ulimit -c limit
 
 > 注意：core dump 是程序地址空间的全部镜像。包括代码，栈和堆。所以大小会比程序大。通过这种方法限制core dump文件大小可能会导致生成的core文件不完整。不完整的core会导致解码失败。
 {.is-warning}
+
+## 参考
+https://www.shuzhiduo.com/A/kvJ3nx0gzg/
+https://www.jianshu.com/p/1e30b53be6ab
+https://stackoverflow.com/questions/2762879/linux-core-dumps-are-toolarge
+
+此文档由统信软件销售中心输出
