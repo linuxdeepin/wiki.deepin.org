@@ -2,16 +2,18 @@
 title: 如何在deepin下调试coredump文件
 description: 在deepin下当程序异常终止或崩溃时，如何对调试coredump文件
 published: true
-date: 2023-03-02T13:15:59.112Z
+date: 2023-03-02T13:23:13.818Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-02T12:50:29.596Z
 ---
 
 ## 介绍
+
 在现代操作系统中，Core Dump 指当程序异常终止或崩溃时，将程序此时的内存中的内容拷贝到磁盘文件中存储的技术。
 
 ## 检查当前的Core dump 策略
+
 在终端中输入如下命令可以检查当前系统的Core dump策略。
 ```bash
 ulimit -c
@@ -21,10 +23,12 @@ ulimit -c
 ## 如何开启Core Dump
 
 ### 临时开启
+
 在开始菜单中找到”终端“，打开终端。在终端内输入 ulimit -c
 unlimited 。上面这个表示临时开启Core Dump，并且设置大小不受限。用上面的命令只会对当前的终端环境有效。
 
 ### 永久开启
+
 下面有三种方法：
 1. 修改 /etc/security/limits.conf 
 在最后增加一行： * soft core unlimited 
@@ -37,6 +41,7 @@ unlimited 。上面这个表示临时开启Core Dump，并且设置大小不受�
 ## 实际测试
 
 ### 编写产生错误的程序
+
 这里提供一个错误的例子。
 为了进行如下的操作请先安装 build-essential 和 gdb 。
 在终端中输入以下指令：
@@ -56,3 +61,27 @@ int main()
     return 0;
 }
 ```
+
+在终端中输入如下命令来编译该源文件生成可执行程序。需要注意的是：
+需要切换到main.c所在的目录中执行命令
+
+```bash
+gcc main.c -g -o test
+```
+注意：需要加入-g 来方便调试。
+
+### 测试
+
+```bash
+./test
+```
+
+正常情况下会有如下的输出：
+```bash
+[1]    42790 floating point exception (core dumped)  ./test
+```
+与此同时，会在test 所在目录下生成core文件。
+
+## 调试core文件
+
+
