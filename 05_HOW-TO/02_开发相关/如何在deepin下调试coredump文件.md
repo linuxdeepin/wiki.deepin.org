@@ -2,7 +2,7 @@
 title: 如何在deepin下调试coredump文件
 description: 在deepin下当程序异常终止或崩溃时，如何对调试coredump文件
 published: true
-date: 2023-03-02T13:12:11.656Z
+date: 2023-03-02T13:15:59.112Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-02T12:50:29.596Z
@@ -38,4 +38,21 @@ unlimited 。上面这个表示临时开启Core Dump，并且设置大小不受�
 
 ### 编写产生错误的程序
 这里提供一个错误的例子。
- 
+为了进行如下的操作请先安装 build-essential 和 gdb 。
+在终端中输入以下指令：
+```bash
+sudo apt update && sudo apt install build-essential gdb
+```
+
+代码如下：
+main.c
+```c
+#include <stdio.h>
+int main()
+{
+    int a = 0;
+    int b = 1;
+    printf("%d",b/a);
+    return 0;
+}
+```
