@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T02:51:38.305Z
+date: 2023-03-03T03:01:04.905Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -185,5 +185,103 @@ const struct file_operations ext4_file_operations = {
 }
 ```
 
+ext4_file_read_iter会调用generic_file_read_iter，ext4_file_write_iter会调用__generic_file_write_iter。
 
+```
+ssize_t
+generic_file_read_iter(struct kiocb *iocb, struct iov_iter *iter)
+{
+......
+    if (iocb->ki_flags & IOCB_DIRECT) {
+......
+        struct address_space *mapping = file->f_mapping;
+......
+        retval = mapping->a_ops->direct_IO(iocb, iter);
+    }
+......
+    retval = generic_file_buffered_read(iocb, iter, retval);
+}
+
+
+ssize_t __generic_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
+{
+......
+    if (iocb->ki_flags & IOCB_DIRECT) {
+......
+        written = generic_file_direct_write(iocb, from);
+......
+    } else {
+......
+    written = generic_perform_write(file, from, iocb->ki_pos);
+......
+    }
+}generic_file_read_iter和__generic_file_write_iter有相似的逻辑，就是要区分是否用缓存。因此，根据是否使用内存做缓存，我们可以把文件的I/O操作分为两种类型。
+```
+
+第一种类型是缓存I/O。大多数文件系统的默认I/O操作都是缓存I/O。对于读操作来讲，操作系统会先检查，内核的缓冲区有没有需要的数据。如果已经缓存了，那就直接从缓存中返回；否则从磁盘中读取，然后缓存在操作系统的缓存中。对于写操作来讲，操作系统会先将数据从用户空间复制到内核空间的缓存中。这时对用户程序来说，写操作就已经完成。至于什么时候再写到磁盘中由操作系统决定，除非显式地调用了sync同步命令。
+
+第二种类型是直接IO，就是应用程序直接访问磁盘数据，而不经过内核缓冲区，从而减少了在内核缓存和用户程序之间数据复制。
+
+如果在写的逻辑__generic_file_write_iter里面，发现设置了IOCB_DIRECT，则调用generic_file_direct_write，里面同样会调用address_space的direct_IO的函数，将数据直接写入硬盘。
+
+带缓存的写入操作
+
+我们先来看带缓存写入的函数generic_perform_write。
+
+```
+ssize_t generic_perform_write(struct file *file,
+        struct iov_iter *i, loff_t pos)
+{
+  struct address_space *mapping = file->f_mapping;
+  const struct address_space_operations *a_ops = mapping->a_ops;
+  do {
+    struct page *page;
+    unsigned long offset;  /* Offset into pagecache page */
+    unsigned long bytes;  /* Bytes to write to page */
+    status = a_ops->write_begin(file, mapping, pos, bytes, flags,
+            &page, &fsdata);
+    copied = iov_iter_copy_from_user_atomic(page, i, offset, bytes);
+    flush_dcache_page(page);
+    status = a_ops->write_end(file, mapping, pos, bytes, copied,
+            page, fsdata);
+    pos += copied;
+    written += copied;
+
+
+    balance_dirty_pages_ratelimited(mapping);
+  } while (iov_iter_count(i));
+}
+```
+
+循环中主要做了这几件事：
+
+对于每一页，先调用address_space的write_begin做一些准备；
+调用iov_iter_copy_from_user_atomic，将写入的内容从用户态拷贝到内核态的页中；
+调用address_space的write_end完成写操作；
+调用balance_dirty_pages_ratelimited，看脏页是否太多，需要写回硬盘。所谓脏页，就是写入到缓存，但是还没有写入到硬盘的页面。
+对于第一步，调用的是ext4_write_begin来说，主要做两件事：
+
+第一做日志相关的工作。
+
+ext4是一种日志文件系统，是为了防止突然断电的时候的数据丢失，引入了日志（Journal）模式。日志文件系统比非日志文件系统多了一个Journal区域。文件在ext4中分两部分存储，一部分是文件的元数据，另一部分是数据。元数据和数据的操作日志Journal也是分开管理的。你可以在挂载ext4的时候，选择Journal模式。这种模式在将数据写入文件系统前，必须等待元数据和数据的日志已经落盘才能发挥作用。这样性能比较差，但是最安全。
+
+另一种模式是order模式。这个模式不记录数据的日志，只记录元数据的日志，但是在写元数据的日志前，必须先确保数据已经落盘。这个折中，是默认模式。
+
+还有一种模式是writeback，不记录数据的日志，仅记录元数据的日志，并且不保证数据比元数据先落盘。这个性能最好，但是最不安全。
+
+第二调用grab_cache_page_write_begin来，得到应该写入的缓存页。
+
+```
+struct page *grab_cache_page_write_begin(struct address_space *mapping,
+          pgoff_t index, unsigned flags)
+{
+  struct page *page;
+  int fgp_flags = FGP_LOCK|FGP_WRITE|FGP_CREAT;
+  page = pagecache_get_page(mapping, index, fgp_flags,
+      mapping_gfp_mask(mapping));
+  if (page)
+    wait_for_stable_page(page);
+  return page;
+}
+```
 
