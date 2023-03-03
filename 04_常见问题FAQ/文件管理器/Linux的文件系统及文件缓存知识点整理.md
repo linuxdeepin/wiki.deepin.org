@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T02:51:09.414Z
+date: 2023-03-03T02:51:36.883Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -168,4 +168,22 @@ inode的位图大小为4k，每一位对应一个inode。如果是1，表示这�
 如果在inode中设置EXT4_INDEX_FL标志，那么就表示根据索引查找文件。索引项会维护一个文件名的哈希值和数据块的一个映射关系。
 
 如果我们要查找一个目录下面的文件名，可以通过名称取哈希。如果哈希能够匹配上，就说明这个文件的信息在相应的块里面。然后打开这个块，如果里面不再是索引，而是索引树的叶子节点的话，那里面还是ext4_dir_entry的列表，我们只要一项一项找文件名就行。通过索引树，我们可以将一个目录下面的N多的文件分散到很多的块里面，可以很快地进行查找。
+
+![2023-3-3_8667.png](/2023-3-3_8667.png)
+
+Linux中的文件缓存
+ext4文件系统层
+
+对于ext4文件系统来讲，内核定义了一个ext4_file_operations。
+
+```
+const struct file_operations ext4_file_operations = {
+......
+  .read_iter  = ext4_file_read_iter,
+  .write_iter  = ext4_file_write_iter,
+......
+}
+```
+
+
 
