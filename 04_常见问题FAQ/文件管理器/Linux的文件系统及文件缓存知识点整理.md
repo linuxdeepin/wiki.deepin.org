@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T03:01:24.350Z
+date: 2023-03-03T03:01:44.021Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -302,6 +302,32 @@ size_t iov_iter_copy_from_user_atomic(struct page *page,
   )
   kunmap_atomic(kaddr);
   return bytes;
+}
+```
+
+第三步中，调用ext4_write_end完成写入。这里面会调用ext4_journal_stop完成日志的写入，会调用block_write_end->__block_commit_write->mark_buffer_dirty，将修改过的缓存标记为脏页。可以看出，其实所谓的完成写入，并没有真正写入硬盘，仅仅是写入缓存后，标记为脏页。
+
+第四步，调用 balance_dirty_pages_ratelimited，是回写脏页。
+
+```
+/**
+ * balance_dirty_pages_ratelimited - balance dirty memory state
+ * @mapping: address_space which was dirtied
+ *
+ * Processes which are dirtying memory should call in here once for each page
+ * which was newly dirtied.  The function will periodically check the system's
+ * dirty state and will initiate writeback if needed.
+  */
+void balance_dirty_pages_ratelimited(struct address_space *mapping)
+{
+  struct inode *inode = mapping->host;
+  struct backing_dev_info *bdi = inode_to_bdi(inode);
+  struct bdi_writeback *wb = NULL;
+  int ratelimit;
+......
+  if (unlikely(current->nr_dirtied >= ratelimit))
+    balance_dirty_pages(mapping, wb, current->nr_dirtied);
+......
 }
 ```
 
