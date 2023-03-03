@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T03:01:45.477Z
+date: 2023-03-03T03:01:52.546Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -330,4 +330,15 @@ void balance_dirty_pages_ratelimited(struct address_space *mapping)
 ......
 }
 ```
+
+在balance_dirty_pages_ratelimited里面，发现脏页的数目超过了规定的数目，就调用balance_dirty_pages->wb_start_background_writeback，启动一个背后线程开始回写。
+
+另外还有几种场景也会触发回写：
+
+用户主动调用sync，将缓存刷到硬盘上去，最终会调用wakeup_flusher_threads，同步脏页；
+当内存十分紧张，以至于无法分配页面的时候，会调用free_more_memory，最终会调用wakeup_flusher_threads，释放脏页；
+脏页已经更新了较长时间，时间上超过了设定时间，需要及时回写，保持内存和磁盘上数据一致性。
+带缓存的读操作
+
+看带缓存的读，对应的是函数generic_file_buffered_read。
 
