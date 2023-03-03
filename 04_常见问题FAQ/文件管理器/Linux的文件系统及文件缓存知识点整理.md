@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T02:30:56.043Z
+date: 2023-03-03T02:35:02.721Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -28,3 +28,25 @@ Linux内核要在自己的内存里面维护一套数据结构，来保存哪些
 inode就是文件索引的意思，我们每个文件都会对应一个inode；一个文件夹就是一个文件，也对应一个inode。
 
 inode数据结构如下：
+
+```
+struct ext4_inode {
+  __le16  i_mode;    /* File mode */
+  __le16  i_uid;    /* Low 16 bits of Owner Uid */
+  __le32  i_size_lo;  /* Size in bytes */
+  __le32  i_atime;  /* Access time */
+  __le32  i_ctime;  /* Inode Change time */
+  __le32  i_mtime;  /* Modification time */
+  __le32  i_dtime;  /* Deletion Time */
+  __le16  i_gid;    /* Low 16 bits of Group Id */
+  __le16  i_links_count;  /* Links count */
+  __le32  i_blocks_lo;  /* Blocks count */
+  __le32  i_flags;  /* File flags */
+......
+  __le32  i_block[EXT4_N_BLOCKS];/* Pointers to blocks */
+  __le32  i_generation;  /* File version (for NFS) */
+  __le32  i_file_acl_lo;  /* File ACL */
+  __le32  i_size_high;
+......
+};
+```
