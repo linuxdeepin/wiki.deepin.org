@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T03:01:13.679Z
+date: 2023-03-03T03:01:24.350Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -288,4 +288,20 @@ struct page *grab_cache_page_write_begin(struct address_space *mapping,
 在内核中，缓存以页为单位放在内存里面，每一个打开的文件都有一个struct file结构，每个struct file结构都有一个struct address_space用于关联文件和内存，就是在这个结构里面，有一棵树，用于保存所有与这个文件相关的的缓存页。
 
 对于第二步，调用iov_iter_copy_from_user_atomic。先将分配好的页面调用kmap_atomic映射到内核里面的一个虚拟地址，然后将用户态的数据拷贝到内核态的页面的虚拟地址中，调用kunmap_atomic把内核里面的映射删除。
+
+```
+size_t iov_iter_copy_from_user_atomic(struct page *page,
+    struct iov_iter *i, unsigned long offset, size_t bytes)
+{
+  char *kaddr = kmap_atomic(page), *p = kaddr + offset;
+  iterate_all_kinds(i, bytes, v,
+    copyin((p += v.iov_len) - v.iov_len, v.iov_base, v.iov_len),
+    memcpy_from_page((p += v.bv_len) - v.bv_len, v.bv_page,
+         v.bv_offset, v.bv_len),
+    memcpy((p += v.iov_len) - v.iov_len, v.iov_base, v.iov_len)
+  )
+  kunmap_atomic(kaddr);
+  return bytes;
+}
+```
 
