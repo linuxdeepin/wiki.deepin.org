@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T02:50:30.956Z
+date: 2023-03-03T02:50:47.118Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -133,3 +133,14 @@ inode的位图大小为4k，每一位对应一个inode。如果是1，表示这�
 4 * 1024 * 8 = 215
 
 如果每个数据块也是按默认的4K，最大可以表示空间为128M，那么显然是不够的
+
+这个时候就需要用到块组，数据结构为ext4_group_desc，这里面对于一个块组里的inode位图bg_inode_bitmap_lo、块位图bg_block_bitmap_lo、inode列表bg_inode_table_lo，都有相应的成员变量。
+
+这样一个个块组，就基本构成了我们整个文件系统的结构。因为块组有多个，块组描述符也同样组成一个列表，我们把这些称为块组描述符表。
+
+我们还需要有一个数据结构，对整个文件系统的情况进行描述，这个就是超级块ext4_super_block。里面有整个文件系统一共有多少inode，s_inodes_count；一共有多少块，s_blocks_count_lo，每个块组有多少inode，s_inodes_per_group，每个块组有多少块，s_blocks_per_group等。这些都是这类的全局信息。
+
+最终，整个文件系统格式就是下面这个样子。
+
+![2023-3-3_72485.png](/2023-3-3_72485.png)
+
