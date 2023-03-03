@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T02:35:34.147Z
+date: 2023-03-03T02:36:39.387Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -61,4 +61,58 @@ inode里面有文件的读写权限i_mode，属于哪个用户i_uid，哪个组i
 #define  EXT4_DIND_BLOCK      (EXT4_IND_BLOCK + 1)
 #define  EXT4_TIND_BLOCK      (EXT4_DIND_BLOCK + 1)
 #define  EXT4_N_BLOCKS      (EXT4_TIND_BLOCK + 1)
+```
+
+在ext2和ext3中，其中前12项直接保存了块的位置，也就是说，我们可以通过i_block[0-11]，直接得到保存文件内容的块。
+
+![2023-3-3_2054.png](/2023-3-3_2054.png)
+
+但是，如果一个文件比较大，12块放不下。当我们用到i_block[12]的时候，就不能直接放数据块的位置了，要不然i_block很快就会用完了。
+
+那么可以让i_block[12]指向一个块，这个块里面不放数据块，而是放数据块的位置，这个块我们称为间接块。如果文件再大一些，i_block[13]会指向一个块，我们可以用二次间接块。二次间接块里面存放了间接块的位置，间接块里面存放了数据块的位置，数据块里面存放的是真正的数据。如果文件再大点，那么i_block[14]同理。
+
+这里面有一个非常显著的问题，对于大文件来讲，我们要多次读取硬盘才能找到相应的块，这样访问速度就会比较慢。
+
+为了解决这个问题，ext4做了一定的改变。它引入了一个新的概念，叫作Extents。比方说，一个文件大小为128M，如果使用4k大小的块进行存储，需要32k个块。如果按照ext2或者ext3那样散着放，数量太大了。但是Extents可以用于存放连续的块，也就是说，我们可以把128M放在一个Extents里面。这样的话，对大文件的读写性能提高了，文件碎片也减少了。
+
+Exents是一个树状结构：
+
+![2023-3-3_83850.png](/2023-3-3_83850.png)
+
+每个节点都有一个头，ext4_extent_header可以用来描述某个节点。
+
+```
+struct ext4_extent_header {
+  __le16  eh_magic;  /* probably will support different formats */
+  __le16  eh_entries;  /* number of valid entries */
+  __le16  eh_max;    /* capacity of store in entries */
+  __le16  eh_depth;  /* has tree real underlying blocks? */
+  __le32  eh_generation;  /* generation of the tree */
+};
+```
+
+eh_entries表示这个节点里面有多少项。这里的项分两种，如果是叶子节点，这一项会直接指向硬盘上的连续块的地址，我们称为数据节点ext4_extent；如果是分支节点，这一项会指向下一层的分支节点或者叶子节点，我们称为索引节点ext4_extent_idx。这两种类型的项的大小都是12个byte。
+
+```
+/*
+ * This is the extent on-disk structure.
+ * It's used at the bottom of the tree.
+ */
+struct ext4_extent {
+  __le32  ee_block;  /* first logical block extent covers */
+  __le16  ee_len;    /* number of blocks covered by extent */
+  __le16  ee_start_hi;  /* high 16 bits of physical block */
+  __le32  ee_start_lo;  /* low 32 bits of physical block */
+};
+/*
+ * This is index on-disk structure.
+ * It's used at all the levels except the bottom.
+ */
+struct ext4_extent_idx {
+  __le32  ei_block;  /* index covers logical blocks from 'block' */
+  __le32  ei_leaf_lo;  /* pointer to the physical block of the next *
+         * level. leaf or next index could be there */
+  __le16  ei_leaf_hi;  /* high 16 bits of physical block */
+  __u16  ei_unused;
+};如果文件不大，inode里面的i_block中，可以放得下一个ext4_extent_header和4项ext4_extent。所以这个时候，eh_depth为0，也即inode里面的就是叶子节点，树高度为0。
 ```
