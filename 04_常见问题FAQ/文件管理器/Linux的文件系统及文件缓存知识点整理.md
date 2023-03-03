@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T02:35:22.685Z
+date: 2023-03-03T02:35:34.147Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -54,3 +54,11 @@ struct ext4_inode {
 inode里面有文件的读写权限i_mode，属于哪个用户i_uid，哪个组i_gid，大小是多少i_size_io，占用多少个块i_blocks_io，i_atime是access time，是最近一次访问文件的时间；i_ctime是change time，是最近一次更改inode的时间；i_mtime是modify time，是最近一次更改文件的时间等。
 
 所有的文件都是保存在i_block里面。具体保存规则由EXT4_N_BLOCKS决定，EXT4_N_BLOCKS有如下的定义：
+
+```
+#define  EXT4_NDIR_BLOCKS    12
+#define  EXT4_IND_BLOCK      EXT4_NDIR_BLOCKS
+#define  EXT4_DIND_BLOCK      (EXT4_IND_BLOCK + 1)
+#define  EXT4_TIND_BLOCK      (EXT4_DIND_BLOCK + 1)
+#define  EXT4_N_BLOCKS      (EXT4_TIND_BLOCK + 1)
+```
