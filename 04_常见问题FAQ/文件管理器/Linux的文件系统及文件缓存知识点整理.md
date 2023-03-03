@@ -2,7 +2,7 @@
 title: Linux的文件系统及文件缓存知识点整理
 description: 
 published: true
-date: 2023-03-03T03:01:52.546Z
+date: 2023-03-03T03:05:33.778Z
 tags: 文件系统 缓存
 editor: markdown
 dateCreated: 2023-03-03T02:24:38.912Z
@@ -341,4 +341,46 @@ void balance_dirty_pages_ratelimited(struct address_space *mapping)
 带缓存的读操作
 
 看带缓存的读，对应的是函数generic_file_buffered_read。
+
+```
+static ssize_t generic_file_buffered_read(struct kiocb *iocb,
+    struct iov_iter *iter, ssize_t written)
+{
+  struct file *filp = iocb->ki_filp;
+  struct address_space *mapping = filp->f_mapping;
+  struct inode *inode = mapping->host;
+  for (;;) {
+    struct page *page;
+    pgoff_t end_index;
+    loff_t isize;
+    page = find_get_page(mapping, index);
+    if (!page) {
+      if (iocb->ki_flags & IOCB_NOWAIT)
+        goto would_block;
+      page_cache_sync_readahead(mapping,
+          ra, filp,
+          index, last_index - index);
+      page = find_get_page(mapping, index);
+      if (unlikely(page == NULL))
+        goto no_cached_page;
+    }
+    if (PageReadahead(page)) {
+      page_cache_async_readahead(mapping,
+          ra, filp, page,
+          index, last_index - index);
+    }
+    /*
+     * Ok, we have the page, and it's up-to-date, so
+     * now we can copy it to user space...
+     */
+    ret = copy_page_to_iter(page, offset, nr, iter);
+    }
+}
+```
+
+在generic_file_buffered_read函数中，我们需要先找到page cache里面是否有缓存页。如果没有找到，不但读取这一页，还要进行预读，这需要在page_cache_sync_readahead函数中实现。预读完了以后，再试一把查找缓存页。
+
+如果第一次找缓存页就找到了，我们还是要判断，是不是应该继续预读；如果需要，就调用page_cache_async_readahead发起一个异步预读。
+
+最后，copy_page_to_iter会将内容从内核缓存页拷贝到用户内存空间。
 
