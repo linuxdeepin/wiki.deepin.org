@@ -2,7 +2,7 @@
 title: Linux进程管理之四大名捕
 description: 
 published: true
-date: 2023-03-07T03:17:02.723Z
+date: 2023-03-07T03:17:12.329Z
 tags: 进程
 editor: markdown
 dateCreated: 2023-03-07T02:30:34.581Z
@@ -218,3 +218,5 @@ s：跟踪选定的进程的系统调用
 t：以层级关系显示各进程状态
 a：将选定的进程绑定至某指定的 CPU 核心
 此处可以添加指定项到显示屏幕上面，显示方式可以是 [Bar] [Text] [Graph] [LED]
+
+![2023-3-7_64385.png](/2023-3-7_64385.png)
