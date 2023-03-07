@@ -2,7 +2,7 @@
 title: Linux进程管理之四大名捕
 description: 
 published: true
-date: 2023-03-07T02:57:30.368Z
+date: 2023-03-07T03:01:02.616Z
 tags: 进程
 editor: markdown
 dateCreated: 2023-03-07T02:30:34.581Z
@@ -103,7 +103,72 @@ dstat [-afv] [options..] [delay [count]]
 ![2023-3-7_33720.png](/2023-3-7_33720.png)
 
 –top-cpu：显示最占用 CPU 的进程；
-–top-io：最占用 io 的进程；
+–top-io：最占用 io 的进程；![2023-3-7_96702.png](/2023-3-7_96702.png)
 –top-mem：最占用内存的进程；
 
 ![2023-3-7_75688.png](/2023-3-7_75688.png)
+
+五、腿功惊人的 “追命”[top]
+top：列出 inux 进程
+top 为动态显示进程
+
+![2023-3-7_87895.png](/2023-3-7_87895.png)
+
+top 命令个参数具体含义：
+top – 14:58:34 up  5:28,  1 user,  load average: 0.01, 0.02, 0.05
+14:58:34：当前时间
+up  5:28：运行时长
+1 user：登录当前系统上的用户数
+load average: 0.01, 0.02, 0.05：平均负载（等待运行的队列长度的负载）
+Tasks: 353 total,   2 running, 351 sleeping,   0 stopped,   0 zombie
+Tasks: 任务
+353 total：一共运行多少进程
+2 running：几个处于运行
+351 sleeping：多少个睡眠
+0 stopped：多少个停止
+0 zombie：多少个僵死
+%Cpu(s):  0.0 us,  0.7 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+%Cpu：cpu 占用百分比
+0.0 us：用户空间占用的百分比
+0.7 sy：内核空间占用时间的百分比
+0.0 ni：对 nice 调整占用的内存百分比
+99.3 id：空闲百分比
+0.0 wa（wait）：等待 IO 完成所消耗的百分比
+0.0 hi：处理硬件中断所占用的百分比
+0.0 si：处理软件中断所占用的百分比
+0.0 st：被偷走的百分比（虚拟化程序）
+KiB Mem :  1001332 total,   681052 free,   139844 used,   180436 buff/cache
+KiB Mem：内存空间占用，以 KB 为单位：
+1001332 total：总内存空间
+681052 free：剩余内存空间
+139844 used：已用内存空间
+180436 buff/cache：用于缓存和缓冲的内存空间
+KiB Swap:  2098172 total,  2098172 free,        0 used.   698100 avail Mem
+KiB Swap：swap 空间占用，以 KB 为单位
+2098172 total：总空间
+2098172 free：剩余空间
+0 used：已用空间
+698100 avail Mem ：有效 swap 大小
+PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND
+3077 root      20   0  146276   2256   1420 R  1.7  0.2   0:02.91 top
+PID: 用户 pid
+USER: 用户名称
+PR: 优先级
+NI:nice 值
+VIRT:virtual size 虚拟内存集
+RES: 常驻内存集
+SHR: 共享内存空间
+S: 当前状态
+%CPU: 占据 CPU 百分比
+%MEM: 占据 MEM 百分比
+TIME+: 运行时长
+COMMAND: 命令
+top 内排序：
+P：以占据 CPU 百分比排序
+M：以占据内存百分比排序
+T：累积占用 CPU 时间排序
+首部信息:
+uptime 信息：l 命令
+第一行没有显示
+
+
