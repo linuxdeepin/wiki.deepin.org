@@ -2,7 +2,7 @@
 title: Linux进程管理之四大名捕
 description: 
 published: true
-date: 2023-03-07T03:15:54.269Z
+date: 2023-03-07T03:16:04.873Z
 tags: 进程
 editor: markdown
 dateCreated: 2023-03-07T02:30:34.581Z
@@ -181,3 +181,8 @@ tasks 及 cpu 信息：t 命令
 
 内存信息：m 命令
 可以将内存使用率用 ||| 显示 或者白空格显示
+
+![2023-3-7_12201.png](/2023-3-7_12201.png)
+
+退出命令：q
+修改刷新时间间隔：s
