@@ -2,7 +2,7 @@
 title: Linux进程管理之四大名捕
 description: 
 published: true
-date: 2023-03-07T03:01:02.616Z
+date: 2023-03-07T03:15:38.938Z
 tags: 进程
 editor: markdown
 dateCreated: 2023-03-07T02:30:34.581Z
@@ -171,4 +171,4 @@ T：累积占用 CPU 时间排序
 uptime 信息：l 命令
 第一行没有显示
 
-
+![2023-3-7_86831.png](/2023-3-7_86831.png)
