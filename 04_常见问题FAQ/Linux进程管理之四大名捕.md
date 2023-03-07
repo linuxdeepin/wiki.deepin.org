@@ -2,7 +2,7 @@
 title: Linux进程管理之四大名捕
 description: 
 published: true
-date: 2023-03-07T03:16:30.919Z
+date: 2023-03-07T03:16:48.182Z
 tags: 进程
 editor: markdown
 dateCreated: 2023-03-07T02:30:34.581Z
@@ -200,3 +200,8 @@ tasks 及 cpu 信息：t 命令
 六、剑法一流 “冷血”[htop]
 htop: 交互式进程查看器
 htop [-dus]
+
+![2023-3-7_27585.png](/2023-3-7_27585.png)
+
+htop 是一个非常强大的工具，下面从 F1 到 F10 可以看到具体的参数信息。
+F1 ：帮助信息
