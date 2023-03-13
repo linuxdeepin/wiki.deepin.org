@@ -2,7 +2,7 @@
 title: Linux查看进程占用网速和流量使用情况
 description: 
 published: true
-date: 2023-03-13T01:51:53.551Z
+date: 2023-03-13T01:52:33.930Z
 tags: vnstat iftop nethogs
 editor: markdown
 dateCreated: 2023-03-13T01:51:20.724Z
@@ -18,3 +18,7 @@ dateCreated: 2023-03-13T01:51:20.724Z
 vnstat -i eth0 -l #实时流量情况
 
 还有其他命令使用--help查看
+
+
+
+ctrl+c结束后，会显示监控期间的流量统计结果
