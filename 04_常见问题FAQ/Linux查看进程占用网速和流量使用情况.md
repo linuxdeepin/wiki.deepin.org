@@ -2,7 +2,7 @@
 title: Linux查看进程占用网速和流量使用情况
 description: 
 published: true
-date: 2023-03-13T01:54:15.857Z
+date: 2023-03-13T01:54:28.949Z
 tags: vnstat iftop nethogs
 editor: markdown
 dateCreated: 2023-03-13T01:51:20.724Z
@@ -84,3 +84,4 @@ iftop可以用来监控网卡的实时流量（可以指定网段）、反向解
 
 **使用截图：**
 
+![2023-3-13_3543.png](/2023-3-13_3543.png)
