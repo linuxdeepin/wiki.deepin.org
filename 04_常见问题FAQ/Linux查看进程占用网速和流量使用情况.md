@@ -2,7 +2,7 @@
 title: Linux查看进程占用网速和流量使用情况
 description: 
 published: true
-date: 2023-03-13T01:53:51.219Z
+date: 2023-03-13T01:54:15.857Z
 tags: vnstat iftop nethogs
 editor: markdown
 dateCreated: 2023-03-13T01:51:20.724Z
@@ -64,3 +64,23 @@ iftop可以用来监控网卡的实时流量（可以指定网段）、反向解
 **使用截图：**
 
 ![2023-3-13_69166.png](/2023-3-13_69166.png)
+
+### 三、nethogs使用，按进程实时统计网络带宽利用率(推荐)
+
+**命令用法：**
+
+1、设置5秒钟刷新一次，通过-d来指定刷新频率：nethogs -d 5
+
+2、监视eth0网络带宽 :nethogs eth0
+
+3、同时监视eth0和eth1接口 : nethogs eth0 eth1
+**交互命令：**
+以下是NetHogs的一些交互命令(键盘快捷键)
+
+- m : 修改单位
+- r : 按流量排序
+- s : 按发送流量排序
+- q : 退出命令提示符
+
+**使用截图：**
+
