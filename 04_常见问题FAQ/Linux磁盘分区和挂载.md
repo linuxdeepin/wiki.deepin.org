@@ -2,7 +2,7 @@
 title: Linux 磁盘分区和挂载
 description: 
 published: true
-date: 2023-03-15T06:00:13.071Z
+date: 2023-03-15T06:00:23.166Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T05:45:24.062Z
@@ -31,6 +31,13 @@ dateCreated: 2023-03-15T05:45:24.062Z
 > 指令：**lsblk 或者 lsblk -f**
 
 ```
-
+[root@kongchao03 ~]# lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0    20G  0 disk 
+├─sda1   8:1    0  1023M  0 part /boot
+├─sda2   8:2    0    17G  0 part /
+└─sda3   8:3    0     2G  0 part [SWAP]
+sr0     11:0    1 729.9M  0 rom  /run/media/root/20210907_143734
+[root@kongchao03 ~]#
 ```
 
