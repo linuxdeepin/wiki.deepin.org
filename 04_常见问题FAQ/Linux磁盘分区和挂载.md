@@ -2,7 +2,7 @@
 title: Linux 磁盘分区和挂载
 description: 
 published: true
-date: 2023-03-15T06:03:20.034Z
+date: 2023-03-15T06:04:19.366Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T05:45:24.062Z
@@ -145,6 +145,40 @@ lsblk -f
 
 > 挂载语法：**mount  设备名称  挂载目录** （挂载目录是任意的）
 
+```
+[root@kongchao03 ~]# cd /
+[root@kongchao03 /]# mkdir newdisk
+[root@kongchao03 /]# mount /dev/sdb1 /newdisk
+[root@kongchao03 /]# lsblk -f
+```
+
+![2023-3-15_84645.png](/2023-3-15_84645.png)
+
+> cd 进入挂载点，在其中创建文件，实则是在分区上新建了一个文件
+
+> linux 根下的存放只是目录，真正存放数据还是在硬盘中的分区
+
+#### umount 取消挂载
+
+**语法:umount 挂载点或 umount 设备名**
+
+```
+umount /dev/sdb1
+ 
+lsblk -f
+```
+
+![2023-3-15_45270.png](/2023-3-15_45270.png)
+
+**用命令行挂载（mount /dev...），重启后会失效, 即重启后挂载点消失**
+
+### 步骤 5：实现永久挂载（即重启不消失）
+
+永久挂载的本质是自动挂载上
+
+> 永久挂载：通过修改/etc/fstab 实现挂载
+
+> 添加完成后执行**mount -a 或 reboot** 即可生效
 
 
 
