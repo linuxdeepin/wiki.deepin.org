@@ -2,7 +2,7 @@
 title: Deepin 简介
 description: 
 published: true
-date: 2023-02-22T09:16:04.288Z
+date: 2023-03-16T02:06:37.084Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-22T06:33:04.822Z
@@ -41,7 +41,7 @@ dateCreated: 2023-02-22T06:33:04.822Z
 
 ## 源代码
 
-目前，绝大部分 DDE 相关的开源社区组件所对应的仓库，绝大部分 DDE 相关的开源社区组件所对应的仓库，都已经迁移至 GitHub 进行开发，而尚未迁移的部分也计划于未来的完成迁移。
+目前，绝大部分 DDE 相关的开源社区组件所对应的仓库，都已经迁移至 GitHub 进行开发，而尚未迁移的部分也计划于未来完成迁移。
 
 关于各个项目的迁移进度：你可以在 GitHub 的 developer-center 讨论版中进行跟进。对于已经迁移完毕的项目，你可以根据 developer-center 中 wiki 页面提供的贡献指南参与到我们的实际开发中来。
 
