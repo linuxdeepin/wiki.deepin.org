@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:25:30.989Z
+date: 2023-03-27T03:27:15.696Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -261,5 +261,7 @@ firewall-config 图形化配置
 
 - 16：主机地址的黑白名单
 
+![2023-3-27_20237.png](/2023-3-27_20237.png)
 
+![2023-3-27_64262.png](/2023-3-27_64262.png)
 
