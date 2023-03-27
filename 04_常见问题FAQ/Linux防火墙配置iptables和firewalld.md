@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:19:19.246Z
+date: 2023-03-27T03:19:41.978Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -212,4 +212,14 @@ Firewalld 区域概念
 > --panic-on  紧急模式，切断一切的网络连接（特殊情况去使用）
 > --panic-off 恢复一切的网络连接
 ```
+
+**配置富规则 rich（更复杂、更详细的防火墙策略配置）**
+
+> 优先级最高（高于默认规则，两个并不冲突） 能够根据源目地址、端口号来限制用户
+
+```
+> firewall-cmd  --zone=public --list-rich-rule  显示 public 区域已经配置的富规则
+> firewall-cmd --permanent --zone=public --add-rich-rule="rule family="ipv4"source address="192.168.100.1/24"service 允许来自 192.168.
+```
+
 
