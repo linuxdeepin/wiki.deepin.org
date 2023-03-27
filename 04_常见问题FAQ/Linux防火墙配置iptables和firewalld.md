@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:14:33.435Z
+date: 2023-03-27T03:15:28.939Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -82,3 +82,30 @@ dateCreated: 2023-03-27T02:31:18.131Z
 **Iptables命令查看防火墙**
 
 > iptables -nL -t nat  查看 nat 表的规则链 -n 使用数字形式显示输出结果（如：通过 IP 地址） -L 查看当前防火墙有哪些策略 -t 指定查看 iptables 的哪个表（默认是 filter 表）
+
+![2023-3-27_39963.png](/2023-3-27_39963.png)
+
+**Iptables命令配置防火墙**
+
+```
+> iptables -P INPUT DROP将 INPUT 规则链的默认流量更改为拒绝
+> -P 设置 / 修改默认策略
+> iptables -t filter -I INPUT -s 192.168.10.0/24 -j ACCEPT在 filter 表下的 INPUT 规则链中配置规则
+> -I num 插入规则（大写 i，默认在链的开头加入规则，可以指定序号）
+> -i  从这块网卡流入的数据
+> -o 从这块网卡流出的数据
+> -s  源地址（加！表示取反）
+> -d 目的地址
+> -j  限制动作
+> iptables -A INPUT -p tcp --dport 1000:1024 -j REJECT拒绝 tcp 端口号为 1000~1024 的数据包
+> -A 在链的末尾加入规则
+> -p 指定协议类型
+> --sport 源端口
+> --dport 目的端口
+> iptables -D INPUT 1删除 INPUT 规则链的第一条规则
+> -D num 删除规则链
+> -R 修改规则
+> iptables -F清空已有的策略
+> iptables-save来保存防火墙策略
+```
+
