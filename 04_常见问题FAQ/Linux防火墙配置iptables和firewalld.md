@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:18:49.042Z
+date: 2023-03-27T03:19:19.246Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -202,5 +202,14 @@ Firewalld 区域概念
 > firewall-cmd --permanent --zone=public --add-forward-port=port=888:proto=tcp:toport=22:toaddr=192.168.10.1
 > 将 192.168.10.1 主机的 tcp 22 端口号转为 888 端口号（public 区域接收 ssh）
 > --remove-forward-port 删除此端口映射
+```
+
+![2023-3-27_15133.png](/2023-3-27_15133.png)
+
+**其它配置**
+
+```
+> --panic-on  紧急模式，切断一切的网络连接（特殊情况去使用）
+> --panic-off 恢复一切的网络连接
 ```
 
