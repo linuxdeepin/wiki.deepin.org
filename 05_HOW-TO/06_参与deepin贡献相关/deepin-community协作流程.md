@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-03-27T03:08:13.035Z
+date: 2023-03-27T03:08:29.588Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
