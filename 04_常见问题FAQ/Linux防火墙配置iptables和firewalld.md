@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:12:36.844Z
+date: 2023-03-27T03:14:33.435Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -56,3 +56,29 @@ dateCreated: 2023-03-27T02:31:18.131Z
 **什么是规则链**
 
 > 很多个规则组成一个规则链,数据包从上往下做匹配，匹配成功就结束匹配，并执行相应的控制类型（建议需要将精准的策略放在上面）
+
+**规则链类型**
+
+> INPUT     处理入站的数据包（处理目标是本机的数据包） OUTPUT    处理出站的数据包（处理源是本机的数据包，一般不在此链上做规则） PREROUTING   在进行路由选择前处理数据包（一般用来做 NAT Server） POSTROUTING   在进行路由选择后处理数据包（一般用来做源 NAT） FORWARD     处理转发的数据包（处理经过本机的数据包）
+
+**Iptables 控制类型**
+
+> ACCEPT       允许数据包通过 DROP          丢弃数据包（不给对方回应，一般工作时用这个） REJCET       拒绝数据包通过（会给对方回应，对方知道自己被拒绝） SNAT       修改数据包的源地址 DNAT       修改数据包的目的地址 MASQUERADE   伪装程一个非固定的公网 IP 地址 LOG       在 / var/log/messages 文件中记录日志信息，然后将数据包传递给下一条规则
+
+**数据包到达防火墙根据下图进行匹配**
+
+> iptables 进行数据处理关心的是四表五链以及流量的进出
+
+![2023-3-27_20599.png](/2023-3-27_20599.png)
+
+**Iptables 命令配置**
+
+**配置 iptables 防火墙时需要将防火墙服务开启**
+
+> systemctl start firewalld  开启防火墙 systemctl status firewalld 查看防火墙状态
+
+![2023-3-27_12558.png](/2023-3-27_12558.png)
+
+**Iptables命令查看防火墙**
+
+> iptables -nL -t nat  查看 nat 表的规则链 -n 使用数字形式显示输出结果（如：通过 IP 地址） -L 查看当前防火墙有哪些策略 -t 指定查看 iptables 的哪个表（默认是 filter 表）
