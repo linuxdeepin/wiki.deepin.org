@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:16:39.937Z
+date: 2023-03-27T03:18:17.179Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -170,3 +170,28 @@ Firewalld 区域概念
 > firewall-cmd --set-default-zone=trusted    设置默认区域为 trusted 区域
 
 ![2023-3-27_95248.png](/2023-3-27_95248.png)
+
+将网卡 / 子网与区域绑定（允许 / 拒绝此子网通过）
+
+```
+> firewall-cmd --zone=drop --add-source=192.168.20.0/24将此子网与 drop 区域绑定（拒绝从此子网发来的流量）
+> firewall-cmd --zone=trusted--add-interface=ens160  将此网卡与 trusted 区域绑定（允许从此网卡发来的流量）
+> --remove-source  删除子网与区域的绑定
+> --change-source  更改子网与区域的绑定
+```
+
+![2023-3-27_38313.png](/2023-3-27_38313.png)
+
+**配置区域允许 / 拒绝的协议 / 端口号**
+
+```
+> firewall-cmd --list-all显示当前区域的端口号、网卡、服务等信息
+> --list-all-zones        显示所有区域的
+> firewall-cmd --get-services                     列举出来当前所有被允许的协议
+> firewall-cmd --zone=public --add-service http    配置 public 区域允许通过 http 协议
+> --remove-service ssh    拒绝通过 ssh 协议
+> --add-port=123/tcp     允许通过 tcp 的 123 端口
+> --remove-port=123/tcp  拒绝通过 tcp 的 123 端口
+> cat /etc/services     保存的协议类型和端口号
+```
+
