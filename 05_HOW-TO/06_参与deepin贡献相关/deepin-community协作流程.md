@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-03-27T03:08:29.588Z
+date: 2023-03-27T03:12:15.627Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -136,7 +136,7 @@ obs构建产物获取:
 
 
 3. 提交PR
-	PR提交后相关工作流开始执行，检查结构会由机器人在当前PR下添加评论，有些项目需要进行管理员进行revie进阅读相关提示
+	PR提交后相关工作流开始执行，检查结构会由机器人在当前PR下添加评论，有些项目需要进行管理员进行revie进阅读相关提示, 工作流完成后可以在OBS平台查看相关的project，具体为test-intergration-pr-50命名形式，可以主页检索，自行进行相关验证
   
 4. 信息记录
 	 集成的历史信息记录在[records.yml](https://github.com/deepin-community/Repository-Integration/blob/master/records.yml)文件中
