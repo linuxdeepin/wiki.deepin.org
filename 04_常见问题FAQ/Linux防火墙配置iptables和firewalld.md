@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:15:28.939Z
+date: 2023-03-27T03:16:02.521Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -102,6 +102,17 @@ dateCreated: 2023-03-27T02:31:18.131Z
 > -p 指定协议类型
 > --sport 源端口
 > --dport 目的端口
+
+注意事项
+当创建的规则内容与已有规则一致时，不会覆盖原先的规则，会直接加入到现有规则链中（即此时此规则链下有两条一摸一样的规则，只是顺序不同） 以上关于防火墙的配置是 runtime 模式，即配置成功后立即生效，但是重启后会失效（需要将配置保存，重启后才不会失效）
+firewalld 讲解
+frewalld 是服务名称，firewall-cmd 和 firewall-config 是配置工具名称
+firewall-cmd  基于命令行配置
+firewall-config 基于图形化界面配置（这两个配置方式实时同步）
+Firewalld 区域概念
+默认所有网卡都是 public 区域，可以根据需要将网卡设置为不同的区域
+
+
 > iptables -D INPUT 1删除 INPUT 规则链的第一条规则
 > -D num 删除规则链
 > -R 修改规则
@@ -109,3 +120,23 @@ dateCreated: 2023-03-27T02:31:18.131Z
 > iptables-save来保存防火墙策略
 ```
 
+```
+> Trust信任区域
+> 允许所有流量（所有的网络连接都可以接受）
+> Public公共区域
+> 仅接受 ssh、dhcpv6-client 服务连接（默认区域）
+> External外部区域
+> 仅接收 ssh 服务连接（默认通过此区域转发的 IPv4 流量将会进行地址伪装）
+> Home家庭区域
+> 仅接受 ssh、msdns、ipp-client、samba-client、dhcpv6-client 服务网络连接
+> Internal内部区域
+> 同 home 区域
+> Work工作区域
+> 仅接受 ssh、ipp-client、dhcpv6-client 服务连接
+> Dmz隔离区域（非军事区域）
+> 仅接收 ssh 服务连接
+> Block限制区域
+> 拒绝所有传入流量（有回应）
+> Drop丢弃区域
+> 丢弃所有传入流量（无回应）
+```
