@@ -2,7 +2,7 @@
 title: Linux内核概念和学习路线
 description: 
 published: true
-date: 2023-03-27T02:09:53.121Z
+date: 2023-03-27T02:10:02.348Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T01:48:10.890Z
@@ -81,3 +81,5 @@ dateCreated: 2023-03-27T01:48:10.890Z
 ## 5、Linux内核文件在哪里
 
 Ubuntu中的内核文件存储在/boot文件夹中，称为vmlinux -version。vmlinuz这个名字来自于unix世界，早在60年代，他们就把内核简单地称为“unix”，所以当内核在90年代首次开发时，Linux就开始把内核称为“Linux”。
+
+![2023-3-27_53698.png](/2023-3-27_53698.png)
