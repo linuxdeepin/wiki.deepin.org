@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-03-27T03:20:21.470Z
+date: 2023-03-27T03:22:41.118Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -139,11 +139,11 @@ obs构建产物获取:
 	PR提交后相关工作流开始执行，检查结构会由机器人在当前PR下添加评论，有些项目需要进行管理员进行revie进阅读相关提示, 工作流完成后可以在OBS平台查看相关的project，具体为test-intergration-pr-50命名形式，可以主页检索，自行进行相关验证
   
 4. 信息记录
-	 构建通过后集成管理员会在linuxdeepin组织下创建issue管理到看板上，请相关提交者在次备注更新说明、测试建议、影响范围等问题。相关测试人员也会在此介入。
+	 构建通过后集成管理员会在linuxdeepin组织下创建issue关联到看板上，请相关提交者在次备注更新说明、测试建议、影响范围等问题。相关测试人员也会在此介入。
 	 集成的历史信息记录在[records.yml](https://github.com/deepin-community/Repository-Integration/blob/master/records.yml)文件中
  
 5. 集成完毕
-	 集成完毕后PR会被关闭，所提交的软件包会自动构建后合入[testing仓库](https://ci.deepin.com/repo/release/beige/pool/main/) 中，后续按仓库流转规范合入主仓库中, 仓库介绍详情请参阅[仓库流转规范](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/04_%E4%BB%93%E5%BA%93/%E4%BB%93%E5%BA%93%E6%B5%81%E8%BD%AC%E8%A7%84%E8%8C%83)
+	 集成完毕后PR会被关闭，所提交的软件包会自动构建后合入[testing仓库](https://ci.deepin.com/repo/release/beige/pool/main/) 中，后续按仓库流转规范合入主仓库中, 仓库介绍详情请参阅[仓库流转规范](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/04_%E4%BB%93%E5%BA%93/%E4%BB%93%E5%BA%93%E6%B5%81%E8%BD%AC%E8%A7%84%E8%8C%83), [v23-集成管理](https://github.com/orgs/linuxdeepin/projects/21/settings)看板上相关的issues对应的状态会就改变，请关注相关该看板
 
 
 TODO:
