@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:16:32.355Z
+date: 2023-03-27T03:16:39.937Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -168,3 +168,5 @@ Firewalld 区域概念
 > firewall-cmd --get-default-zone          查询默认区域的名称
 > firewall-cmd --get-active-zone           显示当前正在使用的区域与网卡名称
 > firewall-cmd --set-default-zone=trusted    设置默认区域为 trusted 区域
+
+![2023-3-27_95248.png](/2023-3-27_95248.png)
