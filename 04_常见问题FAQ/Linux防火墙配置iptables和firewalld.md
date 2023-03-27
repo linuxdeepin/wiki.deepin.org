@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:20:08.689Z
+date: 2023-03-27T03:20:15.910Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -228,4 +228,6 @@ Firewalld 区域概念
 > --remove-ruch-rule     删除一个富规则
 > reject                  拒绝访问
 ```
+
+![2023-3-27_65278.png](/2023-3-27_65278.png)
 
