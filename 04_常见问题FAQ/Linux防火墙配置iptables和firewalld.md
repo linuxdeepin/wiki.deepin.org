@@ -2,13 +2,13 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:12:24.788Z
+date: 2023-03-27T03:12:35.475Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
 ---
 
-# Header
+# Linux防火墙配置iptables和firewalld
 ### 防火墙基本概念
 
 > 防火墙就是根据系统管理员设定的规则来控制数据包的进出，主要是保护内网的安全,目前 Linux 系统的防火墙类型主要有两种：分别是 [iptables] 和 firewalld
