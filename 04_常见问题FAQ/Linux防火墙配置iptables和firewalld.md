@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:21:57.006Z
+date: 2023-03-27T03:22:01.954Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -231,5 +231,6 @@ Firewalld 区域概念
 firewall-config 图形化配置
 
 安装 firewall-config
+
 ![2023-3-27_65278.png](/2023-3-27_65278.png)
 
