@@ -2,7 +2,7 @@
 title: deepin 常用资源整理 · V4.1.4
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-03-19T09:02:01.123Z
+date: 2023-03-27T01:57:38.680Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -10,7 +10,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 > 本文创建于2021-05-15，当前版本发布于2023-03-07。
 > [PossibleVing](https://bbs.deepin.org/user/225373) 接手继续维护本文，感谢 [pzm9012](https://bbs.deepin.org/user/217969) 发起本文及曾经的默默付出。
-> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VuePress 页面](https://pzm9012.github.io/doc/deepin-src-col/) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/index) {.is-info}
+> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VuePress 页面](https://pzm9012.github.io/doc/deepin-src-col/sec-0) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) {.is-info}
 
 ![qq截图20221101145721.png](/qq截图20221101145721.png)
 在这里我整理了一些有帮助的资源，帮助大家更快捷地找到需要的内容。<br />感谢所有提供了资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
