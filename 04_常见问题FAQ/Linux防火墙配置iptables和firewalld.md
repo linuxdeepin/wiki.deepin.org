@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:20:15.910Z
+date: 2023-03-27T03:21:57.006Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -193,11 +193,11 @@ Firewalld 区域概念
 > --add-port=123/tcp     允许通过 tcp 的 123 端口
 > --remove-port=123/tcp  拒绝通过 tcp 的 123 端口
 > cat /etc/services     保存的协议类型和端口号
+```
 
 ![2023-3-27_98177.png](/2023-3-27_98177.png)
 
 **配置协议端口转换（端口映射）**
-
 ```
 > firewall-cmd --permanent --zone=public --add-forward-port=port=888:proto=tcp:toport=22:toaddr=192.168.10.1
 > 将 192.168.10.1 主机的 tcp 22 端口号转为 888 端口号（public 区域接收 ssh）
@@ -228,6 +228,8 @@ Firewalld 区域概念
 > --remove-ruch-rule     删除一个富规则
 > reject                  拒绝访问
 ```
+firewall-config 图形化配置
 
+安装 firewall-config
 ![2023-3-27_65278.png](/2023-3-27_65278.png)
 
