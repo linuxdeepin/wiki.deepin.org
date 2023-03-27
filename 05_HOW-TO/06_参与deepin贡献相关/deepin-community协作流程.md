@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-02-22T09:15:05.419Z
+date: 2023-03-27T03:08:13.035Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -119,16 +119,21 @@ obs构建产物获取:
 
 **四、软件包集成**
 
-通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。示例[Repository-Integration/pull/1](https://github.com/deepin-community/Repository-Integration/pull/1)
+通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。示例[Repository-Integration/pull/50](https://github.com/deepin-community/Repository-Integration/pull/50)
 集成步骤：
 1. 在[Repository-Integration](https://github.com/deepin-community/Repository-Integration) 提交PR
 
 2. 修改intergration.yml文件提交填写集成的软件包，以及版本
-		集成软件包的名称必须为deepin-community下的正确的仓库名，tag也必须存在，一次可集成多个软件包，请按照格式填完写yml文件
+		集成软件包的名称必须为deepin-community下的正确的仓库名，一次可集成多个软件包(推荐是不超过20个)，请按照格式填完写yml文件
     字段说明
-    repo #软件包名称
-    tag #tag版本
-    order #构建级别，相同级别并发构建，不同级别按照大小依次构建，最高支持1-10个级别，1为最高优先级。设置该字段目的是为了解决同一批次集成多个软件包中有依赖顺序的情况。
+-     repo #软件包名称
+-     tag #tag版本 
+-     tagsha: "3adc55ff5a3ef9751026cc598aeed88c4a3d46e6" #commit哈希
+-     order #废弃字段 默认为0即可
+
+> ps: tag可为空，考虑可能存在当前tag无法进行构建或者验证不通过需要重新提交commit修复 此时为一个commit打tag有些不太合适 因此该字段为空时不强制检查tag,打包时使用的版本为commit哈希里changelog的版本号,如无此特殊情况还请按规范填写对应tag，tag不为空时CI会效验tag是否存在
+{.is-info}
+
 
 3. 提交PR
 	PR提交后相关工作流开始执行，检查结构会由机器人在当前PR下添加评论，有些项目需要进行管理员进行revie进阅读相关提示
