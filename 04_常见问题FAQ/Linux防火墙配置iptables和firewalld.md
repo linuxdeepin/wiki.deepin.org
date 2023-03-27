@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:16:02.521Z
+date: 2023-03-27T03:16:32.355Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z
@@ -140,3 +140,31 @@ Firewalld 区域概念
 > Drop丢弃区域
 > 丢弃所有传入流量（无回应）
 ```
+
+> **数据包到达防火墙匹配规则**
+>
+> **firewall 进行数据处理只关心区域**
+>
+> - 1.根据数据包的源 IP 地址匹配，根据源地址绑定区域的区域规则进行匹配（如果没有绑定区域则匹配默认区域的规则）
+> - 2.根据传入的网络接口匹配，进入此接口绑定区域的区域规则进行匹配（如果没有绑定区域则匹配默认区域的规则）**绑定源地址的区域规则＞网卡绑定的区域规则＞默认区域的规则**
+>
+> **Firewalld 两种配置方法**
+>
+> **临时配置（runtime 当前生效表）**
+>
+> > 立即生效，重启后失效,不中断现有连接,无法修改服务配置**永久配置（permanent 永久生效表）**
+>
+> > 不立即生效，重启后生效，或者立即同步后生效 会终端现有连接 可以修改服务配置
+>
+> firewall-cmd 命令行基础配置
+>
+> **如何实现永久配置**
+>
+> > --permanent表示此配置加入到永久生效（默认临时生效） 或者在配置结束后执行此命令 firewall-cmd --runtime-to-permanent 将临时更改为永久 永久配置完成后需要立即同步 firewall-cmd --reload立即同步永久配置
+>
+> **查看默认区域并进行更改**
+
+> firewall-cmd --get-zones               查询可用的区域
+> firewall-cmd --get-default-zone          查询默认区域的名称
+> firewall-cmd --get-active-zone           显示当前正在使用的区域与网卡名称
+> firewall-cmd --set-default-zone=trusted    设置默认区域为 trusted 区域
