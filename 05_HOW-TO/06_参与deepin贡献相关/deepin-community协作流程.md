@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-03-27T03:22:41.118Z
+date: 2023-04-07T09:35:37.392Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -119,13 +119,14 @@ obs构建产物获取:
 
 **四、软件包集成**
 
-通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。示例[Repository-Integration/pull/50](https://github.com/deepin-community/Repository-Integration/pull/50)
+通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。示例[Repository-Integration/pull/72](https://github.com/deepin-community/Repository-Integration/pull/72)
 集成步骤：
 1. 在[Repository-Integration](https://github.com/deepin-community/Repository-Integration) 提交PR
 
 2. 修改intergration.yml文件提交填写集成的软件包，以及版本
 		集成软件包的名称必须为deepin-community下的正确的仓库名，一次可集成多个软件包(推荐是不超过20个)，请按照格式填完写yml文件
     字段说明
+-     message #集成说明，简要说明 会作为看板issues的标题        
 -     repo #软件包名称
 -     tag #tag版本 
 -     tagsha: "3adc55ff5a3ef9751026cc598aeed88c4a3d46e6" #commit哈希
@@ -139,7 +140,7 @@ obs构建产物获取:
 	PR提交后相关工作流开始执行，检查结构会由机器人在当前PR下添加评论，有些项目需要进行管理员进行revie进阅读相关提示, 工作流完成后可以在OBS平台查看相关的project，具体为test-intergration-pr-50命名形式，可以主页检索，自行进行相关验证
   
 4. 信息记录
-	 构建通过后集成管理员会在linuxdeepin组织下创建issue关联到看板上，请相关提交者在次备注更新说明、测试建议、影响范围等问题。相关测试人员也会在此介入。
+	 构建通过后CI工作流会在linuxdeepin组织下创建issue关联到[看板](https://github.com/orgs/linuxdeepin/projects/21)上，请相关提交者在次备注更新说明、测试建议、影响范围等问题。相关测试人员也会在此介入。
 	 集成的历史信息记录在[records.yml](https://github.com/deepin-community/Repository-Integration/blob/master/records.yml)文件中
  
 5. 集成完毕
