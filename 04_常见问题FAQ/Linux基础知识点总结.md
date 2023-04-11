@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T06:58:25.429Z
+date: 2023-04-11T07:03:30.673Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -237,3 +237,15 @@ head cloud-init.log
 ```
 tail cloud-init.log
 ```
+
+【**参数**】
+
+- `-n`指定行数`tail cloud-init.log -n 2`
+- `-f`会每过 1 秒检查下文件是否有更新内容，也可以用 -s 参数指定间隔时间`tail -f -s 4 xxx.log`
+
+**touch**：创建一个文件
+
+```
+touch new_file
+```
+
