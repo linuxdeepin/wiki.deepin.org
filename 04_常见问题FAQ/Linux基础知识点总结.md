@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:17:20.761Z
+date: 2023-04-11T07:17:39.748Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -451,3 +451,15 @@ drwxr-xr-x 5 root root 4096 Apr 13  2020 climb
 lrwxrwxrwx 1 root root    7 Jan 14 06:41 hello2.c -> hello.c
 -rw-r--r-- 1 root root  149 Jan 13 06:14 hello.c
 ```
+
+其中`drwxr-xr-x`表示文件或目录的权限。让我们一起来解读它具体代表什么？
+
+- `d` ：表示目录，就是说这是一个目录，普通文件是 - ，链接是 l 。
+- `r` ：`read`表示文件可读。
+- `w` ：`write`表示文件可写，一般有写的权限，就有删除的权限。
+- `x` ：`execute`表示文件可执行。
+- `-` ：表示没有相应权限。
+
+权限的整体是按用户来划分的，如下图所示：
+
+![2023-4-11_46429.png](/2023-4-11_46429.png)
