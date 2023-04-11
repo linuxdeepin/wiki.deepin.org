@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:22:18.279Z
+date: 2023-04-11T07:22:32.076Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -592,6 +592,13 @@ find -name "*.c" -ok chmod 600 {} \; --> 和上面的功能一直，会多一个
 - `yum search xxx` 搜索相应的软件包
 - `yum install xxx`安装软件包
 - `yum remove xxx`删除软件包
+
+**切换 CentOS 软件源**
+
+> 有时候 CentOS 默认的 yum 源不一定是国内镜像，导致 yum  在线安装及更新速度不是很理想。这时候需要将 yum 源设置为国内镜像站点。国内主要开源的镜像站点是网易和阿里云。
+
+- 1、首先备份系统自带 yum 源配置文件`mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup`
+- 2、下载阿里云的 yum 源配置文件到`/etc/yum.repos.d/CentOS7`
 
 
 
