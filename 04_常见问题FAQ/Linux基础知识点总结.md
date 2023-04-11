@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:20:23.326Z
+date: 2023-04-11T07:20:45.296Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -529,4 +529,23 @@ locate fil*.txt
 > [**注意**] locate 命令会去文件数据库中查找命令，而不是全磁盘查找，因此刚创建的文件并不会更新到数据库中，所以无法被查找到，可以执行 updatedb 命令去更新数据库。
 
 **find**：用于查找文件，它会去遍历你的实际硬盘进行查找，而且它允许我们对每个找到的文件进行后续操作，功能非常强大。
+
+```
+find <何处> <何物> <做什么>
+```
+
+- **何处**：指定在哪个目录查找，此目录的所有子目录也会被查找。
+- **何物**：查找什么，可以根据文件的名字来查找，也可以根据其大小来查找，还可以根据其最近访问时间来查找。
+- **做什么**：找到文件后，可以进行后续处理，如果不指定这个参数， find 命令只会显示找到的文件。
+
+**根据文件名查找**
+
+```
+find -name "file.txt" --> 当前目录以及子目录下通过名称查找文件
+find . -name "syslog" --> 当前目录以及子目录下通过名称查找文件
+find / -name "syslog" --> 整个硬盘下查找syslog
+find /var/log -name "syslog" --> 在指定的目录/var/log下查找syslog文件
+find /var/log -name "syslog*" --> 查找syslog1、syslog2 ... 等文件，通配符表示所有
+find /var/log -name "*syslog*" --> 查找包含syslog的文件
+```
 
