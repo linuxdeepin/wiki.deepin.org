@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:26:45.953Z
+date: 2023-04-11T07:27:04.873Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -750,3 +750,13 @@ Bella
 `word count`的缩写，用于文件的统计。它可以统计单词数目、行数、字符数，字节数等。
 
 **基础语法**
+
+```
+wc name.txt # 统计name.txt
+```
+
+实例用法
+```
+[root@lion ~]# wc name.txt 
+- 13 13 91 name.txt
+```
