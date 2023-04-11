@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:11:46.175Z
+date: 2023-04-11T07:12:07.291Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -349,3 +349,10 @@ lrwxrwxrwx 1 root root 5 Jan 14 06:42 file2 -> file1  # 表示file2 指向 file1
 ![2023-4-11_96201.png](/2023-4-11_96201.png)
 
 >自己创建的用户是有限权限的用户，这样大大提高了 `Linux`系统的安全性，有效防止误操作或是病毒攻击，但是我们执行的某些命令需要更高权限时可以使用 `sudo`命令。
+
+sudo：以 root身份运行命令
+
+```
+sudo date  --> 当然查看日期是不需要sudo的这里只是演示，sudo 完之后一般还需要输入用户密码的
+```
+
