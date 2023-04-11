@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:20:46.857Z
+date: 2023-04-11T07:21:03.417Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -547,5 +547,16 @@ find / -name "syslog" --> 整个硬盘下查找syslog
 find /var/log -name "syslog" --> 在指定的目录/var/log下查找syslog文件
 find /var/log -name "syslog*" --> 查找syslog1、syslog2 ... 等文件，通配符表示所有
 find /var/log -name "*syslog*" --> 查找包含syslog的文件
+```
+
+[注意] find 命令只会查找完全符合 “何物” 字符串的文件，而 locate 会查找所有包含关键字的文件。
+
+根据文件大小查找
+
+```
+find /var -size +10M --> /var 目录下查找文件大小超过 10M 的文件
+find /var -size -50k --> /var 目录下查找文件大小小于 50k 的文件
+find /var -size +1G --> /var 目录下查找文件大小查过 1G 的文件
+find /var -size 1M --> /var 目录下查找文件大小等于 1M 的文件
 ```
 
