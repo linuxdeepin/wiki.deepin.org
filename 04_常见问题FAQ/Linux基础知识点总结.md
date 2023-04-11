@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:25:48.085Z
+date: 2023-04-11T07:26:03.402Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -712,3 +712,8 @@ grep -E path /etc/profile --> 完全匹配path
 grep -E ^path /etc/profile --> 匹配path开头的字符串
 grep -E [Pp]ath /etc/profile --> 匹配path或Path
 ```
+**sort**
+
+对文件的行进行排序。
+
+**基础语法**
