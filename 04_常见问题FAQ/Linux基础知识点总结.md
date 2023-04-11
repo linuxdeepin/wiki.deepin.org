@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:22:42.889Z
+date: 2023-04-11T07:23:00.713Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -604,5 +604,9 @@ find -name "*.c" -ok chmod 600 {} \; --> 和上面的功能一直，会多一个
 wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 ```
 
+3、生成缓存
+```
+yum makecache
+```
 
 
