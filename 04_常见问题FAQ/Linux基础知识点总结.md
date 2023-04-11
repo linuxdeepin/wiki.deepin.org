@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:26:06.729Z
+date: 2023-04-11T07:26:21.492Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -718,3 +718,11 @@ grep -E [Pp]ath /etc/profile --> 匹配path或Path
 对文件的行进行排序。
 
 **基础语法**
+```
+sort name.txt # 对name.txt文件进行排序
+```
+
+实例用法
+
+为了演示方便，我们首先创建一个文件 name.txt ，放入以下内容：
+
