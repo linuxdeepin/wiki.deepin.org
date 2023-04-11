@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:18:35.035Z
+date: 2023-04-11T07:19:18.556Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -479,3 +479,16 @@ lrwxrwxrwx 1 root root    7 Jan 14 06:41 hello2.c -> hello.c
 r	4
 w	2
 x	1
+
+因此要改变权限，只要做一些简单的加法就行：
+
+```
+chmod 640 hello.c 
+
+# 分析
+- 6 = 4 + 2 + 0 表示所有者具有 rw 权限
+- 4 = 4 + 0 + 0 表示群组用户具有 r 权限
+- 0 = 0 + 0 + 0 表示其它用户没有权限
+
+对应文字权限为：-rw-r-----
+```
