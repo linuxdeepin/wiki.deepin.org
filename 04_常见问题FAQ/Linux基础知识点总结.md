@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:21:20.999Z
+date: 2023-04-11T07:21:34.101Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -565,4 +565,11 @@ find /var -size 1M --> /var 目录下查找文件大小等于 1M 的文件
 ```
 find -name "*.txt" -atime -7  --> 近 7天内访问过的.txt结尾的文件
 ```
+
+仅查找目录或文件
+```
+find . -name "file" -type f  --> 只查找当前目录下的file文件
+find . -name "file" -type d  --> 只查找当前目录下的file目录
+```
+
 
