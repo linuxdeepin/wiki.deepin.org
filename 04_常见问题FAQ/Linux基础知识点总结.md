@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:27:21.766Z
+date: 2023-04-11T07:27:42.189Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -760,3 +760,19 @@ wc name.txt # 统计name.txt
 [root@lion ~]# wc name.txt 
 - 13 13 91 name.txt
 ```
+- 第一个 13，表示行数；
+- 第二个 13，表示单词数；
+- 第三个 91，表示字节数。
+
+**常用参数**
+
+- `-l`只统计行数， `wc -l name.txt`；
+- `-w`只统计单词数，`wc -w name.txt`；
+- `-c`只统计字节数，`wc -c name.txt`；
+- `-m`只统计字符数，`wc -m name.txt`。
+
+**uniq**
+
+删除文件中的重复内容。
+
+**基础语法**
