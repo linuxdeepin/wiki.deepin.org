@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:25:33.305Z
+date: 2023-04-11T07:25:48.085Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -707,7 +707,8 @@ unset -f pathmunge
 **高级用法**
 
 `grep`可以配合正则表达式使用。
-
-
-
-
+```
+grep -E path /etc/profile --> 完全匹配path
+grep -E ^path /etc/profile --> 匹配path开头的字符串
+grep -E [Pp]ath /etc/profile --> 匹配path或Path
+```
