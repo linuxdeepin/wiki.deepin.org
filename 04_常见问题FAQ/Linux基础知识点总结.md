@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:23:47.323Z
+date: 2023-04-11T07:24:28.489Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -641,6 +641,32 @@ sudo mandb --> 更新
 ```
 man 3 rand  --> 表示在手册的第三部分查找 rand 函数
 man ls    --> 查找 ls 用法手册
+```
+
+man 手册核心区域解析：(以`man pwd`为例)
+
+```
+NAME # 命令名称和简单描述
+     pwd -- return working directory name
+
+SYNOPSIS # 使用此命令的所有方法
+     pwd [-L | -P]
+
+DESCRIPTION # 包括所有参数以及用法
+     The pwd utility writes the absolute pathname of the current working directory to the standard output.
+
+     Some shells may provide a builtin pwd command which is similar or identical to this utility.  Consult the builtin(1) manual page.
+
+     The options are as follows:
+
+     -L      Display the logical current working directory.
+
+     -P      Display the physical current working directory (all symbolic links resolved).
+
+     If no options are specified, the -L option is assumed.
+
+SEE ALSO # 扩展阅读相关命令
+     builtin(1), cd(1), csh(1), sh(1), getcwd(3)
 ```
 
 
