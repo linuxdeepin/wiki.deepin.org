@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:27:04.873Z
+date: 2023-04-11T07:27:20.130Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -755,7 +755,7 @@ Bella
 wc name.txt # 统计name.txt
 ```
 
-实例用法
+**实例用法**
 ```
 [root@lion ~]# wc name.txt 
 - 13 13 91 name.txt
