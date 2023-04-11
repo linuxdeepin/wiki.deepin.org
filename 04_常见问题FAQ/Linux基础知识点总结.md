@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:13:50.294Z
+date: 2023-04-11T07:14:09.033Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -377,5 +377,15 @@ userdel lion -r --> 会同时删除/home下的对应文件夹
 
 su：切换用户，需要 root 用户权限
 
+```
+sudo su --> 切换为root用户（exit 命令或 CTRL + D 快捷键都可以使普通用户切换为 root 用户）
+su lion --> 切换为普通用户
+su - --> 切换为root用户
+```
 
+**群组的管理**
+
+> Linux 中每个用户都属于一个特定的群组，如果你不设置用户的群组，默认会创建一个和它的用户名一样的群组，并且把用户划归到这个群组。
+
+**groupadd**：创建群组，用法和 useradd 类似。
 
