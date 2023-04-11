@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:09:14.380Z
+date: 2023-04-11T07:09:56.014Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -327,3 +327,14 @@ ln file1 file2  --> 创建 file2 为 file1 的硬链接
 ```
 ln -s file1 file2
 ```
+
+![2023-4-11_56516.png](/2023-4-11_56516.png)
+
+执行ls -l命名查看当前目录下文件的具体信息
+
+```
+total 0
+-rw-r--r-- 1 root root 0 Jan 14 06:29 file1
+lrwxrwxrwx 1 root root 5 Jan 14 06:42 file2 -> file1  # 表示file2 指向 file1
+```
+
