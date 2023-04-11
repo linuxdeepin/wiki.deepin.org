@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:12:50.922Z
+date: 2023-04-11T07:13:01.518Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -362,3 +362,9 @@ sudo date  --> 当然查看日期是不需要sudo的这里只是演示，sudo �
 - `passwd`修改用户密码
 
 这两个命令需要 root 用户权限
+
+```
+useradd lion --> 添加一个lion用户，添加完之后在 /home 路径下可以查看
+passwd lion --> 修改lion用户的密码
+```
+
