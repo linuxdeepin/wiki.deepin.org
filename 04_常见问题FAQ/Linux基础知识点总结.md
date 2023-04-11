@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:24:28.489Z
+date: 2023-04-11T07:24:47.182Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -667,7 +667,28 @@ DESCRIPTION # 包括所有参数以及用法
 
 SEE ALSO # 扩展阅读相关命令
      builtin(1), cd(1), csh(1), sh(1), getcwd(3)
+  
 ```
+
+**help**
+
+> man 命令像新华词典一样可以查询到命令或函数的详细信息，但其实我们还有更加快捷的方式去查询，`command --help`或`command -h`，它没有 man 命令显示的那么详细，但是它更加易于阅读。
+
+Linux 进阶
+
+**文本操作**
+
+**grep**
+
+全局搜索一个正则表达式，并且打印到屏幕。简单来说就是，在文件中查找关键字，并显示关键字所在行。
+
+**基础语法**
+
+```
+
+```
+
+
 
 
 
