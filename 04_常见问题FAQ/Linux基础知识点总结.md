@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:26:33.884Z
+date: 2023-04-11T07:26:45.953Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -735,3 +735,18 @@ Noah
 Zachary
 Bella
 ```
+
+执行`sort name.txt`命令，会对文本内容进行排序。
+
+**常用参数**
+
+- `-o`将排序后的文件写入新文件，`sort -o name_sorted.txt name.txt`；
+- `-r`倒序排序，`sort -r name.txt` ；
+- `-R`随机排序，`sort -R name.txt` ；
+- `-n`对数字进行排序，默认是把数字识别成字符串的，因此 138 会排在 25 前面，如果添加了 -n 数字排序的话，则 25 会在 138 前面。
+
+**wc**
+
+`word count`的缩写，用于文件的统计。它可以统计单词数目、行数、字符数，字节数等。
+
+**基础语法**
