@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:21:35.719Z
+date: 2023-04-11T07:21:56.262Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -571,5 +571,14 @@ find -name "*.txt" -atime -7  --> 近 7天内访问过的.txt结尾的文件
 find . -name "file" -type f  --> 只查找当前目录下的file文件
 find . -name "file" -type d  --> 只查找当前目录下的file目录
 ```
+
+操作查找结果
+```
+find -name "*.txt" -printf "%p - %u\n" --> 找出所有后缀为txt的文件，并按照 %p - %u\n 格式打印，其中%p=文件名，%u=文件所有者
+find -name "*.jpg" -delete --> 删除当前目录以及子目录下所有.jpg为后缀的文件，不会有删除提示，因此要慎用
+find -name "*.c" -exec chmod 600 {} \; --> 对每个.c结尾的文件，都进行 -exec 参数指定的操作，{} 会被查找到的文件替代，\; 是必须的结尾
+find -name "*.c" -ok chmod 600 {} \; --> 和上面的功能一直，会多一个确认提示
+```
+
 
 
