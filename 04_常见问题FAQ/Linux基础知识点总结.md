@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T06:55:51.848Z
+date: 2023-04-11T06:56:03.049Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -224,4 +224,6 @@ h 键：显示帮助文档；
 / 键：进入搜索模式后，按 n 键跳到一个符合项目，按 N 键跳到上一个符合项目，同时也可以输入正则表达式匹配。
 head：显示文件的开头几行（默认是 10 行）
 
-
+```
+head cloud-init.log
+```
