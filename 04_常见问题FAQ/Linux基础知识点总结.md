@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:15:00.180Z
+date: 2023-04-11T07:15:17.049Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -399,6 +399,10 @@ groupdel：删除一个已存在的群组
 groupdel foo  --> 删除foo群组
 ```
 
+groups：查看用户所在群组
 
+```
+groups lion  --> 查看 lion 用户所在的群组
+```
 
 
