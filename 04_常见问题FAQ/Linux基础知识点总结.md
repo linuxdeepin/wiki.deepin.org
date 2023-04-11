@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:19:20.100Z
+date: 2023-04-11T07:19:42.987Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -492,3 +492,24 @@ chmod 640 hello.c
 
 对应文字权限为：-rw-r-----
 ```
+
+**用字母来分配权限**
+
+- `u`：user 的缩写，用户的意思，表示所有者。
+- `g` ：group 的缩写，群组的意思，表示群组用户。
+- `o` ：other 的缩写，其它的意思，表示其它用户。
+- `a` ：all 的缩写，所有的意思，表示所有用户。
+- `+` ：加号，表示添加权限。
+- `-` ：减号，表示去除权限。
+- `=` ：等于号，表示分配权限。
+
+```
+chmod u+rx file --> 文件file的所有者增加读和运行的权限
+chmod g+r file --> 文件file的群组用户增加读的权限
+chmod o-r file --> 文件file的其它用户移除读的权限
+chmod g+r o-r file --> 文件file的群组用户增加读的权限，其它用户移除读的权限
+chmod go-r file --> 文件file的群组和其他用户移除读的权限
+chmod +x file --> 文件file的所有用户增加运行的权限
+chmod u=rwx,g=r,o=- file --> 文件file的所有者分配读写和执行的权限，群组其它用户分配读的权限，其他用户没有任何权限
+```
+
