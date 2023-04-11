@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:04:55.702Z
+date: 2023-04-11T07:05:18.091Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -282,3 +282,14 @@ mv new_folder one --> 将 new_folder 文件夹移动到one目录下
 mv *.txt folder --> 把当前目录下所有 txt 文件移动到 folder 目录下
 mv file new_file --> file 文件重命名为 new_file
 ```
+
+文件的删除和链接
+
+rm：删除文件和目录，由于 Linux 下没有回收站，一旦删除非常难恢复，因此需要谨慎操作
+
+```
+rm new_file  --> 删除 new_file 文件
+rm f1 f2 f3  --> 同时删除 f1 f2 f3 3个文件
+```
+
+
