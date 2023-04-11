@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:23:33.830Z
+date: 2023-04-11T07:23:45.726Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -636,7 +636,12 @@ sudo mandb --> 更新
 
 **man + 数字 + 命令**
 
-> 
+> 输入 man + 数字 + 命令 / 函数，可以查到相关的命令和函数，若不加数字， man 默认从数字较小的手册中寻找相关命令和函数
+
+```
+man 3 rand  --> 表示在手册的第三部分查找 rand 函数
+man ls    --> 查找 ls 用法手册
+```
 
 
 
