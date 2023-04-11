@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:04:29.249Z
+date: 2023-04-11T07:04:54.259Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -268,4 +268,17 @@ cp file file_copy --> file 是目标文件，file_copy 是拷贝出来的文件
 cp file one --> 把 file 文件拷贝到 one 目录下，并且文件名依然为 file
 cp file one/file_copy --> 把 file 文件拷贝到 one 目录下，文件名为file_copy
 cp *.txt folder --> 把当前目录下所有 txt 文件拷贝到 folder 目录下
+```
+
+【**常用参数**】
+
+- `-r`递归的拷贝，常用来拷贝一整个目录
+
+**mv**：移动（重命名）文件或目录，与 cp 命令用法相似。
+
+```
+mv file one --> 将 file 文件移动到 one 目录下
+mv new_folder one --> 将 new_folder 文件夹移动到one目录下
+mv *.txt folder --> 把当前目录下所有 txt 文件移动到 folder 目录下
+mv file new_file --> file 文件重命名为 new_file
 ```
