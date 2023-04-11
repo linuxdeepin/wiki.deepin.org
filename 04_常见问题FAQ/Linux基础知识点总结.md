@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:04:05.842Z
+date: 2023-04-11T07:04:15.249Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -254,3 +254,11 @@ touch new_file
 ```
 mkdir new_folder
 ```
+
+【**常用参数**】
+
+- `-p`递归的创建目录结构`mkdir -p one/two/three`
+
+**文件的复制和移动**
+
+**cp**：拷贝文件和目录
