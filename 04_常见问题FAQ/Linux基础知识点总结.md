@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T06:50:03.638Z
+date: 2023-04-11T06:50:19.379Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -52,3 +52,42 @@ Linux 基础
 **终端连接阿里云服务器**
 
 ![2023-4-11_83614.png](/2023-4-11_83614.png)
+
+> 通过执行`ssh root@121.42.11.34`命令，然后输入服务器连接密码就可以顺利登录远程服务器。从现在开始我们就可以在本地电脑操作远程服务器。
+
+- 1.这个黑色的面板就是终端也就是`Shell`（命令行环境）。
+- 2.`ssh root@xxx`这是一条命令，必须要在`Shell`中才能执行。
+
+**Shell**
+
+> `Shell`这个单词的原意是 “外壳”，跟`kernel`（内核）相对应，比喻内核外面的一层，即用户跟内核交互的对话界面。
+
+- `Shell`是一个程序，提供一个与用户对话的环境。这个环境只有一个命令提示符，让用户从键盘输入命令，所以又称为命令行环境（`command line interface`，简写为`CLI`）。`Shell` 接收到用户输入的命令，将命令送入操作系统执行，并将结果返回给用户。
+- `Shell`是一个命令解释器，解释用户输入的命令。它支持变量、条件判断、循环操作等语法，所以用户可以用`Shell`命令写出各种小程序，又称为`Shell`脚本。这些脚本都通过`Shell`的解释执行，而不通过编译。
+- `Shell`是一个工具箱，提供了各种小工具，供用户方便地使用操作系统的功能。
+
+**Shell 的种类**
+
+`Shell`有很多种，只要能给用户提供命令行环境的程序，都可以看作是 `Shell`。
+
+历史上，主要的`Shell` 有下面这些：
+
+- Bourne Shell（sh）
+- Bourne Again shell（bash）
+- C Shell（csh）
+- TENEX C Shell（tcsh）
+- Korn shell（ksh）
+- Z Shell（zsh）
+- Friendly Interactive Shell（fish）
+
+其中`Bash`是目前最常用的`Shell`。MacOS 中的默认`Shell`就是 `Bash`。
+
+> 通过执行`echo $SHELL`命令可以查看到当前正在使用的`Shell`。还可以通过`cat /etc/shells`查看当前系统安装的所有`Shell`种类。
+
+**命令**
+
+**命令行提示符**
+
+> 进入命令行环境以后，用户会看到`Shell`的提示符。提示符往往是一串前缀，最后以一个美元符号`$` 结尾，用户可以在这个符号后面输入各种命令。
+
+执行一个简单的命令`pwd`：
