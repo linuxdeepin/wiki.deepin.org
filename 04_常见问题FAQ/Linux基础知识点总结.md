@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:09:56.014Z
+date: 2023-04-11T07:10:07.134Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -338,3 +338,10 @@ total 0
 lrwxrwxrwx 1 root root 5 Jan 14 06:42 file2 -> file1  # 表示file2 指向 file1
 ```
 
+> 其实`file2`只是`file1`的一个快捷方式，它指向的是`file1`，所以显示的是 file1 的内容，但其实`file2`的`inode`与`file1`并不相同。如果我们删除了 `file2`的话，`file1`是不会受影响的，但如果删除`file1`的话，`file2`就会变成死链接，因为指向的文件不见了。
+
+**用户与权限**
+
+**用户**
+
+`Linux`是一个多用户的操作系统。在 `Linux`中，理论上来说，我们可以创建无数个用户，但是这些用户是被划分到不同的群组里面的，有一个用户，名叫 `root`，是一个很特殊的用户，它是超级用户，拥有最高权限。
