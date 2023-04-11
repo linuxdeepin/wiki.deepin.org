@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:21:03.417Z
+date: 2023-04-11T07:21:19.443Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -558,5 +558,11 @@ find /var -size +10M --> /var 目录下查找文件大小超过 10M 的文件
 find /var -size -50k --> /var 目录下查找文件大小小于 50k 的文件
 find /var -size +1G --> /var 目录下查找文件大小查过 1G 的文件
 find /var -size 1M --> /var 目录下查找文件大小等于 1M 的文件
+```
+
+根据文件最近访问时间查找
+
+```
+find -name "*.txt" -atime -7  --> 近 7天内访问过的.txt结尾的文件
 ```
 
