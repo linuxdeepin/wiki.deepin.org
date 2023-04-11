@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:16:55.435Z
+date: 2023-04-11T07:17:19.201Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -437,4 +437,17 @@ chown lion:bar file.txt --> 把file.txt的用户改为lion，群组改为bar
 
 ```
 chmod 740 file.txt
+```
+
+【**常用参数**】
+
+- `-R`可以递归地修改文件访问权限，例如`chmod -R 777 /home/lion`
+
+> 修改权限的确简单，但是理解其深层次的意义才是更加重要的。下面我们来系统的学习 Linux 的文件权限。
+
+```
+[root@lion ~]# ls -l
+drwxr-xr-x 5 root root 4096 Apr 13  2020 climb
+lrwxrwxrwx 1 root root    7 Jan 14 06:41 hello2.c -> hello.c
+-rw-r--r-- 1 root root  149 Jan 13 06:14 hello.c
 ```
