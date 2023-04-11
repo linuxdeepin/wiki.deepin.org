@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:04:15.249Z
+date: 2023-04-11T07:04:29.249Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -262,3 +262,10 @@ mkdir new_folder
 **文件的复制和移动**
 
 **cp**：拷贝文件和目录
+
+```
+cp file file_copy --> file 是目标文件，file_copy 是拷贝出来的文件
+cp file one --> 把 file 文件拷贝到 one 目录下，并且文件名依然为 file
+cp file one/file_copy --> 把 file 文件拷贝到 one 目录下，文件名为file_copy
+cp *.txt folder --> 把当前目录下所有 txt 文件拷贝到 folder 目录下
+```
