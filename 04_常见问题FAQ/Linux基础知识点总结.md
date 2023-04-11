@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:10:25.465Z
+date: 2023-04-11T07:11:21.555Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -346,3 +346,4 @@ lrwxrwxrwx 1 root root 5 Jan 14 06:42 file2 -> file1  # 表示file2 指向 file1
 
 `Linux`是一个多用户的操作系统。在 `Linux`中，理论上来说，我们可以创建无数个用户，但是这些用户是被划分到不同的群组里面的，有一个用户，名叫 `root`，是一个很特殊的用户，它是超级用户，拥有最高权限。
 
+![2023-4-11_96201.png](/2023-4-11_96201.png)
