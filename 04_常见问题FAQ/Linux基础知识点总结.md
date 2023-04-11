@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:13:03.089Z
+date: 2023-04-11T07:13:48.784Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -367,4 +367,15 @@ sudo date  --> 当然查看日期是不需要sudo的这里只是演示，sudo �
 useradd lion --> 添加一个lion用户，添加完之后在 /home 路径下可以查看
 passwd lion --> 修改lion用户的密码
 ```
+
+userdel:删除用户，需要 root 用户权限
+
+```
+userdel lion --> 只会删除用户名，不会从/home中删除对应文件夹
+userdel lion -r --> 会同时删除/home下的对应文件夹
+```
+
+su：切换用户，需要 root 用户权限
+
+
 
