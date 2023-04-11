@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:23:18.468Z
+date: 2023-04-11T07:23:25.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -618,7 +618,8 @@ Linux  命令种类繁杂，我们凭借记忆不可能全部记住，因此学�
 **安装更新 man**
 
 ```
-
+sudo yum install -y man-pages --> 安装
+sudo mandb --> 更新
 ```
 
 
