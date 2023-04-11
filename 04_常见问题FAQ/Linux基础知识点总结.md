@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:03:30.673Z
+date: 2023-04-11T07:04:05.842Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -249,3 +249,8 @@ tail cloud-init.log
 touch new_file
 ```
 
+**mkdir**：创建一个目录
+
+```
+mkdir new_folder
+```
