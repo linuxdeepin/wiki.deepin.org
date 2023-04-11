@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:12:07.291Z
+date: 2023-04-11T07:12:50.922Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -356,3 +356,9 @@ sudo：以 root身份运行命令
 sudo date  --> 当然查看日期是不需要sudo的这里只是演示，sudo 完之后一般还需要输入用户密码的
 ```
 
+**useradd + passwd**
+
+- `useradd`添加新用户
+- `passwd`修改用户密码
+
+这两个命令需要 root 用户权限
