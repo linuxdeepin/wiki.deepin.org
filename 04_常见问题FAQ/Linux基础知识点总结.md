@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:23:00.713Z
+date: 2023-04-11T07:23:07.844Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -608,5 +608,13 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-
 ```
 yum makecache
 ```
+
+阅读手册
+
+Linux  命令种类繁杂，我们凭借记忆不可能全部记住，因此学会查用手册是非常重要的。
+
+man
+
+安装更新 man
 
 
