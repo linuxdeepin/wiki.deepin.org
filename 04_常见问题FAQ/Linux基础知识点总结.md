@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:08:48.804Z
+date: 2023-04-11T07:09:14.380Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -314,4 +314,16 @@ Linux 下有两种链接类型：硬链接和软链接。
 
 ```
 ln file1 file2  --> 创建 file2 为 file1 的硬链接
+```
+
+![2023-4-11_5260.png](/2023-4-11_5260.png)
+
+如果我们用 rm file1 来删除 file1 ，对 file2 没有什么影响，对于硬链接来说，删除任意一方的文件，共同指向的文件内容并不会从硬盘上删除。只有同时删除了 file1 与 file2 后，它们共同指向的文件内容才会消失。
+
+软链接
+
+软链接就类似 windows 下快捷方式。
+
+```
+ln -s file1 file2
 ```
