@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:14:09.033Z
+date: 2023-04-11T07:14:20.020Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -387,5 +387,9 @@ su - --> 切换为root用户
 
 > Linux 中每个用户都属于一个特定的群组，如果你不设置用户的群组，默认会创建一个和它的用户名一样的群组，并且把用户划归到这个群组。
 
-**groupadd**：创建群组，用法和 useradd 类似。
+**groupadd**：创建群组，用法和 useradd 类似
+
+```
+groupadd friends
+```
 
