@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:15:17.049Z
+date: 2023-04-11T07:15:30.310Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -404,5 +404,17 @@ groups：查看用户所在群组
 ```
 groups lion  --> 查看 lion 用户所在的群组
 ```
+
+**usermod**：用于修改用户的账户。
+
+【**常用参数**】
+
+- `-l`对用户重命名。需要注意的是 `/home`中的用户家目录的名字不会改变，需要手动修改。
+- `-g`修改用户所在的群组，例如 `usermod -g friends lion` 修改 `lion` 用户的群组为 `friends` 。
+- `-G`一次性让用户添加多个群组，例如 `usermod -G friends,foo,bar lion` 。
+- `-a` `-G`会让你离开原先的群组，如果你不想这样做的话，就得再添加 `-a`参数，意味着 `append` 追加的意思。
+
+**chgrp**：用于修改文件的群组。
+
 
 
