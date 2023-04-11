@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T06:58:14.009Z
+date: 2023-04-11T06:58:23.999Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -233,3 +233,7 @@ head cloud-init.log
 - `-n` 指定行数`head cloud-init.log -n 2`
 
 **tail**：显示文件的结尾几行（默认是 10 行）
+
+```
+tail cloud-init.log
+```
