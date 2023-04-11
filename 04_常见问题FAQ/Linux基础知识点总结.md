@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:26:23.082Z
+date: 2023-04-11T07:26:33.884Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -726,3 +726,12 @@ sort name.txt # 对name.txt文件进行排序
 
 为了演示方便，我们首先创建一个文件 name.txt ，放入以下内容：
 
+```
+Christopher
+Shawn
+Ted
+Rock
+Noah
+Zachary
+Bella
+```
