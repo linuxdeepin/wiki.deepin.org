@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:24:47.182Z
+date: 2023-04-11T07:25:22.152Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -685,7 +685,16 @@ Linux 进阶
 **基础语法**
 
 ```
+grep text file # text代表要搜索的文本，file代表供搜索的文件
 
+# 实例
+[root@lion ~]# grep path /etc/profile
+pathmunge () {
+    pathmunge /usr/sbin
+    pathmunge /usr/local/sbin
+    pathmunge /usr/local/sbin after
+    pathmunge /usr/sbin after
+unset -f pathmunge
 ```
 
 
