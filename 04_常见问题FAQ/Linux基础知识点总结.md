@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:15:55.380Z
+date: 2023-04-11T07:16:53.850Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -425,4 +425,16 @@ chown：改变文件的所有者，需要 root 身份才能运行。
 ```
 chown lion file.txt --> 把其它用户创建的file.txt转让给lion用户
 chown lion:bar file.txt --> 把file.txt的用户改为lion，群组改为bar
+```
+
+【**常用参数**】
+
+- `-R`递归设置子目录和子文件，`chown -R lion:lion /home/frank`把 `frank`文件夹的用户和群组都改为`lion` 。
+
+**文件权限管理**
+
+**chmod**：修改访问权限。
+
+```
+chmod 740 file.txt
 ```
