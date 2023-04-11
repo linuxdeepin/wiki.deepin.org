@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T06:50:19.379Z
+date: 2023-04-11T06:50:33.885Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -91,3 +91,6 @@ Linux 基础
 > 进入命令行环境以后，用户会看到`Shell`的提示符。提示符往往是一串前缀，最后以一个美元符号`$` 结尾，用户可以在这个符号后面输入各种命令。
 
 执行一个简单的命令`pwd`：
+
+[root@iZm5e8dsxce9ufaic7hi3uZ ~]*# pwd*
+/root
