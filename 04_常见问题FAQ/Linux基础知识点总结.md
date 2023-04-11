@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:25:22.152Z
+date: 2023-04-11T07:25:33.305Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -697,7 +697,16 @@ pathmunge () {
 unset -f pathmunge
 ```
 
+**常用参数**
 
+- `-i`忽略大小写，`grep -i path /etc/profile`
+- `-n`显示行号，`grep -i path /etc/profile`
+- `-v`只显示搜索文本不在的那些行，`grep -v path /etc/profile`
+- `-r`递归查找，`grep -r hello /etc`，Linux 中还有一个 rgrep 命令，作用相当于`grep -r`
+
+**高级用法**
+
+`grep`可以配合正则表达式使用。
 
 
 
