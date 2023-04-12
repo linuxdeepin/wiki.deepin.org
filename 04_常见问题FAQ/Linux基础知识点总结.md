@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T07:27:42.189Z
+date: 2023-04-11T09:39:09.801Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -776,3 +776,5 @@ wc name.txt # 统计name.txt
 删除文件中的重复内容。
 
 **基础语法**
+
+
