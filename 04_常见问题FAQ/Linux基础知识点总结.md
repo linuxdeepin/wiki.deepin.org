@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-12T07:29:27.013Z
+date: 2023-04-12T07:29:35.634Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -807,3 +807,5 @@ cut -c 2-4 name.txt # 剪切每一行第二到第四个字符
 **重定向 管道 流**
 
 在 Linux 中一个命令的去向可以有 3 个地方：终端、文件、作为另外一个命令的入参。
+
+![2023-4-12_40842.png](/2023-4-12_40842.png)
