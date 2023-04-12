@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-12T07:31:21.326Z
+date: 2023-04-12T07:31:41.162Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -1118,3 +1118,38 @@ fg 使进程转为前台运行，用法和 bg 命令类似。
 我们用一张图来表示前后台进程切换：
 
 ![2023-4-12_8628.png](/2023-4-12_8628.png)
+
+我们可以使程序在后台运行，成为后台进程，这样在当前终端中我们就可以做其他事情了，而不必等待此进程运行结束。
+
+**守护进程**
+
+一个运行起来的程序被称为进程。在 Linux 中有些进程是特殊的，它不与任何进程关联，不论用户的身份如何，都在后台运行，这些进程的父进程是 PID 为 1 的进程， PID 为 1 的进程只在系统关闭时才会被销毁。它们会在后台一直运行等待分配工作。我们将这类进程称之为守护进程 daemon 。
+
+守护进程的名字通常会在最后有一个 d ，表示 daemon 守护的意思，例如 systemd 、httpd 。
+
+**systemd**
+
+systemd 是一个 Linux 系统基础组件的集合，提供了一个系统和服务管理器，运行为 PID 1 并负责启动其它程序。
+
+通过命令也可以看到 PID 为 1 的进程就是 systemd 的系统进程。
+
+systemd 常用命令（它是一组命令的集合）：
+
+```
+systemctl start nginx # 启动服务
+systemctl stop nginx # 停止服务
+systemctl restart nginx # 重启服务
+systemctl status nginx # 查看服务状态
+systemctl reload nginx # 重载配置文件(不停止服务的情况)
+systemctl enable nginx # 开机自动启动服务
+systemctl disable nginx # 开机不自动启动服务
+systemctl is-enabled nginx # 查看服务是否开机自动启动
+systemctl list-unit-files --type=service # 查看各个级别下服务的启动和禁用情况
+```
+
+**文件压缩解压**
+
+- **打包**：是将多个文件变成一个总的文件，它的学名叫存档、归档。
+- **压缩**：是将一个大文件（通常指归档）压缩变成一个小文件。
+
+> 我们常常使用 tar 将多个文件归档为一个总的文件，称为 archive 。然后用 gzip 或 bzip2 命令将 archive 压缩为更小的文件。
