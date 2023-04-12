@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-12T07:30:47.661Z
+date: 2023-04-12T07:30:49.441Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
