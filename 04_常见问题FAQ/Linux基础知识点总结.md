@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-11T09:39:09.801Z
+date: 2023-04-12T07:29:27.013Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -777,4 +777,33 @@ wc name.txt # 统计name.txt
 
 **基础语法**
 
+```
+uniq name.txt # 去除name.txt重复的行数，并打印到屏幕上
+uniq name.txt uniq_name.txt # 把去除重复后的文件保存为 uniq_name.txt
+```
 
+【**注意**】它只能去除连续重复的行数。
+
+**常用参数**
+
+- `-c`统计重复行数， `uniq -c name.txt`；
+- `-d`只显示重复的行数，`uniq -d name.txt`。
+
+**cut**
+
+剪切文件的一部分内容。
+
+**基础语法**
+
+```
+cut -c 2-4 name.txt # 剪切每一行第二到第四个字符
+```
+
+**常用参数**
+
+- `-d`用于指定用什么分隔符（比如逗号、分号、双引号等等）`cut -d , name.txt`；
+- `-f`表示剪切下用分隔符分割的哪一块或哪几块区域，`cut -d , -f 1 name.txt`。
+
+**重定向 管道 流**
+
+在 Linux 中一个命令的去向可以有 3 个地方：终端、文件、作为另外一个命令的入参。
