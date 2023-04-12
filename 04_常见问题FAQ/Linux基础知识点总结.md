@@ -2,7 +2,7 @@
 title: Linux基础知识点总结
 description: 
 published: true
-date: 2023-04-12T07:29:45.466Z
+date: 2023-04-12T07:29:51.519Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-11T06:48:35.493Z
@@ -815,3 +815,5 @@ cut -c 2-4 name.txt # 剪切每一行第二到第四个字符
 - 标准输入`stdin`，终端接收键盘输入的命令，会产生两种输出；
 - 标准输出`stdout`，终端输出的信息（不包含错误信息）；
 - 标准错误输出`stderr` ，终端输出的错误信息。
+
+![2023-4-12_19644.png](/2023-4-12_19644.png)
