@@ -2,7 +2,7 @@
 title: 我的deepin变形记
 description: 要阅读最新版本请访问原帖。
 published: true
-date: 2023-04-15T03:38:33.219Z
+date: 2023-04-15T03:38:45.469Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-10T13:57:40.533Z
