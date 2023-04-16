@@ -2,13 +2,13 @@
 title: 我的deepin变形记
 description: 要阅读最新版本请访问原帖。
 published: true
-date: 2023-04-15T03:38:45.469Z
+date: 2023-04-15T03:41:27.477Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-10T13:57:40.533Z
 ---
 
-> 本文原作者：[木一明](https://bbs.deepin.org/user/160805)，原文链接：[https://bbs.deepin.org/post/228568](https://bbs.deepin.org/post/228568)
+> 本文原作者：[木一明](https://bbs.deepin.org/user/160805)，原文链接：[https://bbs.deepin.org/post/228568](https://bbs.deepin.org/post/228568) {.is-info}
 
 > 当前使用的正式版本：deepin 20.8
 > 
@@ -58,7 +58,7 @@ deepin系统ISO下载，使用官方网站给出的各种下载途径即可：[�
 
 如果有操作系统安装经验的朋友，可以选择刻录光盘，或者制作u盘启动盘的方式。
 
-官方提供了windows操作系统和Linux操作系统，两个平台下的刻录工具：[深度启动盘制作工具]([https://www.deepin.org/zh/original/deepin-boot-maker](view-source:https://www.deepin.org/zh/original/deepin-boot-maker))
+官方提供了windows操作系统和Linux操作系统，两个平台下的刻录工具：[深度启动盘制作工具](https://www.deepin.org/zh/original/deepin-boot-maker)
 
 然后在自己的PC上，设置BIOS，从U盘启动即可。
 
@@ -102,7 +102,7 @@ deepin系统ISO下载，使用官方网站给出的各种下载途径即可：[�
 
 > 需要注意：如果比较新的物理机，可能是uefi引导方式，需要分配efi分区。进行efi的分区操作很简单，就是在给boot分区配置之前，选择文件系统为efi，大小也是默认即可。不进行efi分区，会提示你分区。这个时候如果已经分好区，点击最下面的“修改引导器”后面的删除操作。
 
-![image.png]([https://storage.deepin.org/thread/202111291118024972_image.png](view-source:https://storage.deepin.org/thread/202111291118024972_image.png))
+![image.png](https://storage.deepin.org/thread/202111291118024972_image.png)
 
 ![image.png]([https://storage.deepin.org/thread/202111291118435170_image.png](view-source:https://storage.deepin.org/thread/202111291118435170_image.png))
 
