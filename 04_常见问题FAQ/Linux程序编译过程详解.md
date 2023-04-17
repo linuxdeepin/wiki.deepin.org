@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2023-04-17T05:29:56.376Z
+date: 2023-04-17T05:30:28.768Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T01:50:57.596Z
@@ -206,3 +206,74 @@ ELF文件格式如下图所示，位于ELF Header和Section Header Table之间�
 - .data：已初始化的C程序全局变量和静态局部变量。
 - .bss：未初始化的C程序全局变量和静态局部变量。
 - .debug：调试符号表，调试器用此段的信息帮助调试。
+
+![2023-4-17_27781.png](/2023-4-17_27781.png)
+
+可以使用readelf -S查看其各个section的信息如下：
+
+```
+$ readelf -S hello
+There are 31 section headers, starting at offset 0x19d8:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+……
+  [11] .init             PROGBITS         00000000004003c8  000003c8
+       000000000000001a  0000000000000000  AX       0     0     4
+……
+  [14] .text             PROGBITS         0000000000400430  00000430
+       0000000000000182  0000000000000000  AX       0     0     16
+  [15] .fini             PROGBITS         00000000004005b4  000005b4
+……
+```
+
+### 2.反汇编ELF
+
+由于ELF文件无法被当做普通文本文件打开，如果希望直接查看一个ELF文件包含的指令和数据，需要使用反汇编的方法。
+
+使用objdump -D对其进行反汇编如下：
+
+```
+$ objdump -D hello
+……
+0000000000400526 <main>:  // main标签的PC地址
+//PC地址：指令编码                  指令的汇编格式
+  400526:    55                          push   %rbp 
+  400527:    48 89 e5                mov    %rsp,%rbp
+  40052a:    bf c4 05 40 00          mov    $0x4005c4,%edi
+  40052f:    e8 cc fe ff ff          callq  400400 <puts@plt>
+  400534:    b8 00 00 00 00          mov    $0x0,%eax
+  400539:    5d                      pop    %rbp
+  40053a:    c3                          retq   
+  40053b:    0f 1f 44 00 00          nopl   0x0(%rax,%rax,1)
+……
+```
+
+使用objdump -S将其反汇编并且将其C语言源代码混合显示出来：
+
+```
+$ gcc -o hello -g hello.c //要加上-g选项
+$ objdump -S hello
+……
+0000000000400526 <main>:
+#include <stdio.h>
+
+int
+main(void)
+{
+  400526:    55                          push   %rbp
+  400527:    48 89 e5                mov    %rsp,%rbp
+  printf("Hello World!" "\n");
+  40052a:    bf c4 05 40 00          mov    $0x4005c4,%edi
+  40052f:    e8 cc fe ff ff          callq  400400 <puts@plt>
+  return 0;
+  400534:    b8 00 00 00 00          mov    $0x0,%eax
+}
+  400539:    5d                          pop    %rbp
+  40053a:    c3                          retq   
+  40053b:    0f 1f 44 00 00          nopl   0x0(%rax,%rax,1)
+……
+```
