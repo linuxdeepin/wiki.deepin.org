@@ -2,7 +2,7 @@
 title: Linux程序编译过程详解
 description: 
 published: true
-date: 2023-04-17T05:29:23.170Z
+date: 2023-04-17T05:29:35.945Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-17T01:50:57.596Z
@@ -19,3 +19,4 @@ dateCreated: 2023-04-17T01:50:57.596Z
 - 汇编（Assembly）
 - 链接（Linking）
 
+![2023-4-17_15193.png](/2023-4-17_15193.png)
