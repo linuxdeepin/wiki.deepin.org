@@ -2,7 +2,7 @@
 title: Linux防火墙配置iptables和firewalld
 description: 
 published: true
-date: 2023-03-27T03:27:15.696Z
+date: 2023-03-27T03:27:17.127Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-27T02:31:18.131Z

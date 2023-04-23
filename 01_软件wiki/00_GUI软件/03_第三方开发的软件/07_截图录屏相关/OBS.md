@@ -2,7 +2,7 @@
 title: OBS Studio
 description: 一个优秀的开源免费的录屏以及直播串流软件
 published: true
-date: 2023-02-22T09:10:45.538Z
+date: 2023-02-24T02:37:20.047Z
 tags: 工具
 editor: markdown
 dateCreated: 2022-07-13T12:55:20.959Z

@@ -2,7 +2,7 @@
 title: SimpleScreenRecorder
 description: 
 published: true
-date: 2023-02-22T08:58:13.139Z
+date: 2023-02-24T02:37:31.731Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:51.930Z

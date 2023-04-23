@@ -2,7 +2,7 @@
 title: 如何在deepin下使用EasyX库
 description: EasyX库是一个C++的简单图形库
 published: true
-date: 2023-03-09T02:46:58.511Z
+date: 2023-03-09T02:47:00.044Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-09T02:38:47.384Z

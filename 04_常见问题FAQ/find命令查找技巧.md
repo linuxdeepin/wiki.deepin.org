@@ -2,7 +2,7 @@
 title: find命令查找技巧
 description: 
 published: true
-date: 2023-03-16T05:38:44.881Z
+date: 2023-03-16T05:38:46.342Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T05:38:44.881Z

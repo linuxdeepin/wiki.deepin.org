@@ -2,7 +2,7 @@
 title: 如何在deepin下部署MySQL服务
 description: 
 published: true
-date: 2023-03-12T15:18:00.969Z
+date: 2023-03-12T15:18:02.419Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-12T15:15:21.588Z

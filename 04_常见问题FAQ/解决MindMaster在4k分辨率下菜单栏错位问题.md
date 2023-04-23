@@ -2,7 +2,7 @@
 title: 解决MindMaster在4k分辨率下菜单栏错位问题
 description: 
 published: true
-date: 2023-03-01T13:53:17.848Z
+date: 2023-03-01T13:53:19.268Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T13:52:51.214Z

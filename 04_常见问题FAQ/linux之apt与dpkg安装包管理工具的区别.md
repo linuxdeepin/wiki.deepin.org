@@ -2,7 +2,7 @@
 title: Linux之apt与dpkg安装包管理工具的区别
 description: apt 与 dpkg 均为 ubuntu 下面的包管理工具。 dpkg 侧重于本地软件的管理。 apt 基于dpkg，侧重于远程包的下载和依赖管理，相当于 dpkg 的前端。
 published: true
-date: 2023-03-06T23:01:52.494Z
+date: 2023-03-06T23:01:53.878Z
 tags: apt
 editor: markdown
 dateCreated: 2023-03-06T02:23:36.690Z

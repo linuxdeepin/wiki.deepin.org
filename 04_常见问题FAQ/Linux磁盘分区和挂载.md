@@ -2,7 +2,7 @@
 title: Linux 磁盘分区和挂载
 description: 
 published: true
-date: 2023-03-15T06:04:20.781Z
+date: 2023-03-15T06:06:08.492Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T05:45:24.062Z
@@ -180,6 +180,70 @@ lsblk -f
 
 > 添加完成后执行**mount -a 或 reboot** 即可生效
 
+```
+[root@kongchao03 /]*# vim /etc/fstab* 
+[root@kongchao03 /]*# mount -a*
+```
+
+![2023-3-15_74584.png](/2023-3-15_74584.png)
+
+df -h 查询磁盘使用情况
+
+```
+[root@kongchao03 ~]# df -h
+文件系统        容量  已用  可用 已用% 挂载点
+/dev/sda2        17G  5.8G   11G   37% /
+devtmpfs        978M     0  978M    0% /dev
+tmpfs           993M     0  993M    0% /dev/shm
+tmpfs           993M  9.0M  984M    1% /run
+tmpfs           993M     0  993M    0% /sys/fs/cgroup
+/dev/sdb1       991M  2.6M  922M    1% /newdisk
+/dev/sda1       991M  128M  797M   14% /boot
+tmpfs           199M   20K  199M    1% /run/user/0
+/dev/sr0        730M  730M     0  100% /run/media/root/20210907_143734
+[root@kongchao03 ~]#
+```
+
+![2023-3-15_53444.png](/2023-3-15_53444.png)
+
+**du -h 查询指定目录磁盘占用情况**
+
+> 指令：du [参数]  / 目录 (查询指定目录的磁盘占用情况，默认为当前目录)
+
+参数选项：
+
+| 参数          | 含义                       |
+| ------------- | -------------------------- |
+| -s            | 指定目录占用大小汇总       |
+| -h            | 带计量单位                 |
+| -a            | 含文件                     |
+| --max-depth=1 | 子目录的深度               |
+| -c            | 列出明细的同时，增加汇总值 |
+
+> 参数可以联合使用示例：查询 / opt 目录的磁盘占用情况，深度为 1
+
+```
+[root@kongchao03 /]# cd /opt
+[root@kongchao03 opt]# ls
+rh
+[root@kongchao03 opt]# du -h --max-depth=1 /opt
+4.0K /opt/rh
+8.0K /opt
+[root@kongchao03 opt]#
+```
+
+![2023-3-15_97153.png](/2023-3-15_97153.png)
+
+**参数联合起来使用:**
+
+```
+[root@kongchao03 opt]# du -hac --max-depth=1 /opt
+4.0K /opt/rh
+8.0K /opt
+8.0K 总用量
+```
+
+![2023-3-15_13397.png](/2023-3-15_13397.png)
 
 
 
