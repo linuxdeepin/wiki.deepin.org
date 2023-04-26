@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-04-26T01:21:48.764Z
+date: 2023-04-26T01:22:46.801Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -120,6 +120,11 @@ obs构建产物获取:
 **四、软件包集成**
 
 通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。示例[Repository-Integration/pull/72](https://github.com/deepin-community/Repository-Integration/pull/72)
+
+> 该工作流暂时迁移至 https://github.com/peeweep-test/Repository-Integration
+{.is-warning}
+
+
 集成步骤：
 1. 在[Repository-Integration](https://github.com/deepin-community/Repository-Integration) 提交PR
 
