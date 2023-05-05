@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2023-05-05T06:24:52.806Z
+date: 2023-05-05T06:56:33.754Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -19,7 +19,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
 
 ## 社区 ISO 仓库
 
-诚挚感谢以下高校、开源社区和公司为深度操作系统提供镜像服务! 
+诚挚感谢以下高校、开源社区和公司为深度操作系统提供镜像服务! *（灰色标记的仓库是检查存在问题的仓库，我们会进行处理，请尽量不要使用。）*
 
 <table>
   <tbody>
@@ -309,7 +309,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td>CEDIA</td>
       <td><a href="http://mirror.cedia.org.ec/deepin-cd">http</a></td>
       <td><a href="ftp://mirror.cedia.org.ec/deepin-cd">ftp</a></td>
-      <td><a href="https://www.deepin.org/zh/mirrors/releases/deepin">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -331,7 +331,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td><a href="http://mirrors.ircam.fr/pub/deepin-cd/">http</a></td>
       <td><a href="https://mirrors.ircam.fr/pub/deepin-cd/">https</a></td>
       <td><a href="ftp://mirrors.ircam.fr/pub/deepin/">ftp</a></td>
-      <td><a href="https://mirrors.ircam.fr/pub/deepin/">rsync</a></td>
+      <td></td>
     </tr>
     <tr>
       <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231998Germany.jpg"> 德国</td>
@@ -358,7 +358,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td>GWDG</td>
       <td><a href="http://ftp.gwdg.de/pub/linux/linuxdeepin/releases/">http</a></td>
       <td><a href="ftp://ftp.gwdg.de/pub/linux/linuxdeepin/releases/">ftp</a></td>
-      <td><a href="https://ftp.gwdg.de/pub/linux/linuxdeepin/">rsync</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -778,4 +778,3 @@ dateCreated: 2022-05-08T13:15:59.655Z
 - 请您不要在深度操作系统镜像源相关的目录中存放其他文件（例如非官方的软件包），以避免造成误会；
 - 如果您有任何建议和意见，请反馈至[support@deepin.com](mailto:support@deepin.com)。
 - 可以到 [wiki:镜像源](https://wiki.deepin.org/zh/镜像源) 添加或提交仓库
-- 标记灰色的仓库是检查出存在问题的仓库，我们会进行处理，请尽量不要使用。
