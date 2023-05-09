@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-04-26T01:22:46.801Z
+date: 2023-04-26T01:27:17.698Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -11,6 +11,10 @@ dateCreated: 2022-11-09T11:47:20.254Z
 一、**仓库创建申请**
 
 deepin-community/SIG 项目下修改[repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml)文件，以PR形式提交需创建的仓库，merge后会自动创建对应仓库，请联系具有deepin-community组织[owner](https://github.com/orgs/deepin-community/people?query=role%3Aowner)权限成员审核，创建的仓库会默认添加工作流，一次新增的仓库建议不超过10个。示例 [deepin-community/SIG/pull/68](https://github.com/deepin-community/SIG/pull/68/commits/5c8688b32c8e9ed71615bbb37279fd5c32482f97)
+
+> 该工作流暂时迁移至 https://github.com/peeweep-test/SIG
+{.is-warning}
+
 
 [repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml) 文件字段定义：
 
