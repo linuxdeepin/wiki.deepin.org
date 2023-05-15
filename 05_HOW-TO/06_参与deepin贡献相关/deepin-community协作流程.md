@@ -2,33 +2,26 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-05-09T01:19:22.878Z
+date: 2023-05-15T06:03:47.354Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
 ---
 
-一、**仓库创建申请**
+# 一、仓库创建申请
 
-deepin-community/SIG 项目下修改[repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml)文件，以PR形式提交需创建的仓库，merge后会自动创建对应仓库，请联系具有deepin-community组织[owner](https://github.com/orgs/deepin-community/people?query=role%3Aowner)权限成员审核，创建的仓库会默认添加工作流，一次新增的仓库建议不超过10个。示例 [deepin-community/SIG/pull/68](https://github.com/deepin-community/SIG/pull/68/commits/5c8688b32c8e9ed71615bbb37279fd5c32482f97)
-
-
-
+在 [deepin-community/SIG](https://github.com/deepin-community/SIG) 项目下修改 [repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml) 文件，以 PR 形式提交需创建的仓库，merge 后会自动创建对应仓库。请联系具有 deepin-community 组织 [owner](https://github.com/orgs/deepin-community/people?query=role%3Aowner) 权限成员审核，创建的仓库会默认添加工作流，一次新增的仓库建议不超过10个。示例 [deepin-community/SIG/pull/68](https://github.com/deepin-community/SIG/pull/68/commits/5c8688b32c8e9ed71615bbb37279fd5c32482f97)
 
 [repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml) 文件字段定义：
 
-repo： 仓库名称
-
-group:  所属sig组
-
-info： 项目描述
+- repo： 仓库名称
+- group： 所属sig组
+- info： 项目描述
 
 
+# 二、代码提交
 
-
-**二、代码提交**
-
-1. 从deepin-comunity fork 项目到个人账户下
+1. 从 deepin-comunity fork 项目到个人账户下
 2. 从个人账户下clone项目到本地
 3. 添加upstream相关信息
 4. 提交PR
@@ -37,48 +30,55 @@ info： 项目描述
 6. commit构建的产物存放在ci develop仓库中
    [仓库说明](https://wiki.deepin.org/zh/03_%E6%8A%80%E6%9C%AF%E8%A7%84%E8%8C%83/00_%E8%BD%AF%E4%BB%B6%E5%8C%85%E4%B8%8E%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86%E8%A7%84%E8%8C%83/%E4%BB%93%E5%BA%93%E8%AF%B4%E6%98%8E)
 
-**三、 CI/CD**
+# 三、 CI/CD
 
-1. backup-to-gitlab
-   仓库同步工作流，同步至内网gitlab
----
+## backup-to-gitlab
 
+仓库同步工作流，同步至内网gitlab
 
-~~2. call-build-deb (替换)
-   软件包构建工作流，提交PR时触发包构建检查~~
-2. obs
-	.obs/workflows.yml 文件替换 build-deb。将推送文件内容类似 .obs/workflows.yml@deepin-community/template-repository。
+## ~~call-build-deb~~ (已废弃，被 obs 取代)
+
+~~软件包构建工作流，提交PR时触发包构建检查~~
+
+## obs
+
+.obs/workflows.yml 文件替换 build-deb。将推送文件内容类似 .obs/workflows.yml@deepin-community/template-repository。
   
 该文件中定义了三种OBS工作流：
-- 	1). test_build
-- 		pr的检查构建，提交pr时触发该工作流，在OBS创建出新的Project，在该Project下进行构建。
-- 	2). tag_build
-- 		打tag后的Unstable构建，当新的tag创建后，在 deepin:Unstable:{xxx} 下创建对应 {repo}-{tag} 的 Package。
-- 	3). commit_build
-- 		commit合入后的commit仓库更新，pr合入后，更新 develop 仓库的 Package 的代码。
 
-	推送工作流后的构建将由 OBS 接管，在 GitHub 当 pr 创建后，OBS工作流将被触发，成功触发 OBS 工作流后，OBS 将会创建类似下面的状态。
+1. **test_build**
+   pr的检查构建，提交pr时触发该工作流，在OBS创建出新的Project，在该Project下进行构建。
+2. **tag_build**
+   打tag后的Unstable构建，当新的tag创建后，在 deepin:Unstable:{xxx} 下创建对应 {repo}-{tag} 的 Package。
+3. **commit_build**
+   commit合入后的commit仓库更新，pr合入后，更新 develop 仓库的 Package 的代码。
+
+推送工作流后的构建将由 OBS 接管，在 GitHub 当 pr 创建后，OBS工作流将被触发，成功触发 OBS 工作流后，OBS 将会创建类似下面的状态。
   ![2023-2-14_9914.png](/2023-2-14_9914.png)
   
-  此时可在 OBS 查看构建进度和构建日志。等待构建结束时，对应仓库的构建结果将会返回到 pr 。点击 Details 可直接跳转到 OBS 界面查看构建详情。
+此时可在 OBS 查看构建进度和构建日志。等待构建结束时，对应仓库的构建结果将会返回到 pr 。点击 Details 可直接跳转到 OBS 界面查看构建详情。
   ![2023-2-14_38923.png](/2023-2-14_38923.png)
-  三个状态从上到下分别为：
-		1). OBS 工作流的状态。
-		2). 工作流文件(.obs/workflows.yml)中定义的 deepin_develop 的 aarch64 架构构建。
-		2). 工作流文件(.obs/workflows.yml)中定义的 deepin_develop 的 x86_64 架构构建。
+三个状态从上到下分别为：
 
-		当上面所有的状态都返回到 GitHub 时说明构建没有问题，缺少任何一个都代表构建出现问题或未完成。
-		构建日志大家可在 https://build.deepin.com 查询。在 All Projects 中找到 deepin:CI 开头加上自己 PR 信息的 Project。比如 deepin:CI:deepin-community:inltool-debian:PR-1，如果使用了 topic（feat: add topic · linuxdeepin/open-build-service@2702a73，由 wineee 提供该patch）将会是 deepin:CI:topic:{topic}，topic 触发机制与之前保持一致，并且使用相同 topic 的仓库都会在该 Project 下。
+1. OBS 工作流的状态。
+2. 工作流文件(.obs/workflows.yml)中定义的 deepin_develop 的 aarch64 架构构建。
+3. 工作流文件(.obs/workflows.yml)中定义的 deepin_develop 的 x86_64 架构构建。
+
+当上面所有的状态都返回到 GitHub 时说明构建没有问题，缺少任何一个都代表构建出现问题或未完成。
+
+构建日志大家可在 https://build.deepin.com 查询。在 All Projects 中找到 deepin:CI 开头加上自己 PR 信息的 Project。比如 deepin:CI:deepin-community:inltool-debian:PR-1，如果使用了 topic（feat: add topic · linuxdeepin/open-build-service@2702a73，由 wineee 提供该patch）将会是 deepin:CI:topic:{topic}，topic 触发机制与之前保持一致，并且使用相同 topic 的仓库都会在该 Project 下。
+
   1). All Projects 界面找到 deepin:CI:deepin-community:intltool-debian:PR-1
   ![2023-2-14_63282.png](/2023-2-14_63282.png)
   2). 点开 deepin:CI:deepin-community:intltool-debian:PR-1 后的界面，此处未使用 topic，所以只有 intltool-debian 一个 Package。如果使用topic，相同 topic 的 pr 会在同一个Project下，此处会有多个 Package，构建顺序会由 OBS 根据依赖情况进行调整。
 ![2023-2-14_52534.png](/2023-2-14_52534.png)
 
 小规模使用OBS工作流的 pr 有:
-	1). Import Debian version 5.20230130 by hudeng-go · Pull Request #1 · deepin-community/dh-python (github.com)
-	2). init: init stow by tsic404 · Pull Request #1 · deepin-community/stow (github.com)
-	3). init: init intltool-debain by tsic404 · Pull Request #1 · deepin-community/intltool-debian (github.com)
-	4). feat: init by xzl01 · Pull Request #1 · deepin-community/neofetch (github.com)
+
+1. Import Debian version 5.20230130 by hudeng-go · Pull Request #1 · deepin-community/dh-python (github.com)
+2. init: init stow by tsic404 · Pull Request #1 · deepin-community/stow (github.com)
+3. init: init intltool-debain by tsic404 · Pull Request #1 · deepin-community/intltool-debian (github.com)
+4. feat: init by xzl01 · Pull Request #1 · deepin-community/neofetch (github.com)
   
 想了解关于 OBS 更多的使用请参考[OBS用户手册](https://openbuildservice.org/help/manuals/obs-user-guide/)
 
@@ -96,35 +96,28 @@ obs构建产物获取:
 
 ![2023-2-14_95424.png](/2023-2-14_95424.png)
   
----
+## call-auto-tag
 
-  
-
-3. call-auto-tag
-   tag创建工作流，PR修改debian/changelog时将deb版本号自动创建成Tag，:会被替换成% ~会被替换成_ ，DISTRIBUTION为UNRELEASED时不会触发tag的创建
----
+tag创建工作流，PR修改debian/changelog时将deb版本号自动创建成Tag，:会被替换成% ~会被替换成_ ，DISTRIBUTION为UNRELEASED时不会触发tag的创建
 
 
-4. call-build-tag
-   tag创建完成后自动触发构建任务，构建完成的deb会合入unstable仓库，一次性引入多个包时需注意将其依赖通过Tag创建工作流合入unstable仓库以免后续依赖包无法构建，仓库地址说明请参见[仓库流转规范](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/04_%E4%BB%93%E5%BA%93/%E4%BB%93%E5%BA%93%E6%B5%81%E8%BD%AC%E8%A7%84%E8%8C%83) 
+## call-build-tag
 
----
-
-5. call-chatOps
-   权限管控，Pull Request 机器人.
----
+tag创建完成后自动触发构建任务，构建完成的deb会合入unstable仓库，一次性引入多个包时需注意将其依赖通过Tag创建工作流合入unstable仓库以免后续依赖包无法构建，仓库地址说明请参见[仓库流转规范](https://wiki.deepin.org/zh/01_deepin%E9%85%8D%E5%A5%97%E7%94%9F%E6%80%81/01_deepin%E5%85%A5%E9%97%A8/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/04_%E4%BB%93%E5%BA%93/%E4%BB%93%E5%BA%93%E6%B5%81%E8%BD%AC%E8%A7%84%E8%8C%83) 
 
 
-6. call-clacheck
-   cla检查，验证开发者是否签署cla，同时这也是提交PR必须签署的协议
----
+## call-chatOps
+
+权限管控，Pull Request 机器人.
+
+## call-clacheck
+
+CLA 检查，验证开发者是否签署 CLA，同时这也是提交 PR 必须签署的协议。（注：deepin-community 下的上游软件包维护仓库大多不需要签署 CLA）
 
 
-**四、软件包集成**
+# 四、软件包集成
 
 通过软件包更新流程将软件包提交testing仓库，测试团队定期验证testing仓库状态，持续修复问题待到符合发布标准后定期合入主仓库发布。详情请参见仓库流转规范。示例[Repository-Integration/pull/72](https://github.com/deepin-community/Repository-Integration/pull/72)
-
-
 
 
 集成步骤：
