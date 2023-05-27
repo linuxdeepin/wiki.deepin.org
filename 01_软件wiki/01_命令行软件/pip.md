@@ -1,14 +1,12 @@
 ---
 title: Pip
-description: pip
+description: Python包管理工具
 published: true
-date: 2023-02-22T13:30:03.507Z
+date: 2023-05-27T11:00:12.841Z
 tags: python
 editor: markdown
 dateCreated: 2022-05-05T10:08:37.502Z
 ---
-
-# Pip
 
 ## 简介
 
