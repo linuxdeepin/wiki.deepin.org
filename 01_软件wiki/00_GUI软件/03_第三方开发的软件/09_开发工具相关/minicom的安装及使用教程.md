@@ -1,12 +1,16 @@
 ---
-title: minicom的安装及使用教程
+title: minicom
 description: 
 published: true
-date: 2023-02-22T09:01:31.048Z
+date: 2023-05-28T13:55:00.350Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:50:36.421Z
 ---
+
+> 本经验由深度论坛用户(z0218)分享
+> [原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=134861)
+{.is-info}
 
 # 简介
 minicom 是一个串口通信工具，就像 Windows 下的超级终端。可用来与串口设备通信，如调试交换机和 Modem 等
@@ -117,12 +121,6 @@ Change which setting? （改变这些设置）然后选中‖Save setup as dfl�
 “Z”键：帮助屏幕
 
 “B”键：滚动返回
-
-
-## 来源
-本经验由深度论坛用户(z0218)分享
-
-[原文地址](https://bbs.deepin.org/forum.php?mod=viewthread&tid=134861)
 
 ## 相关信息
 Minicom Advanced Systems 是一家 Intel 创投公司（Intel CapitalPortfolio），是针对带外服务器管理领域的数字和模拟KVM解决方案领商。另外，Minicom 同时也是针对数字告示领域的音视频和串口信号分配系统主导厂商。
