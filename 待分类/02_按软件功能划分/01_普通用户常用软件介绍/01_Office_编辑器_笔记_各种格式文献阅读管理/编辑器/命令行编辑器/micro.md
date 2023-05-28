@@ -2,7 +2,7 @@
 title: Micro-Editor
 description: 一个用go语言开发的优秀的终端编辑器
 published: true
-date: 2023-02-22T09:08:07.872Z
+date: 2023-05-28T14:05:43.738Z
 tags: editor
 editor: markdown
 dateCreated: 2022-06-28T00:18:47.152Z
