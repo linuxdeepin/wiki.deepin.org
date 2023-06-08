@@ -2,7 +2,7 @@
 title: topic仓库机制说明
 description: 仓库
 published: true
-date: 2023-02-22T09:13:12.352Z
+date: 2023-06-08T03:06:34.474Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-15T08:19:12.095Z
@@ -31,13 +31,13 @@ dateCreated: 2022-09-15T08:19:12.095Z
 5. 构建通过后的deb包自动推送到topic仓库中
 
 ```plain
-仓库地址：https://ci.deepin.com/repo/topics/beige/ #合并之后自动在ci仓库下创建grep-test的仓库
+仓库地址：https://ci.deepin.com/repo/obs/deepin:/CI%3A/topics%3A/ #合并之后自动在ci仓库下创建grep-test的仓库
 ```
 
 6. 仓库使用方式
 
 ```plain
-echo "deb [trusted=yes] https://ci.deepin.com/repo/topics/beige/grep-test/ unstable main
+echo "deb [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/CI%3A/topics%3A/devscript/deepin_develop/ ./
 " >> /etc/apt/source.list
 ```
 
