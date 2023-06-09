@@ -2,7 +2,7 @@
 title: 统信UOS助手（Android）
 description: 介绍统信UOS助手（Android）的使用
 published: true
-date: 2023-06-09T01:34:09.074Z
+date: 2023-06-09T02:00:21.460Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-08T03:10:29.547Z
@@ -39,5 +39,9 @@ dateCreated: 2023-06-08T03:10:29.547Z
 
 7. 开启“仅充电模式下允许ADB调试”，点击“确定”，USB调试开启成功
 ![2023-6-9_42706.png](/2023-6-9_42706.png)
+
+#### 示例：Xiaomi 设备 Android 10.x及以上
+1. 进入手机“设置”
+![2023-6-9_29407.png](/2023-6-9_29407.png)
 
 
