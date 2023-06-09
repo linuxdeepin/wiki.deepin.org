@@ -2,7 +2,7 @@
 title: 统信UOS助手（Android）
 description: 介绍统信UOS助手（Android）的使用
 published: true
-date: 2023-06-09T01:05:22.790Z
+date: 2023-06-09T01:07:05.561Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-08T03:10:29.547Z
@@ -28,6 +28,8 @@ dateCreated: 2023-06-08T03:10:29.547Z
 3. 连续点击 “版本号” 7 - 10 次，开启开发者选项
 ![2023-6-9_97257.png](/2023-6-9_97257.png)
 
+4. 回到最后一页，找到 “系统和更新”
+![2023-6-9_86180.png](/2023-6-9_86180.png)
 
 
 
