@@ -2,7 +2,7 @@
 title: 统信UOS助手（Android）
 description: 介绍统信UOS助手（Android）的使用
 published: true
-date: 2023-06-09T02:11:20.924Z
+date: 2023-06-09T02:19:22.087Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-08T03:10:29.547Z
@@ -52,4 +52,7 @@ dateCreated: 2023-06-08T03:10:29.547Z
 
 4. 连续点击“MIUI 版本” 7-10次，打开开发者选项
 ![2023-6-9_37496.png](/2023-6-9_37496.png)
+
+5. 回到上一页，找到“更多设置”
+![2023-6-9_16036.png](/2023-6-9_16036.png)
 
