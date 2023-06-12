@@ -2,7 +2,7 @@
 title: 统信UOS助手（Android）
 description: 介绍统信UOS助手（Android）的使用
 published: true
-date: 2023-06-12T02:11:21.047Z
+date: 2023-06-12T02:23:02.809Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-08T03:10:29.547Z
@@ -125,5 +125,6 @@ dateCreated: 2023-06-08T03:10:29.547Z
 ![2023-6-12_90657.png](/2023-6-12_90657.png)
 
 ### 手机与电脑互连
-开启上述设置后，使用 USB数据线与电脑端进行互连
+1. 开启上述设置后，使用 USB数据线与电脑端进行互连
+2. 手机与电脑系统端须要在同一个网段
 
