@@ -2,7 +2,7 @@
 title: 统信UOS助手（Android）
 description: 介绍统信UOS助手（Android）的使用
 published: true
-date: 2023-06-12T02:08:52.089Z
+date: 2023-06-12T02:11:21.047Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-08T03:10:29.547Z
@@ -123,3 +123,7 @@ dateCreated: 2023-06-08T03:10:29.547Z
 #### 文件管理权限
 可以在PC端向投射屏幕拖拽文件实现向手机传输文件，文件将保存在“/内部存储/TongXinUos”文件夹。但在Android11版本及以上，需要用户授权应用获得“文件管理”权限，否则此功能失效。
 ![2023-6-12_90657.png](/2023-6-12_90657.png)
+
+### 手机与电脑互连
+开启上述设置后，使用 USB数据线与电脑端进行互连
+
