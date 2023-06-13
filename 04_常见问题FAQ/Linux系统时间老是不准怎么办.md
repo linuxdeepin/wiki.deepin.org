@@ -2,13 +2,12 @@
 title: Linux系统时间老是不准怎么办
 description: 
 published: true
-date: 2023-06-13T01:37:13.146Z
+date: 2023-06-13T01:37:27.881Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-13T01:37:13.146Z
 ---
 
-- - 
 
 ### 一、使用 NTP 服务时间同步
 
