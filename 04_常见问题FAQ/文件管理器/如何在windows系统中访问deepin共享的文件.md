@@ -2,7 +2,7 @@
 title: 如何在windows系统中访问deepin中共享的文件
 description: 在windows系统中访问deepin中共享的文件的方法之一
 published: true
-date: 2023-06-14T06:10:12.914Z
+date: 2023-06-14T06:12:11.789Z
 tags: deepin, windows, 共享文件
 editor: markdown
 dateCreated: 2023-06-14T03:04:41.045Z
@@ -19,7 +19,7 @@ dateCreated: 2023-06-14T03:04:41.045Z
 Ctrl+Alt+T快捷方式打开终端，输入命令：ifconfig，查看ip，如下图：
 ![截图_deepin-terminal_20230614105652.jpg](/for_trans/共享文件/截图_deepin-terminal_20230614105652.jpg)
 ### 三、windows系统中查看deepin共享的文件
-使用快捷键win+r唤出运行窗口，输入`\\+deepin系统的ip`，如下：
+使用快捷键win+r唤出运行窗口，输入`\\+deepin系统的ip`，如下图：
 ![wine_r.jpg](/for_trans/共享文件/wine_r.jpg)
-回车后，输入用户名和密码即可查看deepin系统中共享的文件：
+回车后，输入用户名和密码即可查看deepin系统中共享的文件，如下图：
 ![ip.jpg](/for_trans/共享文件/ip.jpg)
