@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:34:33.171Z
+date: 2023-06-14T08:35:13.053Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -67,3 +67,8 @@ iptables -t nat -A PREROUTING -p tcp -m tcp --dport 6080 -j DNAT --to-destinatio
 ```
 
 ### 实验：将部署在内网的服务映射到外网
+
+### 实验环境
+
+1. VMWare Workstation Pro
+2. 5 台最小化安装的 centos 7 虚拟机
