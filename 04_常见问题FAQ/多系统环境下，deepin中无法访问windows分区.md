@@ -2,7 +2,7 @@
 title: 多系统环境下，deepin中无法访问windows分区
 description: 多系统环境下，deepin系统中无法访问windows系统中文件，无权限创建文件和文件夹
 published: true
-date: 2023-06-14T09:36:31.666Z
+date: 2023-06-14T09:36:44.408Z
 tags: 多系统, 快速启动
 editor: markdown
 dateCreated: 2023-06-14T09:30:25.801Z
