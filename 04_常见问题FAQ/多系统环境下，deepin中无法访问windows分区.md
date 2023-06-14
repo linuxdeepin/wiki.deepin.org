@@ -2,7 +2,7 @@
 title: 多系统环境下，deepin中无法访问windows分区
 description: 多系统环境下，deepin系统中无法访问windows系统中文件，无权限创建文件和文件夹
 published: true
-date: 2023-06-14T09:37:38.606Z
+date: 2023-06-14T09:52:38.970Z
 tags: 多系统, 快速启动
 editor: markdown
 dateCreated: 2023-06-14T09:30:25.801Z
@@ -13,7 +13,7 @@ dateCreated: 2023-06-14T09:30:25.801Z
 
 
 ### 一、问题背景
-论坛中多个用户反馈出现deepin下访问Windows系统盘时文件上锁，无法在windows分区创建文件或文件夹的情况：
+论坛中多位用户反馈出现deepin下访问Windows系统盘时文件上锁，无法在windows分区创建文件或文件夹的情况：
 [https://bbs.deepin.org/post/255976](https://bbs.deepin.org/post/255976)
 [https://bbs.deepin.org/post/243993](https://bbs.deepin.org/post/243993)
 [https://bbs.deepin.org/post/240619](https://bbs.deepin.org/post/240619)
