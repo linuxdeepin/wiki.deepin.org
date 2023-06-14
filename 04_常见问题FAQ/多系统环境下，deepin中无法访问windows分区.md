@@ -2,7 +2,7 @@
 title: 多系统环境下，deepin中无法访问windows分区
 description: 多系统环境下，deepin系统中无法访问windows系统中文件，无权限创建文件和文件夹
 published: true
-date: 2023-06-14T09:37:02.887Z
+date: 2023-06-14T09:37:24.098Z
 tags: 多系统, 快速启动
 editor: markdown
 dateCreated: 2023-06-14T09:30:25.801Z
@@ -25,11 +25,15 @@ dateCreated: 2023-06-14T09:30:25.801Z
 部分用户的问题可通过在windows系统中关闭“快速启动”的方式，来获取访问windows分区的权限。
 windows系统中使用win+x，弹出常用菜单，选择“电源选项”：
 ![1.jpg](/for_trans/快速启动/1.jpg)
+
 在设置-电源和睡眠界面选择“其它电源设置”项：
 ![2.jpg](/for_trans/快速启动/2.jpg)
+
 通过“电源按钮的功能”项进入系统设置界面：
 ![3.jpg](/for_trans/快速启动/3.jpg)
+
 通过“更改当前不可用的设置”项，取消“快速启动”设置：
 ![4.jpg](/for_trans/快速启动/4.jpg)
+
 保存修改后关机，开机后进入deepin系统，即可在deepin系统中向windows系统分区写入数据：
 ![写数据.jpg](/for_trans/快速启动/写数据.jpg)
