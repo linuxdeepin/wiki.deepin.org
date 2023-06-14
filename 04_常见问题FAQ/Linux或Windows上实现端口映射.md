@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:41:03.529Z
+date: 2023-06-14T08:42:46.938Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -175,3 +175,27 @@ curl http://172.16.2.11:8080/index.html
 | :-------- | :------------- | :------------ | :------- | :------- |
 | Ethernet0 | 192.168.50.105 | 255.255.255.0 | -        | 内网网卡 |
 | Ethernet1 | 172.16.2.105   | 255.255.255.0 | -        | 外网网卡 |
+
+![2023-6-14_58346.png](/2023-6-14_58346.png)
+
+
+
+
+**配置并查看端口映射情况**
+
+```
+netsh interface portproxy add v4tov4 listenaddress=172.16.2.105 listenport=8081 connectaddress=192.168.50.11 connectport=8080
+netsh interface portproxy add v4tov4 listenaddress=172.16.2.105 listenport=8082 connectaddress=192.168.50.12 connectport=8080
+netsh interface portproxy show v4tov4
+```
+
+**检查效果**
+
+在`client`节点上
+
+```
+curl http://172.16.2.105:8081/index.html
+curl http://172.16.2.105:8082/index.html
+curl http://172.16.2.11:8080/index.html
+```
+
