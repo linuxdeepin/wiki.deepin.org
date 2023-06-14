@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:35:32.849Z
+date: 2023-06-14T08:35:50.866Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -73,6 +73,17 @@ iptables -t nat -A PREROUTING -p tcp -m tcp --dport 6080 -j DNAT --to-destinatio
 1. VMWare Workstation Pro
 2. 5 台最小化安装的 centos 7 虚拟机
 
-实验拓扑
+### 实验拓扑
+
+**内网**和**外网**是相对`Server4`来说的。
+`Server1`和`Server2`为内网环境的两台服务器；
+`Server3`为外网环境下的一台服务器；
+`Server4`为一台双网卡主机，分别连接`192.168.50.0/24`和`172.16.2.0/24`两个网络。
+
+### 配置实验环境
+
+#### 1. Server1,2,3 上搭建 HTTP 服务
+
+用 Python 在`Server1`上搭建一个简单的 HTTP 服务
 
 ![2023-6-14_96149.png](/2023-6-14_96149.png)
