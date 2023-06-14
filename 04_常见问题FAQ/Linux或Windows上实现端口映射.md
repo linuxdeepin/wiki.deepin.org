@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:37:17.263Z
+date: 2023-06-14T08:39:50.444Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -86,17 +86,13 @@ iptables -t nat -A PREROUTING -p tcp -m tcp --dport 6080 -j DNAT --to-destinatio
 
 用 Python 在`Server1`上搭建一个简单的 HTTP 服务
 
-![2023-6-14_96149.png](/2023-6-14_96149.png)
-
-用 Python 在`Server1`上搭建一个简单的 HTTP 服务
+![2023-6-14_95539.png](/2023-6-14_95539.png)
 
 ```
 cd ~
 echo "server1" > index.html
 python -m SimpleHTTPServer 8080
 ```
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9aPYe0E1fb0OtXb4EYicMSkhMSkMlibiaBZj4h87b3ZZJXyq3YAEYnh5Zib0cIney2Sh1Goec6wF4OEK5XSfCOg8kw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 `Server2、Server3`同理
 
