@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:42:46.938Z
+date: 2023-06-14T08:43:24.005Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -198,4 +198,6 @@ curl http://172.16.2.105:8081/index.html
 curl http://172.16.2.105:8082/index.html
 curl http://172.16.2.11:8080/index.html
 ```
+
+![2023-6-14_88632.png](/2023-6-14_88632.png)
 
