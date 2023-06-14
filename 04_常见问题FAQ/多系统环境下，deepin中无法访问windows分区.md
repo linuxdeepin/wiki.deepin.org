@@ -2,13 +2,15 @@
 title: 多系统环境下，deepin中无法访问windows分区
 description: 多系统环境下，deepin系统中无法访问windows系统中文件，无权限创建文件和文件夹
 published: true
-date: 2023-06-14T09:37:24.098Z
+date: 2023-06-14T09:37:38.606Z
 tags: 多系统, 快速启动
 editor: markdown
 dateCreated: 2023-06-14T09:30:25.801Z
 ---
 
 # 因windows系统开启快速启动，导致deepin中无法访问windows分区
+
+
 
 ### 一、问题背景
 论坛中多个用户反馈出现deepin下访问Windows系统盘时文件上锁，无法在windows分区创建文件或文件夹的情况：
@@ -17,8 +19,11 @@ dateCreated: 2023-06-14T09:30:25.801Z
 [https://bbs.deepin.org/post/240619](https://bbs.deepin.org/post/240619)
 
 
+
 ### 二、问题原因
 有关开启“快速启动”导致deepin中无法访问windows分区的原因，请教过研发同学，回复说：可能在快速启动模式下，关机时windows会将硬盘分区写保护，所以再次进入linux后，也就无法向这些分区写入数据了。
+
+
 
 
 ### 三、解决方法-windows关闭快速启动
