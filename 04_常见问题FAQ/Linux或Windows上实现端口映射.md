@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:40:52.847Z
+date: 2023-06-14T08:41:03.529Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -165,7 +165,7 @@ curl http://172.16.2.100:8082/index.html
 curl http://172.16.2.11:8080/index.html
 ```
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/9aPYe0E1fb0OtXb4EYicMSkhMSkMlibiaBZJymBPZD6iayLRbLGYpHJsgPaTgoSE1a8bBNibhuxK6XMQ2Jm3rwFC9pA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![2023-6-14_89039.png](/2023-6-14_89039.png)
 
 ### 如果`Server4`为 Windows，替换一下相应的命令即可
 
