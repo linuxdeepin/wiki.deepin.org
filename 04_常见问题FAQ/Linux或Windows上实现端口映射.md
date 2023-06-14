@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:39:50.444Z
+date: 2023-06-14T08:40:52.847Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -128,4 +128,50 @@ curl http://172.16.2.11:8080/index.html
 
 **临时配置**
 
+```
+#允许数据包转发
+echo 1 >/proc/sys/net/ipv4/ip_forward
+iptables -t nat -A POSTROUTING -j MASQUERADE
+iptables -A FORWARD -i ens33 -j ACCEPT
+iptables -t nat -A POSTROUTING -s 192.168.50.0/24 -o ens37 -j MASQUERADE
+#设置端口映射
+iptables -t nat -A PREROUTING -p tcp -m tcp --dport 8081 -j DNAT --to-destination 192.168.50.11:8080
+iptables -t nat -A PREROUTING -p tcp -m tcp --dport 8082 -j DNAT --to-destination 192.168.50.12:8080
+```
 
+**永久配置**
+
+> 如果需要永久配置，则将以上命令追加到`/etc/rc.local`文件。
+
+### 检查效果
+
+在`client`上访问 Server1 的资源
+
+```
+curl http://172.16.2.100:8081/index.html
+```
+
+在`client`上访问`Server2`的资源
+
+```
+curl http://172.16.2.100:8082/index.html
+```
+
+![2023-6-14_55046.png](/2023-6-14_55046.png)
+
+在`client`上访问`Server3`的资源
+
+```
+curl http://172.16.2.11:8080/index.html
+```
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/9aPYe0E1fb0OtXb4EYicMSkhMSkMlibiaBZJymBPZD6iayLRbLGYpHJsgPaTgoSE1a8bBNibhuxK6XMQ2Jm3rwFC9pA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+### 如果`Server4`为 Windows，替换一下相应的命令即可
+
+**Windows 的 IP 信息如下**
+
+| 网卡      | IP 地址        | 子网掩码      | 默认网关 | 备注     |
+| :-------- | :------------- | :------------ | :------- | :------- |
+| Ethernet0 | 192.168.50.105 | 255.255.255.0 | -        | 内网网卡 |
+| Ethernet1 | 172.16.2.105   | 255.255.255.0 | -        | 外网网卡 |
