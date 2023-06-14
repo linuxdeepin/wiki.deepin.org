@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:36:19.248Z
+date: 2023-06-14T08:37:17.263Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -87,5 +87,49 @@ iptables -t nat -A PREROUTING -p tcp -m tcp --dport 6080 -j DNAT --to-destinatio
 用 Python 在`Server1`上搭建一个简单的 HTTP 服务
 
 ![2023-6-14_96149.png](/2023-6-14_96149.png)
+
+用 Python 在`Server1`上搭建一个简单的 HTTP 服务
+
+```
+cd ~
+echo "server1" > index.html
+python -m SimpleHTTPServer 8080
+```
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/9aPYe0E1fb0OtXb4EYicMSkhMSkMlibiaBZj4h87b3ZZJXyq3YAEYnh5Zib0cIney2Sh1Goec6wF4OEK5XSfCOg8kw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+`Server2、Server3`同理
+
+### 对照实验
+
+在`client`上访问`Server1`的资源
+
+```
+curl http://192.168.50.11:8080/index.html
+```
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/9aPYe0E1fb0OtXb4EYicMSkhMSkMlibiaBZXlGrqqS19zRWXt59A5oI3VibOOINbviaZr35yFD3OgHpdTcjlPfK4m0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在`client`上访问`Server2`的资源
+
+```
+curl http://192.168.50.12:8080/index.htm
+```
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/9aPYe0E1fb0OtXb4EYicMSkhMSkMlibiaBZ9rpqNXjkRkAgWfEIpoPll0OHqNUwyhTa3nx2WIZxaK2YwxCYN0FsKg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在`client`上访问`Server3`的资源
+
+```
+curl http://172.16.2.11:8080/index.html
+```
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/9aPYe0E1fb0OtXb4EYicMSkhMSkMlibiaBZhaZh8GlYGY5wpp5ic4Yj9MdG9AqF8TSbI3aB05r4euZN5R8CgFKBZgg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+> 可以看到，外网的`client`是无法访问内网`Server1`,`Server2`的资源的。
+
+### **在**`Server4`**上配置端口映射**
+
+**临时配置**
 
 
