@@ -2,7 +2,7 @@
 title: Linux或Windows上实现端口映射
 description: 
 published: true
-date: 2023-06-14T08:35:13.053Z
+date: 2023-06-14T08:35:32.849Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-14T08:33:55.386Z
@@ -72,3 +72,7 @@ iptables -t nat -A PREROUTING -p tcp -m tcp --dport 6080 -j DNAT --to-destinatio
 
 1. VMWare Workstation Pro
 2. 5 台最小化安装的 centos 7 虚拟机
+
+实验拓扑
+
+![2023-6-14_96149.png](/2023-6-14_96149.png)
