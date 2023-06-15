@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-05-16T02:22:47.515Z
+date: 2023-06-15T02:09:28.252Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -17,6 +17,7 @@ dateCreated: 2022-11-09T11:47:20.254Z
 - repo： 仓库名称
 - group： 所属sig组
 - info： 项目描述
+- #main: 创建的项目归属什么组件 默认为community，当前有main community dde三个组件可选
 
 
 # 二、代码提交
