@@ -2,7 +2,7 @@
 title: 600条Linux命令总结
 description: 
 published: true
-date: 2023-06-19T02:11:26.509Z
+date: 2023-06-19T02:11:27.853Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-19T02:10:38.288Z
