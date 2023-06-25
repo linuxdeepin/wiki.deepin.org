@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-06-25T07:47:55.771Z
+date: 2023-06-25T08:55:44.221Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -14,7 +14,7 @@ dateCreated: 2022-11-09T11:47:20.254Z
 
 [repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml) 文件字段定义：
 
-- repo： 仓库名称  
+- repo： 仓库名称 (仓库名称应该是软件包的源码名称，而不知二进制包名)
 - group： 所属sig组
 - info： 项目描述
 - #main: 创建的项目归属什么组件 默认为community，当前有main community dde三个组件可选
