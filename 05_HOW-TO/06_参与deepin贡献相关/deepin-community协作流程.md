@@ -2,7 +2,7 @@
 title: deepin-community协作指南
 description: 协作指南
 published: true
-date: 2023-06-25T08:55:44.221Z
+date: 2023-06-29T03:29:14.247Z
 tags: 开发者贡献
 editor: markdown
 dateCreated: 2022-11-09T11:47:20.254Z
@@ -10,9 +10,9 @@ dateCreated: 2022-11-09T11:47:20.254Z
 
 # 一、仓库创建申请
 
-在 [deepin-community/SIG](https://github.com/deepin-community/SIG) 项目下修改 [repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml) 文件，以 PR 形式提交需创建的仓库，merge 后会自动创建对应仓库。请联系具有 deepin-community 组织 [owner](https://github.com/orgs/deepin-community/people?query=role%3Aowner) 权限成员审核，创建的仓库会默认添加工作流，一次新增的仓库建议不超过10个。示例 [deepin-community/SIG/pull/68](https://github.com/deepin-community/SIG/pull/68/commits/5c8688b32c8e9ed71615bbb37279fd5c32482f97)
+在 [deepin-community/Repository-Manager](https://github.com/deepin-community/Repository-Manager) 项目下修改 [repos.yml](https://github.com/deepin-community/Repository-Manager/blob/master/repos.yml) 文件，以 PR 形式提交需创建的仓库，merge 后会自动创建对应仓库。请联系具有 deepin-community 组织 [owner](https://github.com/orgs/deepin-community/people?query=role%3Aowner) 权限成员审核，创建的仓库会默认添加工作流，一次新增的仓库建议不超过10个。示例 [deepin-community/SIG/pull/68](https://github.com/deepin-community/SIG/pull/68/commits/5c8688b32c8e9ed71615bbb37279fd5c32482f97)
 
-[repos.yml](https://github.com/deepin-community/SIG/blob/master/repos.yml) 文件字段定义：
+[repos.yml](https://github.com/deepin-community/Repository-Manager/blob/master/repos.yml) 文件字段定义：
 
 - repo： 仓库名称 (仓库名称应该是软件包的源码名称，而不知二进制包名)
 - group： 所属sig组
