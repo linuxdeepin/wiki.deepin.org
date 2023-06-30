@@ -2,7 +2,7 @@
 title: 适配wsl的deepin根文件系统的配置和使用
 description: 本文简述了适配windows中wsl的deepin根文件系统的环境搭建及基本使用
 published: true
-date: 2023-06-30T08:58:46.233Z
+date: 2023-06-30T09:06:46.475Z
 tags: deepin, wsl, 根文件系统
 editor: markdown
 dateCreated: 2023-06-30T08:58:46.233Z
@@ -103,7 +103,7 @@ dateCreated: 2023-06-30T08:58:46.233Z
      安装相册：`sudo apt install deepin-album`
      启用应用：`deepin-album`
    
-   - 深度画板 （启用后无法通过图形界面关闭）
+   - 深度画板 （启用后无法使用）
      安装画板：`sudo apt install deepin-draw`
      启用画板：`deepin-draw`
    
