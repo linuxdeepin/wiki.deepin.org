@@ -2,7 +2,7 @@
 title: 适配wsl的deepin根文件系统的配置和使用
 description: 本文简述了适配windows中wsl的deepin根文件系统的环境搭建及基本使用
 published: true
-date: 2023-07-03T09:01:33.134Z
+date: 2023-07-03T09:04:24.989Z
 tags: deepin, wsl, 根文件系统
 editor: markdown
 dateCreated: 2023-06-30T08:58:46.233Z
@@ -37,7 +37,7 @@ dateCreated: 2023-06-30T08:58:46.233Z
    - 设置密码：`passwd deepin`，密码不会在终端中显示，需重复输入；
    
    - 添加deepin用户到sudo用户组：`usermod -aG sudo deepin`。
-     ![cdf90c9f-00c3-4072-b9ba-49d201b4c9a5](file:///C:/Users/86186/Pictures/Typedown/cdf90c9f-00c3-4072-b9ba-49d201b4c9a5.png)
+    ![1_3.png](/for_trans/wsl/1_3.png)
    
    - 将deepin设置为wsl的默认用户：`./deepin.exe config --default-user deepin`，验证方式：windows命令行提示符中输入wsl，启用deepin根文件系统进入deepin用户目录下。
 
