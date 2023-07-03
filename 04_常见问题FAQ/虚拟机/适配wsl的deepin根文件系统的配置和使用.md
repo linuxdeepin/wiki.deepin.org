@@ -2,7 +2,7 @@
 title: 适配wsl的deepin根文件系统的配置和使用
 description: 本文简述了适配windows中wsl的deepin根文件系统的环境搭建及基本使用
 published: true
-date: 2023-06-30T09:06:46.475Z
+date: 2023-07-03T07:50:27.652Z
 tags: deepin, wsl, 根文件系统
 editor: markdown
 dateCreated: 2023-06-30T08:58:46.233Z
@@ -61,7 +61,7 @@ dateCreated: 2023-06-30T08:58:46.233Z
 8. 配置语言环境
    默认语言环境是英文，使用命令`sudo dpkg-reconfigure locales`进行修改。需回车三次，输入312，对应的选项zh_CN.UTF-8。再次输入3，对应选项zh_CN.UTF-8。参考步骤7走重启wsl后生效。
 
-## 根文件系统相关应用
+## 相关应用
 
 1. 使用自研应用前需安装以下包，重启wsl后尝试使用deepin应用。
    ```sudo apt install fonts-noto-cjk dde-qt5integration dde-qt5wayland-plugin```
@@ -72,7 +72,7 @@ dateCreated: 2023-06-30T08:58:46.233Z
    
    - dde-qt5wayland-plugin：Qt5 模块，它提供了一些插件和库，用于在 Wayland 上运行或创建 Qt 应用程序。
 
-2. 自研应用
+2. 自研应用的安装和使用
    
    - 深度终端
      安装deepin-terminal：`sudo apt install deepin-terminal`
