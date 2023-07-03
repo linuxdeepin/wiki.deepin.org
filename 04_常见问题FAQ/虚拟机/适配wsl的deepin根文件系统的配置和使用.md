@@ -2,7 +2,7 @@
 title: 适配wsl的deepin根文件系统的配置和使用
 description: 本文简述了适配windows中wsl的deepin根文件系统的环境搭建及基本使用
 published: true
-date: 2023-07-03T07:50:27.652Z
+date: 2023-07-03T09:01:33.134Z
 tags: deepin, wsl, 根文件系统
 editor: markdown
 dateCreated: 2023-06-30T08:58:46.233Z
@@ -30,7 +30,7 @@ dateCreated: 2023-06-30T08:58:46.233Z
    ```
    ![1_2.png](/for_trans/wsl/1_2.png)
 
-6. 添加用户
+6. 添加用户(非必要项)
    
    - 创建一个deepin帐户，设置默认shell为bash：`useradd -m deepin -s /usr/bin/bash`；
    
@@ -41,7 +41,7 @@ dateCreated: 2023-06-30T08:58:46.233Z
    
    - 将deepin设置为wsl的默认用户：`./deepin.exe config --default-user deepin`，验证方式：windows命令行提示符中输入wsl，启用deepin根文件系统进入deepin用户目录下。
 
-7. 开启systemd支持
+7. 开启systemd支持（建议开启）
    
    ```
    cat >> /etc/wsl.conf << EOF
@@ -58,10 +58,10 @@ dateCreated: 2023-06-30T08:58:46.233Z
    
    - 启用wsl:`wsl -d deepin`
 
-8. 配置语言环境
+8. 配置语言环境（非必要项）
    默认语言环境是英文，使用命令`sudo dpkg-reconfigure locales`进行修改。需回车三次，输入312，对应的选项zh_CN.UTF-8。再次输入3，对应选项zh_CN.UTF-8。参考步骤7走重启wsl后生效。
 
-## 相关应用
+## wsl中deepin根文件系统的使用
 
 1. 使用自研应用前需安装以下包，重启wsl后尝试使用deepin应用。
    ```sudo apt install fonts-noto-cjk dde-qt5integration dde-qt5wayland-plugin```
