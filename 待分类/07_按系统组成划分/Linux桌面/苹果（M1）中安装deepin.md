@@ -2,7 +2,7 @@
 title: 苹果（M1）中安装deepin
 description: 本文介绍苹果（M1）中安装deepin
 published: true
-date: 2023-07-05T05:43:58.956Z
+date: 2023-07-05T05:45:20.742Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-05T05:30:20.180Z
@@ -81,5 +81,22 @@ curl https://ci.deepin.com/repo/deepin/deepin-ports/deepin-m1/deepin.install | s
 2. 跟着脚本走就是了
     
 ## 使用deepin 23 for (M1)安装盘
+这里所说的deepin安装盘可**不是给通常机器安装使用的iso镜像盘。**只需要在U盘上**创建一个FAT分区**并**将安装内容写入根目录**即可。
+
+具体步骤如下：
+
+- 创建安装盘
+
+  - 按照m1-debian的介绍，运行一下命令创建分区。
+```
+# 替换成你U盘的对应设备
+DEVICE=/dev/sdX
+sudo parted -a optimal $DEVICE mklabel msdos
+sudo parted -a optimal $DEVICE mkpart primary fat32 2048s 100%
+sudo mkfs.vfat ${DEVICE}1
+sudo mount ${DEVICE}1 /mnt
+```
+在[这里](https://ci.deepin.com/repo/deepin/deepin-ports/deepin-m1/deepin-m1-usb-installer.zip)下载安装盘压缩包，并解压到**U盘FAT分区**的**根目录**。
+
 
 
