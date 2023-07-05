@@ -2,7 +2,7 @@
 title: 苹果（M1）中安装deepin
 description: 本文介绍苹果（M1）中安装deepin
 published: true
-date: 2023-07-05T05:51:46.705Z
+date: 2023-07-05T05:52:39.753Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-05T05:30:20.180Z
@@ -141,7 +141,11 @@ base包的话，大概需要安装dde-session-ui, deepin-desktop-environment-cor
 
 [wipe-linux.sh](/wipe-linux.sh)
 
+## 问题
+我重启之后，local policy update的时候没跑完就忽然黑屏重启了？
+参考https://asahilinux.org/2022/03/asahi-linux-alpha-release/#how-do-i-uninstall-it . 简单来说，你需要在recoveryOS或者禁用SIP的情况下，跑官方的cleanbp.sh脚本去清启动策略．
 
+recoveryOS呼出terminal方法：shift+win+t (普通en_US键盘)
 
 
 
