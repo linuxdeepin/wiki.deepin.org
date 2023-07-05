@@ -2,7 +2,7 @@
 title: 苹果（M1）中安装deepin
 description: 本文介绍苹果（M1）中安装deepin
 published: true
-date: 2023-07-05T05:46:00.891Z
+date: 2023-07-05T05:51:46.705Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-05T05:30:20.180Z
@@ -99,6 +99,49 @@ sudo mount ${DEVICE}1 /mnt
 在[这里](https://ci.deepin.com/repo/deepin/deepin-ports/deepin-m1/deepin-m1-usb-installer.zip)下载安装盘压缩包，并解压到**U盘FAT分区**的**根目录**。
 在Mac上安装m1n1+uboot引导。(Asahi Linux官方安装脚本选第三项UEFI environment only, m1n1+uboot+esp)
 ```curl https://alx.sh/ | sh ```
+- 像上面脚本一样，跟着脚本走，安装引导系统并设置默认启动项。
+
+- 像正常安装一样，插入U盘并开机。如果没识别U盘，在U-Boot界面跑usb reset命令刷新一下。
+
+- 进行安装时，请选择**自定义安装，并选择空闲磁盘空间进行安装**。
+**(!!!请不要选择全盘安装模式或高级安装。这样会导致抹除原来的MacOS系统和引导，使机器变砖，只能线刷救回。!!!)**
+
+## DDE桌面移植进展
+当前打包脚本会生成deepin-desktop.zip，预装桌面环境的rootfs包．
+
+base包的话，大概需要安装dde-session-ui, deepin-desktop-environment-core, deepin-desktop-environment-base, dde-session-shell, libssl-dev　(libssl的打包有问题，没有提供libssl.so，需要修)
+
+当前默认用户hiweed，密码为1
+
+(从deepin-base包安装桌面环境时，可能可以使用声音，但重启之后失效。)
+
+同时，当前桌面环境存在以下已知问题：
+
+- 系统GPU加速无法使用，可能导致一些应用发生异常。例如，Chromium无法正常启动。
+- 系统无法识别任何声音设备，导致无声音播放功能。只有小概率下，刚安装完成时才会有声音。
+- USB安装方式只能使用自定义安装，不能动任何已有分区。否则机器会变砖。
+- 如果长时间不动鼠标，会导致其被休眠而无法使用。这个时候需要点击鼠标按键才能重新使用。
+- 重启后桌面无壁纸
+- 插入网线，显示网线未接入
+- 没有休眠功能
+- 引导界面按键盘无响应
+- 时间显示错误，没有同步时间
+- 没有蓝牙模块，且蓝牙不可用
+- 系统版本为 beta,但是控制中心出现更新 beta版本的发布日志更新
+- 应用商店中无应用
+- 修改亮度无效果
+- 调节色温无效果
+- 深度之家标题栏错位重叠
+- 无线网络未识别，无法使用
+- 文件管理器中无法挂载其他操作系统的分区
+- 桌面异常卡死
+
+## 卸载 deepin 系统
+可以使用[脚本](https://github.com/AsahiLinux/asahi-installer/blob/main/tools/wipe-linux.sh）
+
+[wipe-linux.sh](/wipe-linux.sh)
+
+
 
 
 
