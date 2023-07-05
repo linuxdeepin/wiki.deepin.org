@@ -2,7 +2,7 @@
 title: 苹果（M1）中安装deepin
 description: 本文介绍苹果（M1）中安装deepin
 published: true
-date: 2023-07-05T05:53:55.282Z
+date: 2023-07-05T05:54:11.061Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-05T05:30:20.180Z
@@ -137,7 +137,7 @@ base包的话，大概需要安装dde-session-ui, deepin-desktop-environment-cor
 - 桌面异常卡死
 
 ## 卸载 deepin 系统
-可以使用[脚本](https://github.com/AsahiLinux/asahi-installer/blob/main/tools/wipe-linux.sh)
+可以使用[卸载系统脚本](https://github.com/AsahiLinux/asahi-installer/blob/main/tools/wipe-linux.sh)
 
 [wipe-linux.sh](/wipe-linux.sh)
 
