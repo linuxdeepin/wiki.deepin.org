@@ -2,7 +2,7 @@
 title: 苹果（M1）中安装deepin
 description: 本文介绍苹果（M1）中安装deepin
 published: true
-date: 2023-07-05T05:42:51.174Z
+date: 2023-07-05T05:43:58.956Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-05T05:30:20.180Z
@@ -80,4 +80,6 @@ curl https://ci.deepin.com/repo/deepin/deepin-ports/deepin-m1/deepin.install | s
 
 2. 跟着脚本走就是了
     
+## 使用deepin 23 for (M1)安装盘
+
 
