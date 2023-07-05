@@ -2,7 +2,7 @@
 title: 苹果（M1）中安装deepin
 description: 本文介绍苹果（M1）中安装deepin
 published: true
-date: 2023-07-05T05:45:20.742Z
+date: 2023-07-05T05:46:00.891Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-05T05:30:20.180Z
@@ -97,6 +97,8 @@ sudo mkfs.vfat ${DEVICE}1
 sudo mount ${DEVICE}1 /mnt
 ```
 在[这里](https://ci.deepin.com/repo/deepin/deepin-ports/deepin-m1/deepin-m1-usb-installer.zip)下载安装盘压缩包，并解压到**U盘FAT分区**的**根目录**。
+在Mac上安装m1n1+uboot引导。(Asahi Linux官方安装脚本选第三项UEFI environment only, m1n1+uboot+esp)
+```curl https://alx.sh/ | sh ```
 
 
 
