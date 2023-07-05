@@ -2,7 +2,7 @@
 title: grep详解
 description: Global search REgular expression and Print out the line.文本搜索工具，根据用户指定的“模式（过滤条件)”对目标文本逐行进行匹配检查，打印匹配到的行.
 published: true
-date: 2023-06-02T02:18:16.632Z
+date: 2023-06-02T02:18:18.020Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-02T02:18:16.632Z

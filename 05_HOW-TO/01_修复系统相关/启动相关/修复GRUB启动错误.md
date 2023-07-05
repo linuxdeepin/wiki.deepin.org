@@ -2,7 +2,7 @@
 title: 修复GRUB启动错误
 description: 
 published: true
-date: 2023-02-22T09:00:05.009Z
+date: 2023-06-02T22:53:54.667Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:46:19.671Z

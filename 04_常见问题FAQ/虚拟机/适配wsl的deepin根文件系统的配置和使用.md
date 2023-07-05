@@ -2,7 +2,7 @@
 title: 适配wsl的deepin根文件系统的配置和使用
 description: 本文简述了适配windows中wsl的deepin根文件系统的环境搭建及基本使用
 published: true
-date: 2023-07-03T09:04:24.989Z
+date: 2023-07-03T09:04:26.543Z
 tags: deepin, wsl, 根文件系统
 editor: markdown
 dateCreated: 2023-06-30T08:58:46.233Z

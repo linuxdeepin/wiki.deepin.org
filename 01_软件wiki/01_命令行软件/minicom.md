@@ -2,7 +2,7 @@
 title: minicom
 description: 
 published: true
-date: 2023-05-28T13:55:00.350Z
+date: 2023-05-28T13:55:01.970Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:50:36.421Z

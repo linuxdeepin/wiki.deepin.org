@@ -2,7 +2,7 @@
 title: linux内核启动参数
 description: 
 published: true
-date: 2023-05-27T11:03:21.367Z
+date: 2023-05-27T11:03:22.817Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-06T02:33:08.477Z

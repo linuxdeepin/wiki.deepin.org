@@ -2,7 +2,7 @@
 title: apt命令前端——nala
 description: 
 published: true
-date: 2023-06-29T03:02:29.393Z
+date: 2023-06-29T03:02:30.767Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-29T03:02:29.393Z

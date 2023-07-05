@@ -2,7 +2,7 @@
 title: Flatpak详细介绍
 description: 
 published: true
-date: 2023-06-02T09:57:58.843Z
+date: 2023-06-02T09:58:00.198Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-02T09:57:58.843Z

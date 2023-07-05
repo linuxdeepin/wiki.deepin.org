@@ -2,7 +2,7 @@
 title: 如何在windows系统中访问deepin中共享的文件
 description: 在windows系统中访问deepin中共享的文件的方法之一
 published: true
-date: 2023-06-14T06:12:11.789Z
+date: 2023-06-14T06:12:13.135Z
 tags: deepin, windows, 共享文件
 editor: markdown
 dateCreated: 2023-06-14T03:04:41.045Z

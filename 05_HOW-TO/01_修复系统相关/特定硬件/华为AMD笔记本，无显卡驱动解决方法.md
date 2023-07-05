@@ -2,7 +2,7 @@
 title: 华为AMD笔记本，无显卡驱动解决方法
 description: 华为AMD笔记本，无显卡驱动解决方法
 published: true
-date: 2023-02-22T09:07:56.971Z
+date: 2023-06-02T23:01:26.858Z
 tags: amd, 显卡
 editor: markdown
 dateCreated: 2022-06-27T07:33:03.524Z

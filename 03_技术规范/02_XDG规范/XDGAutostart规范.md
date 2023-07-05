@@ -2,10 +2,10 @@
 title: XDGAutostart规范
 description: 
 published: true
-date: 2023-04-20T15:16:42.699Z
-tags: freedesktop, dbus
+date: 2023-04-26T05:21:07.422Z
+tags: 
 editor: markdown
-dateCreated: 2023-04-20T15:16:42.699Z
+dateCreated: 2023-04-26T05:21:07.422Z
 ---
 
 # XDGAutostart规范

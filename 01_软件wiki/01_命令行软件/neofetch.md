@@ -2,7 +2,7 @@
 title: neofetch
 description: 系统信息显示工具
 published: true
-date: 2023-05-28T13:42:35.557Z
+date: 2023-05-28T13:42:36.949Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-28T13:40:38.005Z
