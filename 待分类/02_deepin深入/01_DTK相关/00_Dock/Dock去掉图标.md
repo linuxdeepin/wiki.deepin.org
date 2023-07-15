@@ -2,7 +2,7 @@
 title: Dock去掉图标
 description: 
 published: true
-date: 2023-07-15T07:56:03.298Z
+date: 2023-07-15T07:57:34.879Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:33:20.621Z
@@ -20,7 +20,7 @@ dateCreated: 2022-04-21T03:33:20.621Z
   ```
 
 ## 名称对应
--  libdatetime.so---------------> 日期时间
+- libdatetime.so---------------> 日期时间
 - libdde-trash-plugin.so--------->垃圾箱
 - libnetwork.so------------------>网络连接
 - libsound.so--------------------->声音
