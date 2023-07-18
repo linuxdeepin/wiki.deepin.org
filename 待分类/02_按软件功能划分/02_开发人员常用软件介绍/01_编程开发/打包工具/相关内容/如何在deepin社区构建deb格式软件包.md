@@ -2,7 +2,7 @@
 title: 软件包构建
 description: deepin 系统下的deb包构建流程
 published: true
-date: 2023-07-17T13:11:50.196Z
+date: 2023-07-18T04:22:09.999Z
 tags: 构建
 editor: markdown
 dateCreated: 2022-09-15T07:54:11.300Z
@@ -16,7 +16,7 @@ dateCreated: 2022-09-15T07:54:11.300Z
 Deepin软件包是采用deb格式的软件包，遵循了dpkg包格式与标准。Dpkg的构建标准中规定了一个包的标准格式，一个包是由一个源码包和一个或多个二进制包组成：
 源码包中包含了上游源代码，包构建所需要的配置文件，软件包安装、编译的控制文件，版权和许可证信息等；
 二进制包中包含可执行文件，标准配置文件，运行可执行文件需要的其他文件、资源、数据等。
-软件包构建的目标就是将解压缩的源码进行编译，然后将编译好的配置文件、二进制命令文件等放到合适的位置，生成deb二进制包。软件包必须符合 dpkg构建规范才可以被软件包归档所接受。手动构建.deb不是从源码包构建的二进制包将不被接受，这是为了保持一致性和可重复性。
+软件包构建的目标就是将解压缩的源码进行编译，然后将编译好的配置文件、二进制命令文件等放到合适的位置，生成deb二进制包。软件包必须符合dpkg构建规范才可以被软件包归档所接受。手动构建.deb不是从源码包构建的二进制包将不被接受，这是为了保持一致性和可重复性。
 
 ### 2、文件说明
         本章节主要是介绍软件包相关的文件。
@@ -61,7 +61,7 @@ $ wget  https://github.com/linuxdeepin/deepin-music/archive/refs/tags/6.2.17.tar
 ```
 $ rm  -r  deepin-music/debian  
 ```
-&ensp;debian目录文件可以手动添加修改，但是手动创建太慢，而dh-make则为我们提供了工具可以自动生成debian目录以及相关文件，我们只需要对生成的文件进行修改。dh_ make是一种将常规源代码包转换为根据Debian策略要求格式化的源代码包的工具。dh_make必须在包含源代码的目录中调用，该目录必须命名为`<packagename>-<version>`。
+&ensp;debian目录文件可以手动添加修改，但是手动创建太慢，而dh-make则为我们提供了工具可以自动生成debian目录以及相关文件，我们只需要对生成的文件进行修改。dh_make是一种将常规源代码包转换为根据Debian策略要求格式化的源代码包的工具。dh_make必须在包含源代码的目录中调用，该目录必须命名为`<packagename>-<version>`。
 首先更改源码目录名称，将源码的版本号带入源码名称中：
 ```
 $ mv deepin-music   deepin-music-6.2.17
@@ -130,7 +130,9 @@ deepin-music (6.2.17-1) unstable; urgency=medium
 DEBEMAIL="your.email.address@example.org"
 DEBFULLNAME="Firstname Lastname"
 export DEBEMAIL DEBFULLNAME
+```
 修改后的文件如下：
+```
 deepin-music (6.2.17-1) unstable; urgency=medium
 
   * 同步上游代码:
