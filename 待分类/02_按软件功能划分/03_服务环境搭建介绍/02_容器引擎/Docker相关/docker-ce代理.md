@@ -2,7 +2,7 @@
 title: docker-ce代理
 description: 
 published: true
-date: 2023-07-18T12:46:39.753Z
+date: 2023-07-19T06:39:57.139Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T12:46:39.753Z
@@ -111,7 +111,7 @@ docker build .
 
 通过上述方法，您可以在Docker中设置代理，以便在网络请求中使用代理服务器。这对于在受限网络环境下使用Docker非常有用，例如在公司内部网络或代理服务器后使用Docker。
 
-## 参考
+# 参考
 https://note.qidong.name/2020/05/docker-proxy/
 https://docs.docker.com/config/daemon/systemd/
 https://docs.docker.com/network/proxy/
