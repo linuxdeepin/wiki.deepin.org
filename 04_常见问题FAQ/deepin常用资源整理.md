@@ -2,20 +2,21 @@
 title: deepin 常用资源整理 · V4.1.4
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-07-04T13:54:39.557Z
+date: 2023-07-21T06:58:26.555Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
 ---
 
 > 本文创建于2021-05-15，当前版本发布于2023-03-07。
-> [PossibleVing](https://bbs.deepin.org/user/225373) 接手继续维护本文，感谢 [pzm9012](https://bbs.deepin.org/user/217969) 发起本文及曾经的默默付出。
-> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VuePress 页面](https://pzm9012.github.io/doc/deepin-src-col/sec-0) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) {.is-info}
+> 此项目由 [pzm9012](https://bbs.deepin.org/user/217969) 发起，当前维护者还有 [PossibleVing](https://bbs.deepin.org/user/225373)、[hanzn-zzx](https://bbs.deepin.org/zh/user/284017)。
+> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) [访问此文档gitlab镜像页面](https://deepincol.gitlab.io) {.is-info}
 
 ![qq截图20221101145721.png](/qq截图20221101145721.png)
 在这里我整理了一些有帮助的资源，帮助大家更快捷地找到需要的内容。<br />感谢所有提供了资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
-> 部分资料来源于互联网，仅供学习交流使用，版权归原作者所有，若涉及侵权请联系我删除；
-> 解决方案仅供参考，**有效性详询发布者或可自行验证，请以实际操作为准**。{.is-info}
+
+部分资料来源于互联网，仅供学习交流使用，版权归原作者所有，若涉及侵权请联系我删除；
+解决方案仅供参考，**有效性详询发布者或可自行验证，请以实际操作为准**。{.is-info}
 
 <a name="p7K4Z"></a>
 ## 💡提示
