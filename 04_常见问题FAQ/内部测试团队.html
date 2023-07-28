@@ -1,0 +1,40 @@
+<!--
+title: su 和 sudo 的区别
+description: 在 Linux 系统中，有两个常用的命令用于切换用户身份和执行特权操作，它们分别是 su 和 sudo。
+published: true
+date: 2023-07-28T03:22:51.232Z
+tags: sudo, su, root命令
+editor: ckeditor
+dateCreated: 2023-07-28T03:22:51.232Z
+-->
+
+<p>在 Linux 系统中，有两个常用的命令用于切换用户身份和执行特权操作，它们分别是&nbsp;su&nbsp;和&nbsp;sudo。这两个常用的命令，用于在需要时提升用户权限。尽管它们都允许用户以超级用户身份执行命令，但它们在使用方式和安全性方面还是存在着一些区别的。</p>
+<h1 style="text-align:justify;"><strong>1. su 命令 </strong>(Switch User)</h1>
+<p>su（切换用户）命令是在 Linux 系统中切换到其他用户身份的命令。通常，它需要超级用户（root）的密码才能切换到其他用户。使用&nbsp;su&nbsp;命令时，用户可以切换到其他用户的账户，并获得该账户的权限。例如，可以使用以下命令切换到超级用户（root）：</p>
+<pre><code class="language-plaintext">su</code></pre>
+<p>在输入密码后，用户将切换到 root 用户，并获得 root 用户的权限。使用 su 切换用户需要输入目标用户的密码。一旦成功切换到目标用户，用户将在新的用户环境中执行命令，这意味着执行的命令将具有目标用户的权限。</p>
+<h1 style="text-align:justify;"><strong>2. sudo 命令 </strong>(Super User Do)</h1>
+<p>sudo（以超级用户身份执行命令）命令是在 Linux 系统中以超级用户（root）的权限执行特定命令的命令。与&nbsp;su&nbsp;命令不同，sudo&nbsp;命令允许普通用户以其自己的密码执行特权操作，而无需知道超级用户的密码。使用&nbsp;sudo&nbsp;命令时，用户需要在命令前加上&nbsp;sudo&nbsp;关键字，并输入自己的密码以确认身份。</p>
+<p>例如，以下命令将以超级用户的权限执行&nbsp;apt-get update&nbsp;命令：</p>
+<pre><code class="language-plaintext">sudo apt-get update</code></pre>
+<p>在输入密码后，用户将获得执行特权操作的权限。使用 sudo 的好处是可以细粒度地控制用户能够执行的命令和特权范围。系统管理员可以通过 sudoers 文件来配置哪些用户可以以何种方式使用 sudo，并指定允许执行的命令列表。</p>
+<h1 style="text-align:justify;"><strong>3. 区别对比</strong></h1>
+<h1 style="text-align:justify;"><strong>3.1 用户身份</strong></h1>
+<p>su&nbsp;命令需要超级用户（root）密码，用户可以切换到其他用户的身份并获得其权限。而&nbsp;sudo&nbsp;命令允许普通用户以其自己的密码执行特权操作。</p>
+<h1 style="text-align:justify;"><strong>3.2 权限范围</strong></h1>
+<p>su&nbsp;命令切换到其他用户后，用户将获得该用户的全部权限。而&nbsp;sudo&nbsp;命令可以通过配置文件（sudoers 文件）控制特权操作的范围，可以精确指定用户可以执行哪些命令以及以哪些用户的身份执行。</p>
+<h1 style="text-align:justify;"><strong>3.3 安全性</strong></h1>
+<p>由于&nbsp;su&nbsp;命令需要共享 root 密码，这可能存在一些安全风险。如果其他人知道 root 密码，他们就可以切换到 root 用户，并拥有完全控制系统的权限。而&nbsp;sudo&nbsp;命令通过使用自己的密码来执行特权操作，可以避免共享 root 密码，提高系统的安全性。</p>
+<h1 style="text-align:justify;"><strong>3.4 记录日志</strong></h1>
+<p>sudo&nbsp;命令会记录每个特权操作的日志，包括执行的命令和执行者的身份。这可以帮助系统管理员进行安全审计和追踪。而&nbsp;su&nbsp;命令没有内置的日志功能，无法追踪用户切换和执行的命令。</p>
+<h1 style="text-align:justify;"><strong>3.5 使用方式</strong></h1>
+<p>su&nbsp;命令可以在命令行中直接输入，然后输入目标用户的密码即可切换用户。而&nbsp;sudo&nbsp;命令需要在命令前加上&nbsp;sudo&nbsp;关键字，然后输入自己的密码确认身份。</p>
+<h1 style="text-align:justify;"><strong>4. 适用场景</strong></h1>
+<p style="text-align:justify;">使用&nbsp;su&nbsp;命令切换用户适用于需要长时间以其他用户身份操作的情况，比如需要在其他用户的环境下执行一系列命令或长时间工作。</p>
+<p style="text-align:justify;">使用&nbsp;sudo&nbsp;命令适用于临时需要执行特权操作的情况，比如安装软件、更新系统或执行重要的系统维护任务。</p>
+<h1 style="text-align:justify;"><strong>5. 结论</strong></h1>
+<p>- sudo 通过限制用户具有特定的特权范围，提供了更细粒度的控制。而 su 则直接切换到目标用户账户，并具有该用户的全部权限。</p>
+<p>- 使用 sudo 时，用户需要输入自己的密码，而在使用 su 时，用户需要输入目标用户的密码。</p>
+<p>- sudo 更适合于执行单个命令或特定任务，而 su 更适合于在切换用户环境下执行多个相关命令。</p>
+<p>总体来说，sudo 和 su 都是非常有用的工具，在管理 Linux 系统时发挥重要作用。在安全性上，sudo 可以提供更好的控制和审计能力，因为它可以在用户和命令之间建立更细粒度的关系。</p>
+<p>无论使用 sudo 还是 su，用户都应该小心谨慎地使用特权操作，以避免意外的系统损坏或安全问题。</p>
