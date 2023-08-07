@@ -1,14 +1,14 @@
 ---
-title: deepin 常用资源整理 · V4.1.4
+title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-07-21T06:58:26.555Z
+date: 2023-07-21T06:59:14.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
 ---
 
-> 本文创建于2021-05-15，当前版本发布于2023-03-07。
+> 本文创建于2021-05-15，当前版本发布于2023-03-07，版本号4.1.4
 > 此项目由 [pzm9012](https://bbs.deepin.org/user/217969) 发起，当前维护者还有 [PossibleVing](https://bbs.deepin.org/user/225373)、[hanzn-zzx](https://bbs.deepin.org/zh/user/284017)。
 > [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) [访问此文档gitlab镜像页面](https://deepincol.gitlab.io) {.is-info}
 
