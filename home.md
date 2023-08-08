@@ -2,7 +2,7 @@
 title: Deepin Wiki - 深度百科
 description: 深度百科旨在成为最终用户和开发人员的扩展文档。
 published: true
-date: 2023-07-03T05:24:57.482Z
+date: 2023-08-08T08:55:53.686Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -40,7 +40,7 @@ deepin(原名Linux Deepin)致力于为全球用户提供美观易用，安全可
 ### **衷心感谢以下社区用户为deepin wiki做出的贡献！（排名不分先后）**
 
 ### Editor组：
-MouseZhang、Stillalive-myj、爱嘤斯坦、shenlan、fengshuo、cvb97、maicss、insidentally、rainyl、babyfeng、xuqi、vivian_me、deepin_xiaoqian、	justforlxz、ThinKinG、冒得先生、iamboyuyang、dengtongxue、dongka、骑着摩托写Bug、花酒锄作田、俺最萌、root、mrcangye、Fredoong、ericneon、大圣开发DSOE、风暴猪猪侠、孤岛悬城、GBwater、吉吉如律令、emo、gfdgd-xi
+MouseZhang、Stillalive-myj、爱嘤斯坦、shenlan、fengshuo、cvb97、maicss、insidentally、rainyl、babyfeng、xuqi、vivian_me、deepin_xiaoqian、	justforlxz、ThinKinG、冒得先生、iamboyuyang、dengtongxue、dongka、骑着摩托写Bug、花酒锄作田、俺最萌、root、mrcangye、Fredoong、ericneon、DSOE1024、风暴猪猪侠、孤岛悬城、GBwater、吉吉如律令、emo、gfdgd-xi
 
 
 ### Desinger组：
