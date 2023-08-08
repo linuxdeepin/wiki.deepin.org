@@ -2,7 +2,7 @@
 title: 小组成员
 description: deepin Wiki 小组成员列表
 published: true
-date: 2023-02-22T09:04:48.533Z
+date: 2023-08-08T07:18:39.133Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-13T01:34:48.549Z
@@ -18,9 +18,9 @@ dateCreated: 2022-06-13T01:34:48.549Z
 | 	HualetWang    | cvb97    | Jason.高升    |  	花酒锄作田   |
 | root    | ericneon    | 	mrcangye    | Fredoong    |
 | 俺最萌    | 风暴猪猪侠    | 	GBwater    | 骑着摩托写Bug    |
-| 	吉吉如律令    | 葑心    | anye7up    | 大圣开发DSOE    |
+| 	吉吉如律令    | 葑心    | anye7up    | DSOE1024    |
 | 也許明天╯    | 	A Linux Fan    | 	linxuan    | 	gfdgd xi    |
-| vivian_me    | 	jayther2020    | 	空木蓮華    | 156******05    |
+| vivian_me    | 	jayther2020    | 	空木蓮華    | 156\*\*\*\*\*\*05    |
 | babyfengfjx    | dengtongxue    | 	white777    | 	myml    |
 |  	ThinKinG   | xuqi    | 	zeno    | deepin_xiaoqian    |
 | 	也許明天╯    | tsic    | 	    |     |
