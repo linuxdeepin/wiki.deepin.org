@@ -2,11 +2,14 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-14T09:00:40.294Z
+date: 2023-08-16T07:57:45.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
 ---
+
+> 点击访问： [deepin 高频问题解决方案整理](http://guide.deepin.org/deepin%20%E9%AB%98%E9%A2%91%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%95%B4%E7%90%86/1.%E8%AE%BA%E5%9D%9B%E5%8F%91%E5%B8%96%E6%8F%90%E9%97%AE%E9%A1%BB%E7%9F%A5.html)
+{.is-success}
 
 > 本文创建于2021-05-15，当前版本发布于2023-08-14，版本号4.1.4.1。
 > 此项目由 [pzm9012](https://bbs.deepin.org/user/217969) 发起，当前维护者还有 [hanzn-zzx](https://bbs.deepin.org/zh/user/284017)。
