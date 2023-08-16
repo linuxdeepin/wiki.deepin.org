@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-16T07:57:45.277Z
+date: 2023-08-16T09:26:33.263Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -803,6 +803,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 4. 解决Wine通达信版行情软件侧边栏显示异常的问题：[https://blog.csdn.net/ericden/article/details/127601692](https://blog.csdn.net/ericden/article/details/127601692)
 
 #### 4.1.13 资讯阅读
+1. 分享一个读书笔记软件bookxnote：https://bbs.deepin.org/post/260885
+
 #### 4.1.14 便捷生活
 
 1. Icalingua：第三方QQ客户端：[https://bbs.deepin.org/zh/post/226550](https://bbs.deepin.org/zh/post/226550)（原项目因不可抗因素已删除，建议使用分支版本 Icalingua++）
