@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-16T13:31:43.393Z
+date: 2023-08-17T00:42:21.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -13,7 +13,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 > 本文创建于2021-05-15，当前版本发布于2023-08-14，版本号4.1.4.1。
 > 此项目由 [pzm9012](https://bbs.deepin.org/user/217969) 发起，当前维护者还有 [hanzn-zzx](https://bbs.deepin.org/zh/user/284017)。
-> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) [访问此文档的 GitLab镜像页面](https://deepincol.gitlab.io) {.is-info}
+> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) [访问此文档的 GitLab镜像页面](https://deepincol.gitlab.io)
+> [致谢](https://pzm9012.gitlab.io/doc-vite/deepin-src-col/thanks.html) {.is-info}
 
 ![sec-0-banner.png](https://gitlab.com/pzm9012/doc-vite/-/raw/main/docs/deepin-src-col/img/sec-0-banner.png)
 在这里我整理了一些有帮助的资源，帮助大家更快捷地找到需要的内容。<br />感谢所有提供了资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
