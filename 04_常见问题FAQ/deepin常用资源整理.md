@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-16T09:26:33.263Z
+date: 2023-08-16T13:31:43.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -982,6 +982,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 47. 【翻译】Wayland（主页）：[https://bbs.deepin.org/post/256834](https://bbs.deepin.org/post/256834)
 48. 用脚本快速配置开发环境：[https://bbs.deepin.org/post/256661](https://bbs.deepin.org/post/256661)  的回复
 49.  记录一次gcc/g++编译升级（13.1.0）：[https://bbs.deepin.org/post/260699](https://bbs.deepin.org/post/260699)
+50. AppImage打包流程： https://bbs.deepin.org/zh/post/260891
 
 #### 4.3.1 Unilang 自研编程语言
 
