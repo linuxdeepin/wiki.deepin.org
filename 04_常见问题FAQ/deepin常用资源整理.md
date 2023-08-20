@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-17T10:11:29.967Z
+date: 2023-08-19T05:54:38.451Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -38,6 +38,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 3. 终于基本能用了，分享一下心得：[https://bbs.deepin.org/zh/post/217375](https://bbs.deepin.org/zh/post/217375)
 4. 再次安装deepin：[https://bbs.deepin.org/zh/post/239388](https://bbs.deepin.org/zh/post/239388)
 5. deepin小白的问题归纳及其他：[https://bbs.deepin.org/post/241961](https://bbs.deepin.org/post/241961)
+6. Linux 学习笔记 - 1：[https://bbs.deepin.org/post/261010](https://bbs.deepin.org/post/261010)
 
 ### 1.2 知识汇总
 
