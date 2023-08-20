@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-20T14:39:47.596Z
+date: 2023-08-20T14:43:54.488Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -198,7 +198,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 33. 如何关闭飞行模式：[https://bbs.deepin.org/post/234324](https://bbs.deepin.org/post/234324)
 34.  命令行方式修改 UOS Deepin 分辨率： [https://bbs.deepin.org/post/259711](https://bbs.deepin.org/post/259711)
 35. WPS for linux字体显示问题：[https://blog.csdn.net/qq_36191272/article/details/105596225](https://blog.csdn.net/qq_36191272/article/details/105596225)
-> 同类问题：WPS页面显示问题   推荐解决方法：在星火应用商店安装“WPS Office缺失字体”“Win字体”
+> 同类问题：[WPS页面显示问题](https://wiki.deepin.org/zh/WPS%E9%A1%B5%E9%9D%A2%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98) 推荐解决方法：在星火应用商店安装“WPS Office缺失字体”“Win字体”
 
 36.  deep20.09 vpn 连接设置：[https://bbs.deepin.org/post/261002](https://bbs.deepin.org/post/261002)
 
