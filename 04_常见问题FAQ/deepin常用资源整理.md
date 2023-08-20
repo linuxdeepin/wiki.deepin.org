@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-19T05:54:38.451Z
+date: 2023-08-20T04:22:10.084Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -38,7 +38,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 3. 终于基本能用了，分享一下心得：[https://bbs.deepin.org/zh/post/217375](https://bbs.deepin.org/zh/post/217375)
 4. 再次安装deepin：[https://bbs.deepin.org/zh/post/239388](https://bbs.deepin.org/zh/post/239388)
 5. deepin小白的问题归纳及其他：[https://bbs.deepin.org/post/241961](https://bbs.deepin.org/post/241961)
-6. Linux 学习笔记 - 1：[https://bbs.deepin.org/post/261010](https://bbs.deepin.org/post/261010)
+6.  Linux 学习笔记 - 1：[https://bbs.deepin.org/post/261010](https://bbs.deepin.org/post/261010)
+7.  deepinos-基础配置：[https://bbs.deepin.org/post/261052](https://bbs.deepin.org/post/261052)
 
 ### 1.2 知识汇总
 
@@ -147,19 +148,17 @@ dateCreated: 2022-11-01T12:45:22.559Z
 #### 2.3.1 论坛用户编译的内核
 > 这些内核为论坛用户编译，非官方内核，可能会出现兼容性差、UEngine 无法使用等问题，请谨慎使用。
 
-1. dppve内核6.4.9更新(nvme温度比较高的可以考虑)：[https://bbs.deepin.org/post/260119](https://bbs.deepin.org/post/260119)
+1.  最新的三个版本的内核下载：[https://bbs.deepin.org/post/261053](https://bbs.deepin.org/post/261053)
 2. odpk内核：[https://bbs.deepin.org/post/260119](https://bbs.deepin.org/post/260119)
 3. deepinV20和UOS内核fedora：[https://bbs.deepin.org/post/260464](https://bbs.deepin.org/post/260464)
-4. dppve内核6.4.8更新：[https://bbs.deepin.org/post/260452](https://bbs.deepin.org/post/260452)
-5. deepin+pve配置文件混合内核(不烫)： [https://bbs.deepin.org/post/260004](https://bbs.deepin.org/post/260004)
-6. 魔改版6.4.4内核(不烫) ：[https://bbs.deepin.org/post/259888](https://bbs.deepin.org/post/259888)
-7. 不同版本的6.4内核：[https://bbs.deepin.org/zh/post/258689](https://bbs.deepin.org/zh/post/258689)
-8. 分享6.1 hwe xanmod内核：[https://bbs.deepin.org/post/258476](https://bbs.deepin.org/post/258476)
-9. 在deepin内核配置文件基础上复制了几个PVE内核电源管理配置：[https://bbs.deepin.org/post/259690](https://bbs.deepin.org/post/259690)
-10. ubuntu内核(转换版) ：[https://bbs.deepin.org/post/259629](https://bbs.deepin.org/post/259629)
-11.  6.3.9(zen1)内核：[https://bbs.deepin.org/post/258409](https://bbs.deepin.org/post/258409)
-12.  分享6.3.9xanmod1内核：[https://bbs.deepin.org/post/258369](https://bbs.deepin.org/post/258369)
-13. 6.3.4内核和最新的firmware：[https://bbs.deepin.org/post/257183](https://bbs.deepin.org/post/257183)
+4. deepin+pve配置文件混合内核(不烫)： [https://bbs.deepin.org/post/260004](https://bbs.deepin.org/post/260004)
+5. 不同版本的6.4内核：[https://bbs.deepin.org/zh/post/258689](https://bbs.deepin.org/zh/post/258689)
+6. 分享6.1 hwe xanmod内核：[https://bbs.deepin.org/post/258476](https://bbs.deepin.org/post/258476)
+7. 在deepin内核配置文件基础上复制了几个PVE内核电源管理配置：[https://bbs.deepin.org/post/259690](https://bbs.deepin.org/post/259690)
+8. ubuntu内核(转换版) ：[https://bbs.deepin.org/post/259629](https://bbs.deepin.org/post/259629)
+9.  6.3.9(zen1)内核：[https://bbs.deepin.org/post/258409](https://bbs.deepin.org/post/258409)
+10.  分享6.3.9xanmod1内核：[https://bbs.deepin.org/post/258369](https://bbs.deepin.org/post/258369)
+11. 6.3.4内核和最新的firmware：[https://bbs.deepin.org/post/257183](https://bbs.deepin.org/post/257183)
 
 ### 2.4 问题解决
 
@@ -201,6 +200,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 36. WPS for linux字体显示问题：[https://blog.csdn.net/qq_36191272/article/details/105596225](https://blog.csdn.net/qq_36191272/article/details/105596225)
 > 同类问题：WPS页面显示问题   推荐解决方法：在星火应用商店安装“WPS Office缺失字体”“Win字体”
 
+37.  deep20.09 vpn 连接设置：[https://bbs.deepin.org/post/261002](https://bbs.deepin.org/post/261002)
 
 ### 2.5 系统使用
 
@@ -303,13 +303,14 @@ dateCreated: 2022-11-01T12:45:22.559Z
 4. 查看系统安装的日期与时间：[https://bbs.deepin.org/zh/post/229311](https://bbs.deepin.org/zh/post/229311)
 5. 手把手教你装zsh，所有github链接都换成了gitee，包你安装顺利：[https://bbs.deepin.org/zh/post/237774](https://bbs.deepin.org/zh/post/237774)
 6. 使用fish代替bash，真好用：[https://bbs.deepin.org/zh/post/238189](https://bbs.deepin.org/zh/post/238189)
-7. 使用alias简化命令：[https://bbs.deepin.org/zh/post/239361](https://bbs.deepin.org/zh/post/239361)
-8. 一个系统安装包配置脚本 autosetup for Deepin OS：[https://bbs.deepin.org/post/241041](https://bbs.deepin.org/post/241041)
-9. 写了个脚本，让apt-ftparchieve也能增量扫描更新deb仓库：[https://bbs.deepin.org/post/242570](https://bbs.deepin.org/post/242570)
-10.  命令行怎么修改语言：[https://bbs.deepin.org/post/247451](https://bbs.deepin.org/post/247451)
-11. transhell——一个让bash脚本可以国际化的方案：[https://bbs.deepin.org/post/249136](https://bbs.deepin.org/post/249136)
-12. 一些命令：[https://bbs.deepin.org/post/250551](https://bbs.deepin.org/post/250551)（有些解释不太对，请看帖子下大佬们的补充）
-13. 卸载“欢迎”app只需要一条命令即可：[https://bbs.deepin.org/post/254146](https://bbs.deepin.org/post/254146)
+7. Linux终端下使用Fish shell美化：[https://www.cnblogs.com/aaroncoding/p/17118251.html](https://www.cnblogs.com/aaroncoding/p/17118251.html)
+8. 使用alias简化命令：[https://bbs.deepin.org/zh/post/239361](https://bbs.deepin.org/zh/post/239361)
+9. 一个系统安装包配置脚本 autosetup for Deepin OS：[https://bbs.deepin.org/post/241041](https://bbs.deepin.org/post/241041)
+10. 写了个脚本，让apt-ftparchieve也能增量扫描更新deb仓库：[https://bbs.deepin.org/post/242570](https://bbs.deepin.org/post/242570)
+11.  命令行怎么修改语言：[https://bbs.deepin.org/post/247451](https://bbs.deepin.org/post/247451)
+12. transhell——一个让bash脚本可以国际化的方案：[https://bbs.deepin.org/post/249136](https://bbs.deepin.org/post/249136)
+13. 一些命令：[https://bbs.deepin.org/post/250551](https://bbs.deepin.org/post/250551)（有些解释不太对，请看帖子下大佬们的补充）
+14. 卸载“欢迎”app只需要一条命令即可：[https://bbs.deepin.org/post/254146](https://bbs.deepin.org/post/254146)
 
 #### 2.5.6 文件处理
 
@@ -380,6 +381,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 35. 分享让用户可以自己强制指定系统缩放的方法：[https://bbs.deepin.org/post/255588](https://bbs.deepin.org/post/255588)
 36. deepin UOS Linux源代码编译安装Nginx：[https://bbs.deepin.org/post/259345](https://bbs.deepin.org/post/259345)
 37. 用命令启动系统代理：[https://bbs.deepin.org/zh/post/256724](https://bbs.deepin.org/zh/post/256724)
+38. 使用timeshift实现系统和数据分开备份：[https://bbs.deepin.org/post/258143](https://bbs.deepin.org/post/258143)
 
 ### 2.6 系统美化
 #### 2.6.1 壁纸
@@ -696,6 +698,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 5. 高性能数据库软件 linwin DB server1.1 发布：[https://bbs.deepin.org/post/250672](https://bbs.deepin.org/post/250672)
 6. LinwinSoft DB server1.4 Cluste 高性能分布式集群数据库软件发布：[https://bbs.deepin.org/post/251546](https://bbs.deepin.org/post/251546)
 7. 思科模拟器（网工的同学看过来）：[https://bbs.deepin.org/post/250686](https://bbs.deepin.org/post/250686)
+8. Linux下使用EasyX库：[https://www.cnblogs.com/aaroncoding/p/17116879.html](https://www.cnblogs.com/aaroncoding/p/17116879.html)
 
 #### 4.1.5 网络应用
 
@@ -805,7 +808,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 4. 解决Wine通达信版行情软件侧边栏显示异常的问题：[https://blog.csdn.net/ericden/article/details/127601692](https://blog.csdn.net/ericden/article/details/127601692)
 
 #### 4.1.13 资讯阅读
-1. 分享一个读书笔记软件bookxnote：https://bbs.deepin.org/post/260885
+
+1.  分享一个读书笔记软件bookxnote：[https://bbs.deepin.org/post/260885](https://bbs.deepin.org/post/260885)
 
 #### 4.1.14 便捷生活
 
@@ -869,7 +873,9 @@ dateCreated: 2022-11-01T12:45:22.559Z
 37. 尝试wine了一下老游戏SPORE，一些经验：[https://bbs.deepin.org/zh/post/254038](https://bbs.deepin.org/zh/post/254038)
 38. 一款适用于 XBoard/WinBoard 中国象棋程序的棋子主题：[https://bbs.deepin.org/zh/post/254484](https://bbs.deepin.org/zh/post/254484)
 39. Steam V1:1.0.0.76 发布 及 安装说明：[https://bbs.deepin.org/zh/post/255946](https://bbs.deepin.org/zh/post/255946)
+40. MAME街机游戏ROM：8人街霸 (sf2j) 中文语音汉语版：
 
+[https://bbs.deepin.org/post/261054](https://bbs.deepin.org/post/261054)
 ### 4.2 运行其他平台应用、虚拟机
 #### 4.2.1 UEngine/Waydroid
 > UEngine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应用就使用了 UEngine 引擎。
@@ -932,6 +938,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 14. Podman 及容器技术介绍：[https://bbs.deepin.org/zh/post/257006](https://bbs.deepin.org/zh/post/257006)
 15. V23尝试使用distrobox运行软件：[https://bbs.deepin.org/zh/post/256901](https://bbs.deepin.org/zh/post/256901)
 16. 关于docker容器使用以及使用SSH连接容器：[https://bbs.deepin.org/post/256485](https://bbs.deepin.org/post/256485)
+17. 书虫兼容环境 12.1.5 预告：[https://bbs.deepin.org/post/260098](https://bbs.deepin.org/post/260098)（已上架星火应用商店）
+18.  deepinV23系统下安装win10系统及移动硬盘/打印机连接：[https://bbs.deepin.org/post/261048](https://bbs.deepin.org/post/261048)
 
 ### 4.3 软件开发
 
@@ -984,7 +992,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 47. 【翻译】Wayland（主页）：[https://bbs.deepin.org/post/256834](https://bbs.deepin.org/post/256834)
 48. 用脚本快速配置开发环境：[https://bbs.deepin.org/post/256661](https://bbs.deepin.org/post/256661)  的回复
 49.  记录一次gcc/g++编译升级（13.1.0）：[https://bbs.deepin.org/post/260699](https://bbs.deepin.org/post/260699)
-50. AppImage打包流程： https://bbs.deepin.org/zh/post/260891
+50. AppImage打包流程：[https://bbs.deepin.org/zh/post/260891](https://bbs.deepin.org/zh/post/260891)
 
 #### 4.3.1 Unilang 自研编程语言
 
@@ -1211,3 +1219,41 @@ deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 
 ### 6.1
 
 1. 深度向左，优麒麟向右-- Ubuntu Kylin 20.04 LTS Pro 体验测评：[https://bbs.deepin.org/zh/post/220515](https://bbs.deepin.org/zh/post/220515)
+
+## 致谢
+deepin 常用资源整理持续维护至今，离不开热心人士的建议和贡献。此页列举了对此项目做出过贡献的人员，排名不分先后。若有遗漏请见谅，并联系作者添加。
+
+感谢你们的付出让资源整理更完善。
+
+---
+
+首先，感谢在社区中创作教程、分享资源的朋友们。我只是一个搬运工，为你们的帖子提供一个聚合。
+
+感谢以下人员参与协作/提供资源/提出建议：
+
+- [PossibleVing](https://bbs.deepin.org/user/225373)
+- [hanzn-zzx](https://bbs.deepin.org/user/284017)
+- [nanming](https://bbs.deepin.org/user/239615)
+- [阿尼樱奈奈](https://bbs.deepin.org/user/296995)
+- [liwl](https://bbs.deepin.org/user/160805)
+- [lv36](https://bbs.deepin.org/user/227371)
+- [Free_Aaron.Li](https://bbs.deepin.org/user/280809)
+- [风吹过的绿洲](https://bbs.deepin.org/user/41719)
+- [青菜芋子](https://loafing.cn/)
+- [gfdgd xi](http://www.gfdgdxi.top/)
+
+感谢以下人员帮助推广，使此项目连带其中的资源被更多人看见：
+
+- [深度开源社区](https://deepin.org)（特别感谢：[HualetWang](https://bbs.deepin.org/user/31012)、[xuqi](https://bbs.deepin.org/user/283437)、[yanjuner](https://bbs.deepin.org/user/298795)）
+- [shenmo](https://blog.shenmo.tech)
+- [bxkdhao](http://bbs.chinauos.com/user/307736)
+- [gshun](https://bbs.deepin.org/user/207084)
+
+感谢以下人员捐赠：
+
+- P*g 捐赠了 20 元
+- hanzn-zzx 捐赠了 2 元
+
+---
+
+还有，感谢一路上陪伴的你。
