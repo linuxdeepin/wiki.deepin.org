@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-20T14:04:05.595Z
+date: 2023-08-20T14:39:47.596Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -200,7 +200,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 35. WPS for linux字体显示问题：[https://blog.csdn.net/qq_36191272/article/details/105596225](https://blog.csdn.net/qq_36191272/article/details/105596225)
 > 同类问题：WPS页面显示问题   推荐解决方法：在星火应用商店安装“WPS Office缺失字体”“Win字体”
 
-37.  deep20.09 vpn 连接设置：[https://bbs.deepin.org/post/261002](https://bbs.deepin.org/post/261002)
+36.  deep20.09 vpn 连接设置：[https://bbs.deepin.org/post/261002](https://bbs.deepin.org/post/261002)
 
 ### 2.5 系统使用
 
