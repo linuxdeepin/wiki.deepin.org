@@ -2,7 +2,7 @@
 title: deepin-ports 仓库管理
 description: 介绍 deepin-ports 的架构适配仓库及其管理
 published: true
-date: 2023-08-21T04:02:03.889Z
+date: 2023-08-21T04:10:45.420Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-21T04:02:03.889Z
@@ -22,7 +22,9 @@ https://ci.deepin.com/repo/deepin/deepin-ports/deepin-port-stage1/
 
 ## 合并目标
 
-OBS 系统下建立对应的项目，使用单独的 backend 管理构建。将 `deepin-ports` 的软件包迁移至 OBS 项目进行构建，最终目标是所有 patch 均被合并至 deepin 主线。
+1. 将 deepin-ports 的仓库的 patch （几乎）完全合并入主线
+2. 将 deepin-ports 必需的高版本软件包在主线中（几乎）完全升级
+3. 将 deepin-ports 中无法合入主线的小部分软件包在主线的分支中良好地维护。
 
 目前临时使用的 OBS 项目：
 
