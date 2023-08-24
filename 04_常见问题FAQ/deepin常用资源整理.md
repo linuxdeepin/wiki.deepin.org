@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-24T13:06:04.562Z
+date: 2023-08-24T13:10:26.864Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -32,7 +32,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 ## 一、综合
 ### 1.1 入门
-> 也可以看看其他用户使用 deepin 的[测评感受](#fEWUJ)。
+> 也可以看看其他用户使用 deepin 的[测评感受](https://wiki.deepin.org/zh/04_%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86#h-61-%E6%B5%8B%E8%AF%84%E6%84%9F%E5%8F%97)。
 
 1. 统信UOS家庭版｜新手安装锦囊：[https://bbs.chinauos.com/post/8738](https://bbs.chinauos.com/post/8738)
 2. 写给deepin小白的入门教程：[https://bbs.deepin.org/zh/post/209755](https://bbs.deepin.org/zh/post/209755)
