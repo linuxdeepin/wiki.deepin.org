@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-20T15:18:08.617Z
+date: 2023-08-24T13:06:04.562Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -32,15 +32,16 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 ## 一、综合
 ### 1.1 入门
-> 也可以看看其他用户使用 deepin 的[测评感受](https://wiki.deepin.org/zh/04_%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86#%E5%85%AD-%E6%9B%B4%E5%A4%9A)。
+> 也可以看看其他用户使用 deepin 的[测评感受](#fEWUJ)。
 
 1. 统信UOS家庭版｜新手安装锦囊：[https://bbs.chinauos.com/post/8738](https://bbs.chinauos.com/post/8738)
 2. 写给deepin小白的入门教程：[https://bbs.deepin.org/zh/post/209755](https://bbs.deepin.org/zh/post/209755)
 3. 终于基本能用了，分享一下心得：[https://bbs.deepin.org/zh/post/217375](https://bbs.deepin.org/zh/post/217375)
 4. 再次安装deepin：[https://bbs.deepin.org/zh/post/239388](https://bbs.deepin.org/zh/post/239388)
 5. deepin小白的问题归纳及其他：[https://bbs.deepin.org/post/241961](https://bbs.deepin.org/post/241961)
-6.  Linux 学习笔记 - 1：[https://bbs.deepin.org/post/261010](https://bbs.deepin.org/post/261010)
-7.  deepinos-基础配置：[https://bbs.deepin.org/post/261052](https://bbs.deepin.org/post/261052)
+6. Linux 学习笔记：[1](https://bbs.deepin.org/post/261010)    [2](https://bbs.deepin.org/post/261072)    [3](https://bbs.deepin.org/post/261132)    [4](https://bbs.deepin.org/post/261236)
+7. deepinos-基础配置：[https://bbs.deepin.org/post/261052](https://bbs.deepin.org/post/261052)
+8. 我的小窝：[https://bbs.deepin.org/post/261133](https://bbs.deepin.org/post/261133)
 
 ### 1.2 知识汇总
 
@@ -198,7 +199,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 33. 如何关闭飞行模式：[https://bbs.deepin.org/post/234324](https://bbs.deepin.org/post/234324)
 34.  命令行方式修改 UOS Deepin 分辨率： [https://bbs.deepin.org/post/259711](https://bbs.deepin.org/post/259711)
 35. WPS for linux字体显示问题：[https://blog.csdn.net/qq_36191272/article/details/105596225](https://blog.csdn.net/qq_36191272/article/details/105596225)
-> 同类问题：[WPS页面显示问题](https://wiki.deepin.org/zh/WPS%E9%A1%B5%E9%9D%A2%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98) 推荐解决方法：在星火应用商店安装“WPS Office缺失字体”“Win字体”
+> 同类问题：[WPS页面显示问题](https://wiki.deepin.org/zh/WPS%E9%A1%B5%E9%9D%A2%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98)   推荐解决方法：在星火应用商店安装“WPS Office缺失字体”“Win字体”
 
 36.  deep20.09 vpn 连接设置：[https://bbs.deepin.org/post/261002](https://bbs.deepin.org/post/261002)
 
@@ -686,7 +687,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 1. 一款词典工具：[https://bbs.deepin.org/zh/post/227166](https://bbs.deepin.org/zh/post/227166)
 2. 白杉树背单词训练软件 v2.0_65 正式发布：[https://bbs.deepin.org/post/248998](https://bbs.deepin.org/post/248998)
 3. 墨干编辑器V1.1.2：新增macOS arm和Ubuntu安装包：[https://bbs.deepin.org/post/254916](https://bbs.deepin.org/post/254916)
-4.  wine安装e听说中学版：
+4.  wine安装e听说中学版：[https://bbs.deepin.org/post/26001](https://bbs.deepin.org/post/260019)
+5. 【Python】中小学电子课本解析下载工具：[https://bbs.deepin.org/post/261226](https://bbs.deepin.org/post/261226)
 
 #### 4.1.4 编程开发
 
@@ -746,7 +748,6 @@ dateCreated: 2022-11-01T12:45:22.559Z
 4. music-island介绍：[最近更新](https://bbs.deepin.org/post/259310)
 5. You-get强大的视频下载程序图形软件：[https://bbs.deepin.org/post/250587](https://bbs.deepin.org/post/250587)
 6.  [应用推荐]简洁美观好用的开源音乐软件：[https://bbs.deepin.org/post/252868](https://bbs.deepin.org/post/252868)
-7. 简洁美观好用的开源音乐软件：[https://bbs.deepin.org/post/252868](https://bbs.deepin.org/post/252868)
 
 #### 4.1.8 影音编辑
 
@@ -772,6 +773,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 18. 推荐给用blender的网友，视频剪辑字幕插件的使用方法：[https://bbs.deepin.org/post/260440](https://bbs.deepin.org/post/260440)
 19. 终端部署openAI whisper用于提取音视频字幕：[https://bbs.deepin.org/post/258121](https://bbs.deepin.org/post/258121)
 20. 静态安装ffmpeg高版本：[https://bbs.deepin.org/post/259626](https://bbs.deepin.org/post/259626)
+21. 剪映国际网页版打包：[https://bbs.deepin.org/zh/post/261094](https://bbs.deepin.org/zh/post/261094) （见1楼和8楼）
 
 #### 4.1.9 图形图像
 
@@ -873,9 +875,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 37. 尝试wine了一下老游戏SPORE，一些经验：[https://bbs.deepin.org/zh/post/254038](https://bbs.deepin.org/zh/post/254038)
 38. 一款适用于 XBoard/WinBoard 中国象棋程序的棋子主题：[https://bbs.deepin.org/zh/post/254484](https://bbs.deepin.org/zh/post/254484)
 39. Steam V1:1.0.0.76 发布 及 安装说明：[https://bbs.deepin.org/zh/post/255946](https://bbs.deepin.org/zh/post/255946)
-40. MAME街机游戏ROM：8人街霸 (sf2j) 中文语音汉语版：
-
-[https://bbs.deepin.org/post/261054](https://bbs.deepin.org/post/261054)
+40. MAME街机游戏ROM：8人街霸 (sf2j) 中文语音汉语版：[https://bbs.deepin.org/post/261054](https://bbs.deepin.org/post/261054)
+41. 原神，启动！！！（这回没开玩笑）：[https://bbs.deepin.org/zh/post/261080](https://bbs.deepin.org/zh/post/261080)
 ### 4.2 运行其他平台应用、虚拟机
 #### 4.2.1 UEngine/Waydroid
 > UEngine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应用就使用了 UEngine 引擎。
@@ -883,7 +884,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 > 同类应用还有 [Anbox](https://anbox.io/)（已停止维护）、[xDroid](https://www.linzhuotech.com/Product/xDroid) 等。
 
 1. **UEngine 运行器**：[论坛页面](https://bbs.deepin.org/zh/post/248912)  [Gitee页面](https://gitee.com/gfdgd-xi/uengine-runner)
-2. Waydroid 运行器：[论坛页面](https://bbs.deepin.org/post/260328)  [Gitee](https://gitee.com/gfdgd-xi/waydroid-runner)  [Github](https://github.com/gfdgd-xi/waydroid-runner)
+2. Waydroid 运行器：[论坛页面](https://bbs.deepin.org/zh/post/261079)  [Gitee](https://gitee.com/gfdgd-xi/waydroid-runner)  [GitHub](https://github.com/gfdgd-xi/waydroid-runner)
 3. uengine 使用总结：[https://uos.osystem.club/102.html](https://uos.osystem.club/102.html)
 4. Deepin20.2.2运行安卓和自行安装软件：[https://bbs.deepin.org/zh/post/222222](https://bbs.deepin.org/zh/post/222222)
 5. 成功Root Deepin的Android子系统（Uengine）：[https://bbs.deepin.org/zh/post/228520](https://bbs.deepin.org/zh/post/228520)
@@ -905,7 +906,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 9. CrossOver 17 测试版，解除时间限制：[https://bbs.deepin.org/zh/post/231306](https://bbs.deepin.org/zh/post/231306)
 10. wine工具盘点——linux上运行windows软件必备神器：[https://bbs.deepin.org/zh/post/237398](https://bbs.deepin.org/zh/post/237398)
 11. Deepin Wine6的run_v4脚本探索——启动方式：[https://bbs.deepin.org/zh/post/237953](https://bbs.deepin.org/zh/post/237953)
-12. spark-dwine-helper文档：[https://shenmo7192.gitee.io/categories/spark-dwine-helper%E6%96%87%E6%A1%A3/](https://shenmo7192.gitee.io/categories/spark-dwine-helper%E6%96%87%E6%A1%A3/)
+12. spark-dwine-helper文档：[https://blog.shenmo.tech/categories/spark-dwine-helper%E6%96%87%E6%A1%A3/](https://blog.shenmo.tech/categories/spark-dwine-helper%E6%96%87%E6%A1%A3/)
 13. 安装WineHQ：[https://bbs.deepin.org/zh/post/238337](https://bbs.deepin.org/zh/post/238337)
 14. WineHQ使用时出现中文乱码：[https://bbs.deepin.org/zh/post/238339](https://bbs.deepin.org/zh/post/238339)
 15. wine使用教程4-用wine运行便携式exe程序（绿色软件）的方法：[https://bbs.deepin.org/zh/post/239212](https://bbs.deepin.org/zh/post/239212)
@@ -993,6 +994,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 48. 用脚本快速配置开发环境：[https://bbs.deepin.org/post/256661](https://bbs.deepin.org/post/256661)  的回复
 49.  记录一次gcc/g++编译升级（13.1.0）：[https://bbs.deepin.org/post/260699](https://bbs.deepin.org/post/260699)
 50. AppImage打包流程：[https://bbs.deepin.org/zh/post/260891](https://bbs.deepin.org/zh/post/260891)
+51. 二进制文件制作封装成 deb 软件包：[https://bbs.deepin.org/post/261204](https://bbs.deepin.org/post/261204)
 
 #### 4.3.1 Unilang 自研编程语言
 
@@ -1054,6 +1056,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 28. 审美游戏——审美高手来集合：[https://bbs.deepin.org/post/249891](https://bbs.deepin.org/post/249891)
 29. [【我行我秀】deepin社区主题大赛](https://bbs.deepin.org/zh/post/256852)      [参赛须知及版权约定](https://bbs.deepin.org/post/256848)      [主题一键打包工具及操作演示视频](https://bbs.deepin.org/post/256847)      [慧眼识珠-主题模板](https://bbs.deepin.org/post/256849)      [神笔马良-主题模板](https://bbs.deepin.org/post/256851)      [鼠标指针制作规范](https://bbs.deepin.org/post/256846)      [壁纸及鼠标指针设计规范](https://bbs.deepin.org/post/256959)      [作品展示](https://bbs.deepin.org/post/257930)       [慧眼识珠赛道投票](https://bbs.deepin.org/post/258575)      [最终作品展示-神笔马良赛道](https://bbs.deepin.org/post/258576)      [获奖名单公示](https://bbs.deepin.org/post/259150)
 30. deepin社区携手北航学子共建开源生态：[https://bbs.deepin.org/post/260355](https://bbs.deepin.org/post/260355)
+31. deepin社区历届DDUC信息汇总： [https://bbs.deepin.org/post/261162](https://bbs.deepin.org/post/261162)
 #### 5.2.1 WHLUG（武汉Linux用户组）
 早期 WHLUG 新闻见 [https://www.deepin.org/zh/category/whlug-news/](https://www.deepin.org/zh/category/whlug-news/)。
 
@@ -1113,6 +1116,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 21. [每天一感] V23 有感！：[https://bbs.deepin.org/post/253773](https://bbs.deepin.org/post/253773)
 22. 老电脑后续：2013年老台式机上deepin 20.8成功：[https://bbs.deepin.org/post/253918](https://bbs.deepin.org/post/253918)
 23. 用Deepin/UOS系统日常办公一周多感受：[https://bbs.deepin.org/post/260588](https://bbs.deepin.org/post/260588)
+24. 分屏系统的使用分享：[https://bbs.deepin.org/post/261169](https://bbs.deepin.org/post/261169)
 
 ### 6.2 其他系统的资源
 deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 deepin 有所不同，它们的 Wiki 仍有值得学习的知识。 [Debian Wiki](https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5)  [ArchWiki](https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5)  [openSUSE Wiki](https://zh.opensuse.org/%E9%A6%96%E9%A1%B5)
@@ -1204,6 +1208,7 @@ deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 
 ### 4.1.1
 
 1. App 4 Deepin（国际开发者为deepin开发的一套实用软件）：[https://app4deepin.com/#home](https://app4deepin.com/#home) （该项目已停止更新）
+
 ### 4.1.7
 
 1. 自动从网络上匹配歌词的Deepin Music：[https://bbs.deepin.org/zh/post/221829](https://bbs.deepin.org/zh/post/221829)
@@ -1261,4 +1266,3 @@ deepin 常用资源整理持续维护至今，离不开热心人士的建议和�
 ---
 
 还有，感谢一路上陪伴的你。
-
