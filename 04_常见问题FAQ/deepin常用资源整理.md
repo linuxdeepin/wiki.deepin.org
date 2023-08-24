@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-20T14:43:54.488Z
+date: 2023-08-20T15:18:08.617Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -569,9 +569,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 你可以从**星火应用商店**（一款由社区爱好者维护，致力于丰富Linux生态的第三方应用商店）获取一些最新版本的Linux应用和开箱即用的wine应用。官网：[https://www.spark-app.store](https://www.spark-app.store)（[向星火商店捐赠](https://donate.deepinos.org.cn/donate/)）
 
 1. deepin软件推荐（很多）：[https://bbs.deepin.org/zh/post/237514](https://bbs.deepin.org/zh/post/237514)
-2. 星火终端版1.2.3：[https://bbs.deepin.org/post/252112](https://bbs.deepin.org/post/252112)
-3. i386运行库 For Deepin23（让Deepin23喝上Wine8.4）：[https://bbs.deepin.org/zh/post/253902](https://bbs.deepin.org/zh/post/253902)
-4. 获取Appimage的几个网站：[https://bbs.deepin.org/zh/post/256189](https://bbs.deepin.org/zh/post/256189)
+2. i386运行库 For Deepin23（让Deepin23喝上Wine8.4）：[https://bbs.deepin.org/zh/post/253902](https://bbs.deepin.org/zh/post/253902)
+3. 获取Appimage的几个网站：[https://bbs.deepin.org/zh/post/256189](https://bbs.deepin.org/zh/post/256189)
 #### 4.1.1 系统工具
 
 1. Oh my dde：[论坛页面](https://bbs.deepin.org/zh/post/226592)  [Gitee页面](https://gitee.com/Limexb/oh-my-dde)  （提醒：该应用已有2年未更新）
@@ -725,7 +724,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 21. cloudreve 云盘新方式……：[https://bbs.deepin.org/post/253715](https://bbs.deepin.org/post/253715)
 22. V23 安装向日葵远程控制：[https://bbs.deepin.org/zh/post/257022](https://bbs.deepin.org/zh/post/257022)
 23. v23系统下百度翻译无法使用临时解决方案：[https://bbs.deepin.org/post/260086](https://bbs.deepin.org/post/260086)
-24.  阿里云盘的命令行应用，速度不错20m+：[https://bbs.deepin.org/post/258577](https://bbs.deepin.org/post/258577)
+24. 阿里云盘的命令行应用，速度不错20m+：[https://bbs.deepin.org/post/258577](https://bbs.deepin.org/post/258577)
 
 #### 4.1.6 视频播放
 
@@ -1197,6 +1196,10 @@ deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 
 ### 2.1.3
 
 1. DeepinWSL：[https://github.com/linuxdeepin/deepin-wsl](https://github.com/linuxdeepin/deepin-wsl)
+
+### 4.1
+
+1. 星火终端版1.2.3：[https://bbs.deepin.org/post/252112](https://bbs.deepin.org/post/252112)
 
 ### 4.1.1
 
