@@ -2,8 +2,8 @@
 title: deepin-unioncode 用户使用手册
 description: 一款轻量级多语言跨平台兼容的集成开发环境，支持多种语言工程的构建、运行和调试。
 published: true
-date: 2023-08-25T10:11:36.026Z
-tags: unioncode, deepin-unioncode
+date: 2023-08-25T10:11:37.693Z
+tags: deepin-unioncode, unioncode
 editor: markdown
 dateCreated: 2023-08-25T10:11:36.026Z
 ---
