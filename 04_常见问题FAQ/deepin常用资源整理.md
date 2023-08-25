@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-24T13:22:48.545Z
+date: 2023-08-25T11:26:35.655Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -687,7 +687,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 1. 一款词典工具：[https://bbs.deepin.org/zh/post/227166](https://bbs.deepin.org/zh/post/227166)
 2. 白杉树背单词训练软件 v2.0_65 正式发布：[https://bbs.deepin.org/post/248998](https://bbs.deepin.org/post/248998)
 3. 墨干编辑器V1.1.2：新增macOS arm和Ubuntu安装包：[https://bbs.deepin.org/post/254916](https://bbs.deepin.org/post/254916)
-4.  wine安装e听说中学版：[https://bbs.deepin.org/post/26001](https://bbs.deepin.org/post/260019)
+4.  wine安装e听说中学版：[https://bbs.deepin.org/post/260019](https://bbs.deepin.org/post/260019)
 5. 【Python】中小学电子课本解析下载工具：[https://bbs.deepin.org/post/261226](https://bbs.deepin.org/post/261226)
 
 #### 4.1.4 编程开发
