@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-25T11:26:35.655Z
+date: 2023-08-25T13:10:59.143Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -11,9 +11,9 @@ dateCreated: 2022-11-01T12:45:22.559Z
 > 点击访问： [deepin 高频问题解决方案整理](http://guide.deepin.org/deepin%20%E9%AB%98%E9%A2%91%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%95%B4%E7%90%86/1.%E8%AE%BA%E5%9D%9B%E5%8F%91%E5%B8%96%E6%8F%90%E9%97%AE%E9%A1%BB%E7%9F%A5.html)
 {.is-success}
 
-> 本文创建于2021-05-15，当前版本发布于2023-08-14，版本号4.1.4.1。
+> 本文创建于2021-05-15，当前版本发布于2023-08-14，版本号v4.1.4.1。
 > 此项目由 [pzm9012](https://bbs.deepin.org/user/217969) 发起，当前维护者还有 [hanzn-zzx](https://bbs.deepin.org/zh/user/284017)。
-> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) [访问此文档的 GitLab镜像页面](https://deepincol.gitlab.io)
+> [访问此文档的语雀页面](https://www.yuque.com/pzm9012/ct5ume/nte586/) [访问此文档的 VitePress 页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0) [访问此文档的 GitLab镜像页面](https://deepincol.gitlab.io/deepin-src-col/col.html)
 > [致谢](https://deepincol.gitlab.io/deepin-src-col/thanks.html) {.is-info}
 
 ![sec-0-banner.png](https://gitlab.com/pzm9012/doc-vite/-/raw/main/docs/deepin-src-col/img/sec-0-banner.png)
@@ -32,16 +32,17 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 ## 一、综合
 ### 1.1 入门
-> 也可以看看其他用户使用 deepin 的[测评感受](https://wiki.deepin.org/zh/04_%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86#h-61-%E6%B5%8B%E8%AF%84%E6%84%9F%E5%8F%97)。
+> 也可以看看其他用户使用 deepin 的[测评感受](#fEWUJ)。
 
 1. 统信UOS家庭版｜新手安装锦囊：[https://bbs.chinauos.com/post/8738](https://bbs.chinauos.com/post/8738)
 2. 写给deepin小白的入门教程：[https://bbs.deepin.org/zh/post/209755](https://bbs.deepin.org/zh/post/209755)
 3. 终于基本能用了，分享一下心得：[https://bbs.deepin.org/zh/post/217375](https://bbs.deepin.org/zh/post/217375)
 4. 再次安装deepin：[https://bbs.deepin.org/zh/post/239388](https://bbs.deepin.org/zh/post/239388)
 5. deepin小白的问题归纳及其他：[https://bbs.deepin.org/post/241961](https://bbs.deepin.org/post/241961)
-6. Linux 学习笔记：[1](https://bbs.deepin.org/post/261010)    [2](https://bbs.deepin.org/post/261072)    [3](https://bbs.deepin.org/post/261132)    [4](https://bbs.deepin.org/post/261236)
+6. Linux 学习笔记：[1](https://bbs.deepin.org/post/261010)    [2](https://bbs.deepin.org/post/261072)    [3](https://bbs.deepin.org/post/261132)    [4](https://bbs.deepin.org/post/261236)    [5](https://bbs.deepin.org/post/261320)
 7. deepinos-基础配置：[https://bbs.deepin.org/post/261052](https://bbs.deepin.org/post/261052)
 8. 我的小窝：[https://bbs.deepin.org/post/261133](https://bbs.deepin.org/post/261133)
+9.  干净了，我的窗口：[https://bbs.deepin.org/post/261266](https://bbs.deepin.org/post/261266)
 
 ### 1.2 知识汇总
 
@@ -275,7 +276,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 22. Qt6 无法输入中文：[https://bbs.deepin.org/zh/post/254932](https://bbs.deepin.org/zh/post/254932)
 23. 任务栏托盘的cn按钮关闭：执行`gsettings set com.deepin.dde.dock.module.keyboard enable false`。
 24. 23版本fcitx5输入法的设置优化，使输入法更好用：[https://bbs.deepin.org/post/256386](https://bbs.deepin.org/post/256386)
-25. 【原创应用】98五笔小精灵更新：[https://bbs.deepin.org/zh/post/259885](https://bbs.deepin.org/zh/post/259885)
+25.  安装 fcitx 输入法：[https://bbs.deepin.org/post/261261](https://bbs.deepin.org/post/261261)
 
 #### 2.5.4 性能
 
@@ -650,6 +651,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 74. Vim 中切换模式时自动切换输入法：[https://bbs.deepin.org/zh/post/256177](https://bbs.deepin.org/zh/post/256177)
 75. 使用xdotool简单实现钉钉窗口快捷键激活：[https://bbs.deepin.org/post/260738](https://bbs.deepin.org/post/260738)
 76. 附加基础库additional-base-lib之第五版： [https://bbs.deepin.org/post/258570](https://bbs.deepin.org/post/258570)
+77. 98五笔小精灵更新：[https://bbs.deepin.org/zh/post/259885](https://bbs.deepin.org/zh/post/259885)
 
 #### 4.1.2 效率办公
 
@@ -727,6 +729,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 22. V23 安装向日葵远程控制：[https://bbs.deepin.org/zh/post/257022](https://bbs.deepin.org/zh/post/257022)
 23. v23系统下百度翻译无法使用临时解决方案：[https://bbs.deepin.org/post/260086](https://bbs.deepin.org/post/260086)
 24. 阿里云盘的命令行应用，速度不错20m+：[https://bbs.deepin.org/post/258577](https://bbs.deepin.org/post/258577)
+25. Chrome 116 ACE版本分享(解决闪退问题) ：[https://bbs.deepin.org/post/261317](https://bbs.deepin.org/post/261317)
 
 #### 4.1.6 视频播放
 
@@ -995,6 +998,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 49.  记录一次gcc/g++编译升级（13.1.0）：[https://bbs.deepin.org/post/260699](https://bbs.deepin.org/post/260699)
 50. AppImage打包流程：[https://bbs.deepin.org/zh/post/260891](https://bbs.deepin.org/zh/post/260891)
 51. 二进制文件制作封装成 deb 软件包：[https://bbs.deepin.org/post/261204](https://bbs.deepin.org/post/261204)
+52. deepin-unioncode 用户使用手册：[https://bbs.deepin.org/post/261338](https://bbs.deepin.org/post/261338)
 
 #### 4.3.1 Unilang 自研编程语言
 
@@ -1023,6 +1027,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 7.  【怀旧向】深度科技论坛，前世今生：[https://bbs.deepin.org/post/244048](https://bbs.deepin.org/post/244048)
 8. 今天试着把论坛打包成APP了，欢迎大家试用一下：[https://bbs.deepin.org/post/247362](https://bbs.deepin.org/post/247362)
 9. 论坛2023年4月3号更新，解决两个痛点问题：[https://bbs.deepin.org/zh/post/254612](https://bbs.deepin.org/zh/post/254612)
+10.  屏蔽指定用户帖子和回复（油猴脚本）：[https://bbs.deepin.org/post/261272](https://bbs.deepin.org/post/261272)
 
 ### 5.2 社区活动（部分）
 
@@ -1185,6 +1190,7 @@ deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 
 14.  分享三种使用ChatGPT的办法：[https://bbs.deepin.org/post/259359](https://bbs.deepin.org/post/259359)
 15. 【小知识】你的系统中有多少GNU：[https://bbs.deepin.org/zh/post/255440](https://bbs.deepin.org/zh/post/255440)
 16. 搭建hexo博客：[https://bbs.deepin.org/post/256318](https://bbs.deepin.org/post/256318)
+17. 大模型AIGC分享  [「深度学习」篇](https://bbs.deepin.org/post/261254)    [「走进大模型」篇](https://bbs.deepin.org/post/261256)
 
 ## 七、归档
 > 距上次更新时间较长或当前价值相对较小的资源会被移至此处。以下标题中的序号与主体对应。
@@ -1228,3 +1234,42 @@ deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 
 ### 6.1
 
 1. 深度向左，优麒麟向右-- Ubuntu Kylin 20.04 LTS Pro 体验测评：[https://bbs.deepin.org/zh/post/220515](https://bbs.deepin.org/zh/post/220515)
+
+## 致谢
+deepin 常用资源整理持续维护至今，离不开热心人士的建议和贡献。此页列举了对此项目做出过贡献的人员，排名不分先后。若有遗漏请见谅，并联系作者添加。
+
+感谢你们的付出让资源整理更完善。
+
+---
+
+首先，感谢在社区中创作教程、分享资源的朋友们。我只是一个搬运工，为你们的帖子提供一个聚合。
+
+感谢以下人员参与协作/提供资源/提出建议：
+
+- [PossibleVing](https://bbs.deepin.org/user/225373)
+- [hanzn-zzx](https://bbs.deepin.org/user/284017)
+- [阿尼樱奈奈](https://bbs.deepin.org/user/296995)
+- [nanming](https://bbs.deepin.org/user/239615)
+- [liwl](https://bbs.deepin.org/user/160805)
+- [lv36](https://bbs.deepin.org/user/227371)
+- [Free_Aaron.Li](https://bbs.deepin.org/user/280809)
+- [宏彦](https://bbs.deepin.org/user/301917)
+- [风吹过的绿洲](https://bbs.deepin.org/user/41719)
+- [青菜芋子](https://loafing.cn/)
+- [gfdgd xi](http://www.gfdgdxi.top/)
+
+感谢以下人员帮助推广，使此项目连带其中的资源被更多人看见：
+
+- [深度开源社区](https://deepin.org)（特别感谢：[HualetWang](https://bbs.deepin.org/user/31012)、[xuqi](https://bbs.deepin.org/user/283437)、[yanjuner](https://bbs.deepin.org/user/298795)）
+- [shenmo](https://blog.shenmo.tech)
+- [bxkdhao](http://bbs.chinauos.com/user/307736)
+- [gshun](https://bbs.deepin.org/user/207084)
+
+感谢以下人员捐赠：
+
+- P*g 捐赠了 20 元
+- hanzn-zzx 捐赠了 2 元
+
+---
+
+还有，感谢一路上陪伴的你。
