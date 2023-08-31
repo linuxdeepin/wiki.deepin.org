@@ -2,7 +2,7 @@
 title: 如何在openSUSE发行版上安装DDE桌面环境
 description: DDE桌面环境在opensuse leap 15.3及以上版本是有较好适配，为openSUSE用户多提供一个桌面环境的选择。
 published: true
-date: 2023-02-22T09:12:58.314Z
+date: 2023-08-31T02:07:59.429Z
 tags: dde桌面环境, linux, opensuse
 editor: markdown
 dateCreated: 2022-09-08T08:46:23.082Z
@@ -26,13 +26,19 @@ openSUSE镜像下载地址：https://download.opensuse.org/distribution/leap/15.
 
 Deepin Desktop 已经被 openSUSE 官方所支持，你可以先在 Leap 上配置好仓库。终端中使用命令：
 
-```linux
+```bash
 sudo zypper ar -f https://download.opensuse.org/repositories/X11:/Deepin/openSUSE_Leap_15.3/X11:Deepin.repo
+```
+
+openSUSE Tumbleweed 的用户可以使用下述命令，注意，新的 DDE 移植尚未完成，不适合普通用户使用
+
+```bash
+sudo zypper ar -f https://download.opensuse.org/repositories/X11:/Deepin:/Factory/openSUSE_Tumbleweed/X11:Deepin:Factory.repo
 ```
 
 安装DDE桌面环境，终端中使用命令：
 
-```linux
+```bash
 sudo zypper in -t pattern deepin
 ```
 安装完成后，重启，进入登录界面，点击设置按钮，选择deepin桌面环境。
