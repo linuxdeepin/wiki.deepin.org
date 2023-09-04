@@ -2,18 +2,15 @@
 title: deepin-unioncode 用户使用手册
 description: 一款轻量级多语言跨平台兼容的集成开发环境，支持多种语言工程的构建、运行和调试。
 published: true
-date: 2023-08-25T11:32:21.746Z
+date: 2023-09-04T02:29:53.677Z
 tags: deepin-unioncode, unioncode
 editor: markdown
 dateCreated: 2023-08-25T10:11:36.026Z
 ---
 
-# deepin-unioncode 用户使用手册
-
 ## 概述
 
 deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境，支持多种语言工程的构建、运行和调试。
-![recent.png](/05_HOW-TO/deepin-unioncode/recent.png)
 
 ## 使用入门
 
@@ -34,9 +31,9 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 
 ### 关闭deepin-unioncode
 
-- 在画板界面单击![close_icon.png](/05_HOW-TO/deepin-unioncode/close_icon.png)，退出deepin-unioncode。
+- 在主界面单击![close_icon.png](/05_HOW-TO/deepin-unioncode/close_icon.png)，退出deepin-unioncode。
 - 在任务栏右键单击<img src="/05_HOW-TO/deepin-unioncode/unioncode@128.png" alt="draw" style="zoom:20%;" />，选择 **关闭所有**，退出deepin-unioncode。
-- 在画板界面单击![icon_menu.svg](/05_HOW-TO/deepin-unioncode/icon_menu.svg)，选择 **退出**，退出deepin-unioncode。
+- 在主界面单击![icon_menu.svg](/05_HOW-TO/deepin-unioncode/icon_menu.svg)，选择 **退出**，退出deepin-unioncode。
 
 
 ## 主界面
@@ -53,7 +50,7 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 
 ![recent.png](/05_HOW-TO/deepin-unioncode/recent.png)
 
-| 标号 | 名称         | 描述                                                         |
+| <div style="width:50pt">标号</div> | <div style="width:80pt">名称</div>         | 描述                                                         |
 | ---- | ------------ | ------------------------------------------------------------ |
 | 1    | 最近打开工程 | 双击工程列表可以打开工程并跳转到编辑界面。悬浮可以查看工程构建工具、编程语言、路径等信息。 |
 | 2    | 最近打开文档 | 双击文件列表可以打开文件并跳转到编辑界面。悬浮可以查看文件路径信息。 |
@@ -62,7 +59,7 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 
 ![edit.png](/05_HOW-TO/deepin-unioncode/edit.png)
 
-| 标号 | 名称   | 描述                                                         |
+| <div style="width:50pt">标号</div> | <div style="width:50pt">名称</div>   | 描述                                                         |
 | ---- | ------ | ------------------------------------------------------------ |
 | 1    | 工作区 | 查看打开工程的目录树、符号树、包含文件等信息。               |
 | 2    | 工具栏 | 单击图标快速使用构建、运行、调试、查找、选项等功能。         |
@@ -76,12 +73,14 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 - OPEN按钮可以打开一个已存在的仓库。
 - CLONE按钮可以在本地复制一个远程仓库。
 - NEW按钮可以创建一个新的仓库。
+![git_log.png](/05_HOW-TO/deepin-unioncode/git_log.png)
 
 ### SVN界面
 
 ![svn.png](/05_HOW-TO/deepin-unioncode/svn.png)
 
 - 单击<img src="/05_HOW-TO/deepin-unioncode/burger_menu.svg" style="zoom:5%;" />可以执行打开仓库和检出仓库功能。
+![svn_log.png](/05_HOW-TO/deepin-unioncode/svn_log.png)
 
 ## 基本功能
 
@@ -179,8 +178,7 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 文本格式化功能可以自动调整文本格式。
 
 选中文本后单击右键，在菜单中选择**选中范围格式化**。
-
-![select_rightbutton.png](/05_HOW-TO/deepin-unioncode/select_rightbutton.png)
+<div align=center><img src="/05_HOW-TO/deepin-unioncode/select_rightbutton.png"></div>
 
 
 ### 重命名
@@ -205,8 +203,7 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 
 1. 在菜单栏中，单击**工具**。
 2. 在下拉菜单中选择 **选项**，打开选项对话框。
-
-![toolmenu.png](/05_HOW-TO/deepin-unioncode/toolmenu.png)
+<div align=center><img src="/05_HOW-TO/deepin-unioncode/toolmenu.png"></div>
 
 1. 在选项对话框中，找到需要配置的构建工具。这里以CMake为例。
 2. 可以对编译器、调试器、CMake工具进行配置：
@@ -255,8 +252,7 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 ### 运行
 
 在工具栏单击<img src="/05_HOW-TO/deepin-unioncode/play.png" alt="1|mian" style="zoom: 40%;" />**运行**图标，工程代码将跳过断点，直接运行。
-
-![run2.png](/05_HOW-TO/deepin-unioncode/run2.png)
+<div align=center><img src="/05_HOW-TO/deepin-unioncode/run2.png"></div>
 
 ### 调试
 
@@ -266,14 +262,79 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 ![debug.png](/05_HOW-TO/deepin-unioncode/debug.png)
 
 调试过程中可以进行停止调试、继续调试、单步跳过、单步进入、单步跳出等操作：
-
-![debugging.png](/05_HOW-TO/deepin-unioncode/debugging.png)
+<div align=center><img src="/05_HOW-TO/deepin-unioncode/debugging.png"></div>
 
 - 停止调试：单击<img src="/05_HOW-TO/deepin-unioncode/debugger_stop.png" alt="1|mian" style="zoom: 40%;" />按钮，停止此次调试过程，程序会终止运行。
 - 继续调试：单击<img src="/05_HOW-TO/deepin-unioncode/debugger_continue.png" alt="1|mian" style="zoom: 85%;" />按钮，程序将会继续执行直到下一个断点或程序结束。
 - 单步跳过：单击<img src="/05_HOW-TO/deepin-unioncode/debugger_stepover.png" alt="1|mian" style="zoom: 100%;" />按钮，执行当前语句并跳过当前语句中的函数调用，直接执行下一条语句。
 - 单步进入：单击<img src="/05_HOW-TO/deepin-unioncode/debugger_stepinto.png" alt="1|mian" style="zoom: 100%;" />按钮，执行当前语句并进入当前语句中的函数调用，逐步执行函数内部的语句。
 - 单步跳出：单击<img src="/05_HOW-TO/deepin-unioncode/debugger_stepout.png" alt="1|mian" style="zoom: 100%;" />按钮，跳出当前函数调用，执行函数调用的下一条语句。
+
+## 反向调试
+
+### 记录
+
+记录之前请确保已经打开一个C/C++工程，并且能够编译成功。
+
+1.在菜单栏单击**工具**。
+
+2.在下拉菜单中选择**反向调试**>**记录**。
+![reverse_debug_config.png](/05_HOW-TO/deepin-unioncode/reverse_debug_config.png)
+
+3.根据需要配置事件列表和其它参数。
+
+4.点击**确认**启动反向调试。
+
+5.此时应用启动运行，运行结束后弹出记录操作完成提示框。
+
+### 回放
+
+1.在菜单栏单击**工具**。
+
+2.在下拉菜单中选择**反向调试**>**重放**。
+
+3.弹出重放配置界面。
+![reverse_debug_replay_config.png](/05_HOW-TO/deepin-unioncode/reverse_debug_replay_config.png)
+
+4.点击**确定**，打开回放界面。
+![reverse_debug_event_list.png](/05_HOW-TO/deepin-unioncode/reverse_debug_event_list.png)
+
+### **调试**
+
+1.时间轴的竖线表示一个具体事件，不同事件用不同颜色区分。
+
+2.双击一个事件，进入到调试模式。
+![reverse_debug_mode.png](/05_HOW-TO/deepin-unioncode/reverse_debug_mode.png)
+
+3.此时进入到普通的调试模式，可以看到堆栈和变量视图。
+
+## 代码迁移
+
+### 迁移
+
+使用该功能前，请确保IDE中已经激活一个C/C++工程。
+
+1.在菜单栏单击**工具**。
+
+2.在下拉菜单中选择**代码迁移**。
+
+3.弹出代码迁移配置界面。
+![code_porting_config.png](/05_HOW-TO/deepin-unioncode/code_porting_config.png)
+
+选择需要迁移的工程，并设置源 CPU 架构和目标 CPU  架构。
+
+4.点击**迁移**，开始迁移过程。
+![code_porting_output.png](/05_HOW-TO/deepin-unioncode/code_porting_output.png)
+
+### 报告
+
+1.手动切换到**迁移报告**页面。
+![code_porting_report.png](/05_HOW-TO/deepin-unioncode/code_porting_report.png)
+
+2.双击一个条目，编辑器打开对应的源码。
+![code_porting_codeline.png](/05_HOW-TO/deepin-unioncode/code_porting_codeline.png)
+
+3.按照建议确定是否修改对应的代码。
 
 ## 常用工具
 
@@ -352,8 +413,6 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 
 >  ![tips.svg](/05_HOW-TO/deepin-unioncode/tips.svg)窍门：Recent列表和Most used列表中选择最近打开的工程或最多使用的工程。
 
-![git_main.png](/05_HOW-TO/deepin-unioncode/git_main.png)
-
 #### 克隆仓库
 
 1. 在git界面，单击**CLONE**按钮。
@@ -421,21 +480,11 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 3. 查看deepin-unioncode的插件管理对话框。
 
 ![plugin_manager.png](/05_HOW-TO/deepin-unioncode/plugin_manager.png)
+插件对话框页面包含左侧的插件概览窗口，右侧的插件详情界面。单击插件概览窗口的插件项，即可在插件详情界面看到该插件的详细说明。
+插件概览窗口说明：
+- 名称列表：插件的二进制文件名称。
+- 加载状态列表：插件是否加载，您可以通过勾选该选项管理插件的加载和卸载。
 
-插件对话框页面说明：
-
-- Name列表：插件名称。
-- Load列表：插件是否加载，您可以通过勾选该选项管理插件的加载和卸载。
-- Version列表：插件版本号。
-- Vendor列表：插件提供方。
-
-#### 查看插件信息
-
-1. 在插件对话框中选择列表中的任一行。
-2. 双击鼠标或单击对话框左下角的详情按钮。
-3. 显示选中插件的详细介绍。
-
-![plugin_detail.png](/05_HOW-TO/deepin-unioncode/plugin_detail.png)
 
 ### 报告Bug
 
@@ -449,7 +498,42 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 2. 在下拉菜单项中，选择 **帮助文档**。
 3. 跳转到官网帮助文档页面。
 
+## 流程示例
+
+以deepin-draw（画板）工程为例，展示一个工程从打开到编译再到运行调试的全流程。
+### 打开工程
+
+1. 选择待打开的工程类型。deepin-draw的构建工具为CMake，选择cmake。
+
+2. 在文件管理器中选择需要打开的工程，单击打开。
+
+   注意：待打开的工程类型需要和选择的工程类型一致。
+![example_open.png](/05_HOW-TO/deepin-unioncode/example_open.png)
+
+### 编译工程
+
+1. 单击工具栏中的编译按钮。
+2. 查看交互区的编译输出框打印的信息。
+![example_build.png](/05_HOW-TO/deepin-unioncode/example_build.png)
+
+### 调试工程
+
+1. 单击文件编辑框左侧行号处设置断点。
+2. 单击工具栏中的调试按钮，程序会运行至断点处停止。
+3. 交互区中的应用程序输出窗口会打印程序输出日志。
+4. 编辑框右侧的变量监视视图会显示程序的变量名及在断点处的值。
+![example_debug.png](/05_HOW-TO/deepin-unioncode/example_debug.png)
+
+### 运行工程
+
+1. 跳过所有断点后，deepin-draw工程正常运行。
+2. 在deepin-draw应用中执行相关操作，可以在应用程序输出窗口中看到相应的日志输出。
+![example_run.png](/05_HOW-TO/deepin-unioncode/example_run.png)
+
 ## 维护支持
-- 维护者：hongjinchuan@uniontech.com
-- 修改日期：2023.8.22
+- 维护者
+luzhen@uniontech.com
+hongjinchuan@uniontech.com
+
+- 修改日期：2023.8.31
 - 版本：1.0
