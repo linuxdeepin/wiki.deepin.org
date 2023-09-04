@@ -2,7 +2,7 @@
 title: deepin-unioncode 用户使用手册
 description: 一款轻量级多语言跨平台兼容的集成开发环境，支持多种语言工程的构建、运行和调试。
 published: true
-date: 2023-09-04T02:29:56.685Z
+date: 2023-09-04T03:15:59.876Z
 tags: deepin-unioncode, unioncode
 editor: markdown
 dateCreated: 2023-08-25T10:11:36.026Z
@@ -211,9 +211,7 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
    - 调试器选项：选择代码调试运行时使用的调试器。CMake工程包括lldb和gdb。
    - CMake工具：选择工程构建时使用的构建工具。
 3. 点击应用保存当前配置并应用到当前已打开工程中。
-
-![option.png](/05_HOW-TO/deepin-unioncode/option.png)
-
+![option_cmake.png](/05_HOW-TO/deepin-unioncode/option_cmake.png)
 
 ### 构建工程
 
@@ -478,8 +476,8 @@ deepin-unioncode是一款轻量级多语言跨平台兼容的集成开发环境�
 1. 在菜单栏中，单击**帮助**。
 2. 在下拉菜单项中，选择 **关于插件...**。
 3. 查看deepin-unioncode的插件管理对话框。
+![plugin_manager2.png](/05_HOW-TO/deepin-unioncode/plugin_manager2.png)
 
-![plugin_manager.png](/05_HOW-TO/deepin-unioncode/plugin_manager.png)
 插件对话框页面包含左侧的插件概览窗口，右侧的插件详情界面。单击插件概览窗口的插件项，即可在插件详情界面看到该插件的详细说明。
 插件概览窗口说明：
 - 名称列表：插件的二进制文件名称。
