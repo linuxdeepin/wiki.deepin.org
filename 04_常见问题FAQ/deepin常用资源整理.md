@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-09-10T06:04:35.220Z
+date: 2023-09-10T06:07:20.200Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -677,24 +677,24 @@ dateCreated: 2022-11-01T12:45:22.559Z
 8. 专业的素材管理应用——Eagle：[https://bbs.deepin.org/zh/post/221954](https://bbs.deepin.org/zh/post/221954)
 9. 完美解决腾讯会议在deepin上运行问题：[https://bbs.deepin.org/zh/post/209769](https://bbs.deepin.org/zh/post/209769)
 10. 安卓版腾讯会议…居然还挺好用？[附食用教程]：[https://bbs.deepin.org/zh/post/238329](https://bbs.deepin.org/zh/post/238329)
-12. 使用 Dtk 开发了一个 MarkDown 编辑器，欢迎大家试用：[https://bbs.deepin.org/zh/post/228829](https://bbs.deepin.org/zh/post/228829)
-13.  Pixso上架deepin应用商店，设计应用生态强势补充：[https://bbs.deepin.org/zh/post/235058](https://bbs.deepin.org/zh/post/235058)
-14. 金山PDF在高分屏下窗口太小的解决方案：[https://bbs.deepin.org/zh/post/239325](https://bbs.deepin.org/zh/post/239325)
-15. wine使用教程7-借用容器和wine版本安装Microsoft Office2013：[https://bbs.deepin.org/post/239589](https://bbs.deepin.org/post/239589)
-16. Microsoft Office 2013首次打包-限时体验：[https://bbs.deepin.org/zh/post/239932](https://bbs.deepin.org/zh/post/239932)
-17. 写了一个简单Markdown笔记软件，欢迎大家试用：[https://bbs.deepin.org/zh/post/238077](https://bbs.deepin.org/zh/post/238077)
-18. 安利开源免费“全局文本、文件搜索”RecollGUI可搜索文本内容：[https://bbs.deepin.org/post/243309](https://bbs.deepin.org/post/243309)
-19. WPS Office 版本信息及字体检测小工具：[https://bbs.deepin.org/zh/post/248386](https://bbs.deepin.org/zh/post/248386)
-20. 解决MindMaster在 4k分辨率下菜单栏错位问题：[https://bbs.deepin.org/zh/post/253183](https://bbs.deepin.org/zh/post/253183)
-21. 分享一个好用的划词翻译软件（其实就是推广自己的软件）：[https://bbs.deepin.org/post/253348](https://bbs.deepin.org/post/253348)
-22. 腾讯交互翻译transmart-支持linux版本：[https://bbs.deepin.org/post/244433](https://bbs.deepin.org/post/244433)
-23. Pot 划词翻译：[官网](https://pot.pylogmon.com/)  [GitHub](https://github.com/pot-app/pot-desktop)  [论坛](https://bbs.deepin.org/post/254577)
-24. CAD二维绘图软件：QCAD，Linux deepin系统中的详细使用方式：[https://bbs.deepin.org/post/253391](https://bbs.deepin.org/post/253391)
-25. markdown 应用推荐-Oh Mymd：[https://bbs.deepin.org/post/253524](https://bbs.deepin.org/post/253524)  [官网链接](https://www.ohmymd.app/)
-26. 解决BookxNotePro在linux下无法启动或GLIBC_2.29‘ not found的问题：[https://blog.csdn.net/dorlolo/article/details/127680523](https://blog.csdn.net/dorlolo/article/details/127680523)
-27. 这是一个动态起床时间计算库：[https://bbs.deepin.org/post/245167](https://bbs.deepin.org/post/245167)
-28. 目前发现最好用的PDF阅读器：ZOTERO：[https://bbs.deepin.org/zh/post/254419](https://bbs.deepin.org/zh/post/254419)
-29. LyX 排版软件编写的实用表格和文档样例(包含lyx,pdf)：[https://bbs.deepin.org/zh/post/257029](https://bbs.deepin.org/zh/post/257029)
+11. 使用 Dtk 开发了一个 MarkDown 编辑器，欢迎大家试用：[https://bbs.deepin.org/zh/post/228829](https://bbs.deepin.org/zh/post/228829)
+12.  Pixso上架deepin应用商店，设计应用生态强势补充：[https://bbs.deepin.org/zh/post/235058](https://bbs.deepin.org/zh/post/235058)
+13. 金山PDF在高分屏下窗口太小的解决方案：[https://bbs.deepin.org/zh/post/239325](https://bbs.deepin.org/zh/post/239325)
+14. wine使用教程7-借用容器和wine版本安装Microsoft Office2013：[https://bbs.deepin.org/post/239589](https://bbs.deepin.org/post/239589)
+15. Microsoft Office 2013首次打包-限时体验：[https://bbs.deepin.org/zh/post/239932](https://bbs.deepin.org/zh/post/239932)
+16. 写了一个简单Markdown笔记软件，欢迎大家试用：[https://bbs.deepin.org/zh/post/238077](https://bbs.deepin.org/zh/post/238077)
+17. 安利开源免费“全局文本、文件搜索”RecollGUI可搜索文本内容：[https://bbs.deepin.org/post/243309](https://bbs.deepin.org/post/243309)
+18. WPS Office 版本信息及字体检测小工具：[https://bbs.deepin.org/zh/post/248386](https://bbs.deepin.org/zh/post/248386)
+19. 解决MindMaster在 4k分辨率下菜单栏错位问题：[https://bbs.deepin.org/zh/post/253183](https://bbs.deepin.org/zh/post/253183)
+20. 分享一个好用的划词翻译软件（其实就是推广自己的软件）：[https://bbs.deepin.org/post/253348](https://bbs.deepin.org/post/253348)
+21. 腾讯交互翻译transmart-支持linux版本：[https://bbs.deepin.org/post/244433](https://bbs.deepin.org/post/244433)
+22. Pot 划词翻译：[官网](https://pot.pylogmon.com/)  [GitHub](https://github.com/pot-app/pot-desktop)  [论坛](https://bbs.deepin.org/post/254577)
+23. CAD二维绘图软件：QCAD，Linux deepin系统中的详细使用方式：[https://bbs.deepin.org/post/253391](https://bbs.deepin.org/post/253391)
+24. markdown 应用推荐-Oh Mymd：[https://bbs.deepin.org/post/253524](https://bbs.deepin.org/post/253524)  [官网链接](https://www.ohmymd.app/)
+25. 解决BookxNotePro在linux下无法启动或GLIBC_2.29‘ not found的问题：[https://blog.csdn.net/dorlolo/article/details/127680523](https://blog.csdn.net/dorlolo/article/details/127680523)
+26. 这是一个动态起床时间计算库：[https://bbs.deepin.org/post/245167](https://bbs.deepin.org/post/245167)
+27. 目前发现最好用的PDF阅读器：ZOTERO：[https://bbs.deepin.org/zh/post/254419](https://bbs.deepin.org/zh/post/254419)
+28. LyX 排版软件编写的实用表格和文档样例(包含lyx,pdf)：[https://bbs.deepin.org/zh/post/257029](https://bbs.deepin.org/zh/post/257029)
 
 #### 4.1.3 教育学习
 
