@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-09-04T09:47:11.759Z
+date: 2023-09-10T02:07:39.178Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -39,7 +39,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 3. 终于基本能用了，分享一下心得：[https://bbs.deepin.org/zh/post/217375](https://bbs.deepin.org/zh/post/217375)
 4. 再次安装deepin：[https://bbs.deepin.org/zh/post/239388](https://bbs.deepin.org/zh/post/239388)
 5. deepin小白的问题归纳及其他：[https://bbs.deepin.org/post/241961](https://bbs.deepin.org/post/241961)
-6. Linux 学习笔记：[1](https://bbs.deepin.org/post/261010)    [2](https://bbs.deepin.org/post/261072)    [3](https://bbs.deepin.org/post/261132)    [4](https://bbs.deepin.org/post/261236)    [5](https://bbs.deepin.org/post/261320)
+6. Linux 学习笔记：[1](https://bbs.deepin.org/post/261010)    [2](https://bbs.deepin.org/post/261072)    [3](https://bbs.deepin.org/post/261132)    [4](https://bbs.deepin.org/post/261236)    [5](https://bbs.deepin.org/post/261320)    [6](https://bbs.deepin.org/post/261477)
 7. deepinos-基础配置：[https://bbs.deepin.org/post/261052](https://bbs.deepin.org/post/261052)
 8. 我的小窝：[https://bbs.deepin.org/post/261133](https://bbs.deepin.org/post/261133)
 9.  干净了，我的窗口：[https://bbs.deepin.org/post/261266](https://bbs.deepin.org/post/261266)
