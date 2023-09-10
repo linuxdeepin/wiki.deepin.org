@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-08-29T07:36:10.792Z
+date: 2023-09-04T09:47:11.759Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -921,7 +921,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 21. 使用flatpak安装wine8并完美运行最新版钉钉：[https://bbs.deepin.org/post/253522](https://bbs.deepin.org/post/253522)
 22. i386运行库 For Deepin23（让Deepin23喝上Wine8.4）：[https://bbs.deepin.org/post/253902](https://bbs.deepin.org/post/253902)
 23. 使用Qemu User运行Wine（支持全架构）：[https://bbs.deepin.org/post/255873](https://bbs.deepin.org/post/255873)
-24. 使用flatpak安装wine8并完美运行最新版钉钉：[https://bbs.deepin.org/zh/post/253522](https://bbs.deepin.org/zh/post/253522)
+24. 修改系统商店内的wine微信字体样式：[https://bbs.deepin.org/post/261603](https://bbs.deepin.org/post/261603)
 
 #### 4.2.3 虚拟机、容器
 > deepin 的 Docker 镜像：[V20](https://hub.docker.com/r/linuxdeepin/apricot)  [V23](https://hub.docker.com/r/linuxdeepin/beige)；使用`docker pull linuxdeepin/apricot`拉取 V20，.../beige 拉取 V23。
