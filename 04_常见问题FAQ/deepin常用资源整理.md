@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-09-10T02:35:43.186Z
+date: 2023-09-10T06:04:35.220Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -198,11 +198,14 @@ dateCreated: 2022-11-01T12:45:22.559Z
 31. 解决QQ等应用的托盘图标的bug：[https://bbs.deepin.org/zh/post/253891](https://bbs.deepin.org/zh/post/253891)
 32. 磁盘空间不对：[https://bbs.deepin.org/zh/post/254999](https://bbs.deepin.org/zh/post/254999)
 33. 如何关闭飞行模式：[https://bbs.deepin.org/post/234324](https://bbs.deepin.org/post/234324)
-34.  命令行方式修改 UOS Deepin 分辨率： [https://bbs.deepin.org/post/259711](https://bbs.deepin.org/post/259711)
+34. 命令行方式修改 UOS Deepin 分辨率： [https://bbs.deepin.org/post/259711](https://bbs.deepin.org/post/259711)
 35. WPS for linux字体显示问题：[https://blog.csdn.net/qq_36191272/article/details/105596225](https://blog.csdn.net/qq_36191272/article/details/105596225)
 > 同类问题：[WPS页面显示问题](https://wiki.deepin.org/zh/WPS%E9%A1%B5%E9%9D%A2%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98)   推荐解决方法：在星火应用商店安装“WPS Office缺失字体”“Win字体”
 
-36.  deep20.09 vpn 连接设置：[https://bbs.deepin.org/post/261002](https://bbs.deepin.org/post/261002)
+36. deepin20.9 vpn 连接设置：[https://bbs.deepin.org/post/261002](https://bbs.deepin.org/post/261002)
+37. deepin20.9 火狐不跟随系统放大 解决方案：
+[https://bbs.deepin.org/post/261479](https://bbs.deepin.org/post/261479)
+38. 设置/校准系统时间的2种方法：[https://bbs.deepin.org/post/260998](https://bbs.deepin.org/post/260998)
 
 ### 2.5 系统使用
 
@@ -249,6 +252,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 21. v23 可能可以用到的 libc6:i386包分享：[https://bbs.deepin.org/zh/post/256773](https://bbs.deepin.org/zh/post/256773)
 22. AppImage类软件的手动安装：[https://bbs.deepin.org/zh/post/260218](https://bbs.deepin.org/zh/post/260218)
 23. 【不知有什么用的】AppImage缩减工具：[https://bbs.deepin.org/zh/post/260123](https://bbs.deepin.org/zh/post/260123)
+24. 打造一个属于自己的 APT 仓库：[https://bbs.deepin.org/zh/post/261702](https://bbs.deepin.org/zh/post/261702)
 
 #### 2.5.3 输入法
 
@@ -425,6 +429,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 19. deepin主题壁纸包壁纸提取成功：[https://bbs.deepin.org/zh/post/254347](https://bbs.deepin.org/zh/post/254347)
 20. deepin 20.8和UOS家庭版22.0的壁纸：[https://bbs.deepin.org/zh/post/254282](https://bbs.deepin.org/zh/post/254282)
 21. 自带鲸鱼壁纸：[https://storage.deepin.org/thread/202305181618163218_jingyu.1e452333.jpg](https://storage.deepin.org/thread/202305181618163218_jingyu.1e452333.jpg)
+22. 自制壁纸：[https://bbs.deepin.org/post/261534](https://bbs.deepin.org/post/261534)
 
 #### 2.6.2 程序窗口
 
@@ -517,6 +522,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 11. 无法安装 nvidia 闭源驱动：[https://bbs.deepin.org/zh/post/255850](https://bbs.deepin.org/zh/post/255850)
 12. 终于安装NVIDIA RTX 750 显卡驱动成功了，留念：[https://bbs.deepin.org/zh/post/255284](https://bbs.deepin.org/zh/post/255284)
 13. deepin-prime-run:让使用A+N的双显卡的用户一键用N卡启动应用：[https://bbs.deepin.org/zh/post/256199](https://bbs.deepin.org/zh/post/256199)
+14. Deepin 20.9 系统，安装NVIDIA 340.108 闭源驱动：[https://bbs.deepin.org/post/261410](https://bbs.deepin.org/post/261410)
 
 ### 3.2 网卡
 
@@ -577,6 +583,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 1. deepin软件推荐（很多）：[https://bbs.deepin.org/zh/post/237514](https://bbs.deepin.org/zh/post/237514)
 2. i386运行库 For Deepin23（让Deepin23喝上Wine8.4）：[https://bbs.deepin.org/zh/post/253902](https://bbs.deepin.org/zh/post/253902)
 3. 获取Appimage的几个网站：[https://bbs.deepin.org/zh/post/256189](https://bbs.deepin.org/zh/post/256189)
+4. 开源软件推荐一波～：[https://bbs.deepin.org/post/261398](https://bbs.deepin.org/post/261398)
 #### 4.1.1 系统工具
 
 1. Oh my dde：[论坛页面](https://bbs.deepin.org/zh/post/226592)  [Gitee页面](https://gitee.com/Limexb/oh-my-dde)  （提醒：该应用已有2年未更新）
@@ -656,6 +663,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 75. 使用xdotool简单实现钉钉窗口快捷键激活：[https://bbs.deepin.org/post/260738](https://bbs.deepin.org/post/260738)
 76. 附加基础库additional-base-lib之第五版： [https://bbs.deepin.org/post/258570](https://bbs.deepin.org/post/258570)
 77. 98五笔小精灵更新：[https://bbs.deepin.org/zh/post/259885](https://bbs.deepin.org/zh/post/259885)
+78. 自荐一个类似exa的命令行 ls 工具：[https://bbs.deepin.org/post/261954](https://bbs.deepin.org/post/261954)
 
 #### 4.1.2 效率办公
 
@@ -686,7 +694,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 26. 解决BookxNotePro在linux下无法启动或GLIBC_2.29‘ not found的问题：[https://blog.csdn.net/dorlolo/article/details/127680523](https://blog.csdn.net/dorlolo/article/details/127680523)
 27. 这是一个动态起床时间计算库：[https://bbs.deepin.org/post/245167](https://bbs.deepin.org/post/245167)
 28. 目前发现最好用的PDF阅读器：ZOTERO：[https://bbs.deepin.org/zh/post/254419](https://bbs.deepin.org/zh/post/254419)
-29.  LyX 排版软件编写的实用表格和文档样例(包含lyx,pdf)：[https://bbs.deepin.org/zh/post/257029](https://bbs.deepin.org/zh/post/257029)
+29. LyX 排版软件编写的实用表格和文档样例(包含lyx,pdf)：[https://bbs.deepin.org/zh/post/257029](https://bbs.deepin.org/zh/post/257029)
 
 #### 4.1.3 教育学习
 
