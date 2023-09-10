@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-09-10T02:07:39.178Z
+date: 2023-09-10T02:35:43.186Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -42,7 +42,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 6. Linux 学习笔记：[1](https://bbs.deepin.org/post/261010)    [2](https://bbs.deepin.org/post/261072)    [3](https://bbs.deepin.org/post/261132)    [4](https://bbs.deepin.org/post/261236)    [5](https://bbs.deepin.org/post/261320)    [6](https://bbs.deepin.org/post/261477)
 7. deepinos-基础配置：[https://bbs.deepin.org/post/261052](https://bbs.deepin.org/post/261052)
 8. 我的小窝：[https://bbs.deepin.org/post/261133](https://bbs.deepin.org/post/261133)
-9.  干净了，我的窗口：[https://bbs.deepin.org/post/261266](https://bbs.deepin.org/post/261266)
+9. 精简文件管理器窗口：[https://bbs.deepin.org/post/261266](https://bbs.deepin.org/post/261266)
 
 ### 1.2 知识汇总
 
@@ -343,47 +343,51 @@ dateCreated: 2022-11-01T12:45:22.559Z
 8. 把v20安装在raid0的尝试总结：[https://bbs.deepin.org/post/260244](https://bbs.deepin.org/post/260244)
 9. UDEV设备管理教程之一：禁用磁盘分区：[https://bbs.deepin.org/zh/post/256585](https://bbs.deepin.org/zh/post/256585)
 10. 隐藏磁盘分区：[https://bbs.deepin.org/post/256458?postId=1464065](https://bbs.deepin.org/post/256458?postId=1464065)
+11. linux有关文件系统的对比：[https://bbs.deepin.org/post/261617](https://bbs.deepin.org/post/261617)
 
-#### 2.5.8 其他
+#### 2.5.8 备份还原
+
+1. 一句命令行安装live系统 解决手动分区无备份还原系统等问题：[https://bbs.deepin.org/zh/post/215165](https://bbs.deepin.org/zh/post/215165)
+2. deepin使用再生龙Clonezilla做备份还原：[https://bbs.deepin.org/zh/post/239899](https://bbs.deepin.org/zh/post/239899)
+3. 浅谈Deepin备份恢复：[https://bbs.deepin.org/post/241469](https://bbs.deepin.org/post/241469)
+4. 一次完整的系统盘恢复经历：[https://bbs.deepin.org/post/242956](https://bbs.deepin.org/post/242956)
+5. 云服务器数据恢复案例3则：[https://bbs.deepin.org/post/253631](https://bbs.deepin.org/post/253631)
+6. 使用timeshift实现系统和数据分开备份：[https://bbs.deepin.org/post/258143](https://bbs.deepin.org/post/258143)
+
+#### 2.5.9 其他
 
 1. 在deepin上使用LaTeX：[https://bbs.deepin.org/zh/post/229734](https://bbs.deepin.org/zh/post/229734)
-2. 一句命令行安装live系统 解决手动分区无备份还原系统等问题：[https://bbs.deepin.org/zh/post/215165](https://bbs.deepin.org/zh/post/215165)
-3. Windows ssh 客户端 PuTTY 正向与反向流量转发（转）：[https://bbs.deepin.org/zh/post/230148](https://bbs.deepin.org/zh/post/230148)
-4. deepin下ssh常用网络功能：[https://bbs.deepin.org/zh/post/231835](https://bbs.deepin.org/zh/post/231835)
-5. 桌面固定网络驱动器的教程视频-适用群晖、威联通NAS/共享文件夹：[https://bbs.deepin.org/zh/post/231878](https://bbs.deepin.org/zh/post/231878)
-6. 助力轻松修改你的系统用户名：[https://bbs.deepin.org/zh/post/232575](https://bbs.deepin.org/zh/post/232575)
-7. 深度文件管理器改造小记：[https://bbs.deepin.org/zh/post/237345](https://bbs.deepin.org/zh/post/237345)
-8. 找了很久的 while 无限循环终于解决了输入判断的问题：[https://bbs.deepin.org/zh/post/236712](https://bbs.deepin.org/zh/post/236712)
-9. 自定义控制中心的关于本机：[https://bbs.deepin.org/zh/post/237500](https://bbs.deepin.org/zh/post/237500)
-10. 如何设置锁屏时间为3min?：[https://bbs.deepin.org/zh/post/237606](https://bbs.deepin.org/zh/post/237606)
-11. 控制中心网关只能输入 IP 地址很反人类？试试这个：[https://bbs.deepin.org/zh/post/238342](https://bbs.deepin.org/zh/post/238342)
-12. 当linux杀毒软件遇到windows病毒——几款linux杀毒软件测试：[https://bbs.deepin.org/zh/post/239285](https://bbs.deepin.org/zh/post/239285)
-13. gocron定时任务：[https://bbs.deepin.org/zh/post/239475](https://bbs.deepin.org/zh/post/239475)
-14. deepin使用再生龙Clonezilla做备份还原：[https://bbs.deepin.org/zh/post/239899](https://bbs.deepin.org/zh/post/239899)
-15. 浅谈Deepin备份恢复：[https://bbs.deepin.org/post/241469](https://bbs.deepin.org/post/241469)
-16. 一次完整的系统盘恢复经历：[https://bbs.deepin.org/post/242956](https://bbs.deepin.org/post/242956)
-17. 想问下应用商店是怎么只获取用户安装的应用的：[https://bbs.deepin.org/zh/post/227355](https://bbs.deepin.org/zh/post/227355)
-18. 深度商店巨量垃圾图标缓存位置：[https://bbs.deepin.org/zh/post/244113](https://bbs.deepin.org/zh/post/244113)
-19. 如何删除文件管理器内多出来的百度网盘、抖音等图标：[https://bbs.deepin.org/post/245100](https://bbs.deepin.org/post/245100)
-20. 分享几例 Linux 环境变量故障的解决：[https://bbs.deepin.org/post/246288](https://bbs.deepin.org/post/246288)
-21. 今天写写有关deepin的网络安全：[https://bbs.deepin.org/post/246674](https://bbs.deepin.org/post/246674)
-22. 如何获取对应系统日志：[https://bbs.deepin.org/post/247764](https://bbs.deepin.org/post/247764)
-23. 在deepin上使用容器扩展生态（支持图形软件甚至桌面环境）：[https://bbs.deepin.org/post/248123](https://bbs.deepin.org/post/248123)
-24. 常用快捷键整理：[https://bbs.deepin.org/zh/post/243512](https://bbs.deepin.org/zh/post/243512)
-25. 怎么取消Alt+空格的快捷键：[https://bbs.deepin.org/post/248391](https://bbs.deepin.org/post/248391)
-26. Deepin默认的时区设置浏览器不认导致变慢解决方法：[https://bbs.deepin.org/zh/post/253239](https://bbs.deepin.org/zh/post/253239)  （概括：改为上海时间）
-27. deepinv20系列添加ubuntu ppa(新手向)：[https://bbs.deepin.org/post/253720](https://bbs.deepin.org/post/253720)**（注意：换源有风险，操作需谨慎）**
-28.  20.8Glibc版本过低解决(高风险)：[https://bbs.deepin.org/post/254141](https://bbs.deepin.org/post/254141)**（注意：此为高风险操作，操作前请备份数据）**
-29. 自定义文件添加图标以及右键打开功能，以onnx文件为例：[https://bbs.deepin.org/post/25420](https://bbs.deepin.org/post/254204)
-30. docker 的 Dockerfile 简单使用：[https://bbs.deepin.org/post/257767](https://bbs.deepin.org/post/257767)
-31. 分享个通过咱们V23系统有线上公司内网，无线上外网的方法：[https://bbs.deepin.org/zh/post/253816](https://bbs.deepin.org/zh/post/253816)
-32. linux系统中硬盘的挂载与格式化：[https://blog.csdn.net/weixin_55250512/article/details/127215499](https://blog.csdn.net/weixin_55250512/article/details/127215499)
-33. 云服务器数据恢复案例3则：[https://bbs.deepin.org/post/253631](https://bbs.deepin.org/post/253631)
-34. 自定义文件添加图标以及右键打开功能，以onnx文件为例：[https://bbs.deepin.org/zh/post/254204](https://bbs.deepin.org/zh/post/254204)
-35. 分享让用户可以自己强制指定系统缩放的方法：[https://bbs.deepin.org/post/255588](https://bbs.deepin.org/post/255588)
-36. deepin UOS Linux源代码编译安装Nginx：[https://bbs.deepin.org/post/259345](https://bbs.deepin.org/post/259345)
-37. 用命令启动系统代理：[https://bbs.deepin.org/zh/post/256724](https://bbs.deepin.org/zh/post/256724)
-38. 使用timeshift实现系统和数据分开备份：[https://bbs.deepin.org/post/258143](https://bbs.deepin.org/post/258143)
+2. Windows ssh 客户端 PuTTY 正向与反向流量转发（转）：[https://bbs.deepin.org/zh/post/230148](https://bbs.deepin.org/zh/post/230148)
+3. deepin下ssh常用网络功能：[https://bbs.deepin.org/zh/post/231835](https://bbs.deepin.org/zh/post/231835)
+4. 桌面固定网络驱动器的教程视频-适用群晖、威联通NAS/共享文件夹：[https://bbs.deepin.org/zh/post/231878](https://bbs.deepin.org/zh/post/231878)
+5. 助力轻松修改你的系统用户名：[https://bbs.deepin.org/zh/post/232575](https://bbs.deepin.org/zh/post/232575)
+6. 深度文件管理器改造小记：[https://bbs.deepin.org/zh/post/237345](https://bbs.deepin.org/zh/post/237345)
+7. 找了很久的 while 无限循环终于解决了输入判断的问题：[https://bbs.deepin.org/zh/post/236712](https://bbs.deepin.org/zh/post/236712)
+8. 自定义控制中心的关于本机：[https://bbs.deepin.org/zh/post/237500](https://bbs.deepin.org/zh/post/237500)
+9. 如何设置锁屏时间为3min?：[https://bbs.deepin.org/zh/post/237606](https://bbs.deepin.org/zh/post/237606)
+10. 控制中心网关只能输入 IP 地址很反人类？试试这个：[https://bbs.deepin.org/zh/post/238342](https://bbs.deepin.org/zh/post/238342)
+11. 当linux杀毒软件遇到windows病毒——几款linux杀毒软件测试：[https://bbs.deepin.org/zh/post/239285](https://bbs.deepin.org/zh/post/239285)
+12. gocron定时任务：[https://bbs.deepin.org/zh/post/239475](https://bbs.deepin.org/zh/post/239475)
+13. 想问下应用商店是怎么只获取用户安装的应用的：[https://bbs.deepin.org/zh/post/227355](https://bbs.deepin.org/zh/post/227355)
+14. 深度商店巨量垃圾图标缓存位置：[https://bbs.deepin.org/zh/post/244113](https://bbs.deepin.org/zh/post/244113)
+15. 如何删除文件管理器内多出来的百度网盘、抖音等图标：[https://bbs.deepin.org/post/245100](https://bbs.deepin.org/post/245100)
+16. 分享几例 Linux 环境变量故障的解决：[https://bbs.deepin.org/post/246288](https://bbs.deepin.org/post/246288)
+17. 今天写写有关deepin的网络安全：[https://bbs.deepin.org/post/246674](https://bbs.deepin.org/post/246674)
+18. 如何获取对应系统日志：[https://bbs.deepin.org/post/247764](https://bbs.deepin.org/post/247764)
+19. 在deepin上使用容器扩展生态（支持图形软件甚至桌面环境）：[https://bbs.deepin.org/post/248123](https://bbs.deepin.org/post/248123)
+20. 常用快捷键整理：[https://bbs.deepin.org/zh/post/243512](https://bbs.deepin.org/zh/post/243512)
+21. 怎么取消Alt+空格的快捷键：[https://bbs.deepin.org/post/248391](https://bbs.deepin.org/post/248391)
+22. Deepin默认的时区设置浏览器不认导致变慢解决方法：[https://bbs.deepin.org/zh/post/253239](https://bbs.deepin.org/zh/post/253239) （概括：改为上海时间）
+23. deepinv20系列添加ubuntu ppa(新手向)：[https://bbs.deepin.org/post/253720](https://bbs.deepin.org/post/253720) **（注意：换源有风险，操作需谨慎）**
+24. 20.8Glibc版本过低解决(高风险)：[https://bbs.deepin.org/post/254141](https://bbs.deepin.org/post/254141) **（注意：此为高风险操作，操作前请备份数据）**
+25. docker 的 Dockerfile 简单使用：[https://bbs.deepin.org/post/257767](https://bbs.deepin.org/post/257767)
+26. 分享个通过咱们V23系统有线上公司内网，无线上外网的方法：[https://bbs.deepin.org/zh/post/253816](https://bbs.deepin.org/zh/post/253816)
+27. linux系统中硬盘的挂载与格式化：[https://blog.csdn.net/weixin_55250512/article/details/127215499](https://blog.csdn.net/weixin_55250512/article/details/127215499)
+28. 自定义文件添加图标以及右键打开功能，以onnx文件为例：[https://bbs.deepin.org/zh/post/254204](https://bbs.deepin.org/zh/post/254204)
+29. 分享让用户可以自己强制指定系统缩放的方法：[https://bbs.deepin.org/post/255588](https://bbs.deepin.org/post/255588)
+30. deepin UOS Linux源代码编译安装Nginx：[https://bbs.deepin.org/post/259345](https://bbs.deepin.org/post/259345)
+31. 用命令启动系统代理：[https://bbs.deepin.org/zh/post/256724](https://bbs.deepin.org/zh/post/256724)
+32. 低电量提示脚本：[https://bbs.deepin.org/post/260504](https://bbs.deepin.org/post/260504)
 
 ### 2.6 系统美化
 #### 2.6.1 壁纸
