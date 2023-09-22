@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2023-09-10T06:07:20.200Z
+date: 2023-09-10T06:18:44.671Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -714,6 +714,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 6. LinwinSoft DB server1.4 Cluste 高性能分布式集群数据库软件发布：[https://bbs.deepin.org/post/251546](https://bbs.deepin.org/post/251546)
 7. 思科模拟器（网工的同学看过来）：[https://bbs.deepin.org/post/250686](https://bbs.deepin.org/post/250686)
 8. Linux下使用EasyX库：[https://www.cnblogs.com/aaroncoding/p/17116879.html](https://www.cnblogs.com/aaroncoding/p/17116879.html)
+9. 微信开发者工具 Linux 社区版：[论坛](https://bbs.deepin.org/post/261258)    [GitHub仓库](https://github.com/msojocs/wechat-web-devtools-linux)
 
 #### 4.1.5 网络应用
 
@@ -763,6 +764,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 4. music-island介绍：[最近更新](https://bbs.deepin.org/post/259310)
 5. You-get强大的视频下载程序图形软件：[https://bbs.deepin.org/post/250587](https://bbs.deepin.org/post/250587)
 6.  [应用推荐]简洁美观好用的开源音乐软件：[https://bbs.deepin.org/post/252868](https://bbs.deepin.org/post/252868)
+7. 船新版本的Sonist音乐播放器更新了：[https://bbs.deepin.org/post/261392](https://bbs.deepin.org/post/261392)
 
 #### 4.1.8 影音编辑
 
@@ -803,6 +805,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 9. 通过docker快速部署stable diffusion实现AI绘画：[https://bbs.deepin.org/zh/post/256219](https://bbs.deepin.org/zh/post/256219)
 10. 羽云 GIF 编辑器 正式上架应用商店：[https://bbs.deepin.org/post/245929](https://bbs.deepin.org/post/245929)
 11. 应用探索 | Shotwell：轻量级原生照片管理及编辑工具：[https://bbs.deepin.org/post/260626](https://bbs.deepin.org/post/260626)
+12. linux blender中文输入 暂时解决方法：[https://bbs.deepin.org/zh/post/261609](https://bbs.deepin.org/zh/post/261609)
 
 #### 4.1.10 解压刻录
 
@@ -892,6 +895,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 39. Steam V1:1.0.0.76 发布 及 安装说明：[https://bbs.deepin.org/zh/post/255946](https://bbs.deepin.org/zh/post/255946)
 40. MAME街机游戏ROM：8人街霸 (sf2j) 中文语音汉语版：[https://bbs.deepin.org/post/261054](https://bbs.deepin.org/post/261054)
 41. 原神，启动！！！（这回没开玩笑）：[https://bbs.deepin.org/zh/post/261080](https://bbs.deepin.org/zh/post/261080)
+42. 在deepin畅游提瓦特的方法（重置版）：[https://bbs.deepin.org/zh/post/261576](https://bbs.deepin.org/zh/post/261576)
+
 ### 4.2 运行其他平台应用、虚拟机
 #### 4.2.1 UEngine/Waydroid
 > UEngine 用来在 deepin/UOS 上运行安卓应用，应用商店中的手机应用就使用了 UEngine 引擎。
@@ -956,6 +961,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 16. 关于docker容器使用以及使用SSH连接容器：[https://bbs.deepin.org/post/256485](https://bbs.deepin.org/post/256485)
 17. 书虫兼容环境 12.1.5 预告：[https://bbs.deepin.org/post/260098](https://bbs.deepin.org/post/260098)（已上架星火应用商店）
 18.  deepinV23系统下安装win10系统及移动硬盘/打印机连接：[https://bbs.deepin.org/post/261048](https://bbs.deepin.org/post/261048)
+19. 简单记录deepin20.9上使用gnome-boxes：[https://bbs.deepin.org/post/257497](https://bbs.deepin.org/post/257497)
 
 ### 4.3 软件开发
 
@@ -1011,6 +1017,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 50. AppImage打包流程：[https://bbs.deepin.org/zh/post/260891](https://bbs.deepin.org/zh/post/260891)
 51. 二进制文件制作封装成 deb 软件包：[https://bbs.deepin.org/post/261204](https://bbs.deepin.org/post/261204)
 52. deepin-unioncode 用户使用手册：[https://bbs.deepin.org/post/261338](https://bbs.deepin.org/post/261338)
+53. 科普： make makefile cmake nmake 都是些什么：[https://bbs.deepin.org/post/260957](https://bbs.deepin.org/post/260957)
 
 #### 4.3.1 Unilang 自研编程语言
 
@@ -1018,14 +1025,13 @@ dateCreated: 2022-11-01T12:45:22.559Z
 2. 元编程语言的诞生丨带你深入浅出解读Unilang！：[https://bbs.deepin.org/post/243383](https://bbs.deepin.org/post/243383)
 3. Unilang 官方仓库：[https://github.com/linuxdeepin/unilang](https://github.com/linuxdeepin/unilang)
 
-### 4.4 “玲珑”自研软件包格式
-
-1. 揭秘deepin 23，从这里开始！：[https://bbs.deepin.org/post/241059](https://bbs.deepin.org/post/241059)
-2. 深入探索玲珑 01——玲珑方案的创造！：[https://bbs.deepin.org/post/241762](https://bbs.deepin.org/post/241762)
-3. 深入探究玲珑 02——玲珑组件&权限管理机制！：[https://bbs.deepin.org/post/242144](https://bbs.deepin.org/post/242144)
-4. “玲珑”开发文档：[https://linglong.dev/guide/start/whatis.html](https://linglong.dev/guide/start/whatis.html)
-5. “玲珑”在线商店：[https://store.linglong.dev/](https://store.linglong.dev/)
-6. 随便聊一下玲珑包存放机制：[https://bbs.deepin.org/post/242825](https://bbs.deepin.org/post/242825)
+### 4.4 “玲珑”包管理工具集
+1. 玲珑官网：[https://linglong.dev/](https://linglong.dev/)
+2. 揭秘deepin 23，从这里开始！：[https://bbs.deepin.org/post/241059](https://bbs.deepin.org/post/241059)
+3. 深入探索玲珑 01——玲珑方案的创造！：[https://bbs.deepin.org/post/241762](https://bbs.deepin.org/post/241762)
+4. 深入探究玲珑 02——玲珑组件&权限管理机制！：[https://bbs.deepin.org/post/242144](https://bbs.deepin.org/post/242144)
+5. 随便聊一下玲珑包存放机制：[https://bbs.deepin.org/post/242825](https://bbs.deepin.org/post/242825)
+6. 玲珑详细介绍：[https://bbs.deepin.org/zh/post/260916](https://bbs.deepin.org/zh/post/260916)
 
 ## 五、社区与论坛
 ### 5.1 论坛使用
@@ -1134,6 +1140,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 22. 老电脑后续：2013年老台式机上deepin 20.8成功：[https://bbs.deepin.org/post/253918](https://bbs.deepin.org/post/253918)
 23. 用Deepin/UOS系统日常办公一周多感受：[https://bbs.deepin.org/post/260588](https://bbs.deepin.org/post/260588)
 24. 分屏系统的使用分享：[https://bbs.deepin.org/post/261169](https://bbs.deepin.org/post/261169)
+25. 在国产电脑鲲鹏920上重度使用一周的体验：[https://bbs.deepin.org/post/261724](https://bbs.deepin.org/post/261724)
 
 ### 6.2 其他系统的资源
 deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 deepin 有所不同，它们的 Wiki 仍有值得学习的知识。 [Debian Wiki](https://wiki.debian.org/zh_CN/FrontPage?action=show&redirect=%E9%A6%96%E9%A1%B5)  [ArchWiki](https://wiki.archlinuxcn.org/wiki/%E9%A6%96%E9%A1%B5)  [openSUSE Wiki](https://zh.opensuse.org/%E9%A6%96%E9%A1%B5)
@@ -1180,6 +1187,7 @@ deepin 20 是 Debian Linux 的一个分支。尽管其他的 Linux 发行版与 
 16. 第十六期：你管这玩意儿叫宣传视频？：[https://bbs.deepin.org/post/241824](https://bbs.deepin.org/post/241824)
 17. 第十七期：深度定制，deepin 由你掌控：[https://bbs.deepin.org/post/243975](https://bbs.deepin.org/post/243975)
 18. 第十八期：你这浏览器太假了。你再说，假吗？：[https://bbs.deepin.org/post/245176](https://bbs.deepin.org/post/245176)
+
 > 观【PPT SHOW】有感，大致弄了一套偏向行云设计风格的浏览器：[https://bbs.deepin.org/post/245213](https://bbs.deepin.org/post/245213)
 
 19. 第十九期：这，是你想象中的 DDE 吗？：[https://bbs.deepin.org/post/245770](https://bbs.deepin.org/post/245770)
