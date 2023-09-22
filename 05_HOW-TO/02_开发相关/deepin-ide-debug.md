@@ -2,13 +2,11 @@
 title: deepin-IDE 中的调试技术
 description: 介绍deepin-IDE的调试功能和实现原理
 published: true
-date: 2023-09-22T10:00:06.364Z
+date: 2023-09-22T10:18:59.408Z
 tags: deepin-ide, deepin-unioncode, ide
 editor: markdown
 dateCreated: 2023-09-22T09:24:01.787Z
 ---
-
-# deepin-IDE 中的调试技术
 
 前不久深度科技旗下deepin社区发布了自己的 IDE：deepin-IDE，得到了全网用户尤其是开源社区用户的广泛关注，目前在 GitHub（[https://github.com/linuxdeepin/deepin-unioncode](https://github.com/linuxdeepin/deepin-unioncode)）仓库的 star 数量已经达到 600 多个，说明大家的热情还是很高涨的。
 
