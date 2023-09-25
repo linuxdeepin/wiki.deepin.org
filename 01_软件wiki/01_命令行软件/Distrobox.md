@@ -2,14 +2,14 @@
 title: Distrobox
 description: 使用 Distrobox 在 v23 轻松安装你想要的软件包
 published: true
-date: 2023-09-25T02:04:53.272Z
+date: 2023-09-25T02:06:22.086Z
 tags: 软件
 editor: markdown
 dateCreated: 2023-09-25T02:04:53.272Z
 ---
 
 # 使用 Distrobox 在 v23 轻松安装你想要的软件包
-**本文转载自Blumia的论坛文章[使用 Distrobox 在 v23 轻松安装你想要的软件包](https://bbs.deepin.org/post/257787)，在这做个记录方便大家检索。**
+> 本文转载自Blumia的论坛文章[使用 Distrobox 在 v23 轻松安装你想要的软件包](https://bbs.deepin.org/post/257787)，在这做个记录方便大家检索。{.is-info}
 
 ---
 deepin v23 起，deepin 发行版仓库中的所有软件包就均由 deepin 社区中维护软件包的贡献者们一同维护了，即所谓的“根发行版”或者说“根社区”。这对广大普通用户意味着两件事：
