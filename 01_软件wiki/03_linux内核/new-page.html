@@ -2,20 +2,20 @@
 title: linux内核配置项介绍
 description: 内核配置信息是关于Linux操作系统内核的配置选项集合，其中配置了Linux操作系统可用的硬件、功能和特性。
 published: true
-date: 2023-09-25T02:12:03.719Z
+date: 2023-09-25T02:13:43.005Z
 tags: 内核配置项
 editor: ckeditor
 dateCreated: 2023-08-03T08:54:17.028Z
 -->
 
 <p>&nbsp; Linux 内核是 Linux 操作系统的主要组件，也是计算机硬件与其进程之间的核心接口。它负责两者之间的通信，还要尽可能高效地管理资源。之所以称为内核，是因为它在操作系统中就像果实硬壳中的种子一样，并且控制着硬件的所有主要功能。内核的用途主要有以下 4 项工作：</p>
-<p>内存管理：追踪记录有多少内存存储了什么以及存储在哪里;</p>
-<p>进程管理：确定哪些进程可以使用中央处理器、何时使用以及持续多长时间;</p>
-<p>设备驱动程序：充当硬件与进程之间的调解程序/解释程序;</p>
-<p>系统调用和安全防护：从流程接受服务请求.</p>
+<p><strong>内存管理</strong>：追踪记录有多少内存存储了什么以及存储在哪里;</p>
+<p><strong>进程管理</strong>：确定哪些进程可以使用中央处理器、何时使用以及持续多长时间;</p>
+<p><strong>设备驱动程序</strong>：充当硬件与进程之间的调解程序/解释程序;</p>
+<p><strong>系统调用和安全防护</strong>：从流程接受服务请求.</p>
 <p>&nbsp; 内核配置信息是关于Linux操作系统内核的配置选项集合，其中配置了Linux操作系统可用的硬件、功能和特性。这些配置选项通过内核内置的.config文件进行配置，该文件通常存储在Linux系统的/boot目录或者内核源代码目录中。</p>
 <h1 style="text-align:justify;"><strong>1.内核配置项介绍</strong></h1>
-<p>常见的内核配置信息config文件中经常出现的配置信息如下：</p>
+<p>常见的内核配置信息<code>.config</code>文件中经常出现的配置信息如下：</p>
 <p><code>CONFIG_HZ</code>：这个配置指定了内核每秒进行的时钟滴答数。默认值是100，这意味着内核将每秒执行100次调度。</p>
 <p><code>CONFIG_MODULES</code>: 这个配置指定了内核是否支持模块化，即是否支持动态加载和卸载模块的功能。</p>
 <p><code>CONFIG_BLK_DEV_SD</code>: 这个配置指定了内核是否支持块设备SD卡。</p>
@@ -25,6 +25,7 @@ dateCreated: 2023-08-03T08:54:17.028Z
 <p><code>CONFIG_USB_ARCH_HAS_HCD</code>：这个配置指定了内核是否支持USB主控制器硬件驱动程序。</p>
 <p><code>CONFIG_SLAB</code>: 这个配置指定了内核如何进行内存分配管理。</p>
 <p>配置正确的内核能够让系统更加的高效和顺畅。</p>
+<p>我们可以访问<a href="https://www.kernelconfig.io/index.html">https://www.kernelconfig.io/index.html</a>来检索相应配置向的作用。 &nbsp;</p>
 <h1 style="text-align:justify;"><strong>2.如何查看系统中已配置的内核配置项</strong></h1>
 <p>在Linux中，可以使用以下命令来查看内核的配置信息：</p>
 <p>方式一：</p>
