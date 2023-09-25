@@ -2,7 +2,7 @@
 title: linux内核配置项介绍
 description: 内核配置信息是关于Linux操作系统内核的配置选项集合，其中配置了Linux操作系统可用的硬件、功能和特性。
 published: true
-date: 2023-08-03T08:55:58.554Z
+date: 2023-09-25T02:11:16.462Z
 tags: 内核配置项
 editor: ckeditor
 dateCreated: 2023-08-03T08:54:17.028Z
@@ -28,16 +28,12 @@ dateCreated: 2023-08-03T08:54:17.028Z
 <h1 style="text-align:justify;"><strong>2.如何查看系统中已配置的内核配置项</strong></h1>
 <p>在Linux中，可以使用以下命令来查看内核的配置信息：</p>
 <p>方式一：</p>
-<p>```</p>
-<p>zcat /proc/config.gz</p>
-<p>```</p>
+<pre><code class="language-plaintext">zcat /proc/config.gz</code></pre>
 <p>该命令会显示当前正在运行的内核的配置信息，其中包含了许多内核选项的设置。</p>
 <p>可以配合grep命令对查询项进行过滤查找</p>
 <figure class="image"><img src="/截图_选择区域_20230803164312.png"></figure>
 <p>方式二：</p>
-<p>```</p>
-<p>less /boot/config-$(uname -r)</p>
-<p>```</p>
-<p>该命令将使用 `less` 命令打开当前正在运行的内核的配置文件，并允许您逐页浏览其中的内容。当然，也可以改用cat</p>
+<pre><code class="language-plaintext">less /boot/config-$(uname -r)</code></pre>
+<p>该命令将使用<code>less</code>命令打开当前正在运行的内核的配置文件，并允许您逐页浏览其中的内容。当然，也可以改用cat</p>
 <figure class="image"><img src="/cat.png"></figure>
 <p>&nbsp;</p>
