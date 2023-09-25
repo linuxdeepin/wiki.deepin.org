@@ -2,7 +2,7 @@
 title: linux内核配置项介绍
 description: 内核配置信息是关于Linux操作系统内核的配置选项集合，其中配置了Linux操作系统可用的硬件、功能和特性。
 published: true
-date: 2023-09-25T02:14:08.670Z
+date: 2023-09-25T02:14:25.850Z
 tags: 内核配置项
 editor: markdown
 dateCreated: 2023-08-03T08:54:17.028Z
