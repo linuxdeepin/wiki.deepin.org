@@ -2,7 +2,7 @@
 title: linux内核启动参数
 description: 
 published: true
-date: 2023-05-27T11:03:22.817Z
+date: 2023-09-25T02:16:51.307Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-06T02:33:08.477Z
@@ -34,9 +34,9 @@ linux 启动问题，安装问题，驱动问题，是很多linux用户特别烦
 3. `nvidia_drm` ： /lib/modules/4.15.0-30deepin-generic/kernel/drivers/video/nvidia-drm.ko ，DRM是“直接渲染管理器”的缩写，是一个替代“fb帧缓冲区”的现代版本，包括“GEM图形执行管理器”和“KMS内核模式设置”技术。其作用就是更好的协作多应用和多GPU。其中多GPU技术类似"Nvidia Optimus"，称为"prime"。好吧，说到底就是nvidia驱动组成的一部分。
 4. `nouveau` ： 可以理解为nvidia的第三方开源驱动，因为是第三方，所以兼容性差，性能低。因为是开源，和linux的适配度高，喜忧参半的一款驱动，也是nvidia显卡在linux的默认驱动。
 5. `i915` ： intel的官方驱动。
-6. radeon : 旧的amd显卡设备的开源驱动
-7. amdgpu : 新的amd显卡设备的开源驱动
-8. amdgpu-pro ： 官方闭源驱动
+6. `radeon` : 旧的amd显卡设备的开源驱动
+7. `amdgpu` : 新的amd显卡设备的开源驱动
+8. `amdgpu-pro` ： 官方闭源驱动
 
 ### 三、initramfs
 
@@ -61,13 +61,13 @@ linux /.../vmlinuz... root=UUID=xxx ...
 参数格式：
 
 1. 模块名.参数=值
-2. modprobe 动态模块名 参数=值
+2. `modprobe` 动态模块名 参数=值
 3. 参数
 
 获取参数的方法：
 
-1. /sys/module/模块名/parameters
-2. /proc/cmdline 启动参数
+1. `/sys/module/模块名/parameters`
+2. `/proc/cmdline` 启动参数
 3. `modinfo -p 模块名`
 
 常用模块：
@@ -79,7 +79,7 @@ linux /.../vmlinuz... root=UUID=xxx ...
 - `IOMMU`   设备内存相关
 - `KVM`  虚拟机
 - `LOOP` 回环设备
-- 显卡驱动：i915、nvidia、nouveau等
+- 显卡驱动：`i915`、`nvidia`、`nouveau`等
 
 常用参数：
 
