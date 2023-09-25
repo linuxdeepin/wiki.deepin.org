@@ -2,7 +2,7 @@
 title: deepin-ports 仓库管理
 description: 介绍 deepin-ports 的架构适配仓库及其管理
 published: true
-date: 2023-08-21T04:10:45.420Z
+date: 2023-09-25T02:04:51.022Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-21T04:02:03.889Z
@@ -22,13 +22,12 @@ https://ci.deepin.com/repo/deepin/deepin-ports/deepin-port-stage1/
 
 ## 合并目标
 
+0. 在 deepin 主线构建出 RV64/LA64 的基本工具链
 1. 将 deepin-ports 的仓库的 patch （几乎）完全合并入主线
 2. 将 deepin-ports 必需的高版本软件包在主线中（几乎）完全升级
-3. 将 deepin-ports 中无法合入主线的小部分软件包在主线的分支中良好地维护。
+3. 将 deepin-ports 中无法合入主线的小部分软件包在主线的分支中良好地维护
 
-目前临时使用的 OBS 项目：
-
-- https://build.deepin.com/project/show/home:yukarichiba:deepin-ports
+主线构建项目： https://build.deepin.com/project/show/deepin:Develop:main
 
 ## 合并方式
 
