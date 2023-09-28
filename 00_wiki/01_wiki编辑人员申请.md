@@ -2,7 +2,7 @@
 title: 01_wiki编辑人员申请
 description: 
 published: true
-date: 2023-09-27T08:00:02.518Z
+date: 2023-09-28T07:27:05.606Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-17T01:22:53.902Z
@@ -21,7 +21,7 @@ dateCreated: 2022-10-17T01:22:53.902Z
 
 ## 获取编辑权限
 
-请在按要求填写详细信息，deepin运营同学会定期审查申请信息赋予编辑权限，
+按要求填写详细信息，deepin运营同学会定期审查申请信息赋予编辑权限，
 [wiki编辑权限申请](https://www.wjx.top/vm/h4bFVg0.aspx#)。
 
 ## 联系我们
