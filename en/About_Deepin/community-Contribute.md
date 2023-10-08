@@ -1,9 +1,9 @@
 ---
-title: How to participate in deepin community
+title: How to participate in deepin Community
 description: How to participate in deepin community, such as contribute code, contribute documents, etc.
 published: true
-date: 2023-10-08T06:26:32.112Z
-tags: how to participate, contribute code, contribute documents, testing
+date: 2023-10-08T06:27:25.306Z
+tags: contribute code, contribute documents, how to participate, testing
 editor: markdown
 dateCreated: 2023-10-08T06:26:32.112Z
 ---
