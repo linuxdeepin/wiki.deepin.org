@@ -2,7 +2,7 @@
 title: How to participate in deepin Community
 description: How to participate in deepin community, such as contribute code, contribute documents, etc.
 published: true
-date: 2023-10-08T06:27:25.306Z
+date: 2023-10-11T05:50:16.028Z
 tags: contribute code, contribute documents, how to participate, testing
 editor: markdown
 dateCreated: 2023-10-08T06:26:32.112Z
@@ -22,7 +22,7 @@ In the deepin Community, you can:
 The R&D workflow related to deepin is located on GitHub, so the code contribution process is not much different from the regular Fork + Pull Request process on GitHub.
 - Learn about [the deepin Community SIG group](https://www.deepin.org/index/docs/sig/sig/LISTS) and find projects that interest you. If you need to create a SIG group, you can refer to [SIG 创建指南](https://www.deepin.org/index/docs/sig/sig/README.zh_CN)
 - Before officially contributing code, you can read the CLA[(Contributor License Agreement)](https://wiki.deepin.org/zh/03_%E6%8A%80%E6%9C%AF%E8%A7%84%E8%8C%83/01_%E6%96%87%E6%A1%A3%E8%A7%84%E8%8C%83/%E8%B4%A1%E7%8C%AE%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE)；
-- Learn about [How to contribute code](/zh/05_HOW-TO/06_参与deepin贡献相关/如何贡献代码)；
+- Learn about [contribute_code](/en/About_Deepin/contribute_code)
 
 ## Contribute Documents
 Currently, there are three main document platforms in the deep community：
