@@ -2,7 +2,7 @@
 title: Deepin_Profile
 description: 
 published: true
-date: 2023-02-22T02:18:31.068Z
+date: 2023-10-17T06:47:44.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:00:55.855Z
@@ -11,7 +11,7 @@ dateCreated: 2022-05-13T08:00:55.855Z
 ![deepin_logo.png](/图片存储/deepin_logo.png)
 # Deepin Operating System
 &emsp; Deepin is a Linux distribution dedicated to providing beautiful, easy to use, secure and stable services to users around the world, and has always been the highest ranked Linux distribution developed by a Chinese team .
-## Mailstone  
+## Milestone  
 ### Release Plan in 2022 
 https://www.deepin.org/en/developer-community/planning/
 ### Released in 2008-2015 years
