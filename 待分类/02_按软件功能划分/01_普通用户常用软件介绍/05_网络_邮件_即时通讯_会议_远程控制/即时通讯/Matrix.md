@@ -2,7 +2,7 @@
 title: Matrix
 description: 介绍 Matrix 即时通讯平台的使用方式
 published: true
-date: 2023-03-23T02:18:00.014Z
+date: 2023-11-03T01:40:41.185Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T06:37:05.800Z
@@ -20,7 +20,7 @@ Matrix 是一个开源、开放、轻量级、去中心化的即时聊天通讯�
 
 如果您还没有在任何实例注册过 Matrix 帐号，您可以考虑在下面列表中的任意一个实例中注册帐号：
 
-- deepin (推荐)：[账号申请](https://cooperation.uniontech.com/public/form/41b23e5518074c1b958d11e5c8d2d54e) | [登录地址](https://chat.getdeepin.org)
+- deepin (推荐)：[账号申请](mailto:support@deepin.org) | [登录地址](https://chat.getdeepin.org)
 - Mozilla（推荐）：https://chat.mozilla.org/#/welcome
 - Fedora Project：https://chat.fedoraproject.org/
 - openSuSE：https://chat.opensuse.org/
