@@ -2,7 +2,7 @@
 title: deepin-ports 仓库管理
 description: 介绍 deepin-ports 的架构适配仓库及其管理
 published: true
-date: 2023-09-25T02:04:51.022Z
+date: 2023-11-22T02:38:37.191Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-21T04:02:03.889Z
@@ -10,13 +10,35 @@ dateCreated: 2023-08-21T04:02:03.889Z
 
 # 仓库介绍
 
-目前 `deepin-ports` 仓库尚未合入主线，CI 流程未就绪，`deepin-ports` 主仓库地址为：
+> **20231122 更新**
+`riscv64`/`main` 合并进度： 🟩 大部分构建成功 
+`riscv64`/`community` 合并进度： 🟨 部分构建成功
+`riscv64`/`dde` 合并进度： 🟨 部分构建成功
+`loong64`/`main` 合并进度： 🟨 部分构建成功
+`loong64`/`community` 合并进度： ⬛ 尚未开始构建
+`loong64`/`dde` 合并进度： ⬛ 尚未开始构建
+{.is-info}
+
+
+旧的 `deepin-ports` 仓库如下：
 
 ```
 https://ci.deepin.com/repo/deepin/deepin-ports/deepin-port-stage1/
 ```
 
+新的 `deepin` 主线仓库同 CI 构建仓库：
+
+```
+https://ci.deepin.com/repo/obs/deepin:/Develop:/main/standard/
+```
+
 如需实机测试，需要使用 debootstrap 并自行构建内核。
+
+# 镜像构建脚本
+
+```
+https://github.com/YukariChiba/deepin-ports-image/
+```
 
 # 仓库合并计划
 
@@ -55,11 +77,14 @@ https://ci.deepin.com/repo/deepin/deepin-ports/deepin-port-stage1/
 
 ### riscv64
 
-构建资源： SG2042 EVB x2
+构建资源： 
+- SG2042 EVB x4
 
 ### loongarch64
 
-构建资源：3C5000 x1
+构建资源：
+- 3C5000 x3
+- 3A5000 x2
 
 # 相关文件
 
