@@ -2,7 +2,7 @@
 title: DDUC
 description: 深度开发者与用户大会
 published: true
-date: 2023-08-22T08:00:31.555Z
+date: 2023-11-23T06:36:18.777Z
 tags: 活动
 editor: markdown
 dateCreated: 2023-08-22T06:24:55.625Z
@@ -16,6 +16,9 @@ DDUC（Deepin Developer&User Conference），称为“深度开发者与用户�
 英文名：Deepin Developer&User Conference
 简称：DDUC
 ## 历届DDUC主题
+- 2023年11月18日，第十三届：Always UP！
+https://bbs.deepin.org/post/264027
+[大会云相册](https://live.photoplus.cn/live/pc/50295435#/live)
 - 2022年12月24日，第十二届：深度热爱，一同进化
 https://bbs.deepin.org/post/247524
 - 2021年12月11日，第十一届：开源你我·始终如一
