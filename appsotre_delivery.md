@@ -2,7 +2,7 @@
 title: deepin（深度）应用商店应用软件投递说明
 description: 给deepin系统上应用商店投递应用软件
 published: true
-date: 2023-12-01T02:28:54.765Z
+date: 2023-12-04T05:47:36.721Z
 tags: 上传应用, 发布应用, 应用发布, 应用商店, 应用投递, 投递应用, 深度商店, 深度应用商店
 editor: markdown
 dateCreated: 2022-04-21T03:50:00.064Z
