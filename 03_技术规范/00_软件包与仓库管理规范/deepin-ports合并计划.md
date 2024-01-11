@@ -2,7 +2,7 @@
 title: deepin-ports 合并计划
 description: 介绍 deepin-ports 的架构适配仓库及其合并计划
 published: true
-date: 2024-01-11T05:55:56.068Z
+date: 2024-01-11T05:55:59.767Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-21T04:02:03.889Z
