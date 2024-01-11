@@ -2,7 +2,7 @@
 title: deepin-ports 合并计划
 description: 介绍 deepin-ports 的架构适配仓库及其合并计划
 published: true
-date: 2024-01-11T05:55:59.767Z
+date: 2024-01-11T05:57:52.970Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-21T04:02:03.889Z
@@ -29,7 +29,7 @@ dateCreated: 2023-08-21T04:02:03.889Z
 > **deepin:stable 稳定仓库 20231228 更新**
 `riscv64`/`main` 合并进度： 🟩 主线 大部分构建成功 
 `riscv64`/`community` 合并进度： 🟩 主线 大部分构建成功 
-`riscv64`/`dde` 合并进度： ✅ 主线 大部分构建成功 (除 qtwebengine)
+`riscv64`/`dde` 合并进度： ✅ 主线 全部构建成功 (除 qtwebengine)
 `riscv64`/实机测试: 🟨 DDE 桌面环境已就绪，功能不完整
 `riscv64`/镜像: ⬛ 尚未开始构建
 =========================================
@@ -50,12 +50,16 @@ https://ci.deepin.com/repo/deepin/deepin-ports/deepin-port-stage1/
 
 ```
 https://ci.deepin.com/repo/obs/deepin:/Develop:/main/standard/
+https://ci.deepin.com/repo/obs/deepin:/Develop:/community/standard/
+https://ci.deepin.com/repo/obs/deepin:/Develop:/dde/standard/
 ```
 
 新的 `deepin` 主线仓库同 CI 稳定构建仓库：
 
 ```
 https://ci.deepin.com/repo/obs/deepin:/stable:/main/stable/
+https://ci.deepin.com/repo/obs/deepin:/stable:/community/stable/
+https://ci.deepin.com/repo/obs/deepin:/stable:/dde/stable/
 ```
 
 如需实机测试，需要使用 debootstrap 并自行构建内核。
@@ -105,6 +109,7 @@ https://github.com/YukariChiba/deepin-ports-image/
 
 构建资源： 
 - SG2042 EVB x4
+- SG2042 Server x2 (山东大学提供)
 
 ### loongarch64
 
