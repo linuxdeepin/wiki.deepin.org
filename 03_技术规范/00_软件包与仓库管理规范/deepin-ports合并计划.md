@@ -2,7 +2,7 @@
 title: deepin-ports 合并计划
 description: 介绍 deepin-ports 的架构适配仓库及其合并计划
 published: true
-date: 2024-01-11T05:57:52.970Z
+date: 2024-01-12T09:37:00.547Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-21T04:02:03.889Z
@@ -29,7 +29,7 @@ dateCreated: 2023-08-21T04:02:03.889Z
 > **deepin:stable 稳定仓库 20231228 更新**
 `riscv64`/`main` 合并进度： 🟩 主线 大部分构建成功 
 `riscv64`/`community` 合并进度： 🟩 主线 大部分构建成功 
-`riscv64`/`dde` 合并进度： ✅ 主线 全部构建成功 (除 qtwebengine)
+`riscv64`/`dde` 合并进度： ✅ 主线 全部构建成功
 `riscv64`/实机测试: 🟨 DDE 桌面环境已就绪，功能不完整
 `riscv64`/镜像: ⬛ 尚未开始构建
 =========================================
