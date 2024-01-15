@@ -2,7 +2,7 @@
 title: deepin-ports 合并计划
 description: 介绍 deepin-ports 的架构适配仓库及其合并计划
 published: true
-date: 2024-01-15T10:14:05.041Z
+date: 2024-01-15T10:14:17.981Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-21T04:02:03.889Z
@@ -15,7 +15,7 @@ dateCreated: 2023-08-21T04:02:03.889Z
 **deepin:stable 稳定仓库 20240115 更新**
 |仓库|main|community|dde|实机测试|镜像|发布状态|
 |--|--|--|--|--|--|--|
-|`riscv64`|🟩 大部分构建成功|🟩 大部分构建成功|✅ 全部构建成功|✅ DDE 桌面环境已就绪|⬛ 即将开始|🟩 等待 Beta3 发布|
+|`riscv64`|🟩 大部分构建成功|🟩 大部分构建成功|✅ 全部构建成功|✅ DDE 桌面环境已就绪|🟨 即将开始|🟩 等待 Beta3 发布|
 |`loong64`|🟨 部分构建成功|🟩 大部分构建成功|🟨 部分构建成功|⬛ 尚未开始|⬛ 尚未开始|⬛ 尚未发布|
 
 ## 仓库列表
