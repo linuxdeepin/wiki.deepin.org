@@ -1,41 +1,39 @@
 ---
-title: 提案模板
+title: Input method switcher
 description: 
 published: true
-date: 2023-11-14T08:17:54.028Z
+date: 2024-01-23T07:26:32.377Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-14T08:15:52.229Z
 ---
 
-## 提案模板
-
-除了以下提供的模板外，还可以根据自身情况提供一些信息，比如 *What the intern will learn*、*Recommended reading* 等。
-
 ### Project Title/Description
-
-TO BE FILLED
+fcitx and ibus im chooser
   
 ### Detailed Project Description (2-5 sentences)
 
-TO BE FILLED
+No matter which system you are in, input method is almost a must-have software. There are two main input method support frameworks under Linux, Fcitx and IBus. In this project you can easily switch input method frameworks as easily as switch the input method.
 
 ### Expected Outcomes
 
-TO BE FILLED
+Write a input method chooser for DDE v23, which can easily switch input method frameworks
 
 ### Skills Required/Preferred
 
-TO BE FILLED
+- Linux desktop development experience
+- C++/Qt
+- wayland(input method)
+- im-config
 
 ### Possible Mentors
 
-TO BE FILLED
+- zsien
+- dengbo11
 
 ### Expected Size of Project (90, 175, or 350 hours)
 
-TO BE FILLED
+120
 
 ### Difficulty Rating (Easy, Medium, Hard)
-
-TO BE FILLED
+Medium
