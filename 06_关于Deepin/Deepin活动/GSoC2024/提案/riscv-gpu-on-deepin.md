@@ -2,7 +2,7 @@
 title: On-board GPU support for deepin on RISC-V
 description: This project aims to provide support for the on-board GPU (Imagination PVR) driver on most RISC-V development boards based on the deepin V23, and try to merge the relevant patches into the deepin mainline repository.
 published: true
-date: 2024-01-24T03:36:20.735Z
+date: 2024-01-24T03:40:27.302Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-24T03:19:53.370Z
@@ -48,7 +48,7 @@ Required skills for intern.
 - Experience using linux and its desktop environment (daily user is preferred)
 - Ability to communicate in English, primarily in writing
 - Interest in open source software and the linux desktop operating system
-- Familiarity with at least one programming languages
+- Familiarity with at least one programming language
 
 Preferred skill for intern.
 
