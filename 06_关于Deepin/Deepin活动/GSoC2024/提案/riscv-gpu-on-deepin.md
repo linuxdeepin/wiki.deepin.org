@@ -2,7 +2,7 @@
 title: On-board GPU support for deepin on RISC-V
 description: This project aims to provide support for the on-board GPU (Imagination PVR) driver on most RISC-V development boards based on the deepin V23, and try to merge the relevant patches into the deepin mainline repository.
 published: true
-date: 2024-01-24T03:40:27.302Z
+date: 2024-01-24T03:41:02.576Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-24T03:19:53.370Z
@@ -12,17 +12,17 @@ dateCreated: 2024-01-24T03:19:53.370Z
 
 On-board GPU support for deepin on RISC-V
   
-### Detailed Project Description (2-5 sentences)
+## Detailed Project Description (2-5 sentences)
 
 This project aims to provide support for the on-board GPU (Imagination PVR) driver on most RISC-V development boards based on the deepin V23, and try to merge the relevant patches into the deepin mainline repository.
 
-### Background
+## Background
 
 Imagination PVR is a major GPU vendor on the RISC-V platform, and most RISC-V development boards use its solutions. However, Imagination's GPU drivers have not yet been mainlined, and most mainline linux distros still use software rendering based on llvmpipe/swrast on RISC-V development boards.
 
 One of the goals of deepin V23 is to complete its RISC-V support. As a linux distribution focused on the desktop experience, GPU driver adaptation is an important part of multi-architecture support.
 
-### Expected Outcomes
+## Expected Outcomes
 
 The possible outcomes include:
 - Contributions to a part of the deepin main repository
@@ -34,14 +34,14 @@ Recommended RISC-V devices:
 - Sipeed LicheePi 4A (TH1520)
 - StarFive VisionFive 2 (JH7110)
 
-### What the intern will learn
+## What the intern will learn
 
 The intern will learn how to:
 - Familiarize themselves with the packaging of debian-based distros, master how to debug packaging issues, and become a contributor to the deepin community
 - Understand the driver adaptation process of development boards for linux distros, and contribute to the RISC-V ecosystem
 - Have a basic understanding of the linux graphics stack and RISC-V architecture
 
-### Skills Required/Preferred
+## Skills Required/Preferred
 
 Required skills for intern.
 
@@ -56,14 +56,14 @@ Preferred skill for intern.
 - Knowledge of linux graphics stack, e.g. OpenGL ES and Vulkan.
 - Experience in adapting RISC-V and its development boards to linux operating systems, especially desktop environments
 
-### Possible Mentors
+## Possible Mentors
 
 - [YukariChiba@GitHub/Telegram](https://github.com/YukariChiba)
 
-### Expected Size of Project (90, 175, or 350 hours)
+## Expected Size of Project (90, 175, or 350 hours)
 
 350 hours
 
-### Difficulty Rating (Easy, Medium, Hard)
+## Difficulty Rating (Easy, Medium, Hard)
 
 Hard
