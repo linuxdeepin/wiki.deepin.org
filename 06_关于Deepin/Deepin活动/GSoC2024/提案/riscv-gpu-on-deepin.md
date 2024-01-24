@@ -1,8 +1,8 @@
 ---
 title: On-board GPU support for deepin on RISC-V
-description: 
+description: This project aims to provide support for the on-board GPU (Imagination PVR) driver on most RISC-V development boards based on the deepin V23, and try to merge the relevant patches into the deepin mainline repository.
 published: true
-date: 2024-01-24T03:36:04.336Z
+date: 2024-01-24T03:36:20.735Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-24T03:19:53.370Z
