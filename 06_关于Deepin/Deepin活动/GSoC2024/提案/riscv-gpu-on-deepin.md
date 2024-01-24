@@ -1,8 +1,8 @@
 ---
-title: GPU support for deepin on RISC-V
+title: On-board GPU support for deepin on RISC-V
 description: 
 published: true
-date: 2024-01-24T03:35:35.762Z
+date: 2024-01-24T03:36:04.336Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-24T03:19:53.370Z
