@@ -2,7 +2,7 @@
 title: GPU support for deepin on RISC-V
 description: 
 published: true
-date: 2024-01-24T03:19:53.370Z
+date: 2024-01-24T03:22:01.242Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-24T03:19:53.370Z
@@ -55,7 +55,7 @@ TO BE FILLED
 
 ### Possible Mentors
 
-- YukariChiba@GitHub
+- [YukariChiba@GitHub/Telegram](https://github.com/YukariChiba)
 
 ### Expected Size of Project (90, 175, or 350 hours)
 
