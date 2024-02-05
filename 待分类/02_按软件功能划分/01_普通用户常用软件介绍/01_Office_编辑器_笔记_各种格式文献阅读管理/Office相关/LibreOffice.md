@@ -2,7 +2,7 @@
 title: LibreOffice
 description: 
 published: true
-date: 2023-02-22T08:56:10.754Z
+date: 2024-02-05T08:21:29.668Z
 tags: office
 editor: markdown
 dateCreated: 2022-04-21T03:37:26.108Z
@@ -27,6 +27,9 @@ LibreOffice是一款功能强大的办公套件，可用于文本文档、电子
 
 ## 常见问题
 
+高分屏下 LibreOffice 的图标显示不清晰，是因为默认情况下的图标主题不是矢量化的。可以在 `工具>选项>LibreOffice>视图>图标主题` 中调整主题至 SVG 主题。
+
+https://bugs.documentfoundation.org/show_bug.cgi?id=115439
 
 ## 相关链接
 
