@@ -2,8 +2,8 @@
 title: Linux内存压缩技术
 description: 通过zSwap, zRAM, zCache等方式压缩内存，节省内存空间，提升系统性能
 published: true
-date: 2024-03-14T07:32:07.882Z
-tags: zswap, zram, zcache, 内存压缩, zsmalloc, zbud, z3fold
+date: 2024-03-27T18:49:14.230Z
+tags: z3fold, zbud, zcache, zram, zsmalloc, zswap, 内存压缩
 editor: markdown
 dateCreated: 2024-03-14T07:32:07.882Z
 ---
@@ -107,7 +107,7 @@ Zram内存压缩技术本质上就是以时间换空间。通过CPU压缩、解�
 下面例子配置zram大小为2GB
 `echo 2147483648 > /sys/block/zram0/disksize`
 
-### 6.1.3 使能zram
+### 6.1.3 启用zram
 `mkswap /dev/zram0
 swapon /dev/zram0`
 
