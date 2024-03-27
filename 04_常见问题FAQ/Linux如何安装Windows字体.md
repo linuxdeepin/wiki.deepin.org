@@ -2,7 +2,7 @@
 title: Linux如何安装Windows字体
 description: 
 published: true
-date: 2023-02-22T09:11:26.067Z
+date: 2024-03-27T18:46:13.537Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-19T16:13:30.403Z
@@ -63,5 +63,3 @@ sudo fc-cache -fv
 试着打开一下 WPS Office，那些熟悉的 Windows 字体是不是出现了呢？
 
 ![wps.webp](/wps.webp)
-## 备注
-我也在 B 站上发表过本篇教程：https://www.bilibili.com/read/cv16481012
