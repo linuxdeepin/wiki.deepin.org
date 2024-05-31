@@ -2,7 +2,7 @@
 title: Contact the deepin Officials
 description: How to contact deepin community officials
 published: true
-date: 2024-05-31T01:45:15.022Z
+date: 2024-05-31T02:05:22.642Z
 tags: contact deepin
 editor: markdown
 dateCreated: 2024-05-31T01:45:15.022Z
