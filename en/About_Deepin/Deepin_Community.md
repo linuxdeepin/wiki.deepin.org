@@ -2,187 +2,130 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2023-02-22T02:18:21.230Z
+date: 2024-05-31T02:23:19.826Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
 ---
 
-# Community Manifesto 
-## Introduction
+# 1. General Guidelines
 
-- Deepin Open Source Community is an open source community composed of developers, designers, members and advocates. 
-- We are committed to providing a free and open communication platform and the best open source operating system for all through community development and collaboration! 
-- Whether you are an experienced developer, a creative designer, or an ordinary user, we welcome you to join us and contribute to the community. 
+## 1.1 deepin Community
+The deepin community (hereinafter referred to as the "Community") is an open-source community formed by enterprises, institutions, social groups, individual developers, etc., based on the principles of co-building, co-governing, and sharing.
 
-## Convention
-> open, transparency, freedom, sharing and cooperation
+## 1.2 Community Vision
+Through the joint efforts of community members, to build an internationally renowned and world-leading open-source community, and to create open-source desktop operating system community products and other software products (hereinafter referred to as "Community Products").
 
-&emsp; The deepin open source community takes the concept of "open,transparency, freedom,sharing and cooperation" as the criteria for community work and communication:
+## 1.3 Core Culture of the Community
+- Openness: By means of open source, openness, and transparency, to attract and encourage all parties to participate, contribute code, documents, designs, and other resources, to promote the development and innovation of the community, and to promote the prosperity and development of the operating system ecosystem.
+- Internationalization: Engaging in the global open-source movement, participating in  open-source activities, collaborating and exchanging with relevant open-source projects worldwide, connecting with open-source communities worldwide, attracting the participation of community product enthusiasts worldwide, and continuously enhancing the influence of the community worldwide.
+- Innovation: Continuously pursuing product innovation and technological innovation, actively promoting the development of an innovation culture, under the principles of supporting diversity and inclusiveness, encouraging and advocating collaborative, shared, transparent, and open decision-making processes, and encouraging community members to learn and grow together.
 
-- Open: people of all backgrounds and experiences can join us and participate in community work
-- Transparency: planning decisions and progress will be brought into the community, known to all, and contributed by all
-- Freedom: freedom of obtain、use and modify
-- Sharing: sharing of idea
-- cooperation: advocate open source cooperation mode, and jointly create excellent community achievements
+## 1.4 Code of Conduct and Guidelines
+The deepin community follows universal open-source norms and complies with relevant laws and regulations. A healthy community needs to be created by everyone together. Here, we use the Contributor Covenant 2.1 Contributor Code of Conduct, and everyone is requested to abide by it.
 
-## Goal
 
-&emsp; With this manifesto, we hope to clearly present the following goals to members of the deepin open source community:  
+# 2. Philosophy and Objectives
 
-- To build an exchange platform with the concept of "open, transparency, freedom, sharing and cooperation"
-- Let the concept of "open, transparency, freedom, sharing and cooperation" be better spread to benefit more people
-- Follow the principle of "open and transparency", let more people understand and urge our work
-- Build deepin operating system into top open source operating system through community cooperation
-- Promote the development of other open source software through community agreements
+## 2.1 Community Philosophy
+Based on open source, driving innovation. Open-mindedness, moving forward with the future. Committed to promoting the openness and innovation of desktop systems, providing a free and open communication platform for everyone, and striving to create the best open-source community products.
 
-## Contribution
+## 2.2 Community Goals
+To release and maintain deepin community products, support multiple computing architectures, provide stable, high-performance, secure, reliable, and open-source community products, collaborate with partners worldwide, create international top-notch open-source desktop operating systems, and build an open-source innovative desktop ecosystem.
 
-- Direct participation in deep open source community or other open source software development and testing
-- Participate in internationalization and translation of deep open source community or other open source software
-- Write a large number of available system development documents and operational guidelines for community users
-- To solve the questions of community users
-- Understand and endorse the concept of "openness, transparency, freedom, sharing and collaboration" and disseminate it
+# 3. Community Governance
 
-## Invitation
+## 3.1 Governance Organizational Structure
+3.1.1 The governance organizational structure of the community includes five permanent institutions: the Working Committee, the Secretariat, the Technical Committee, the Operations Committee, and the Ecological Committee, as shown below:
 
-&emsp; We invite all those who support the Deepin Open Source Community Manifesto to join us and make the manifesto a reality!
+![2024-5-31_5742.png](/2024-5-31_5742.png)
 
-# Code of conduct
+3.1.2 Community member units include community committee units and partner units. Member units applying for membership must meet the following basic conditions:
+- Legally registered;
+- Legal civil entities such as enterprises, institutions of higher education, research units, non-profit organizations, individuals, etc., engaged in open-source technology-related work, recognize the community philosophy, and voluntarily contribute to the community;
+- Voluntarily submit an application and follow this charter.
 
-## Our Pledge
+3.1.3 Termination of community member unit qualification. The termination conditions of member unit qualification are as follows:
+- To voluntarily withdraw membership, the member unit must submit a withdrawal application, which will be terminated by the Working Committee after confirmation;
+- Failure to fulfill corresponding obligations to the community or serious violation of this charter, damaging the public interest of the community. Proposed by a member of the Working Committee, the termination of membership qualification is approved by the Working Committee through a vote.
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status,nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
+## 3.2 The Working Committee
+The community Working Committee is the highest decision-making body for all community affairs, including but not limited to formulating and modifying the community's open-source governance system, deciding on major activity plans, and formulating and adjusting the community's work direction. It has the ultimate interpretation of the community's work and decisions.
 
-We pledge to act and interact in ways that contribute to an open, welcoming,diverse, inclusive, and healthy community.
+## 3.3 The Secretariat
+The Secretariat assists the Working Committee in the community's work, implements the goals of the Working Committee, and coordinates with the Technical Committee, the Operations Committee, and the Ecological Committee's work.
 
-## Our Standards
+## 3.4 The Technical Committee
+The Technical Committee, under the leadership of the Working Committee, is responsible for making decisions on the community's technical and research and development tasks and managing various SIG groups.
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+About how to create and manage SIG:
+- Overview of deepin community SIG
+- SIG Creation Guide
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall
-  community
+## 3.5 The Operations Committee
+The Operations Committee, under the leadership of the Working Committee, is mainly responsible for the daily operations of the deepin community.
 
-Examples of unacceptable behavior include:
+## 3.6 the Ecological Committee
+the Ecological Committee, under the leadership of the Working Committee, is responsible for the ecological cooperation between the deepin community and global manufacturers.
 
-* The use of sexualized language or imagery, and sexual attention or advances of
-  any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address,
-  without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+## 3.7 Partners
+Any enterprise, organization, or individual who contributes to the community can join the community as a community partner. The qualification of community partner members is valid for three years from the date of joining the community. If no separate agreement is reached, the community will not retain their membership after expiration.
 
-## Enforcement Responsibilities
+# 4. Contributing to the Community
+The deepin community is an open-source community composed of developers, designers, advocates, and a large number of deepin operating system users. Whether you want to implement new features, contribute simple patches, or just correct typos in documents, we welcome your participation and contribution to the deepin community!
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive,or harmful.
+## 4.1 Contributing Code
+The R&D workflow related to deepin is on GitHub. Therefore, the code contribution process is not much different from the regular Fork + Pull Request process on GitHub.
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+- Understand the deepin community SIG groups, find projects of interest, and refer to the SIG creation guide if you need to create a SIG group.
+- Before formally contributing code, you can first read and understand the Contributor License Agreement (CLA).
+- Learn how to contribute code.
 
-## Scope
+## 4.2 Contributing Documentation
+The deepin community's main documentation platforms include three:
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+- Wiki: All document-like content related to deepin, including but not limited to term interpretations, operation guides, development documents, and other graphical and textual descriptive content.
+- Blog: Mainly collects and publishes some technical blog posts and insights. Learn how to write a blog.
+- Developer Platform: Empowering developers, building the operating system ecosystem, including but not limited to DTK documents, Qt documents, and Linglong documents.
+Learn how to contribute documentation.
 
-## Enforcement
+## 4.3 Participating in Beta Testing
+Even if you are not good at R&D work and have no intention of document construction, as long as you use deepin community products, you can participate in testing contributions. Currently, there are the following ways to participate in testing contributions:
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at support@deepin.org.
+- Join the official beta test group and provide feedback and suggestions directly through the beta test group.
+- Join the deepin forum and directly post problems and suggestions in the forum.
+- Provide feedback and suggestions through the Deepin Community app.
 
-All complaints will be reviewed and investigated promptly and fairly.
+## 4.4 Participating in Community Activities
+Currently, the most important activity in the deepin community is the annual DDUC (Deepin Developer&User Conference) conference. At the same time, the deepin community has persisted for many years, basically organizing WHLUG in the Wuhan area every month, providing offline learning and sharing opportunities for Linux enthusiasts. Follow the deepin community WeChat public account and deepin forum to not miss out on exciting activities!
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+# 5. Other
+## 5.1 Main Communities
+- Global Main Community: www.deepin.org
+- Spanish Community: https://deepinenespañol.org/
+- Brazilian Community: https://deepinbrasil.github.io/
+- Turkish Community: https://deepintr.js.org/
+- Russian Community: https://mydeepin.ru/
+- Slovak Community: https://deepin.sk/
 
-## Enforcement Guidelines
+## 5.2 Community Forum
+- Main Forum: https://bbs.deepin.org/
+- Discussion board mainly for developers and foreign users: https://github.com/orgs/linuxdeepin/discussions
 
-Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
+## 5.3 Code Repositories (GitHub)
+- linuxdeepin: deepin desktop environment and application code repository
+- deepin-community: deepin distribution software package maintenance repository
 
-### 1. Correction
+## 5.4 Depth Encyclopedia
+Depth Encyclopedia (wiki)
 
-**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
+## 5.5 Developer-related
+- Developer Center
+- Developer Documentation
 
-**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+## 5.6 Mailing Lists
+Mailing Lists
 
-### 2. Warning
-
-**Community Impact**: A violation through a single incident or series of actions.
-
-**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
-
-### 3. Temporary Ban
-
-**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.
-
-**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
-
-### 4. Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
-
-**Consequence**: A permanent ban from any sort of public interaction within the community.
-
->  [Reference](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) :Contributor Covenant Code of Conduct Version 2.1
-
-# Organization Structure
-
----
-
-  ```mermaid
-  graph TB
-
-  1[Deepin Community]---2[Management Team]
-  1[Deepin Community]---3[SIG]
-  2[Management Team]---4[Community Administrator]
-  2[Management Team]---5[Community Assistant]
-  2[Management Team]---6[Technical Committee]
-  2[Management Team]---7[Operating Committee]
-  3[SIG]---8[deepinWSL]
-  3[SIG]---9[deepinRISCV]
-  3[SIG]---10[deepinWiki]
-  3[SIG]---11[deepinM1]
-  
-  ```
-
----
-## Teams
-
-Administration teams
-- Community Administrator
-- Community Assistant
-- Technical Committee
-- Operating Committee
-
-## SIG 
-
-Special interest groups
-- deepinWSL
-- deepinRISCV
-- deepinWiki
-- deepinM1
-   
-# Iternational Communities
-- Spain Community
-- Slovakia Community
-- Turkey Community
-- Brazil Community
-- France Community
-- Italy Community
-
-# Mailing list
-- wiki@deepin.org
-- [deepin-devel: Linux deepin developer mail list](https://www.freelists.org/list/deepin-devel)
-   
-   
-   
-  
-  
-  
+# 6. Contact Us
+Email: cooperation@deepin.org (for external cooperation only)
+WeChat: Deepin Operating System (linux_deepin)
