@@ -1,9 +1,9 @@
 ---
-title: Deepin Wiki - 深度百科
-description: 深度百科旨在成为最终用户和开发人员的扩展文档。
+title: deepin Wiki - 深度百科
+description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2024-06-12T02:27:26.355Z
-tags: 
+date: 2024-06-12T03:22:09.539Z
+tags: deepin系统, deepin社区, deepin历史
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
 ---
