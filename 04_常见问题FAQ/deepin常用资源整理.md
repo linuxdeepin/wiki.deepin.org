@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2024-02-05T17:19:17.614Z
+date: 2024-02-05T17:33:54.146Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -170,7 +170,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 4. 在deepin内核配置文件基础上复制了几个PVE内核电源管理配置：[https://bbs.deepin.org/post/259690](https://bbs.deepin.org/post/259690)
 
 ### 2.4 系统使用及问题解决
-> 第三方应用相关问题见“[4.1 软件分享和使用技巧](/zh/04_常见问题FAQ/deepin常用资源整理#)”。
+> 第三方应用相关问题见“[4.1 软件分享和使用技巧](/zh/04_常见问题FAQ/deepin常用资源整理#h-41-%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB%E5%92%8C%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7)”。
 
 1. deepin的bilibili个人空间（前往查看更多官方教程）：[https://space.bilibili.com/137324885](https://space.bilibili.com/137324885)
 2. Deepin 自用优化：[https://bbs.deepin.org/zh/post/245085](https://bbs.deepin.org/zh/post/245085)
@@ -238,7 +238,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 4. 系统截图快捷键无法使用：[https://bbs.deepin.org/post/264805](https://bbs.deepin.org/post/264805)
 
 #### 2.4.3 应用及包管理
-> 另见 “[4.1.1.3 软件包管理及应用商店](#c7CZz)”。
+> 另见 “[4.1.1.3 软件包管理及应用商店](/zh/04_常见问题FAQ/deepin常用资源整理#h-4113-软件包管理及应用商店)”。
 
 1. deepin中Typora无法设置为默认程序的解决办法：[https://blog.csdn.net/Charley_Leo/article/details/107091222](https://blog.csdn.net/Charley_Leo/article/details/107091222)
 2. 连续输错密码无法登录？解决办法：[https://bbs.deepin.org/post/243165](https://bbs.deepin.org/post/243165)
@@ -404,7 +404,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 12. 有关 steam 无法正常添加游戏存储下载路径解决方案：[https://bbs.deepin.org.cn/post/267196](https://bbs.deepin.org.cn/post/267196)
 
 #### 2.4.8 网络和共享
-> 网卡相关内容见“[3.2 网卡](#xh2QF)”。
+> 网卡相关内容见“[3.2 网卡](/zh/04_常见问题FAQ/deepin常用资源整理#h-32-网卡)”。
 
 1. Windows ssh 客户端 PuTTY 正向与反向流量转发（转）：[https://bbs.deepin.org/zh/post/230148](https://bbs.deepin.org/zh/post/230148)
 2. deepin下ssh常用网络功能：[https://bbs.deepin.org/zh/post/231835](https://bbs.deepin.org/zh/post/231835)
@@ -444,7 +444,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 6. UrBackup - 开源的 PC 整机备份方案 开源 DEEPIN V23支持网络备份：[https://bbs.deepin.org/post/262731](https://bbs.deepin.org/post/262731)
 
 #### 2.4.10 命令与终端
-> 有些命令行应用在“[4.1 应用分享和使用技巧]()”。
+> 有些命令行应用在“[4.1 应用分享和使用技巧](/zh/04_常见问题FAQ/deepin常用资源整理#h-41-应用分享和使用技巧)”。
 
 1. 手把手教你装zsh，所有github链接都换成了gitee，包你安装顺利：[https://bbs.deepin.org/zh/post/237774](https://bbs.deepin.org/zh/post/237774)
 2. 使用fish代替bash，真好用：[https://bbs.deepin.org/zh/post/238189](https://bbs.deepin.org/zh/post/238189)
@@ -640,7 +640,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 
 ## 三、硬件和设备
-> 部分硬件相关的资源在“2.5.4 性能”。
+> 部分硬件相关的资源在“[2.4.4 性能和电源管理](/zh/04_常见问题FAQ/deepin常用资源整理#h-244-性能和电源管理)”。
 
 ### 3.1 显卡
 
