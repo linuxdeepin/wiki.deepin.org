@@ -2,7 +2,7 @@
 title: deepin-community分支与Tag管理
 description: 分支与Tag管理
 published: true
-date: 2024-07-01T14:56:07.502Z
+date: 2024-07-03T08:54:56.422Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T02:21:35.049Z
@@ -40,7 +40,9 @@ deepin 社区版为滚动发布制，一般没有维护分支，`master` 分支
 若存在需要rebuild软件包，
 情况1：ver2不为空时直接+rb{ver}后缀，表现形式为`x.y.z-1deepin1+rb1`
 情况1：ver2为空时的rebuild版本ver2默认为0，表现形式为
-`x.y.z-1eepin0+rb1`
+  `x.y.z-1deepin0+rb1`
+  
+  
 
 
 
