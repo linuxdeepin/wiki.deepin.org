@@ -2,7 +2,7 @@
 title: deepin-community分支与Tag管理
 description: 分支与Tag管理
 published: true
-date: 2024-07-03T09:01:12.484Z
+date: 2024-07-16T09:03:14.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T02:21:35.049Z
@@ -36,7 +36,7 @@ deepin 社区版为滚动发布制，一般没有维护分支，`master` 分支
 4.  CI自动构建版本号 `x.y.z-${ver1}deepin${ver2}+u001+rb1`，001为距离上一次修改changelog的commit次数，rb1为rebuild次数，依次累加
 
 **changelog版本规范修订(待讨论)**
-上文一二条保持不，本次修订主要针对rebuild版本规范
+上文一二条保持不变，本次修订主要针对rebuild版本规范
 若存在需要rebuild软件包，
 情况1：ver2不为空时直接+rb{ver}后缀，表现形式为`x.y.z-1deepin1+rb1`
 情况1：ver2为空时的rebuild版本ver2默认为0，表现形式为
