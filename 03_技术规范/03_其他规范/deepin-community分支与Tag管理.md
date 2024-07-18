@@ -2,7 +2,7 @@
 title: deepin-community分支与Tag管理
 description: 分支与Tag管理
 published: true
-date: 2024-07-18T02:32:59.790Z
+date: 2024-07-18T02:35:56.257Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T02:21:35.049Z
@@ -58,7 +58,6 @@ native软件包rebuild规范：
 将native软件包直接改成quilt格式存在一些changelog版本格式不兼容问题
 因此重新修订native版本规范，形式为 `upstreamversiondeepin${ver2}`
 native软件包没有-的连字符，因此直接在上游版本号后deepin${ver2} 标记来自deepin的修改
-示例：`x.y.zdeepin1`
 
 **分支与tag的创建申请**
 
