@@ -2,7 +2,7 @@
 title: deepin-community分支与Tag管理
 description: 分支与Tag管理
 published: true
-date: 2024-07-16T09:06:03.290Z
+date: 2024-07-18T02:32:59.790Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-21T02:21:35.049Z
@@ -36,12 +36,17 @@ deepin 社区版为滚动发布制，一般没有维护分支，`master` 分支
 4.  CI自动构建版本号 `x.y.z-${ver1}deepin${ver2}+u001+rb1`，001为距离上一次修改changelog的commit次数，rb1为rebuild次数，依次累加
 
 **changelog版本规范修订(待讨论)**
+4. rebuild版本号规范
 上文一二条保持不变，本次修订主要针对rebuild版本规范
 若存在需要rebuild软件包，
+quilt软件包rebuild规范：
 情况1：ver2不为空时直接+rb{ver}后缀，表现形式为`x.y.z-1deepin1+rb1`
 情况1：ver2为空时的rebuild版本ver2默认为0，表现形式为
   `x.y.z-1deepin0+rb1`
-  
+native软件包rebuild规范：
+情况1：ver2不为空时直接+rb{ver}后缀，表现形式为`x.y.zdeepin1+rb1`
+情况1：ver2为空时的rebuild版本ver2默认为0，表现形式为
+  `x.y.zdeepin0+rb1`
   
 > 注：如无特殊情况所有的rebuild版本应该在构建系统中修改，不应该提交到代码存储库中
 {.is-warning}
@@ -49,7 +54,11 @@ deepin 社区版为滚动发布制，一般没有维护分支，`master` 分支
 > 注： deepin0版本的用意是为了方便后续的更新迭代，安装版本号规则 deepin+rb1版本大于deepin1+rb1，所以使用deepin0后缀方便维护
 {.is-info}
 
-
+3. 集成native软件包
+将native软件包直接改成quilt格式存在一些changelog版本格式不兼容问题
+因此重新修订native版本规范，形式为 `upstreamversiondeepin${ver2}`
+native软件包没有-的连字符，因此直接在上游版本号后deepin${ver2} 标记来自deepin的修改
+示例：`x.y.zdeepin1`
 
 **分支与tag的创建申请**
 
