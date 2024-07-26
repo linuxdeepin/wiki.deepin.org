@@ -2,8 +2,8 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2024-07-26T03:01:14.347Z
-tags: deepin历史, deepin社区, deepin系统
+date: 2024-07-26T03:02:16.744Z
+tags: deepin历史, deepin社区, deepin系统, deepin贡献, deepin组织结构
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
 ---
