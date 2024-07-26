@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2024-07-26T03:09:39.261Z
+date: 2024-07-26T05:21:24.600Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -16,31 +16,31 @@ dateCreated: 2022-06-08T09:01:18.650Z
 deepin社区英文名称：deepin community（以下简称“社区”）是由企业单位、事业单位、社会团体、个人开发者等，基于共建、共治、共享原则组建的开源社区。
 
 ## 1.2 社区历史
-- 1997年，发起创立了 WHLUG（Wuhan Linux User Group）
-- 2004年，发布国内首个基于 Debian 的中文版本Linxu操作系统 Hiweed Linux 0.3
-- 2008年，deepin 收购 Hiweed Linux 团队和品牌，建设 deepin 社区
-- 2009年，Hiweed Linux更名为 Linux deepin，同年发布Linux deepin 9.12
-- 2010年，发布 Linux deepin 10.12 ，同年召开第一届 DDUC（deepin developer&user conference）
-- 2011年，武汉深之度科技有限公司成立
-- 2013年，发布 DDE 1.0
-- 2014年，由 Linux deepin 正式更名为 deepin
-- 2015年，发布全新架构的 deepin V15，同年加入 Linux基金会
-- 2019年，成立统信软件技术有限公司
-- 2022年，发布国内首个桌面操作系统根社区，脱离 Debian 社区，开始自选软件、自定版本，自行设计软件封包与管理系统
-- 2023年，将社区知名项目“玲珑”捐赠给开放原子开源基金会
 - 2024年，社区组织架构升级，建设成熟社区联合治理模式
+- 2023年，将社区知名项目“玲珑”捐赠给开放原子开源基金会
+- 2022年，发布国内首个桌面操作系统根社区，脱离 Debian 社区，开始自选软件、自定版本，自行设计软件封包与管理系统
+- 2019年，成立统信软件技术有限公司
+- 2015年，发布全新架构的 deepin V15，同年加入 Linux基金会
+- 2014年，由 Linux deepin 正式更名为 deepin
+- 2013年，发布 DDE 1.0
+- 2011年，武汉深之度科技有限公司成立
+- 2010年，发布 Linux deepin 10.12 ，同年召开第一届 DDUC（deepin developer&user conference）
+- 2009年，Hiweed Linux更名为 Linux deepin，同年发布Linux deepin 9.12
+- 2008年，deepin 收购 Hiweed Linux 团队和品牌，建设 deepin 社区
+- 2004年，发布国内首个基于 Debian 的中文版本Linxu操作系统 Hiweed Linux 0.3
+- 1997年，发起创立了 WHLUG（Wuhan Linux User Group）
 
 ## 1.3 社区荣誉
 deepin（深度）社区自2008年成立以来，共获得国内外奖项 60+，其中包括国际级、国家级、行业级共 41 个，省部级奖项 20+。
-- 2012年中日韩东北亚开源软件竞赛优胜奖
-- 2015年中国信息安全自主可控操作系统最佳产品
-- 2016年科技部十二五科技创新成就
-- 2017年年度最受欢迎中国开源软件TOP20
-- 2018年中国国际软件博览会优秀产品奖
-- 2019年年度最受欢迎中国开源软件
-- 2021年全球十大开源软件产品
-- 2023年上合国家软件产业国际合作优秀案例
 - 2023年创新产品金奖
+- 2023年上合国家软件产业国际合作优秀案例
+- 2021年全球十大开源软件产品
+- 2019年年度最受欢迎中国开源软件
+- 2018年中国国际软件博览会优秀产品奖
+- 2017年年度最受欢迎中国开源软件TOP20
+- 2016年科技部十二五科技创新成就
+- 2015年中国信息安全自主可控操作系统最佳产品
+- 2012年中日韩东北亚开源软件竞赛优胜奖
 
 
 # 二、社区文化
@@ -104,13 +104,14 @@ deepin社区遵循通用开源规范，遵循中国和相关国际法律规定�
 # 社区产品
 ## deepin操作系统
 深度操作系统（deepin）是中国第一个具备国际影响力的Linux发行版本，[DistroWatch](https://distrowatch.com/table.php?distribution=deepin)全球Linux操作系统发行版排名曾高居第7名。截止至2019年7月25日，深度操作系统支持33种语言，用户遍布除了南极洲的其它六大洲，。
-- 2004年，Hiweed Linux，deepin 的前身，由国人制作的首个中文Linux发行版
-- 2009年，Linux deepin V9.12，品牌升级，”Hiweed Linux“更名为”Linux deepin“
-- 2013年，Linux deepin V12.12，首次搭载自主研发桌面环境 DDE 1.0
-- 2014年，由“Linux deepin”正式更名为“deepin”
-- 2015年，deepin V15，进入全球桌面操作系统发行版 TOP10
-- 2020年，deepin V20，首个搭载 AI 智能助手并引入多端融合概念的Linux发行版
+
 - 2022年，deepin V23 Preview，中国首个桌面操作系统根社区发行版本，搭载多项根技术
+- 2020年，deepin V20，首个搭载 AI 智能助手并引入多端融合概念的Linux发行版
+- 2015年，deepin V15，进入全球桌面操作系统发行版 TOP10
+- 2014年，由“Linux deepin”正式更名为“deepin”
+- 2013年，Linux deepin V12.12，首次搭载自主研发桌面环境 DDE 1.0
+- 2009年，Linux deepin V9.12，品牌升级，”Hiweed Linux“更名为”Linux deepin“
+- 2004年，Hiweed Linux，deepin 的前身，由国人制作的首个中文Linux发行版
 
 ## DDE
 [DDE（Deepin Environment Desktop）](https://www.deepin.org/zh/dde/)深度桌面环境，是由deepin社区团队完全自主研发的桌面环境，也是deepin操作系统默认搭载的桌面环境。DDE由美观易用、极简操作的桌面环境，主要由桌面、启动器、任务栏、控制中心、窗口管理器等组成，系统中预装了深度特色应用，它既能让您体验到丰富多彩的娱乐生活，也可以满足您的日常工作需要。相信随着功能的不断升级和完善，将会被越来越多的用户所喜爱和使用。目前已被上游社区移植到Debian、Ubuntu、Fedora、Arch、Manjaro、openSUSE、NixOS、BigLinux诸多主流Linux发行版。
