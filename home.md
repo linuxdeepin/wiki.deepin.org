@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2024-07-26T05:21:24.600Z
+date: 2024-07-26T05:23:30.322Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -66,7 +66,7 @@ deepin社区遵循通用开源规范，遵循中国和相关国际法律规定�
 # 三、社区治理
 ## 3.1 治理组织架构
 3.1.1 社区的治理组织架构包括：工作委员会、秘书处、技术委员会、运营委员会、生态委员会，共5个常设机构。见图1。
-![deepin-orgs.png](/06_关于Deepin/deepin-orgs.png)
+<div align=center><img src="/06_关于Deepin/deepin-orgs.png"></div>
 <center>图1 社区治理组织架构</center>
 
 3.1.2 社区成员单位包括社区委员单位及合作伙伴单位。成员单位申请加入必须具备以下基本条件：
