@@ -2,7 +2,7 @@
 title: 甲辰计划 实习生入门指导
 description: 
 published: true
-date: 2024-07-08T04:37:03.973Z
+date: 2024-07-29T06:48:05.352Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-08T03:44:37.985Z
@@ -26,6 +26,12 @@ dateCreated: 2024-07-08T03:44:37.985Z
 ## 必做流程
 
 使用 实体 RISC-V 设备 或 qemu-user 搭一个打包的环境。前者可使用 deepin RISC-V 镜像，后者可自行 debootstrap。
+
+- deepin RISC-V 发布的镜像可在 [镜像下载](https://www.deepin.org/download/) 页面获得。
+- deepin RISC-V 预览版镜像可在 [ci.deepin.org](https://ci.deepin.com/repo/deepin/deepin-ports/cdimage/) 仓库获得。
+- [deepin-port-image](https://github.com/YukariChiba/deepin-ports-image/) 项目可用于定制镜像。
+- 使用 `debootstrap` 或 `mmdebstrap` 可创建用于 QEMU 启动的 rootfs。
+- deepin RISC-V 的内核 deb 可在 [deepin-riscv-kernel](https://github.com/deepin-community/deepin-riscv-kernel/) 仓库的 actions 产出获取，也可以在 [ci.deepin.org](https://ci.deepin.com/repo/deepin/deepin-ports/v23-addons/) `v23-addons` 仓库的 `ports-kernel` 获得。
 
 ## RISC-V 专用仓库
 
@@ -84,6 +90,21 @@ issue中提供测试建议并提交测试 --> 集成进入testing仓库 : 测试
 
 @enduml
 ```
+
+# Q&A
+
+.
+  - **Q: 怎么寻找需要修的包？**
+  - **A:** 有几种方式：
+  - 在硬件/模拟设备上测试 deepin 镜像，发现问题后提交 issue，分析并找到存在问题的包。
+  - 在 OBS 构建系统的 [main](https://build.deepin.com/project/show/deepin:Develop:main)、[community](https://build.deepin.com/project/show/deepin:Develop:community)、[dde](https://build.deepin.com/project/show/deepin:Develop:dde) 页面查找 `riscv64` 构建失败或缺少依赖的包（注意，此处获得的信息不一定可靠，部分包可能已被修复或只是临时依赖缺失，需要与 deepin 开发者们一同沟通）
+  - 查阅 deepin developer-center 的 [issue 列表](https://github.com/linuxdeepin/developer-center/issues)，找出与 `riscv64` 有关的 issue 并验证是否还存在。
+.
+  - **Q: 需要修那些包？**
+  - **A:** 所有的包，只要影响在 RISC-V 架构上的使用和构建就需要修。
+.
+  - **Q: 升级版本算可观测产出吗？**
+  - **A:** 算，但是 deepin sysdev-team 内部有 bot 可进行自动包版本升级，手动升级版本费时费力且产出权重会降低。
 
 # 注意事项
 
