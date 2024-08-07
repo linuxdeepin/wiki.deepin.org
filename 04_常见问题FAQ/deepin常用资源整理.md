@@ -2,7 +2,7 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2024-02-05T17:33:54.146Z
+date: 2024-06-28T03:20:07.605Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
@@ -10,7 +10,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 
 > 本文创建于2021-05-15，当前版本发布于2024-02-06，版本号 V4.1.5
 > 此资源整理非官方文档，由 [pzm9012](https://bbs.deepin.org/user/217969) 发起，当前维护者还有 [hanzn-zzx](https://bbs.deepin.org/user/284017)，[阿尼樱奈奈](https://bbs.deepin.org/user/296995)。
-> [访问此文档的 deepin Wiki 页面](https://wiki.deepin.org/zh/04_%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86)  [访问此文档的VitePress页面（GitHub）](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0.html)[访问 GitLab站点](https://deepincol.gitlab.io/deepin-src-col/col.html)
+> [访问pzm9012文档页面](https://pzm9012.github.io/doc-vite/deepin-src-col/sec-0.html)
 
 > 点击访问： [deepin 高频问题解决方案整理](http://guide.deepin.org/deepin%E9%AB%98%E9%A2%91%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%95%B4%E7%90%86/1.frequently-asked.html) {.is-success}
 
@@ -20,7 +20,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 > 部分资料来源于互联网，仅供学习交流使用，版权归原作者所有，若涉及侵权请联系我删除；
 > 解决方案仅供参考，**有效性详询发布者或可自行验证，请以实际操作为准**。
 
-![col-banner.png](https://deepincol.gitlab.io/assets/deepin-src-col.fF7QcWJj.png)
+![col-banner.jpg](/deepin资源整理/col-banner.jpg)
 ## 💡提示
 
 1. 点击“大纲”中的标题可跳转到对应的位置。（移动版页面在左下角打开大纲）
