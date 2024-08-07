@@ -2,8 +2,8 @@
 title: deepin 常用资源整理
 description: 希望你能在这里找到你需要的资源。;-)
 published: true
-date: 2024-06-28T03:20:07.605Z
-tags: 
+date: 2024-08-07T08:40:01.609Z
+tags: deepin常见问题, deepin帮助手册, deepin使用教程
 editor: markdown
 dateCreated: 2022-11-01T12:45:22.559Z
 ---
@@ -20,7 +20,8 @@ dateCreated: 2022-11-01T12:45:22.559Z
 > 部分资料来源于互联网，仅供学习交流使用，版权归原作者所有，若涉及侵权请联系我删除；
 > 解决方案仅供参考，**有效性详询发布者或可自行验证，请以实际操作为准**。
 
-![col-banner.jpg](/deepin资源整理/col-banner.jpg)
+
+![col-pzm9012.jpg](/04_常见问题FAQ/col-pzm9012.jpg)
 ## 💡提示
 
 1. 点击“大纲”中的标题可跳转到对应的位置。（移动版页面在左下角打开大纲）
