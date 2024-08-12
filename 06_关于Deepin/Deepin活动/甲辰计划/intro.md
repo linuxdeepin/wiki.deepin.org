@@ -2,7 +2,7 @@
 title: 甲辰计划 实习生入门指导
 description: 
 published: true
-date: 2024-08-12T07:59:50.397Z
+date: 2024-08-12T08:01:00.357Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-08T03:44:37.985Z
@@ -123,6 +123,7 @@ issue中提供测试建议并提交测试 --> 集成进入testing仓库 : 测试
 ### 附加任务（可选）
 
 - 为 [镜像生成脚本](https://github.com/YukariChiba/deepin-ports-image/) 增加 QEMU 镜像支持。
+- 使用以上脚本自行构建最新的 deepin RISC-V 镜像并测试。
 
 # Q&A
 
