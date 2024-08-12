@@ -2,7 +2,7 @@
 title: 甲辰计划 实习生可观测产出及进出机制
 description: 
 published: true
-date: 2024-07-29T06:30:57.925Z
+date: 2024-08-12T07:49:05.855Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-29T06:30:57.925Z
@@ -32,7 +32,7 @@ dateCreated: 2024-07-29T06:30:57.925Z
 
 ## 进入实习
 
-- 所有实习生均需要完成必做流程：*使用 实体 RISC-V 设备 或 qemu-user 搭一个打包的环境。* 方可进入正式实习并开始统计可观测产出。
+- 所有实习生均需要完成必做流程（见[此处](https://wiki.deepin.org/zh/06_%E5%85%B3%E4%BA%8EDeepin/Deepin%E6%B4%BB%E5%8A%A8/%E7%94%B2%E8%BE%B0%E8%AE%A1%E5%88%92/intro)）方可进入正式实习并开始统计可观测产出。
 - 实习生需要提交自己的 GitHub ID 以便开通相应权限和月末的贡献统计
 
 ## 退出实习
