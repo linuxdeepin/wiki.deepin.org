@@ -2,7 +2,7 @@
 title: 甲辰计划 实习生入门指导
 description: 
 published: true
-date: 2024-08-12T08:01:00.357Z
+date: 2024-08-12T08:07:13.927Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-08T03:44:37.985Z
@@ -126,6 +126,10 @@ issue中提供测试建议并提交测试 --> 集成进入testing仓库 : 测试
 - 使用以上脚本自行构建最新的 deepin RISC-V 镜像并测试。
 
 # Q&A
+
+.
+  - **Q: 我手里没有 RISC-V 设备怎么办？**
+  - **A:** 需要 RISC-V 设备的同学可以通过 [甲辰计划开发板漂流计划](https://github.com/rv2036/riscv-board-wandering) 获取。 
 
 ## 修包部分
 
