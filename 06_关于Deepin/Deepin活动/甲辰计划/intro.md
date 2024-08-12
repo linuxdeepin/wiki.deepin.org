@@ -2,7 +2,7 @@
 title: 甲辰计划 实习生入门指导
 description: 
 published: true
-date: 2024-07-29T06:48:05.352Z
+date: 2024-08-12T07:47:46.208Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-08T03:44:37.985Z
@@ -25,7 +25,17 @@ dateCreated: 2024-07-08T03:44:37.985Z
 
 ## 必做流程
 
+从以下流程中任选其一：
+
+### 其一，测试方向
+
+使用 实体 RISC-V 设备，测试写入运行 deepin 的镜像，并尝试进行软件更新、系统使用，查找并反馈 bug。
+
+### 其二，修包方向
+
 使用 实体 RISC-V 设备 或 qemu-user 搭一个打包的环境。前者可使用 deepin RISC-V 镜像，后者可自行 debootstrap。
+
+### 参考链接
 
 - deepin RISC-V 发布的镜像可在 [镜像下载](https://www.deepin.org/download/) 页面获得。
 - deepin RISC-V 预览版镜像可在 [ci.deepin.org](https://ci.deepin.com/repo/deepin/deepin-ports/cdimage/) 仓库获得。
@@ -92,6 +102,9 @@ issue中提供测试建议并提交测试 --> 集成进入testing仓库 : 测试
 ```
 
 # Q&A
+
+
+## 修包部分
 
 .
   - **Q: 怎么寻找需要修的包？**
