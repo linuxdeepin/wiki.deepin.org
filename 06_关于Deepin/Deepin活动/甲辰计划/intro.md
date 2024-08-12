@@ -2,7 +2,7 @@
 title: 甲辰计划 实习生入门指导
 description: 
 published: true
-date: 2024-08-12T07:47:46.208Z
+date: 2024-08-12T07:59:50.397Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-08T03:44:37.985Z
@@ -101,8 +101,30 @@ issue中提供测试建议并提交测试 --> 集成进入testing仓库 : 测试
 @enduml
 ```
 
-# Q&A
+## 测试
 
+### 镜像测试
+
+- 使用实体设备，写入最新或给定镜像，启动并进入 deepin 系统。
+- 进行一些常规操作，测试系统 bug，并汇总为报告。
+	- 推荐同时安装 deepin amd64 版本作为对照以判断是否是 riscv64 架构特有问题
+  - 推荐自行设计标准化的自动/半自动测试方案
+  - 推荐定期更新系统
+
+### 软件测试
+
+- 在镜像测试的基础上，安装给定软件，测试软件是否运行正常，并汇总为报告。
+
+### 内核/固件测试
+
+- 在镜像测试的基础上，安装给定内核/uboot/启动固件，测试的系统是否运行正常，并汇总为报告。
+	- [deepin-riscv-kernel](https://github.com/deepin-community/deepin-riscv-kernel/) 的工作流会定期构建内核，可参考源仓库的更新状况进行测试。
+
+### 附加任务（可选）
+
+- 为 [镜像生成脚本](https://github.com/YukariChiba/deepin-ports-image/) 增加 QEMU 镜像支持。
+
+# Q&A
 
 ## 修包部分
 
