@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2024-05-31T02:23:19.826Z
+date: 2024-08-13T08:22:43.775Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -107,6 +107,7 @@ Currently, the most important activity in the deepin community is the annual DDU
 - Turkish Community: https://deepintr.js.org/
 - Russian Community: https://mydeepin.ru/
 - Slovak Community: https://deepin.sk/
+- Ecuador：[https://deepin.lat/](https://deepin.lat/)
 
 ## 5.2 Community Forum
 - Main Forum: https://bbs.deepin.org/
