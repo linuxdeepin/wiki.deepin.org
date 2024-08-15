@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2024-08-13T08:20:52.992Z
+date: 2024-08-15T09:44:46.667Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -105,6 +105,7 @@ deepin社区遵循通用开源规范，遵循中国和相关国际法律规定�
 ## deepin操作系统
 深度操作系统（deepin）是中国第一个具备国际影响力的Linux发行版本，[DistroWatch](https://distrowatch.com/table.php?distribution=deepin)全球Linux操作系统发行版排名曾高居第7名。截止至2019年7月25日，深度操作系统支持33种语言，用户遍布除了南极洲的其它六大洲，。
 
+- 2024年，8月15日，历经近3年的努力，迭代了9个版本、经历了51次内测，deepin V23正式版发布
 - 2022年，deepin V23 Preview，中国首个桌面操作系统根社区发行版本，搭载多项根技术
 - 2020年，deepin V20，首个搭载 AI 智能助手并引入多端融合概念的Linux发行版
 - 2015年，deepin V15，进入全球桌面操作系统发行版 TOP10
