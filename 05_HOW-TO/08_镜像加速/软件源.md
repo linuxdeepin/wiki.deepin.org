@@ -2,7 +2,7 @@
 title: 软件源
 description: 
 published: true
-date: 2023-05-05T06:56:52.161Z
+date: 2024-08-18T04:37:16.417Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:32.518Z
@@ -124,6 +124,13 @@ dateCreated: 2022-05-08T13:15:32.518Z
       <td>上海交通大学</td>
       <td><a href="http://ftp.sjtu.edu.cn/deepin/">http</a></td>
       <td><a href="ftp://ftp.sjtu.edu.cn/deepin/">ftp</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>华中科技大学</td>
+      <td><a href="http://mirrors.hust.edu.cn/deepin/">http</a></td>
       <td></td>
       <td></td>
       <td></td>
