@@ -2,8 +2,8 @@
 title: Linux 内存泄露案例分析和内存管理分享
 description: 这篇文章是一篇关于Linux内存泄露案例分析和内存管理分享的技术文章，详细介绍了问题的发现、排查过程、解决方案以及相关的Linux内存管理知识。
 published: true
-date: 2024-11-08T03:01:46.162Z
-tags: linux内存泄露, 内存泄露, linux内存管理, 内存管理
+date: 2024-11-08T03:04:12.909Z
+tags: linux内存泄露, linux内存管理, 内存泄露, 内存管理
 editor: markdown
 dateCreated: 2024-11-08T03:01:46.162Z
 ---
@@ -107,11 +107,8 @@ Linux 中的内存控制单元 (MMU) 通过一种称为分段单元 (segmentatio
 x86_64 的 Linux 内核采用 4 级分页模型，一般一页 4K，4 种页表：
 
 a、页全局目录
-
 b、页上级目录
-
 c、页中间目录
-
 d、页表
 
 页全局目录包含若干页上级目录，页上级目录又依次包含若干页中间目录的地址，而页中间目录又包含若干页表的地址。每个页表项指向一个页框。线性地址被分成 5 部分。
@@ -124,6 +121,7 @@ d、页表
 可以通过 lscpu 命令查看 NUMA 与 CPU 核的关系。
 
 `$ lscpu
+
 Architecture:          x86_64
 CPU op-mode(s):        32-bit, 64-bit
 Byte Order:            Little Endian
@@ -175,7 +173,9 @@ c、smaps 文件
 
 cat /proc/$pid/smaps 查看某进程虚拟内存空间的分布情况
 
-`0082f000-00852000 rw-p 0022f000 08:05 4326085    /usr/bin/nginx/sbin/nginx
+`0082f000-00852000 rw-p 0022f000 08:05 4326085    
+/usr/bin/nginx/sbin/nginx
+
 Size:                140 kB
 Rss:                 140 kB
 Pss:                  78 kB
@@ -207,6 +207,7 @@ procs -----------memory---------------- ---swap-- -----io---- --system-- -----cp
 Linux 系统中 /proc/meminfo 这个文件用来记录了系统内存使用的详细情况。
 
 `$ cat /proc/meminfo
+
 MemTotal:        8052444 kB
 MemFree:         2754588 kB
 MemAvailable:    3934252 kB
