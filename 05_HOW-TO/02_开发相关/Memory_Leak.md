@@ -2,7 +2,7 @@
 title: Linux 内存泄露案例分析和内存管理分享
 description: 这篇文章是一篇关于Linux内存泄露案例分析和内存管理分享的技术文章，详细介绍了问题的发现、排查过程、解决方案以及相关的Linux内存管理知识。
 published: true
-date: 2024-11-08T03:04:12.909Z
+date: 2024-11-08T03:04:53.157Z
 tags: linux内存泄露, linux内存管理, 内存泄露, 内存管理
 editor: markdown
 dateCreated: 2024-11-08T03:01:46.162Z
