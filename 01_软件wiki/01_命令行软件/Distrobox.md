@@ -2,7 +2,7 @@
 title: Distrobox
 description: 使用 Distrobox 在 v23 轻松安装你想要的软件包
 published: true
-date: 2023-09-25T02:06:22.086Z
+date: 2025-01-21T03:19:19.252Z
 tags: 软件
 editor: markdown
 dateCreated: 2023-09-25T02:04:53.272Z
@@ -28,7 +28,9 @@ deepin v23 起，deepin 发行版仓库中的所有软件包就均由 deepin 社
 Distrobox 在 deepin v23 下的安装
 distrobox 软件包本身已经在 deepin v23 仓库中默认提供了，你只需通过下述命令安装即可：
 
-```sudo apt install distrobox```
+```Shell
+sudo apt install distrobox
+```
 安装后，就可以使用 distrobox 命令了。
 
 假定我们需要安装一个 Ubuntu “子系统”，那么，下面的命令就是创建一个名为 ubuntu 的“子系统”，使用 docker hub 上的 ubuntu 22.04 作为基础镜像：
