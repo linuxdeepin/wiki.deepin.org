@@ -2,8 +2,8 @@
 title: Links
 description: Links网页浏览器
 published: true
-date: 2023-02-22T09:04:42.315Z
-tags: 浏览器, links, links2
+date: 2025-01-21T03:21:20.374Z
+tags: links, links2, 浏览器
 editor: markdown
 dateCreated: 2022-06-10T05:50:47.414Z
 ---
@@ -14,19 +14,27 @@ links是一个支持图形和文本模式的网页浏览器。
 
 ## 安装（Links仅支持文本模式版本）
 
-`sudo apt-get install links`
+```Shell
+sudo apt-get install links
+```
 
 ## 卸载
 
-`sudo apt-get remove links`
+```Shell
+sudo apt-get remove links
+```
 
 ## 安装（Links支持图形和文本模式版本）
 
-`sudo apt-get install links2`
+```Shell
+sudo apt-get install links2
+```
 
 ## 卸载
 
-`sudo apt-get remove links2`
+```Shell
+sudo apt-get remove links2
+```
 
 ## 仓库地址
 
