@@ -2,7 +2,7 @@
 title: SSH服务
 description: 
 published: true
-date: 2025-01-21T03:10:21.459Z
+date: 2025-01-21T03:16:20.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:20.348Z
@@ -31,10 +31,17 @@ SSH分客户端openssh-client和openssh-server
     sudo apt-get install openssh-server
 ```
 ## 配置密钥
-
+使用以下命令生成一对私钥和公钥:
 ```Shell
 ssh-keygen 
 ```
+使用以下命令向服务器发送自己的公钥后, 即可实现无密码登录:
+ ```shell
+ #username 和 xxx.xxx.xxx.xxx 替换成登录服务器的用户名和IP
+ ssh-copy-id username@xxx.xxx.xxx.xxx
+ ```
+
+
 
 ## 卸载
 
