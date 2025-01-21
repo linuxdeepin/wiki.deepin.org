@@ -2,8 +2,8 @@
 title: Lynx
 description: Lynx网页浏览器
 published: true
-date: 2023-02-22T09:04:40.785Z
-tags: 浏览器, lynx
+date: 2025-01-21T03:22:04.032Z
+tags: lynx, 浏览器
 editor: markdown
 dateCreated: 2022-06-10T05:34:46.340Z
 ---
@@ -14,11 +14,15 @@ Lynx是一个纯文本网页浏览器。
 
 ## 安装
 
-`sudo apt-get install lynx`
+```Shell
+sudo apt-get install lynx
+```
 
 ## 卸载
 
-`sudo apt-get remove lynx`
+```Shell
+sudo apt-get remove lynx
+```
 
 ## 仓库地址
 
