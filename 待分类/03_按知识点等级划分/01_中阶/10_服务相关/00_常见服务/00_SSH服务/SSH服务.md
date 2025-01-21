@@ -2,7 +2,7 @@
 title: SSH服务
 description: 
 published: true
-date: 2023-02-22T08:57:57.941Z
+date: 2025-01-21T03:10:17.747Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-21T03:41:20.348Z
@@ -23,45 +23,53 @@ SSH最初是UNIX系统上的一个程序，后来又迅速扩展到其他操作�
 SSH分客户端openssh-client和openssh-server
 
 如果你只是想登陆别的机器的SSH只需要安装openssh-client，深度操作系统有默认安装，如果没有终端执行：
-
+```Shell
     sudo apt-get install openssh-client
-
+```
 如果要使本机开放SSH服务就需要安装openssh-server，终端执行：
-
+```Shell
     sudo apt-get install openssh-server
+```
+## 配置密钥
+
+```Shell
+ssh-keygen 
+```
 
 ## 卸载
 
 SSH分客户端openssh-client和openssh-server，如果需要卸载，请终端执行：
-
+```Shell
     sudo apt-get remove openssh-client
     sudo apt-get remove openssh-server
-
+```
 ## 配置
 
 然后确认sshserver是否启动了,终端执行：
-
+```Shell
     ps -e |grep ssh
-
+```
 如果看到sshd那说明ssh-server已经启动了。
 
 如果没有则可以这样启动：
-
+```Shell
     sudo /etc/init.d/ssh start 
-
+```
 或者
-
+```Shell
     service ssh start
-
+```
 ssh-server配置文件位于/etc/ssh/sshd_config，在这里可以定义SSH的服务端口，默认端口是22，你可以自己定义成其他端口号，如222。
 
 然后重启SSH服务：
-
+```Shell
     sudo /etc/init.d/ssh stop
     sudo /etc/init.d/ssh start
-
-然后使用以下方式登陆SSH： ssh username@192.168.1.112
-
+```
+然后使用以下方式登陆SSH： 
+```Shell
+ssh username@192.168.1.112
+```
 其中username为192.168.1.112 机器上的用户，需要输入密码。
 
 ## 常见问题
