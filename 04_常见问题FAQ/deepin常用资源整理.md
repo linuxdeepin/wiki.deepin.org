@@ -1342,7 +1342,7 @@ dateCreated: 2022-11-01T12:45:22.559Z
 2. （UOS）社区问题及建议反馈须知：[http://bbs.chinauos.com/post/5005](http://bbs.chinauos.com/post/5005)
 3. 社区黑暗模式的常用界面已经适配完成，大家可以体验：[https://bbs.deepin.org/zh/post/216104](https://bbs.deepin.org/zh/post/216104)
 4. 使用油猴将论坛中的图片查看功能全面改造：[https://bbs.deepin.org/zh/post/229849](https://bbs.deepin.org/zh/post/229849)
-5. TG交流群组建立,欢迎大家加入：[https://bbs.deepin.org/zh/post/230231](https://bbs.deepin.org/zh/post/230231)  （帖子中的群组已不存在，请加入[该群组](https://t.me/deepin)）
+5. TG交流群组建立,欢迎大家加入：[https://bbs.deepin.org/zh/post/230231](https://bbs.deepin.org/zh/post/230231)  （帖子中的群组已不存在，请加入[该群组](https://t.me/deepin_community)）
 6.  问题反馈时的小窍门--你真的需要知道：[https://bbs.deepin.org/zh/post/242631](https://bbs.deepin.org/zh/post/242631)
 7.  【怀旧向】深度科技论坛，前世今生：[https://bbs.deepin.org/post/244048](https://bbs.deepin.org/post/244048)
 8. 今天试着把论坛打包成APP了，欢迎大家试用一下：[https://bbs.deepin.org/post/247362](https://bbs.deepin.org/post/247362)
