@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2024-08-15T09:44:46.667Z
+date: 2025-02-28T07:30:27.927Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -27,7 +27,7 @@ deepin社区英文名称：deepin community（以下简称“社区”）是由�
 - 2010年，发布 Linux deepin 10.12 ，同年召开第一届 DDUC（deepin developer&user conference）
 - 2009年，Hiweed Linux更名为 Linux deepin，同年发布Linux deepin 9.12
 - 2008年，deepin 收购 Hiweed Linux 团队和品牌，建设 deepin 社区
-- 2004年，发布国内首个基于 Debian 的中文版本Linxu操作系统 Hiweed Linux 0.3
+- 2004年，发布国内首个基于 Debian 的中文版本 Linux 操作系统 Hiweed Linux 0.3
 - 1997年，发起创立了 WHLUG（Wuhan Linux User Group）
 
 ## 1.3 社区荣誉
