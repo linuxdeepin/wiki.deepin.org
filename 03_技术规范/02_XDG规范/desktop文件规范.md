@@ -1,18 +1,28 @@
 ---
-title: desktop文件规范
-description: 对于linux常见桌面软件的.desktop文件的规范
+title: desktop（桌面入口）文件规范
+description: 对于桌面软件的 .desktop 文件的规范
 published: true
-date: 2023-02-22T09:11:30.714Z
+date: 2025-04-26T14:11:30.714Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-21T02:22:01.484Z
 ---
 
+原文链接[Desktop Entry Specification](https://specifications.freedesktop.org/desktop-entry-spec/latest-single/)
+
+## 简介
+
+桌面入口文件（.desktop 文件）是用于描述程序启动配置信息的文件，实现了类似于 Windows 操作系统中快捷方式的功能。
+
+KDE 和 GNOME 桌面环境都采用了类似的“桌面条目”格式，或描述如何启动特定程序的配置文件，如何在菜单中显示等。
+
+系统范围的桌面入口地址统一在 `/usr/share/applications`，文件以".desktop"为后缀名。用户个人的桌面入口地址为 `~/.local/share/applications`
+
 ## 文件命名
 
 桌面条目文件应具有`.desktop` 扩展名，但应具有扩展名的文件`Type` `Directory`除外 `.directory`。根据扩展名确定文件类型非常容易和快速。当不存在文件扩展名时，桌面系统应通过“魔术检测”回退到识别。
 
-对于应用程序，桌面文件的名称在扩展名之前的 `.desktop`部分应该是有效的 [D-Bus 众所周知的名称](https://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names)。这意味着它是由点分隔的非空元素序列 (U+002E FULL STOP)，不能以数字开头，并且每个元素仅包含集合中的字符`[A-Za-z0-9-_]`：ASCII 字母、数字、破折号 (U +002D HYPHEN-MINUS）和下划线（U+005F LOW LINE）。
+对于应用程序，桌面文件的名称在扩展名之前的 `.desktop`部分应该是有效的 [D-Bus 众所周知的名称](https://dbus.freedesktop.org/doc/dbus-specification.html#message-protocol-names)。这意味着它是由点分隔的非空元素序列 (U+002E FULL STOP)，不能以数字开头，并且每个元素仅包含集合中的字符`[A-Za-z0-9-_]`：ASCII 字母、数字、破折号（U +002D HYPHEN-MINUS）和下划线（U+005F LOW LINE）。
 
 桌面条目的名称应遵循“反向 DNS”约定：它应以应用程序作者控制的反向 DNS 域名开头，小写。域名后面应该是应用程序的名称，它通常由连在一起的单词和首字母大写 (CamelCase) 组成。例如，如果所有者 `example.org`写入“Foo Viewer”，他们可能会选择名称`org.example.FooViewer`，从而生成一个名为`org.example.FooViewer.desktop` （与dbus命名方式一致）
 
@@ -24,7 +34,7 @@ dateCreated: 2022-07-21T02:22:01.484Z
 
 代表应用程序的每个桌面条目都由其*desktop file ID*标识，该文件 ID 基于其文件名。
 
-要确定桌面文件的 ID，请使其完整路径相对于`$XDG_DATA_DIRS`（见[XDG 基本目录规范](/zh/基础知识/freedesktop翻译/XDG基本目录规范)）安装桌面文件的组件，删除“`applications/`”之前的所有前缀（包含application），并将“/”转换为“-”。
+要确定桌面文件的 ID，请使其完整路径相对于`$XDG_DATA_DIRS`（见[XDG 基本目录规范](/zh/03_技术规范/02_XDG规范/XDG基本目录规范)）安装桌面文件的组件，删除“`applications/`”之前的所有前缀（包含application），并将“/”转换为“-”。
 
 例如`/usr/share/applications/foo/bar.desktop`具有桌面文件 ID `foo-bar.desktop`。
 
@@ -54,7 +64,8 @@ desktop文件是以UTF-8编码的。一个文件被解释为一系列由换行�
 
 名称为groupname的组头是一个格式的行。
 
-[组名］
+    [组名]
+
 组名可以包含所有的ASCII字符，除了[ 和 ] 以及控制字符。
 
 多个组不能有相同的名称。
