@@ -2,7 +2,7 @@
 title: 甲辰计划 实习生入门指导
 description: 
 published: true
-date: 2024-08-12T08:07:17.336Z
+date: 2025-08-04T07:05:48.989Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-08T03:44:37.985Z
@@ -51,7 +51,7 @@ dateCreated: 2024-07-08T03:44:37.985Z
 
 ### 附加软件包仓库
 
-`https://ci.deepin.com/repo/deepin/deepin-ports/v23-addons/`
+`https://ci.deepin.com/repo/deepin/deepin-ports/repo/`
 
 - `ports-imggpu`: Imagination GPU 驱动维护仓库
 - `ports-kernel`: RISC-V 内核维护仓库
@@ -124,6 +124,16 @@ issue中提供测试建议并提交测试 --> 集成进入testing仓库 : 测试
 
 - 为 [镜像生成脚本](https://github.com/YukariChiba/deepin-ports-image/) 增加 QEMU 镜像支持。
 - 使用以上脚本自行构建最新的 deepin RISC-V 镜像并测试。
+
+### 必备组件
+
+- 任何 deepin 适配的 RISC-V 设备
+- 至少一个串口转 USB 模块（可选，若设备自带 usb 串口可以不需要）
+- 至少一台显示器及连接线
+- 至少一套键盘鼠标
+- 至少一张 AMD 亮机显卡（可选，如果设备支持 PCI-E 并且希望测试独显）
+- 至少一块 nvme 硬盘（可选，若设备仅支持 ssd 启动）
+- 至少一张 SD 卡（可选，若设备内置存储可以不需要）
 
 # Q&A
 
