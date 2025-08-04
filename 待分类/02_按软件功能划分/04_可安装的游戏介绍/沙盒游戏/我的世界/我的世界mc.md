@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-04T07:48:30.560Z
+date: 2025-08-04T07:51:12.974Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -54,6 +54,7 @@ dateCreated: 2022-07-02T07:10:37.766Z
 - [LauncherX](https://corona.studio/lx/download)
 - [Modrinth启动器](https://modrinth.com/app)  
 等等
+
 **即将到来的Deepin可用Minecraft Java启动器：**  
 - [BakaXL4](https://www.bakaxl.com/v4)
 - [PCL.Neo](https://github.com/PCL-Community/PCL.Neo)
