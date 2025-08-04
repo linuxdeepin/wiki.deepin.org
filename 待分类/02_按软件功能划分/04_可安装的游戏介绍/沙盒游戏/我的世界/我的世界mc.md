@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-04T07:53:08.188Z
+date: 2025-08-04T07:54:28.980Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -88,7 +88,7 @@ java -jar HMCL-xxx.jar
 ```shell
 java -jar HMCL-xxx.exe
 ``` 
-~~没想到吧，linux上居然可以直接用exe来启动HMCL,只有HMCL才能这样，其他的软件不要去试了~~
+~~linux上居然可以直接用exe来启动HMCL~~
 
 #### 附录：创建桌面快捷图标
 以.sh文件为例，桌面快捷图标应为
