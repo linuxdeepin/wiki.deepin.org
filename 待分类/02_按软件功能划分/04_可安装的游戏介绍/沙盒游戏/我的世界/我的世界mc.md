@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-04T07:46:56.852Z
+date: 2025-08-04T07:48:30.560Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -114,9 +114,9 @@ env __GLX_VENDOR_LIBRARY_NAME=nvidia __NV_PRIME_RENDER_OFFLOAD=1 你的启动HMC
 
 > HMCL启动器图标可在[此处](https://github.com/HMCL-dev/HMCL/blob/main/HMCL/image/hmcl.png)下载
 
-### 游戏前的准备
+## 游戏前的准备
 
-#### 下载Java
+### 下载Java
 
 - OpenJDK
 
@@ -142,7 +142,7 @@ sudo apt-get install openjdk-8-jre
 > 信息来源于网络
 {.is-info}
 
-#### 登陆账号，安装游戏等
+### 登陆账号，安装游戏等
 
 > 此部分略去
 
@@ -151,11 +151,11 @@ sudo apt-get install openjdk-8-jre
 下载安装jdk24，使用java24运行HMCL可临时解决HMCL启动器内无法输入中文的问题。
 此问题来自于javafx17
 
-### 启动游戏
+## 启动游戏
 
 点击启动器内**启动游戏**或类似意义的按钮即可
 
-#### 附录：独显启动我的世界方法
+### 附录：独显启动我的世界方法
 **Nvidia卡:**
 > 请先确保Deepin已正确安装Nvidia驱动
 {.is-warning}
@@ -204,7 +204,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 待补充
 
-#### 附录：提高Deepin游玩mc体验的MOD
+### 附录：提高Deepin游玩mc体验的MOD
 
 - Fcitx5-Enhancer
 作用：防止使用fcitx5输入法时fcitx5和我的世界同时响应键位动作
@@ -215,7 +215,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 [Modrinth](https://modrinth.com/mod/imblocker-original?version=1.21.8&loader=fabric)[Curseforge](https://www.curseforge.com/minecraft/mc-mods/imblocker)[Github](https://github.com/reserveword/IMBlocker)
 
 
-### 游戏联机
+## 游戏联机
 
 **加入服务器**
 
@@ -246,11 +246,11 @@ Astral 是一个基于EasyTier的现代化跨平台网络应用，旨在简化 P
 Terracotta即陶瓦联机，同样基于EasyTier，由HMCL开发成员开发，后续可能整合进HMCL中，当前可正常联机。
 详情前往[Github](https://github.com/burningtnt/Terracotta)
 
-### 游戏中
+## 游戏中
 
 略
 
-### 游戏崩溃
+## 游戏崩溃
 
 - 获取日志
 
