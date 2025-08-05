@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-04T07:54:28.980Z
+date: 2025-08-05T06:03:39.892Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -269,3 +269,135 @@ Terracotta即陶瓦联机，同样基于EasyTier，由HMCL开发成员开发，�
 
 > 编写中
 {.is-info}
+
+Deepin上可使用Mcpelauncher来游玩我的世界基岩版
+> 相关链接：
+mcpelauncher [文档](https://minecraft-linux.github.io/) [Github](https://github.com/minecraft-linux/mcpelauncher-manifest/)
+
+## mcpelauncher介绍
+
+mcpelauncher是一款针对Android版Minecraft基岩版的第三方启动工具。该启动器通过模拟JNI（Java本地接口）实现与Minecraft的通信，支持在Linux和MacOS系统上运行x86、x86_64、armhf及arm64架构的Minecraft版本。
+
+> 此启动器当前未有中文翻译
+{.is-info}
+
+> 使用前请确保拥有已购买安卓Minecraft的Google账号，此方法不支持使用验证破解的第三方apk！
+{.is-info}
+
+## mcpelauncher安装
+
+### 使用apt仓库进行安装
+
+- 信任 apt repo 安装软件包
+
+> 请前往 [Github](https://github.com/minecraft-linux/pkg) 查看相应步骤
+{.is-info}
+
+- 输入命令安装
+```shell
+sudo apt update
+sudo apt install mcpelauncher-manifest mcpelauncher-ui-manifest msa-manifest
+```
+
+### 使用Flatpak安装
+
+> 请确保已安装Flatpak,详情安装步骤见 [此处](https://flatpak.org/setup/Deepin)
+{.is-info}
+
+命令行输入此以全局安装
+
+```shell
+sudo flatpak install flathub io.mrarm.mcpelauncher
+```
+
+更新与卸载请在命令行输入
+
+```shell
+sudo flatpak update
+sudo flatpak uninstall io.mrarm.mcpelauncher
+```
+### 使用Appimage运行
+> Appimage方式已被弃用，无法游玩较新版本的我的世界基岩版
+{.is-warning}
+
+前往[此处](https://github.com/minecraft-linux/appimage-builder/releases/tag/v1.1.1-802)下载编译的Appimage
+
+## 游戏前准备
+
+### 登陆账号
+
+此启动器需要登陆已购买安卓Minecraft的Google账号来下载我的世界基岩版
+游戏内需要登陆你所游玩的微软账号
+
+### 下载游戏与配置游戏
+
+点击启动器下方编辑符号可修改游戏配置，如
+
+- 配置名称 (Name)
+- 游戏版本(默认最新正式版) (Version)
+- 数据目录 (Data directory)
+- 启动窗口大小 (Window size)
+- 命令行 (Commandline)
+- 环境变量 (Environment Variables)
+
+#### 附录：使用独显启动我的世界基岩版
+
+**Nvidia卡**
+> 请先确保Deepin已正确安装Nvidia驱动
+{.is-warning}
+
+- 方法一(推荐)：
+
+使用环境变量
+将**环境变量**编辑为
+
+| Environment Variables |         |
+|----------------------|----------|
+| __NV_PRIME_RENDER_OFFLOAD | 1     |
+| __GLX_VENDOR_LIBRARY_NAME | nvidia |
+
+- 方法二： 
+
+安装商店内的**任务栏显卡切换插件**(包名：dde-dock-graphics-plugin)后重启电脑，选择**使用prime-run 运行**mcpelauncher
+
+**AMD卡**
+
+> 此方法待补充
+{.is-warning}
+
+## 启动游戏
+
+点击启动器右下角的**PLAY**
+
+## 游戏中
+
+略
+
+### 附录：使用基岩版改包光影
+
+- 前往mcpedl或klpbbs下载改包光影
+
+- 打开mcpelauncher的目录，并进入 **versions/1.xx.xx.x/assets/assets/renderer/materials**
+
+- 打开所下载的改包光影，将 **/renderer/materials/** 里的文件复制并替换到上一步所打开的目录中
+
+- 将此光影导入至游戏
+
+- 进入游戏，启用此光影
+
+- 进入世界，享受此光影
+
+## 一些问题
+
+### 无法使用输入法
+
+此问题当前无法解决，仅可复制粘贴以暂时输入中文等
+
+### 无法使用光线追踪
+
+此问题当前无法解决，安卓的Minecraft安装包并未包含使用光线追踪的文件
+
+### 延迟渲染异常
+
+维护者正在优化延迟渲染
+
