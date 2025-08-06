@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-06T05:18:09.110Z
+date: 2025-08-06T05:33:32.035Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -161,6 +161,9 @@ sudo apt-get install openjdk-8-jre
 > 请先确保Deepin已正确安装Nvidia驱动
 {.is-warning}
 
+> Nvidia卡用户请不要安装商店里内置Mesa3D的HMCL(包名：io.huangyuhui.hmcl)，如有需要请安装普通版（包名：io.huangyuhui.hmcl.normal）
+{.is-info}
+
 - 方法一： 
 
 安装商店内的**任务栏显卡切换插件**(包名：dde-dock-graphics-plugin)后重启电脑，右键HMCL桌面图标选择**使用prime-run 运行**
@@ -203,7 +206,12 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 
 - 方法二：
 
-待补充
+使用环境变量
+在HMCL(或其他启动器)里的游戏设置/全局游戏设置等位置找到**环境变量**
+输入
+```
+DRI_PRIME=1
+```
 
 ### 附录：提高Deepin游玩mc体验的MOD
 
