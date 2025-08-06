@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-06T05:33:32.035Z
+date: 2025-08-06T05:34:19.438Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -197,8 +197,6 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 自行编写nvidia独显启动mc的脚本
 
 **AMD卡**
-> 此方法待补充
-{.is-warning}
 
 - 方法一：
 
