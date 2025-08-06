@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-06T05:34:19.438Z
+date: 2025-08-06T05:36:22.749Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -368,8 +368,12 @@ sudo flatpak uninstall io.mrarm.mcpelauncher
 
 **AMD卡**
 
-> 此方法待补充
-{.is-warning}
+使用环境变量
+将**环境变量**编辑为
+| Environment Variables |         |
+|----------------------|----------|
+| DRI_PRIME | 1      |
+
 
 ## 启动游戏
 
