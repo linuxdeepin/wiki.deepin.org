@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-06T05:36:22.749Z
+date: 2025-08-10T06:24:47.271Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -33,7 +33,7 @@ dateCreated: 2022-07-02T07:10:37.766Z
 
 ### 最低配置
 
-- CPU: Intel Core i3-3210 3.2GHz、AMD A8-7600 APU 3.1GHz、Apple M1、龙芯3A5000 2.3GHz 或同等效能的CPU  
+- CPU: Intel Core i3-3210 3.2GHz、AMD A8-7600 APU 3.1GHz、Apple M1、龙芯3A4000 1.8GHz 或同等效能的CPU  
 - 芯片架构: ARM、x64、x86、LoongArch、RISC-V
 - 内存: 2GB
 
