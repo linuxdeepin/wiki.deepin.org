@@ -101,7 +101,7 @@ Thanks to the following community member for contributing to deepin Wiki! (In no
 
 MouseZhang、Stillalive-myj、爱嘤斯坦、shenlan、fengshuo、cvb97、maicss、insidentally、rainyl、babyfeng、xuqi、vivian_me、deepin_xiaoqian、 justforlxz、ThinKinG、冒得先生、iamboyuyang、dengtongxue、dongka、骑着摩托写Bug、花酒锄作田、俺最萌、root、mrcangye、Fredoong、ericneon、大圣开发DSOE、风暴猪猪侠、孤岛悬城、GBwater、吉吉如律令、emo
 
-* **Desinger Group：**
+* **Designer Group：**
 
 Shalling、golf、也許明天╯
 
