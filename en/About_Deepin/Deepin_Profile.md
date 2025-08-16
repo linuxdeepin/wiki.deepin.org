@@ -11,11 +11,13 @@ dateCreated: 2022-05-13T08:00:55.855Z
 ![deepin_logo.png](/图片存储/deepin_logo.png)
 # Deepin Operating System
 &emsp; Deepin is a Linux distribution dedicated to providing beautiful, easy to use, secure and stable services to users around the world, and has always been the highest ranked Linux distribution developed by a Chinese team .
-## Milestone  
-### Release Plan in 2022 
+## Milestones
+
+### Release Plan for 2022 
 https://www.deepin.org/en/developer-community/planning/
-### Released in 2008-2015 years
-- based on  ubuntu 
+
+### History of 2008 - 2015
+- Originally, Deepin was based on Ubuntu as a base. 
 
 ```mermaid
 graph LR
@@ -31,8 +33,8 @@ graph LR
    
 ```
 
-### Released in 2015-2022 years
-- based on debian
+### History of 2015 - 2022
+- We switched to Debian later on.
 
 ```mermaid
 graph LR
@@ -51,8 +53,8 @@ graph LR
    
 ```
     
-### Plan of Deepin after 2022 year
-- based on kernel
+### From 2022 onwards
+- Deepin no longer depends on another distribution. It is based on the kernel directly.
 
 ```mermaid
 graph LR
@@ -67,12 +69,16 @@ The differences between deepin and other distributions
 - **DDE** (Deepin Desktop Environment)
 - **Uengine** (Android Running Environment)
 - **Deepin-wine** (Windows Running Environment)
-## Offical applications
+
+## Official Applications
 https://www.deepin.org/en/original/deepin-boot-maker/
+
 ## Source Code  
 https://github.com/linuxdeepin
+
 ## Software Source  
 https://www.deepin.org/en/mirrors/packages
+
 ## Image Source 
 https://www.deepin.org/en/mirrors/releases
 
@@ -80,7 +86,7 @@ https://www.deepin.org/en/mirrors/releases
 - **Declaration:** Open、Transparency、Freedom、Sharing、Cooperation
 - **Code of conduct:** Respect、Friendly、Unity、Innovate
 - **Organization Structure:** Administration teams 、 SIG
-- **Iternational Communities:** Spain Community、Slovakia Community、Turkey Community、Brazil Community、France Community、Italy Community
+- **International Communities:** Spain Community、Slovakia Community、Turkey Community、Brazil Community、France Community、Italy Community
 - **Mailling list:** deepin-devel
 - [**More >>**](/en/about_deepin/deepin_community) 
 
@@ -90,16 +96,19 @@ wiki.deepin.org is Deepin community official wiki website for sharing the releve
 This is wiki.deepin.org content synchronization repository. wiki.deepin.org and github.com/linuxdeepin/wiki.deepin.org perform two-way synchronization every five minutes.Synchronization includes wiki page content, page information, publish status, and media resources, excluding page scripts and styles.
 
 ## How to use ?
-### browsing
-you can find the contents by your family language
+
+### Browsing
+You can find content in your own language:
 - /en/ wiki contents in English
 - /zh/ wiki contents in Chinese
-### editting
+
+### Editing
 You can submit contributions in two ways.
 - Edit via website 
 wiki.deepin.org is built using wikijs, with an easy-to-use interface and simple operation logic. We are currently recruiting contributors, welcome to click here to submit your contributions.
 - Submit via git 
 We recommend submitting contributions via git when multiple contents need to be imported or moved due to the inperfect function of batch operation in wikijs.
+
 ## How to contribute ?
 The Deepin Wiki collects various information like experience of developing, system using as well as helpful tips, then shares them to users. You can also have your own contribution here!
 
