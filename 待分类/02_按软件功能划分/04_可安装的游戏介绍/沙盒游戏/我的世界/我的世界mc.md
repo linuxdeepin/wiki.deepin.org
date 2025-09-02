@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-08-10T06:24:47.271Z
+date: 2025-09-02T04:39:54.036Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -383,7 +383,9 @@ sudo flatpak uninstall io.mrarm.mcpelauncher
 
 略
 
-### 附录：使用基岩版改包光影
+## 附录：如何使用光影
+
+### 改包
 
 - 前往mcpedl或klpbbs下载改包光影
 
