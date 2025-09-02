@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-09-02T04:39:54.036Z
+date: 2025-09-02T04:42:40.857Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -399,6 +399,11 @@ sudo flatpak uninstall io.mrarm.mcpelauncher
 
 - 进入世界，享受此光影
 
+### 使用MaterialBinLoader for mcpelauncher Mod
+
+- 前往[Github](https://github.com/CrackedMatter/mcpelauncher-materialbinloader)里的releases下载最新的libmaterialbinloader.so
+- 在mcpelauncher主目录中创建**mods**文件夹并将下载的libmaterialbinloader.so复制到该文件夹
+- 在游戏里导入并启用支持的光影
 ## 一些问题
 
 ### 无法使用输入法
