@@ -38,7 +38,7 @@ dateCreated: 2022-09-15T08:19:12.095Z
 
 ```plain
 echo "deb [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/CI%3A/topics%3A/devscript/deepin_develop/ ./
-" >> /etc/apt/source.list
+" >> /etc/apt/sources.list
 ```
 
 7. 参考样例
