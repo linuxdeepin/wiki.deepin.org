@@ -12,11 +12,11 @@ dateCreated: 2022-10-17T01:25:01.311Z
 
 1. [获取编辑权限](https://wiki.deepin.org/zh/00_wiki/01_wiki%E7%BC%96%E8%BE%91%E4%BA%BA%E5%91%98%E7%94%B3%E8%AF%B7)
 
-当前 wiki 使用 wikijs 框架搭建，有着易用的界面和简单的操作逻辑。
+当前 wiki 使用 [wiki.js](https://js.wiki/) 框架搭建，有着易用的界面和简单的操作逻辑。
 
 2. 通过 git 提交
 
-目前 wikijs 缺少批量操作的功能，如果需要导入或移动多个内容，推荐使用 git 操作。
+目前 [wiki.js](https://js.wiki/) 缺少批量操作的功能，如果需要导入或移动多个内容，推荐使用 git 操作。
 
 # 编辑规则
 
