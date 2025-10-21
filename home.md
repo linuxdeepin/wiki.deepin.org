@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2025-02-28T07:30:27.927Z
+date: 2025-10-21T02:51:23.924Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -31,7 +31,13 @@ deepin社区英文名称：deepin community（以下简称“社区”）是由�
 - 1997年，发起创立了 WHLUG（Wuhan Linux User Group）
 
 ## 1.3 社区荣誉
-deepin（深度）社区自2008年成立以来，共获得国内外奖项 60+，其中包括国际级、国家级、行业级共 41 个，省部级奖项 20+。
+deepin（深度）社区自2008年成立以来，共获得国内外奖项 60+，其中包括国际级、国家级、行业级共 51 个，省部级奖项 20+。
+- 2025 第二届“金灵光杯”中国互联网创新大赛 信创赛道  三等奖
+- 2025 开源操作系统年度技术会议(OS2ATC)  最具影响力开源创新贡献奖
+- 2025 武汉市优秀开源社区
+- 2024 OSCAR 开源尖峰人物（社区负责人）
+- 2023优秀开源技术团队（开源中国）
+- 2023开源创新榜-优秀开源项目
 - 2023年创新产品金奖
 - 2023年上合国家软件产业国际合作优秀案例
 - 2021年全球十大开源软件产品
@@ -103,8 +109,9 @@ deepin社区遵循通用开源规范，遵循中国和相关国际法律规定�
 
 # 社区产品
 ## deepin操作系统
-深度操作系统（deepin）是中国第一个具备国际影响力的Linux发行版本，[DistroWatch](https://distrowatch.com/table.php?distribution=deepin)全球Linux操作系统发行版排名曾高居第7名。截止至2019年7月25日，深度操作系统支持33种语言，用户遍布除了南极洲的其它六大洲，。
+深度操作系统（deepin）是中国第一个具备国际影响力的Linux发行版本，[DistroWatch](https://distrowatch.com/table.php?distribution=deepin)全球Linux操作系统发行版排名曾高居第7名。截止至2025年7月，深度操作系统支持50+国际化语言，用户遍布除了南极洲的其它六大洲，。
 
+- 2025年，6月26日，历经 Preview、Alpha、Beta 三轮社区共创测试，deepin 25 正式发布亮相
 - 2024年，8月15日，历经近3年的努力，迭代了9个版本、经历了51次内测，deepin V23正式版发布
 - 2022年，deepin V23 Preview，中国首个桌面操作系统根社区发行版本，搭载多项根技术
 - 2020年，deepin V20，首个搭载 AI 智能助手并引入多端融合概念的Linux发行版
