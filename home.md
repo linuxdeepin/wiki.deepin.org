@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2025-10-21T02:56:58.161Z
+date: 2025-10-21T03:01:16.110Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -175,6 +175,10 @@ wyz144344
 - 俄罗斯社区：[https://mydeepin.ru/](https://mydeepin.ru/)
 - 斯洛伐克社区：[https://deepin.sk/](https://deepin.sk/)
 - 厄瓜多尔社区：[https://deepin.lat/](https://deepin.lat/)
+- 法语社区：https://deepinfrance.com/
+- 玻利维亚社区：https://deepinbolivia.com/
+- 迪拜社区：https://deepin.mydeom.com/
+- 日本社区：https://www.deepinjapanese.org/
 
 ## 6.2 社区论坛
 - 主论坛： [https://bbs.deepin.org/](https://bbs.deepin.org/)
