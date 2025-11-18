@@ -2,7 +2,7 @@
 title: 我的世界
 description: 
 published: true
-date: 2025-09-02T04:42:51.720Z
+date: 2025-11-18T15:05:52.027Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-02T07:10:37.766Z
@@ -252,6 +252,9 @@ Astral 是一个基于EasyTier的现代化跨平台网络应用，旨在简化 P
 
 Terracotta即陶瓦联机，同样基于EasyTier，由HMCL开发成员开发，后续可能整合进HMCL中，当前可正常联机。
 详情前往[Github](https://github.com/burningtnt/Terracotta)
+
+> 目前HMCL已经集成陶瓦联机，可直接在启动器内联机
+{.is-success}
 
 ## 游戏中
 
