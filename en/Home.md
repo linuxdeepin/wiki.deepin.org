@@ -25,11 +25,11 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 # Our Community
 
-- [Community Manifesto *Value of the deepin community.*](/about_deepin/deepin_community)
-- [Code of conduct *Guidelines for the deepin community.*](/about_deepin/deepin_community)
-- [SIG & Teams: *special interest groups and other organization  etc.*](/about_deepin/deepin_community)
-- [International communities *Collection of links to the deepin Linux communities around the world.*](/about_deepin/deepin_community)
-- [Mailing list: *mailing list of community.*](/about_deepin/deepin_community)
+- [Community Manifesto *Values of the Deepin community.*](/about_deepin/deepin_community)
+- [Code of conduct *Guidelines for the Deepin community.*](/about_deepin/deepin_community)
+- [SIG & Teams: *Special interest groups and other organizations, etc.*](/about_deepin/deepin_community)
+- [International communities *Collection of links to the Deepin Linux communities around the world.*](/about_deepin/deepin_community)
+- [Mailing list: *Mailing list of the community.*](/about_deepin/deepin_community)
 {.links-list}
 
 # Wiki Interaction
@@ -41,16 +41,16 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 # Getting Started
 
-- [Requirements *CPU MEMORY space of disk.*](/installation/installation_requirements)
+- [Requirements *CPU, RAM, Disk Space, etc.*](/installation/installation_requirements)
 - [Installation Guide *Detailed installation process for all platforms.*](/installation/native_install)
 {.links-list}
 
 # User Guide
 
-- [Beautify *wallpaper ,theme,icon fonts.*](/system_management/personalization)
-- [Software *office ,terminal,content creation,game,tool.*](/Software/software_list)
-- [Hardware *CPU ,GPU,RAM ,Disk ,Mother board,Storage,printers*](/hardware/Introduction_to_hardware)
-- [Frequently asked questions *How to deal with the problem of using Deepin linux.*](/About_Deepin/Deepin_FAQ)
+- [Beautify *Wallpapers, Themes, Icons, Fonts, etc.*](/system_management/personalization)
+- [Software *Office, Terminal, Content Creation, Gaming, Various Tools, etc.*](/Software/software_list)
+- [Hardware *CPU, GPU, RAM, Disk, Motherboard, Storage, Printers, etc*](/hardware/Introduction_to_hardware)
+- [Frequently asked questions *How to deal with problems you may encounter in Deepin linux.*](/About_Deepin/Deepin_FAQ)
 - [User Feedback *User Feedback.*](https://bbs.deepin.org/en)
 {.links-list}
 
@@ -58,9 +58,9 @@ Deepin is a Linux distribution dedicated to providing beautiful, easy to use, se
 
 - [File & Directory*File & Directory*](/system_management/configuration/file_and_directory)
 - [User & Groups *User & Groups*](/system_management/configuration/user_and_group)
-- [Storage Management *partition table and file system.*](/system_management/storage_management)
-- [Process Management *kill a process*](/system_management/process_management)
-- [Services Management *install a server*](/system_management/service_management)
+- [Storage Management *Partition tables and filesystems.*](/system_management/storage_management)
+- [Process Management *Killing a process, etc*](/system_management/process_management)
+- [Service Management *Installling a Server/Daemon, etc*](/system_management/service_management)
 - [Package Management *DPKG APT*](/system_management/package_management)
 {.links-list}
 
