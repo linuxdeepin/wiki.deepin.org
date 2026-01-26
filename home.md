@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2025-10-21T03:01:16.110Z
+date: 2026-01-26T06:25:12.962Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -160,7 +160,7 @@ deepin社区目前主要的文档平台有3个：
 ### Editor组：
 MouseZhang、Stillalive-myj、爱嘤斯坦、shenlan、fengshuo、cvb97、maicss、insidentally、rainyl、babyfeng、xuqi、vivian_me、deepin_xiaoqian、	justforlxz、ThinKinG、冒得先生、iamboyuyang、dengtongxue、dongka、骑着摩托写Bug、花酒锄作田、neko、root、mrcangye、Fredoong、ericneon、DSOE1024、风暴猪猪侠、孤岛悬城、GBwater、吉吉如律令、emo、gfdgd-xi、流浪的加菲
 
-### Desinger组：
+### Designer组：
 blue_whale、Shalling、golf、也許明天╯
 
 ### Collector组：
