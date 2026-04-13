@@ -1,8 +1,8 @@
 ---
-title: Contact the deepin Officials
+title: Contact the Deepin Officials
 description: How to contact deepin community officials
 published: true
-date: 2024-05-31T02:30:23.390Z
+date: 2026-04-13T06:44:54.236Z
 tags: contact deepin
 editor: markdown
 dateCreated: 2024-05-31T01:45:15.022Z
@@ -34,7 +34,8 @@ dateCreated: 2024-05-31T01:45:15.022Z
 
 # Developer Community
 ## Security Issue Submission
-- security@deepin.com
+
+- security@deepin.org
 
 ## Bug Reporting
 - Bug Reporting：https://github.com/linuxdeepin/developer-center/issues
@@ -55,3 +56,4 @@ If you are a community developer and want to participate in development-related 
 - Matrix：<https://matrix.to/#/#deepin-community:matrix.org>
 
 These channels are all bridged, so you can choose any preferred platform to join the chat, without the need to join all of them.
+
