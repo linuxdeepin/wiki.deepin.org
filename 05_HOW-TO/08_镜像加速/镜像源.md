@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2024-04-27T11:44:09.745Z
+date: 2026-06-05T02:52:50.805Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -110,6 +110,15 @@ dateCreated: 2022-05-08T13:15:59.655Z
     <tr>
       <td>中国互联网络信息中心</td>
       <td><a href="https://mirrors.cnnic.cn/deepin-cd/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td>华中科技大学</td>
+      <td><a href="https://mirrors.hust.edu.cn/deepin/">https</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -797,5 +806,5 @@ dateCreated: 2022-05-08T13:15:59.655Z
 - 请您添加一个每天运行的 cron 任务，以确保您提供的深度操作系统镜像源长期保持“最新”的可用状态；
 - 我们建议您优先同步深度操作系统的软件仓库，然后同步深度操作系统的 ISO 仓库；
 - 请您不要在深度操作系统镜像源相关的目录中存放其他文件（例如非官方的软件包），以避免造成误会；
-- 如果您有任何建议和意见，请反馈至[support@deepin.com](mailto:support@deepin.com)。
+- 如果您有任何建议和意见，请反馈至[support@deepin.org](mailto:support@deepin.org)。
 - 可以到 [wiki:镜像源](https://wiki.deepin.org/zh/镜像源) 添加或提交仓库
