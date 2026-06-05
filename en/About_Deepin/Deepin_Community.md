@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2024-08-13T08:22:43.775Z
+date: 2026-06-05T06:47:45.020Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -128,5 +128,6 @@ Depth Encyclopedia (wiki)
 Mailing Lists
 
 # 6. Contact Us
-Email: cooperation@deepin.org (for external cooperation only)
-WeChat: Deepin Operating System (linux_deepin)
+Email: [support@deepin.org](mailto:support@deepin.org)
+[Matrix](https://matrix.to/#/#deepin-community:matrix.org)
+[Telegram](https://t.me/deepin_community)
