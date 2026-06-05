@@ -2,7 +2,7 @@
 title: Deepin_Community
 description: 
 published: true
-date: 2026-06-05T06:47:45.020Z
+date: 2026-06-05T06:54:53.178Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-13T08:02:00.793Z
@@ -130,4 +130,9 @@ Mailing Lists
 # 6. Contact Us
 Email: [support@deepin.org](mailto:support@deepin.org)
 [Matrix](https://matrix.to/#/#deepin-community:matrix.org)
-[Telegram](https://t.me/deepin_community)
+[Telegram](https://deepin.org/to/tg)
+[GitHub](https://github.com/linuxdeepin)
+[Facebook](https://www.facebook.com/deepinlinux)
+[X](https://x.com/linux_deepin)
+[Reddit](https://www.reddit.com/r/deepin/)
+[Discord](https://discord.gg/xjjkcp6H2P)
