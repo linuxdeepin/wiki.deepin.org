@@ -2,7 +2,7 @@
 title: deepin Wiki - 深度百科
 description: deepin（深度）系统以及社区的简短介绍
 published: true
-date: 2026-06-05T06:38:49.202Z
+date: 2026-06-05T06:40:54.123Z
 tags: deepin历史, deepin社区, deepin系统, deepin组织结构, deepin贡献
 editor: markdown
 dateCreated: 2022-06-08T09:01:18.650Z
@@ -199,7 +199,7 @@ wyz144344
 [邮件列表](https://www.freelists.org/list/deepin-devel)
 
 # 七、联系我们
-邮箱：support@deepin.org
+邮箱：[support@deepin.org](mailto:support@deepin.org)
 微信：深度操作系统（linux_deepin）
 ![img.png](https://wiki.deepin.org/06_%E5%85%B3%E4%BA%8EDeepin/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.jpg)
 
