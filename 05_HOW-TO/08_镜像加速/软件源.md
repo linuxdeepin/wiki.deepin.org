@@ -2,7 +2,7 @@
 title: 软件源
 description: 
 published: true
-date: 2024-08-18T04:37:16.417Z
+date: 2026-06-05T02:54:22.263Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:32.518Z
@@ -873,5 +873,5 @@ dateCreated: 2022-05-08T13:15:32.518Z
 - 请您添加一个每天运行的 cron 任务，以确保您提供的深度操作系统镜像源长期保持“最新”的可用状态；
 - 我们建议您优先同步深度操作系统的软件仓库，然后同步深度操作系统的 ISO 仓库；
 - 请您不要在深度操作系统镜像源相关的目录中存放其他文件（例如非官方的软件包），以避免造成误会；
-- 如果您有任何建议和意见，请反馈至[support@deepin.com](mailto:support@deepin.com)。
+- 如果您有任何建议和意见，请反馈至[support@deepin.org](mailto:support@deepin.org)。
 - 可以到 [wiki:软件源](https://wiki.deepin.org/zh/软件源) 添加或提交仓库
