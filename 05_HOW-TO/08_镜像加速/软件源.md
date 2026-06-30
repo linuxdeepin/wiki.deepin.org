@@ -2,7 +2,7 @@
 title: 软件源
 description: 
 published: true
-date: 2026-06-05T02:54:22.263Z
+date: 2026-06-30T02:09:48.452Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:32.518Z
@@ -131,6 +131,7 @@ dateCreated: 2022-05-08T13:15:32.518Z
     <tr>
       <td>华中科技大学</td>
       <td><a href="http://mirrors.hust.edu.cn/deepin/">http</a></td>
+      <td><a href="https://mirrors.hust.edu.cn/deepin/">https</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -155,12 +156,27 @@ dateCreated: 2022-05-08T13:15:32.518Z
     <tr>
       <!-- email: mirrors at jlu dot edu dot cn -->
       <td>吉林大学</td>
-      <td><a href="http://mirrors.jlu.edu.cn/deepin/">http</a></td>
+      <td><a href="https://mirrors.jlu.edu.cn/deepin/">https</a></td>
       <td><a href="https://mirrors.jlu.edu.cn/deepin/">https</a></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td>重庆大学</td>
+      <td><a href="https://mirrors.cqu.edu.cn/deepin/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td>南阳理工学院</td>
+      <td><a href="https://mirror.nyist.edu.cn/deepin/">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     <tr>
       <td><img alt="logo" src="https://www.deepin.org/wp-content/uploads/flag/1473231824Belgium.jpg"> 比利时</td>
       <td></td>
