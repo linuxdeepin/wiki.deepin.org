@@ -2,7 +2,7 @@
 title: 软件源
 description: 
 published: true
-date: 2026-06-30T10:38:49.338Z
+date: 2026-07-24T05:58:51.689Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:32.518Z
@@ -305,7 +305,7 @@ dateCreated: 2022-05-08T13:15:32.518Z
       <td></td>
     </tr>
     <tr>
-      <td>GARR/CILEA</td>
+      <td>GARR</td>
       <td><a href="http://deepin.mirror.garr.it/mirrors/deepin/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td></td>
       <td></td>
