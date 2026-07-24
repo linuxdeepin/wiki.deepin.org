@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2026-06-30T10:34:02.879Z
+date: 2026-07-24T05:59:27.820Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -269,7 +269,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td></td>
     </tr>
     <tr>
-      <td>GARR/CILEA</td>
+      <td>GARR</td>
       <td><a href="http://deepin.mirror.garr.it/mirrors/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td></td>
       <td></td>
