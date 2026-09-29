@@ -2,7 +2,7 @@
 title: Package Repository
 description: 
 published: true
-date: 2026-09-29T09:47:46.701Z
+date: 2026-09-29T09:48:27.196Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-29T09:47:46.701Z
@@ -566,5 +566,3 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
 * Please do not put any other files (for example unofficial packages) in the deepin mirror directories, to avoid confusion;
 * If you have any suggestions or comments, please contact [support@deepin.org](mailto:support@deepin.org).
 * You can also submit a mirror at [wiki:Mirrors](/en/System_Management/Mirror_Acceleration/ISO_Repository).
-browser-skill
-中断
