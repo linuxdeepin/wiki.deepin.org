@@ -2,7 +2,7 @@
 title: 镜像源
 description: 
 published: true
-date: 2026-09-29T09:02:13.997Z
+date: 2026-11-04T08:05:22.798Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-08T13:15:59.655Z
@@ -210,6 +210,20 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td></td>
     </tr>
     <tr>
+      <td>UNESP (Universidade Estadual Paulista)</td>
+      <td><a href="http://mirror.unesp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirror.unesp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>UNICAMP (Universidade Estadual de Campinas)</td>
+      <td><a href="http://mirrors.ic.unicamp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirrors.ic.unicamp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><img src="https://www.deepin.org/wp-content/uploads/flag/1473231864Bulgaria.jpg" alt="logo"> 保加利亚</td>
       <td></td>
       <td></td>
@@ -242,6 +256,20 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td><a href="http://mirror.dotsrc.org/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td><a href="https://mirror.dotsrc.org/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td><a href="ftp://mirrors.dotsrc.org/deepin-cd/" target="_blank" rel="noopener noreferrer">ftp</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img src="https://www.deepin.org.cn/wp-content/uploads/2026/10/-e1791869512432.png" alt="logo"> 芬兰</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OSSPLANET</td>
+      <td><a href="http://mirror.eu.ossplanet.net/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirror.eu.ossplanet.net/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -317,6 +345,13 @@ dateCreated: 2022-05-08T13:15:59.655Z
     <tr>
       <td>JAIST</td>
       <td><a href="http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RIKEN</td>
+      <td><a href="http://ftp.riken.go.jp/Linux/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -406,20 +441,6 @@ dateCreated: 2022-05-08T13:15:59.655Z
       <td></td>
     </tr>
     <tr>
-      <td><img src="https://www.deepin.org/wp-content/uploads/2020/06/Switzerland.jpg" alt="logo"> 瑞士</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Hostsuisse (ENIDAN Technologies GmbH)</td>
-      <td><a href="http://mirror.hostsuisse.com/deepin/releases" target="_blank" rel="noopener noreferrer">http</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
       <td><img src="https://www.deepin.org/wp-content/uploads/2018/10/Ukraine.jpg" alt="logo"> 乌克兰</td>
       <td></td>
       <td></td>
@@ -473,7 +494,7 @@ dateCreated: 2022-05-08T13:15:59.655Z
 
 ※备注：
 
-* 本页镜像于 2026-09-29 重新核验，已剔除无法访问、域名失效或不再提供 deepin 镜像的站点。
+* 本页镜像于 2026-11-04 重新核验，已剔除无法访问、域名失效或不再提供 deepin 镜像的站点。
 * 部分镜像站关闭了目录索引（浏览器打开会返回 403），但软件仓库与 ISO 文件仍可正常下载，不影响 apt 使用。
 * 上表镜像均已实测可下载 crimson 发行版的仓库元数据（Release／InRelease），其中若干站点仅提供 InRelease。
 * 「教育网联合镜像站」是调度入口，访问时会自动跳转到教育网内就近的成员镜像（如中山大学、山东大学等）。
