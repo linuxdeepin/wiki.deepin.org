@@ -2,13 +2,13 @@
 title: Package Repository
 description: 
 published: true
-date: 2026-09-29T09:48:27.196Z
+date: 2026-11-04T08:52:41.882Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-29T09:47:46.701Z
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/myml/mirrors@master/releases_zh_mark.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/myml/mirrors@master/packages_zh_mark.css" />
 
 - [Package Repository](./Package_Repository.md)
 - [ISO Repository](./ISO_Repository.md)
@@ -48,7 +48,7 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
 <table>
   <tbody>
     <tr>
-      <td><img src="https://www.deepin.org/wp-content/uploads/2026/09/australia-e1790671505139.png" alt="logo"> Australia</td>
+      <td><img src="https://www.deepin.org.cn/wp-content/uploads/2026/09/australia-e1790671505139.png" alt="logo"> Australia</td>
       <td></td>
       <td></td>
       <td></td>
@@ -104,6 +104,20 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
+      <td>UNESP (Universidade Estadual Paulista)</td>
+      <td><a href="http://mirror.unesp.br/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirror.unesp.br/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>UNICAMP (Universidade Estadual de Campinas)</td>
+      <td><a href="http://mirrors.ic.unicamp.br/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirrors.ic.unicamp.br/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><img src="https://www.deepin.org/wp-content/uploads/flag/1473231864Bulgaria.jpg" alt="logo"> Bulgaria</td>
       <td></td>
       <td></td>
@@ -139,6 +153,20 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
+      <td><img src="https://www.deepin.org/wp-content/uploads/2026/10/-e1791869512432.png" alt="logo"> Finland</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OSSPLANET</td>
+      <td><a href="http://mirror.eu.ossplanet.net/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirror.eu.ossplanet.net/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><img src="https://www.deepin.org/wp-content/uploads/2016/12/france.jpg" alt="logo"> France</td>
       <td></td>
       <td></td>
@@ -155,13 +183,6 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
     <tr>
       <td><img src="https://www.deepin.org/wp-content/uploads/flag/1473231998Germany.jpg" alt="logo"> Germany</td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>xTom Germany</td>
-      <td><a href="https://mirrors.xtom.de/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -237,15 +258,15 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
-      <td><img src="https://www.deepin.org/wp-content/uploads/flag/1473232015Holland.jpg" alt="logo"> Netherlands</td>
-      <td></td>
+      <td>RIKEN</td>
+      <td><a href="http://ftp.riken.go.jp/Linux/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>xTom Netherlands</td>
-      <td><a href="https://mirrors.xtom.nl/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td><img src="https://www.deepin.org/wp-content/uploads/flag/1473232015Holland.jpg" alt="logo"> Netherlands</td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -335,20 +356,6 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
-      <td><img src="https://www.deepin.org/wp-content/uploads/2020/06/Switzerland.jpg" alt="logo"> Switzerland</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Hostsuisse (ENIDAN Technologies GmbH)</td>
-      <td><a href="http://mirror.hostsuisse.com/deepin/packages/beige" target="_blank" rel="noopener noreferrer">http</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
       <td><img src="https://www.deepin.org/wp-content/uploads/2018/10/Ukraine.jpg" alt="logo"> Ukraine</td>
       <td></td>
       <td></td>
@@ -412,13 +419,6 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
-      <td>CERNET Open Source Mirror</td>
-      <td><a href="https://mirrors.cernet.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
       <td>Chongqing University of Posts and Telecommunications</td>
       <td><a href="https://mirrors.cqupt.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
@@ -433,6 +433,13 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
+      <td>HERNET (Henan Education Network)</td>
+      <td><a href="https://mirrors.ha.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Huawei Cloud</td>
       <td><a href="https://mirrors.huaweicloud.com/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
@@ -443,6 +450,20 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td>Huazhong University of Science and Technology</td>
       <td><a href="http://mirrors.hust.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td><a href="https://mirrors.hust.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Volcano Engine</td>
+      <td><a href="https://mirrors.volces.com/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CERNET Open Source Mirror</td>
+      <td><a href="https://mirrors.cernet.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
@@ -482,16 +503,16 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
-      <td>Netease</td>
-      <td><a href="http://mirrors.163.com/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
-      <td><a href="https://mirrors.163.com/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td>Qilu University of Technology</td>
+      <td><a href="https://mirrors.qlu.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Qilu University of Technology</td>
-      <td><a href="https://mirrors.qlu.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
-      <td></td>
+      <td>Tsinghua University</td>
+      <td><a href="http://mirrors.tuna.tsinghua.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirrors.tuna.tsinghua.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
       <td></td>
     </tr>
@@ -510,16 +531,16 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
-      <td>Sun Yat-sen University</td>
-      <td><a href="https://mirror.sysu.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
-      <td></td>
+      <td>Netease</td>
+      <td><a href="http://mirrors.163.com/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirrors.163.com/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Tsinghua University</td>
-      <td><a href="http://mirrors.tuna.tsinghua.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
-      <td><a href="https://mirrors.tuna.tsinghua.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td>Zhejiang University</td>
+      <td><a href="http://mirrors.zju.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirrors.zju.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
       <td></td>
     </tr>
@@ -531,32 +552,26 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
-      <td>Volcano Engine</td>
-      <td><a href="https://mirrors.volces.com/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td>Sun Yat-sen University</td>
+      <td><a href="https://mirror.sysu.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Zhejiang University</td>
-      <td><a href="http://mirrors.zju.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">http</a></td>
-      <td><a href="https://mirrors.zju.edu.cn/deepin/beige/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td></td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
+
 ## How to provide a mirror
 
-| Repository | Sync Command | Disk Space |
-| --- | --- | --- |
-| Packages | rsync -av --delete-after rsync.deepin.com::deepin/ /var/www/deepin/ | 600GB or more |
+| Repository | Sync Command                                                 | Disk Space    |
+| ---------- | ------------------------------------------------------------ | ------------- |
+| Packages   | rsync -av --delete-after rsync.deepin.com::deepin/ /var/www/deepin/ | 600GB or more |
 | ISO Images | rsync -av --delete-after rsync.deepin.com::releases/ /var/www/deepin-cd/ | 120GB or more |
 
 **Notes:**
 
-* Every mirror on this page was re-verified on September 29, 2026; unreachable mirrors, expired domains and mirrors that no longer carry deepin images have been removed.
+* Every mirror on this page was re-verified on November 4, 2026; unreachable mirrors, expired domains and mirrors that no longer carry deepin images have been removed.
 * Some mirrors have directory indexing disabled (a browser request returns 403), but their repositories and ISO files are still downloadable and work fine with apt.
 * Every mirror above was verified to serve the `crimson` repository metadata (`Release` or `InRelease`); a few publish only `InRelease`.
 * "CERNET Open Source Mirror" is a dispatcher: requests are redirected to the nearest member mirror on the education network (for example Sun Yat-sen University or Shandong University).
