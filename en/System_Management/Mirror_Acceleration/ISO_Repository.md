@@ -2,7 +2,7 @@
 title: ISO Repository
 description: 
 published: true
-date: 2026-09-29T09:48:58.381Z
+date: 2026-11-04T08:10:47.302Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-29T09:41:20.792Z
@@ -56,6 +56,20 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td></td>
     </tr>
     <tr>
+      <td>UNESP (Universidade Estadual Paulista)</td>
+      <td><a href="http://mirror.unesp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirror.unesp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>UNICAMP (Universidade Estadual de Campinas)</td>
+      <td><a href="http://mirrors.ic.unicamp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirrors.ic.unicamp.br/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td><img src="https://www.deepin.org/wp-content/uploads/flag/1473231864Bulgaria.jpg" alt="logo"> Bulgaria</td>
       <td></td>
       <td></td>
@@ -88,6 +102,20 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td><a href="http://mirror.dotsrc.org/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td><a href="https://mirror.dotsrc.org/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td><a href="ftp://mirrors.dotsrc.org/deepin-cd/" target="_blank" rel="noopener noreferrer">ftp</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img src="https://www.deepin.org/wp-content/uploads/2026/10/-e1791869512432.png" alt="logo"> Finland</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OSSPLANET</td>
+      <td><a href="http://mirror.eu.ossplanet.net/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td><a href="https://mirror.eu.ossplanet.net/deepin-cd/" target="_blank" rel="noopener noreferrer">https</a></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -163,6 +191,13 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
     <tr>
       <td>JAIST</td>
       <td><a href="http://ftp.jaist.ac.jp/pub/Linux/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RIKEN</td>
+      <td><a href="http://ftp.riken.go.jp/Linux/deepin-cd/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td></td>
       <td></td>
       <td></td>
@@ -249,20 +284,6 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
       <td><a href="http://ftp.lysator.liu.se/pub/deepin/releases/" target="_blank" rel="noopener noreferrer">http</a></td>
       <td><a href="https://ftp.lysator.liu.se/pub/deepin/releases/" target="_blank" rel="noopener noreferrer">https</a></td>
       <td><a href="ftp://ftp.lysator.liu.se/pub/deepin/releases" target="_blank" rel="noopener noreferrer">ftp</a></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><img src="https://www.deepin.org/wp-content/uploads/2020/06/Switzerland.jpg" alt="logo"> Switzerland</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Hostsuisse (ENIDAN Technologies GmbH)</td>
-      <td><a href="http://mirror.hostsuisse.com/deepin/releases" target="_blank" rel="noopener noreferrer">http</a></td>
-      <td></td>
-      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -473,7 +494,7 @@ Mirrors are listed alphabetically by country/region, with mirrors in China liste
 
 **Notes:**
 
-* Every mirror on this page was re-verified on September 29, 2026; unreachable mirrors, expired domains and mirrors that no longer carry deepin images have been removed.
+* Every mirror on this page was re-verified on November 4, 2026; unreachable mirrors, expired domains and mirrors that no longer carry deepin images have been removed.
 * Some mirrors have directory indexing disabled (a browser request returns 403), but their repositories and ISO files are still downloadable and work fine with apt.
 * Every mirror above was verified to serve the `crimson` repository metadata (`Release` or `InRelease`); a few publish only `InRelease`.
 * "CERNET Open Source Mirror" is a dispatcher: requests are redirected to the nearest member mirror on the education network (for example Sun Yat-sen University or Shandong University).
